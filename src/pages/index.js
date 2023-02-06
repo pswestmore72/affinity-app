@@ -11,7 +11,8 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <ThemeProvider theme={mainTheme}>
-       <ul>
+      <h1> Affinity </h1>
+      <ul>
         <li>
           <Link href="/">Home</Link>
         </li>
