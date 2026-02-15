@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Character, defaultCharacter } from '../types/character';
 import { encodeCharacter, decodeCharacter, saveCharacterToLocal, loadCharacterFromLocal } from '../utils/characterStorage';
-import './CharacterSheet.css';
+import '../styles/CharacterSheet.css';
 
 function CharacterSheet() {
   const [character, setCharacter] = useState<Character>(defaultCharacter);

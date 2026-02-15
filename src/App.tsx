@@ -3,7 +3,7 @@ import Home from './pages/Home';
 import CharacterSheet from './pages/CharacterSheet';
 import Cosmology from './pages/Cosmology';
 import Classes from './pages/Classes';
-import './App.css';
+import './styles/App.css';
 
 function App() {
   return (
