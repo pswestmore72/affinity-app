@@ -1,0 +1,136 @@
+:root {
+  --primary-color: #8b4513;
+  --secondary-color: #d4af37;
+  --background: #1a1a1a;
+  --surface: #2a2a2a;
+  --surface-light: #3a3a3a;
+  --text: #e0e0e0;
+  --text-muted: #a0a0a0;
+  --border: #4a4a4a;
+  --success: #4a7c59;
+  --warning: #c9932c;
+  --danger: #8b3a3a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--background);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--secondary-color);
+  margin-bottom: 0.5em;
+}
+
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: var(--primary-color);
+}
+
+button {
+  background-color: var(--primary-color);
+  color: var(--text);
+  border: none;
+  padding: 0.75em 1.5em;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: var(--secondary-color);
+  color: var(--background);
+}
+
+button:disabled {
+  background-color: var(--border);
+  cursor: not-allowed;
+}
+
+input, select, textarea {
+  background-color: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+  padding: 0.5em;
+  border-radius: 4px;
+  font-size: 1em;
+  font-family: inherit;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: var(--secondary-color);
+}
+
+textarea {
+  width: 100%;
+  resize: vertical;
+}
+
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+.intro {
+  background-color: var(--surface);
+  padding: 1.5em;
+  border-radius: 8px;
+  margin-bottom: 2em;
+  border-left: 4px solid var(--secondary-color);
+}
+
+ul {
+  margin-left: 2em;
+  margin-bottom: 1em;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+.class-list, .cosmology-section {
+  margin-bottom: 2em;
+}
+
+.class-card, .power-card {
+  background-color: var(--surface);
+  padding: 1.5em;
+  border-radius: 8px;
+  margin-bottom: 1.5em;
+  border-left: 4px solid var(--primary-color);
+}
+
+.class-subtitle {
+  color: var(--text-muted);
+  font-style: italic;
+  margin-bottom: 1em;
+}
+
+.cosmology-section {
+  background-color: var(--surface);
+  padding: 1.5em;
+  border-radius: 8px;
+  margin-bottom: 1.5em;
+}

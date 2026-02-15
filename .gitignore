@@ -21,8 +21,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# IDEs
-.vscode/
+# IDEs (keeping .vscode for shared settings is optional)
 .idea/
 *.swp
 *.swo
@@ -36,3 +35,6 @@ yarn-error.log*
 
 # Optional eslint cache
 .eslintcache
+
+# GitHub Pages deployment
+.gh-pages
