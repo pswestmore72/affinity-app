@@ -1,5 +1,5 @@
 .character-sheet-page {
-  max-width: 1000px;
+  max-width: 900px;
 }
 
 .message-box {
@@ -9,119 +9,343 @@
   border-radius: 4px;
   margin-bottom: 1.5em;
   text-align: center;
+  border: 2px solid var(--secondary-color);
 }
 
+/* Import/Export Section */
 .import-export-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2em;
+  gap: 1.5em;
   margin-bottom: 2em;
 }
 
 .export-section, .import-section {
   background-color: var(--surface);
   padding: 1.5em;
-  border-radius: 8px;
+  border-radius: 4px;
+  border: 2px solid var(--border);
 }
 
 .export-section h3, .import-section h3 {
   margin-top: 0;
-  color: var(--secondary-color);
+  margin-bottom: 1em;
+  color: var(--accent-gold);
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .export-result {
   margin-top: 1em;
 }
 
-.export-result textarea {
-  margin-bottom: 0.5em;
-  font-family: 'Courier New', monospace;
-  font-size: 0.85em;
-}
-
+.export-result textarea,
 .import-section textarea {
   width: 100%;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.75em;
   font-family: 'Courier New', monospace;
-  font-size: 0.85em;
+  font-size: 0.8em;
+  background-color: var(--background);
+  border-color: var(--border);
 }
 
+/* Character Form */
 .character-form {
   display: flex;
   flex-direction: column;
-  gap: 2em;
+  gap: 1.5em;
 }
 
-.form-section {
+/* Identity Header - Traditional Character Sheet Top */
+.identity-header {
   background-color: var(--surface);
+  border: 3px solid var(--primary-color);
+  border-radius: 4px;
   padding: 1.5em;
-  border-radius: 8px;
-  border-left: 4px solid var(--primary-color);
 }
 
-.form-section h2 {
-  margin-top: 0;
+.header-field {
   margin-bottom: 1em;
-  color: var(--secondary-color);
 }
 
-.form-grid {
+.header-field label {
+  display: block;
+  color: var(--accent-gold);
+  font-size: 0.9em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.5em;
+}
+
+.header-field input {
+  width: 100%;
+  font-size: 1.3em;
+  font-weight: bold;
+  padding: 0.5em;
+  background-color: var(--background);
+  border: 2px solid var(--border);
+  color: var(--text);
+}
+
+.header-stats {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 1em;
 }
 
-.form-field {
+.stat-box {
   display: flex;
   flex-direction: column;
 }
 
-.form-field label {
+.stat-box label {
   color: var(--text-muted);
-  font-size: 0.9em;
-  margin-bottom: 0.25em;
-  font-weight: 500;
+  font-size: 0.85em;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+  letter-spacing: 0.5px;
 }
 
-.form-field input,
-.form-field select {
-  width: 100%;
+.stat-box select,
+.stat-box input {
+  padding: 0.6em;
+  font-size: 1em;
+  font-weight: 600;
+  background-color: var(--background);
+  border: 2px solid var(--border);
+  color: var(--text);
 }
 
-.skills-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 0.75em;
-}
-
-.skill-item {
-  background-color: var(--surface-light);
-  padding: 0.5em;
+/* Core Stats - Traditional Stat Blocks */
+.core-stats {
+  background-color: var(--surface);
+  border: 3px solid var(--secondary-color);
   border-radius: 4px;
+  padding: 1.5em;
 }
 
-.skill-item label {
+.stat-blocks {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1em;
+}
+
+.stat-block {
+  background-color: var(--background);
+  border: 2px solid var(--border);
+  border-radius: 4px;
+  padding: 1em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-block.primary {
+  border-color: var(--primary-color);
+  border-width: 3px;
+}
+
+.stat-block label {
+  color: var(--accent-gold);
+  font-size: 0.8em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.75em;
+}
+
+.stat-inputs {
   display: flex;
   align-items: center;
   gap: 0.5em;
-  cursor: pointer;
+  justify-content: center;
 }
 
-.skill-item input[type="checkbox"] {
-  cursor: pointer;
-  width: auto;
+.stat-inputs input.current {
+  width: 60px;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: bold;
+  padding: 0.25em;
+  background-color: var(--surface);
+  border: 2px solid var(--border);
+  color: var(--text);
 }
 
+.stat-inputs input.max {
+  width: 50px;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 0.25em;
+  background-color: var(--surface);
+  border: 2px solid var(--border);
+  color: var(--text-muted);
+}
+
+.stat-inputs span {
+  font-size: 1.5em;
+  color: var(--text-muted);
+  font-weight: bold;
+}
+
+.stat-inputs .max-display {
+  font-size: 1.2em;
+  color: var(--text-muted);
+  min-width: 30px;
+}
+
+.stat-display {
+  width: 100%;
+}
+
+.stat-display input,
+.stat-block > input {
+  width: 100%;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 0.4em;
+  background-color: var(--surface);
+  border: 2px solid var(--border);
+  color: var(--text);
+}
+
+.stat-type {
+  margin-top: 0.5em;
+  width: 100%;
+}
+
+.stat-type select {
+  width: 100%;
+  text-align: center;
+  padding: 0.4em;
+  background-color: var(--surface);
+  border: 2px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.9em;
+}
+
+/* Skills Section - Traditional Checkbox List */
+.skills-section {
+  background-color: var(--surface);
+  border: 3px solid var(--accent-purple);
+  border-radius: 4px;
+  padding: 1.5em;
+}
+
+.skills-section h2 {
+  margin-top: 0;
+  margin-bottom: 1em;
+  color: var(--accent-gold);
+  font-size: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 0.5em;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75em;
+}
+
+.skill-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.75em;
+  padding: 0.75em;
+  background-color: var(--background);
+  border: 2px solid var(--border);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.skill-checkbox:hover {
+  background-color: var(--surface-light);
+  border-color: var(--accent-purple);
+}
+
+.skill-checkbox input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  accent-color: var(--primary-color);
+}
+
+.skill-name {
+  flex: 1;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.skill-bonus {
+  color: var(--accent-gold);
+  font-weight: 700;
+  font-size: 0.9em;
+  background-color: var(--surface);
+  padding: 0.25em 0.6em;
+  border-radius: 3px;
+  border: 1px solid var(--border);
+}
+
+/* Notes Section */
+.notes-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5em;
+}
+
+.notes-column {
+  background-color: var(--surface);
+  border: 3px solid var(--accent-rose);
+  border-radius: 4px;
+  padding: 1.5em;
+}
+
+.notes-column h2 {
+  margin-top: 0;
+  margin-bottom: 1em;
+  color: var(--accent-gold);
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.notes-column textarea {
+  width: 100%;
+  background-color: var(--background);
+  border: 2px solid var(--border);
+  color: var(--text);
+  font-family: inherit;
+  line-height: 1.5;
+  resize: vertical;
+}
+
+/* Responsive Design */
 @media (max-width: 768px) {
   .import-export-section {
     grid-template-columns: 1fr;
   }
 
-  .form-grid {
+  .header-stats {
     grid-template-columns: 1fr;
   }
 
-  .skills-list {
+  .stat-blocks {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .notes-section {
     grid-template-columns: 1fr;
   }
 }

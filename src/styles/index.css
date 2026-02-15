@@ -1,15 +1,18 @@
 :root {
-  --primary-color: #8b4513;
-  --secondary-color: #d4af37;
-  --background: #1a1a1a;
-  --surface: #2a2a2a;
-  --surface-light: #3a3a3a;
-  --text: #e0e0e0;
-  --text-muted: #a0a0a0;
-  --border: #4a4a4a;
-  --success: #4a7c59;
-  --warning: #c9932c;
-  --danger: #8b3a3a;
+  --primary-color: #DC8665;
+  --secondary-color: #138086;
+  --accent-purple: #534666;
+  --accent-rose: #CD7672;
+  --accent-gold: #EEB462;
+  --background: #1a1520;
+  --surface: #2a2530;
+  --surface-light: #3a3540;
+  --text: #e8e5e5;
+  --text-muted: #9a9599;
+  --border: #534666;
+  --success: #138086;
+  --warning: #EEB462;
+  --danger: #CD7672;
 }
 
 * {

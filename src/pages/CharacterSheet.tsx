@@ -75,7 +75,7 @@ function CharacterSheet() {
               <textarea
                 readOnly
                 value={exportString}
-                rows={4}
+                rows={3}
                 onClick={(e) => e.currentTarget.select()}
               />
               <button onClick={copyToClipboard}>Copy to Clipboard</button>
@@ -89,25 +89,26 @@ function CharacterSheet() {
             placeholder="Paste character string here..."
             value={importString}
             onChange={(e) => setImportString(e.target.value)}
-            rows={4}
+            rows={3}
           />
           <button onClick={handleImport}>Import Character</button>
         </div>
       </div>
 
       <div className="character-form">
-        <section className="form-section">
-          <h2>Identity</h2>
-          <div className="form-grid">
-            <div className="form-field">
-              <label>Name</label>
-              <input
-                type="text"
-                value={character.name}
-                onChange={(e) => handleInputChange('name', e.target.value)}
-              />
-            </div>
-            <div className="form-field">
+        {/* Identity Section - Traditional Header */}
+        <section className="identity-header">
+          <div className="header-field">
+            <label>Character Name</label>
+            <input
+              type="text"
+              value={character.name}
+              onChange={(e) => handleInputChange('name', e.target.value)}
+              placeholder="Enter name"
+            />
+          </div>
+          <div className="header-stats">
+            <div className="stat-box">
               <label>Class</label>
               <select
                 value={character.class}
@@ -122,7 +123,7 @@ function CharacterSheet() {
                 <option value="Sovereign">Sovereign</option>
               </select>
             </div>
-            <div className="form-field">
+            <div className="stat-box">
               <label>Level</label>
               <input
                 type="number"
@@ -132,7 +133,7 @@ function CharacterSheet() {
                 onChange={(e) => handleInputChange('level', parseInt(e.target.value))}
               />
             </div>
-            <div className="form-field">
+            <div className="stat-box">
               <label>Affinity</label>
               <select
                 value={character.affinity}
@@ -149,133 +150,144 @@ function CharacterSheet() {
           </div>
         </section>
 
-        <section className="form-section">
-          <h2>Resources</h2>
-          <div className="form-grid">
-            <div className="form-field">
-              <label>Current HD</label>
-              <input
-                type="number"
-                min="0"
-                value={character.currentHD}
-                onChange={(e) => handleInputChange('currentHD', parseInt(e.target.value))}
-              />
-            </div>
-            <div className="form-field">
-              <label>Max HD</label>
-              <input
-                type="number"
-                value={character.maxHD}
-                onChange={(e) => handleInputChange('maxHD', parseInt(e.target.value))}
-              />
-            </div>
-            <div className="form-field">
-              <label>Hit Die Type</label>
-              <select
-                value={character.hitDieType}
-                onChange={(e) => handleInputChange('hitDieType', e.target.value)}
-              >
-                <option value="d6">d6 (Fragile)</option>
-                <option value="d8">d8 (Balanced)</option>
-                <option value="d10">d10 (Tough)</option>
-              </select>
-            </div>
-            <div className="form-field">
-              <label>Proficiency</label>
-              <input
-                type="number"
-                value={character.proficiency}
-                onChange={(e) => handleInputChange('proficiency', parseInt(e.target.value))}
-              />
-            </div>
-            <div className="form-field">
-              <label>Current Resolve</label>
-              <input
-                type="number"
-                min="0"
-                max="5"
-                value={character.currentResolve}
-                onChange={(e) => handleInputChange('currentResolve', parseInt(e.target.value))}
-              />
-            </div>
-            <div className="form-field">
-              <label>Max Resolve (Always 5 for PCs)</label>
-              <input
-                type="number"
-                value={5}
-                disabled
-              />
-            </div>
-            <div className="form-field">
-              <label>Exertion Budget</label>
-              <input
-                type="number"
-                value={character.exertionBudget}
-                onChange={(e) => handleInputChange('exertionBudget', parseInt(e.target.value))}
-              />
-            </div>
-          </div>
-        </section>
-
-        <section className="form-section">
-          <h2>Skills</h2>
-          <div className="skills-list">
-            {character.skills.map((skill, index) => (
-              <div key={skill.name} className="skill-item">
-                <label>
-                  <input
-                    type="checkbox"
-                    checked={skill.trained}
-                    onChange={(e) => {
-                      const newSkills = [...character.skills];
-                      newSkills[index].trained = e.target.checked;
-                      handleInputChange('skills', newSkills);
-                    }}
-                  />
-                  {skill.name} {skill.trained && '(+1d6)'}
-                </label>
+        {/* Core Stats - Traditional Boxes */}
+        <section className="core-stats">
+          <div className="stat-blocks">
+            <div className="stat-block primary">
+              <label>Hit Dice</label>
+              <div className="stat-inputs">
+                <input
+                  type="number"
+                  min="0"
+                  value={character.currentHD}
+                  onChange={(e) => handleInputChange('currentHD', parseInt(e.target.value))}
+                  className="current"
+                />
+                <span>/</span>
+                <input
+                  type="number"
+                  value={character.maxHD}
+                  onChange={(e) => handleInputChange('maxHD', parseInt(e.target.value))}
+                  className="max"
+                />
               </div>
-            ))}
-          </div>
-        </section>
+              <div className="stat-type">
+                <select
+                  value={character.hitDieType}
+                  onChange={(e) => handleInputChange('hitDieType', e.target.value)}
+                >
+                  <option value="d6">d6</option>
+                  <option value="d8">d8</option>
+                  <option value="d10">d10</option>
+                </select>
+              </div>
+            </div>
 
-        <section className="form-section">
-          <h2>Equipment</h2>
-          <div className="form-grid">
-            <div className="form-field">
-              <label>Armor Type</label>
+            <div className="stat-block">
+              <label>Resolve</label>
+              <div className="stat-inputs">
+                <input
+                  type="number"
+                  min="0"
+                  max="5"
+                  value={character.currentResolve}
+                  onChange={(e) => handleInputChange('currentResolve', parseInt(e.target.value))}
+                  className="current"
+                />
+                <span>/</span>
+                <span className="max-display">5</span>
+              </div>
+            </div>
+
+            <div className="stat-block">
+              <label>Proficiency</label>
+              <div className="stat-display">
+                <input
+                  type="number"
+                  value={character.proficiency}
+                  onChange={(e) => handleInputChange('proficiency', parseInt(e.target.value))}
+                />
+              </div>
+            </div>
+
+            <div className="stat-block">
+              <label>Exertion Budget</label>
+              <div className="stat-display">
+                <input
+                  type="number"
+                  value={character.exertionBudget}
+                  onChange={(e) => handleInputChange('exertionBudget', parseInt(e.target.value))}
+                />
+              </div>
+            </div>
+
+            <div className="stat-block">
+              <label>Armor</label>
               <input
                 type="text"
                 value={character.armorType}
                 onChange={(e) => handleInputChange('armorType', e.target.value)}
+                placeholder="Light/Medium/Heavy"
               />
             </div>
-            <div className="form-field">
-              <label>Temp HD (from armor)</label>
-              <input
-                type="number"
-                min="0"
-                value={character.tempHD}
-                onChange={(e) => handleInputChange('tempHD', parseInt(e.target.value))}
-              />
+
+            <div className="stat-block">
+              <label>Temp HD</label>
+              <div className="stat-inputs">
+                <input
+                  type="number"
+                  min="0"
+                  value={character.tempHD}
+                  onChange={(e) => handleInputChange('tempHD', parseInt(e.target.value))}
+                  className="current"
+                />
+              </div>
             </div>
           </div>
         </section>
 
-        <section className="form-section">
-          <h2>Notes & Backstory</h2>
-          <textarea
-            value={character.backstory}
-            onChange={(e) => handleInputChange('backstory', e.target.value)}
-            rows={6}
-            placeholder="Character backstory, personality, goals..."
-          />
-          <textarea
-            value={character.notes}
-            onChange={(e) => handleInputChange('notes', e.target.value)}
-            rows={6}
-            placeholder="Session notes, campaign details, reminders..."
-          />
+        {/* Skills - Traditional List */}
+        <section className="skills-section">
+          <h2>Skills</h2>
+          <div className="skills-grid">
+            {character.skills.map((skill, index) => (
+              <label key={skill.name} className="skill-checkbox">
+                <input
+                  type="checkbox"
+                  checked={skill.trained}
+                  onChange={(e) => {
+                    const newSkills = [...character.skills];
+                    newSkills[index].trained = e.target.checked;
+                    handleInputChange('skills', newSkills);
+                  }}
+                />
+                <span className="skill-name">{skill.name}</span>
+                {skill.trained && <span className="skill-bonus">+1d6</span>}
+              </label>
+            ))}
+          </div>
+        </section>
+
+        {/* Notes Section */}
+        <section className="notes-section">
+          <div className="notes-column">
+            <h2>Backstory</h2>
+            <textarea
+              value={character.backstory}
+              onChange={(e) => handleInputChange('backstory', e.target.value)}
+              rows={8}
+              placeholder="Character backstory, personality, goals..."
+            />
+          </div>
+          <div className="notes-column">
+            <h2>Session Notes</h2>
+            <textarea
+              value={character.notes}
+              onChange={(e) => handleInputChange('notes', e.target.value)}
+              rows={8}
+              placeholder="Campaign details, reminders, important NPCs..."
+            />
+          </div>
         </section>
       </div>
     </div>
