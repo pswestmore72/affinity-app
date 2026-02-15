@@ -31,8 +31,10 @@ This React + TypeScript application provides:
 ## Development
 
 ### Prerequisites
-- Node.js 18+ 
+- **Node.js 16+** (18+ recommended for local development)
 - npm or yarn
+
+**Note:** If you're on Node 14, the local build may fail. Upgrade to Node 16+ or use the GitHub Actions workflow for deployment (which uses Node 20 automatically).
 
 ### Setup
 ```bash
