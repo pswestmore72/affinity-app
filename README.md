@@ -62,15 +62,56 @@ Affinity/
 ├── src/
 │   ├── components/      # React components
 │   ├── pages/           # Page components (Home, CharacterSheet, etc.)
+│   ├── styles/          # CSS files for styling
 │   ├── types/           # TypeScript type definitions
 │   ├── utils/           # Utility functions (character encoding/decoding)
 │   ├── App.tsx          # Main app component
 │   └── main.tsx         # Entry point
-├── public/              # Static assets
-├── *.md                 # TTRPG system documentation
+├── Basic Rules/         # Core system mechanics and quick reference
+├── Player Book/         # Character creation, classes, spells, items, sheets
+├── Game Master Book/    # GM guide, bestiary, NPC sheets
 ├── Campaigns/           # Pre-written campaigns
-└── Pantheon/            # Cosmology documentation
+└── Pantheon/            # Cosmology and world lore
 ```
+
+## TTRPG Documentation
+
+The Affinity system is organized into three main books:
+
+### 📘 [Basic Rules](Basic%20Rules/)
+Core mechanics that everyone at the table needs to know:
+- System overview and philosophy
+- Dice resolution (success thresholds, exertion, contests)
+- Combat rules
+- Quick reference tables
+
+### 📗 [Player Book](Player%20Book/)
+Everything players need to create and play characters:
+- Character creation guide
+- All 7 classes with full progression
+- Magic system and spell compendium
+- Path Board customization
+- Items and equipment
+- Pre-made character sheets (Fighter, Rogue, Warlock, Paladin)
+
+### 📕 [Game Master Book](Game%20Master%20Book/)
+Tools and resources for running campaigns:
+- Complete GM guide (encounter design, pacing, balance)
+- Bestiary with creature stat blocks
+- NPC templates and examples
+- Scaling and homebrew guidance
+
+### 📖 [Campaigns](Campaigns/)
+Seven ready-to-run adventures:
+- The Hollow Below (party origin, 5 sessions)
+- The Platinum Paradox, The Frostmarch Vigil, and more
+
+### 🌍 [Pantheon](Pantheon/)
+World lore and cosmology:
+- Aeralon cosmology
+- Custodial Powers
+- Gods and divine entities
+- Planar structure
 
 ## Character Data Format
 
