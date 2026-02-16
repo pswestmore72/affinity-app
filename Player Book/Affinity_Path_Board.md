@@ -451,9 +451,9 @@ You have a deep connection to nature and beasts.
 Your connection to your Defining Virtue runs deeper than most.
 
 **Benefit:**
-- Maximum Affinity Dice stored increases by +2 (new max: Proficiency + 2)
+- Maximum Affinity Dice stored increases by +2 (new max: Level + 2)
 - When you embody your Virtue dramatically (GM judges), gain 2 Affinity Dice instead of 1
-- Once per long rest: **Virtue Flare** (free action)—spend all stored Affinity Dice to create a narrative effect aligned with your Virtue (GM collaboration). Not a direct power boost, but a story moment.
+- Once per day: **Virtue Flare** (free action)—spend all stored Affinity Dice to create a narrative effect aligned with your Virtue (GM collaboration). Not a direct power boost, but a story moment.
 
 **Connects to:** `Affinity Surge` • `Cosmic Awareness` • `Virtue's Voice` • `Resonant Strike`
 
@@ -498,7 +498,7 @@ Your connection to your Defining Virtue runs deeper than most.
 #### Cosmic Reservoir
 **Prerequisite:** `Affinity Surge`
 
-**Benefit:** Your maximum Affinity Dice increases by another +2 (new total: Proficiency + 4). You resonate strongly with cosmic forces.
+**Benefit:** Your maximum Affinity Dice increases by another +2 (new total: Level + 4). You resonate strongly with cosmic forces.
 
 **Connects to:** `Affinity Surge` → `Spell-Touched` • `Deep Reserves`
 

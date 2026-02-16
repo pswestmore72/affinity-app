@@ -16,7 +16,7 @@
 2. Roll Proficiency + Exertion dice
 3. Count successes (5=1, 6=2)
 4. Check if required successes met
-5. Apply effect (Base Impact + Extra Successes)
+5. Apply effect (Base + Bonus, bonus capped at Prof)
 6. Burn HD for any 1s rolled on exertion dice
 
 ---
@@ -68,6 +68,22 @@
 
 ---
 
+## Affinity Dice
+
+**Gaining:** When you embody your virtue (GM judges), gain 1 Affinity Die
+- Max gained per day: **Proficiency**
+
+**Storing:** Max stored: **Level**
+- Don't expire until spent
+
+**Spending:** Add to any roll
+- Count as exertion dice (burn HD on 1s)
+- Count toward per-action exertion cap (max Prof per action)
+
+**Sharing:** Free action, transfer any number to ally within 30 yards
+
+---
+
 ## The Eight Skills
 
 **Skills grant bonus dice when applicable:**
@@ -107,20 +123,43 @@
 ## Combat Quick Reference
 
 ### Your Turn
-- Move (10 yards base)
-- Up to 2 Standard Actions (each capped at Proficiency exertion dice)
-- Free actions (talk, drop item)
-- Triggered actions (can take 1 action as response to perceived trigger, only if you haven't acted yet this round)
-- Exertion Budget: Max dice = Your Level (split across all actions this turn, max Proficiency per action)
+- **Movement:** 10 yards base (doesn't cost an action; some classes/paths/abilities grant additional movement)
+- **Actions:** Up to 2 standard actions (player characters; NPCs vary)
+- **Exertion per Action:** Each action has independent Proficiency exertion pool
+  - Max exertion per action = Proficiency
+  - Max exertion per turn = Proficiency × 2 (if taking 2 actions)
+  - Unused exertion does NOT carry between actions
+- **Free Actions:** Drop item, speak briefly (GM discretion)
 
-### Defense
-When taking HD damage:
-- Roll full Proficiency defense dice (using your class HD type)
-- Each 5+ cancels 1 incoming damage
-- No exertion allowed
-- Armor HD provide temp HD rolled/lost first
+### Defense Rolls
 
-*Note: The "6 = 2 successes" rule does NOT apply to defense rolls*
+**Defense Capacity = ½ Proficiency (rounded up, min 1 die)**
+
+| Level | Prof | Defense Dice |
+|-------|------|-------------|
+| 1-4 | 1-2 | 1 die |
+| 5-8 | 3-4 | 2 dice |
+| 9-10 | 5 | 3 dice |
+
+**Layered Defense (outermost to innermost):**
+1. Magical barriers (d12) → Roll d12 per layer
+2. Armor temp HD (d6/d8/d10) → Roll armor die type
+3. Permanent HD (d6/d8/d10) → Roll class HD type
+
+**Defense Roll Rules:**
+- Roll die type matching the layer being defended
+- Each 5+ = sustain (cancels 1 damage)
+- Each 4- = fails to sustain
+- If damage > defense capacity: Auto-fail, cannot roll enough dice
+- If any damage remains after roll: Layer depletes (lose all temp HD from that layer)
+- Move remaining damage to next layer inward
+- **No explosive dice on defense** (highest roll = 1 success only, regardless of die type)
+- **No exertion, no Affinity Dice allowed**
+
+**Success Rates by Die Type:**
+- d6: 33% per die | d8: 38% per die | d10: 40% per die | d12: 50% per die
+
+**Defend Action:** Gain +2d6 bonus defense dice until your next turn
 
 ---
 

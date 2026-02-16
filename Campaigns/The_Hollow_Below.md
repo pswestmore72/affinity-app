@@ -91,7 +91,179 @@ Breaking the seals:
 
 ---
 
-## Campaign Hook: Four Strangers, One Crisis
+## Campaign Hooks: How the Party Arrives
+
+### Option 1: Chandle's Proposition (Recommended for Sequential Campaigns)
+
+**Use this hook if**: The party has just completed another adventure (such as stabilizing the Moonstone Lighthouse) and you want a seamless narrative bridge between story arcs.
+
+#### The Merchant of Oddities
+
+**Chandle** (they/them, Level 5 Weaver, gender non-conforming, early 30s equivalent) runs **Chandle's Chandler Services of Generalities and Oddities**—a traveling emporium of impossible convenience.
+
+**Appearance:**
+- Flowing robes of mismatched fabrics (silk patches next to burlap, velvet beside linen)
+- Hair changes color subtly depending on lighting (today: copper with hints of teal)
+- Carries an ornate walking stick topped with a crystal that hums softly
+- Wears at least seven rings, three necklaces, and a belt with 20+ pouches
+- Smile that suggests they know something you don't
+
+**Personality:**
+- **Witty and verbose**: Speaks in flowery tangents, loves wordplay
+- **Observant**: Notices everything, remembers everyone
+- **Mysterious but friendly**: Helpful without revealing much about themselves
+- **Odd sense of humor**: Laughs at things that aren't quite jokes
+
+**Mannerisms:**
+- Calls everyone "dear customer" or "my curious friend"
+- Gestures dramatically while speaking
+- Occasionally references places that don't exist on any map
+- Hums tuneless melodies while thinking
+
+**Secret**: Chandle is far more powerful than they appear and is connected to a benevolent secret society monitoring events across the Mortal Weave. They don't interfere directly but guide capable individuals toward crises that need solving. The party doesn't know this yet.
+
+#### Scene: The Caravan Arrives
+
+**Location**: Moonstone, as the party concludes their lighthouse quest
+
+The day after the party stabilizes the lighthouse, word spreads through Moonstone about the heroes who saved the town. As they walk through the market square:
+
+> *A peculiar sound precedes the arrival: tiny bells, the creak of wood, and the soft clip-clop of... nothing. No horses. No oxen.*
+> 
+> *Around the corner rolls a caravan unlike any you've seen. Three wagons, each no larger than a market stall, painted in swirling patterns of gold, purple, and midnight blue. They roll smoothly despite the cobblestones, pulled by nothing visible—just shimmering traces of arcane light where harnesses should be.*
+> 
+> *Atop the lead wagon sits a figure in flowing robes of impossible colors. They wave enthusiastically as if greeting old friends.*
+> 
+> *"Well, WELL! The heroes of Moonstone's luminous beacon! How fortuitous! I was just thinking, 'Chandle, you need to meet these delightful problem-solvers,' and here you are!"*
+
+**First Impression:**
+- Chandle leaps down from the wagon with surprising grace
+- Offers elaborate bows to each party member
+- Somehow already knows their names (disconcerting but friendly)
+- *"Oh, I pay attention to whispers, dear customers. A lighthouse restored, darkness held at bay? Such work doesn't go unnoticed by those who... notice things."*
+
+#### The Proposition
+
+Chandle gestures to their wagons:
+
+> *"I am a purveyor of necessities, rarities, and delightful peculiarities! Candles—hence the name—though I've expanded my inventory somewhat. Magical trinkets, practical supplies, exotic spices, unusual pets, rumors, gossip, and occasionally, opportunities."*
+> 
+> *They produce a scroll from one of their many pouches.*
+> 
+> *"This, for example. A call for aid from Stonebridge—charming mining town in the Ironfoot Hills, three days' journey inland. They've disturbed something ancient beneath the earth, and now their ground won't stop shaking. Quakes, guardians, sealed temples—precisely the sort of mess that requires heroes with proven competence."*
+> 
+> *Chandle's eyes twinkle.*
+> 
+> *"I'm heading that way myself—business, you understand. Miners in crisis buy many candles. I'd be delighted to offer you passage in my caravan. Comfortable, swift, and far more interesting than walking."*
+
+**What Chandle Offers:**
+- **Free travel** to Stonebridge (3-day journey reduced to 1.5 days via magical conveyance)
+- **Room and board** in the wagons (which are impossibly spacious inside—10x10 exterior, 30x30 interior)
+- **Shopping opportunity**: Chandle's inventory includes useful items the party might need (see below)
+- **Information**: Chandle knows rumors about Stonebridge's situation (not complete, but helpful)
+
+**If the party asks "What's in it for you?":**
+> *Chandle grins.* "Ah, a transactional worldview! I adore it. Simple, really: You're capable. Stonebridge needs capable people. I benefit from a stable Stonebridge because stable towns buy my wares. Unstable towns? Less coin, more screaming. Also..."  *They lean in conspiratorially.* "...I find competent adventurers make excellent repeat customers. Invest in relationships, I always say!"
+
+**If the party is suspicious:**
+- **Insight check (Moderate 3+)**: Chandle is being genuine—they're helpful but definitely hiding deeper motives. Not malicious, though.
+- **Higher success (Advanced 4+)**: Chandle is evaluating the party, like a teacher assessing students. They want to see if the party is "ready" for something.
+
+#### Chandle's Wagon Interior
+
+If the party accepts and enters the lead wagon:
+
+> *The door is normal-sized. The wagon exterior is perhaps 8 feet long.*
+> 
+> *Inside?*
+> 
+> *A cozy parlor stretches 30 feet, with plush seating, a small fireplace (crackling merrily despite no chimney), shelves packed with bizarre objects, and a ceiling twice the height it should be. Soft light emanates from floating candles.*
+> 
+> *Chandle notices your stunned expressions and chuckles.* "Oh yes, spatial folding. Terribly useful. Do mind the cat—she's temperamental."
+> 
+> *A cat that appears to be made of starlight lounges on a cushion, eyeing you with cosmic disdain.*
+
+**What's Available to Buy (Before Departure):**
+
+Chandle's inventory is extensive. Some highlights:
+
+**Practical Goods:**
+- **Healing Poultices** (restore 1d6 HD, 5 gold each)
+- **Rope of Returning** (50 ft, returns to your hand when you whistle, 15 gold)
+- **Everburning Torch** (never goes out, doesn't burn anything, 20 gold)
+- **Traveler's Rations** (tastes better than normal rations, 2 gold per day)
+
+**Oddities:**
+- **Singing Stone** (hums when danger is near, 25 gold)
+- **Compass that Points to What You Need** (not what you want—what you NEED, 40 gold)
+- **Flask of Endless Water** (never runs dry, 30 gold)
+
+**One Free Gift:**
+Chandle insists each party member choose one small item (under 10 gold value) as a "gift to new friends." This establishes goodwill and introduces Chandle's generosity.
+
+#### The Journey to Stonebridge
+
+The 1.5-day journey provides excellent roleplay opportunity:
+
+**Day 1 - Getting to Know Chandle:**
+
+Chandle asks the party about their recent adventure in Moonstone:
+- How did they end up there?
+- What drew them to helping with the lighthouse?
+- What are they seeking? (Gold? Glory? Purpose?)
+
+Chandle shares stories (difficult to verify):
+- Claims to have sold candles to a dragon once ("Lovely creature, terrible hoarder")
+- Mentions visiting a city that "only exists on Tuesdays"
+- Casually references meeting a deity in disguise ("Tipped poorly, honestly")
+
+**Chandle's Questions (Probing Without Seeming To):**
+
+- To the **Fighter**: *"You carry yourself like someone who's held a line before. Where did you learn that stance?"*
+- To the **Rogue**: *"Clever fingers and sharper eyes. What's the most interesting lock you've ever picked?"*
+- To the **Paladin**: *"I sense conviction in you. What oath binds your heart?"*
+- To the **Warlock**: *"Your magic tastes... borrowed. A patron, yes? How delightful! Which cosmic entity claimed your contract?"*
+
+**Night 1 - Campfire Stories:**
+
+The caravan stops for the evening. Chandle prepares an absurdly gourmet meal from seemingly mundane ingredients:
+
+> *"Travelers' stew, my friends! With a pinch of saffron from the Southern Wastes, mushrooms from the Twilight Groves, and a dash of hope."*
+> 
+> *It tastes inexplicably perfect.*
+
+Chandle tells a story relevant to their destination:
+
+> *"Stonebridge, now. Thriving mining town. Thirty years of prosperity thanks to the Delve—copper, iron, occasional silver. But three weeks ago, they broke through into something... older. Sealed chambers. Ancient guardians. The earth itself is angry."*
+> 
+> *Chandle stares into the fire.*
+> 
+> *"I've seen this before, in other places. Mortals stumble into divine architecture and assume it's theirs to plunder. Sometimes the gods are forgiving. Sometimes... (they trail off with a mumble)"*
+
+**Lore check (Moderate 3+):**
+Chandle knows more than they're saying. This isn't random—they've been tracking situations like this.
+
+**Day 2 - Arrival:**
+
+The caravan crests a hill, and Stonebridge comes into view:
+
+> *Chandle pulls the wagons to a stop.* "Here we are, dear customers. Stonebridge. Notice the smoke from the smelters? The bridge over Cragrun River? Normally, you'd hear hammers from the mines. Today... silence."*
+> 
+> *A tremor shakes the ground. Faint but unmistakable.*
+> 
+> *"Ah. Right on schedule. The quakes are worsening."* *Chandle turns to the party.* "I'll be setting up shop in the market square for the next week. If you need supplies, advice, or a friendly face... you know where to find me. Oh, and..."*
+> 
+> *They press a small wrapped package into the Paladin's hands.*
+> 
+> *"For the temple below. When you find the altar— I implore you will—leave this offering. Trust me."*
+
+**What's in the package?**: A bundle of enchanted candles. When placed on the temple altar later, they'll help stabilize the ley-node (Chandle knows more than they've let on).
+
+---
+
+### Option 2: Four Strangers, One Crisis (Standard Hook)
+
+**Use this hook if**: The party is starting fresh in Stonebridge without prior connections.
 
 The party arrives in Stonebridge via the trade road. They can be:
 - **Traveling together** (met on the road, heading to next town)
@@ -116,6 +288,31 @@ As the PCs cross the stone bridge into town:
 
 **If PCs head to the town square:**
 They arrive just as the Council meeting becomes a **public shouting match**.
+
+---
+
+### 💡 **GM Note: Using Chandle Throughout The Campaign**
+
+If you used Hook Option 1, Chandle becomes a recurring resource and narrative thread:
+
+**During The Hollow Below:**
+- **Market Square Shop**: Chandle sets up their caravan in Stonebridge's main square, selling supplies
+- **Resupply Point**: Between dungeon delves, PCs can visit Chandle for healing items, gear, or odd trinkets
+- **Subtle Guidance**: Chandle doesn't give direct answers but drops hints wrapped in stories or metaphors
+- **Comic Relief**: Use Chandle to lighten tense moments with absurd anecdotes or strange inventory items
+- **The Candles**: When PCs place Chandle's enchanted candles on the temple altar (final session), they glow and help stabilize the ley-node—Chandle's subtle intervention without direct involvement
+
+**After The Hollow Below:**
+- **Campaign Bridge**: Chandle can introduce the next adventure hook ("I'm heading to [next location], and I hear...")
+- **Reward Delivery**: Chandle "coincidentally" has a magic item the party needs, purchased from "a mysterious seller"
+- **Long-Term Mystery**: Players will eventually wonder: Who IS Chandle? Why do they always appear at crisis points? This builds toward the eventual reveal of the benevolent secret society.
+
+**Roleplaying Chandle:**
+- Always cheerful, never panicked
+- Knows more than they say, but won't spoil the party's discoveries
+- Treats danger like an interesting puzzle rather than a threat
+- Occasionally breaks the fourth wall with meta-humor ("Five brave souls against ancient evil? Classic!")
+- Uses they/them pronouns; gently corrects anyone who misgenders them
 
 ---
 
@@ -211,7 +408,11 @@ The Council (reluctantly united) offers the PCs a job:
 
 - **The Warlock**: As the Warlock passes, they **feel a pull**—a faint resonance, like their patron's magic recognizes something below. The sensation is curious, not threatening, but insistent. *Something divine is down there.*
 
-### Scene 3: Preparation & Investigation
+**If Using Hook Option 1 (Chandle Present):**
+Chandle watches from the edge of the crowd, leaning against their wagon. When the party accepts the job, they catch the party's eye and give a subtle thumbs-up and a wink. Later, if the party visits their wagon, Chandle offers:
+> *"Ancient temples, angry guardians, trembling earth? Oh, you wonderful fools. This is EXACTLY why I brought you here."* *They grin and press a small pouch into your hands.* "Three healing poultices. On the house. Try not to die—I detest paperwork."
+
+###  3: Preparation & Investigation
 
 The PCs have time to prepare before descending. Several options:
 
@@ -936,6 +1137,21 @@ The party is free to stay or leave.
 ## NPC Reference
 
 ### Major NPCs
+
+**Chandle** (Level 5 Weaver, gender non-conforming, they/them)
+- **Role**: Traveling merchant, campaign bridge, recurring NPC
+- **Personality**: Witty, verbose, mysteriously helpful, odd sense of humor
+- **Goal**: Guide capable individuals toward crises (secretly part of benevolent organization)
+- **Attitude toward PCs**: Friendly, generous, evaluating their potential
+- **Business**: Chandle's Chandler Services of Generalities and Oddities
+- **Appearance**: Flowing robes of mismatched fabrics, color-shifting hair (copper with teal hints), ornate walking stick with humming crystal, many rings and pouches
+- **Wagon**: Three magically-pulled wagons (bigger on the inside via spatial folding)
+- **Inventory**: Candles (signature item), healing items, magical trinkets, oddities, information
+- **Special**: Has a starlight cat familiar who is "temperamental"
+- **Mannerisms**: Calls everyone "dear customer" or "my curious friend," gestures dramatically, hums tuneless melodies, references impossible places
+- **Secret Knowledge**: Knows about the temple, provides enchanted candles that help stabilize the ley-node
+- **Combat**: Won't fight directly but can defend self if necessary (Expert-tier Weaver spells)
+- **Long-term**: Will appear in future campaigns as recurring ally/merchant/quest-giver
 
 **Priestess Kara Ironshod** (Level 2 Priest of Murien, dwarf)
 - **Role**: "Seal It" faction leader, moral compass

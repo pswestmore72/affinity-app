@@ -77,21 +77,34 @@ Your virtue represents your character's core motivation and grants **Affinity Di
 - **Suffering** *(Gephorix)*: Gain 1 Affinity Dice when you reveal truth through pain or force someone to confront despair
 
 ### Affinity Dice
-These d6s can be:
-- Added to any roll (count as exertion dice, drawn from turn budget)
-- Shared with allies
-- Stored until used (max LEVEL at a time)
+
+Affinity Dice are bonus d6s earned by embodying your chosen virtue.
 
 **Gaining Affinity Dice:**
-- You may gain Affinity Dice a maximum of **Proficiency times per long rest**
-- This prevents abuse while scaling with character advancement
+- When you embody your Affinity (GM judges), gain 1 Affinity Die
+- Maximum: You may gain Affinity Dice up to **Proficiency times per day**
+- Example: Proficiency 3 = max 3 Affinity Dice gained per day
 
-**Bonus Dice Cap:**
-- You may never roll more than **(Level + 3) bonus dice** on a single action
-- This includes Affinity Dice, skill bonuses, feat bonuses, and temporary effects combined
-- Keeps high-level turns manageable and prevents dice pool explosions
+**Storing Affinity Dice:**
+- You may store up to **Level** Affinity Dice at once
+- Example: Level 5 = store max 5 Affinity Dice
+- Unused Affinity Dice do NOT expire (persist until spent)
 
-**Note:** Affinity Dice follow the same rules as exertion dice—they burn HD on 1s.
+**Spending Affinity Dice:**
+- On any roll, you may add stored Affinity Dice as bonus dice
+- **Affinity Dice count as exertion dice:**
+  - They burn your HD if they roll 1s
+  - They count toward your per-action exertion cap (max Proficiency per action)
+- You may spend multiple Affinity Dice on one roll (respecting action cap)
+
+**Sharing Affinity Dice:**
+- As a **free action** on your turn, transfer any number of stored Affinity Dice to an ally within 30 yards
+- That ally adds them to their stored pool (respecting their Level cap)
+- Shared Affinity Dice follow the same spending rules
+- "Our purpose is shared."
+
+**Tracking:**
+Use tokens, marks, or dice to track stored Affinity Dice between sessions.
 
 ---
 

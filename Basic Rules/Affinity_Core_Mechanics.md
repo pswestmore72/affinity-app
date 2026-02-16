@@ -193,8 +193,23 @@ Each action has a **required success count**.
 
 **If successes ≥ required:**
 - Action succeeds
-- Extra successes beyond required add +1 HD damage each
-- **Bonus damage from extra successes capped at Proficiency** (prevents wild scaling)
+
+### Damage Calculation
+
+**Base Damage:** Determined by weapon, spell, or ability
+
+**Bonus Damage:** Each success beyond the required amount adds +1 HD damage
+
+**Bonus Damage Cap:** Bonus damage from extra successes is capped at your **Proficiency** score
+- This prevents exponential scaling at high levels
+- Base damage is never capped (only bonus from extra successes)
+
+**Example:**
+Combatant (Proficiency 3) attacks with heavy weapon (2 HD base, requires 2 successes).
+- Rolls 8 successes (6 extra)
+- Base: 2 HD
+- Bonus: 6 extra successes, but capped at Proficiency 3 = +3 HD
+- **Total: 5 HD damage**
 
 ---
 
@@ -252,12 +267,17 @@ Only exertion dice burn HD on 1s. Proficiency is reliable.
 Each turn, you may allocate **Exertion Dice** to fuel your actions.
 
 **Exertion Budget:**
-- **Each action has its own Exertion budget = Your Proficiency dice**
-- You may take **up to 2 actions per turn**
-- Each action can use up to Proficiency dice of Exertion independently
+- **Each action gets an independent Exertion pool = Your Proficiency**
+- You may take **up to 2 actions per turn** (player characters only; NPCs may have different action counts)
+- Each action can use up to Proficiency exertion dice independently
 - Each Exertion Die is a d6
-- Unused Exertion Dice do not carry between actions or turns
-- **Example:** Level 5 character (Prof 3) can use up to 3 Exertion dice on Action 1, and up to 3 Exertion dice on Action 2
+- Unused Exertion from one action does NOT carry to the next action or turn
+- **Maximum exertion per turn = Proficiency × 2** (if taking 2 actions)
+
+**Example:** Level 5 character (Proficiency 3):
+- Action 1: Attack using 3 Proficiency dice + up to 3 Exertion dice
+- Action 2: Cast spell using 3 Proficiency dice + up to 3 Exertion dice  
+- **Total possible: 6 Proficiency dice + 6 Exertion dice = 12d6 per turn**
 
 **Risk:**
 - Every 1 rolled on **Exertion Dice** burns 1 HD immediately
@@ -681,16 +701,33 @@ Every character chooses a **Defining Virtue** at creation. This represents your 
 
 ### Affinity Dice Mechanics
 
+Affinity Dice are bonus d6s earned by embodying your chosen virtue.
+
 **Gaining Affinity Dice:**
-- When you act in accordance with your Virtue in a meaningful way (GM judges), you gain 1 Affinity Die
-- **Maximum Affinity Dice stored = Your Proficiency**
-- Affinity Dice carry over between sessions until spent
+- When you embody your Affinity (GM judges), gain 1 Affinity Die
+- Maximum: You may gain Affinity Dice up to **Proficiency times per day**
+- Example: Proficiency 3 = max 3 Affinity Dice gained per day
+
+**Storing Affinity Dice:**
+- You may store up to **Level** Affinity Dice at once
+- Example: Level 5 = store max 5 Affinity Dice
+- Unused Affinity Dice do NOT expire (persist until spent)
 
 **Spending Affinity Dice:**
-- Before rolling any action, you may spend stored Affinity Dice to add them to your roll
-- Each Affinity Die is a d6
-- **Affinity Dice follow proficiency dice rules** (don't burn HD on 1s, count 6s as 2 successes)
-- **Maximum Affinity Dice per roll = Your Proficiency**
+- On any roll, you may add stored Affinity Dice as bonus dice
+- **Affinity Dice count as exertion dice:**
+  - They burn your HD if they roll 1s
+  - They count toward your per-action exertion cap (max Proficiency per action)
+- You may spend multiple Affinity Dice on one roll (respecting action cap)
+
+**Sharing Affinity Dice:**
+- As a **free action** on your turn, transfer any number of stored Affinity Dice to an ally within 30 yards
+- That ally adds them to their stored pool (respecting their Level cap)
+- Shared Affinity Dice follow the same spending rules
+- "Our purpose is shared."
+
+**Tracking:**
+Use tokens, marks, or dice to track stored Affinity Dice between sessions.
 
 **Examples of Gaining Affinity:**
 - **Memory:** Preserving a forgotten truth, honoring the dead's true story, refusing to let history be erased
@@ -737,9 +774,14 @@ Each ability defines:
 - **Action Tier**
 - **Base HD Damage / Outcome** (if successful)
 
-**Final Damage = Base Impact + Extra Successes (capped at Proficiency)**
+### Damage Calculation Formula
 
-*Extra successes beyond required add +1 HD damage each, but bonus damage cannot exceed your Proficiency. This prevents low-tier actions with massive exertion from creating wild power spikes at high levels while preserving meaningful scaling through character growth.*
+**Final Damage = Base Damage + Bonus Damage (capped at Proficiency)**
+
+- **Base Damage:** Determined by weapon, spell, or ability (never capped)
+- **Bonus Damage:** Each success beyond required adds +1 HD damage (capped at Proficiency)
+
+*This prevents low-tier actions with massive exertion from creating wild power spikes at high levels while preserving meaningful scaling through character growth. A Level 10 character (Proficiency 5) cannot add more than +5 HD bonus damage from extra successes, regardless of how many dice they roll.*
 
 ---
 
@@ -815,7 +857,7 @@ Each die is rolled using **its own size:**
 
 **Each 5+ cancels 1 incoming damage, regardless of die size.**
 
-*Note: Unlike attack rolls, the "6 = 2 successes" rule does NOT apply to defense rolls.*
+*Note: Unlike attack rolls, explosive dice (6/8/10/12 = 2 successes) do NOT apply to defense rolls. Highest possible rolls count as only 1 success.*
 
 **If a die is lost (rolled under 5):**
 - Layers are depleted in order (spell effects → armor → temp HD → permanent HD)

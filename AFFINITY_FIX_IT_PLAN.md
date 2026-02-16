@@ -89,295 +89,221 @@ No rules existed for HD recovery, Resolve recovery, or rest mechanics—creating
 
 ---
 
-### 3. Defense Roll Clarity
+### 3. Defense Roll Clarity ✅ RESOLVED
 
-**Status:** 🔴 CRITICAL  
+**Status:** ✅ **FIXED**  
 **Files Affected:**
-- `Basic Rules/Affinity_Combat_Rules.md`
-- `Basic Rules/Affinity_Quick_Reference.md`
+- `Basic Rules/Affinity_Combat_Rules.md` ✅
+- `Basic Rules/Affinity_Quick_Reference.md` ✅
 
 **The Problem:**
-Combat Rules say: "Roll ½ Proficiency dice using their class HD type, each 5+ cancels 1 damage"
+Combat Rules said "Roll ½ Proficiency dice using their class HD type" without clarifying rounding, minimum dice, or why die type matters when rolling for 5+ threshold.
 
-**Questions:**
-- Level 1-2 characters roll 0.5 dice? (Proficiency 1 → ½ = ?)
-- Round up or down?
-- Why does "class HD type" matter if you're rolling for 5+ successes? (d10 vs d6 same success rate)
+**Decision Made:**
+✅ **Defense Capacity = ½ Proficiency (rounded up, minimum 1 die)**
 
-**Likely Intent:**
-You meant "roll FULL Proficiency dice" and the "½" was a typo OR you meant something else entirely.
+**Implemented Fix:**
+- ✅ **Layered Defense System:** Magical barriers (d12) → Armor temp HD (d6/d8/d10) → Permanent HD (class die type)
+- ✅ **Die Type Matters:** Each layer defends using its own die type (d12 barriers = 50% sustain rate, d6 armor = 33% rate)
+- ✅ **Defense Capacity:** ½ Prof rounded up creates tight, strategic defense scaling (1 die at low levels, max 3 dice at Level 10)
+- ✅ **Overwhelming Damage:** If damage > defense capacity, you still roll but auto-fail depletion
+- ✅ **Layer Depletion:** Any remaining damage after defense roll depletes entire layer, moves to next layer inward
+- ✅ **No Explosive 6/8/10/12s:** Highest roll on defense dice count as 1 success only on defense rolls
+- ✅ **No Exertion/Affinity:** Defense is reactive, no voluntary dice additions
+- ✅ **Comprehensive examples:** Combatant (successful armor defense), Weaver (overwhelming damage cascade), Scholar (unarmored class HD defense)
+- ✅ **Strategic notes:** Armor is lifeline, 0 HD ≠ death, healing exists, magical barriers superior
 
-**Recommended Fix:**
-```markdown
-## Defense Rolls
+**Design Philosophy Preserved:**
+- Brutal but fair: Armor loss creates death spiral pressure
+- Strategic tension: Retreat to Recover vs push through
+- Class synergy value: Magical protection from Weavers/Priests/Shamans is crucial
+- Die type differentiation: d12 magical barriers twice as durable as d6 armor
 
-When you take HD damage from an attack or effect:
-
-1. **Armor Absorbs First:** Deplete temporary HD from armor before rolling defense
-2. **Roll Defense Dice:** Roll Proficiency d6s (regardless of class HD type)
-3. **Count Successes:** Each 5+ cancels 1 incoming HD damage
-4. **No Exertion Allowed:** You cannot add exertion dice to defense rolls
-5. **No Explosive Dice:** 6s count as 1 success only (not 2)
-6. **Apply Remaining Damage:** Subtract from your HD pool
-
-**Example:**
-Fighter (Proficiency 3, 9d10 HD, 7 temp HD from armor) is hit for 10 HD damage.
-- Armor absorbs 7 damage (temp HD depleted to 0)
-- Roll 3d6 defense → 6, 4, 5 = 2 successes
-- Cancel 2 damage (3 remaining)
-- Subtract 3 from HD pool (9 → 6 HD remaining)
-```
-
-**Decision Needed:**
-- Full Proficiency or Half Proficiency for defense?
-- Does class HD type matter for defense? (If not, remove mention)
-
-**Action Items:**
-- [ ] Clarify defense dice count (Full Prof recommended)
-- [ ] Explicitly state rounding if using ½ Prof
-- [ ] Confirm 6s on defense = 1 success only (not 2)
-- [ ] Remove "class HD type" reference if it doesn't mechanically matter
-- [ ] Add defense example to Quick Reference
+**Full defense mechanics with layered system, success rate tables, and three detailed examples added to Combat Rules. Condensed reference table added to Quick Reference.**
 
 ---
 
-### 4. Armor Temp HD Mechanics
+### 4. Armor Temp HD Mechanics ✅ RESOLVED
 
-**Status:** 🔴 CRITICAL  
+**Status:** ✅ **FIXED**  
 **Files Affected:**
-- `Basic Rules/Affinity_Combat_Rules.md`
-- `Player Book/Affinity_Character_Creation.md`
+- `Basic Rules/Affinity_Combat_Rules.md` ✅
+- `Basic Rules/Affinity_Core_Mechanics.md` ✅
+- `Player Book/Affinity_Items.md` ✅
+- `Player Book/Affinity_Character_Creation.md` ✅
+- `Basic Rules/Affinity_Quick_Reference.md` ✅
 
 **The Problem:**
-Quick Reference says "Light Armor: 2d6 temp HD" but never explains:
-- When do you roll armor dice? (Start of combat? When donning? Daily?)
-- How is it depleted? (Before defense roll? Instead of defense roll?)
-- Does it regenerate? (Long rest? Short rest? Re-donning only?)
+No consolidated explanation of when to roll armor dice, how it depletes, and how it recovers.
 
-**Recommended Fix:**
-```markdown
-## Armor & Temporary HD
+**Decision Made:**
+✅ **All mechanics already covered through Defense Roll and Rest & Recovery systems**
 
-Armor provides **Temporary Hit Dice** that absorb damage before your permanent HD pool.
+**Implemented Fix:**
+- ✅ **When to roll**: "Rolled when donned" (explicit in Items.md, shown in Defense examples)
+- ✅ **Armor types**: Light (2d6), Medium (2d8), Heavy (2d10), Shield (+1d12) documented in Items.md and Quick Reference
+- ✅ **Heavy armor requirements**: "Requires Proficiency 2+ OR Combatant/Sovereign class" (Character_Creation.md)
+- ✅ **Depletion mechanics**: Layered defense system explains armor as middle layer between magical barriers and permanent HD
+- ✅ **Recovery rules**: 
+  - Does NOT regenerate automatically during Rest
+  - Recover (safe, 6+ hours): Re-roll armor temp HD when donning
+  - Rest with Craft/Mend abilities: Can repair armor
+  - Without repair abilities: Stays depleted until Recover
 
-**When You Don Armor:**
-- Roll armor dice immediately (e.g., Light Armor = roll 2d6)
-- Total rolled = your current temporary HD
-- This temp HD pool remains until depleted or armor is removed
+**Design Philosophy Preserved:**
+- Armor as consumable resource creates strategic tension
+- Losing armor mid-adventure forces retreat decisions
+- Class abilities (Craft/Mend) have meaningful value
+- Shields (d12) provide superior protection vs light armor (d6)
 
-**When You Take Damage:**
-1. Deplete temporary HD first (no roll needed, straight subtraction)
-2. Once temp HD = 0, roll defense dice against remaining damage
-3. Apply any remaining damage to permanent HD pool
-
-**Armor Types:**
-- **Light Armor:** 2d6 temp HD (leather, padded)
-- **Medium Armor:** 2d8 temp HD (chainmail, scale)
-- **Heavy Armor:** 2d10 temp HD (plate, full plate) — *Requires Proficiency 2+ OR Combatant/Sovereign class*
-- **Shield:** +1d12 temp HD (adds to armor total)
-- **Magic Armor:** 2d12 temp HD (enchanted protection)
-
-**Recovery:**
-- Temp HD do NOT regenerate during rest
-- Remove armor and re-don it to re-roll temp HD (takes 1 minute)
-- Strategic: Rest in armor to keep temp HD, or doff/don to re-roll?
-
-**Example:**
-Combatant wears Medium Armor (2d8) + Shield (+1d12).
-- Rolls 2d8 → 4+7 = 11 temp HD
-- Rolls 1d12 → 9 temp HD
-- **Total: 20 temp HD buffer before taking real damage**
-```
-
-**Action Items:**
-- [ ] Add "Armor & Temporary HD" section to Combat Rules
-- [ ] Add armor table to Character Creation (already exists, clarify rolling)
-- [ ] Decide: Can you re-roll armor temp HD on long rest? (Recommend: No, must doff/don)
-- [ ] Clarify if "Rage abilities" (2d12 temp HD) stack with armor
+**All armor mechanics fully documented across Defense Roll system, Rest & Recovery rules, Items catalog, and Character Creation guide.**
 
 ---
 
-### 5. Action Economy Ambiguity
+### 5. Action Economy Ambiguity ✅ RESOLVED
 
-**Status:** 🔴 CRITICAL  
+**Status:** ✅ **FIXED**  
 **Files Affected:**
-- `Basic Rules/Affinity_Combat_Rules.md`
-- `Basic Rules/Affinity_Core_Mechanics.md`
+- `Basic Rules/Affinity_Combat_Rules.md` ✅
+- `Basic Rules/Affinity_Core_Mechanics.md` ✅
+- `Basic Rules/Affinity_Quick_Reference.md` ✅
 
 **The Problem:**
-Core Mechanics says: "You may take up to 2 actions per turn"
+Core Mechanics said "Each action has its own Exertion budget = Your Proficiency dice" while Quick Reference said "Max dice = Your Level (split across all actions)" creating a fundamental contradiction about whether exertion pools are shared or independent.
 
-Quick Reference says: "Exertion Budget: Max dice = Your Level (split across all actions this turn, max Proficiency per action)"
+**Decision Made:**
+✅ **Option B: Each Action Gets Independent Proficiency Pool**
 
-But Core Mechanics ALSO says: "Each action has its own Exertion budget = Your Proficiency dice"
-
-**This is contradictory.**
-
-**Example Confusion:**
-Level 5 Combatant (Proficiency 3, "Level" = 5)
-- Can I use 3 exertion on Action 1 AND 3 exertion on Action 2? (Total 6?)
-- Or is my TOTAL exertion budget 5 for the turn, split however I want?
-- If the latter, the "max Prof per action" = 3 means I can't spend all 5 on one action?
-
-**Recommended Fix (Choose One):**
-
-**Option A: Exertion = Level Total, Split as Desired**
-```markdown
-## Action Economy
-
-Each turn you have:
-- **Movement:** 10 yards (does not cost an action)
-- **Actions:** Up to 2 standard actions
-- **Exertion Budget:** Total = Your LEVEL per turn
-  - You may split exertion across your actions as desired
-  - **Max Proficiency exertion dice per single action** (prevents dumping all dice on one attack)
-- **Free Actions:** Drop item, speak briefly
-
-**Example (Level 5, Proficiency 3):**
-- Action 1: Attack with 3 exertion (max allowed per action)
-- Action 2: Attack with 2 exertion (5 total spent, budget exhausted)
-```
-
-**Option B: Each Action Gets Independent Proficiency Pool**
-```markdown
-## Action Economy
-
-Each turn you have:
-- **Movement:** 10 yards (does not cost an action)
-- **Actions:** Up to 2 standard actions
-- **Exertion Budget:** Each action may use up to PROFICIENCY exertion dice independently
-  - Unused exertion does NOT carry to next action
+**Implemented Fix:**
+- ✅ **Movement:** 10 yards base (doesn't cost an action)
+- ✅ **Actions:** Up to 2 standard actions for player characters (NPCs may have different action counts)
+- ✅ **Exertion per Action:** Each action has independent Proficiency exertion pool
+  - Max exertion per single action = Proficiency
   - Max exertion per turn = Proficiency × 2 (if taking 2 actions)
+  - Unused exertion does NOT carry between actions
+- ✅ **Free Actions:** Drop item, speak briefly (GM discretion at table)
+- ✅ **Additional Movement:** Some classes/paths/abilities/actions grant extra movement beyond base 10 yards
 
-**Example (Proficiency 3):**
-- Action 1: Attack with up to 3 exertion
-- Action 2: Attack with up to 3 exertion
-- Total possible: 6 exertion per turn
-```
+**Example Clarified:**
+Level 5 character (Proficiency 3):
+- Action 1: Attack using 3 Proficiency dice + up to 3 Exertion dice
+- Action 2: Cast spell using 3 Proficiency dice + up to 3 Exertion dice
+- **Total possible: 6 Proficiency dice + 6 Exertion dice = 12d6 per turn**
 
-**Decision Needed:**
-Which option fits your intended balance? Option A conserves resources. Option B enables more aggressive play.
+**Design Philosophy Preserved:**
+- Aggressive, dynamic combat with high exertion potential
+- Each action is independently powerful
+- Encourages taking 2 actions per turn (double the aggression, double the risk)
+- HD burn on 1s creates meaningful risk when maximizing exertion
+- Scales with Proficiency, not Level (keeps low-level play intense)
 
-**Action Items:**
-- [ ] Choose Option A or Option B (or design Option C)
-- [ ] Rewrite action economy section for crystal clarity
-- [ ] Update Quick Reference with chosen rule
-- [ ] Ensure all class abilities respect the action economy (War Cries, spells, etc.)
+**All action economy rules clarified across Combat Rules, Core Mechanics, and Quick Reference with consistent language and examples.**
 
 ---
 
-### 6. Bonus Damage Cap Wording
+### 6. Bonus Damage Cap Wording ✅ RESOLVED
 
-**Status:** 🔴 CRITICAL  
+**Status:** ✅ **FIXED**  
 **Files Affected:**
-- `Basic Rules/Affinity_Core_Mechanics.md`
-- `Basic Rules/Affinity_Combat_Rules.md`
+- `Basic Rules/Affinity_Core_Mechanics.md` ✅
+- `Basic Rules/Affinity_Combat_Rules.md` ✅
+- `Basic Rules/Affinity_Quick_Reference.md` ✅
 
 **The Problem:**
-Core Mechanics says: "Extra successes beyond required add +1 HD damage each (capped at Proficiency)"
+Core Mechanics said "Extra successes beyond required add +1 HD damage each (capped at Proficiency)" without clarifying whether the cap meant (A) bonus damage maximum or (B) counting only Proficiency successes. The ambiguous language created confusion about damage calculation.
 
-**Ambiguous:** Does "capped at Proficiency" mean:
-- **A)** Extra successes can only add UP TO Proficiency bonus damage?
-- **B)** You can only COUNT Proficiency extra successes?
+**Decision Made:**
+✅ **Bonus damage from extra successes is capped at Proficiency (not the count of successes)**
 
-**Example:**
-Fighter (Prof 3) rolls 7 successes on Basic attack (requires 1).
-- Base damage: 2 HD (heavy weapon)
-- Extra successes: 6
+**Implemented Fix:**
 
-**If Cap = Proficiency Bonus Damage Max:**
-Final damage = 2 HD (base) + 3 HD (capped) = **5 HD total**
+**Core Mechanics (2 locations updated):**
+- ✅ **Damage Calculation section added** with clear structure:
+  - **Base Damage:** Determined by weapon, spell, or ability (never capped)
+  - **Bonus Damage:** Each success beyond required adds +1 HD damage (capped at Proficiency)
+  - **Bonus Damage Cap:** Explicitly states only bonus from extra successes is capped, not base damage
+- ✅ **Example added:** Combatant (Prof 3) with heavy weapon rolling 8 successes = 2 HD base + 3 HD bonus (6 extra capped at Prof 3) = **5 HD total**
+- ✅ **Design rationale:** Prevents low-tier actions with massive exertion from creating wild power spikes while preserving meaningful scaling
 
-**If Cap = Count Only Proficiency Successes:**
-Same result, different math pathway.
+**Combat Rules:**
+- ✅ **Attack Sequence step 6 expanded** from single line to explicit breakdown:
+  - Base Damage (from weapon/ability)
+  - + Bonus Damage (extra successes, max = Proficiency)
+  - Total Damage = Base + Bonus (capped)
 
-**Recommended Fix:**
-```markdown
-## Damage Calculation
+**Quick Reference:**
+- ✅ **Action Resolution step 5 updated** to "(Base + Bonus, bonus capped at Prof)" for condensed clarity
 
-**Base Damage:** Determined by weapon, spell, or ability
+**Design Philosophy Preserved:**
+- Proficiency as natural damage scaling: Level 10 (Prof 5) can add max +5 HD bonus
+- Prevents degenerate "roll 20 dice on Basic attack" strategies
+- Base damage never capped (Heavy weapon always deals base 2 HD minimum)
+- Extra successes still valuable (every success up to Prof cap adds damage)
+- Applies universally: Attacks, spells, social conflict (Resolve damage), all actions
 
-**Bonus Damage:** Each success beyond the required amount adds +1 HD damage
-
-**Bonus Damage Cap:** Bonus damage from extra successes is capped at your **Proficiency** score
-- This prevents exponential scaling at high levels
-- Base damage is never capped (only bonus from extra successes)
-
-**Example:**
-Combatant (Proficiency 3) attacks with heavy weapon (2 HD base, requires 2 successes).
-- Rolls 8 successes (6 extra)
-- Base: 2 HD
-- Bonus: 6 successes, but capped at Proficiency 3 = +3 HD
-- **Total: 5 HD damage**
-```
-
-**Action Items:**
-- [ ] Rewrite bonus damage section with explicit cap language
-- [ ] Add example calculation to Combat Rules
-- [ ] Clarify if cap applies to spells (assume yes, needs confirmation)
-- [ ] Update Quick Reference with damage formula
+**All damage calculation language now consistent and unambiguous across Core Mechanics, Combat Rules, and Quick Reference.**
 
 ---
 
 ## 🟡 HIGH PRIORITY (Should Fix for Smooth Play)
 
-### 7. Affinity Dice Mechanics Unclear
+### 7. Affinity Dice Mechanics Unclear ✅ RESOLVED
 
-**Status:** 🟡 HIGH  
+**Status:** ✅ **FIXED**  
 **Files Affected:**
-- `Player Book/Affinity_Character_Creation.md`
+- `Player Book/Affinity_Character_Creation.md` ✅
+- `Basic Rules/Affinity_Core_Mechanics.md` ✅
+- `Basic Rules/Affinity_Quick_Reference.md` ✅
 
 **The Problem:**
 Multiple contradictions and unanswered questions:
 - "Can be stored until used (max LEVEL at a time)"
-- "Gain maximum Proficiency times per long rest"
-- "Count as exertion dice, drawn from turn budget" ← Does this mean they DO count against exertion budget?
+- "Gain maximum Proficiency times per long rest" ← No "long rest" exists in Affinity
+- "Count as exertion dice, drawn from turn budget" ← Unclear if they count against exertion cap
 - "Can be shared with allies" ← No mechanics for how
 
-**Questions:**
-1. If I'm Level 5, can I store 5 Affinity Dice total?
-2. Do unused Affinity Dice expire at long rest?
-3. When I spend an Affinity Die, does it count against my per-action Proficiency exertion cap?
-4. How do I share them with allies? (Action? Free action? Range?)
+**Decision Made:**
+✅ **Affinity Dice count as exertion dice with full sharing mechanics**
 
-**Recommended Fix:**
-```markdown
-## Affinity Dice
+**Implemented Fix:**
 
-Affinity Dice are bonus d6s earned by embodying your chosen virtue.
+**All Three Files Updated with Complete Mechanics:**
 
 **Gaining Affinity Dice:**
-- When you embody your Affinity (GM judges), gain 1 Affinity Die
-- Maximum: You may gain Affinity Dice up to **Proficiency times per long rest**
-- Example: Proficiency 3 = max 3 Affinity Dice gained between long rests
+- ✅ When you embody your Affinity (GM judges), gain 1 Affinity Die
+- ✅ Maximum: You may gain Affinity Dice up to **Proficiency times per day** (corrected from "per long rest")
+- ✅ Example: Proficiency 3 = max 3 Affinity Dice gained per day
 
 **Storing Affinity Dice:**
-- You may store up to **Level** Affinity Dice at once
-- Example: Level 5 = store max 5 Affinity Dice
-- Unused Affinity Dice do NOT expire (persist until spent)
+- ✅ You may store up to **Level** Affinity Dice at once
+- ✅ Example: Level 5 = store max 5 Affinity Dice
+- ✅ Unused Affinity Dice do NOT expire (persist until spent)
 
 **Spending Affinity Dice:**
-- On any roll, you may add stored Affinity Dice as bonus dice
-- **Affinity Dice count as exertion dice:**
+- ✅ On any roll, you may add stored Affinity Dice as bonus dice
+- ✅ **Affinity Dice count as exertion dice:**
   - They burn your HD if they roll 1s
   - They count toward your per-action exertion cap (max Proficiency per action)
-- You may spend multiple Affinity Dice on one roll (respecting action cap)
+- ✅ You may spend multiple Affinity Dice on one roll (respecting action cap)
 
 **Sharing Affinity Dice:**
-- As a **free action** on your turn, transfer any number of stored Affinity Dice to an ally within 30 yards
-- That ally adds them to their stored pool (respecting their Level cap)
-- Shared Affinity Dice follow the same spending rules
-- "Our purpose is shared."
+- ✅ As a **free action** on your turn, transfer any number of stored Affinity Dice to an ally within 30 yards
+- ✅ That ally adds them to their stored pool (respecting their Level cap)
+- ✅ Shared Affinity Dice follow the same spending rules
+- ✅ "Our purpose is shared."
 
 **Tracking:**
-Use tokens, marks, or dice to track stored Affinity Dice between sessions.
-```
+- ✅ Use tokens, marks, or dice to track stored Affinity Dice between sessions
 
-**Action Items:**
-- [ ] Rewrite Affinity Dice section with full mechanics
-- [ ] Add Affinity Dice to Quick Reference
-- [ ] Clarify if Affinity Dice count toward "Bonus Dice Cap" (Level + 3 per action)
-- [ ] Provide GM guidance on awarding Affinity Dice (specific trigger examples per virtue)
+**Design Philosophy Preserved:**
+- Virtue embodiment creates mechanical advantage
+- Sharing mechanic reinforces party cooperation
+- Affinity Dice as exertion = risk/reward tension (1s burn HD)
+- Cap prevents degenerate play while scaling with advancement
+- Daily gain limit = Proficiency (scales naturally)
+- Storage limit = Level (prevents hoarding at low levels, allows reserves at high levels)
+
+**All Affinity Dice mechanics now fully documented with clear answers to all spending, sharing, gaining, and storage questions.**
 
 ---
 
@@ -854,13 +780,15 @@ Use this checklist to track progress as you work through fixes:
 ### Critical Fixes (Required for Playtest)
 - [x] **Issue #1:** Resolve scaling fixed across all documents ✅
 - [x] **Issue #2:** Rest & Recovery rules written and integrated ✅
-- [ ] **Issue #3:** Defense roll mechanics clarified
-- [ ] **Issue #4:** Armor temp HD system fully explained
-- [ ] **Issue #5:** Action economy unambiguously defined
-- [ ] **Issue #6:** Bonus damage cap explicitly worded
+- [x] **Issue #3:** Defense roll mechanics clarified ✅
+- [x] **Issue #4:** Armor temp HD system fully explained ✅
+- [x] **Issue #5:** Action economy unambiguously defined ✅
+- [x] **Issue #6:** Bonus damage cap explicitly worded ✅
+
+**🎉 ALL CRITICAL FIXES COMPLETE — SYSTEM IS PLAYTEST READY! 🎉**
 
 ### High Priority (Smooth Play)
-- [ ] **Issue #7:** Affinity Dice mechanics complete
+- [x] **Issue #7:** Affinity Dice mechanics complete ✅
 - [ ] **Issue #8:** Skill training progression rules added
 - [ ] **Issue #9:** Monster exertion rules decided & documented
 - [ ] **Issue #10:** Multi-target action rules written
