@@ -73,10 +73,10 @@ No rules existed for HD recovery, Resolve recovery, or rest mechanics—creating
 
 **Implemented Fix:**
 - ✅ **Rest (0.5-8 hours, threatened):** Regain Proficiency HD, regain 1 Resolve, reset short rest abilities
-- ✅ **Recover (6+ hours, safe):** Regain all HD, regain all Resolve (5), reset all abilities, re-roll armor temp HD
+- ✅ **Recover (6+ hours, safe):** Regain all HD, regain all Resolve (5), reset all abilities, restore armor layer
 - ✅ **2 Rests per day maximum** (prevents rest-spam degenerate play)
 - ✅ **Safety requirement** for Recover (Rangers/Priests can create safe spaces)
-- ✅ **Armor repair** tied to class abilities (doesn't auto-regenerate)
+- ✅ **Armor repair** tied to class abilities (doesn't auto-restore during Rest)
 - ✅ **Class augmentation** noted (Rangers, Priests, Sovereigns, Scholars can improve rest effectiveness)
 
 **Strategic Depth Created:**
@@ -134,27 +134,28 @@ Combat Rules said "Roll ½ Proficiency dice using their class HD type" without c
 - `Basic Rules/Affinity_Quick_Reference.md` ✅
 
 **The Problem:**
-No consolidated explanation of when to roll armor dice, how it depletes, and how it recovers.
+No consolidated explanation of how armor interacts with the defense system.
 
 **Decision Made:**
-✅ **All mechanics already covered through Defense Roll and Rest & Recovery systems**
+✅ **Armor provides defense dice rolled DURING defense, NOT pre-rolled when donned**
 
 **Implemented Fix:**
-- ✅ **When to roll**: "Rolled when donned" (explicit in Items.md, shown in Defense examples)
-- ✅ **Armor types**: Light (2d6), Medium (2d8), Heavy (2d10), Shield (+1d12) documented in Items.md and Quick Reference
-- ✅ **Heavy armor requirements**: "Requires Proficiency 2+ OR Combatant/Sovereign class" (Character_Creation.md)
-- ✅ **Depletion mechanics**: Layered defense system explains armor as middle layer between magical barriers and permanent HD
-- ✅ **Recovery rules**: 
-  - Does NOT regenerate automatically during Rest
-  - Recover (safe, 6+ hours): Re-roll armor temp HD when donning
-  - Rest with Craft/Mend abilities: Can repair armor
+- ✅ **Armor as defense layer:** Armor provides dice (2d6/2d8/2d10/+1d12 shield) rolled on defense as your OUTER layer
+- ✅ **Rolled during defense:** When you take damage, roll armor dice first. Each 5+ cancels 1 damage.
+- ✅ **Layer depletion:** If ANY damage remains after rolling armor dice, the armor layer is depleted (destroyed until repaired/rest)
+- ✅ **Defense sequence:** Magical barriers (d12) → Armor layer (d6/d8/d10) → Permanent HD (class die type)
+- ✅ **Heavy armor requirements:** "Requires Proficiency 2+ OR Combatant/Sovereign class" (Character_Creation.md)
+- ✅ **Recovery rules:** 
+  - Rest with Craft/Mend abilities: Can restore armor layer
+  - Recover (safe, 6+ hours): Armor layer fully restored
   - Without repair abilities: Stays depleted until Recover
 
 **Design Philosophy Preserved:**
-- Armor as consumable resource creates strategic tension
-- Losing armor mid-adventure forces retreat decisions
+- Armor as defense layer creates strategic tension
+- Losing armor mid-adventure forces retreat decisions OR reliance on permanent HD
 - Class abilities (Craft/Mend) have meaningful value
-- Shields (d12) provide superior protection vs light armor (d6)
+- Shields (+1d12) provide superior defensive die vs light armor (d6)
+- Die type matters: d10 armor succeeds 60% vs d6 armor at 33%
 
 **All armor mechanics fully documented across Defense Roll system, Rest & Recovery rules, Items catalog, and Character Creation guide.**
 

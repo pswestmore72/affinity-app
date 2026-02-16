@@ -16,7 +16,7 @@
 ### Core Stats
 - **Current HD:** 5d8 (5 HD available)
 - **Current Resolve:** 5/5
-- **Armor Temp HD:** 2d8 (Medium Armor - Scale Mail, rolled fresh each rest)
+- **Armor:** 2d8 (Medium Armor - Scale Mail, defense layer)
 
 ### Defining Affinity
 **Virtue:** **Decay** *(Darthun)* — *"Accept necessary endings or clear corruption to allow renewal"*
@@ -489,8 +489,8 @@ Consider **Ritual Weaver** (adjacent to Lorekeeper's Focus):
 ### Core Stats
 - **Current HD:** 5d10 (5 HD available)
 - **Current Resolve:** 5/5
-- **Armor Temp HD:** 2d10 (Heavy Armor - Half-plate, rolled fresh each rest)
-- **Shield Temp HD:** 1d12 (Shield, rolled fresh each rest)
+- **Armor:** 2d10 (Heavy Armor - Half-plate, defense layer)
+- **Shield:** +1d12 (defense layer)
 
 ### Defining Affinity
 **Virtue:** **Guardian** *(Caerith)* — *"Stand watch against overwhelming odds or protect the defenseless"*

@@ -360,16 +360,14 @@ Kara gives Lyra **a small carved stone** - a perfectly balanced cube. "This was 
 **Torvan:**
 - HD: 5d10 (full)
 - Resolve: 5/5 (full)
-- Temp HD: 24 (2d10 half-plate + 1d12 shield, rolled when donned: 8+7+9)
-  - *Note: Armor temp HD rolled when donned, Auto-restore during long rest to this value*
+- Armor: 2d10 (half-plate) + 1d12 (shield) - defense layer, intact
 - Affinity Dice Stored: 1 (from sacrificing payment earlier)
 - Notable Gear: Extra shield from Torvald
 
 **Kael:**
 - HD: 5d8 (full)
 - Resolve: 5/5 (full)
-- Temp HD: 11 (2d8 scale mail, rolled when donned: 5+6)
-  - *Note: Armor temp HD auto-restore during long rest, NOT re-rolled*
+- Armor: 2d8 (scale mail) - defense layer, intact
 - Affinity Dice Stored: 0
 - Notable Gear: Durg's crude map, healing kit
 - Spells Prepared: Entangle, Cure Wounds
@@ -377,7 +375,7 @@ Kara gives Lyra **a small carved stone** - a perfectly balanced cube. "This was 
 **Lyra:**
 - HD: 4d6 (full)
 - Resolve: 5/5 (full)
-- Temp HD: 0 (no armor)
+- Armor: None (defends with permanent HD only)
 - Affinity Dice Stored: 0
 - Notable Gear: Kara's carved offering stone, 2 healing potions
 - Spells Prepared: Magic Missile, Shield, Comprehend Languages, Healing Word
@@ -642,11 +640,11 @@ This is a **team effort**:
 - **Lyra:** Lore expert (identified Khuldras, decoded locks, Weave Sight)
 - **Kael:** Practical skills (read Durg's guilt, repaired mechanism)
 
-✅ **CORRECTED: Armor temp HD mechanics**
-- Armor dice rolled ONCE when donned (not re-rolled during rest)
-- Long rest: Auto-restore to originally rolled value
-- Short rest: Can attempt Craft/Medicine check to repair
-- Session log updated to reflect correct mechanic
+✅ **CORRECTED: Armor defense mechanics**
+- Armor provides dice for your OUTER defense layer (2d6/2d8/2d10/+1d12 shield)
+- Rolled DURING defense, NOT pre-rolled when donned
+- Each 5+ cancels 1 damage; if damage remains, armor layer depletes
+- Recover (6+ hours safe) restores armor layer; Rest + Craft abilities can repair
 
 ### Issues Identified
 

@@ -372,15 +372,15 @@ Your defenses are depleted from **outermost layer inward:**
 
 *Level 5 Combatant (Proficiency 3, Defense Capacity = 2 dice)*
 - Current HD: 11d10 permanent HD
-- Wearing medium armor: 12 temp HD (rolled 2d8 earlier)
+- Wearing medium armor (2d8 armor layer)
 - Takes 3 HD damage from orc's axe
 
 **Defense:**
-- Damage (3) ≤ Defense capacity (2)? No, but still rollable
+- Damage (3) vs Defense capacity (2 dice)
 - Roll 2d8 for armor layer → Results: 7, 4
 - Successes: 1 (the 7 rolls 5+, the 4 does not)
 - Canceled: 1 damage, 2 damage remains
-- **Armor depletes:** Lose all 12 temp HD from armor
+- **Armor layer depletes:** Armor destroyed, no longer usable for defense
 - 2 damage moves to permanent HD layer
 
 - Roll 2d10 for permanent HD → Results: 6, 3
@@ -388,7 +388,7 @@ Your defenses are depleted from **outermost layer inward:**
 - Canceled: 1 damage, 1 damage remains
 - **Lose 1 permanent HD:** 11d10 → 10d10
 
-**Final State:** 10d10 HD, 0 temp HD from armor (armor destroyed)
+**Final State:** 10d10 HD, armor destroyed (must repair or rest to restore armor layer)
 
 ---
 
@@ -396,23 +396,23 @@ Your defenses are depleted from **outermost layer inward:**
 
 *Level 1 Weaver (Proficiency 1, Defense Capacity = 1 die)*
 - Current HD: 5d6 permanent HD
-- Magical barrier: 9 temp HD (rolled 2d12 earlier from spell)
-- Light armor: 7 temp HD (rolled 2d6 earlier)
+- Magical barrier (2d12 from Shield spell - outermost layer)
+- Light armor (2d6 armor layer - middle layer)
 - Takes 4 HD damage from area spell
 
 **Defense:**
-- Damage (4) > Defense capacity (1)? Yes—**cannot roll enough dice to stop it**
-- Roll 1d12 for magical barrier → Result: 9
+- Damage (4) > Defense capacity (1)? Yes—**cannot roll enough dice to stop it all**
+- Roll 1d12 for magical barrier (outermost) → Result: 9
 - Success: 1 (the 9 rolls 5+)
 - Canceled: 1 damage, 3 damage remains
-- **Magical barrier depletes:** Lose all 9 temp HD from magical barrier
+- **Magical barrier depletes:** Barrier spell exhausted
 - 3 damage moves to armor layer
 
 - Damage (3) > Defense capacity (1)? Yes (still too much)
 - Roll 1d6 for armor → Result: 2
 - Success: 0 (the 2 fails)
 - Canceled: 0 damage, 3 damage remains
-- **Armor depletes:** Lose all 7 temp HD from armor
+- **Armor layer depletes:** Armor destroyed
 - 3 damage moves to permanent HD
 
 - Roll 1d6 for permanent HD → Result: 5
@@ -420,7 +420,7 @@ Your defenses are depleted from **outermost layer inward:**
 - Canceled: 1 damage, 2 damage remains
 - **Lose 2 permanent HD:** 5d6 → 3d6
 
-**Final State:** 3d6 HD, 0 magical barrier, 0 armor (both destroyed, barely alive)
+**Final State:** 3d6 HD, barrier exhausted, armor destroyed (both layers must be restored before defending with them again)
 
 ---
 
@@ -487,7 +487,7 @@ Instead of attacking, you can take the **Defend** action:
 
 - **Gain 2d6 bonus dice** for this round's defense rolls
 - These are rolled as d6s and follow the same rules (5+ cancels damage)
-- Can be combined with normal defense dice (temp HD/permanent HD rolled first, then bonus d6s)
+- Defense sequence: Armor layer rolled first → Permanent HD → Then bonus d6s
 - Lasts until start of your next turn
 
 ### Intervene (If have not yet acted in turn order)

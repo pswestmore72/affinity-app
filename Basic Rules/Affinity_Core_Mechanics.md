@@ -88,7 +88,7 @@ Different classes have different Hit Dice:
 - Regain **Proficiency HD** (not maximum, just your Proficiency score)
 - Regain **1 Resolve** (up to maximum of 5)
 - Reset **short rest abilities** (War Cries, Power Words, etc.)
-- **Armor repair:** If you have class abilities that allow mending/repair/craft, you may re-roll armor temp HD
+- **Armor repair:** If you have class abilities that allow mending/repair/craft, you may restore your armor layer (making it usable for defense again)
 
 **Frequency:**
 - Maximum **2 Rests per day** (24-hour period)
@@ -1003,26 +1003,33 @@ Each die is rolled using **its own size:**
 
 ### Armor Types
 
-Armor grants **temporary Hit Dice** that are rolled/lost first before your own HD:
+Armor provides **defense dice** rolled as your outer layer during defense:
 
-- **Light Armor:** 2d6 temporary HD
-- **Medium Armor:** 2d8 temporary HD  
-- **Heavy Armor:** 2d10 temporary HD
+- **Light Armor:** 2d6 defense layer
+- **Medium Armor:** 2d8 defense layer  
+- **Heavy Armor:** 2d10 defense layer
+- **Shield:** +1d12 to defense layer
 
 **Example Defense with Armor:**
 
-Level 5 Weaver (d6 HD, Proficiency 3, wearing Magic Armor 2d12):
-- Rolls 2 defense dice (½ Prof)
-- First die: d8 (from armor)
-- Second die: d8 (from armor if still available, or d6 if magical armor is depleted)
-- Each 5+ cancels 1 damage
-- Lost dice come from armor first
+Level 5 Combatant (d10 HD, Proficiency 3, wearing Heavy Armor 2d10 + Shield 1d12):
+- Takes 4 damage
+- Defense capacity: 2 dice (½ Prof rounded up)
+- Roll 2d10 for armor layer → Results: 7, 3
+- Successes: 1 (the 7 rolls 5+)
+- Canceled: 1 damage, 3 damage remains
+- **Armor layer depletes** (destroyed until repaired/rest)
+- Roll 2d10 for permanent HD → Results: 8, 4
+- Successes: 1 (the 8)
+- Canceled: 1 damage, 2 damage remains
+- **Lose 2 permanent HD**
 
-**Repairing Armor:**
-- Armor automatically restores all temporary HD during a **long rest**
-- During a **short rest**, armor can be repaired if someone uses a Craft or Medicine check (Advanced 3+, 2 required successes) to mend it
-- Successfully mended armor restores all temporary HD
-- Failed mending attempt: armor remains damaged, can retry during next rest
+*Note: The shield's +1d12 is part of the armor layer—once that layer depletes, both armor and shield are unavailable until restored.*
+
+**Restoring Armor:**
+- **Recover (6+ hours, safe):** Armor layer fully restored
+- **Rest with Craft/Mend abilities:** Can restore armor layer
+- Without repair abilities: Armor stays depleted until Recover
 
 ---
 

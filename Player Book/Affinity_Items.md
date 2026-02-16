@@ -60,9 +60,9 @@ Items are categorized by **Rarity Tier**, which determines their power, availabi
 - **Best weapons create opportunities** for risk and reward, not guaranteed power
 
 ### Armor
-- **Armor provides temporary HD** (rolled when donned, lost before permanent HD)
-- **Different armor types use different dice:** Light (2d6), Medium (2d8), Heavy (2d10), Exceptional (2d12), Mythical (varies)
-- **Magical armor** may use better dice types, regenerate temp HD, or grant conditional benefits
+- **Armor provides defense dice** that form your outer defense layer (rolled during defense, depleted before permanent HD)
+- **Different armor types use different dice:** Light (2d6), Medium (2d8), Heavy (2d10), Shield (+1d12), Exceptional (2d12), Mythical (varies)
+- **Magical armor** may use better dice types, grant conditional benefits, or provide bonus defense effects
 - **Best armor interacts with risk**, protecting you when you need it most
 
 ### Potions & Consumables

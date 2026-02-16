@@ -84,7 +84,7 @@
 ### Recover (6+ hours, safe)
 - Regain **all HD**
 - Regain **all Resolve** (5)
-- Re-roll armor temp HD
+- Restore armor layer (usable for defense again)
 - Reset all abilities
 - **Requires safe space** (Rangers/Priests can create safety)
 
