@@ -219,10 +219,10 @@ Chandle shares stories (difficult to verify):
 
 **Chandle's Questions (Probing Without Seeming To):**
 
-- To the **Fighter**: *"You carry yourself like someone who's held a line before. Where did you learn that stance?"*
-- To the **Rogue**: *"Clever fingers and sharper eyes. What's the most interesting lock you've ever picked?"*
-- To the **Paladin**: *"I sense conviction in you. What oath binds your heart?"*
-- To the **Warlock**: *"Your magic tastes... borrowed. A patron, yes? How delightful! Which cosmic entity claimed your contract?"*
+- To the **Combatant**: *"You carry yourself like someone who's held a line before. Where did you learn that stance?"*
+- To the **Ranger**: *"You read the world like others read books. What's the wildest thing nature has taught you?"*
+- To the **Sovereign**: *"Such discipline in your movements. What drove you to master yourself so completely?"*
+- To the **Weaver**: *"Your magic tastes... studied. The Curator's path or Velkir's shortcuts? I promise I won't judge."
 
 **Night 1 - Campfire Stories:**
 
@@ -350,7 +350,7 @@ The five Council members stand on the steps, arguing loudly while ~100 townsfolk
 - Ambitious, greedy, but not evil
 - Feels guilty about the deaths but convinced potential rewards justify risk
 
-**5. Merchant Guild Rep Harlan Vex** (Level 2 Rogue, human):
+**5. Merchant Guild Rep Harlan Vex** (Level 2 Sovereign, human):
 - *"If we seal the mine, Stonebridge's economy collapses. We'll be a ghost town in two years. We NEED to go back—carefully—and secure whatever's down there."*
 - Motivated by economics; closing the mine = losing investment
 - Willing to hire professionals (like the PCs!)
@@ -402,7 +402,7 @@ The Council (reluctantly united) offers the PCs a job:
 
 - **The Fighter**: Torvald pulls them aside: *"You've got the look of someone who's held a line before. If this goes bad, the town's militia is twenty farmhands with spears. We'll need real fighters."* (Establishes Fighter as tactical leader)
 
-- **The Rogue**: Harlan approaches quietly: *"The Council wants a 'report.' I want to know what's actually down there. You look like someone who notices things others miss. Keep your eyes open—there's a bonus in it for you."* (Encourages investigation/looting)
+- **The Ranger/Sovereign**: Harlan approaches quietly: *"The Council wants a 'report.' I want to know what's actually down there. You look like someone who notices things others miss. Keep your eyes open—there's a bonus in it for you."* (Encourages investigation/looting)
 
 - **The Paladin**: Kara speaks to them privately: *"I sense faith in you. Whatever's below, it was sealed for a reason. If you can, honor the sanctity of that place. Don't just rob it."* (Moral compass established)
 
@@ -467,8 +467,8 @@ The town provides:
 - **Healing poultices** (restore 1d6 HD each, 3 available)
 - **Mining tools** (picks, hammers, crowbars—useful for breaking obstructions)
 
-**Rogue-Specific**: 
-Militia Captain Torvald has a **thieves' tools set** confiscated from a bandit last year. He loans it to the Rogue: *"I hear you've got clever fingers. Don't tell me what you did before this job—I don't want to know."*
+**Ranger-Specific**: 
+Militia Captain Torvald has a **climbing kit and rope** from the town's emergency supplies. He loans it to the Ranger: *"You look like someone who knows their way around dangerous terrain. We've got spare gear—take what you need."*
 
 ### Scene 4: The Descent
 
@@ -549,7 +549,7 @@ If the Warlock casts a divine spell (e.g., *Sacred Flame*, even if it's just a d
 **Fighter Spotlight**:
 If the Fighter steps forward in a non-threatening stance and addresses the guardians respectfully (e.g., *"We mean no disrespect. We're here to fix what was broken."*), the guardians... wait.
 
-**Rogue Spotlight - THE PUZZLE**:
+**Skill Challenge - THE PUZZLE**:
 
 The guardians gesture to the door's locks. Seven circular mechanisms, now smashed.
 
@@ -631,10 +631,10 @@ Group Athletics check (Expert 4+) to move the blocks safely.
 - **Success**: Path cleared, 1 hour of work
 - **Failure**: Cave-in! Everyone takes 2d6 damage; lose another hour
 
-**Option B - Climb Over (Rogue Spotlight)**:
-The Rogue can squeeze through the gap above. **Acrobatics check (Moderate 3+)**:
-- **Success**: Rogue reaches the other side, finds mechanism to open a side passage (bypasses collapse)
-- **Failure**: Rogue gets stuck; party must pull them free (wastes time, alerts guardians deeper in)
+**Option B - Climb Over (Ranger/Combatant Spotlight)**:
+An agile character can squeeze through the gap above. **Agility check (Moderate 3+)**:
+- **Success**: Character reaches the other side, finds mechanism to open a side passage (bypasses collapse)
+- **Failure**: Character gets stuck; party must pull them free (wastes time, alerts guardians deeper in)
 
 **Option C - Find the Maintenance Passage**:
 **Investigation check (Moderate 3+)**: Notice a hidden panel in the wall (maintenance access). Leads around the collapse.
@@ -759,7 +759,7 @@ The Fighter finds a tablet describing the Sentinel Guardians:
 **The Barracks**:
 > *A long rectangular room. Stone bunks line the walls. Weapon racks (empty) stand at attention. At the far end: six alcoves. In each, a **Sentinel Guardian** stands dormant—eyes dark, bodies still.*
 
-**Stealth Challenge (Rogue Spotlight)**:
+**Stealth Challenge (Ranger/Sovereign Spotlight)**:
 
 If the party tries to sneak through: **Group Stealth check (Moderate 3+)**.
 - **Success**: Pass through without waking guardians
@@ -782,7 +782,7 @@ If the party tries to sneak through: **Group Stealth check (Moderate 3+)**.
 **Fighter Spotlight - Tactical Combat**:
 - Suggest bottleneck strategy (force guardians single-file through doorway)
 - Call targets (focus fire on one at a time)
-- Defend squishy allies (interpose, protect Warlock/Rogue)
+- Defend squishy allies (interpose, protect Weaver/Scholar)
 
 **If Party Defeats/Bypasses Guardians**:
 
@@ -847,7 +847,7 @@ Instead of fighting all three, a caster can attempt to **stabilize the ley-node*
 
 **If successful**: Ley-node stabilizes. Wardens deactivate (shut down peacefully). Quakes stop.
 
-**Rogue/Fighter Role**: Protect the caster for 3 rounds (hold off Wardens).
+**Combatant/Ranger Role**: Protect the caster for 3 rounds (hold off Wardens).
 
 **Victory Conditions**:
 1. Defeat all 3 Wardens (combat victory)
@@ -968,7 +968,7 @@ Torvald specifically asks the Fighter: *"From a tactical standpoint—if we'd se
 - Fighter can explain how dangerous it was
 - Establishes Fighter's expertise; Torvald offers militia training position (future hook)
 
-**Rogue Spotlight - Private Conversation**:
+**Sovereign Spotlight - Private Conversation**:
 Harlan pulls the Rogue aside: *"You kept your eyes open, right? Anything down there worth... following up on?"*
 - If Rogue mentions treasure, Harlan offers future "investment opportunities"
 - If Rogue says nothing, Harlan grins: *"Discreet. I like that."*
