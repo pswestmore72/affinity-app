@@ -50,6 +50,24 @@
 
 ---
 
+## Rest & Recovery
+
+### Rest (0.5-8 hours, threatened)
+- Regain **Proficiency HD**
+- Regain **1 Resolve**
+- Reset short rest abilities
+- Armor repairable (if you have craft abilities)
+- **Max 2 Rests per day**
+
+### Recover (6+ hours, safe)
+- Regain **all HD**
+- Regain **all Resolve** (5)
+- Re-roll armor temp HD
+- Reset all abilities
+- **Requires safe space** (Rangers/Priests can create safety)
+
+---
+
 ## The Eight Skills
 
 **Skills grant bonus dice when applicable:**

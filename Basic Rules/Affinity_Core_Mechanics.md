@@ -73,6 +73,84 @@ Different classes have different Hit Dice:
 
 ---
 
+## Rest & Recovery
+
+**Without rest, HD attrition becomes a death spiral.** Characters must balance pushing forward with finding time to recover.
+
+### Rest (Between 0.5 and 8 hours in threatened territory)
+
+**Requirements:**
+- Minimum 30 minutes (0.5 hours) of downtime
+- Can occur in hostile/dangerous territory ("threatened")
+- Must not be actively engaged in combat or strenuous activity
+
+**Benefits:**
+- Regain **Proficiency HD** (not maximum, just your Proficiency score)
+- Regain **1 Resolve** (up to maximum of 5)
+- Reset **short rest abilities** (War Cries, Power Words, etc.)
+- **Armor repair:** If you have class abilities that allow mending/repair/craft, you may re-roll armor temp HD
+
+**Frequency:**
+- Maximum **2 Rests per day** (24-hour period)
+- Resting while under threat means limited recovery
+
+**Example:**
+Level 5 Combatant (Proficiency 3, at 2 HD / 11 max, 3 Resolve)
+- Takes a Rest in the dungeon (threatened space)
+- Regains 3 HD (2 → 5 HD), regains 1 Resolve (3 → 4 Resolve)
+- Short rest abilities reset (War Cries available again)
+
+---
+
+### Recover (Long Rest, 6+ hours while protected)
+
+**Requirements:**
+- Minimum 6 hours of uninterrupted rest
+- Must be in a **safe space** (inn, guarded camp, sanctified area)
+- Some class abilities can make threatened spaces "safe" (Ranger's wilderness sanctuaries, Priest's sanctified ground)
+
+**Benefits:**
+- Regain **all HD** (back to maximum)
+- Regain **all Resolve** (back to 5)
+- **Armor dice reset:** Re-roll all armor temp HD when donning armor
+- Reset **all abilities** (daily powers, once-per-long-rest features)
+
+**Frequency:**
+- Can only occur in **safe spaces**
+- Typically once per day (but narrative context determines safety)
+
+**Example:**
+Level 5 Combatant (Proficiency 3, at 5 HD / 11 max, 4 Resolve)
+- Returns to town inn, sleeps 8 hours (safe space)
+- Regains all HD (5 → 11 HD), regains all Resolve (4 → 5 Resolve)
+- Re-rolls armor when donning (Medium Armor 2d8 → rolls 6+5 = 11 temp HD)
+- All daily abilities reset
+
+---
+
+### Strategic Considerations
+
+**Two Rests Per Day:**
+The 2-rest-per-day limit forces meaningful choices:
+- Rest early (conserve resources) vs push through (risk depletion)?
+- Rest in danger (partial recovery) vs retreat to safety (full recovery)?
+- Use first Rest after minor encounter, or save it for desperate situation?
+
+**Class Augmentation:**
+Some class abilities improve rest effectiveness:
+- Rangers may convert threatened wilderness into safe spaces
+- Priests can sanctify ground to enable Recover in hostile territory
+- Sovereigns may reduce rest time required
+- Scholars may regain additional resources during rest
+
+**Armor Repair:**
+Armor temp HD does NOT automatically regenerate:
+- Must have class abilities (Craft skill, Repair feature, etc.)
+- Without repair abilities, armor temp HD stays depleted until you reach safety and Recover
+- Encourages diverse party composition (someone with mending skills)
+
+---
+
 ## Dice Resolution
 
 This system uses **dice pools**, not d20 rolls.

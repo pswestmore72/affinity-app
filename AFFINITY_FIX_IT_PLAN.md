@@ -58,51 +58,34 @@ Character Creation table showed Resolve scaling from 2 to 6 across levels, contr
 
 ---
 
-### 2. Rest & Recovery Rules Missing
+### 2. Rest & Recovery Rules Missing ✅ RESOLVED
 
-**Status:** 🔴 CRITICAL  
+**Status:** ✅ **FIXED**  
 **Files Affected:**
-- `Basic Rules/Affinity_Core_Mechanics.md` (needs new section)
-- `Basic Rules/Affinity_Quick_Reference.md` (needs addition)
+- `Basic Rules/Affinity_Core_Mechanics.md` ✅
+- `Basic Rules/Affinity_Quick_Reference.md` ✅
 
 **The Problem:**
-No rules exist for:
-- Natural HD recovery during short rest
-- Natural HD recovery during long rest
-- Resolve recovery rates
-- Can you spend HD to heal like D&D 5e?
+No rules existed for HD recovery, Resolve recovery, or rest mechanics—creating an unplayable death spiral.
 
-**Without this, HD attrition becomes a death spiral.**
+**Decision Made:**
+✅ **Two-tier rest system: Rest (threatened) vs Recover (safe)**
 
-**Recommended Fix:**
-```markdown
-## Rest & Recovery
+**Implemented Fix:**
+- ✅ **Rest (0.5-8 hours, threatened):** Regain Proficiency HD, regain 1 Resolve, reset short rest abilities
+- ✅ **Recover (6+ hours, safe):** Regain all HD, regain all Resolve (5), reset all abilities, re-roll armor temp HD
+- ✅ **2 Rests per day maximum** (prevents rest-spam degenerate play)
+- ✅ **Safety requirement** for Recover (Rangers/Priests can create safe spaces)
+- ✅ **Armor repair** tied to class abilities (doesn't auto-regenerate)
+- ✅ **Class augmentation** noted (Rangers, Priests, Sovereigns, Scholars can improve rest effectiveness)
 
-### Short Rest (1 hour)
-- Regain all Resolve up to maximum (5 for PCs)
-- May spend HD to heal yourself:
-  - Roll any number of your remaining HD
-  - Regain HD equal to total rolled
-  - Those HD are spent (not recoverable until long rest)
-- Reset short rest abilities (War Cries, Power Words, etc.)
+**Strategic Depth Created:**
+- Meaningful choice: Rest early vs push through
+- Resource management: Save rests for desperate situations
+- Class synergy: Rangers/Priests become valuable for creating safety
+- Armor repair: Rewards diverse party composition
 
-### Long Rest (8 hours)
-- Regain half your maximum HD (round down, minimum 1)
-- Regain all Resolve to maximum
-- Reset all daily abilities
-- Remove all temporary HD from armor (re-roll when donning armor again)
-
-### Example:
-Fighter with 9d10 HD (max) is at 3 HD remaining after combat.
-- Short Rest: Spends 2 of remaining 3 HD, rolls 2d10 → 7+4 = 11 HD regained (back to 12 HD, has 1 HD left unspent)
-- Long Rest: Regains half max (9/2 = 4 HD), bringing them to 5 HD total
-```
-
-**Action Items:**
-- [ ] Add "Rest & Recovery" section to Core Mechanics (after "Character Resources")
-- [ ] Add condensed version to Quick Reference
-- [ ] Clarify if armor temp HD re-rolls on long rest or when re-donning armor
-- [ ] Specify if abilities reset on short vs long rest (document per ability)
+**Full rules added to Core Mechanics with examples, condensed version added to Quick Reference**
 
 ---
 
@@ -870,7 +853,7 @@ Use this checklist to track progress as you work through fixes:
 
 ### Critical Fixes (Required for Playtest)
 - [x] **Issue #1:** Resolve scaling fixed across all documents ✅
-- [ ] **Issue #2:** Rest & Recovery rules written and integrated
+- [x] **Issue #2:** Rest & Recovery rules written and integrated ✅
 - [ ] **Issue #3:** Defense roll mechanics clarified
 - [ ] **Issue #4:** Armor temp HD system fully explained
 - [ ] **Issue #5:** Action economy unambiguously defined
