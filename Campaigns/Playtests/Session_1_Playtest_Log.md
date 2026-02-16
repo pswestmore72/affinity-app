@@ -126,7 +126,7 @@ If the party hangs back and observes:
 **Lyra rolls:** 1d6 (Prof 1) + **Lorekeeper's Focus** applies if using Lore to recall information
 - Let's say she's trying to recall if she's read about anything like this: **Lore check (Moderate 3+)** to recall information about sealed temples/quakes
 - Rolls: 1d6 (Prof 1) = **[ROLL]** → **3** (1 success, but needs 2 for Moderate)
-- **Failure initially**, but then she activates **Comprehend Languages** as a ritual (takes 10 minutes of chanting while studying old maps from her satchel)
+- **Failure initially**, but then she activates **Comprehend Script** as a ritual (takes 10 minutes studying old maps from her satchel, reading ancient text)
 - After ritual: Recalls reading about **Khuldras, the Deep Foundation** - a pre-Schism deity of earth/stability/buried secrets
 - **Key insight:** Temples to earth deities use ley-node architecture. Breaking seals would destabilize the ley-node. If left unchecked → catastrophic collapse.
 - Lyra's eyes widen. She scribbles notes frantically.
@@ -370,7 +370,7 @@ Kara gives Lyra **a small carved stone** - a perfectly balanced cube. "This was 
 - Armor: 2d8 (scale mail) - defense layer, intact
 - Affinity Dice Stored: 0
 - Notable Gear: Durg's crude map, healing kit
-- Spells Prepared: Entangle, Cure Wounds
+- Spells Prepared: Grasp of the Accord, Wild Mending
 
 **Lyra:**
 - HD: 4d6 (full)
@@ -378,7 +378,7 @@ Kara gives Lyra **a small carved stone** - a perfectly balanced cube. "This was 
 - Armor: None (defends with permanent HD only)
 - Affinity Dice Stored: 0
 - Notable Gear: Kara's carved offering stone, 2 healing potions
-- Spells Prepared: Magic Missile, Magical Armor, Comprehend Languages, Healing Word
+- Spells Prepared: Curator's Bolt, Magical Armor, Comprehend Script, Seal Minor Wound
 
 **Party Inventory:**
 - 3 healing potions (from Council) + 2 purchased = 5 total
@@ -713,7 +713,7 @@ This is a **team effort**:
 - Rush/Steady usage (if party takes damage)
 - Resource depletion (HD burn from 1s, Resolve management)
 - Death/dying states (if things go badly)
-- Ranger's Mark Prey and battlefield control (Entangle spell)
+- Ranger's Mark Prey and battlefield control (Grasp of the Accord spell)
 
 **Should we continue to Session 2, or do you want to:**
 1. Analyze Session 1 results first?

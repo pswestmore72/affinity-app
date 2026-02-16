@@ -114,6 +114,14 @@ Each spell lists:
 - **Range:** Self
 - **Special:** Reveals spirits, ghosts, planar boundaries, and Threshold Zones
 
+**Grasp of the Accord**
+- **Tier:** Basic (2+), Required: 1
+- **Base Impact:** Vines, roots, or earth reach up to restrain one creature within 30 yards (10-yard radius)
+- **Scaling:** +1 target per extra success (must be within radius)
+- **Duration:** Proficiency rounds
+- **Range:** 30 yards (10-yard radius area)
+- **Special:** Targets contest with their Proficiency dice vs your successes rolled. Restrained creatures: Cannot move, -1d6 on all actions. Escape: Use action, contest again. Natural terrain only—stone floors and worked surfaces resist (GM may rule +1 required success in such environments). On failure, the Accord recoils and you cannot cast this spell again until next rest.
+
 ### Divine Domain (Basic)
 
 **Oath Light**
@@ -250,6 +258,14 @@ Each spell lists:
 - **Scaling:** +1d6 HD per extra success
 - **Range:** Touch
 - **Special:** Does NOT work on Exhausted characters. On failure, you lose 1 Resolve from strain.
+
+**Phantom Trail**
+- **Domain:** Primal | **Tier:** Advanced (3+), Required: 2
+- **Base Impact:** You and up to Proficiency creatures you touch become one with the wild—leaving no tracks, scent, or visible passage
+- **Scaling:** +1 additional creature per extra success
+- **Duration:** Proficiency hours
+- **Range:** Touch
+- **Special:** All affected creatures gain +2d6 to Subterfuge/stealth rolls (these dice do NOT burn HD on 1s). Cannot be tracked by mundane means; magical tracking requires Expert+ tier check. On failure, the spell inverts—you leave obvious shimmering trails for the duration instead.
 
 ### Divine Domain (Advanced)
 

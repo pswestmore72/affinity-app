@@ -88,32 +88,37 @@ He's traveled since, hiring out as guide and tracker. Recent work brought him ne
 
 #### Spells Known (Primal Domain, 3 total)
 
-**1. Entangle** (Basic, 2+)
-- Range: 30 yards, 20-yard radius
-- Vines/roots restrain creatures in area
+**1. Grasp of the Accord** (Basic, 2+)
+- Range: 30 yards (10-yard radius area)
+- Required: 1 success
+- Vines, roots, or earth reach up to restrain creatures in area
 - Targets contest (Prof dice vs Kael's successes) or become restrained
-- Restrained: Cannot move, disadvantage on actions
+- Restrained: Cannot move, -1d6 on all actions
 - Duration: Proficiency rounds (1 round at Level 2)
 - Escape: Use action, contest again
+- "The wild answers when I call"
 
-**2. Cure Wounds** (Basic, 2+)
+**2. Wild Mending** (Basic, 2+)
 - Range: Touch
 - Required: 1 success
-- Restore 1d6 + Proficiency HD (1d6+1 at Level 2)
-- "Mending flesh through natural vitality"
+- Restore 1d6 HD to target (+1d6 per extra success)
+- Does NOT work on Exhausted (0 HD) characters
+- "Nature knits what was torn"
 
-**3. Pass Without Trace** (Advanced, 3+)
+**3. Phantom Trail** (Advanced, 3+)
 - Range: Touch, affects self + Proficiency creatures (1 ally at Level 2)
 - Required: 2 successes
 - Duration: Proficiency hours (1 hour at Level 2)
-- Targets leave no tracks, gain +2d6 to stealth (doesn't burn HD on 1s)
+- All affected leave no tracks/scent, gain +2d6 to stealth (doesn't burn HD on 1s)
+- Cannot be tracked by mundane means; magical tracking requires Expert+ check
+- On failure: Spell inverts—you leave shimmering trails instead
 - "We move as ghosts through the wild"
 
 **Prepared Spells (2):**
-1. **Entangle** (battlefield control)
-2. **Cure Wounds** (healing)
+1. **Grasp of the Accord** (battlefield control)
+2. **Wild Mending** (healing)
 
-*(Can swap to Pass Without Trace during long rest if stealth mission expected)*
+*(Can swap to Phantom Trail during long rest if stealth mission expected)*
 
 ---
 
@@ -311,14 +316,13 @@ She left the Archives to travel and document—recording oral histories, copying
 
 #### Spells Known (5 total - Mixed domains)
 
-**1. Magic Missile** (Arcane, Basic 2+)
-- Range: 60 yards
+**1. Curator's Bolt** (Arcane, Basic 2+)
+- Range: 30 yards
 - Required: 1 success
-- Create Proficiency force darts (1 dart at Level 2)
-- Each dart: 1 HD force damage (auto-hit, no defense)
-- Extra successes: Create +1 dart per success (max Prof total)
-- Can target multiple creatures
-- "Needle-like force that never misses"
+- Base Impact: 1 HD force damage to target
+- Scaling: +1 HD per extra success
+- Force damage bypasses all resistances (targets still defend)
+- "Precise arcane force, the Curator's answer to aggression"
 
 **2. Magical Armor** (Arcane, Basic Ritual, FREE, no roll)
 - Target: Willing creature within 30 yards (often self)
@@ -329,35 +333,39 @@ She left the Archives to travel and document—recording oral histories, copying
 - **Limit:** Only 1 magical armor active per caster - new cast removes previous target's armor
 - "A shimmering arcane barrier woven from memory itself"
 
-**3. Detect Magic** (Arcane, Basic 2+)
-- Range: 30 yards
-- Required: 1 success (automatically succeeds with Weave Sight running)
-- Sense presence/direction of magic within range
-- Duration: Proficiency rounds (1 round at Level 2)
-- "The Weave reveals itself"
+**3. Catalogue** (Arcane, Basic 2+)
+- Range: Sight
+- Required: 1 success
+- Base Impact: Perfectly memorize one page of information, map, or image
+- Scaling: +1 item memorized per extra success
+- Duration: Until next long rest
+- Can recall with perfect clarity—ideal for preserving ancient texts and inscriptions
+- "The Memory Domain's gift: Nothing witnessed is ever truly lost"
 
-**4. Comprehend Languages** (Arcane, Advanced 3+)
-- Range: Self
-- Required: 2 successes
-- Understand any spoken/written language for Proficiency hours (1 hour at Level 2)
-- Does NOT allow speaking, only understanding
-- **Critical for ancient temples with unknown inscriptions**
+**4. Comprehend Script** (Arcane, Basic 2+)
+- Range: Touch
+- Required: 1 success
+- Base Impact: Read one page of text in any language
+- Scaling: +1 page per extra success
+- Does NOT translate spoken language, only written (perfect for ancient inscriptions)
+- **Critical for temple exploration with unknown writing systems**
 - "Knowledge preserved across tongues"
 
-**5. Healing Word** (Divine, Basic 2+) - **BONUS ACTION**
-- Range: 60 yards
+**5. Seal Minor Wound** (Divine, Basic 2+)
+- Range: Touch
 - Required: 1 success
-- Target regains 1d6 HP
-- If target lost Resolve (below 5), restore 1 Resolve
-- "A word of cosmic authority to steady allies"
+- Base Impact: Restore 1d6 HD to target
+- Scaling: +1d6 HD per extra success
+- Does NOT work on Exhausted (0 HD) characters
+- "The gods remember when your body was whole"
 
 **Prepared Spells (4):**
-1. **Magic Missile** (reliable damage, no exertion needed with Thread Literacy)
+1. **Curator's Bolt** (reliable damage, no exertion needed with Thread Literacy)
 2. **Magical Armor** (survival - she's VERY fragile, cast before combat)
-3. **Comprehend Languages** (exploration/lore focus)
-4. **Healing Word** (emergency ally support)
+3. **Comprehend Script** (exploration/lore focus)
+4. **Seal Minor Wound** (emergency ally support - must touch)
 
-*(Detect Magic available via ritual if needed)*
+*(Catalogue available via ritual if needed - use to preserve ancient texts!)*
 
 ---
 
@@ -423,9 +431,9 @@ Additionally, once per scene after successfully identifying a creature, location
 - **Basic Spells:** FREE (0 exertion required thanks to Thread Literacy)
 
 **Typical Turn:**
-- **Action 1:** Magic Missile (Basic 2+, FREE cast) - Roll 1d6 (Prof only), need 1 success
-  - Success = 1 dart, 1 HD force damage
-  - 2+ successes = 1 dart per success (max 1 at Prof 1)
+- **Action 1:** Curator's Bolt (Basic 2+, FREE cast) - Roll 1d6 (Prof only), need 1 success
+  - Success = 1 HD force damage (target defends)
+  - Extra successes = +1 HD damage per success (capped at Proficiency)
 - **Action 2:** Move to safe position OR cast another Basic spell FREE
 
 **Defense:**
