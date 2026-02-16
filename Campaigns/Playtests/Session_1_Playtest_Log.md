@@ -378,7 +378,7 @@ Kara gives Lyra **a small carved stone** - a perfectly balanced cube. "This was 
 - Armor: None (defends with permanent HD only)
 - Affinity Dice Stored: 0
 - Notable Gear: Kara's carved offering stone, 2 healing potions
-- Spells Prepared: Magic Missile, Shield, Comprehend Languages, Healing Word
+- Spells Prepared: Magic Missile, Magical Armor, Comprehend Languages, Healing Word
 
 **Party Inventory:**
 - 3 healing potions (from Council) + 2 purchased = 5 total
@@ -668,11 +668,14 @@ This is a **team effort**:
 - **NEVER throw the first punch** — Guardians are territorial protectors, not aggressive monsters
 - Party can: Offer tribute (free passage) | Ignore (get blocked/pushed) | Attack (combat by player choice)
 
-✅ **Lyra's Magical Defense (NOTED):**
-- Lyra has **Shield** prepared (triggered action)
-- Shield grants **magical barrier defense layer** (2d12) — becomes her OUTERMOST layer
-- Without Shield: Defend with 4d6 permanent HD only (fragile)
-- With Shield: 2d12 magical barrier → 4d6 permanent HD (much safer)
+✅ **Lyra's Magical Defense (CORRECTED):**
+- Lyra has **Magical Armor** prepared (Basic ritual, FREE, no roll - cast BEFORE combat)
+- Magical Armor grants **2d12 magical defense layer** — becomes her OUTERMOST layer
+- Without Magical Armor: Defend with 4d6 permanent HD only (fragile)
+- With Magical Armor: 2d12 magical barrier → 4d6 permanent HD (much safer)
+- **Reinforce:** Advanced action (3+) restores 1d12 to armor (max 2d12) - costs her turn
+- **Cannot be mended/repaired** - only reinforced via spell
+- **Limit:** Only 1 magical armor per caster - if she casts on ally, loses her own
 - She's still fragile but has critical safety net
 
 ✅ **Narrative Advantage as +1d6 worked well:**

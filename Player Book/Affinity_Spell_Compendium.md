@@ -207,6 +207,20 @@ Each spell lists:
 - **Range:** Sight
 - **Special:** Can recall with perfect clarity; Curator's gift to the curious
 
+**Magical Armor**
+- **Tier:** Basic (Ritual), Required: 0 (no roll)
+- **Base Impact:** Target gains 2d12 Magical Armor layer (outermost defense before physical armor or HD)
+- **Scaling:** None (ritual, auto-succeeds)
+- **Range:** 30 yards (willing creature)
+- **Duration:** Until depleted or dismissed
+- **Special:** 
+  - **FREE to cast** — no action cost, no exertion, no roll required
+  - Armor follows normal defense rules: Each 5+ cancels 1 damage; if any damage penetrates, layer depletes
+  - **Cannot be mended or repaired** — only reinforced via spell
+  - **Reinforce (Advanced 3+, 2 successes):** As an action, restore 1d12 to existing armor (max 2d12 total)
+  - **Limit:** Only 1 magical armor active per caster — casting on new target removes armor from previous
+  - A shimmering arcane barrier woven from will itself
+
 ---
 
 ## Advanced Tier Spells (3+)

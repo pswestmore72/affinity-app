@@ -320,11 +320,14 @@ She left the Archives to travel and document—recording oral histories, copying
 - Can target multiple creatures
 - "Needle-like force that never misses"
 
-**2. Shield** (Arcane, Basic 2+) - **REACTION**
-- Triggered when hit by attack
-- Required: 1 success
-- Gain +2d6 defense dice for this attack (rolled after seeing incoming damage)
-- "Shimmering arcane barrier"
+**2. Magical Armor** (Arcane, Basic Ritual, FREE, no roll)
+- Target: Willing creature within 30 yards (often self)
+- Effect: Target gains 2d12 Magical Armor layer (outermost defense)
+- Follows armor rules: Each 5+ on defense cancels 1 damage; if any penetrates, layer depletes
+- **Cannot be mended or repaired** - must reinforce via spell
+- **Reinforce (Advanced action, 3+):** Add 1d12 back to armor (max 2d12 total)
+- **Limit:** Only 1 magical armor active per caster - new cast removes previous target's armor
+- "A shimmering arcane barrier woven from memory itself"
 
 **3. Detect Magic** (Arcane, Basic 2+)
 - Range: 30 yards
@@ -350,7 +353,7 @@ She left the Archives to travel and document—recording oral histories, copying
 
 **Prepared Spells (4):**
 1. **Magic Missile** (reliable damage, no exertion needed with Thread Literacy)
-2. **Shield** (survival - she's VERY fragile)
+2. **Magical Armor** (survival - she's VERY fragile, cast before combat)
 3. **Comprehend Languages** (exploration/lore focus)
 4. **Healing Word** (emergency ally support)
 
@@ -375,7 +378,7 @@ Additionally, once per scene after successfully identifying a creature, location
 #### Equipment & Gear
 
 **Armor:**
-- **None** - Weavers are too fragile for armor, rely on Shield spell and positioning
+- **None** - Weavers are too fragile for armor, rely on Magical Armor spell and positioning
 
 **Weapons:**
 - **Quarterstaff** - 2sp
@@ -426,8 +429,10 @@ Additionally, once per scene after successfully identifying a creature, location
 - **Action 2:** Move to safe position OR cast another Basic spell FREE
 
 **Defense:**
-- **Base:** Roll 1d6 (Prof) when targeted, 3+ cancels 1 HD damage
-- **Emergency:** Cast Shield (reaction, Basic 2+, FREE) - adds +2d6 defense if hit
+- **With Magical Armor:** 2d12 magical layer → 4d6 permanent HD (outermost first)
+- **Roll armor first:** Each 5+ cancels 1 damage; if any penetrates, armor depletes
+- **Without armor:** Defend with 4d6 permanent HD only (each 5+ cancels 1 damage, 3+ avoids burn)
+- **Reinforce:** Advanced action (3+) to restore 1d12 to depleted armor (max 2d12)
 
 **Universal Actions Available:**
 - **Rush:** 1 Resolve → Regain 1 HD, resets on Rest
@@ -436,7 +441,7 @@ Additionally, once per scene after successfully identifying a creature, location
 **CRITICAL WEAKNESS:**
 - Only **4 HD total** - Can take maybe 2-3 hits before dying
 - MUST stay at range, use cover, rely on allies for protection
-- Shield spell is her lifeline
+- Magical Armor spell is her lifeline (cast BEFORE combat, FREE ritual)
 
 ---
 
