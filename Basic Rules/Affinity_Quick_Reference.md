@@ -50,6 +50,28 @@
 
 ---
 
+## Action Economy
+
+**Actions Per Turn:** Up to 2 actions
+- **Tier Restriction:** Only 1 may be Expert tier or higher
+- Once you use Expert+ action, remaining actions must be Basic/Advanced
+
+**Triggered Actions (Reactions):**
+- Activate in response to specific triggers
+- If you haven't acted yet this round, can use when trigger occurs
+- Uses one of your 2 actions
+
+**Held Actions:**
+- Declare on your turn: hold action for specific trigger
+- When trigger occurs: interrupt and use held action
+- If no trigger by round end: may only use held actions for Basic tier (at initiative 0)
+
+**Movement:** 10 yards base (doesn't cost action)
+
+**Free Actions:** Drop item, speak briefly (GM discretion)
+
+---
+
 ## Rest & Recovery
 
 ### Rest (0.5-8 hours, threatened)
@@ -65,6 +87,69 @@
 - Re-roll armor temp HD
 - Reset all abilities
 - **Requires safe space** (Rangers/Priests can create safety)
+
+---
+
+## Universal Actions
+
+### Rush
+**Cost:** 1 Resolve (automatic, no roll)  
+**Effect:** Immediately regain Proficiency HD  
+**Frequency:** Resets on Rest
+
+Trade mental fortitude for physical recovery. Use one action, lose 1 Resolve (no check), gain Proficiency HD immediately. No dice roll, no risk—pure desperation.
+
+### Steady
+**Cost:** 3 HD (automatic, no roll)  
+**Effect:** Immediately gain 1 Resolve  
+**Frequency:** Resets on Rest
+
+Trade physical vitality for mental fortitude. Use one action, lose 3 HD (no check), gain 1 Resolve immediately. No dice roll, no risk—pure sacrifice. **Note:** Priests and Sovereigns have superior Resolve restoration through class abilities.
+
+---
+
+## Death & Dying
+
+**You die when you reach BOTH 0 HD AND 0 Resolve.**
+
+**Collapse (0 Resolve, HD > 0):**
+- Fall unconscious for 0-2 days
+- NOT dying, but incapacitated
+- Wake with 1 Resolve eventually
+
+**Dying (0 HD, Resolve > 0):**
+- Make Resolve check each round  
+- **4-:** Lose 1 Resolve  
+- **5:** Hold current Resolve  
+- **6:** Gain 1 Resolve
+- If healed above 0 HD: Stop checks, regain consciousness
+- If you reach 0 Resolve while at 0 HD: **Death**
+
+**Stabilize Action (Basic 2+):**
+- Touch dying ally
+- Target auto-succeeds next Resolve check this round
+- Buys time for healing
+
+---
+
+## Resolve Checks
+
+**When Required:**
+- Lose ≥ Proficiency + 1 HD in one round
+- Reduced to 0 HD
+- At 0 HD and take any hit
+- Use maximum Exertion in one round (= Level)
+- Fail an Expert+ action
+- Certain enemy effects
+
+**Max 1 check per round** (even if multiple triggers)
+
+**Roll 1d6:**
+- **4 or less:** Lose 1 Resolve
+- **5:** Stay at current Resolve
+- **6:** Gain 1 Resolve (max 5)
+
+**Note:** Rush action bypasses this roll (voluntary loss)
 
 ---
 
@@ -86,20 +171,26 @@
 
 ## The Eight Skills
 
-**Skills grant bonus dice when applicable:**
+**Skills are context domains—they don't grant dice themselves.**
 
-| Skill | When to Use | Training Level |
-|-------|-------------|----------------|
-| **Agility** | Precision movement, stealth, dexterous manipulation | Trained: +1d6 |
-| **Awareness** | Sensing, insight, investigation | Expert: +2d6 |
-| **Fortitude** | Physical resistance, holding out, resilience | Master: +3d6 |
-| **Wilderness** | Tracking, navigation, animals, foraging | |
-| **Influence** | Persuasion, deception, intimidation | |
-| **Lore** | History, arcana, religion, theory | |
-| **Medicine** | Healing, anatomy, diagnosis | |
-| **Craft** | Making, repairing, engineering | |
+| Skill | When This Domain Applies |
+|-------|-------------------------|
+| **Agility** | Precision movement, stealth, dexterous manipulation |
+| **Awareness** | Sensing, insight, investigation |
+| **Fortitude** | Physical resistance, holding out, resilience |
+| **Wilderness** | Tracking, navigation, animals, foraging |
+| **Influence** | Persuasion, deception, intimidation |
+| **Lore** | History, arcana, religion, theory |
+| **Medicine** | Healing, anatomy, diagnosis |
+| **Craft** | Making, repairing, engineering |
 
-**Note:** Skill dice do NOT burn HD on 1s (like proficiency dice)
+**How They Work:**
+- GM identifies which skill domain applies to a challenge
+- Players with **class abilities, feats, or features** that apply to that domain gain bonus dice
+- Bonus dice from abilities do NOT burn HD on 1s (like proficiency dice—they represent trained reliability)
+- Any character can attempt any roll, but abilities give advantages in specific domains
+
+**Example:** Ranger's "Nature's Treaty" grants +2d6 on Wilderness rolls. Scholar's "Arcane Study" feat grants +2d6 on Lore rolls.
 
 **Resolution Modes:**
 - **Contest Mode:** Combat, duels, social conflict (extra successes = more impact)

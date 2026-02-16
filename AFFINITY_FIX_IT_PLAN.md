@@ -162,19 +162,23 @@ No consolidated explanation of when to roll armor dice, how it depletes, and how
 
 ### 5. Action Economy Ambiguity ✅ RESOLVED
 
-**Status:** ✅ **FIXED**  
+**Status:** ✅ **FIXED** (Enhanced with tier restrictions, triggered actions, and held actions)  
 **Files Affected:**
 - `Basic Rules/Affinity_Combat_Rules.md` ✅
 - `Basic Rules/Affinity_Core_Mechanics.md` ✅
 - `Basic Rules/Affinity_Quick_Reference.md` ✅
+- `Game Master Book/Affinity_Game_Masters_Guide.md` ✅
+- `Game Master Book/Affinity_Bestiary.md` ✅
 
 **The Problem:**
-Core Mechanics said "Each action has its own Exertion budget = Your Proficiency dice" while Quick Reference said "Max dice = Your Level (split across all actions)" creating a fundamental contradiction about whether exertion pools are shared or independent.
+Core Mechanics said "Each action has its own Exertion budget = Your Proficiency dice" while Quick Reference said "Max dice = Your Level (split across all actions)" creating a fundamental contradiction about whether exertion pools are shared or independent. Additionally, no rules existed for action tier restrictions, reactions, or held actions.
 
 **Decision Made:**
-✅ **Option B: Each Action Gets Independent Proficiency Pool**
+✅ **Option B: Each Action Gets Independent Proficiency Pool + Tier Restrictions + Triggered/Held Actions**
 
 **Implemented Fix:**
+
+**Core Action Economy:**
 - ✅ **Movement:** 10 yards base (doesn't cost an action)
 - ✅ **Actions:** Up to 2 standard actions for player characters (NPCs may have different action counts)
 - ✅ **Exertion per Action:** Each action has independent Proficiency exertion pool
@@ -184,11 +188,42 @@ Core Mechanics said "Each action has its own Exertion budget = Your Proficiency 
 - ✅ **Free Actions:** Drop item, speak briefly (GM discretion at table)
 - ✅ **Additional Movement:** Some classes/paths/abilities/actions grant extra movement beyond base 10 yards
 
+**NEW: Action Tier Restrictions:**
+- ✅ **Only 1 action may be Expert tier or higher per turn** (player characters)
+- ✅ Once you attempt Expert/Legendary/Ultimate/Mythical action (success or failure), remaining actions must be Basic or Advanced tier
+- ✅ You may take 2 Basic, 2 Advanced, or 1 Basic + 1 Advanced in any combination
+- ✅ You may combine 1 Expert+ action with 1 Basic/Advanced action
+- ✅ **Design rationale:** High-tier actions demand intense focus—you cannot maintain that power output twice in one turn
+
+**NEW: Triggered Actions (Reactions):**
+- ✅ Special abilities that activate in response to specific triggers
+- ✅ If you haven't acted this round, you may use triggered actions when triggers occur
+- ✅ Uses one of your 2 actions for the turn
+- ✅ Subject to the same tier restrictions as normal actions
+- ✅ **Example:** Priest uses Guardian's Interception (Advanced) as triggered action before their initiative, leaving only 1 action when their turn arrives
+
+**NEW: Held Actions:**
+- ✅ You may hold actions on your turn, waiting for a specific trigger
+- ✅ Must declare the trigger condition and which action you'll use
+- ✅ When trigger occurs: Use held action immediately (interrupts current action)
+- ✅ If trigger doesn't occur by round's end: May only use held actions for Basic tier actions (at initiative count 0)
+- ✅ **Risk:** Wasting your turn if trigger never happens
+- ✅ **Tactical use:** Counterspelling, intercepting charges, coordinating with allies, reacting to positioning
+
+**NEW: NPC Tier-Specific Restrictions:**
+- ✅ **All NPCs:** Only 1 action may be Expert tier or higher per turn
+- ✅ **Legendary NPCs:** May use no more than 1 Legendary-tier action per round
+- ✅ **Ultimate NPCs:** May use no more than 1 Ultimate-tier action per round
+- ✅ **Mythical NPCs:** May use no more than 1 Mythical-tier action per round
+- ✅ Prevents "spam the best ability" tactics, creates dynamic varied combat
+- ✅ **Example:** Legendary Dragon with 4 actions = 1 Legendary Breath + 3 Basic/Advanced attacks
+
 **Example Clarified:**
 Level 5 character (Proficiency 3):
-- Action 1: Attack using 3 Proficiency dice + up to 3 Exertion dice
-- Action 2: Cast spell using 3 Proficiency dice + up to 3 Exertion dice
+- Action 1: Ultimate Spell (Expert tier) using 3 Proficiency dice + up to 3 Exertion dice
+- Action 2: Healing Touch (Basic tier) using 3 Proficiency dice + up to 3 Exertion dice  
 - **Total possible: 6 Proficiency dice + 6 Exertion dice = 12d6 per turn**
+- **Restriction:** Cannot use 2 Expert+ actions in same turn
 
 **Design Philosophy Preserved:**
 - Aggressive, dynamic combat with high exertion potential
@@ -196,8 +231,10 @@ Level 5 character (Proficiency 3):
 - Encourages taking 2 actions per turn (double the aggression, double the risk)
 - HD burn on 1s creates meaningful risk when maximizing exertion
 - Scales with Proficiency, not Level (keeps low-level play intense)
+- **NEW:** Tier restrictions create meaningful choices about when to unleash ultimate power
+- **NEW:** Triggered actions and held actions add tactical depth and reactive gameplay
 
-**All action economy rules clarified across Combat Rules, Core Mechanics, and Quick Reference with consistent language and examples.**
+**All action economy rules clarified across Combat Rules, Core Mechanics, Quick Reference, GM Guide, and Bestiary with consistent language and comprehensive examples.**
 
 ---
 
@@ -307,173 +344,180 @@ Multiple contradictions and unanswered questions:
 
 ---
 
-### 8. Skill Training Levels Incomplete
+### 8. Skill System Documentation ✅ RESOLVED
 
-**Status:** 🟡 HIGH  
+**Status:** ✅ **FIXED** (Design Clarification)  
 **Files Affected:**
-- `Basic Rules/Affinity_Core_Mechanics.md`
-- `Basic Rules/Affinity_Quick_Reference.md`
+- `Player Book/Affinity_Character_Creation.md` ✅
+- `Basic Rules/Affinity_Quick_Reference.md` ✅
+- `Basic Rules/Affinity_Core_Mechanics.md` ✅ (already correct)
 
 **The Problem:**
-Core Mechanics says: "Skills do NOT grant dice directly. Instead, class abilities may grant bonuses when specific skills apply."
+Character Creation incorrectly said "Select 2 skills to be Trained in (+1d6 bonus)" which contradicted Core Mechanics.
 
-But Character Creation says: "Select 2 skills to be Trained in (+1d6 bonus when applicable)"
+**Decision Made:**
+✅ **Skills are context domains only—class abilities/feats grant bonus dice when skill domains apply**
 
-**Which is it?**
+**Implemented Fix:**
+- ✅ Removed "choose 2 skills to be Trained" from Character Creation
+- ✅ Replaced with explanation that skills are context domains
+- ✅ Clarified that class abilities, feats, and features grant bonus dice when specific skill domains apply
+- ✅ Updated Quick Reference to remove training level table, added clear explanation
+- ✅ Examples added: Ranger's Nature's Treaty (+2d6 Wilderness), Scholar's Arcane Study (+2d6 Lore)
 
-Also, Quick Reference shows:
-```
-Training Level:
-- Trained: +1d6
-- Expert: +2d6
-- Master: +3d6
-```
+**Design Philosophy:**
+- No "skill monkey" characters who monopolize skill checks
+- Any character can attempt any roll in any domain
+- Class and feat choices determine where you gain advantages (bonus dice)
+- Player-driven: Players remember and invoke their abilities when domains apply
+- GM identifies which skill domain applies to a given challenge
 
-But **no rules exist** for gaining Expert or Master training.
-
-**Recommended Fix:**
-```markdown
-## The Eight Skills
-
-Skills represent specialized training domains. When a skill applies to your action, you gain bonus dice.
-
-**The Eight Skill Domains:**
-1. **Agility** — Precision movement, stealth, dexterous manipulation  
-2. **Awareness** — Sensing, insight, investigation  
-3. **Fortitude** — Physical resistance, holding out, resilience  
-4. **Wilderness** — Tracking, navigation, animals, foraging  
-5. **Influence** — Persuasion, deception, intimidation  
-6. **Lore** — History, arcana, religion, theory  
-7. **Medicine** — Healing, anatomy, diagnosis  
-8. **Craft** — Making, repairing, engineering
-
-**Training Levels:**
-- **Trained:** +1d6 when skill applies  
-- **Expert:** +2d6 when skill applies *(Requires Level 5 + feat slot investment)*  
-- **Master:** +3d6 when skill applies *(Requires Level 9 + feat slot investment)*
-
-**Skill Dice Do NOT Burn HD on 1s** (like Proficiency dice, they represent reliable training)
-
-**Starting Skills:**
-At character creation, choose **2 skills** to be Trained in.
-
-**Advancing Skills:**
-- At Levels 4, 8: Gain Training in 1 additional skill (OR advance existing skill to Expert/Master if requirements met)
-- Feat investment can advance skills to Expert/Master (see Feat: Skill Mastery in Path Board)
-
-**When Skills Apply:**
-The GM judges when a skill is relevant to your action. If your declared action clearly uses that skill domain, add the bonus dice to your roll.
-```
-
-**Action Items:**
-- [ ] Clarify skill dice mechanics (DO grant dice, but don't burn HD on 1s)
-- [ ] Add rules for advancing to Expert/Master (feat investment + level requirement)
-- [ ] Create "Skill Mastery" feat in Path Board (allows advancing one skill)
-- [ ] Remove "skills don't grant dice" from Core Mechanics (contradicts Character Creation)
+**All skill system documentation now consistent across Character Creation, Core Mechanics, and Quick Reference.**
 
 ---
 
-### 9. Monster Exertion Rules Missing
+### 9. NPC/Monster Action Rules ✅ RESOLVED
 
-**Status:** 🟡 HIGH  
+**Status:** ✅ **FIXED**  
 **Files Affected:**
-- `Game Master Book/Affinity_Bestiary.md`
-- `Game Master Book/Affinity_Game_Masters_Guide.md` (needs new section)
+- `Game Master Book/Affinity_Bestiary.md` ✅
+- `Game Master Book/Affinity_Game_Masters_Guide.md` ✅
 
 **The Problem:**
-Bestiary says: "Most monsters/enemies are more likely to choose to exert (maybe can exert more) as they are wreckless"
+Bestiary said "monsters are more likely to exert (maybe can exert more) as they are reckless" but stat blocks showed fixed dice pools without explaining whether NPCs use exertion rules, whether 1s burn their HD, or how their action economy works.
 
-But monster stat blocks show:
-```
-Orc Raider (Level 3)
-- Attack: Greataxe (Heavy, Basic)
-  - Rolls: 3d6
-  - Required: 1
-  - Base: 2 HD
-```
+**Decision Made:**
+✅ **Option A: NPCs use simplified mechanics (no exertion budgets, no HD burn from 1s)**
 
-**Questions:**
-- Is that 2 Prof + 1 Exertion? Or just "3d6 always"?
-- Do monsters have an Exertion Budget?
-- Do 1s burn monster HD?
-- Can monsters exert beyond Proficiency?
+**Implemented Fix:**
 
-**Recommended Fix:**
+**Bestiary Updates:**
+- ✅ Updated Power Tier table to include **Actions Per Turn** and **Max Resolve** columns
+- ✅ Added comprehensive **"NPC Action Rules"** section explaining:
+  - Fixed dice pools (no exertion choices)
+  - No HD burn from 1s on NPC rolls
+  - Reckless traits for conditional power spikes
+  - Variable actions by tier (Trivial = 1, Legendary+ = 2 + party scaling)
+  - Variable Resolve by tier (unlike PCs who always have 5)
+  - Defense rolls using same system but simplified
+- ✅ Updated **"NPC Stat Block Format"** section to clarify dice pools are fixed totals
+- ✅ Added GM tips for adjusting difficulty and using stat blocks flexibly
 
-**Option A: Monsters Don't Use Exertion Rules (Simpler for GM)**
-```markdown
-## Monster Actions
+**GM Guide Updates:**
+- ✅ Added comprehensive **"Running NPCs"** section (before Running Combat Encounters) covering:
+  - Core NPC design philosophy (streamlined for GM efficiency)
+  - Power tier table with actions and Resolve
+  - Step-by-step action resolution
+  - Dice pool explanation (Prof + typical aggression = fixed total)
+  - Reckless traits as alternative to exertion choices
+  - NPC defense rolls (simplified, no HD burn)
+  - Resolve as narrative tool (varies by tier)
+  - Multiple actions for high-tier NPCs (party size scaling)
+  - Encounter building guidelines (action economy balance)
+  - Social encounters with NPCs
+  - GM tips for streamlined management
 
-Monsters use simplified action rules:
-- **No Exertion Budget:** Monsters roll fixed dice pools
-- **No HD Burn on 1s:** Monster dice don't burn their HP
-- **Fixed Dice Pools:** Stat blocks show total dice rolled (Prof + typical exertion)
-- **Reckless Attacks:** Some monsters can choose to roll additional dice (noted in tactics)
+**Key Design Decisions:**
+- **Why simplify NPCs?** GMs may run 3-8 NPCs simultaneously—complex exertion tracking slows the game
+- **Why variable actions?** Solo bosses need multiple actions to challenge full parties (prevents action economy imbalance)
+- **Why variable Resolve?** Creates mechanical differentiation (cowardly minions vs ironwilled champions)
+- **Why no HD burn from 1s?** Reduces GM cognitive load dramatically
+- **Reckless traits:** Replace exertion choices with conditional bonuses ("Blood Rage: When below half HD, +2d6")
 
-**Example:**
-Orc Raider - Greataxe Attack
-- Rolls: 3d6 (always)
-- Required: 1 success
-- Base: 2 HD damage
-- Special: Blood Rage — When below half HD, rolls 5d6 instead
-```
+**Power Tier Action/Resolve Scaling:**
+- Trivial: 1 action, Resolve 2
+- Basic: 1-2 actions, Resolve 2
+- Advanced: 1-2 actions, Resolve 3
+- Expert: 2 actions, Resolve 4
+- Legendary: 2 + ½ party size (up) actions, Resolve 5+
+- Ultimate: 2 + ½ party size (up) actions, Resolve 8+
+- Mythical: 2 + party size (up) actions, Resolve 11+
 
-**Option B: Monsters Use Full Exertion Rules (Mechanically Consistent)**
-```markdown
-## Monster Exertion
-
-Monsters follow the same exertion rules as PCs:
-- **Exertion Budget:** = Proficiency per turn (same as PCs)
-- **HD Burn:** 1s on exertion dice burn monster HD
-- **Reckless:** Monsters typically exert more aggressively than PCs (use max exertion frequently)
-
-**Monster Stat Block Format:**
-- **Proficiency:** X
-- **Attack Name (Tier, Threshold):**
-  - Prof Dice: X (don't burn on 1s)
-  - Typical Exertion: Y (burns HD on 1s)
-  - Required: Z
-  - Base Damage: W HD
-
-**Example:**
-Orc Raider (Proficiency 2)
-- Greataxe Attack (Basic, 2+):
-  - Prof Dice: 2d6
-  - Typical Exertion: 1d6 (total 3d6)
-  - Required: 1
-  - Base: 2 HD
-```
-
-**Decision Needed:**
-Option A is simpler for GMs. Option B is mechanically consistent but adds bookkeeping.
-
-**Action Items:**
-- [ ] Choose Option A (simplified) or Option B (consistent)
-- [ ] Update monster stat block format in Bestiary introduction
-- [ ] Revise 5-10 monster examples to match chosen format
-- [ ] Add "Running Monsters" section to GM Guide
+**All NPC mechanics now fully documented with practical GM guidance for running simplified, dynamic encounters.**
 
 ---
 
-### 10. Multi-Target Action Rules
+### 10. Multi-Target Action Rules ✅ RESOLVED
 
-**Status:** 🟡 HIGH  
+**Status:** ✅ **FIXED**  
 **Files Affected:**
-- `Basic Rules/Affinity_Combat_Rules.md`
-- `Player Book/Affinity_Magic_System.md`
+- `Basic Rules/Affinity_Combat_Rules.md` ✅
+- `Player Book/Affinity_Magic_System.md` ✅
 
 **The Problem:**
-No rules exist for:
+No rules existed for multi-target resolution:
 - Can I fireball 5 enemies?
 - Do I roll once or per target?
 - Do targets defend individually?
 - Do extra successes distribute or duplicate?
 
-Some abilities specify:
-- War Cry: Rally = "one ally"
-- War Cry: Hold the Line = "10-yard radius centered on you, affects all allies"
+Some abilities specified individual targeting, but no GENERAL rules existed for multi-target mechanics.
 
-But no GENERAL rules for multi-target resolution.
+**Decision Made:**
+✅ **Comprehensive multi-target system with four distinct resolution types + proficiency scaling**
+
+**Implemented Fix:**
+
+**Combat Rules - "Multi-Target Actions" Section Added (~200 lines):**
+
+**1. Single-Target Actions (Baseline):**
+- Roll once, target defends individually
+- Extra successes add bonus damage (capped at Proficiency)
+- Standard resolution applies
+
+**2. Area Actions (Radius, Cone, Line):**
+- **Roll once** for the entire area effect
+- **All creatures in area affected** automatically
+- **Each defends individually** (separate defense rolls)
+- **Extra successes increase area size, NOT damage** (prevents instant-kill on groups)
+- **Proficiency Scaling:** Each 2 extra successes = +5 yards to radius/range (max Proficiency × 5 yards)
+- **Tactical Choice:** Caster chooses to expand area OR keep base size
+- Examples: Fireball, Chain Lightning, environmental explosions
+
+**3. Multi-Target Selection Actions:**
+- **Choose specific targets** up to base limit (ability specifies)
+- **Roll once** for all chosen targets
+- **Each defends individually**
+- **Extra successes can:**
+  - Add 1 additional target per extra success (max = Proficiency additional targets)
+  - OR distribute as +1 intensity among existing targets (max +1 per target)
+- **Proficiency Scaling:** Add up to Proficiency bonus targets with extra successes
+- **Tactical Choice:** More targets (spread effects) OR higher intensity (overwhelm defenses)
+- Examples: War Cry Rally, Chain Lightning, Barrage of Arrows
+
+**4. Sustained Area Effects (Zones):**
+- **Roll once when created**
+- Define area and duration (ability specifies)
+- **Affects creatures entering or starting turn in zone**
+- **No additional rolls needed** (initial success count persists)
+- **Effect continues even if caster falls unconscious**
+- Examples: Hold the Line, Wall of Flames, Sanctify Space
+
+**Targeting Summary Table Added:**
+- Quick reference for: Roll count, Defense type, Extra success use, Prof scaling
+- All four action types clearly differentiated
+
+**Magic System - "Multi-Target Spells" Section Added:**
+- Overview of three spell targeting types (Area, Multi-Select, Sustained Zones)
+- Proficiency scaling explanation for spellcasters
+- Cross-reference to Combat Rules for complete mechanics
+
+**Design Philosophy Preserved:**
+- **Roll once principle:** Speeds combat resolution, prevents dice fatigue
+- **Individual defenses:** Each creature has chance to resist/mitigate
+- **Proficiency scaling:** Low-level spells remain useful at high levels (bigger area, more targets)
+- **Tactical choices:** Extra successes create meaningful decisions (area vs intensity, targets vs power)
+- **No damage stacking on areas:** Prevents degenerate "nova the room" strategies
+- **Zone independence:** Sustained effects create battlefield control without concentration/maintenance
+
+**Examples Provided:**
+- Fireball with area scaling (Proficiency 4, expanding 15-yard radius to 25 yards)
+- War Cry Rally adding bonus targets (affecting 3 allies instead of 2)
+- Chain Lightning distributing intensity (+1 damage to 2 of 3 targets)
+- Hold the Line zone persisting after caster falls unconscious
+- Wall of Flames damaging enemies who enter or remain in zone
+
+**All multi-target mechanics now fully documented with comprehensive examples, tactical guidance, and proficiency scaling naturally integrated.**
 
 **Recommended Fix:**
 ```markdown
@@ -525,70 +569,73 @@ Actions can affect multiple targets in several ways:
 
 ---
 
-### 11. Rush Ability Completion
+### 11. Rush Ability Completion ✅ RESOLVED
 
-**Status:** 🟡 HIGH  
+**Status:** ✅ **FIXED**  
 **Files Affected:**
-- `Basic Rules/Affinity_Combat_Rules.md`
-- `Basic Rules/Affinity_Core_Mechanics.md`
+- `Basic Rules/Affinity_Combat_Rules.md` ✅
+- `Basic Rules/Affinity_Core_Mechanics.md` ✅
+- `Basic Rules/Affinity_Quick_Reference.md` ✅
 
 **The Problem:**
-Rush is marked "WORK IN PROGRESS" but it's a **universal action available to all classes** = core survival mechanic.
+Rush was marked "WORK IN PROGRESS" but it's a **universal action available to all classes** = core survival mechanic. Previously had incomplete design with dice rolls and exertion risk, creating unnecessary complexity.
 
-Current incomplete design:
-- Roll Prof + Exertion
-- Each success = 1 HD restored
-- Costs 1 Resolve automatically
-- 1s burn HD (risky gamble)
+**Decision Made:**
+✅ **Rush is a clean, simple trade: 1 Resolve → Proficiency HD (no roll, no risk)**
 
-**Missing details:**
-- What action type? (One of your 2 actions? Bonus action? Reaction?)
-- What tier? (Basic 2+? Advanced 3+?)
-- Is recovery capped? (Unlimited if you roll well?)
-- Usable how often? (At-will? Once per combat?)
+**Implemented Fix:**
 
-**Recommended Fix:**
-```markdown
-## Rush (Universal Action)
+**Combat Rules - "Rush" Section Added (Universal Actions):**
 
-**Action:** Standard (uses one of your 2 actions)  
-**Tier:** Basic (2+ threshold)  
-**Cost:** 1 Resolve (automatic)  
-**Frequency:** Usable once per short rest
+**Action Type:** Standard (uses one of your 2 actions)  
+**Cost:** 1 Resolve (automatic, no Resolve check)  
+**Effect:** Immediately regain Proficiency HD  
+**Frequency:** Resets on Rest (short rest)
 
-**Effect:**
-You push past pain and exhaustion, forcing your body beyond its limits.
+**How Rush Works:**
+1. Declare Rush on your turn (uses one action)
+2. Automatically lose 1 Resolve (no roll required—voluntary sacrifice)
+3. Immediately regain HD equal to your Proficiency
+4. **No dice roll, no exertion, no risk of burning HD**
 
-**Resolution:**
-1. Lose 1 Resolve immediately (you must have at least 1 Resolve to use Rush)
-2. Roll Proficiency + any amount of Exertion dice
-3. Each success (5+) restores 1 HD
-4. **Recovery Cap:** You may restore a maximum of **Proficiency HD** (even if you roll more successes)
-5. **Risk:** Any 1s rolled on exertion dice burn HD as normal
-
-**The Gamble:**
-- Roll few exertion dice = safer, but less recovery
-- Roll many exertion dice = more recovery potential, but risk burning HD
-- You might end up with LESS HD than when you started
+**Design Philosophy:**
+- **Clean trade:** Mental fortitude (Resolve) → Physical vitality (HD)
+- **No gambling:** Unlike healing spells or exertion actions, Rush is guaranteed recovery
+- **Strategic cost:** Losing Resolve creates death spiral risk (penalties, reduced defense)
+- **Desperation mechanic:** Trade tomorrow's strength for today's survival
+- **Predictable:** Players know exactly what they're getting (Proficiency HD)
 
 **Example:**
-Fighter (Proficiency 3, at 2 HD remaining, 3 Resolve)
-- Uses Rush (loses 1 Resolve → now at 2 Resolve)
-- Rolls 3 Prof + 4 Exertion dice (7d6 total)
-- Results: 6, 5, 4, 3, 2, 1, 1
-- Successes: 2 (the 6 and 5)
-- Burned HD: 2 (the two 1s)
-- **Net result: 2 HD restored - 2 HD burned = 0 HD change** (but lost 1 Resolve)
-
-**Philosophy:**
-Rush is desperation. When you need HP NOW and are willing to gamble collapse for survival.
+```
+Level 5 Combatant (Proficiency 3, at 3 HD / 11 max, 4 Resolve)
+- Uses Rush (one action)
+- Loses 1 Resolve: 4 → 3 Resolve
+- Gains 3 HD: 3 HD → 6 HD
+- Can use second action normally
+- Rush resets on next Rest
 ```
 
-**Action Items:**
-- [ ] Finalize Rush mechanics (action type, tier, cap, frequency)
-- [ ] Add Rush to Core Mechanics in "Universal Actions" section
-- [ ] Add Rush to Quick Reference
-- [ ] Playtest Rush extensively (is Prof cap too restrictive? Too generous?)
+**Core Mechanics - Resolve Check Clarification:**
+- Updated Resolve check to explicitly state "4 or less" for consistency
+- Added note: "Rush action bypasses check (voluntary loss)"
+- Clarified that choosing to use Rush does not trigger additional Resolve checks
+
+**Quick Reference - Universal Actions & Resolve Checks Added:**
+- Rush summary: Cost, Effect, Frequency
+- Condensed explanation: "Trade mental fortitude for physical recovery"
+- Complete Resolve check reference added (when required, how to roll, Rush exception)
+
+**Key Design Decisions:**
+- **Why no roll?** Reduces complexity, makes Rush reliable in desperate situations
+- **Why Proficiency HD?** Scales naturally with advancement (1 HD at Level 1, 5 HD at Level 10)
+- **Why automatic Resolve loss?** Rush is about willpower, not luck—you choose this sacrifice
+- **Why resets on Rest?** Prevents spam, encourages resource management (max 2 Rests per day = max 2 Rushes normally)
+- **Why available to all?** Universal survival option prevents "only healers can save dying characters" problem
+
+**NPCs May Have Rush:**
+Some elite NPCs or monsters may use Rush to survive longer than expected, creating dangerous "won't stay down" moments in combat.
+
+**All Rush mechanics now fully documented with clear examples and strategic guidance.**
 
 ---
 
@@ -787,18 +834,46 @@ Use this checklist to track progress as you work through fixes:
 
 **🎉 ALL CRITICAL FIXES COMPLETE — SYSTEM IS PLAYTEST READY! 🎉**
 
-### High Priority (Smooth Play)
+### High Priority (Smooth Play) — ALL COMPLETE ✅
 - [x] **Issue #7:** Affinity Dice mechanics complete ✅
-- [ ] **Issue #8:** Skill training progression rules added
-- [ ] **Issue #9:** Monster exertion rules decided & documented
-- [ ] **Issue #10:** Multi-target action rules written
-- [ ] **Issue #11:** Rush ability finalized
+- [x] **Issue #8:** Skill system documentation clarified ✅
+- [x] **Issue #9:** NPC/Monster action rules decided & documented ✅
+- [x] **Issue #10:** Multi-target action rules written ✅
+- [x] **Issue #11:** Rush ability finalized ✅
+- [x] **Issue #12:** Steady ability implemented ✅
+
+**Documentation for Issue #12: Steady Ability**
+
+**Status:** COMPLETE  
+**Location:** Combat Rules (Universal Actions section), Core Mechanics (Resolve section), Quick Reference, Classes (Priest/Sovereign enhancements)
+
+**Implementation:**
+- **Steady Action:** -3 HD → +1 Resolve (fixed cost, no roll, resets on Rest)
+- Universal action available to all characters
+- Clean inverse of Rush (Rush: 1 Resolve → Prof HD, Steady: 3 HD → 1 Resolve)
+- Provides baseline Resolve management for everyone
+
+**Priest & Sovereign Specialization:**
+- **Priests:** Power Word: Endure restores BOTH HD and Resolve to others at range with no personal cost (superior support)
+- **Priests:** Divine Conduit restores Resolve while dealing damage (offensive restoration)
+- **Sovereigns:** Internal Alchemy HD→Will triggers automatically when taking damage, no action required (passive efficiency)
+- **Sovereigns:** Resource Cascade restores Resolve while attacking successfully (combat-integrated restoration)
+- **Sovereigns:** Efficient Recovery provides Rush-like trade but usable Prof times per rest (frequency advantage)
+
+**Design Philosophy:**
+- Everyone has baseline Resolve management (Steady: 3 HD → 1 Resolve)
+- Priests and Sovereigns are demonstrably superior at Resolve manipulation
+- Priests excel at restoring Resolve to others and channeling power for self-restoration
+- Sovereigns excel at automatic/passive Resolve restoration during combat
+- Class identity preserved while providing universal survival tool
+
+---
 
 ### Medium Priority (V1.0 Polish)
-- [ ] **Issue #12:** Affinity Bane triggers created
-- [ ] **Issue #13:** Path Board: 3 core disciplines complete (6 nodes each)
-- [ ] **Issue #14:** Bestiary: +4 creatures (3 Expert, 1 Legendary)
-- [ ] **Issue #15:** Travel & Journey System (if needed)
+- [ ] **Issue #13:** Affinity Bane triggers created
+- [ ] **Issue #14:** Path Board: 3 core disciplines complete (6 nodes each)
+- [ ] **Issue #15:** Bestiary: +4 creatures (3 Expert, 1 Legendary)
+- [ ] **Issue #16:** Travel & Journey System (if needed)
 
 ---
 

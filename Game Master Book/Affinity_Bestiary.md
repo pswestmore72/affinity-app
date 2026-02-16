@@ -10,32 +10,175 @@ This compendium contains creatures drawn from across the **Reflected Realms**, *
 
 NPCs are categorized by their **Threat Tier**, which determines their overall power level and typical encounter difficulty:
 
-| Tier | Description | Typical Level Equivalent | HD Range |
-|------|-------------|-------------------------|----------|
-| **Trivial** | Minimal threat, easily dispatched | Below Level 1 | 1-2 HD |
-| **Basic** | Standard encounters for low-level parties | Level 1-2 | 3-5 HD |
-| **Advanced** | Challenging foes for mid-level parties | Level 3-5 | 6-10 HD |
-| **Expert** | Dangerous adversaries requiring tactics | Level 6-7 | 11-15 HD |
-| **Legendary** | Epic threats, major story encounters | Level 8-9 | 16-20 HD |
-| **Ultimate** | World-threatening entities | Level 10 | 21-25 HD |
-| **Mythical** | Reality-warping cosmic forces | Beyond Level 10 | 26+ HD |
+| Tier | Description | Typical Level Equivalent | HD Range | Actions | Max Resolve |
+|------|-------------|-------------------------|----------|---------|-------------|
+| **Trivial** | Minimal threat, easily dispatched | Below Level 1 | 1-2 HD | 1 | 2 |
+| **Basic** | Standard encounters for low-level parties | Level 1-2 | 3-5 HD | 1-2 | 2 |
+| **Advanced** | Challenging foes for mid-level parties | Level 3-5 | 6-10 HD | 1-2 | 3 |
+| **Expert** | Dangerous adversaries requiring tactics | Level 6-7 | 11-15 HD | 2 | 4 |
+| **Legendary** | Epic threats, major story encounters | Level 8-9 | 16-20 HD | 2 + ½ party size (up) | 5+ |
+| **Ultimate** | World-threatening entities | Level 10 | 21-25 HD | 2 + ½ party size (up) | 8+ |
+| **Mythical** | Reality-warping cosmic forces | Beyond Level 10 | 26+ HD | 2 + party size (up) | 11+ |
+
+**Note:** Higher-tier NPCs scale their action economy with party size to create epic, multi-phase encounters without becoming trivial or overwhelming.
+
+---
+
+## NPC Action Rules
+
+**NPCs use simplified mechanics to reduce GM bookkeeping while maintaining the core dice pool system:**
+
+### Fixed Dice Pools
+
+**NPCs do NOT use exertion budgets.** Instead:
+- Stat blocks show **total dice pools** for each action
+- NPCs roll the listed dice pool every time (no exertion choices)
+- **1s rolled by NPCs do NOT burn their HD** (no death spiral tracking)
+
+**Example:**
+```
+Orc Raider (Proficiency 2)
+- Greataxe Attack (Basic, 2+):
+  - Rolls: 3d6 (always)
+  - Required: 1
+  - Base: 2 HD damage
+```
+
+The Orc always rolls 3d6 for this attack. No exertion decision, no HD burn from 1s.
+
+---
+
+### Reckless Aggression
+
+Some NPCs can **temporarily increase their dice pools** under specific conditions:
+
+**Reckless Trait Format:**
+```
+Special Abilities:
+- Blood Rage: When below half HD, rolls 5d6 instead of 3d6 for Greataxe attacks
+```
+
+This represents desperate aggression without complex exertion tracking.
+
+---
+
+### NPC Actions Per Turn
+
+NPCs get a different number of actions based on their Power Tier (see table above):
+
+- **Trivial:** 1 action per turn
+- **Basic-Advanced:** 1-2 actions per turn (GM's choice based on situation)
+- **Expert:** 2 actions per turn
+- **Legendary-Mythical:** 2+ actions (scales with party size for epic encounters)
+
+**Why Variable Actions?**
+- Solo bosses need more actions to challenge a full party
+- Legendary+ threats feel like epic encounters, not just bigger HP bags
+- Prevents action economy imbalance (4 PCs vs 1 boss)
+
+**Action Tier Restrictions:**
+- **All NPCs:** Only 1 action may be Expert tier or higher per turn
+- **Legendary NPCs:** May use no more than 1 Legendary-tier action per round
+- **Ultimate NPCs:** May use no more than 1 Ultimate-tier action per round
+- **Mythical NPCs:** May use no more than 1 Mythical-tier action per round
+
+These restrictions prevent NPCs from spamming their most powerful abilities and create dynamic, varied combat encounters.
+
+**Triggered Actions & Held Actions:**
+- NPCs can use triggered actions (reactions) if they haven't acted yet this round
+- NPCs can hold actions, waiting for specific triggers
+- If held action's trigger doesn't occur by round end, may only use for Basic tier actions
+
+*See Game Master's Guide for complete NPC action economy rules.*
+
+---
+
+### NPC Resolve
+
+NPCs have **variable Resolve** based on their tier:
+
+- **Trivial-Basic:** Resolve 2 (easily demoralized)
+- **Advanced:** Resolve 3 (moderate mental fortitude)
+- **Expert:** Resolve 4 (disciplined)
+- **Legendary:** Resolve 5+ (exceptional willpower)
+- **Ultimate:** Resolve 8+ (supernatural conviction)
+- **Mythical:** Resolve 11+ (reality-warping presence)
+
+**Unlike player characters (who always have Resolve 5), NPCs scale to represent varying mental/spiritual strength.**
+
+---
+
+### NPC Defense Rolls
+
+NPCs defend using the **same layered defense system as PCs:**
+
+1. **Defense Capacity:** ½ Proficiency (rounded up, minimum 1 die)
+2. **Die Type:** Based on layer (magical barrier d12 → armor temp HD → permanent HD)
+3. **No Exertion/Affinity:** NPCs cannot add bonus dice to defense
+4. **1s on Defense:** Do NOT burn NPC HD (simplified bookkeeping)
+
+**Example:**
+```
+Verdant Guardian (Proficiency 3, Armor 2d10 temp HD)
+- Takes 4 HD damage from player attack
+- Defense Capacity: ½ Prof = 2 dice (rounded up)
+- Rolls: 2d10 (armor layer)
+- If successful: Armor depletes, permanent HD untouched
+- If failed: Armor depletes, 4 HD damage to permanent pool
+```
+
+---
+
+### Stat Block Dice Pool Explanation
+
+When you see **"Rolls: 5d6"** in a stat block, this represents:
+- The NPC's Proficiency dice (baseline competence)
+- + Typical exertion (representing how aggressively they fight)
+- = Fixed total (GM doesn't calculate each turn)
+
+**The dice pool abstraction assumes NPCs fight at consistent aggression levels.** Proficiency dice and "exertion-equivalent" dice are combined into one simple roll.
+
+---
+
+### GM Tips for Running NPCs
+
+**Keep It Simple:**
+- Roll the dice shown in the stat block
+- Don't track exertion budgets or HD burn from 1s
+- Use "Reckless" traits for conditional power spikes
+
+**Adjust Difficulty On-the-Fly:**
+- If an NPC is too weak, describe them fighting more aggressively and add +1-2d6
+- If too strong, describe exhaustion and reduce dice pool by 1-2d6
+- Adjust HP mid-combat if needed (players never see your notes)
+
+**Action Economy Tactics:**
+- Legendary+ NPCs with multiple actions can split targets or perform combos
+- Use extra actions narratively: "The dragon attacks, then breathes fire, then takes flight!"
+
+**Resolve as Narrative Tool:**
+- Low Resolve NPCs flee or surrender when bloodied
+- High Resolve NPCs fight to the death or until objectives achieved
+- Use Resolve damage from social encounters to demoralize enemies before combat
 
 ---
 
 ## NPC Stat Block Format
 
 Each creature lists:
-- **Threat Tier:** Power category
+- **Threat Tier:** Power category (determines Actions and Max Resolve)
 - **HD Pool:** Total Hit Dice (die type and count)
 - **Proficiency:** Based on effective level
-- **Resolve:** Mental/spiritual fortitude (usually = Proficiency)
+- **Resolve:** Mental/spiritual fortitude (varies by tier, see table above)
 - **Armor:** Natural or worn armor (temp HD)
 - **Movement:** Base movement speed
-- **Attacks:** Name, tier, dice pool, required successes, base damage
-- **Special Abilities:** Unique powers or traits
+- **Attacks:** Name, tier, fixed dice pool, required successes, base damage
+- **Special Abilities:** Unique powers or traits (including Reckless traits)
 - **Tactics:** How they fight or behave
 - **Terrain/Environment (optional):** Preferred terrain and how they use it tactically
 - **Lore:** Connection to cosmology and narrative hooks
+
+**Remember:** Dice pools shown are fixed totals (Proficiency + typical aggression). NPCs don't make exertion choices or burn HD from 1s—roll the dice shown and move on!
 
 **Note:** Not all creatures have specific terrain preferences, but those that do gain significant tactical advantages in their native environments. Rangers, Priests, and environmental specialists should leverage or counter these advantages.
 

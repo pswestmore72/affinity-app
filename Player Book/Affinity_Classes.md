@@ -186,7 +186,7 @@ You are a relay point between the mortal and the infinite. When companions falte
 - Target regains Proficiency HD immediately
 - If target has lost Resolve (below 5), restore 1 Resolve
 - Usable Proficiency times per short rest
-- **Design Note:** Removed auto-pass Resolve clause—too strong at Level 1, overlaps with late-tier collapse prevention
+- **Priest Advantage:** Unlike Steady action (3 HD → 1 Resolve for self), you restore BOTH HD and Resolve to others at range with no personal cost
 - "The power I channel refuses your collapse"
 
 **Power Word: Smite** (Advanced, 3+)
@@ -252,6 +252,7 @@ You are a relay point between the mortal and the infinite. When companions falte
 - You may choose to exclude allies from the effect
 - After using: Restore 1 Resolve to yourself (channeling cosmic power steadies your will)
 - Usable Proficiency times per short rest
+- **Priest Advantage:** Restore Resolve while dealing damage—unlike Steady (costs HD), channeling power RENEWS you
 - "I am the conduit. The power flows THROUGH me."
 
 **Level 5: Chosen Instrument**
@@ -868,7 +869,7 @@ You are a closed system, perfectly efficient. Every point of HD, every die of Ex
   - **HD → Will:** Once per round, if you lose 3+ HD from a single source (damage, cost, burn), restore 1 Resolve at end of your turn
   - **Efficiency Banking:** Unused Exertion budget from previous turn grants +1d6 to your first roll next turn (does not burn HD on 1s)
 - This is your core mechanic—you are a resource alchemist
-- **Design Note:** Resolve→Endurance scales with Proficiency (not flat 2). HD→Will requires enemy pressure (not voluntary self-burn), preventing resource loop farming.
+- **Sovereign Advantage:** Steady action requires using an action (3 HD → 1 Resolve). Your HD→Will conversion triggers AUTOMATICALLY when taking damage, costs no action, and happens at end of turn (superior efficiency)
 - "Energy cannot be created or destroyed, only converted"
 
 **Sovereign Discipline** (Passive)
@@ -886,7 +887,7 @@ You are a closed system, perfectly efficient. Every point of HD, every die of Ex
 - Effect: Restore Proficiency HD immediately
 - Cost: Lose 1 Resolve (converting will to body)
 - Usable Proficiency times per short rest
-- **Design Note:** Reduced from Prof × 2 to Prof HD. Sovereign wins on action efficiency (no roll, guaranteed result), not healing output (Priest territory).
+- **Sovereign Advantage:** Rush trades 1 Resolve → Prof HD (guaranteed, no roll). You get the SAME trade but must roll 2 successes—higher risk, but can use Prof times per rest instead of once
 - "I allocate resources precisely"
 
 **Level 3: Threshold Mastery**
@@ -900,6 +901,7 @@ You are a closed system, perfectly efficient. Every point of HD, every die of Ex
   - **If you used maximum Exertion this turn:** Next turn your Exertion budget increases by +2
 - Victory feeds efficiency
 - Usable Proficiency times per short rest
+- **Sovereign Advantage:** Steady costs 3 HD and an action to gain 1 Resolve. You restore Resolve WHILE attacking successfully, no separate action needed (combat-integrated efficiency)
 - "Every action strengthens the next"
 
 **Deny Death** (Expert, 4+)

@@ -88,6 +88,20 @@ Your ability to cast spells is limited by your Exertion Dice per turn (= your Le
 
 ---
 
+## Multi-Target Spells
+
+Many spells affect multiple targets through different mechanisms:
+
+- **Area Spells (Radius, Cone, Line):** Roll once, all creatures in area affected, each defends individually, extra successes increase area size (not damage)
+- **Multi-Select Spells (Chain Lightning, Mass Healing):** Choose specific targets, roll once, extra successes add more targets OR increase intensity
+- **Sustained Zones (Wall of Flames, Sanctify Space):** Roll once when cast, zone persists for duration affecting anyone who enters
+
+**Proficiency Scaling:** As you advance, extra successes allow you to affect larger areas or more targets (max = Proficiency scaling).
+
+**See "Multi-Target Actions" in Combat Rules for complete mechanics, examples, and tactical guidance.**
+
+---
+
 ## Spell Scrolls
 
 **Spell scrolls are dangerous magic bottled for one-time use.**

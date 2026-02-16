@@ -269,6 +269,7 @@ Each turn, you may allocate **Exertion Dice** to fuel your actions.
 **Exertion Budget:**
 - **Each action gets an independent Exertion pool = Your Proficiency**
 - You may take **up to 2 actions per turn** (player characters only; NPCs may have different action counts)
+- **Action Tier Restriction:** Only 1 action may be Expert tier or higher per turn
 - Each action can use up to Proficiency exertion dice independently
 - Each Exertion Die is a d6
 - Unused Exertion from one action does NOT carry to the next action or turn
@@ -278,6 +279,7 @@ Each turn, you may allocate **Exertion Dice** to fuel your actions.
 - Action 1: Attack using 3 Proficiency dice + up to 3 Exertion dice
 - Action 2: Cast spell using 3 Proficiency dice + up to 3 Exertion dice  
 - **Total possible: 6 Proficiency dice + 6 Exertion dice = 12d6 per turn**
+- **Restriction:** If Action 1 is Expert tier or higher, Action 2 must be Basic or Advanced tier
 
 **Risk:**
 - Every 1 rolled on **Exertion Dice** burns 1 HD immediately
@@ -292,6 +294,24 @@ Exertion represents **pushing past comfort:**
 
 **Basic tasks should be doable with proficiency alone.**
 **Heavy tasks require exertion—and exertion always costs.**
+
+---
+
+### Triggered Actions & Held Actions
+
+**Triggered Actions (Reactions):**
+- Special abilities that activate in response to specific triggers
+- If you haven't acted this round, you may use triggered actions when triggers occur
+- Uses one of your 2 actions for the turn
+- Subject to the same tier restrictions as normal actions
+
+**Held Actions:**
+- You may hold actions on your turn, waiting for a specific trigger
+- When trigger occurs, use the held action immediately (interrupts current action)
+- If trigger doesn't occur by round's end, you may use held actions only for Basic tier actions (at initiative count 0)
+- **Risk:** Wasting your turn if trigger never happens
+
+**See Combat Rules for detailed triggered action and held action mechanics.**
 
 ### Exertion Minimums
 
@@ -323,12 +343,24 @@ Skills represent specialized **domains** where training matters. They are **not 
 ### How Skills Work
 
 **Skills do not grant dice directly.** Instead:
-- Class abilities may grant bonuses when specific skills apply (e.g., "gain +2d6 when using Wilderness")
-- Feats may grant bonuses when specific skills apply
+- **Class abilities** may grant bonuses when specific skills apply (e.g., "gain +2d6 when using Wilderness")
+- **Feats (Path Board)** may grant bonuses when specific skills apply
+- **Special features** may grant bonuses when specific skills apply
 - GMs use skill domains to determine when abilities trigger
 - All rolls use **Proficiency + Exertion** as baseline
 
-**Example:** A Ranger's "Nature's Treaty" ability grants +2d6 when rolling for Wilderness-related tasks. The Wilderness skill itself doesn't grant dice—the class ability does.
+**Bonus Dice from Abilities:**
+- When an ability grants bonus dice for a skill domain, those dice do NOT burn HD on 1s
+- They function like Proficiency dice—representing trained reliability
+- They're added on top of your Proficiency + Exertion pool
+
+**Design Philosophy:**
+- Any character can attempt any roll in any domain
+- No "skill monkey" characters who monopolize certain checks
+- Your class and feat choices determine where you gain advantages
+- Players remember and invoke their abilities when applicable domains arise
+
+**Example:** A Ranger's "Nature's Treaty" ability grants +2d6 when rolling for Wilderness-related tasks. The Wilderness skill itself doesn't grant dice—the class ability does. When tracking a beast through the forest, the Ranger rolls Proficiency + Exertion + 2d6 (Nature's Treaty bonus). The 2d6 from the ability don't burn HD on 1s.
 
 ---
 
@@ -616,9 +648,12 @@ A lone Navigator in harsh conditions faces impossible odds. A coordinated party 
 **Maximum of 1 Resolve check per round** (even if multiple triggers occur).
 
 **Resolve Check:** Roll 1d6.
-- **1-4 →** You lose 1 Resolve (fall one stage)
-- **5 →** You hold your current Resolve level
+- **4 or less →** You lose 1 Resolve (fall one stage)
+- **5 →** You hold your current Resolve level (no change)
 - **6 →** You gain 1 Resolve (rally—advance one stage, maximum 5)
+
+**Special: Rush and Steady Actions Bypass Check**  
+When you use the Rush action or Steady action (see Universal Actions in Combat Rules), you choose to lose Resolve (Rush) or HD (Steady) without rolling. These voluntary sacrifices do not trigger additional Resolve checks.
 
 ### The Resolve Stages
 
@@ -653,21 +688,122 @@ As Resolve decreases, you suffer cumulative penalties:
 - Cannot initiate Expert+ actions
 - All actions require +1 additional success
 - Roll one fewer defense die (minimum 1)
-- You fall unconscious or are otherwise removed from the scene
-- You are dying, captured, or at the mercy of events
-- Further failed Resolve checks = death
+- **You fall unconscious immediately**
+- **If you have HD > 0:** You are NOT dying, but collapsed (unconscious 0-2 days, see Death & Dying)
+- **If you have HD = 0:** You ARE dying (make Resolve checks each round until healed or dead, see Death & Dying)
+- **You only die when you reach BOTH 0 HD AND 0 Resolve**
 
 **Note:** Defense dice reduction cannot go below 1 die (you always roll at least 1 defense die).
 
 ### Recovering Resolve
 
+- **Steady action** (Universal): Lose 3 HD → Gain 1 Resolve (see Combat Rules)
 - Healing spells with "Restore" keyword can restore Resolve stages
-- Some class abilities can protect or restore Resolve
+- **Priest and Sovereign class abilities** are superior at restoring/protecting Resolve (better efficiency, can affect others)
 - Most regular healing does NOT restore Resolve (only HD)
 - **Short Rest:** Restore Resolve up to half your maximum (3 Resolve)
 - **Long Rest:** Fully restore to 5 Resolve
 
 **Resolve is a death spiral that ensures fights end decisively.**
+
+---
+
+## Death & Dying
+
+**Death in Affinity requires BOTH resources to fail: You die when you reach 0 HD AND 0 Resolve simultaneously.**
+
+### The Two Paths to Incapacitation
+
+**1. Collapse (0 Resolve, but HD > 0)**
+- You fall unconscious immediately
+- **You are NOT dying**—your body has vitality but your will has broken
+- You remain unconscious for **0-2 days** (GM's discretion based on narrative context)
+- While unconscious:
+  - Cannot take actions
+  - Do not make Resolve checks
+  - Are at the mercy of your environment (allies must protect you, enemies may capture you)
+- **Recovery:** When you regain consciousness (after 0-2 days or if allies restore your Resolve through abilities):
+  - Regain 1 Resolve automatically
+  - Resume normal play
+  - Suffer narrative consequences (lost time, vulnerability, psychological impact)
+
+**Example: The Broken Warrior**
+```
+Combatant at 8 HD, 1 Resolve
+- Enemy uses Power Word: Despair (forces Resolve check)
+- Combatant rolls 3 (loses 1 Resolve → 0 Resolve)
+- Falls unconscious with 8 HD remaining
+- NOT dying, but incapacitated
+- Allies must protect them or retreat
+- Will wake in 0-2 days with 1 Resolve
+```
+
+**2. Dying (0 HD, but Resolve > 0)**
+- You fall unconscious immediately
+- **You ARE dying**—your body has failed but your will persists
+- Make a Resolve check at the end of each round:
+  - **4 or less:** Lose 1 Resolve (death spiral accelerates)
+  - **5:** Hold current Resolve (buying time)
+  - **6:** Gain 1 Resolve (rallying from the brink)
+- **If you reach 0 Resolve while at 0 HD: YOU DIE**
+- **If healed above 0 HD:** Stop making Resolve checks, regain consciousness
+- Allies can stabilize you or heal you to prevent death
+
+**Example: The Bleeding Hero**
+```
+Priest at 0 HD, 3 Resolve
+- Enemy strikes, triggering Resolve check
+- Priest rolls 4 (loses 1 Resolve → 2 Resolve)
+- Next round: Rolls 6 (gains 1 Resolve → 3 Resolve, still alive!)
+- Combatant uses Rush to heal themselves, then drags Priest to safety
+- Weaver casts healing spell: Priest regains 2 HD → 2 HD, 3 Resolve
+- Priest regains consciousness, continues fighting
+```
+
+**3. Death (0 HD AND 0 Resolve)**
+- You have failed in body and spirit
+- You die
+- Resurrection may be possible through powerful magic (Legendary/Ultimate tier Divine spells)
+- Narrative consequences: Death is significant in Aeralon
+
+### Stabilizing the Dying
+
+Allies can help stabilize dying characters:
+
+**Stabilize Action** (Basic, 2+)
+- **Range:** Touch
+- **Required:** 1 success
+- **Effect:** Target automatically succeeds on their next Resolve check this round (counts as rolling a 5)
+- **Does NOT restore HD or Resolve**—only prevents immediate death spiral
+- **Usable by:** Any character (Medicine domain abilities grant bonus dice)
+
+**Healing While Dying:**
+- Any HD restoration brings a character above 0 HD → stops Resolve checks, regains consciousness
+- Rush can be used while conscious and at 0 HD (if you have Resolve remaining)
+- Healing spells, potions, class abilities all work normally
+
+### Why Resolve is Critical
+
+**Resolve is the true survival stat:**
+- You can have 15 HD but 0 Resolve → collapse (unconscious for days)
+- You can have 0 HD but 5 Resolve → multiple chances to rally before death
+- Resolve loss cascades penalties (harder actions, weaker defense)
+- Managing Resolve is more important than managing HD
+
+**This creates dramatic tension:**
+- Warriors who push too hard collapse despite having HP
+- Dying heroes with strong will can rally from the brink
+- Social combat can incapacitate without killing
+- Resolve damage is as dangerous as HP damage
+
+### Preventing Collapse
+
+Some class abilities and features protect or restore Resolve:
+- **Priests:** Power Words can restore Resolve to allies
+- **Sovereigns:** Leadership abilities may grant Resolve
+- **Shamans:** Spirit channeling may stabilize Resolve
+- **Healing Spells with "Restore" keyword:** Explicitly restore Resolve stages
+- **Rest & Recover:** Natural Resolve restoration (see Rest & Recovery section)
 
 ---
 

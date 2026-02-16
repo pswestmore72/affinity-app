@@ -45,11 +45,32 @@ Your class determines your core Hit Dice and starting abilities.
 
 ---
 
-## Step 3: Choose Your Skills
+## Step 3: Understand the Eight Skills
 
-Select **2 skills** from the Eight Skills to be **Trained** in (+1d6 bonus when applicable).
+Skills are **context domains** that define when certain abilities apply—they are not trainable attributes.
 
-**See "The Eight Skills" section in Core Mechanics for the complete list and how skills work.**
+**The Eight Skill Domains:**
+- **Agility** — Precision movement, stealth, dexterous manipulation
+- **Awareness** — Sensing, insight, investigation
+- **Fortitude** — Physical resistance, holding out, resilience
+- **Wilderness** — Tracking, navigation, animals, foraging
+- **Influence** — Persuasion, deception, intimidation
+- **Lore** — History, arcana, religion, theory
+- **Medicine** — Healing, anatomy, diagnosis
+- **Craft** — Making, repairing, engineering
+
+**How Skills Work:**
+- Skills themselves do NOT grant bonus dice
+- **Class abilities, feats, and special features** grant bonus dice when a roll falls within a skill domain
+- The GM identifies which skill domain applies to a given challenge
+- Players remember and invoke their abilities that apply to that domain
+- Any character can attempt rolls in any domain—but some have abilities that help
+
+**Example:** A Ranger with "Nature's Treaty" ability gains +2d6 when rolling for Wilderness-related tasks. A Scholar with a Lore-focused feat gains bonus dice on Lore checks. Both can attempt both types of rolls, but each excels in their chosen domain.
+
+**Design Philosophy:** This prevents "skill monkey" characters and allows everyone to participate in all challenge types. Your class and feat choices determine where you gain advantages.
+
+**See Core Mechanics for complete skill rules.**
 
 ---
 
