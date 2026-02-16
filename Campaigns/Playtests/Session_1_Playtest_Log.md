@@ -652,17 +652,28 @@ This is a **team effort**:
 - Average roll (1d6) = 3.5
 - Advanced tier (3+ threshold, need 2 successes) = ~40% chance per die
 - With Prof 1 + Exert 1 = 2d6, likely 0-1 successes → often fails Advanced checks
-- **Design Question:** Is this intentional difficulty curve or too harsh at Level 2?
+- **RESOLVED:** This tension is intentional. Group rolls distribute risk and increase success chance.
 
-⚠️ **Assist mechanics need clarification:**
-- Do helpers roll their own dice or just grant +1d6 to leader?
-- If helpers roll, do their 1s burn their own HD?
-- **Recommendation:** Clarify "Assist = grant +1d6 reliable die (doesn't burn HD)" vs "Assist = add your roll to leader's pool"
+✅ **Group Roll Mechanics (CLARIFIED):**
+- **Most challenges = Group Roll:** All party members roll, cumulative successes count
+- **Distributes risk:** HD burn from 1s spread across party (no single character over-exerts)
+- **Example:** Moderate 3+ (need 2 successes) — Kael rolls 3 (1), Lyra rolls 5 (1), Torvan rolls 2 (0) = 2 total successes, SUCCESS
+- **Individual rolls = Exception:** Personal moments, contested checks, specific spotlights only
+- **Design Philosophy:** Avoids one character rolling repeatedly, burning HD alone
 
-⚠️ **Guardian "intelligence" undefined:**
-- How do constructs evaluate respect vs threat?
-- What triggers combat vs tolerance?
-- **Recommendation:** Add "Construct Behavior" section to GM Guide
+✅ **Guardian Behavior (CLARIFIED):**
+- **Default:** Allow passage to those who offer tribute/respect
+- **Without tribute:** Push back, block, limit mobility (NOT attack)  
+- **If attacked:** Fight back defensively
+- **NEVER throw the first punch** — Guardians are territorial protectors, not aggressive monsters
+- Party can: Offer tribute (free passage) | Ignore (get blocked/pushed) | Attack (combat by player choice)
+
+✅ **Lyra's Magical Defense (NOTED):**
+- Lyra has **Shield** prepared (triggered action)
+- Shield grants **magical barrier defense layer** (2d12) — becomes her OUTERMOST layer
+- Without Shield: Defend with 4d6 permanent HD only (fragile)
+- With Shield: 2d12 magical barrier → 4d6 permanent HD (much safer)
+- She's still fragile but has critical safety net
 
 ✅ **Narrative Advantage as +1d6 worked well:**
 - Kara's offering stone
