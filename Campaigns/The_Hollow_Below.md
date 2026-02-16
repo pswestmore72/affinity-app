@@ -504,7 +504,7 @@ The PCs reach the breached wall. Beyond it: **The Antechamber**.
 - Tries to damage the temple
 - Advances deeper without offering respect
 
-**Rogue Spotlight**: 
+**Investigation Spotlight**: 
 **Investigation check (Basic 2+)** to notice:
 - The pillars are inscribed with runes (language unknown, but pattern suggests instructions or warnings)
 - The bloodstain is three weeks old (dried, but still visible)
@@ -676,9 +676,9 @@ To open the portcullises, the party must place **stones of equal weight** in **b
 - **East Gate**: 10 lbs total
 - **West Gate**: 15 lbs total
 
-**Rogue/Scholar Spotlight**:
+**Scholar/Ranger Spotlight**:
 - **Investigation/Logic check (Moderate 3+)** to deduce the pattern
-- **Rogue's steady hands**: Advantage on placing stones precisely (some bowls are pressure-sensitive—too heavy or too light triggers a reset)
+- **Careful placement**: Advantage on placing stones precisely (some bowls are pressure-sensitive—too heavy or too light triggers a reset)
 
 **Failure Penalty**:
 Wrong combination = portcullis slams shut, minor quake (1d6 damage to everyone, alert guardians)
@@ -708,14 +708,14 @@ The party explores two of the three paths (typically East for info, then one of 
 
 **Hallway**: 80 feet long, lined with alcoves containing stone tablets.
 
-**Rogue Spotlight - Trapped Hall**:
+**Awareness Challenge - Trapped Hall**:
 **Investigation check (Moderate 3+)** to notice:
 - Floor tiles are pressure sensitive
 - Stepping on the wrong sequence triggers dart traps
 
-**Thieves' Tools + Awareness check (Moderate 3+):**
-- **Success**: Rogue disables traps or identifies safe path
-- **Failure**: Darts fire! 2d6 damage, DC3+ Athletics to dodge
+**Awareness + Agility check (Moderate 3+)**:
+- **Success**: Character disables traps or identifies safe path
+- **Failure**: Darts fire! 2d6 damage, DC3+ Agility to dodge
 
 **The Archive**:
 
@@ -968,10 +968,10 @@ Torvald specifically asks the Fighter: *"From a tactical standpoint—if we'd se
 - Fighter can explain how dangerous it was
 - Establishes Fighter's expertise; Torvald offers militia training position (future hook)
 
-**Sovereign Spotlight - Private Conversation**:
-Harlan pulls the Rogue aside: *"You kept your eyes open, right? Anything down there worth... following up on?"*
-- If Rogue mentions treasure, Harlan offers future "investment opportunities"
-- If Rogue says nothing, Harlan grins: *"Discreet. I like that."*
+**Sovereign/Ranger Spotlight - Private Conversation**:
+Harlan pulls the character aside: *"You kept your eyes open, right? Anything down there worth... following up on?"*
+- If character mentions treasure, Harlan offers future "investment opportunities"
+- If character says nothing, Harlan grins: *"Discreet. I like that."*
 
 **Warlock Spotlight - Blessing Received**:
 If the Warlock stabilized the ley-node, they receive **Khuldras's Favor** (permanent boon):
@@ -1030,9 +1030,9 @@ Stonebridge throws a celebration (the tremors stopped!):
 Captain Torvald approaches: *"Those four individuals—your companions—they followed your lead in the fighting. You've got command presence. Ever think about joining a garrison permanently?"*
 - The Fighter receives an open invitation to Stonebridge's militia (future retirement option)
 
-**The Rogue**:
-A young miner (the survivor, Jenna Coalhand) approaches shyly: *"You saved us. I saw what you did—disarming those traps, opening the locks. I... I want to learn that. Not to steal! To help. To be useful."*
-- The Rogue gains a potential apprentice/follower (if they want)
+**The Ranger/Sovereign**:
+A young miner (the survivor, Jenna Coalhand) approaches shyly: *"You saved us. I saw what you did—navigating those tunnels, reading the dangers. I... I want to learn that. To help. To be useful."*
+- The character gains a potential apprentice/follower (if they want)
 
 **The Paladin**:
 While praying at Kara's temple, the Paladin receives a vision from their deity:
@@ -1072,7 +1072,7 @@ The party is free to stay or leave.
 **Campaign Hooks for Future Stories**:
 
 - **The Fighter**: Receives a letter from Coldmarch (*The Frostmarch Vigil*)—Captain Frostfeld needs help
-- **The Rogue**: Coterie contacts them in next city (*The Shadowmark Debt*)—you owe a favor
+- **The Ranger/Sovereign**: Coterie contacts them in next city (*The Shadowmark Debt*)—you owe a favor
 - **The Warlock**: Hears rumors of corruption in Silverbrook (*The Platinum Paradox*)—Bahamut is displeased
 - **The Paladin**: Reports of memory loss in Tidemark (*The Moonless Covenant*)—Aluneth calls for aid
 
@@ -1104,7 +1104,8 @@ The party is free to stay or leave.
 - **Multiple solutions**: Seal/Restore/Claim/Negotiate—no "correct" answer
 - **Balanced spotlight**: Each class gets dedicated challenges
   - Fighter: Tactical combat leadership, militia interactions
-  - Rogue: Traps, locks, puzzles, stealth
+  - Ranger: Tracking, wilderness survival, stealth, terrain control
+  - Sovereign: Resource management, endurance, self-sufficient tactics
   - Warlock: Divine lore, ritual magic, ley-node stabilization
   - Paladin: Moral choices, religious negotiation, divine blessings
 - **Difficulty appropriate for Level 2-3**: Sentinels are tough but beatable; Boss encounter is challenging but has non-combat solution
@@ -1171,7 +1172,7 @@ The party is free to stay or leave.
 - **Goal**: Prove the discovery was worth it; redeem himself
 - **Attitude toward PCs**: Defensive initially; grateful if they don't blame him
 
-**Merchant Guild Rep Harlan Vex** (Level 2 Rogue, human)
+**Merchant Guild Rep Harlan Vex** (Level 2 Sovereign, human)
 - **Role**: "Explore It" faction, economic interests
 - **Personality**: Shrewd, charming, pragmatic
 - **Goal**: Protect town's economy, find profit opportunities
@@ -1187,7 +1188,7 @@ The party is free to stay or leave.
 
 **Jenna Coalhand** (Miner, traumatized survivor)
 - Provides eyewitness testimony of guardian attack
-- Can become Rogue's apprentice
+- Can become Ranger/Sovereign apprentice
 
 **Ryk Hammerfall** (Dwarf miner, injured, angry)
 - Provides lore about the ruins' age
@@ -1297,10 +1298,10 @@ The party is free to stay or leave.
 - Captain Frostfeld hears about the PC's competence protecting Stonebridge
 - Sends recruitment letter: *"If you can face stone guardians, you can handle frostbitten undead"*
 
-**For the Rogue** (*The Shadowmark Debt*):
+**For the Ranger/Sovereign** (*The Shadowmark Debt*):
 - Harlan Vex is connected to the Coterie (unknowingly)
 - His "business opportunities" note is a Coterie recruitment probe
-- When the Rogue reaches Korshal, the Coterie already knows their name
+- When the character reaches Korshal, the Coterie already knows their name
 
 **For the Warlock** (*The Platinum Paradox*):
 - Bahamut observes how the Warlock handled Khuldras's temple (respecting another deity's domain)
