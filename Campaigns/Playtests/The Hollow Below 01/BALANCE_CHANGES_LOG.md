@@ -296,6 +296,12 @@ The following playtest-validated mechanics need to be added to core Affinity doc
 ### High Priority
 - ✅ Defense Capacity = Proficiency (DONE - updated all core docs)
 - ✅ **Ways vs Paths System Clarification** (DONE - clarified terminology across Classes, Core Mechanics, Character Creation, Path Board, GM Guide)
+  - **Ways** = Class-specific subclasses (every level, 4×rows grid) - MENTIONED but not yet built
+  - **Paths** = General feats (levels 1/3/6/9/10, universal access, NO class restrictions)
+- ✅ **Path Board Cosmological Grounding** (DONE - Four Pillars represent Custodial Powers converging in Mortal Weave)
+  - Concordant Halls (Oath/Purpose), Living Accord (Life/Death), Curator Arcanum (Knowledge/Humility), Sovereign Self (Independence/Mastery)
+  - **CRITICAL:** Any class can take any Path—no restrictions. Paths are cosmic philosophies, not class identities.
+  - Paths do NOT alter class abilities (parallel augmentation, not class reinforcement)
 - ✅ **Burdens Optional Rule** (DONE - added to GM Guide as optional Affinity roleplay challenge)
 - ⏳ **Divine Compacts Guidelines** → Add chapter to Affinity_Game_Masters_Guide.md (use examples, abuse prevention, "use or lose" clause)
 

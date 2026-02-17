@@ -106,6 +106,281 @@ These convergence points reward players who **walk between philosophies** rather
 
 ---
 
+## Visual Map: The Path Board
+
+Below is a visual representation of the Path Board showing all Primary Feats (Level 1 choices) and their major connections across the Four Pillars:
+
+```mermaid
+graph TB
+    %% Define the Four Pillars as containers
+    subgraph CH["🗡️ CONCORDANT HALLS<br/>Oath & Purpose"]
+        WT[War-Trained<br/>MARTIAL PRIMARY]
+        HK[Hearth-Keeper<br/>HEARTH PRIMARY]
+        
+        WT --> WS[Weapon Specialist]
+        WT --> DS[Defensive Stance]
+        WT --> CR[Combat Reflexes]
+        WT --> TM[Tactical Mind]
+        
+        WS --> VF[Versatile Fighter]
+        DS --> AP[Anchor Point]
+        CR --> QD[Quick Draw]
+        TM --> BC[Battle Commander]
+        
+        AP --> HTL[Hold the Line]
+        
+        HK --> FM[Field Medic]
+        HK --> CW[Calming Words]
+        HK --> PI[Protective Instinct]
+        HK --> HT[Healer's Touch]
+        
+        FM --> CM[Combat Medic]
+        CW --> VC[Voice of Comfort]
+        PI --> GC[Guardian's Call]
+        HT --> RP[Restorative Presence]
+    end
+    
+    subgraph LA["🌿 LIVING ACCORD<br/>Life & Death"]
+        WildT[Wild-Touched<br/>PRIMAL PRIMARY]
+        ShT[Shadow-Trained<br/>SHADOW PRIMARY]
+        
+        WildT --> BB[Beast Bond]
+        WildT --> TE[Tracker's Eye]
+        WildT --> NR[Natural Resilience]
+        WildT --> Forage[Forager]
+        
+        BB --> PT[Pack Tactics]
+        TE --> PF[Pathfinder]
+        NR --> SI[Survivor's Instinct]
+        Forage --> Herb[Herbalist]
+        
+        ShT --> SS[Shadow Step]
+        ShT --> AmP[Ambush Predator]
+        ShT --> SM[Silent Movement]
+        ShT --> Mis[Misdirection]
+        
+        SS --> BS[Blink Step]
+        AmP --> PH[Patient Hunter]
+        SM --> GW[Ghost Walk]
+        Mis --> Feint
+        Mis --> SoH[Sleight of Hand]
+    end
+    
+    subgraph CA["📚 CURATOR ARCANUM<br/>Knowledge & Humility"]
+        SchM[Scholar's Method<br/>SCHOLAR PRIMARY]
+        SpT[Spell-Touched<br/>ARCANE PRIMARY]
+        
+        SchM --> LM[Lore Master]
+        SchM --> Craft[Craftsman]
+        SchM --> Ling[Linguist]
+        SchM --> Inv[Investigator]
+        
+        LM --> AL[Arcane Lore]
+        Craft --> MA[Master Artisan]
+        Ling --> Poly[Polyglot]
+        Inv --> Det[Detective]
+        
+        SpT --> RE[Ritual Expertise]
+        SpT --> SF[Spell Flexibility]
+        SpT --> MD[Metamagic Dabbling]
+        SpT --> AE[Arcane Efficiency]
+        
+        RE --> CDS[Cross-Domain Study]
+        SF --> AC[Adaptive Caster]
+        MD --> ME[Metamagic Expansion]
+        AE --> ER[Efficient Rituals]
+    end
+    
+    subgraph SS_PILLAR["👤 SOVEREIGN SELF<br/>Independence & Mastery"]
+        Wand[Wanderer<br/>TRAVEL PRIMARY]
+        
+        Wand --> TT[Tireless Traveler]
+        Wand --> Carto[Cartographer]
+        Wand --> CultA[Cultural Adapter]
+        Wand --> Res[Resourceful]
+        
+        TT --> TB[Trail Blazer]
+        Carto --> MR[Map Reader]
+        CultA --> WW[World Wise]
+        Res --> JAT[Jack of All Trades]
+    end
+    
+    subgraph CROSS["⚖️ CONVERGENCE<br/>Multiple Philosophies"]
+        Unyield[Unyielding<br/>RESILIENCE PRIMARY]
+        VirtB[Virtue-Bound<br/>COSMIC PRIMARY]
+        PactB[Pact-Bound<br/>PACT PRIMARY]
+        LimB[Liminal-Born<br/>LIMINAL PRIMARY]
+        SilT[Silver Tongue<br/>SOCIAL PRIMARY]
+        
+        Unyield --> SW[Second Wind]
+        Unyield --> FW[Fortified Will]
+        Unyield --> PTol[Pain Tolerance]
+        Unyield --> Stub[Stubborn]
+        
+        SW --> DR[Deep Reserves]
+        FW --> Unshake[Unshakeable]
+        Stub --> IO[Immovable Object]
+        
+        VirtB --> AS[Affinity Surge]
+        VirtB --> CosmA[Cosmic Awareness]
+        VirtB --> VV[Virtue's Voice]
+        VirtB --> ResS[Resonant Strike]
+        
+        AS --> CosmR[Cosmic Reservoir]
+        CosmA --> FW_fate[Fate's Whisper]
+        VV --> IP[Inspiring Presence]
+        ResS --> CC[Cosmic Conduit]
+        
+        PactB --> PatW[Patron's Whisper]
+        PactB --> BorP[Borrowed Power]
+        PactB --> MbD[Marked by Darkness]
+        PactB --> InfR[Infernal Resilience]
+        
+        PatW --> DarkC[Dark Counsel]
+        MbD --> AoD[Aura of Dread]
+        
+        LimB --> SpiS[Spirit Sense]
+        LimB --> PhStep[Phase Step]
+        LimB --> BetW[Between Worlds]
+        LimB --> PlanA[Planar Awareness]
+        
+        SpiS --> SpiG[Spirit Guide]
+        PhStep --> BlinkT[Blink Travel]
+        BetW --> IncD[Incorporeal Defense]
+        PlanA --> ThW[Threshold Walker]
+        
+        SilT --> Charm[Charming]
+        SilT --> Decep[Deceptive]
+        SilT --> ComP[Commanding Presence]
+        SilT --> Neg[Negotiator]
+        
+        Charm --> Belov[Beloved]
+        Decep --> MoD[Master of Disguise]
+        ComP --> NatL[Natural Leader]
+        Neg --> Med[Mediator]
+    end
+    
+    %% BRIDGE CONNECTIONS (Cross-Pillar)
+    %% Martial ↔ Shadow
+    QD -.->|Bridge| AmP
+    CR -.->|Bridge| SS
+    
+    %% Martial ↔ Hearth
+    DS -.->|Bridge| HTL
+    PI -.->|Bridge| GC
+    
+    %% Martial ↔ Social
+    TM -.->|Bridge| BC
+    ComP -.->|Bridge| NatL
+    
+    %% Martial ↔ Scholar
+    VF -.->|Bridge| JAT
+    
+    %% Shadow ↔ Primal
+    AmP -.->|Bridge| PH
+    GW -.->|Bridge| TE
+    
+    %% Shadow ↔ Social
+    Mis -.->|Bridge| Decep
+    
+    %% Shadow ↔ Liminal
+    SS -.->|Bridge| PhStep
+    GW -.->|Bridge| BetW
+    
+    %% Primal ↔ Scholar
+    Forage -.->|Bridge| Herb
+    TE -.->|Bridge| Inv
+    
+    %% Primal ↔ Hearth
+    Herb -.->|Bridge| FM
+    NR -.->|Bridge| SI
+    
+    %% Scholar ↔ Social
+    Neg -.->|Bridge| Med
+    Ling -.->|Bridge| Poly
+    
+    %% Scholar ↔ Arcane
+    RE -.->|Bridge| CDS
+    AE -.->|Bridge| ER
+    
+    %% Scholar ↔ Wanderer
+    Carto -.->|Bridge| MR
+    Res -.->|Bridge| JAT
+    
+    %% Wanderer ↔ Primal
+    TT -.->|Bridge| TB
+    
+    %% Wanderer ↔ Liminal
+    PlanA -.->|Bridge| ThW
+    
+    %% Cosmic ↔ Social
+    VV -.->|Bridge| IP
+    
+    %% Cosmic ↔ Scholar
+    CosmA -.->|Bridge| FW_fate
+    
+    %% Cosmic ↔ Arcane
+    AS -.->|Bridge| CosmR
+    ResS -.->|Bridge| CC
+    
+    %% Resilience ↔ Martial
+    Stub -.->|Bridge| IO
+    
+    %% Resilience ↔ Hearth
+    SW -.->|Bridge| DR
+    
+    %% Resilience ↔ Cosmic
+    FW -.->|Bridge| Unshake
+    
+    %% Pact ↔ Shadow
+    MbD -.->|Bridge| AoD
+    
+    %% Pact ↔ Resilience
+    InfR -.->|Bridge| Unyield
+    
+    %% Pact ↔ Liminal
+    SpiS -.->|Bridge| SpiG
+    
+    %% Hearth ↔ Social
+    CW -.->|Bridge| VC
+    
+    %% Liminal ↔ Social
+    Charm -.->|Bridge| Belov
+    
+    %% Styling
+    classDef primary fill:#FFD700,stroke:#FF8C00,stroke-width:4px,color:#000
+    classDef oath fill:#DC143C,stroke:#8B0000,stroke-width:2px,color:#FFF
+    classDef life fill:#228B22,stroke:#006400,stroke-width:2px,color:#FFF
+    classDef knowledge fill:#4169E1,stroke:#00008B,stroke-width:2px,color:#FFF
+    classDef sovereign fill:#9370DB,stroke:#4B0082,stroke-width:2px,color:#FFF
+    classDef convergence fill:#FF69B4,stroke:#C71585,stroke-width:2px,color:#FFF
+    
+    class WT,HK,WildT,ShT,SchM,SpT,Wand,Unyield,VirtB,PactB,LimB,SilT primary
+    class WS,DS,CR,TM,FM,CW,PI,HT,AP,HTL,CM,VC,GC,RP oath
+    class BB,TE,NR,Forage,SS,AmP,SM,Mis,PT,PF,SI,Herb,BS,PH,GW,Feint,SoH life
+    class LM,Craft,Ling,Inv,RE,SF,MD,AE,AL,MA,Poly,Det,CDS,AC,ME,ER knowledge
+    class TT,Carto,CultA,Res,TB,MR,WW,JAT sovereign
+    class SW,FW,PTol,Stub,AS,CosmA,VV,ResS,PatW,BorP,MbD,InfR,SpiS,PhStep,BetW,PlanA,Charm,Decep,ComP,Neg,DR,Unshake,IO,CosmR,FW_fate,IP,CC,DarkC,AoD,SpiG,BlinkT,IncD,ThW,Belov,MoD,NatL,Med convergence
+```
+
+**Legend:**
+- 🟡 **Gold Nodes** = 10 Primary Feats (your Level 1 cosmic anchor)
+- **Solid Arrows** = Direct progression within a discipline
+- **Dotted "Bridge" Lines** = Convergence points where philosophies overlap
+- 🔴 **Red Nodes** = Concordant Halls paths (Oath & Purpose)
+- 🟢 **Green Nodes** = Living Accord paths (Life & Death)
+- 🔵 **Blue Nodes** = Curator Arcanum paths (Knowledge & Humility)
+- 🟣 **Purple Nodes** = Sovereign Self paths (Independence & Mastery)
+- 🩷 **Pink Nodes** = Convergence paths (multiple philosophies)
+
+**Example Journeys Visible in the Map:**
+- **Warrior-Scholar**: War-Trained → Versatile Fighter → (bridge) → Jack of All Trades → Scholar's Method
+- **Shadow-Healer**: Hearth-Keeper → (convergence nodes) → Shadow-Trained → Silent Movement
+- **Cosmic Wanderer**: Wanderer → Planar Awareness → (bridge) → Liminal-Born → Threshold Walker
+- **Battle-Diplomat**: War-Trained → Tactical Mind → Battle Commander → (bridge) → Silver Tongue
+
+---
+
 ## How the Path Board Works
 
 **Level 1:** Choose one **Primary Feat** (your foundation—the strongest feat you'll ever take)
@@ -135,13 +410,57 @@ Gods embody single truths. Custodial Powers maintain balance between paired tens
 
 **Mortals walk the paths between them.**
 
-- A Priest taking War-Trained chooses where Divine Will meets Martial Oath
-- A Combatant taking Silver Tongue finds where Purpose meets Persuasion
-- A Weaver taking Nature's Treaty discovers where Arcane Knowledge meets Living Accord
+#### Universal Access — NO Class Restrictions
 
-**Your Path web is your answer to the question: "Which cosmic forces guide my growth?"**
+**CRITICAL: Any class can walk any path.**
 
-Your class abilities remain your primary power source. Paths show **how** you apply that power across the philosophies governing reality.
+The Four Pillars are **cosmic philosophies**, not class identities:
+- A **Priest** can take War-Trained (Concordant Halls) and become a warrior-cleric
+- A **Combatant** can take Loremaster (Curator Arcanum) and become a scholar-knight
+- A **Weaver** can take Nature's Treaty (Living Accord) and become a wilderness mage
+- A **Ranger** can take Silver Tongue (Concordant Halls + Curator) and become a diplomat-scout
+- A **Shaman** can take Defensive Stance (Concordant Halls) and become a shield-bearer for spirits
+
+**Your class determines what you ARE. Your Paths determine which cosmic philosophies you WALK.**
+
+The Concordant Halls does not belong to Combatants.  
+The Living Accord does not belong to Rangers.  
+The Curator Arcanum does not belong to Weavers.  
+The Sovereign Self does not belong to rogues.
+
+**These Powers converge in the Mortal Weave for ALL mortals, equally.**
+
+#### Paths Do NOT Alter Class Abilities
+
+**Paths augment your character, not your class:**
+
+- War-Trained does NOT make you cast spells better (if you're a Weaver)
+- Loremaster does NOT make you better at martial combat (if you're a Combatant)
+- Nature's Treaty does NOT grant class features (if you're a Priest)
+
+**Paths are PARALLEL growth:**
+- Your **class abilities** define your mechanical toolkit (spellcasting, combat techniques, divine power)
+- Your **Paths** define your focus areas (tactical mind, social expertise, survival skills, arcane study)
+
+A Priest with War-Trained is still primarily a divine caster—they just ALSO have martial training.  
+A Combatant with Silver Tongue is still primarily a warrior—they just ALSO have diplomatic skill.
+
+**This allows cross-class fantasy without multiclassing:**
+- The scholar-knight who studies between battles
+- The warrior-priest who defends with blade AND prayer
+- The wilderness mage who knows both spell and survival
+- The diplomatic combatant who wins wars through words first, steel second
+
+#### The Question Your Path Answers
+
+**"Which cosmic forces guide my growth?"**
+
+- A Priest starting in **Concordant Halls** → Oath and duty shape their divine service
+- A Priest starting in **Curator Arcanum** → Knowledge and humility shape their divine service
+- A Combatant starting in **Living Accord** → Life and death shape their warrior's path
+- A Weaver starting in **Sovereign Self** → Independence and mastery shape their arcane journey
+
+Your Path web (by Level 10) will show which philosophies matter most to YOU—regardless of what your class is.
 
 ### Feat Power Budget
 
