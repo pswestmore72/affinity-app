@@ -320,128 +320,169 @@ Sustained zones create battlefield control without requiring caster concentratio
 
 ## Defense Rolls
 
-When you take HD damage from an attack or harmful effect, you defend using a **layered defense system**.
+When you take HD damage from an attack or harmful effect, you defend using **Hit Dice from your armor and body**.
+
+**CRITICAL: Defense = Armor = Hit Dice. They are the same resource pool.**
 
 ### Defense Dice Capacity
 
-Your defense capacity = **½ Proficiency (rounded up, minimum 1 die)**
+Your defense capacity = **Proficiency**
 
-| Level | Proficiency | Defense Dice |
-|-------|-------------|-------------|
-| 1-2 | 1 | 1 die |
-| 3-4 | 2 | 1 die |
-| 5-6 | 3 | 2 dice |
-| 7-8 | 4 | 2 dice |
-| 9-10 | 5 | 3 dice |
+| Level | Proficiency | Defense Rolls PER ATTACK |
+|-------|-------------|-------------------------|
+| 1-2 | 1 | 1 roll |
+| 3-4 | 2 | 2 rolls |
+| 5-6 | 3 | 3 rolls |
+| 7-8 | 4 | 4 rolls |
+| 9-10 | 5-6 | 5-6 rolls |
 
-**This represents your ability to react, brace, and absorb damage—not your total durability.**
+**This represents how many times you can roll to sustain damage from a SINGLE ATTACK.**
+
+**Important:** Each new attack gives you fresh defense rolls equal to your Defense Capacity. If multiple enemies attack you in the same round, you get Defense Capacity rolls for each separate attack.
 
 ### Layered Defense System
 
-Your defenses are depleted from **outermost layer inward:**
+Your Hit Dice are organized in layers from **outermost to innermost:**
 
-1. **Magical Barriers** (spells, abilities granting temp HD) — Roll using the die type granted (usually d12)
-2. **Armor Temp HD** (physical armor) — Roll using armor die type (d6, d8, or d10)
-3. **Permanent HD** (your body) — Roll using your class HD type (d6, d8, or d10)
+1. **Magical Barriers** (spells, abilities) — d12 Hit Dice (outermost)
+2. **Armor** (physical protection) — d6/d8/d10 Hit Dice (middle)
+3. **Body** (your flesh and bone) — d6/d8/d10 Hit Dice (innermost)
 
-**You defend each layer separately, starting from the outermost.**
+**All three are Hit Dice. When you defend, you roll one die from the outermost layer.**
 
-### Defense Roll Sequence
+### Defense Roll Sequence (Per Attack)
 
-**Step 1:** Identify which layer is being attacked (start with outermost)
+Each attack you take is resolved **one Hit Die of damage at a time**, using your Defense Capacity rolls.
 
-**Step 2:** Check if damage exceeds your defense capacity
-- If **damage ≤ defense dice capacity:** Roll defense dice
-- If **damage > defense dice capacity:** Auto-fail (cannot roll defense, layer depletes immediately)
+**Step 1:** Enemy attack deals X HD damage (e.g., 3 HD)
 
-**Step 3:** Roll defense dice using the **die type of the layer being defended**
-- Each die rolling **5+ = sustains the layer** (cancels 1 damage)
-- Each die rolling **4- = fails to sustain**
-- **Highest rolls count as only 1 success** (no explosive dice on defense—6s, 8s, 10s, 12s all = 1 success only)
-- **No exertion allowed** (defense is reactive, not voluntary)
+**Step 2:** For each HD of damage, you either:
+- **Roll a defense die** (if you have rolls remaining from Defense Capacity)
+- **Auto-fail** (if you've used all Defense Capacity rolls)
 
-**Step 4:** Resolve the layer
-- **If all damage canceled:** Layer survives intact, no further damage
-- **If any damage remains:** Layer is depleted (lose temp HD from that layer equal to its current maximum), remaining damage moves to next layer inward
+**Step 3:** On each defense roll:
+- Roll **one die** from your outermost layer (d12 barrier → d10/d8/d6 armor → d10/d8/d6 body)
+- **5+ = Sustain** (that Hit Die survives, 1 damage cancelled)
+- **4- = Fail** (that Hit Die is lost, remove one die from that layer)
 
-**Step 5:** Repeat for each layer until damage is exhausted or you reach 0 permanent HD
+**Step 4:** Count your defense rolls used:
+- At Prof 1 (Defense Capacity 1): You get **1 roll** per attack
+- At Prof 2 (Defense Capacity 2): You get **2 rolls** per attack
+- At Prof 3+: Defense Capacity continues = Proficiency
+- Any damage beyond your Defense Capacity = auto-fail (lose dice without rolling)
+
+**Step 5:** When layer depletes:
+- Once all dice in a layer are gone, move to next layer inward
+- Magical barrier (d12s) → Armor (d10/d8/d6) → Body HD (d10/d8/d6)
+
+**Step 6:** Next attack = fresh Defense Capacity
+- If attacked again (even in same round), you get Defense Capacity rolls again
 
 ### Examples
 
-**Example 1: Combatant with Armor (Successful Defense)**
+**Example 1: Combatant with Armor (Prof 3, Defense Capacity 2)**
 
-*Level 5 Combatant (Proficiency 3, Defense Capacity = 2 dice)*
-- Current HD: 11d10 permanent HD
-- Wearing medium armor (2d8 armor layer)
-- Takes 3 HD damage from orc's axe
+*Level 5 Combatant*
+- Body HD: 11d10
+- Armor: 2d8 (medium armor)
+- Defense Capacity: 2 rolls per attack
+- Takes **3 HD damage** from orc's axe
 
-**Defense:**
-- Damage (3) vs Defense capacity (2 dice)
-- Roll 2d8 for armor layer → Results: 7, 4
-- Successes: 1 (the 7 rolls 5+, the 4 does not)
-- Canceled: 1 damage, 2 damage remains
-- **Armor layer depletes:** Armor destroyed, no longer usable for defense
-- 2 damage moves to permanent HD layer
+**Defense (damage resolved one HD at a time):**
 
-- Roll 2d10 for permanent HD → Results: 6, 3
-- Successes: 1 (the 6)
-- Canceled: 1 damage, 1 damage remains
-- **Lose 1 permanent HD:** 11d10 → 10d10
+**1st HD of damage:**
+- Roll 1d8 (armor, outermost) → **7** = Success (5+) ✅
+- Armor survives (still 2d8), 1 damage cancelled
+- Defense rolls used: 1/2
 
-**Final State:** 10d10 HD, armor destroyed (must repair or rest to restore armor layer)
+**2nd HD of damage:**
+- Roll 1d8 (armor) → **4** = Fail (below 5) ❌
+- Armor reduced: 2d8 → 1d8 (one die lost)
+- Defense rolls used: 2/2 (capacity exhausted)
 
----
+**3rd HD of damage:**
+- No rolls remaining (used 2/2)
+- Auto-fail ❌
+- Armor reduced: 1d8 → 0 (armor depleted)
 
-**Example 2: Weaver with Magical Barrier (Overwhelming Damage)**
-
-*Level 1 Weaver (Proficiency 1, Defense Capacity = 1 die)*
-- Current HD: 5d6 permanent HD
-- Magical barrier (2d12 from Shield spell - outermost layer)
-- Light armor (2d6 armor layer - middle layer)
-- Takes 4 HD damage from area spell
-
-**Defense:**
-- Damage (4) > Defense capacity (1)? Yes—**cannot roll enough dice to stop it all**
-- Roll 1d12 for magical barrier (outermost) → Result: 9
-- Success: 1 (the 9 rolls 5+)
-- Canceled: 1 damage, 3 damage remains
-- **Magical barrier depletes:** Barrier spell exhausted
-- 3 damage moves to armor layer
-
-- Damage (3) > Defense capacity (1)? Yes (still too much)
-- Roll 1d6 for armor → Result: 2
-- Success: 0 (the 2 fails)
-- Canceled: 0 damage, 3 damage remains
-- **Armor layer depletes:** Armor destroyed
-- 3 damage moves to permanent HD
-
-- Roll 1d6 for permanent HD → Result: 5
-- Success: 1 (the 5)
-- Canceled: 1 damage, 2 damage remains
-- **Lose 2 permanent HD:** 5d6 → 3d6
-
-**Final State:** 3d6 HD, barrier exhausted, armor destroyed (both layers must be restored before defending with them again)
+**Final State:** 11d10 body HD (untouched), armor destroyed (0d8)
 
 ---
 
-**Example 3: Scholar with No Armor (Class HD Matters)**
+**Example 2: Weaver with Magical Barrier (Prof 1, Defense Capacity 1)**
 
-*Level 7 Scholar (Proficiency 4, Defense Capacity = 2 dice, d8 HD)*
-- Current HD: 13d8 permanent HD
-- No armor (scholar robes)
-- Takes 2 HD damage from poison dart
+*Level 1 Weaver*
+- Body HD: 5d6
+- Armor: 2d6 (light armor)
+- Magical Barrier: 2d12 (outermost)
+- Defense Capacity: 1 roll per attack
+- Takes **4 HD damage** from area spell
 
-**Defense:**
-- No armor or magical layers, defend with permanent HD
-- Damage (2) = Defense capacity (2)? Yes, can roll
-- Roll 2d8 for permanent HD → Results: 6, 7
-- Successes: 2 (both roll 5+)
-- Canceled: 2 damage, 0 remains
-- **Fully defended!** No HD lost
+**Defense (resolved one HD at a time):**
 
-**Final State:** 13d8 HD (unharmed)
+**1st HD of damage:**
+- Roll 1d12 (barrier, outermost) → **9** = Success ✅
+- Barrier survives (still 2d12), 1 damage cancelled
+- Defense rolls used: 1/1 (capacity exhausted)
 
-*The d8 HD gives the Scholar a 62.5% chance per die to defend successfully—much better than a d6 Weaver's 33.33% chance.*
+**2nd HD of damage:**
+- No rolls remaining (used 1/1)
+- Auto-fail ❌
+- Barrier reduced: 2d12 → 1d12
+
+**3rd HD of damage:**
+- No rolls remaining
+- Auto-fail ❌
+- Barrier depleted: 1d12 → 0 (barrier exhausted)
+- Move to armor layer
+
+**4th HD of damage:**
+- No rolls remaining
+- Auto-fail ❌
+- Armor reduced: 2d6 → 1d6
+
+**Final State:** 5d6 body HD (untouched), 1d6 armor remaining, barrier exhausted
+
+---
+
+**Example 3: Low-Level Combatant Taking Multiple Attacks (Prof 1, Defense Capacity 1)**
+
+*Level 2 Combatant (Torvan)*
+- Body HD: 5d10
+- Armor: 2d10 (half-plate)
+- Shield: 1d12 (outermost)
+- Defense Capacity: 1 roll per attack
+- Takes **3 HD damage** from first attack, then **2 HD damage** from second attack (same round)
+
+**First Attack (3 HD damage):**
+
+**1st HD:**
+- Roll 1d12 (shield) → **7** = Success ✅
+- Shield survives (still 1d12), 1 damage cancelled
+- Rolls used: 1/1
+
+**2nd HD:**
+- No rolls remaining → Auto-fail ❌
+- Shield depleted: 1d12 → 0
+
+**3rd HD:**
+- No rolls remaining → Auto-fail ❌
+- Armor reduced: 2d10 → 1d10
+
+**After First Attack:** 5d10 body, 1d10 armor, shield broken
+
+**Second Attack (2 HD damage, NEW defense rolls):**
+
+**1st HD:**
+- Roll 1d10 (armor) → **6** = Success ✅
+- Armor survives (still 1d10), 1 damage cancelled
+- Rolls used: 1/1
+
+**2nd HD:**
+- No rolls remaining → Auto-fail ❌
+- Armor depleted: 1d10 → 0
+
+**Final State:** 5d10 body HD (untouched), all armor/shield destroyed
 
 ---
 
@@ -467,15 +508,19 @@ Your defenses are depleted from **outermost layer inward:**
 
 ### Strategic Notes
 
-**Armor Is Your Lifeline:** Once armor depletes, you're rolling your fragile HD pool with limited dice. Protect your armor, repair it when possible, or retreat to Recover.
+**Defense Capacity = Proficiency = Rolls Per Attack:** At low levels (Prof 1), you still get 1 roll per attack, but as you advance (Prof 2 = 2 rolls, Prof 3 = 3 rolls), you can sustain more damage before armor depletes. This creates a "trading blows" feel in combat without excessive dice rolling.
 
-**Magical Barriers Are Superior:** d12 barriers have 50% sustain rate vs d6 armor's 33%—seek Weavers, Priests, and Shamans who can grant magical protection.
+**Multiple Attacks = Multiple Chances:** Each new attack gives you fresh Defense Capacity rolls. Being attacked 3 times in one round = 3 separate defense opportunities.
 
-**0 HD ≠ Death:** At 0 permanent HD, you still have Resolve. You're unconscious and dying, but allies can stabilize you with healing before you reach -5 Resolve.
+**Armor Is Ablative:** Each failed roll removes one die from your armor/barrier. With Defense Capacity 1, a 3 HD attack removes 2-3 armor dice even if you sustain the first hit.
 
-**Healing Exists:** Priests, Shamans, Scholars (Medicine), the Rush action, and Rest/Recover mechanics all restore HD. Don't treat every hit as permanent.
+**Magical Barriers Are Superior:** d12 barriers have 50% sustain rate vs d6/d8 armor's 33-37.5%. d12s also absorb more hits before depleting.
 
-**Defense Scales Slowly:** Your defense capacity only increases every 4 levels. Armor, positioning, and magical protection matter more than leveling up.
+**Die Type Matters for Body HD:** d10 Combatants (40% sustain) survive better than d6 Weavers (33% sustain) when armor fails.
+
+**0 Body HD ≠ Death:** At 0 body HD, you have Resolve. Unconscious and dying, but allies can stabilize before you hit -5 Resolve.
+
+**Defense Scales Slowly:** Defense Capacity increases every 4 levels. Positioning, armor quality, and magical protection matter more than raw levels.
 
 ---
 

@@ -224,28 +224,35 @@ Trade physical vitality for mental fortitude. Use one action, lose 3 HD (no chec
 
 ### Defense Rolls
 
-**Defense Capacity = ½ Proficiency (rounded up, min 1 die)**
+**Defense Capacity = Proficiency**
 
-| Level | Prof | Defense Dice |
-|-------|------|-------------|
-| 1-4 | 1-2 | 1 die |
-| 5-8 | 3-4 | 2 dice |
-| 9-10 | 5 | 3 dice |
+| Level | Prof | Defense Rolls Per Attack |
+|-------|------|-------------------------|
+| 1-2 | 1 | 1 roll |
+| 3-4 | 2 | 2 rolls |
+| 5-6 | 3 | 3 rolls |
+| 7-8 | 4 | 4 rolls |
+| 9-10 | 5-6 | 5-6 rolls |
 
-**Layered Defense (outermost to innermost):**
-1. Magical barriers (d12) → Roll d12 per layer
-2. Armor temp HD (d6/d8/d10) → Roll armor die type
-3. Permanent HD (d6/d8/d10) → Roll class HD type
+**CRITICAL: Defense = Armor = Hit Dice. Same resource pool.**
 
-**Defense Roll Rules:**
-- Roll die type matching the layer being defended
-- Each 5+ = sustain (cancels 1 damage)
-- Each 4- = fails to sustain
-- If damage > defense capacity: Auto-fail, cannot roll enough dice
-- If any damage remains after roll: Layer depletes (lose all temp HD from that layer)
-- Move remaining damage to next layer inward
-- **No explosive dice on defense** (highest roll = 1 success only, regardless of die type)
+**Layered Hit Dice (outermost to innermost):**
+1. Magical barriers (d12 Hit Dice) — outermost
+2. Armor (d6/d8/d10 Hit Dice) — middle
+3. Body (d6/d8/d10 Hit Dice) — innermost
+
+**Defense Roll Rules (per attack taken):**
+- Each attack gives you fresh Defense Capacity rolls
+- Damage resolved **one HD at a time**
+- For each HD of damage: either **roll one die** (if rolls remain) or **auto-fail** (if capacity exhausted)
+- Roll die type matching outermost layer (d12 barrier → d10/d8/d6 armor → d10/d8/d6 body)
+- **5+ = Sustain** (that Hit Die survives, 1 damage cancelled)
+- **4- = Fail** (lose one die from that layer)
+- When layer depletes (all dice gone), move to next layer inward
+- **No explosive dice on defense** (6s, 8s, 10s, 12s = 1 success only)
 - **No exertion, no Affinity Dice allowed**
+
+**Example:** Take 3 HD damage with Defense Capacity 1. Roll 1st HD (use your 1 roll), auto-fail 2nd HD (no rolls left), auto-fail 3rd HD (no rolls left). Result: lose 2-3 armor dice.
 
 **Success Rates by Die Type:**
 - d6: 33% per die | d8: 38% per die | d10: 40% per die | d12: 50% per die

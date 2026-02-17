@@ -4,29 +4,144 @@
 
 Feats represent your journey of personal growth—not raw power, but **focus and flavor**. They augment your abilities without overshadowing your class. Each node offers a different lens through which to experience the world: combat tactics, social maneuvering, skilled precision, or resourceful adaptation.
 
+## IMPORTANT: Paths vs Ways
+
+**This document covers PATHS—the general feat system available to all classes.**
+
+**Do NOT confuse this with WAYS:**
+- **Paths** (this document) = General feats gained at Levels 1, 3, 6, 9, 10. Universal to all classes. Allows cross-class builds.
+- **Ways** (see Classes document) = Class-specific subclass specializations gained every level (1-10). Deepens your chosen class fantasy.
+
+**You advance BOTH systems simultaneously as you level.**
+
+---
+
+## The Cosmological Truth of the Path Board
+
+**The Path Board is not arbitrary.**
+
+It is the **mechanical representation of the Custodial Powers converging in the Mortal Weave**—where cosmic philosophies overlap, balance, and create mortal potential.
+
+The Mortal Weave is the only realm where these forces meet as equals. The Path Board reflects that convergence.
+
+### The Four Pillars of Mortal Growth
+
+The Path Board is organized around the cosmic forces that stabilize the Mortal Weave:
+
+#### 🗡️ The Concordant Halls — Oath and Purpose
+*"Commitment shapes reality. Purpose gives it direction."*
+
+**Philosophy:** Sworn dedication, martial discipline, protection of others, honoring bonds.
+
+**Path Disciplines:**
+- **Martial Focus** (War-Trained, Weapon Specialist, Defensive Stance)
+- **Protective Commitment** (Anchor Point, Hearth-Keeper, Steadfast)
+- **Oath-Bound Leadership** (Tactical Mind, Battle Commander, Rally Point)
+
+**Bridge Connections:** Where Oath meets Life (Guardian protects nature), where Purpose meets Knowledge (Tactical analysis), where Commitment meets Self (Disciplined independence)
+
+---
+
+#### 🌿 The Living Accord — Life and Death
+*"Life continues because death is allowed to finish its work."*
+
+**Philosophy:** Cycles, survival, natural law, necessary endings, primal adaptation.
+
+**Path Disciplines:**
+- **Wilderness Mastery** (Nature's Treaty, Primal Instinct, Tracker's Eye)
+- **Survival Imperative** (Endurance Training, Forager, Hardy Constitution)
+- **Cycle Understanding** (Death's Witness, Renewal Focus, Balance Keeper)
+
+**Bridge Connections:** Where Life meets Knowledge (Understanding ecosystems), where Survival meets Oath (Protecting the pack), where Nature meets Self (Self-reliance in wild)
+
+---
+
+#### 📚 The Curator Arcanum — Knowledge and Humility
+*"Wisdom is knowing what should remain unknown."*
+
+**Philosophy:** Learning, careful study, restraint through understanding, preserving truth.
+
+**Path Disciplines:**
+- **Scholarly Pursuit** (Loremaster, Research Focus, Historical Insight)
+- **Arcane Study** (Spell Scholar, Ritual Knowledge, Magical Theory)
+- **Humble Wisdom** (Know Your Limits, Cautious Curiosity, Truth-Seeker)
+
+**Bridge Connections:** Where Knowledge meets Oath (Teaching as service), where Wisdom meets Life (Understanding cycles), where Study meets Self (Self-education mastery)
+
+---
+
+#### 👤 The Sovereign Self — Independence and Mastery
+*"You are not what you were. You are choosing."*
+
+**Philosophy:** Self-determination, resource autonomy, internal economy, refusing external dependency.
+
+**Path Disciplines:**
+- **Self-Sufficiency** (Jack of All Trades, Resourceful, Independent)
+- **Internal Mastery** (Composed Mind, Efficient Action, Centered Will)
+- **Freedom Through Skill** (Versatile Fighter, Tool Proficiency, Adaptable)
+
+**Bridge Connections:** Where Self meets Oath (Self-imposed discipline), where Independence meets Life (Surviving alone), where Mastery meets Knowledge (Self-taught expertise)
+
+---
+
+### The Convergence Points (Bridge Nodes)
+
+**The most powerful feats exist where philosophies overlap.**
+
+These are marked with → and connect multiple Pillars:
+
+**War-Trained → Silver Tongue** (Oath + Knowledge)
+- Combat expertise grants social leverage through respect/fear
+
+**Nature's Treaty → Hearth-Keeper** (Life + Oath) 
+- Protecting wild places and protecting communities share roots
+
+**Research Focus → Tool Proficiency** (Knowledge + Self)
+- Study leads to self-directed craftsmanship
+
+**Shadow Step → Quick Draw** (Self + Oath)
+- Personal agility serves tactical commitment
+
+These convergence points reward players who **walk between philosophies** rather than specializing in one exclusively.
+
+---
+
 ## How the Path Board Works
 
 **Level 1:** Choose one **Primary Feat** (your foundation—the strongest feat you'll ever take)
+- This anchors you to one of the Four Pillars or a Convergence Point
+- Your character begins their journey aligned with one cosmic philosophy
 
 **Levels 3, 6, 9, 10:** Select one **Connected Node** adjacent to any feat you already possess (including diagonal connections)
+- You may deepen your alignment with one Pillar (specialization)
+- OR you may branch toward Convergence Points (versatility)
+- Your final Path web will reflect which cosmic forces guide your growth
 
 ### Path Board Rules
 
-- **Start with Foundation:** At Level 1, choose one Primary Feat from the ten disciplines below. This is your strongest feat.
+- **Start with Foundation:** At Level 1, choose one Primary Feat from the disciplines below. This is your cosmic anchor.
 - **All Nodes Equal Power:** Nodes beyond your Primary are roughly equal in power regardless of when you take them—no power creep by level
-- **Follow Adjacent Paths:** Each new feat must connect to one you already have (adjacent/diagonal)
-- **Build Your Web:** You can branch into multiple disciplines or specialize deeply in one
-- **Cross-Discipline Connections:** Many nodes bridge multiple paths (marked with →)
-- **Diverse Benefits:** Each path offers combat, social, skill, downtime, and resource utilities—not just "more of what your class does"
+- **Follow Adjacent Paths:** Each new feat must connect to one you already have (adjacent/diagonal)—you are walking toward convergence, not teleporting
+- **Build Your Web:** You can branch into multiple Pillars or specialize deeply in one. Both approaches are valid.
+- **Cross-Pillar Connections:** Bridge nodes (marked with →) connect multiple philosophies and reward hybrid builds
+- **Diverse Benefits:** Each Pillar offers combat, social, skill, downtime, and resource utilities—not just "more of what your class does"
 - **Node Format:** Each feat shows its connections: `[Connected Node Names]`
 
 ### Design Philosophy
 
-**Feats augment player fantasy, not class identity:**
-- A Priest taking War-Trained doesn't become a Combatant
-- A Combatant taking Silver Tongue doesn't become a social class
-- These are **focuses** that let you customize how you engage with challenges
-- Your class abilities remain your primary power source
+**The Path Board reflects mortal choice in a cosmos of absolutes.**
+
+Gods embody single truths. Custodial Powers maintain balance between paired tensions.
+
+**Mortals walk the paths between them.**
+
+- A Priest taking War-Trained chooses where Divine Will meets Martial Oath
+- A Combatant taking Silver Tongue finds where Purpose meets Persuasion
+- A Weaver taking Nature's Treaty discovers where Arcane Knowledge meets Living Accord
+
+**Your Path web is your answer to the question: "Which cosmic forces guide my growth?"**
+
+Your class abilities remain your primary power source. Paths show **how** you apply that power across the philosophies governing reality.
 
 ### Feat Power Budget
 

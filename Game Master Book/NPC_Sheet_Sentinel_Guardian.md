@@ -16,7 +16,7 @@
 
 ### COMBAT STATISTICS
 
-**Hit Dice:** 40 / 40 HD  
+**Hit Dice:** 20 / 20 HD  
 **Hit Die Type:** d10 (Construct, durable)
 
 **Armor Threshold:** Heavy (Moderate 3+ to hit)  
@@ -55,9 +55,9 @@
 
 **Ability 2: Stone Skin**
 - **Trigger/Activation:** Passive / When taking damage
-- **Effect:** Ignore first 2 damage from any single attack. If attack would deal 5 HD damage, reduce to 3 HD.
+- **Effect:** Reduce damage by 1 per attack (minimum 1 damage). If attack would deal 3 HD damage, reduce to 2 HD.
 - **Frequency:** Every attack (not per round — per individual attack)
-- **Notes:** Makes Guardian highly resistant to many small attacks; better to focus fire
+- **Notes:** Makes Guardian resistant to attacks; encourages parties to deal high single-hit damage rather than many weak attacks
 
 **Ability 3: Custodial Protocol**
 - **Trigger/Activation:** Passive / Movement restriction
@@ -86,9 +86,9 @@
 ### TACTICS & BEHAVIOR
 
 **Combat Strategy:**
-- **Phase 1 (40-20 HD):** Block doorway. Use Stone Fist to push back intruders. Grapple casters/ranged attackers.
-- **Phase 2 (20-10 HD):** Become more aggressive. Focus on grappling to neutralize threats. Runes glow brighter (desperation).
-- **Phase 3 (below 10 HD):** Retreat deeper into temple. Will not pursue if enemies don't follow.
+- **Phase 1 (20-10 HD):** Block doorway. Use Stone Fist to push back intruders. Grapple casters/ranged attackers.
+- **Phase 2 (below 10 HD):** Become more aggressive. Focus on grappling to neutralize threats. Runes glow brighter (desperation).
+- **Phase 3 (below 5 HD):** Retreat deeper into temple. Will not pursue if enemies don't follow.
 
 **Defensive Positioning:**
 - Always fights in doorways or narrow passages (uses Immovable to block)

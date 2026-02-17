@@ -1290,6 +1290,135 @@ The party is free to stay or leave.
 
 ---
 
+## Campaign Variants
+
+### Variant: Trapped Below (Increased Difficulty)
+
+For groups seeking a higher-stakes, resource-scarce version of **The Hollow Below**, this variant removes the party's ability to return to civilization after the initial descent, forcing them to survive with limited resources and no access to the Recover downtime action.
+
+#### When to Trigger
+
+**After Session 2** (Verdant Guardian defeated):
+- The party has completed the first major combat encounter
+- They've explored the Archive and sealed chamber
+- They're about to return to Stonebridge for rest and planning
+
+#### How to Trigger
+
+Choose one of the following catalysts:
+
+**Option 1: Structural Collapse**  
+As the party defeats the Verdant Guardian, the ley-node's instability triggers a massive cave-in. The tunnels connecting to Mine Shaft #7 collapse entirely, sealing the party deep underground with NO WAY BACK to the surface.
+
+**Option 2: Guardian Sealing**  
+Defeating the Verdant Guardian causes the temple's **defensive protocols** to activate. Stone doors SLAM SHUT behind the party, sealing them inside. The inscription reads: *"None may leave until the trials are complete or the Foundation claims you."*
+
+**Option 3: Environmental Disaster**  
+A powerful tremor (ley-node surge) opens a CHASM between the party and the exit tunnels. The gap is 30+ feet wide, bottom obscured by darkness—impossible to cross without specialized magic or equipment the party doesn't possess.
+
+**Option 4: Time Pressure**  
+The ley-node becomes CRITICALLY unstable. Khuldras's dormant consciousness sends a psychic message: *"The surface will collapse within days. You must reach the Heart and stabilize the node—or ALL of Stonebridge falls into the earth."* Returning to town would cost too much time (immediate vs. later consequences).
+
+#### Mechanical Changes
+
+**No Recover Downtime:**  
+- The party CANNOT perform the Recover action (full long rest in safe civilization)
+- They can only **Rest** (short rest in threatened space: regain ½ max HD, ½ max Resolve, NO skill training, NO armor replacement)
+- This creates SEVERE resource pressure—armor cannot be fully repaired, Hit Dice do not fully restore
+
+**Threatened Space Resting Rules:**
+- **½ HD Restoration:** If a PC has 6 max HD and is at 2/6, Resting restores 3 HD → ends at 5/6 (not full)
+- **½ Resolve Restoration:** If a PC has 5 max Resolve and is at 1/5, Resting restores 2 Resolve → ends at 3/5 (not full)  
+- **No Armor Replacement:** Destroyed armor stays destroyed; damaged armor can be field-repaired using **Crafting checks** (Advanced 3+ to restore 1d6 armor absorption), but requires scavenged materials
+- **No Skill Training:** Cannot spend downtime improving skills—survival takes priority
+
+**Consequence:**  
+Attrition becomes the REAL threat. The party must carefully manage:
+- When to spend HD (Exertion burns resources fast)
+- When to engage vs. avoid combat (every fight costs armor/HP that can't be fully recovered)
+- When to Rest vs. push forward (Resting uses time, but necessary for survival)
+
+#### Session 3 Modification: Kara Descends
+
+In the standard campaign, **Session 3** features the party returning to Stonebridge, meeting Priestess Kara, investigating politics, and preparing for the next delve.
+
+In **Trapped Below**, Kara **comes to them**:
+
+**Scene: The Priest in the Dark**
+
+> *After the party's first threatened Rest (sleeping in the Archive or Vault chamber), they wake to find a figure approaching through the tunnels—carrying a glowing lantern and a leather satchel.*
+
+**KARA IRONSHOD:** "They told me not to come down here. Said it was suicide. But when the tremors caused the collapse, I knew—if you're still alive, you'll need help. And if you're dead... someone should witness your courage."
+
+**What Kara Brings:**
+- **Medical Supplies:** 2 uses of healing ritual components (restore 2d6 HD when used during Rest)
+- **Rations:** 7 days of food (prevents hunger complications)
+- **Information:** News from the surface (town in panic, Council mobilizing evacuation plans, miners attempting to dig through but will take WEEKS)
+- **Divine Support:** Kara can perform **Blessings** (1/Rest, grant +1d6 to next check of player's choice)
+- **Companion NPC:** Kara joins the party for Session 3 (non-combat support: healing, lore checks, morale boost)
+
+**Kara's Role:**
+- **Morale Anchor:** Reminds the party that Stonebridge believes in them
+- **Resource Extension:** Her healing/blessing abilities slightly offset Recover loss
+- **Lore Guide:** Can decipher religious texts, explain Khuldras's history
+- **Emotional Stakes:** If the ley-node isn't stabilized, Kara will be trapped with them—everyone dies together
+
+**Mechanical Effect:**  
+Kara provides JUST enough support to make "Trapped Below" survivable without trivializing the resource pressure. Her healing extends HD pools slightly, but doesn't replace Recover's full restoration.
+
+#### Difficulty Increase Summary
+
+**Standard Campaign:**
+- Rest → Recover → Rest → Recover (full resources every 1-2 sessions)
+- Players can retreat to safety, re-arm, plan carefully
+- Attrition resets regularly
+
+**Trapped Below Variant:**
+- Rest → Rest → Rest → finally Recover (when they escape or stabilize node)
+- NO retreating, NO full rest, NO equipment replacement
+- Attrition is CUMULATIVE across 3+ sessions
+
+**Expected Impact:**
+- Combat becomes MUCH more dangerous (armor doesn't regenerate, HD pools shrink)
+- Players forced to use stealth, negotiation, clever solutions instead of direct confrontation
+- Every fight is a **calculated risk** ("Can we afford to lose this much armor?")
+- Affinity Dice spending becomes CRITICAL (players more willing to burn dice when desperation sets in)
+- Successfully completing the campaign feels EXTREMELY earned (survival against the odds)
+
+#### When to Use This Variant
+
+**Recommended For:**
+- Experienced TTRPG players who enjoy tactical resource management
+- Groups that prefer gritty, high-stakes fantasy
+- Tables that enjoy "dungeon crawl survival horror" themes
+- Campaigns where the GM wants HEAVY emphasis on attrition mechanics
+
+**NOT Recommended For:**
+- New Affinity players (too punishing while learning rules)
+- Groups that prefer heroic power fantasy (this variant is brutal)
+- Tables with limited session availability (extended low-resource stress can feel frustrating over many weeks)
+- Campaigns aiming for lighthearted tone (this variant is DARK and desperate)
+
+#### GM Notes
+
+**Balancing Encounters:**  
+Since the party has reduced resources, consider:
+- Reducing Sentinel Archer count (6 → 4) in Session 4 Archive fight
+- Giving the **Obsidian Arbiter** (Session 4 boss) a non-combat solution (knowledge check, ritual, offering)
+- Adding **scavenge opportunities** (find ancient armor pieces in Vault to replace destroyed gear)
+
+**Emphasize Dread:**  
+This variant thrives on atmosphere. Describe:
+- Dwindling torch fuel (darkness encroaching)
+- Water rationing (Kara's supplies running low)
+- Armor deterioration (straps fraying, plates cracking)
+- Physical exhaustion (PCs covered in dust, bruises, desperation)
+
+**Reward Resourcefulness:**  
+If players come up with creative solutions (e.g., using Grasp of the Accord to create rope across chasms, negotiating with constructs using Lore checks), REWARD them with Affinity Dice. This variant should punish recklessness but celebrate ingenuity.
+
+---
+
 ## Connections to Other Campaigns
 
 **The Hollow Below** serves as the party's **origin story**—their first adventure together. Events here set up future individual campaigns:

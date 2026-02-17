@@ -233,27 +233,44 @@
 **Session 1: Arrival & Investigation**
 - **Focus:** Social Duels (town council debate), Skill checks, Initial combat
 - **Stress Test:** Influence domain, Resolve management in social conflict
-- **Results:** [PENDING]
+- **Results:** ✅ **COMPLETED** — See [Session_1_Playtest_Log.md](Session_1_Playtest_Log.md)
+- **Key Learnings:** Social mechanics work smoothly, party coordination natural, NPC threads engaging
 
-**Session 2: The Depths**
-- **Focus:** Exploration, environmental hazards, resource management
-- **Stress Test:** Travel rules, Wilderness domain, HD burn from exertion
-- **Results:** [PENDING]
+**Session 2: The Awakened Warden (COMBAT INTENSIVE)**
+- **Focus:** Boss combat, Defense mechanics, Regeneration, Multi-round skill challenge
+- **Stress Test:** Defense Capacity, Stone Skin damage reduction, Override solution
+- **Results:** ✅ **COMPLETED (CORRECTED)** — See [Session_2_Playtest_Log.md](Session_2_Playtest_Log.md)
+- **CRITICAL:** Original simulation had fundamental defense mechanic errors — completely rewritten with correct rules
+- **Key Learnings:** Defense = Armor = HD (unified pool), Defense Capacity per attack, ablative armor works well
 
-**Session 3: First Contact**
-- **Focus:** Combat against cultists, multi-target spells, tactical positioning
-- **Stress Test:** Multi-target rules, NPC action economy, Resolve death spiral
-- **Results:** [PENDING]
+**Session 3: Homecoming & Recognition (SOCIAL/REST)**
+- **Focus:** Rest/Recover systems, Social influence, NPC resolution, Level advancement
+- **Stress Test:** Recover mechanics, Affinity Die awards, Milestone leveling
+- **Results:** ✅ **COMPLETED** — See [Session_3_Playtest_Log.md](Session_3_Playtest_Log.md)
+- **Key Learnings:** Rest/Recover distinction clear, social sessions balance combat well, Level 2→3 power increase significant
 
-**Session 4: Temple Horrors**
-- **Focus:** Sustained combat, Boss mechanics, Rush/Steady usage under pressure
-- **Stress Test:** Resource depletion, death/dying states, class balance
-- **Results:** [PENDING]
+**Session 4: Secrets of the Deep Foundation (EXPLORATION/PUZZLE/PATHS)**
+- **Focus:** Paths system advancement, Puzzle challenges, Diplomacy in combat, Gear restoration (no gold)
+- **Stress Test:** Path training/progression, environmental challenges, boss encounter with diplomatic solution
+- **Results:** ✅ **COMPLETED** — See [Session_4_Playtest_Log.md](Session_4_Playtest_Log.md)
+- **Key Learnings:** Paths feel impactful (Guardian's Mark, Swift Ritual, Relentless Hunter), gear restoration without gold tracking works smoothly, puzzles reward lore knowledge, Testament of Foundations (+1d6 permanent Lore bonus) excellent reward design
 
-**Session 5: Confrontation**
-- **Focus:** Climactic battle, Ultimate tier abilities (if applicable), narrative resolution
-- **Stress Test:** High-level play, Legendary actions, party coordination
-- **Results:** [PENDING]
+**🛡️ RULE UPDATE (Post-Session 4):** Defense Capacity formula changed from ½ Proficiency (rounded up) to full Proficiency. Party at Prof 2 now gets 2 rolls per attack instead of 1. Session 5 will test this updated formula for "blow-for-blow" combat feel without dice slog.
+
+**Session 5: The Deep Foundation's Heart (FINALE - DIVINE ENCOUNTER/NEW DEFENSE RULES)**
+- **Focus:** Divine audience with Khuldras, Burden system (new mechanic), Boss trials with non-combat solutions, NEW Defense Capacity formula testing, Path advancement to Adept tier (2/3), Divine Compacts
+- **Stress Test:** Defense Capacity = Proficiency in 4-round boss fight (3 Titans with Capacity 3), Burden trade-offs (accept responsibility for power), multi-solution boss encounters (combat/knowledge/roleplay), Path advancement to Adept abilities
+- **Results:** ✅ **COMPLETED** — See [Session_5_Playtest_Log.md](Session_5_Playtest_Log.md)
+- **Key Learnings:** 
+  - **Defense Capacity = Proficiency WORKS BEAUTIFULLY** ✅ — Creates "blow-for-blow" combat feel without dice slog, PCs survived ~40% more damage without trivializing threats, armor lasted 2-3 attacks instead of 1, combat felt heroic but still dangerous (Kael dropped to 0 HD twice)
+  - **Paths Adept tier impactful:** Bulwark's Presence (+1 Defense Capacity to nearby allies), Inevitable Pursuit (know marked prey location), Enduring Ritual (2x duration, 1 permanent per long rest) — all feel meaningful
+  - **Burden system excellent:** Trading responsibilities for power (Cornerstone: can't flee while Foundation endangered, Renewal: must speak what was lost, Lorekeeper: must record knowledge) creates roleplay hooks and meaningful costs
+  - **Divine Compacts (1/week auto-succeed):** Strong but appropriate for deity-tier reward, limited frequency prevents abuse
+  - **Multi-solution bosses:** Titans defeated via combat (Obsidian), knowledge (Marble - 3 Lore checks), and roleplay (Granite - endurance + Influence check) — rewarded diverse PC strengths perfectly
+  - **Affinity Die spending:** Kael's desperation spending (dropped to 0 HD twice, burned both dice for critical attacks/transformation) created most dramatic moments of campaign
+  - **Balance concerns identified:** Bulwark's Presence may be too strong (allies get +1 Capacity = boss-tier defenses at low Prof), Enduring Ritual permanent effect needs restriction (prevent self-buff exploits)
+
+**Campaign Status:** ✅ **THE HOLLOW BELOW COMPLETE** (Sessions 1-5 finished, all campaign goals achieved, Level 3, Path progress 2/3 Adept tier, Divine Compacts established)
 
 ---
 
@@ -457,6 +474,244 @@
 - **Player feedback:**
 - **Recommended changes:**
 ```
+
+---
+
+## CRITICAL CORRECTION - February 16, 2026
+
+### Defense Mechanics Misunderstanding Identified
+
+**Issue:** Session 2 playtest revealed fundamental error in how armor/defense mechanics work.
+
+**What Was Wrong:**
+- Thought: Defense Capacity = dice rolled AT ONCE per round
+- Thought: Damage penetrating = entire layer depletes
+- Example error: Torvan with 2d10+1d12 armor, takes 3 HD damage, Defense Capacity 1 → rolled 1d12 → ALL armor gone (WRONG)
+
+**Correct Mechanic:**
+- Defense Capacity = **ROLLS PER ATTACK** (not per round)
+- Damage resolved **ONE HD AT A TIME**
+- Each HD: either roll one die (if capacity allows) or auto-fail (if exhausted)
+- Each failed roll removes **ONE DIE** from layer (not entire layer)
+- Multiple attacks in same round = multiple sets of Defense Capacity rolls
+
+**Corrected Example:** Torvan takes 3 HD from one attack:
+1. 1st HD: Roll 1d12 → 7 = Success → Shield survives
+2. 2nd HD: Used roll (1/1 capacity) → Auto-fail → Shield depletes (1d12 → 0)
+3. 3rd HD: No rolls left → Auto-fail → Armor reduced (2d10 → 1d10)
+Result: Shield broken, 1d10 armor remaining
+
+**Files Corrected:**
+- ✅ Affinity_Combat_Rules.md (complete defense section rewrite)
+- ✅ Affinity_Quick_Reference.md (defense summary updated)
+- ✅ NPC_Sheet_Sentinel_Guardian.md (20 HD, Stone Skin -1)
+- ⚠️ **Session_2_Playtest_Log.md NEEDS COMPLETE REWRITE**
+
+**Impact:** Session 2 combat mechanics were resolved incorrectly throughout. Warden stats also wrong (50 HD → 20 HD, Stone Skin -2 → -1). Requires full re-simulation.
+
+**See:** [DEFENSE_MECHANICS_CORRECTION.md](DEFENSE_MECHANICS_CORRECTION.md) for complete documentation.
+
+---
+
+## COMPLETED PLAYTEST: The Hollow Below (Sessions 1-3)
+
+**Campaign:** The Hollow Below  
+**Sessions Completed:** 3 (full arc)  
+**Party:** Torvan (Combatant), Kael (Ranger), Lyra (Weaver)  
+**Level Range:** 2 → 3  
+**Date:** February 16, 2026
+
+### Overall Assessment: ✅ **SYSTEM VALIDATED**
+
+The three-session playtest successfully stress-tested core mechanics, identified critical errors, and validated that the system is combat-ready, socially engaging, and mechanically sound.
+
+---
+
+### Session-by-Session Summary
+
+**Session 1: Arrival & Investigation**
+- ✅ Social influence mechanics worked smoothly
+- ✅ NPC faction setup (Durg, Kara, Harlan, Torvald) created meaningful threads
+- ✅ Skill checks felt appropriate (Basic/Moderate/Advanced tiers clear)
+- ✅ Nature's Treaty (Ranger auto-success on Basic Wilderness) felt powerful but not broken
+- ✅ Party coordination natural (Torvan defense, Kael tracking, Lyra lore)
+
+**Session 2: The Awakened Warden (CORRECTED)**
+- ⚠️ **CRITICAL DEFENSE ERROR DISCOVERED AND FIXED**
+- ✅ Boss combat mechanics work (regeneration, Stone Skin, multi-action)
+- ✅ Override solution (multi-round skill challenge during combat) created dramatic tension
+- ✅ Defense = Armor = HD mechanic now correctly understood
+- ✅ Low-level fragility (Defense Capacity 1 at Prof 1) intentional and functional
+- ✅ Magical Armor (2d12 layer) provides meaningful protection
+- ✅ Peaceful resolution path rewarded creativity
+
+**Session 3: Homecoming & Recognition**
+- ✅ Rest system (8h restore all resources) simple and effective
+- ✅ Recover system (6h + check restore armor) creates tactical choice
+- ✅ Social influence as campaign resolution felt satisfying
+- ✅ Affinity Die awards felt earned (Guardian/Decay/Memory all fulfilled)
+- ✅ Milestone leveling (2→3 after 3 sessions) appropriate pacing
+- ✅ Proficiency increase (1→2) creates significant power jump
+- ✅ Non-combat sessions balance combat-heavy sessions well
+
+---
+
+### Mechanics Validated
+
+✅ **Defense System (CORRECTED):**
+- Defense Capacity = rolls per attack (resets each new attack)
+- Damage resolved die-by-die (sequential, not lump sum)
+- Each failed roll removes ONE die from layer (ablative armor)
+- Defense = Armor = Hit Dice (unified pool)
+- Low-level characters (Prof 1, Defense Capacity 1) are fragile but functional
+
+✅ **Rest & Recover:**
+- Rest (8h): Restore HD, Resolve, spell slots — clear and simple
+- Recover (6h + check): Restore armor/gear — meaningful downtime choice
+- Distinction between Rest and Recover needs sidebar clarification but works
+
+✅ **Combat Actions:**
+- 2 actions per turn with tier restrictions feels right
+- Exertion budget = Level creates tactical depth
+- Mark Prey (Ranger) +1d6 bonus (doesn't burn HD) valuable but not broken
+- War Cry (Combatant) debuff enemy worked well tactically
+
+✅ **Spellcasting:**
+- Ritual casting (any domain spell, 10min/tier) enables utility
+- Prepared spells (instant cast, HD risk) for combat
+- Thread Literacy (Weaver, free Basic ritual) powerful but appropriate
+- Magical Armor (2d12 layer) strong protection for fragile casters
+
+✅ **Boss Mechanics:**
+- Stone Skin (damage reduction -1 HD, min 1) creates tactical puzzle
+- Regeneration (5 HD/round tied to ley-node) creates urgency
+- Override mechanics (skill challenge during combat) reward creativity
+- 20 HD boss appropriate for Level 2 party (not oppressive)
+
+✅ **Social Influence:**
+- Multiple approaches (Lyra lore, Torvan protection, Kael guidance) all valid
+- Moderate 3+ and Advanced 3+ difficulty appropriate for social stakes
+- Party coordination (multiple PCs contributing) natural and rewarding
+- NPC threads (Durg guilt, Council politics) created meaningful roleplay
+
+✅ **Affinity System:**
+- Guardian: Protect vulnerable (Torvan defending Durg's spirit) ✅
+- Decay: Accept endings, enable renewal (Kael helping town move on) ✅
+- Memory: Preserve truth (Lyra documenting Khuldras temple) ✅
+- Awards felt earned, not arbitrary
+- Storage cap (2 at Level 2, 3 at Level 3) appropriate
+
+✅ **Level Advancement:**
+- Milestone system (3 sessions = 1 level for Levels 2-3) felt right
+- Proficiency 1→2 creates significant power jump:
+  - Exertion budget: 1→2 dice (doubles tactical options)
+  - Success rates improve meaningfully
+  - More spells known/prepared (Rangers, Weavers)
+- Defense Capacity still 1 roll at Prof 2 (scales at Prof 4) — keeps low-mid levels tense
+- Level 3 feels like "competent adventurer" tier
+
+---
+
+### Issues Identified & Resolved
+
+❌ → ✅ **Defense Mechanics Fundamental Error**
+- **Problem:** Misunderstood Defense Capacity as dice rolled at once, entire armor layer depleting
+- **Solution:** Complete rewrite — Defense Capacity = rolls per attack, die-by-die resolution
+- **Impact:** Session 2 required complete rewrite, all core rules updated
+- **Status:** CORRECTED in all files
+
+⚠️ **Rest vs Recover Clarity**
+- **Problem:** Could confuse Rest (restore resources) with Recover (repair gear)
+- **Solution:** Add sidebar clarification: "Rest = restore resources, Recover = repair gear"
+- **Status:** Recommendation for future documentation update
+
+✅ **Shield Destruction**
+- **Observation:** Torvan's shield destroyed, couldn't be restored via Recover (too damaged)
+- **Feel:** Appropriate — some damage is permanent, requires dedicated replacement
+- **Reward:** Guard's Shield from Torvald felt earned and thematic
+
+---
+
+### Balance Observations
+
+**Class Performance:**
+
+**Combatant (d10 HD):**
+- ✅ Tanky and reliable (6d10 at Level 3)
+- ✅ War Cry debuff effective in boss fight
+- ✅ Guardian affinity creates meaningful roleplay moments
+- ✅ Armor + Shield provides 3+ rounds protection before body takes damage
+- **Feels:** Balanced protector role
+
+**Ranger (d8 HD):**
+- ✅ Nature's Treaty auto-success on Basic Wilderness saves time, feels special
+- ✅ Mark Prey (+1d6 no burn) valuable for sustained combat
+- ✅ Ritual casting enables utility spells (Wild Mending, Grasp of Accord)
+- ✅ Decay affinity creates interesting moral choices (accept endings)
+- **Feels:** Balanced scout/controller role
+
+**Weaver (d6 HD):**
+- ⚠️ **Fragile** (5d6 at Level 3 = only 15-30 HP equivalent)
+- ✅ Magical Armor (2d12) compensates with strong defense layer
+- ✅ Thread Literacy (free Basic rituals) high value
+- ✅ Spell versatility (10 known, 6 prepared at Level 3) excellent
+- ✅ Lore expertise shines in social/puzzle encounters
+- **Feels:** Glass cannon with meaningful protection options
+
+**HD Types Impact:**
+- d10 (Combatant): ~40% sustain on body rolls = noticeably durable
+- d8 (Ranger): ~37.5% sustain = moderate durability
+- d6 (Weaver): ~33% sustain = fragile, relies on armor layers
+- **Differentiation works as intended**
+
+**Resources (HD vs Resolve):**
+- Party never used Rush or Steady (didn't need to)
+- Resolve untouched across all three sessions
+- HD management primary concern
+- **Observation:** Low-level play (2-3) focuses on HD, Resolve becomes critical at higher levels or social combat
+
+---
+
+### Recommended Next Steps
+
+1. **✅ COMPLETE:** Defense mechanics corrected across all files
+2. **✅ COMPLETE:** "The Hollow Below" Sessions 1-3 fully documented
+3. **⏳ FUTURE:** Add Rest vs Recover sidebar to Combat Rules
+4. **⏳ FUTURE:** Test Rush/Steady in high-pressure scenario (maybe Level 5+ dungeon crawl)
+5. **⏳ FUTURE:** Test social combat with Resolve targeting (debate, interrogation, seduction)
+6. **⏳ FUTURE:** Test higher-level play (Levels 6-8) with Expert/Legendary abilities
+
+---
+
+### Verdict
+
+**SYSTEM STATUS: PLAYTEST-READY FOR REAL TABLES** ✅
+
+The Hollow Below playtest successfully validated:
+- Core combat mechanics (corrected)
+- Social influence systems
+- Rest/Recover resource management
+- Affinity roleplaying integration
+- Milestone leveling
+- Class balance (Level 2-3)
+- Boss encounter design
+- Multi-session narrative arcs
+
+**Confidence Level:** Ready for live table playtests with real players.
+
+**Known Limitations:**
+- Tested only Levels 2-3 (need higher-level validation)
+- Tested only 3 classes: Combatant, Ranger, Weaver (need Priest, Shaman, Scholar, Sovereign, Rogue testing)
+- Tested only 1 boss encounter (need variety: swarms, ranged enemies, casters, environmental)
+- No Rush/Steady usage observed (need high-pressure scenario)
+- No social Resolve combat tested (need debate/negotiation challenge)
+
+**Recommended Live Table Playtest Focus:**
+- Priest Resolve restoration (Power Word: Endure, Divine Conduit)
+- Sovereign resource conversion (Internal Alchemy, Resource Cascade)
+- Social Duels targeting Resolve
+- Higher exertion pressure (drive players toward Rush/Steady decisions)
+- Multi-session campaign tracking (rule reference needs, cheat sheet effectiveness)
 
 ---
 

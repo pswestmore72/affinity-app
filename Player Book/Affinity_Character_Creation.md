@@ -16,20 +16,35 @@ Your class determines your core Hit Dice and starting abilities.
 | **Scholar** | d8 | Knowledge weaponizer, pattern reader |
 | **Shaman** | d6 | Spirit communion, threshold walker |
 
----
+### Understanding Class Progression
 
-## Step 2: Determine Starting Resources
+Your class provides TWO parallel progression systems:
 
-### Level 1 Starting Values
+**1. Ways (Class-Specific Specialization):**
+- Each class has multiple "Ways"—subclass specializations that deepen your chosen fantasy
+- You choose one Way and gain **one node every level** (Levels 1-10)
+- Ways are organized as grids (4 columns × rows), allowing flexible progression between adjacent nodes
+- Example: A Combatant might choose **Way of the Sentinel** (tank/protector) or **Way of the Weapon Master** (offensive specialist)
+- **See your Class document for available Ways**
 
-- **Hit Dice:** 3 HD (of your class die type)
-- **Proficiency:** 1 (half your level, rounded up)
-- **Resolve:** 5 (constant for all player characters, regardless of level)
-  - **At 0 Resolve:** You must make a Resolve check (1d6, need 5+) at the end of each round or collapse
-  - **Note:** NPCs may have higher or lower max Resolve values
+**2. Paths (General Feats):**
+- Broad, non-class-specific customization available to ALL classes
+- You gain Path feats at **Level 1 (Primary Feat), then Levels 3, 6, 9, 10**
+- Paths allow cross-class builds: A Priest can take War-Trained, a Combatant can take Silver Tongue
+- **See Affinity_Path_Board.md for the complete feat system**
 
-### Level Progression
+**Progression Summary:**
 
+| Level | Class Abilities | Way Node | Path Feat |
+|-------|----------------|----------|----------|
+| 1 | ✅ Yes (starting abilities) | ✅ Row 1, choose Way | ✅ Primary Feat |
+| 2 | ❌ No (training/skills) | ✅ Row 2 | ❌ No |
+| 3 | ✅ Yes (new ability) | ✅ Row 3 | ✅ Second feat |
+| 4 | ❌ No (training/skills) | ✅ Row 4 | ❌ No |
+| 5 | ✅ Yes (new ability) | ✅ Row 5 | ❌ No |
+| 6 | ❌ No (training/skills) | ✅ Row 6 (future) | ✅ Third feat |
+| 9 | ✅ Yes (new ability) | ✅ Row 9 (future) | ✅ Fourth feat |
+| 10 | ❌ No (training/skills) | ✅ Row 10 (future) | ✅ Fifth feat |
 | Level | Proficiency | Tough (d10) HD | Balanced (d8) HD | Fragile (d6) HD | Resolve |
 |-------|-------------|----------------|------------------|-----------------|---------|
 | 1 | 1 | 3 | 3 | 3 | 5 |

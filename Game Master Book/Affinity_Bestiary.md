@@ -112,7 +112,7 @@ NPCs have **variable Resolve** based on their tier:
 
 NPCs defend using the **same layered defense system as PCs:**
 
-1. **Defense Capacity:** ½ Proficiency (rounded up, minimum 1 die)
+1. **Defense Capacity:** Proficiency
 2. **Die Type:** Based on layer (magical barrier d12 → armor temp HD → permanent HD)
 3. **No Exertion/Affinity:** NPCs cannot add bonus dice to defense
 4. **1s on Defense:** Do NOT burn NPC HD (simplified bookkeeping)
@@ -121,10 +121,9 @@ NPCs defend using the **same layered defense system as PCs:**
 ```
 Verdant Guardian (Proficiency 3, Armor 2d10 temp HD)
 - Takes 4 HD damage from player attack
-- Defense Capacity: ½ Prof = 2 dice (rounded up)
-- Rolls: 2d10 (armor layer)
-- If successful: Armor depletes, permanent HD untouched
-- If failed: Armor depletes, 4 HD damage to permanent pool
+- Defense Capacity: Prof = 3 rolls
+- Rolls: 3 separate 1d10 rolls (armor layer)
+- Each success sustains 1 HD, each fail depletes 1 armor die
 ```
 
 ---

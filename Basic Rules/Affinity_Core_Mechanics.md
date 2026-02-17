@@ -39,6 +39,32 @@ Big actions require commitment. Commitment risks collapse.
 
 Proficiency represents natural competence, training, and skill growth.
 
+### Character Advancement Systems
+
+Characters grow through THREE parallel progression systems:
+
+**1. Class Abilities** (Odd Levels: 1, 3, 5, 7, 9)
+- Core powers that define your class identity
+- Combatant's War Cries, Weaver's Spellcasting, Priest's Power Words, etc.
+
+**2. Ways - Class-Specific Specialization** (Every Level: 1-10)
+- Choose one "Way" at Level 1 (subclass specialization within your class)
+- Gain one node in your chosen Way each level
+- Organized as a grid (4 columns × rows), allowing flexible progression between adjacent nodes
+- Example: Combatant's Way of the Sentinel, Weaver's Way of the Elementalist
+- **See your Class document for available Ways**
+
+**3. Paths - General Feats** (Levels 1, 3, 6, 9, 10)
+- Broad, non-class-specific character customization
+- Level 1: Choose Primary Feat (your foundation)
+- Later levels: Choose connected feats adjacent to ones you already have
+- Allows cross-class builds: Any class can take War-Trained, Shadow Step, Silver Tongue, etc.
+- **See Affinity_Path_Board.md for complete feat system**
+
+**Key Distinction:**
+- **Ways** = Class-specific, every level, deepens your class fantasy
+- **Paths** = Universal feats, select levels only, broadens your capabilities
+
 ---
 
 ## The Hit Dice System

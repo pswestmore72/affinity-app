@@ -644,6 +644,83 @@ Grant Affinity Dice (d6s) when players:
 
 ---
 
+### Burdens (Optional Roleplay Challenge)
+
+**Burdens** are voluntary narrative responsibilities that players can take on to deepen their Affinity roleplay and create meaningful character choices.
+
+**How Burdens Work:**
+
+When a player accepts a Burden (offered by deities, cosmic forces, or earned through story events), they gain:
+- **Benefit:** Enhanced connection to their Affinity (narrative power, special permissions, or unique abilities tied to the Burden's theme)
+- **Cost:** A meaningful restriction or obligation that creates genuine roleplay tension
+
+**Design Principles:**
+
+- **Costs must trigger during play** (not theoretical): "Cannot flee while ally endangered" vs "Lose 1 HD per day"
+- **Costs create meaningful choices** (not just taxes): "Must record significant knowledge or cannot Rest" forces engagement
+- **Benefits feel earned** (not just "+1 to stat"): Special narrative permissions, thematic abilities, cosmic recognition
+
+**Example Burdens:**
+
+**Cornerstone Burden** (Guardian Affinity):
+- **Benefit:** Designate one ally as your "Foundation" (1/long rest). While near you, they cannot be moved, knocked prone, or grappled against their will.
+- **Cost:** You cannot flee combat while your Foundation is endangered. If your Foundation drops to 0 HD, you lose 1 Resolve (guilt/failure).
+
+**Renewal Burden** (Decay Affinity):
+- **Benefit:** When you witness or cause a necessary ending, you may grant an ally +1d6 to their next action (transformation energy flows through you).
+- **Cost:** You must speak transformation words aloud when using this ability ("From decay—RENEWAL!"). If you cause unnecessary death or refuse to allow natural endings, you lose this burden until you atone.
+
+**Keeper's Record Burden** (Memory Affinity):
+- **Benefit:** Perfect recall of ANYTHING you've witnessed in the past 24 hours. You may teach knowledge to others, granting them +1d6 on their next check related to what you taught.
+- **Cost:** You MUST record significant knowledge or events witnessed, or you cannot Rest (guilt prevents sleep). Carry a journal/tome/testament.
+
+**When to Offer Burdens:**
+
+- After major story climaxes (defeating bosses, completing arcs)
+- When PCs form relationships with cosmic entities (deities, Custodial Powers, demi-gods)
+- As rewards for deeply embodying Affinity principles over multiple sessions
+- When players explicitly seek deeper connection to their Affinity
+
+**When NOT to Use Burdens:**
+
+- With new players still learning core mechanics
+- In one-shot adventures (Burdens need time to create tension)
+- As punishment for player choices
+- To railroad players into specific behaviors
+
+**Adjudicating Burdens:**
+
+When a Burden's cost triggers:
+1. **Narrate the consequence clearly:** "Your Foundation drops to 0 HD. Torvan, you feel the weight of failure—lose 1 Resolve."
+2. **Allow player response:** Let them roleplay the guilt, determination, or conflict
+3. **Don't waive costs:** If costs can be avoided easily, the Burden becomes meaningless
+
+When a Burden's benefit is used:
+1. **Celebrate the dramatic moment:** This is earned power, not a freebie
+2. **Encourage thematic narration:** "Speak your transformation words!" / "How do you sanctify this space?"
+3. **Reinforce cosmic connection:** "Khuldras recognizes your commitment. The earth itself stabilizes beneath you."
+
+**Removing Burdens:**
+
+Burdens can be voluntarily relinquished during long rests, but doing so:
+- Loses the associated benefit permanently (or until re-earned)
+- May disappoint the entity that granted it (narrative consequences)
+- Represents a character choosing comfort over cosmic responsibility
+
+Burdens can also be **lost involuntarily** if the PC violates their core principles (Renewal Burden lost if you commit unnecessary murder, Keeper's Record lost if you deliberately destroy knowledge, etc.).
+
+**System Integration:**
+
+Burdens are designed to:
+- Create **roleplay pressure** that makes Affinity Dice spending more dramatic
+- Reward players who deeply engage with their chosen Affinity
+- Generate **story moments** where cosmic forces recognize mortal commitment
+- Add **meaningful cost** to power without mechanical complexity
+
+Burdens work beautifully when costs are **triggered during play**, create **meaningful choices**, and benefits feel **earned through sacrifice**.
+
+---
+
 ## Treasure & Rewards
 
 ### Abolish Currency Tracking

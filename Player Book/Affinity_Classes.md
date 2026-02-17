@@ -1,15 +1,35 @@
 # Classes
 
+## Class Fantasy & Progression
+
 *Every class needs defined and unique class fantasy*
 *Every class needs to be able to perform all 5 action types (Basic, Advanced, Expert, Legendary, Ultimate)*
 *All classes should lean into elements from the Custodial Powers and other reality shaping forces within the cosmology*
-*All classes will have a Path board, each level player can gain a node in the Path board. Adjacent nodes are connected, can go forward, or to the side into connected nodes.*
-*For The start of this document and to build out Classes, we will begin with only the first 5 levels (eventually level 10 will be cap). Path Board nodes should be given at each level: Levels 1-5, with **5 rows** (one per level)*
-*Path boards start with **4 columns***
-*Path boards will eventually have X number of paths, not limited, and each path will have a maximum of 8 nodes. This will force players to "wander" within the board*
-*For the most part, Paths shouldn't generate player power, they should augment it. Or they should strengthen class fantasy that is built down the path. Some power is okay within the boards, but most power should just happen with the class abilities (gained every odd level)*
-*Each level, you unlock one node on your chosen Path. You may only advance to nodes adjacent on the same Path, or step back a Node at an adjacent Path (your final path will not be fully linear). Start at **Level 1** with Row 1 of your chosen Path, then progress downward.*
-*New Abilities on odd levels (1,3,5,7,9), new skills/training on even levels (2,4,6,8,10). Paths are progressed every level up*
+
+**IMPORTANT:** Classes have TWO progression systems working in parallel:
+
+### Ways (Class-Specific Subclass Specialization)
+*All classes will have a **Way** system—class-specific specializations that deepen your chosen fantasy. Each level (1-10) you gain one node in your chosen Way.*
+*Ways are organized as grids: **4 columns** × **5 rows** (for Levels 1-5; eventually expanding to 10 rows for Level 10 cap)*
+*Adjacent nodes are connected—you can progress forward in your Way, or step sideways to adjacent nodes in related specializations. Your final progression will not be fully linear.*
+*For the most part, Ways shouldn't generate raw power—they should augment class abilities and strengthen class fantasy. Some power is acceptable, but most comes from class abilities (gained every odd level).*
+*Start at **Level 1** with Row 1 of your chosen Way, then progress downward each level.*
+
+**Example Ways (to be developed):**
+- **Combatant:** Way of the Sentinel (tank/protector), Way of the Weapon Master (offense), Way of the Tactician (support), Way of the Dreadnought (endurance)
+- **Weaver:** Way of the Elementalist, Way of the Transmuter, Way of the Enchanter, Way of the Abjurer
+- **Ranger:** Way of the Hunter, Way of the Beastmaster, Way of the Horizon Walker, Way of the Warden
+
+### Paths (General Feat System)
+*This is SEPARATE from Ways. See **Affinity_Path_Board.md** for the general feat system.*
+*Paths are broad, non-class-specific character customization gained at: **Level 1 (Primary Feat), Level 3, Level 6, Level 9, Level 10***
+*Paths allow cross-class builds: A Combatant can take Shadow Step, a Priest can take War-Trained, etc.*
+
+### Level Progression Summary
+*New **Class Abilities** on odd levels (1, 3, 5, 7, 9)*
+*New **Skills/Training** on even levels (2, 4, 6, 8, 10)*
+*New **Way Node** every level (1-10)*
+*New **Path Feat** at levels 1, 3, 6, 9, 10 only*
 
 ---
 
