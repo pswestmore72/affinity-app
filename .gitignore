@@ -38,3 +38,6 @@ yarn-error.log*
 
 # GitHub Pages deployment
 .gh-pages
+
+# Work in Progress / Internal Notes
+WorkInProgress/
