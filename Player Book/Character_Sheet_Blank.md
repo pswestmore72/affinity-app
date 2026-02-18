@@ -16,19 +16,32 @@
 
 ### RESOURCES
 
-**Hit Dice:** _______ / _______  
-*(Current / Maximum)*
+**⚠️ DICE POOLS (Not Hit Points)**
 
-**Hit Die Type:** d___
+**Hit Dice (Body Layer):** ___d___ *[Class die type]*  
+**Notation:** (1d___, 1d___, 1d___, 1d___, 1d___, 1d___, 1d___)  
+*Write each die individually—cross out dice when lost*
 
-**Resolve:** 5 / 5  
-*(Always 5 for player characters — NPCs may vary)*
+**Armor (Outer Layer):** ___d___ *[Armor type: light d6, medium d8, heavy d10]*  
+**Notation:** (1d___, 1d___, 1d___)  
+*Armor dice destroyed BEFORE body dice*
 
-**Exertion Budget:** _______ *(= Level)*  
+**Shield (Outermost Layer):** ___d12 *[If equipped]*  
+**Notation:** (1d12)  
+*Shield destroyed FIRST, before armor*
+
+**Total Defense Pool:**  
+[Shield] → [Armor dice] → [Body dice]  
+*Damage flows from outside to inside*
+
+**Resolve:** 5 (1d6, 1d6, 1d6, 1d6, 1d6)  
+*Always 5 for PCs — roll checks with these dice*
+
+**Proficiency:** _______ *(= Half Level, rounded up)*  
+**Defense Capacity:** _______ *(= Proficiency, rolls per attack)*
+
+**Exertion Budget:** _______ *(= Proficiency per action)*  
 Available each turn for bonus dice
-
-**Armor Type:** _______________________________________________  
-**Temp HD from Armor:** _______ / _______
 
 ---
 

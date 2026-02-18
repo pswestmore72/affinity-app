@@ -12,7 +12,7 @@
 
 ### Action Resolution
 
-1. Declare action and exertion (from turn budget: max = your level)
+1. Declare action and exertion (from turn budget: max = your Proficiency per action)
 2. Roll Proficiency + Exertion dice
 3. Count successes (5=1, 6=2)
 4. Check if required successes met
@@ -37,16 +37,53 @@
 
 | Level | Tough (d10) | Balanced (d8) | Fragile (d6) |
 |-------|-------------|---------------|--------------|
-| 1 | 3 | 3 | 3 |
-| 2 | 5 | 5 | 4 |
-| 3 | 7 | 6 | 5 |
-| 4 | 9 | 8 | 7 |
-| 5 | 11 | 10 | 8 |
-| 6 | 13 | 11 | 10 |
-| 7 | 15 | 13 | 11 |
-| 8 | 17 | 15 | 13 |
-| 9 | 19 | 16 | 14 |
-| 10 | 21 | 18 | 16 |
+| 1 | 5 | 5 | 4 |
+| 2 | 7 | 7 | 5 |
+| 3 | 9 | 8 | 6 |
+| 4 | 11 | 10 | 8 |
+| 5 | 13 | 12 | 9 |
+| 6 | 15 | 13 | 11 |
+| 7 | 17 | 15 | 12 |
+| 8 | 19 | 17 | 14 |
+| 9 | 21 | 18 | 15 |
+| 10 | 23 | 20 | 17 |
+
+### ⚠️ CRITICAL: Hit Dice Are DICE POOLS, Not Hit Points
+
+**THERE ARE NO HIT POINTS.**
+
+**Hit Dice = Individual dice that exist or don't exist.**
+
+**Notation:**
+```
+Hit Dice: 7d10 (1d10, 1d10, 1d10, 1d10, 1d10, 1d10, 1d10)
+Armor: 3d8 (1d8, 1d8, 1d8)
+Shield: 1d12 (1d12)
+
+Defense Pool: [1d12] → [1d8 ×3] → [1d10 ×7]
+              (shield)  (armor)     (body)
+```
+
+**Defense:**
+- Roll individual dice from outermost layer
+- 5+ = sustain (die survives)
+- 4- = fail (die DESTROYED)
+- Defense Capacity (= Proficiency) = rolls per attack
+- Remaining damage = auto-lose dice
+
+**Example:**
+```
+Character: 5d8 body + 2d6 armor, Defense Capacity 1
+Takes 3 HD damage:
+
+1st HD: Roll 1d6 armor → 3 ❌ (armor 2d6 → 1d6)
+2nd HD: No rolls left → auto-fail (armor 1d6 → 0)
+3rd HD: No rolls left → auto-fail (body 5d8 → 4d8)
+
+Result: 4d8 body, 0 armor (3 dice destroyed)
+```
+
+**NOT "32/40 HP remaining" — you have 4 dice left, period.**
 
 ---
 
@@ -138,7 +175,7 @@ Trade physical vitality for mental fortitude. Use one action, lose 3 HD (no chec
 - Lose ≥ Proficiency + 1 HD in one round
 - Reduced to 0 HD
 - At 0 HD and take any hit
-- Use maximum Exertion in one round (= Level)
+- Use maximum Exertion in one round (= Proficiency)
 - Fail an Expert+ action
 - Certain enemy effects
 
@@ -148,6 +185,17 @@ Trade physical vitality for mental fortitude. Use one action, lose 3 HD (no chec
 - **4 or less:** Lose 1 Resolve
 - **5:** Stay at current Resolve
 - **6:** Gain 1 Resolve (max 5)
+
+### Resolve Stage Penalties
+
+| Resolve | Penalties |
+|---------|----------|
+| 5 (Full) | None |
+| 4 (Pressured) | No Expert+ actions |
+| 3 (Shaken) | No Expert+, -1 defense die |
+| 2 (Weakened) | No Expert+, Advanced+ needs +1 success, -1 defense die |
+| 1 (Staggering) | No Expert+, Advanced+ needs +1 success, -2 defense dice |
+| 0 (Collapse) | Unconscious (dying if 0 HD) |
 
 **Note:** Rush action bypasses this roll (voluntary loss)
 
@@ -162,8 +210,8 @@ Trade physical vitality for mental fortitude. Use one action, lose 3 HD (no chec
 - Don't expire until spent
 
 **Spending:** Add to any roll
-- Count as exertion dice (burn HD on 1s)
-- Count toward per-action exertion cap (max Prof per action)
+- SAFE bonus dice — 1s do NOT burn HD
+- Do NOT count toward per-action exertion cap
 
 **Sharing:** Free action, transfer any number to ally within 30 yards
 

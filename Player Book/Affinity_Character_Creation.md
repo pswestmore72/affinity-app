@@ -20,14 +20,19 @@ Your class determines your core Hit Dice and starting abilities.
 
 Your class provides TWO parallel progression systems:
 
-**1. Ways (Class-Specific Specialization):**
+**1. Core Progression (Every Level):**
+- At every level (1-10), you gain core abilities, mechanics, or class fantasy elements
+- These define your fundamental growth as your class archetype
+- Level 1 provides starting foundation; each level builds on your class identity
+
+**2. Ways (Class-Specific Subclass Specialization):**
 - Each class has multiple "Ways"—subclass specializations that deepen your chosen fantasy
-- You choose one Way and gain **one node every level** (Levels 1-10)
-- Ways are organized as grids (4 columns × rows), allowing flexible progression between adjacent nodes
+- You choose one Way at Level 1, then gain **one node on EVEN LEVELS ONLY (2, 4, 6, 8, 10)**
+- Ways are organized as grids (4 columns × 5 rows), allowing flexible progression between adjacent nodes
 - Example: A Combatant might choose **Way of the Sentinel** (tank/protector) or **Way of the Weapon Master** (offensive specialist)
 - **See your Class document for available Ways**
 
-**2. Paths (General Feats):**
+**3. Paths (General Feats):**
 - Broad, non-class-specific customization available to ALL classes
 - You gain Path feats at **Level 1 (Primary Feat), then Levels 3, 6, 9, 10**
 - Paths allow cross-class builds: A Priest can take War-Trained, a Combatant can take Silver Tongue
@@ -35,28 +40,75 @@ Your class provides TWO parallel progression systems:
 
 **Progression Summary:**
 
-| Level | Class Abilities | Way Node | Path Feat |
-|-------|----------------|----------|----------|
-| 1 | ✅ Yes (starting abilities) | ✅ Row 1, choose Way | ✅ Primary Feat |
-| 2 | ❌ No (training/skills) | ✅ Row 2 | ❌ No |
-| 3 | ✅ Yes (new ability) | ✅ Row 3 | ✅ Second feat |
-| 4 | ❌ No (training/skills) | ✅ Row 4 | ❌ No |
-| 5 | ✅ Yes (new ability) | ✅ Row 5 | ❌ No |
-| 6 | ❌ No (training/skills) | ✅ Row 6 (future) | ✅ Third feat |
-| 9 | ✅ Yes (new ability) | ✅ Row 9 (future) | ✅ Fourth feat |
-| 10 | ❌ No (training/skills) | ✅ Row 10 (future) | ✅ Fifth feat |
+| Level | Core Abilities/Mechanics | Way Node | Path Feat |
+|-------|-------------------------|----------|----------|
+| 1 | ✅ Starting foundation | ❌ Choose Way (no node yet) | ✅ Primary Feat |
+| 2 | ✅ Core progression | ✅ Row 1 node | ❌ No |
+| 3 | ✅ Core progression | ❌ No | ✅ Second feat |
+| 4 | ✅ Core progression | ✅ Row 2 node | ❌ No |
+| 5 | ✅ Core progression | ❌ No | ❌ No |
+| 6 | ✅ Core progression | ✅ Row 3 node | ✅ Third feat |
+| 7 | ✅ Core progression | ❌ No | ❌ No |
+| 8 | ✅ Core progression | ✅ Row 4 node | ❌ No |
+| 9 | ✅ Core progression | ❌ No | ✅ Fourth feat |
+| 10 | ✅ Core progression | ✅ Row 5 node | ✅ Fifth feat |
 | Level | Proficiency | Tough (d10) HD | Balanced (d8) HD | Fragile (d6) HD | Resolve |
 |-------|-------------|----------------|------------------|-----------------|---------|
-| 1 | 1 | 3 | 3 | 3 | 5 |
-| 2 | 1 | 5 | 5 | 4 | 5 |
-| 3 | 2 | 7 | 6 | 5 | 5 |
-| 4 | 2 | 9 | 8 | 7 | 5 |
-| 5 | 3 | 11 | 10 | 8 | 5 |
-| 6 | 3 | 13 | 11 | 10 | 5 |
-| 7 | 4 | 15 | 13 | 11 | 5 |
-| 8 | 4 | 17 | 15 | 13 | 5 |
-| 9 | 5 | 19 | 16 | 14 | 5 |
-| 10 | 5 | 21 | 18 | 16 | 5 |
+| 1 | 1 | 5 | 5 | 4 | 5 |
+| 2 | 1 | 7 | 7 | 5 | 5 |
+| 3 | 2 | 9 | 8 | 6 | 5 |
+| 4 | 2 | 11 | 10 | 8 | 5 |
+| 5 | 3 | 13 | 12 | 9 | 5 |
+| 6 | 3 | 15 | 13 | 11 | 5 |
+| 7 | 4 | 17 | 15 | 12 | 5 |
+| 8 | 4 | 19 | 17 | 14 | 5 |
+| 9 | 5 | 21 | 18 | 15 | 5 |
+| 10 | 5 | 23 | 20 | 17 | 5 |
+
+### 📝 How to Write Hit Dice on Your Character Sheet
+
+**⚠️ CRITICAL: Hit Dice are INDIVIDUAL DICE, not summed hit points.**
+
+**Correct Notation:**
+```markdown
+Hit Dice: 7d10 (1d10, 1d10, 1d10, 1d10, 1d10, 1d10, 1d10)
+Resolve: 5 (1d6, 1d6, 1d6, 1d6, 1d6)
+Proficiency: 2
+Armor: 3d8 light leather (1d8, 1d8, 1d8)
+Shield: 1d12 wooden shield (1d12)
+Weapon: Longsword
+
+Total Defense Pool: [1d12] → [1d8, 1d8, 1d8] → [1d10, 1d10, 1d10, 1d10, 1d10, 1d10, 1d10]
+                    (shield)   (armor layer)      (body layer - outermost to innermost)
+```
+
+**What This Means:**
+- **7d10** = You have SEVEN separate d10 dice in your body pool
+- **3d8 armor** = Three separate d8 dice form your armor layer (destroyed BEFORE body)
+- **1d12 shield** = One d12 die is your outermost defense layer
+- When you take **3 HD damage**, you lose **3 individual dice** (not "3 hit points")
+- Dice are destroyed one at a time, from outermost layer inward
+
+**Defense Flow:**
+1. Damage hits shield layer first (1d12)
+2. Once shield destroyed (0 dice remaining), damage hits armor (3d8)
+3. Once armor destroyed (0 dice remaining), damage hits body (7d10)
+4. Each die you lose is GONE until you rest/heal (regain dice)
+
+**Example Combat:**
+```
+Start: [1d12] → [1d8, 1d8, 1d8] → [1d10 ×7]
+Take 5 HD damage with Defense Capacity 2:
+  - Roll shield die: 4 ❌ (shield destroyed)
+  - Roll armor die: 7 ✅ (armor survives)
+  - No rolls left: auto-lose 3 dice from armor/body
+Result: [0] → [0] → [1d10 ×4]
+
+Your shield + armor + 3 body dice are DESTROYED.
+You now have 4d10 remaining (not "28/70 HP").
+```
+
+**There are no hit points. Only dice that exist or don't.**
 
 ---
 
@@ -128,10 +180,10 @@ Affinity Dice are bonus d6s earned by embodying your chosen virtue.
 
 **Spending Affinity Dice:**
 - On any roll, you may add stored Affinity Dice as bonus dice
-- **Affinity Dice count as exertion dice:**
-  - They burn your HD if they roll 1s
-  - They count toward your per-action exertion cap (max Proficiency per action)
-- You may spend multiple Affinity Dice on one roll (respecting action cap)
+- **Affinity Dice are SAFE bonus dice:**
+  - 1s rolled on Affinity Dice do NOT burn HD
+  - They do NOT count toward your per-action exertion cap
+- You may spend multiple Affinity Dice on one roll (up to your stored pool)
 
 **Sharing Affinity Dice:**
 - As a **free action** on your turn, transfer any number of stored Affinity Dice to an ally within 30 yards
@@ -182,14 +234,14 @@ You level up when the DM says so (typically after significant story achievements
 When you gain a level:
 1. **Increase HD pool** (see progression table)
 2. **Increase Proficiency** (recalculate: half level, round up)
-3. **Increase Exertion Budget** (equals your new Level)
+3. **Increase Exertion Budget** (equals your new Proficiency)
 4. **Gain class features** (odd levels: 1, 3, 5, 7, 9)
-5. **Choose a feat** (levels 3, 6, and 9)
+5. **Choose a Path feat** (levels 1, 3, 6, 9, and 10)
 
 ### Feats
 Feats represent specialized training and unique talents beyond your class abilities.
 
-**You gain feats at levels 3, 6, and 9.**
+**You gain Path feats at levels 1, 3, 6, 9, and 10.** At Level 1, choose a Primary Feat (your foundation). At subsequent feat levels, choose connected nodes on the Path Board.
 
 See the **Feats** section above for the complete list of available feats and their prerequisites.
 

@@ -84,7 +84,7 @@ Instead, spellcasting uses:
 - **Ritual casting doesn't require preparation**—you can ritual cast any domain spell
 
 **Casting Limitation:**
-Your ability to cast spells is limited by your Exertion Dice per turn (= your Level), not by spell slots. Each spell requires Exertion Dice to fuel it (subject to tier minimums).
+Your ability to cast spells is limited by your Exertion Dice per action (= your Proficiency), not by spell slots. Each spell requires Exertion Dice to fuel it (subject to tier minimums).
 
 ---
 
@@ -181,7 +181,7 @@ Any spellcaster can inscribe scrolls of spells they know:
 ### Spell Resolution
 
 1. **Declare the spell, target(s), and exertion** (from your turn's exertion budget)
-2. **Roll Proficiency + Exertion dice** (exertion budget = your level per turn)
+2. **Roll Proficiency + Exertion dice** (exertion budget = your Proficiency per action)
 3. **Count successes** based on spell's threshold (at/above threshold = 1 success, 6 = 2 successes)
 4. **Check if required successes met**
 5. **Apply spell effects** (Base Impact + Extra Successes, **bonus capped at Proficiency**)

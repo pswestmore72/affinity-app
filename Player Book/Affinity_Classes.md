@@ -8,17 +8,36 @@
 
 **IMPORTANT:** Classes have TWO progression systems working in parallel:
 
-### Ways (Class-Specific Subclass Specialization)
-*All classes will have a **Way** system—class-specific specializations that deepen your chosen fantasy. Each level (1-10) you gain one node in your chosen Way.*
-*Ways are organized as grids: **4 columns** × **5 rows** (for Levels 1-5; eventually expanding to 10 rows for Level 10 cap)*
-*Adjacent nodes are connected—you can progress forward in your Way, or step sideways to adjacent nodes in related specializations. Your final progression will not be fully linear.*
-*For the most part, Ways shouldn't generate raw power—they should augment class abilities and strengthen class fantasy. Some power is acceptable, but most comes from class abilities (gained every odd level).*
-*Start at **Level 1** with Row 1 of your chosen Way, then progress downward each level.*
+### Core Progression (Every Level)
+*At every level (1-10), you gain core mechanics, abilities, or class fantasy elements that define your class.*
+*Odd levels (1, 3, 5, 7, 9) deliver major new abilities with escalating action tiers.*
+*Even levels (2, 4, 6, 8, 10) deliver passive upgrades and your Way node.*
+*Level 1 starts with foundational abilities; each subsequent level builds on your core class fantasy.*
 
-**Example Ways (to be developed):**
-- **Combatant:** Way of the Sentinel (tank/protector), Way of the Weapon Master (offense), Way of the Tactician (support), Way of the Dreadnought (endurance)
-- **Weaver:** Way of the Elementalist, Way of the Transmuter, Way of the Enchanter, Way of the Abjurer
-- **Ranger:** Way of the Hunter, Way of the Beastmaster, Way of the Horizon Walker, Way of the Warden
+### Ways (Class-Specific Subclass Specialization)
+*All classes have a **Way** system—subclass specializations that deepen your chosen fantasy.*
+*You gain one Way node on **EVEN LEVELS ONLY (2, 4, 6, 8, 10)** — 5 nodes total.*
+*Ways are organized as grids: **columns** (one per Custodial Power subcategory) **× 5 rows** (rows correspond to even levels 2/4/6/8/10).*
+*Columns form a **ring** — the first and last columns are adjacent, so every Way has exactly two neighbors.*
+*Ways shouldn't generate raw power—they augment class abilities and strengthen class fantasy.*
+*Choose your Way at **Level 1**, gain your first node at **Level 2**, then progress through the grid.*
+
+**Column counts by Custodial Power:**
+- **Concordant Halls** (Combatant, Priest): 7 columns — Shield, Blade, Bond, Crown, Flame, Stone, Bell
+- **Living Accord** (Ranger, Shaman): 7 columns — Breath, Thorn, Tide, Rot, Hearth, Star, Howl
+- **Curator Arcanum** (Scholar, Weaver): 6 columns — Moments, Thresholds, Unleashed Force, Mutable Flesh, Open Doors, Veiled Sight
+- **Sovereign Self** (Sovereign): 5 columns — Sealed Gate, Keen Edge, Still Water, Tempered Forge, Unbroken
+
+*Two classes sharing a Custodial Power have the same column NAMES but different node effects. A Combatant's "Way of the Shield" is martial guardianship; a Priest's is divine warding. Same cosmic principle, different class expression.*
+
+### Way Progression Rules
+
+1. At **Level 1**, choose a starting Way (column). At **Level 2**, gain that Way's Row 1 node.
+2. At each subsequent even level (4, 6, 8, 10), choose ONE:
+   - **Advance:** Take the next row in a Way you've already started.
+   - **Branch:** Enter an adjacent Way at one row *below* your current highest node. (From Row 3, you may branch to an adjacent Way's Row 2.)
+3. You may only branch into a Way that is **adjacent** (ring neighbors) to one you've already started.
+4. Going straight down one column (all 5 rows) grants the powerful **Row 5 capstone**. Branching grants breadth at the cost of depth.
 
 ### Paths (General Feat System)
 *This is SEPARATE from Ways. See **Affinity_Path_Board.md** for the general feat system.*
@@ -26,10 +45,18 @@
 *Paths allow cross-class builds: A Combatant can take Shadow Step, a Priest can take War-Trained, etc.*
 
 ### Level Progression Summary
-*New **Class Abilities** on odd levels (1, 3, 5, 7, 9)*
-*New **Skills/Training** on even levels (2, 4, 6, 8, 10)*
-*New **Way Node** every level (1-10)*
-*New **Path Feat** at levels 1, 3, 6, 9, 10 only*
+| Level | Proficiency | Core Abilities | Way Node | Path Feat |
+|-------|-------------|----------------|----------|-----------|
+| 1 | 1 | Major abilities | — | Primary Feat |
+| 2 | 1 | Passive upgrade | Row 1 | — |
+| 3 | 2 | Major abilities | — | Feat |
+| 4 | 2 | Passive upgrade | Row 2 | — |
+| 5 | 3 | Major abilities | — | — |
+| 6 | 3 | Passive upgrade | Row 3 | Feat |
+| 7 | 4 | Major abilities | — | — |
+| 8 | 4 | Passive upgrade | Row 4 | — |
+| 9 | 5 | Major abilities | — | Feat |
+| 10 | 5 | Capstone | Row 5 | Feat |
 
 ---
 
@@ -43,7 +70,7 @@
 *They all have Battle Cries/Yells to influence, bolster, fear, enrage allies and enemies... various paths augment these yells just as they do fighting styles*
 
 **Hit Die:** d10 (Tough)
-**Custodial Connection:** The Concordant Halls - Keepers of Oath and Purpose
+**Custodial Connection:** The Concordant Halls — Keepers of Oath and Purpose
 **Role:** Battlefield Master, Oath-Bound Warrior
 
 ### Class Identity
@@ -53,55 +80,63 @@ Combatants are warriors who have bound themselves to something greater than surv
 **The Concordant Halls do not judge what is sworn—only that commitment is real.** Paladins of Azravael, mercenaries bound by contract-oath, executioners serving the Black Reliquary, shield-bearers protecting tyrants—all walk the Halls equally if their purpose is true. Morality is for gods. The Halls recognize only **will made manifest**.
 
 **Core Fantasy:**
-You are purpose made manifest in combat. Your weapon is an extension of your oath—whatever that oath may be. The battlefield bends to those who know why they fight. You are durable, skilled, and when you speak your oath aloud, reality itself reinforces your will. Your cause may be noble or terrible, but your commitment is absolute.
+You are purpose made manifest in combat. Your weapon is an extension of your oath—whatever that oath may be. The battlefield bends to those who know why they fight. You are durable, skilled, and when you speak your oath aloud, reality itself reinforces your will.
 
-**Unique Strengths:**
-- **Weapon Mastery:** Proficient with all weaponry and medium/heavy armor
-- **Battle Sense:** Advantage on battlefield tactics and environmental combat actions
-- **Oath-Forged Resilience:** Largest HD pool (d10), natural toughness
-- **War Cries:** Influence battlefield through commands that bolster allies and break enemies
-- **All-Tier Access:** Combat abilities spanning Basic through Expert tiers (Legendary at higher levels)
+### Progression Table
 
-### Class Abilities
+| Level | Prof | Body HD | Resolve | Core Milestone | Way |
+|-------|------|---------|---------|----------------|-----|
+| 1 | 1 | 5d10 | 5 | Oath-Bound Warrior | — |
+| 2 | 1 | 7d10 | 5 | Heavy Armor | Row 1 |
+| 3 | 2 | 9d10 | 5 | Oath Enforcer | — |
+| 4 | 2 | 11d10 | 5 | Rally Upgrade | Row 2 |
+| 5 | 3 | 13d10 | 5 | Champion of Purpose | — |
+| 6 | 3 | 15d10 | 5 | Veteran's Resilience | Row 3 |
+| 7 | 4 | 17d10 | 5 | Oath Ascendant | — |
+| 8 | 4 | 19d10 | 5 | Armor Mastery | Row 4 |
+| 9 | 5 | 21d10 | 5 | Living Oath | — |
+| 10 | 5 | 23d10 | 5 | Oath Absolute | Row 5 |
 
-*Gained at odd levels: 1, 3, 5, 7, 9*
+### Core Abilities
 
 **Level 1: Oath-Bound Warrior**
 
 **Starting Resources:**
-- Hit Dice: 5d10
-- Resolve: 5
-- Armor Proficiency: Light, Medium
-- Weapon Proficiency: All weapons
+- **Hit Dice (Body):** 5d10 — *5 individual d10 dice*
+- **Resolve:** 5 — *5 individual d6 dice for checks*
+- **Proficiency:** 1 *(Level 1-2)*
+- **Defense Capacity:** 1 *(= Proficiency)*
+- **Armor Proficiency:** Light (2d6), Medium (3d8)
+- **Shield Proficiency:** Yes (1d12)
+- **Weapon Proficiency:** All weapons
 
 **Weapon Strike** (Basic, 2+)
 - All weapon attacks are Basic (2+) tier
-- Required successes: Varies by weapon type
-  - Light weapons: 1 success, 1 HD base damage
-  - Heavy weapons: 2 successes, 2 HD base damage
-  - Ranged weapons: 1-2 successes depending on range
+- Light weapons: 1 success required, 1 HD base damage
+- Heavy weapons: 2 successes required, 2 HD base damage
+- Ranged weapons: 1-2 successes depending on range
 - Extra successes add +1 HD damage each (capped by Proficiency)
-- Your training makes every strike reliable
 
 **Battlefield Awareness** (Passive)
-- You have advantage (gain +1d6) on all rolls involving:
-  - Reading terrain and identifying tactical advantage
+- Advantage (+1d6, doesn't burn HD) on all rolls involving:
+  - Reading terrain and tactical advantage
   - Positioning and environmental exploitation in combat
-  - Anticipating enemy movement patterns  
+  - Anticipating enemy movement patterns
   - Coordinating group combat tactics
-- **Does NOT apply to attack or defense rolls** (tactical assessment, not combat power)
-- This bonus die follows proficiency dice rules (doesn't burn HD on 1s)
-- "The battlefield speaks to those who understand war"
+- Does NOT apply to attack or defense rolls
 
 **War Cry: Rally** (Advanced, 3+)
-- As an action, shout an oath-bound command that strengthens one ally
 - Required: 2 successes
 - Range: 30 yards, one ally who can hear you
-- Effect: Chosen ally gains +1d6 to their next action this scene (this die doesn't burn HD on 1s)
-- Duration: Until ally uses the bonus or scene ends
+- Chosen ally gains +1d6 to their next action (doesn't burn HD)
 - Usable Proficiency times per short rest
-- **Design Note:** Single-target choice (not mass buff) encourages tactical selection of who needs support most.
-- "Stand with me! Our purpose is not yet complete!"
+
+---
+
+**Level 2: Heavy Armor**
+Gain Heavy Armor Proficiency (2d10). **Way Node.**
+
+---
 
 **Level 3: Oath Enforcer**
 
@@ -109,48 +144,204 @@ You are purpose made manifest in combat. Your weapon is an extension of your oat
 - Enhanced weapon attack carrying your oath's metaphysical weight
 - Required: 2 successes
 - Base damage: Weapon damage + Proficiency HD
-- On hit: Target must contest (their Proficiency dice vs yours) or be pushed 5 yards OR knocked prone (your choice)
-- If target opposes your sworn purpose (GM judges): They roll contest with disadvantage (-1d6)
+- Target must contest (their Prof dice vs yours) or be pushed 5 yards OR knocked prone
+- If target opposes your sworn purpose (GM judges): contest at disadvantage
 - Usable Proficiency times per short rest
-- "My oath gives weight to every strike"
 
 **War Cry: Hold the Line** (Expert, 4+)
-- As an action, declare a zone of control
 - Required: 3 successes
-- Range: 10-yard radius centered on you
-- Duration: Proficiency rounds
-- **Zone Effects:**
-  - **Movement Control:** Enemies moving through zone must contest (their Proficiency vs yours)—on fail, movement halved
-  - **Defensive Stance:** Each ally in zone gains +1d6 to their **first defense roll each round** (doesn't burn HD on 1s)
-- **Design Note:** Defense bonus limited to first roll per ally per round prevents stacking across multiple attacks. Still provides meaningful protection without scaling out of control.
-- "By my oath, you shall not pass"
+- 10-yard radius centered on you, Proficiency rounds
+- Enemies moving through must contest or movement halved
+- Allies in zone gain +1d6 to first defense roll each round (doesn't burn HD)
 - Usable Proficiency times per short rest
+
+---
+
+**Level 4: Rally Upgrade**
+War Cry: Rally now targets up to Proficiency allies simultaneously. **Way Node.**
+
+---
 
 **Level 5: Champion of Purpose**
 
 **Devastating Assault** (Expert, 4+)
-- Unleash a flurry of purposeful strikes
 - Required: 3 successes
-- You may make Proficiency weapon attacks as a single action
-- Each attack uses the same roll for successes
-- Distribute successes among attacks as you choose (minimum required per attack applies)
-- Each successful attack deals its base damage + extra successes (normal damage rules apply)
-- **Cost:** After attacking, lose 1 HD automatically (purpose burns the body)
+- Make Proficiency weapon attacks as a single action
+- Distribute successes among attacks (minimum required per attack applies)
+- Cost: Lose 1 HD automatically after attacking
 - Usable Proficiency times per short rest
-- **Design Note:** HD cost reinforces that pushing beyond limits demands sacrifice
 
 **War Cry: Unbreakable Will** (Expert, 4+)
-- As an action, proclaim your oath's supremacy over death itself
 - Required: 4 successes
-- Range: 60 yards, affects all allies who can hear you
-- Duration: Proficiency rounds
-- **Effect:** Affected allies gain BOTH benefits:
-  - Reduce damage from any single source by Proficiency HD (applied before defense rolls)
-  - Advantage (+1d6) on all Resolve checks
-- **Design Note:** Scaling reduction (not flat cap) keeps boss threats meaningful while providing significant protection
-- The Concordant Halls themselves answer your call
+- 60 yards, all allies who can hear you, Proficiency rounds
+- Allies reduce damage from any single source by Proficiency HD
+- Allies gain advantage (+1d6) on all Resolve checks
 - Usable once per long rest
-- "By my oath—you will NOT fall!"
+
+---
+
+**Level 6: Veteran's Resilience**
+Once per combat, auto-succeed on your first Resolve check. **Way Node.**
+
+---
+
+**Level 7: Oath Ascendant**
+
+**Legendary Strike** (Legendary, 5+)
+- Required: 3 successes
+- Deal weapon damage + Prof × 2 HD
+- Target must contest (Prof dice) or be stunned for 1 round
+- Usable once per short rest
+
+**War Cry: Break** (Legendary, 5+)
+- Required: 4 successes
+- 30 yards, all enemies who can hear you
+- Each enemy makes Resolve check at -2d6; failure = lose 1 Resolve
+- Usable once per long rest
+
+---
+
+**Level 8: Armor Mastery**
+Your armor dice survive on 4+ instead of 5+ during defense rolls. **Way Node.**
+
+---
+
+**Level 9: Living Oath**
+
+**Undeniable Purpose** (Legendary, 5+)
+- Required: 4 successes
+- Duration: Proficiency rounds
+- Immune to restrained, stunned, prone, charmed, frightened, paralyzed
+- All attacks deal +Prof HD additional damage
+- War Cries affect double range
+- Cost: 2 Resolve when activated
+- Usable once per long rest
+
+**War Cry: Seal the Field** (Legendary, 5+)
+- Required: 4 successes
+- 60 yards, Proficiency rounds
+- No enemy within range can flee (teleportation, movement out of range, planar travel fail)
+- Enemies attempting to flee make Resolve check or lose 1 Resolve
+- Usable once per long rest
+
+---
+
+**Level 10: Oath Absolute**
+
+**Oath Absolute** (Passive Capstone)
+- Once per long rest, when reduced to 0 HD, instead stand at Prof HD with all Resolve restored
+- Your next action automatically succeeds (no roll needed)
+- Permanently reduce all damage taken by 1 (flat reduction per hit)
+
+**Way Node.**
+
+---
+
+### Ways of the Concordant Halls
+
+**Grid Structure (Ring):**
+```
+Shield ←→ Blade ←→ Bond ←→ Crown ←→ Flame ←→ Stone ←→ Bell ←→ (Shield)
+```
+Each Way has 5 rows. Row 1 at Level 2, Row 5 at Level 10. Adjacent Ways are ring-connected.
+
+#### Way of the Shield
+*Protection, guardianship, sanctuary*
+*Adjacent: Bell, Blade*
+
+**Row 1: Shield Wall** — When you end your turn adjacent to an ally, that ally gains +1d6 to their next defense roll (doesn't burn HD).
+
+**Row 2: Guardian's Interception** — When an ally within 10 yards is attacked, use your reaction to move adjacent and become the target instead.
+
+**Row 3: Bulwark Presence** — Your Hold the Line zone grants +2d6 to allies' first defense each round (up from +1d6).
+
+**Row 4: Shelter in the Storm** — Once per short rest, for Prof rounds, allies within 10 yards reduce all incoming damage by 2 (flat per hit).
+
+**Row 5: Absolute Aegis** *(Legendary, 5+)* — Once per long rest, choose Prof allies within 30 yards. For 1 round, those allies cannot lose HD. You absorb all damage they would have taken.
+
+#### Way of the Blade
+*Justice, enforcement, righteous consequence*
+*Adjacent: Shield, Bond*
+
+**Row 1: Honed Edge** — Weapon Strike deals +1 HD against targets at half HD or less.
+
+**Row 2: Measured Response** — When you hit a target that hit an ally this round, deal +Prof HD additional damage.
+
+**Row 3: Blade Storm** — When you reduce a target to 0 HD, immediately make one free Weapon Strike against another target within reach.
+
+**Row 4: Unstoppable Verdict** — Oath-Driven Strike pushes 10 yards (up from 5) and your contest is rolled with advantage (+2d6).
+
+**Row 5: Final Judgment** *(Legendary, 5+)* — Once per long rest, declare a sworn quarry. Your next attack against them auto-hits and deals weapon damage + Prof × 3 HD. Target must make a Resolve check.
+
+#### Way of the Bond
+*Loyalty, fellowship, unbreakable trust*
+*Adjacent: Blade, Crown*
+
+**Row 1: Battle Bond** — Choose one ally during rest. While within 30 yards of bonded ally, you both gain +1d6 to Resolve checks.
+
+**Row 2: Shared Fortitude** — When bonded ally loses HD, you may take half (rounded down, min 1) instead. Once per round.
+
+**Row 3: United Assault** — When you and bonded ally attack the same target in the same round, the second attacker gains +2d6.
+
+**Row 4: Oath Tether** — Once per short rest, when bonded ally would drop to 0 Resolve, they stay at 1 and you lose 2 Resolve instead.
+
+**Row 5: Unbreakable Fellowship** *(Legendary, 5+)* — Once per long rest, merge HD pools with bonded ally for Prof rounds. Sum remaining HD; damage to either draws from the shared pool.
+
+#### Way of the Crown
+*Authority, command, burden of leadership*
+*Adjacent: Bond, Flame*
+
+**Row 1: Commanding Presence** — Your Rally targets Prof allies simultaneously (this stacks with L4 upgrade).
+
+**Row 2: Tactical Directive** — Once per round (free action), grant one ally within 30 yards 10 yards of movement that doesn't provoke.
+
+**Row 3: Warlord's Authority** — Allies in your Hold the Line zone may use YOUR Proficiency dice for contests within the zone.
+
+**Row 4: Burden of Command** — When you use any War Cry, also restore 1 Resolve to yourself.
+
+**Row 5: Sovereign Commander** *(Legendary, 5+)* — Once per long rest, issue Absolute Command. All allies within 60 yards immediately take one free action (attack, move, or cast Basic spell).
+
+#### Way of the Flame
+*Defiance, renewal, hope against despair*
+*Adjacent: Crown, Stone*
+
+**Row 1: Defiant Stand** — At half HD or less, Weapon Strike deals +1 HD damage.
+
+**Row 2: Burning Resolve** — When you fail a Resolve check, gain +2d6 to your next attack (doesn't burn HD).
+
+**Row 3: Undying Flame** — First time per combat you would drop to 0 HD, stay at 1 HD and gain +Prof to next action's damage.
+
+**Row 4: Ignite Purpose** — Once per short rest, when an ally within 30 yards drops to 0 HD/Resolve, gain a free action and +3d6 to your next roll (doesn't burn HD).
+
+**Row 5: Eternal Flame** *(Legendary, 5+)* — Once per long rest, enter Blazing State for Prof rounds. Cannot drop below 1 HD. All attacks deal +Prof HD fire/radiant. When it ends, make a Resolve check.
+
+#### Way of the Stone
+*Tradition, foundation, enduring memory*
+*Adjacent: Flame, Bell*
+
+**Row 1: Rooted Stance** — If you haven't moved this round, gain +1d6 to defense (doesn't burn HD). Cannot be pushed or knocked prone.
+
+**Row 2: Cornerstone** — Allies within 10 yards who can see you gain +1d6 to Resolve checks (doesn't burn HD).
+
+**Row 3: Immovable** — Your Hold the Line zone cannot be ended by enemy effects. Reduce forced movement against you by 10 yards (minimum 0).
+
+**Row 4: Stonemind** — Immune to fear, charm, and mental domination. Resolve checks against these auto-succeed.
+
+**Row 5: Monolith** *(Legendary, 5+)* — Once per long rest, become immovable for Prof rounds. Double your current armor pool. Cannot move, but immune to attacks dealing less than Prof × 2 HD. Cornerstone extends to 30 yards.
+
+#### Way of the Bell
+*Witness, truth-telling, accountability*
+*Adjacent: Stone, Shield*
+
+**Row 1: Witness Strike** — On hit, learn target's exact HD and whether they have active magical effects.
+
+**Row 2: Truth of Battle** — Cannot be surprised. Gain +2d6 to initiative.
+
+**Row 3: Accountability** — Once per short rest, when you witness an enemy attack an ally, mark them. Your next attack against them gains +Prof damage and bypasses magical defenses (only armor/body dice apply).
+
+**Row 4: Toll the Bell** — Once per short rest, as reaction when an enemy within 60 yards attempts to flee, they must make Resolve check or cannot move for 1 round.
+
+**Row 5: Final Witness** *(Legendary, 5+)* — Once per long rest, ring the metaphysical Bell. All creatures within 60 yards: illusions end, invisible creatures revealed, disguises fail, lies from the last hour exposed. Choose one target: Resolve check at -3d6 or lose 2 Resolve.
 
 ---
 
@@ -161,281 +352,560 @@ You are purpose made manifest in combat. Your weapon is an extension of your oat
 *Paths will reflect areas of the invocation/bringing out the power of the gods/cosmos, most Priests are tied to The Concordant Halls, but any Custodial Power from any plane can bring about Priests*
 *All Priests can use Light Armor and all Weaponry, though no mastery like the Combatants. They can all cast some level of spells, though less than the Weaver.*
 *They have total understanding and advantage in matters of Will, Resolve, Health, Stamina, Endurance*
-*They all have "Power Words" - direct invocations of greater powers that can act similarly to spells or some classes actions, but are done through invoking the will of their god/patron/power/oath/sworn*
+*They all have "Power Words" - direct invocations of greater powers*
 *They are not just healers, not just support batteries, not just undead/evil executioners, not just radiant cannons*
 
 **Hit Die:** d8 (Balanced)
-**Custodial Connection:** Any Custodial Power - Conduits of Greater Will
+**Custodial Connection:** Any Custodial Power — Conduits of Greater Will
 **Role:** Invoker, Resolve Anchor, Space Sanctifier
 
 ### Class Identity
 
 Priests are mortal vessels who channel powers far beyond themselves. They do not wield magic through study like Weavers, nor through personal oaths like Combatants—they invoke the will of forces that dwarf mortal comprehension. Through **Power Words**, they speak reality into compliance, steadying the collapsing, sanctifying the profane, transforming loss into sacrifice with purpose.
 
-**A Priest may serve any power.** The righteous crusader channeling Nyroth's protection, the plague priest spreading Gephorix's despair, the death-speaker carrying Aralys's mercy, the contract-enforcer empowered by Azravael's infernal law—all are Priests if they have become conduits for something greater. **The cosmos does not judge. It only asks: do you carry the signal clearly?**
+**A Priest may serve any power.** The righteous crusader channeling Nyroth's protection, the plague priest spreading Gephorix's despair, the death-speaker carrying Aralys's mercy—all are Priests if they have become conduits for something greater. **The cosmos does not judge. It only asks: do you carry the signal clearly?**
 
 **Core Fantasy:**
-You are a relay point between the mortal and the infinite. When companions falter, your words hold them upright. When spaces turn hostile, your presence sanctifies them. When death comes, you decide if it's sacrifice or waste. You are not the power—you are the channel through which power flows. Whether that power builds or destroys, heals or corrupts, depends entirely on what you have sworn to carry.
+You are a relay point between the mortal and the infinite. When companions falter, your words hold them upright. When spaces turn hostile, your presence sanctifies them. When death comes, you decide if it's sacrifice or waste.
 
-**Unique Strengths:**
-- **Power Words:** Direct invocations that reshape reality through greater will
-- **Resolve Mastery:** Steady, restore, and manipulate Resolve for yourself and others
-- **Collapse Prevention:** Delay Resolve loss, turn defeat into sacrifice
-- **Space Sanctification:** Claim areas as extensions of your patron's domain
-- **Balanced Combatant:** Light armor + all weapons (competent, but not specialist)
-- **Limited Spellcasting:** Can prepare and cast spells (fewer than Weaver, more focused)
-- **All-Tier Access:** Abilities spanning Basic through Expert tiers (Legendary at higher levels)
+### Progression Table
 
-### Class Abilities
+| Level | Prof | Body HD | Resolve | Core Milestone | Way |
+|-------|------|---------|---------|----------------|-----|
+| 1 | 1 | 5d8 | 5 | Conduit of Greater Will | — |
+| 2 | 1 | 7d8 | 5 | Medium Armor | Row 1 |
+| 3 | 2 | 8d8 | 5 | Avatar of Purpose | — |
+| 4 | 2 | 10d8 | 5 | Extended Range | Row 2 |
+| 5 | 3 | 12d8 | 5 | Chosen Instrument | — |
+| 6 | 3 | 13d8 | 5 | Sustained Faith | Row 3 |
+| 7 | 4 | 15d8 | 5 | Divine Ascendant | — |
+| 8 | 4 | 17d8 | 5 | Efficient Channel | Row 4 |
+| 9 | 5 | 18d8 | 5 | Voice of the Divine | — |
+| 10 | 5 | 20d8 | 5 | Avatar of the Divine | Row 5 |
 
-*Gained at odd levels: 1, 3, 5, 7, 9*
+### Core Abilities
 
 **Level 1: Conduit of Greater Will**
 
 **Starting Resources:**
-- Hit Dice: 5d8
-- Resolve: 5
-- Armor Proficiency: Light
-- Weapon Proficiency: All weapons
-- Prepared Spells: 2 (Proficiency + 1)
+- **Hit Dice (Body):** 5d8 — *5 individual d8 dice*
+- **Resolve:** 5 — *5 individual d6 dice for checks*
+- **Proficiency:** 1 *(Level 1-2)*
+- **Defense Capacity:** 1 *(= Proficiency)*
+- **Armor Proficiency:** Light (2d6)
+- **Weapon Proficiency:** All weapons
+- **Prepared Spells:** Proficiency + 1
 
 **Power Word: Endure** (Advanced, 3+)
-- As an action, speak a word of cosmic authority
 - Required: 2 successes
-- Range: 30 yards, one creature you can see
-- Target regains Proficiency HD immediately
-- If target has lost Resolve (below 5), restore 1 Resolve
+- Range: 30 yards, one creature
+- Target regains Proficiency HD. If target has lost Resolve, restore 1 Resolve
 - Usable Proficiency times per short rest
-- **Priest Advantage:** Unlike Steady action (3 HD → 1 Resolve for self), you restore BOTH HD and Resolve to others at range with no personal cost
-- "The power I channel refuses your collapse"
 
 **Power Word: Smite** (Advanced, 3+)
-- As an action or as part of a weapon attack, invoke devastating judgment
+- As action or part of weapon attack
 - Required: 2 successes
-- Range: Touch or as part of weapon strike
-- Deal Proficiency HD damage as radiant/necrotic/divine energy (target may defend normally)
-- If target is opposed to your patron's nature (undead for life gods, living for death gods, etc.), deal Proficiency × 2 HD instead
-- Can be combined with weapon attack: make normal attack roll, then add Smite damage on hit
-- **Cost:** Lose 1 Resolve (channeling divine wrath demands sacrifice)
+- Deal Proficiency HD as radiant/necrotic/divine damage
+- Against creatures opposed to patron: Prof × 2 HD instead
+- Cost: 1 Resolve
 - Usable Proficiency times per short rest
-- **Design Note:** Defense applies normally (respects core engine), Resolve cost prevents spam, scaling controlled
-- "My patron's wrath flows through me"
 
 **Weapon of Faith** (Basic, 2+)
-- All weapon attacks are Basic (2+) tier
-- Required successes: 1-2 depending on weapon
-- When attacking, you may choose to add +1d6 divine damage (burns HD on 1s like exertion dice, counts toward total successes)
-- Against creatures opposed to your patron's nature, this becomes +2d6 (both dice follow normal burn rules)
-- **Design Note:** Bonus dice follow exertion burn rules (respect risk engine), prevent passive damage inflation
-- You are competent but not masterful—faith, not skill, guides your strikes
+- Weapon attacks are Basic (2+); may add +1d6 divine damage (burns HD on 1s)
+- Against patron-opposed creatures: +2d6 instead
 
 **Invoke Resilience** (Passive)
-- You have advantage (gain +1d6) on all rolls to:
-  - Resist Resolve loss from any source
-  - Pass Resolve checks
-  - Maintain concentration on spells despite taking damage
-  - Endure environmental extremes tied to willpower or stamina
-- This bonus die follows proficiency dice rules (doesn't burn HD on 1s)
-- "My patron's will flows through me—I do not break"
+- Advantage (+1d6, doesn't burn HD) on: Resolve checks, concentration maintenance, endurance rolls
 
 **Limited Spellcasting** (Passive)
-- You can learn and prepare spells, representing prayers and rituals taught by your patron
-- **Known Spells:** Proficiency × 3 (Divine domain)
-- **Prepared Spells:** Proficiency + 1 (can change during long rest)
-- **Ritual Casting:** Can ritual cast any Divine spell, even if not known
-- You cannot cast Ultimate tier spells (that belongs to Weavers alone)
-- Your magic is focused—narrower than a Weaver's, but aligned with greater purpose
+- Known Spells: Proficiency × 3 (Divine domain)
+- Prepared Spells: Proficiency + 1
+- Ritual Casting: Any Divine spell, even if not known
+- Cannot cast Ultimate tier spells
+
+---
+
+**Level 2: Medium Armor**
+Gain Medium Armor Proficiency (2d8). **Way Node.**
+
+---
 
 **Level 3: Avatar of Purpose**
 
 **Power Word: Sanctify** (Expert, 4+)
-- As an action, claim space in your patron's name
 - Required: 3 successes
-- Range: 10-yard radius centered on a point you can see
-- Duration: Proficiency rounds
-- Effect: Zone gains properties based on your patron's nature (choose ONE when you cast):
-  - **Order/Law:** Enemies have disadvantage (-1d6) on deception/chaos-aligned actions. Allies gain +1d6 to Influence checks within zone.
-  - **Life/Growth:** First time each ally drops to half HD or less this scene while in zone, restore 1 HD. Undead take 1 HD damage per round.
-  - **Death/Decay:** Enemies have disadvantage (-1d6) on Resolve checks. First time each enemy enters zone, take 1 HD damage (necrotic).
-  - **Knowledge:** Illusions/invisibility suppressed. Allies gain +1d6 to Lore/Awareness checks within zone.
-  - **Chaos/Change:** First exertion die roll each round that shows a 1 becomes a 2 (one die only, one creature only per round). Terrain shifts subtly (difficult terrain for enemies).
-- Only one Sanctified zone at a time
-- **Design Note:** Radius reduced to 10 yards, effects dramatically simplified, Chaos mode no longer turns off risk engine globally, Life mode triggers once per ally (not every round)
+- 10-yard radius on a point you can see, Proficiency rounds
+- Choose ONE zone effect (based on patron's nature):
+  - **Order/Law:** Enemies -1d6 on deception/chaos. Allies +1d6 Influence.
+  - **Life/Growth:** First time each ally drops to half HD in zone, restore 1 HD. Undead take 1 HD/round.
+  - **Death/Decay:** Enemies -1d6 Resolve checks. Enemies take 1 HD entering zone.
+  - **Knowledge:** Illusions suppressed. Allies +1d6 Lore/Awareness.
+  - **Chaos/Change:** First exertion 1 per round becomes 2 (one die, one creature). Difficult terrain for enemies.
+- One zone at a time
 - Usable once per short rest
 
 **Divine Conduit** (Advanced, 3+)
-- Channel your patron's raw power through your body as a devastating attack
 - Required: 2 successes
-- Range: 30-yard line or 15-yard cone (your choice)
-- All targets in area take Proficiency HD damage (divine energy of your patron's nature)
-- Creatures opposed to your patron take Proficiency × 2 HD damage instead
-- You may choose to exclude allies from the effect
-- After using: Restore 1 Resolve to yourself (channeling cosmic power steadies your will)
+- 30-yard line or 15-yard cone
+- Proficiency HD divine damage to all targets (Prof × 2 vs patron-opposed)
+- Restore 1 Resolve to yourself after use
 - Usable Proficiency times per short rest
-- **Priest Advantage:** Restore Resolve while dealing damage—unlike Steady (costs HD), channeling power RENEWS you
-- "I am the conduit. The power flows THROUGH me."
+
+---
+
+**Level 4: Extended Range**
+All Power Words gain +10 yards range. **Way Node.**
+
+---
 
 **Level 5: Chosen Instrument**
 
 **Power Word: Transcend** (Expert, 4+)
-- As an action, speak the most sacred/profane word of your patron's true name
 - Required: 4 successes
-- Range: Touch (self or one willing creature)
-- Duration: Proficiency rounds
-- Effect: Target enters transcendent state:
-  - All attacks deal +Proficiency HD damage
-  - Gains +2d6 to all actions aligned with patron's nature (dice don't burn HD on 1s)
-  - **Requirement:** Must act in accordance with patron's core principle or effect ends immediately
-- **Cost:** Lose 2 Resolve immediately when cast (transcendence demands sacrifice)
+- Touch (self or willing creature), Proficiency rounds
+- Target enters transcendent state: +Prof HD damage on attacks, +2d6 to patron-aligned actions (doesn't burn HD)
+- Must act in accordance with patron's principle or effect ends
+- Cost: 2 Resolve
 - Usable once per long rest
-- **Design Note:** Removed god-mode effects (cannot drop below 1 HD, auto-pass Resolve) that trivialized boss mechanics. Increased Resolve cost reflects power level.
-- "You are not yours anymore. You are THEIRS. Act accordingly."
 
 **Power Word: Annihilate** (Expert, 4+)
-- Speak a word of absolute ending/destruction/dominion (nature depends on patron)
 - Required: 4 successes
-- Range: 60 yards, one creature you can see
-- Target takes Proficiency × 2 HD damage (target may defend normally)
-- Target must immediately make a Resolve check with disadvantage (-2d6)
-- If target is strongly opposed to your patron's nature: Target takes Proficiency × 3 HD instead and Resolve check is at -3d6
-- "I speak the word. You END."
-- **Cost:** Lose 3 Resolve yourself (channeling such devastating power is exhausting)
+- 60 yards, one creature
+- Prof × 2 HD damage (defense applies). Target makes Resolve check at -2d6
+- Against patron-opposed: Prof × 3 HD and -3d6 Resolve
+- Cost: 3 Resolve
 - Usable once per long rest
-- **Design Note:** Reduced from Prof × 4 to Prof × 2 (12 HD → 6 HD at Prof 3), defense applies normally (respects core engine), single Resolve check with disadvantage (not multiple checks), increased Resolve cost to 3 reflects power level
+
+---
+
+**Level 6: Sustained Faith**
+Regain 1 Resolve per short rest automatically. **Way Node.**
+
+---
+
+**Level 7: Divine Ascendant**
+
+**Power Word: Resurrect** (Legendary, 5+)
+- Required: 4 successes
+- Touch a creature that died within 10 minutes
+- Target returns at half maximum HD and 2 Resolve
+- Cost: 3 Resolve, 5 HD
+- Usable once per long rest
+
+**Power Word: Greater Domain** (Legendary, 5+)
+- Required: 4 successes
+- Expand Sanctify to 30-yard radius; choose TWO zone effects
+- Proficiency rounds
+- Usable once per long rest
+
+---
+
+**Level 8: Efficient Channel**
+Reduce the Resolve cost of one Power Word per long rest by 1 (minimum 0). **Way Node.**
+
+---
+
+**Level 9: Voice of the Divine**
+
+**Power Word: Miracle** (Legendary, 5+)
+- Required: 5 successes
+- Channel a miracle. Choose one: (A) Restore all allies within 60 yards to full HD, (B) Prof × 4 HD to all enemies within 60 yards, (C) Remove any curse/seal/ward of any tier, (D) Create lasting effect for 24 hours (GM negotiates scope)
+- Cost: All remaining Resolve (minimum 3)
+- Usable once per long rest
+
+**Greater Conduit** (Passive)
+- Known spells increase to Prof × 4. Prepared spell limit +2.
+
+---
+
+**Level 10: Avatar of the Divine**
+
+**Avatar State** (Passive Capstone)
+- Once per long rest (no roll required), become avatar of patron for Prof rounds
+- All Power Words cost 0 Resolve. Spell damage/healing doubled. +Prof to all actions
+- Appearance transforms to reflect patron's nature
+- When this ends, drop to 1 Resolve
+
+**Way Node.**
+
+---
+
+### Ways of the Concordant Halls
+
+**Grid Structure (Ring):**
+```
+Shield ←→ Blade ←→ Bond ←→ Crown ←→ Flame ←→ Stone ←→ Bell ←→ (Shield)
+```
+
+#### Way of the Shield
+*Divine protection, warding, sanctuary*
+*Adjacent: Bell, Blade*
+
+**Row 1: Warding Word** — Power Word: Endure also grants target +1d6 to their next defense roll.
+
+**Row 2: Sanctified Barrier** — Your Sanctify zone grants allies within +1 temporary HD (die matching their class type). Lasts until zone ends.
+
+**Row 3: Shield of Faith** — Once per short rest (reaction), grant one ally within 30 yards an automatic success on their next defense roll.
+
+**Row 4: Protected Domain** — Enemies in your Sanctify zone cannot use Legendary or Ultimate abilities (only Basic-Expert).
+
+**Row 5: Divine Sanctuary** *(Legendary, 5+)* — Once per long rest, create 30-yard zone for Prof rounds where hostile actions automatically fail. Creatures in combat may contest (Prof dice vs yours) to resist.
+
+#### Way of the Blade
+*Divine judgment, smiting, righteous wrath*
+*Adjacent: Shield, Bond*
+
+**Row 1: Focused Wrath** — Smite costs 0 Resolve against creatures directly opposed to your patron.
+
+**Row 2: Righteous Cascade** — When Smite reduces a target to 0 HD, regain the Resolve spent.
+
+**Row 3: Judgment Aura** — While Sanctify is active, weapon attacks within the zone deal +Prof HD divine damage.
+
+**Row 4: Divine Executioner** — Annihilate damage increases by Prof HD against creatures who have harmed your patron's servants within the last hour.
+
+**Row 5: Word of Undoing** *(Legendary, 5+)* — Once per long rest, one creature within 60 yards that acted against your patron makes Resolve check at -4d6. Failure = lose ALL Resolve. Success = lose 2.
+
+#### Way of the Bond
+*Communion, shared faith, collective healing*
+*Adjacent: Blade, Crown*
+
+**Row 1: Communal Restoration** — When you use Endure, one additional ally within 10 yards of the target also restores 1 HD.
+
+**Row 2: Shared Suffering** — When an ally within 30 yards would lose 2+ HD from a single source, absorb 1 of that damage onto yourself.
+
+**Row 3: Chain of Faith** — Once per short rest, chain you + Prof allies within 30 yards. For Prof rounds, when any chained ally restores HD, all others restore 1 HD.
+
+**Row 4: Bonds Beyond Death** — When a chained ally would drop to 0 HD, they stay at 1 instead. Once per ally per long rest.
+
+**Row 5: Communion of Purpose** *(Legendary, 5+)* — Once per long rest, merge spiritual essence of Prof allies within 30 yards for Prof rounds. All share highest Proficiency, gain +2d6 to all actions, and when one succeeds all others gain +1d6 next action.
+
+#### Way of the Crown
+*Divine authority, commanding presence*
+*Adjacent: Bond, Flame*
+
+**Row 1: Voice of Authority** — Your Power Words are heard through any noise, in any language, and cannot be silenced by mundane means.
+
+**Row 2: Consecrated Command** — Once per short rest, command one creature within 30 yards to perform a single non-harmful action (kneel, halt, speak truth). Contest (their Prof vs yours); failure = obey.
+
+**Row 3: Aura of Dominion** — Enemies within 10 yards have -1d6 on all actions against your allies.
+
+**Row 4: Crown of the Faithful** — Sanctify lets you choose TWO zone effects (stacks with Greater Domain for three at L7+).
+
+**Row 5: Divine Mandate** *(Legendary, 5+)* — Once per long rest, choose one: (A) All enemies within 60 yards Resolve check or drop weapons, (B) All allies gain +Prof HD and +Prof damage for Prof rounds, (C) One creature compelled to serve patron's will for 1 hour (contest at -3d6).
+
+#### Way of the Flame
+*Renewal, resurrection, hope against death*
+*Adjacent: Crown, Stone*
+
+**Row 1: Ember of Renewal** — Endure also removes one condition (poison, disease, fear, charm) from target.
+
+**Row 2: Defiant Faith** — When you or ally within 30 yards fails Resolve check, spend 1 HD to let them reroll.
+
+**Row 3: Phoenix Spark** — Once per long rest, when ally within 30 yards drops to 0 HD, they immediately stand at 1 HD and gain +1d6 to all actions for 1 round.
+
+**Row 4: Resurrection Flame** — Transcend no longer ends when target acts against patron's principle (the flame forgives).
+
+**Row 5: True Resurrection** *(Legendary, 5+)* — Once per long rest, touch a creature dead within 1 hour. They return at half max HD and full Resolve. Cost: 3 Resolve and half your current HD.
+
+#### Way of the Stone
+*Sacred tradition, ritual power, enduring faith*
+*Adjacent: Flame, Bell*
+
+**Row 1: Ritual Expertise** — Ritual casting time halved (5 minutes per tier instead of 10).
+
+**Row 2: Sacred Foundation** — Spend 10 minutes to consecrate a room. For 24 hours, allies resting within restore +Prof additional HD.
+
+**Row 3: Ancient Rites** — You may ritual cast spells one tier higher than your normal maximum.
+
+**Row 4: Unyielding Tradition** — Sanctify lasts 10 minutes instead of Prof rounds when used outside combat. Effects strengthen after 5 minutes (+1d6 to zone benefits).
+
+**Row 5: Eternal Monument** *(Legendary, 5+)* — Once per long rest, create permanent monument. Grants Sanctify benefits in 30-yard radius permanently (until destroyed). Monument has Prof × 10 HD. One at a time.
+
+#### Way of the Bell
+*Prophecy, truth-speaking, witness*
+*Adjacent: Stone, Shield*
+
+**Row 1: Truthsense** — Automatically detect when a creature within 30 yards lies (no roll). Sense falsehood, not the truth.
+
+**Row 2: Prophetic Insight** — Once per short rest (bonus action), grant one ally within 30 yards advantage (+2d6) on their next action this round.
+
+**Row 3: Words of Reckoning** — Once per short rest, declare a truth about a target within 60 yards (GM confirms). Target must Resolve check; failure = lose 1 Resolve and -2d6 for 1 round.
+
+**Row 4: Bell of Clarity** — Once per long rest, allies within 60 yards become immune to illusion, charm, and fear for Prof rounds. Current such effects dispelled.
+
+**Row 5: Voice of the Absolute** *(Legendary, 5+)* — Once per long rest, choose: (A) All lies in the area undone (disguises, illusions, false contracts), (B) One creature answers one question truthfully (no save), (C) Perfect knowledge of all events in this location within 24 hours.
 
 ---
 
 ## Ranger
 
 *Ranger are bound to a reverence for nature, for the hunt, for the beautiful harsh wilds*
-*Reduces or negates travel-based Resolve loss, Lowers Threshold requirements in wilderness scenes, Grants bonus successes on exploration tasks, Prevents Resolve loss from environmental strain*
-*Paths will reflect areas of the wilderness, of travel, of environmental expertise, guidance, natural worlds, companions, most Rangers are tied to The Living Accord, but any Custodial Power from any plane can bring about Rangers*
+*Reduces or negates travel-based Resolve loss, Lowers Threshold requirements in wilderness scenes*
+*Most Rangers are tied to The Living Accord, but any Custodial Power from any plane can bring about Rangers*
 *All Rangers can use Medium Armor and all Weaponry, though no mastery like the Combatants. They can all cast some level of spells, though significantly less than the Weaver.*
-*They have total understanding and advantage in matters of natural orders, tracking, hunting, environments, blending in, reading the wilds*
 *"The Ranger decides where and how you suffer.", "The wild obeys the Ranger.", "The Ranger wins before the fight begins."*
-*Not just ranged DPS, not just a Nature-flavored Fighter, not just the Pet-dependent class, not just Skill monkey with a bow*
+*Not just ranged DPS, not just a Nature-flavored Fighter, not just the Pet-dependent class*
 
 **Hit Die:** d8 (Balanced)
-**Custodial Connection:** The Living Accord - Keepers of Life and Death Balance
+**Custodial Connection:** The Living Accord — Keepers of Life and Death Balance
 **Role:** Wilderness Master, Terrain Controller, Hunter
 
 ### Class Identity
 
 Rangers are not merely wilderness survivors—they are those who have learned to read the natural world's code and rewrite the rules of engagement. Connected to the **Living Accord**, they understand that nature is neither kind nor cruel; it simply *is*, and mastery comes from deciding where growth ends and culling begins. They do not fight *in* the wilds—they make the wilds fight *for* them.
 
-**The Living Accord recognizes no difference between preservation and predation.** The druid who burns the diseased grove to save the forest, the hunter who culls the herd to strengthen it, the tracker who leads prey into killing grounds, the warden who knows when mercy becomes cruelty—all are Rangers when they understand that nature's balance requires both hands: one to nurture, one to prune.
-
 **Core Fantasy:**
-You decide where the battle happens, what it costs to get there, and who suffers along the way. While others react to terrain, you weaponize it. You are not tough like a Combatant or devastating like a Weaver—you are *prepared*. The fight is half over before it begins because you chose the ground, set the terms, and your enemies are already exhausted from the journey. The wild doesn't love you. It obeys you.
+You decide where the battle happens, what it costs to get there, and who suffers along the way. While others react to terrain, you weaponize it. The fight is half over before it begins because you chose the ground and set the terms. The wild doesn't love you. It obeys you.
 
-**Unique Strengths:**
-- **Terrain Mastery:** Manipulate environments, negate travel Resolve loss, lower wilderness Thresholds
-- **Preparation Supremacy:** Win fights before they begin through positioning and resource control
-- **Resolve Warfare:** You decide who suffers from environmental strain
-- **Limited Spellcasting:** Nature magic focused on control, not raw power
-- **Balanced Warrior:** Medium armor + all weapons (competent hunter, not weapon master)
-- **All-Tier Access:** Abilities spanning Basic through Expert tiers (Legendary at higher levels)
+### Progression Table
 
-### Class Abilities
+| Level | Prof | Body HD | Resolve | Core Milestone | Way |
+|-------|------|---------|---------|----------------|-----|
+| 1 | 1 | 5d8 | 5 | Wild's Arbiter | — |
+| 2 | 1 | 7d8 | 5 | Hunter's Reflexes | Row 1 |
+| 3 | 2 | 8d8 | 5 | Wild's Judgment | — |
+| 4 | 2 | 10d8 | 5 | Terrain Adaptation | Row 2 |
+| 5 | 3 | 12d8 | 5 | Apex Predator | — |
+| 6 | 3 | 13d8 | 5 | Dual Mark | Row 3 |
+| 7 | 4 | 15d8 | 5 | Nature's General | — |
+| 8 | 4 | 17d8 | 5 | Enhanced Mark | Row 4 |
+| 9 | 5 | 18d8 | 5 | Sovereign of the Wilds | — |
+| 10 | 5 | 20d8 | 5 | Voice of the Accord | Row 5 |
 
-*Gained at odd levels: 1, 3, 5, 7, 9*
+### Core Abilities
 
 **Level 1: Wild's Arbiter**
 
 **Starting Resources:**
-- Hit Dice: 5d8
-- Resolve: 5
-- Armor Proficiency: Light, Medium
-- Weapon Proficiency: All weapons
-- Prepared Spells: 2 (Proficiency + 1)
+- **Hit Dice (Body):** 5d8 — *5 individual d8 dice*
+- **Resolve:** 5 — *5 individual d6 dice for checks*
+- **Proficiency:** 1 *(Level 1-2)*
+- **Defense Capacity:** 1 *(= Proficiency)*
+- **Armor Proficiency:** Light (2d6), Medium (3d8)
+- **Weapon Proficiency:** All weapons
+- **Prepared Spells:** Proficiency + 1
 
 **Hunter's Strike** (Basic, 2+)
-- All weapon attacks are Basic (2+) tier
-- Required successes: 1-2 depending on weapon
-- When attacking from advantageous terrain (higher ground, concealment, ambush) or against a target you've tracked, add +1 HD damage
-- You are not a weapon master—you are a positioning master
+- Weapon attacks are Basic (2+)
+- From advantageous terrain (height, concealment, ambush) or against Marked target: +1 HD damage
 
 **Nature's Treaty** (Passive)
-- You automatically succeed on all Basic tier Wilderness checks without rolling
-- Advanced tier Wilderness checks require 1 less success (minimum 1)
-- When leading group travel through natural environments:
-  - All party members gain +1d6 to Wilderness-related rolls (doesn't burn HD on 1s)
-- **Design Note:** Travel Resolve loss reduction moved to Path Board options—Level 1 shouldn't trivialize attrition entirely. Three benefits at Level 1 (auto-succeed Basic, reduce Advanced threshold, party-wide bonus die) provide strong foundation without deleting core pressure system.
-- The wild recognizes those who understand its laws
-- "I do not command nature. I speak its language."
+- Auto-succeed on Basic tier Wilderness checks
+- Advanced Wilderness checks require 1 less success (minimum 1)
+- Leading group travel: all party members +1d6 to Wilderness rolls (doesn't burn HD)
 
 **Mark Prey** (Advanced, 3+)
-- As an action, study one creature you can see within 60 yards
 - Required: 2 successes
-- Duration: Until creature drops to 0 HD or you mark another
-- Effect:
-  - You gain +1d6 to all rolls made to track, attack, or contest the marked creature (doesn't burn HD on 1s)
-  - You sense when marked creature uses Exertion Dice
-  - You know marked creature's approximate current HD (full/half/quarter/low)
-  - You sense marked creature's general direction and distance within 1 mile
-- Usable at will (only one mark at a time)
-- "Once marked, you cannot hide"
+- 60 yards, one creature; lasts until they drop to 0 HD or you mark another
+- +1d6 to track, attack, or contest marked creature (doesn't burn HD)
+- Sense marked creature's approximate HD (full/half/quarter/low)
+- Sense direction and distance within 1 mile
+- Usable at will (one mark at a time)
 
 **Limited Spellcasting** (Passive)
-- You can learn and prepare spells, representing rituals and natural magics
-- **Known Spells:** Proficiency × 3 (Primal domain)
-- **Prepared Spells:** Proficiency + 1 (can change during long rest)
-- **Ritual Casting:** Can ritual cast any Primal spell, even if not known
-- You cannot cast Ultimate tier spells
-- Your magic bends terrain, controls movement, and weaponizes environments
+- Known Spells: Proficiency × 3 (Primal domain)
+- Prepared Spells: Proficiency + 1
+- Ritual Casting: Any Primal spell, even if not known
+- Cannot cast Ultimate tier
+
+---
+
+**Level 2: Hunter's Reflexes**
+Gain +1d6 to initiative rolls (doesn't burn HD). **Way Node.**
+
+---
 
 **Level 3: Wild's Judgment**
 
 **Killing Ground** (Expert, 4+)
-- As an action, weaponize a 30-yard radius area you can see
 - Required: 3 successes
-- Duration: Proficiency rounds
-- Effect: Choose ONE effect for this zone:
-  - **Mire:** Enemies treat zone as difficult terrain (movement halved).
-  - **Cover:** Allies gain +1 defense die (rolled as d6, doesn't burn HD on 1s).
-  - **Snare:** Enemies entering must contest (Proficiency dice vs your Proficiency) or become restrained until they use action to escape.
-  - **Marked:** You know exact position and current HD of all creatures in zone.
-  - **Hazard:** Enemies take 1 HD damage when entering or starting turn inside (flat damage, not scaled).
-- **Design Note:** Reduced from TWO effects to ONE, Hazard damage reduced to flat 1 HD (prevents Prof × 3 rounds = 9 HD scaling). Encourages tactical choice between control, information, damage, and defense rather than stacking multiple effects.
-- "I chose this ground. You're already losing."
+- 30-yard radius you can see, Proficiency rounds
+- Choose ONE effect: Mire (difficult terrain), Cover (+1 defense d6 for allies), Snare (enemies contest or restrained), Marked (know all HD in zone), or Hazard (1 HD damage entering/starting turn)
 - Usable once per short rest
 
 **Culling Strike** (Advanced, 3+)
-- Enhanced attack against weakened prey
 - Required: 2 successes
-- Target must have: Half HD or less, OR currently at Resolve 2 or lower
-- Effect:
-  - Deal weapon damage + Proficiency HD
-  - Target must contest (Proficiency dice vs yours) or lose 1 Resolve
-- **Design Note:** Reduced from Prof × 2 to Prof HD (6 HD → 3 HD at Prof 3). Still strong finisher with Resolve threat, but not Priest Smite territory. Ranger is positioning master, not burst damage specialist.
+- Target must be at half HD or less, or Resolve 2 or lower
+- Weapon damage + Proficiency HD; target contests or loses 1 Resolve
 - Usable Proficiency times per short rest
-- "Nature favors the predator over the weak. I am the culling hand."
+
+---
+
+**Level 4: Terrain Adaptation**
+Ignore difficult terrain in natural environments. **Way Node.**
+
+---
 
 **Level 5: Apex Predator**
 
 **Ambush Mastery** (Expert, 4+)
-- When you attack a creature that hasn't acted yet this combat (first round or surprised)
-- Required: 3 successes  
-- Make Proficiency weapon attacks as a single action
-- Each attack uses the same roll for successes
-- Distribute successes among attacks as you choose (minimum required per attack applies)
-- First creature hit must immediately make a Resolve check
+- Required: 3 successes
+- Attack a creature that hasn't acted yet this combat
+- Make Proficiency weapon attacks as single action
+- First creature hit must immediately make Resolve check
 - Usable once per short rest
-- "You were dead before you knew I was here"
 
 **Nature's Dominion** (Expert, 4+)
-- As an action, assert absolute control over natural environment within 60 yards
 - Required: 4 successes
-- Duration: Proficiency rounds
-- Effect: Each round as a free action, choose ONE of the following:
-  - Move up to 20 yards of terrain features (vines, rocks, water, trees) anywhere within range
-  - Grant one creature +2d6 bonus OR one creature -2d6 penalty to their next action (choose one target, one effect)
-  - Sense exact location and current HD of all creatures touching natural ground
-  - Create/remove difficult terrain in any 10-yard area within range
-- **Design Note:** Changed from ALL effects every round to ONE choice per round. Still powerful sustained control (3-4 uses over duration), but requires tactical decision-making rather than dominating battlefield completely. Prevents this from being strongest control ability in game.
-- Concentration required (cannot take Expert+ actions while maintaining)
+- 60 yards, Proficiency rounds
+- Each round (free action), choose ONE: move 20 yards of terrain features, grant +2d6 or impose -2d6 on one creature's next action, sense all creatures on natural ground, or create/remove difficult terrain (10-yard area)
+- Concentration required
 - Usable once per long rest
-- "The wild recognizes its master"
+
+---
+
+**Level 6: Dual Mark**
+Mark Prey can target 2 creatures simultaneously. **Way Node.**
+
+---
+
+**Level 7: Nature's General**
+
+**Alpha Strike** (Legendary, 5+)
+- Required: 4 successes
+- Make Prof × 2 weapon attacks as single action
+- Usable once per long rest
+
+**Nature's Wrath** (Legendary, 5+)
+- Required: 4 successes
+- All enemies within your Killing Ground take Prof × 2 HD terrain damage (each defends normally)
+- Terrain reshapes: all enemies in area are in difficult terrain for Prof rounds
+- Usable once per long rest
+
+---
+
+**Level 8: Enhanced Mark**
+Mark Prey bonus increases to +2d6 (from +1d6). **Way Node.**
+
+---
+
+**Level 9: Sovereign of the Wilds**
+
+**Supreme Predator** (Legendary, 5+)
+- Required: 4 successes
+- Prof rounds: perfect tracking (all creatures within 1 mile), +2d6 on attacks, +Prof HD damage, killing restores Prof HD
+- Usable once per long rest
+
+**Terrain Absolute** (Passive)
+- Killing Ground can have TWO effects simultaneously. Radius increases to 60 yards. May maintain two zones.
+
+---
+
+**Level 10: Voice of the Accord**
+
+**Accord's Voice** (Passive Capstone)
+- Immune to natural poisons and diseases
+- Terrain within 30 yards: allies +1d6 Wilderness rolls, enemies treat as difficult terrain
+- Once per long rest, command natural world in 100-yard radius to perform one dramatic act (trees march, rivers redirect, ground opens, storms arrive)
+
+**Way Node.**
+
+---
+
+### Ways of the Living Accord
+
+**Grid Structure (Ring):**
+```
+Breath ←→ Thorn ←→ Tide ←→ Rot ←→ Hearth ←→ Star ←→ Howl ←→ (Breath)
+```
+
+#### Way of Breath
+*Life tracking, vitality sense, survival mastery*
+*Adjacent: Howl, Thorn*
+
+**Row 1: Life Reader** — Mark Prey reveals exact HD, Resolve, and conditions. Sense all living creatures within 30 yards.
+
+**Row 2: Vitality Drain** — Culling Strike restores 1 HD to you on hit.
+
+**Row 3: Breath of the Accord** — Once per short rest, for Prof rounds, regenerate 1 HD per turn start.
+
+**Row 4: Life Surge** — Allies in your Killing Ground regenerate 1 HD per turn start.
+
+**Row 5: Breath of Genesis** *(Legendary, 5+)* — Once per long rest, 30-yard radius: allies restore Prof × 2 HD. Undead/constructs take Prof × 2 HD damage. Area becomes difficult terrain for enemies for Prof rounds.
+
+#### Way of Thorn
+*Predation, competition, ambush mastery*
+*Adjacent: Breath, Tide*
+
+**Row 1: Predator's Patience** — From concealment or height, +2 HD damage instead of +1 (Hunter's Strike upgrade).
+
+**Row 2: Thorn Trap** — Once per short rest, place hidden trap. Next creature within 5 yards takes Prof HD damage and is restrained 1 round (contest Prof dice to escape).
+
+**Row 3: Apex Instinct** — +2d6 to initiative. Always act before Marked creatures regardless of initiative.
+
+**Row 4: Pack Hunter** — Your Mark Prey bonus extends to all allies who can hear you within 30 yards.
+
+**Row 5: Alpha Predator** *(Legendary, 5+)* — Once per long rest, Prof rounds: all attacks +Prof HD, reducing target to 0 HD lets you Mark another free, cannot be surprised or flanked.
+
+#### Way of Tide
+*Migration, change, adaptation*
+*Adjacent: Thorn, Rot*
+
+**Row 1: Adaptive Stance** — Start of combat, choose: +1d6 melee, +1d6 ranged, or +1d6 defense. Lasts entire combat.
+
+**Row 2: Flowing Movement** — Move through difficult terrain without penalty. Moving through enemy space: they contest (Prof dice) or displaced 5 yards.
+
+**Row 3: Shifting Kill Zone** — Killing Ground can be moved 10 yards as free action at start of each turn.
+
+**Row 4: Tidal Adaptation** — Once per short rest, when enemy uses ability against you, gain +2d6 vs that enemy for rest of combat.
+
+**Row 5: Unstoppable Migration** *(Legendary, 5+)* — Once per long rest, you + Prof allies for Prof rounds: movement doubled, ignore terrain, cannot be restrained/slowed, +1d6 to all actions while moving.
+
+#### Way of Rot
+*Decay, recycling, necessary endings*
+*Adjacent: Tide, Hearth*
+
+**Row 1: Venomed Strike** — Weapon attacks deliver poison. Target Fortitude check (your Prof dice); fail = -1d6 to all actions for Prof rounds.
+
+**Row 2: Weakening Mark** — Marked Prey takes 1 additional HD damage from ALL sources.
+
+**Row 3: Entropy Zone** — Killing Ground Hazard deals Prof HD instead of 1 HD.
+
+**Row 4: Decaying Touch** — Once per short rest, touch target. Contest; fail = lose 1 HD per round for Prof rounds (until long rest). Objects age rapidly.
+
+**Row 5: Culling Mandate** *(Legendary, 5+)* — Once per long rest, 60-yard radius for Prof rounds: all enemies take Prof HD necrotic/round, cannot heal, enemies at 0 HD cannot be revived during effect.
+
+#### Way of Hearth
+*Domestication, settlement, cultivation*
+*Adjacent: Rot, Star*
+
+**Row 1: Companion Bond** — Gain beast companion (small-medium). Prof × 2 HD, acts on your turn, Basic actions. Returns after long rest if killed.
+
+**Row 2: Hearth Craft** — During short rest, create shelter. All party members restore +2 additional HD.
+
+**Row 3: Guardian Territory** — Once per short rest, 20-yard area as Hearth. Allies +1d6 defense; you sense any creature entering.
+
+**Row 4: Greater Companion** — Companion grows large, Prof × 4 HD, Advanced actions. Can serve as mount.
+
+**Row 5: Home Ground** *(Legendary, 5+)* — Once per long rest, 100-yard radius for 24 hours: allies +2d6 all actions, enemies -2d6, you and companion share HD pool and sense everything within.
+
+#### Way of Star
+*Cosmic influence, seasons, celestial awareness*
+*Adjacent: Hearth, Howl*
+
+**Row 1: Star Reader** — Always know location, time, and 24-hour weather. +1d6 to navigation/tracking at night.
+
+**Row 2: Celestial Mark** — Mark Prey has unlimited range (direction and distance across any distance, even planes).
+
+**Row 3: Starlight Shot** — Once per short rest, ranged attack ignores cover, concealment, and range penalties.
+
+**Row 4: Seasonal Wisdom** — +2d6 to social interactions during attuned season (chosen at long rest). During actual occurrence of that season: +3d6.
+
+**Row 5: Cosmic Alignment** *(Legendary, 5+)* — Once per long rest, choose: (A) All allies +Prof to all actions for 1 round, (B) One enemy takes Prof × 3 HD radiant + Resolve check at -3d6, (C) Perfect awareness of all creatures within 1 mile for 1 hour.
+
+#### Way of Howl
+*Catastrophe, extinction, cleansing collapse*
+*Adjacent: Star, Breath*
+
+**Row 1: Storm Shot** — Ranged attacks deal +1 HD lightning/thunder damage outdoors.
+
+**Row 2: Windwall** — Once per short rest, 20-yard wall of wind. Ranged attacks through it -2d6. Prof rounds.
+
+**Row 3: Tempest Zone** — Killing Ground Hazard deals lightning/thunder and also counts as Mire (double effect).
+
+**Row 4: Call Lightning** — Once per short rest, 10-yard radius: Prof × 2 HD lightning (each defends normally).
+
+**Row 5: Howl of Extinction** *(Legendary, 5+)* — Once per long rest, 60-yard radius: all enemies take Prof × 3 HD (fire/lightning/cold/thunder, chosen). Terrain destroyed and reshaped. Allies unaffected.
 
 ---
 
@@ -443,245 +913,509 @@ You decide where the battle happens, what it costs to get there, and who suffers
 
 *Scholar are the master of knowledge, weaponizing it, letting it guide and grant aid or making others suffer by it.*
 *They should control structure, understanding, and inevitability*
-*Paths will reflect areas of knowledge, or identifying, of seeing hidden or obscured truths to guide allies or decimate foes, most Scholars are tied to The Curator Arcanum, but any Custodial Power from any plane can bring about Scholars*
-*All Scholars can use Light Armor and all Weaponry, though no mastery like the Combatants. They can all cast some level of spells, though less than the Weaver. They can craft items, they can perform, they can understand your mind before you know what is happening*
-*They have total understanding and advantage in matters of Knowledge, training, social ladders, crafting, writings... the workings and musings of the mind*
+*Most Scholars are tied to The Curator Arcanum, but any Custodial Power from any plane can bring about Scholars*
+*All Scholars can use Light Armor and all Weaponry. They can craft items, perform, understand minds before others know what's happening*
 *They are not just "lite" wizards/weavers... they are not just smart... they are not pure support/skill monkeys*
 
 **Hit Die:** d8 (Balanced)
-**Custodial Connection:** The Curator Arcanum - Keepers of Knowledge and Humility
+**Custodial Connection:** The Curator Arcanum — Keepers of Knowledge and Humility
 **Role:** Knowledge Weaponizer, Pattern Identifier, Inevitability Architect
 
 ### Class Identity
 
 Scholars do not merely know things—they understand *patterns*, and patterns reveal inevitability. Connected to the **Curator Arcanum**, they see the hidden structures that govern behavior, predict outcomes before they unfold, and weaponize information itself. They are not magic users who studied—they are knowledge wielders who learned that understanding something completely is the first step to controlling it.
 
-**The Curator Arcanum teach that knowledge without humility ends the world.** But the Curator's students interpret this differently. Some use knowledge to guide and preserve. Others use it to manipulate and control. The alchemist who poisons kings, the bard whose songs topple empires, the artificer whose creations rewrite warfare, the advisor who whispers in the tyrant's ear—all are Scholars when they understand that knowing *why* something works means you control *what* it does.
-
 **Core Fantasy:**
-You see patterns others miss. In combat, you identify weaknesses before striking. In conversation, you understand motivation before it's spoken. In creation, you build what others think impossible. You are fragile like a Weaver, but your power isn't reshaping reality—it's understanding reality so completely that you make the inevitable happen. You don't force outcomes. You architect them.
+You see patterns others miss. In combat, you identify weaknesses before striking. In conversation, you understand motivation before it's spoken. In creation, you build what others think impossible. You don't force outcomes. You architect them.
 
-**Unique Strengths:**
-- **Pattern Recognition:** Identify weaknesses, predict actions, reveal hidden truths
-- **Knowledge as Weapon:** Grant advantages, impose disadvantages through pure information
-- **Crafting Mastery:** Create items, potions, tools that augment capabilities
-- **Social Dominance:** Understand and manipulate motivation, predict behavior
-- **Limited Spellcasting:** Focused magic representing applied knowledge
-- **All-Tier Access:** Abilities spanning Basic through Expert tiers (Legendary at higher levels)
+### Progression Table
 
-### Class Abilities
+| Level | Prof | Body HD | Resolve | Core Milestone | Way |
+|-------|------|---------|---------|----------------|-----|
+| 1 | 1 | 5d8 | 5 | Pattern Reader | — |
+| 2 | 1 | 7d8 | 5 | Applied Knowledge | Row 1 |
+| 3 | 2 | 8d8 | 5 | Inevitable Outcome | — |
+| 4 | 2 | 10d8 | 5 | Multi-Analysis | Row 2 |
+| 5 | 3 | 12d8 | 5 | Architect of Inevitability | — |
+| 6 | 3 | 13d8 | 5 | Predictive Defense | Row 3 |
+| 7 | 4 | 15d8 | 5 | Grand Architect | — |
+| 8 | 4 | 17d8 | 5 | Instant Analysis | Row 4 |
+| 9 | 5 | 18d8 | 5 | Inevitable Architect | — |
+| 10 | 5 | 20d8 | 5 | Omniscient Architect | Row 5 |
 
-*Gained at odd levels: 1, 3, 5, 7, 9*
+### Core Abilities
 
 **Level 1: Pattern Reader**
 
 **Starting Resources:**
-- Hit Dice: 5d8
-- Resolve: 5
-- Armor Proficiency: Light
-- Weapon Proficiency: All weapons
-- Prepared Spells: 2 (Proficiency + 1)
+- **Hit Dice (Body):** 5d8 — *5 individual d8 dice*
+- **Resolve:** 5 — *5 individual d6 dice for checks*
+- **Proficiency:** 1 *(Level 1-2)*
+- **Defense Capacity:** 1 *(= Proficiency)*
+- **Armor Proficiency:** Light (2d6)
+- **Weapon Proficiency:** All weapons
+- **Prepared Spells:** Proficiency + 1
 
 **Precise Strike** (Basic, 2+)
-- All weapon attacks are Basic (2+) tier
-- Required successes: 1-2 depending on weapon
-- When attacking a target you've studied (used Analyze on, or observed for 1 round), add +1 HD damage
-- You don't fight with strength—you fight with precision guided by knowledge
+- Weapon attacks are Basic (2+)
+- Against analyzed targets or targets observed for 1 round: +1 HD damage
 
 **Analyze** (Advanced, 3+)
-- As an action, study one creature or object you can see within 60 yards
 - Required: 2 successes
-- Duration: Until you analyze another target
-- Choose ONE mode when analyzing:
-  - **Diagnostic Mode:** Reveals full information (Current HD exact amount and max, Proficiency level, all active effects/conditions, defense die type, current Resolve, class if applicable). Grants NO mechanical benefits.
-  - **Tactical Lock Mode:** Reveals NO information. Grants mechanical benefits: Allies who can hear you gain +1d6 when targeting analyzed creature (doesn't burn HD on 1s), analyzed creature has disadvantage (-1d6) on all actions targeting you, analyzed creature's defense dice reduced by 1 (minimum 0).
-- **Design Note:** Split into two modes—knowledge OR exploitation, not both. Forces tactical choice: understand the enemy completely OR weaponize what you know. Prevents omniscience + battlefield supremacy at Level 1.
-- Usable at will (only one analyzed target at a time)
-- "Once I understand you, you've already lost"
+- 60 yards, one creature or object; lasts until you analyze another
+- Choose ONE mode:
+  - **Diagnostic:** Full info (exact HD, Prof, active effects, defense type, Resolve, class). No mechanical bonus.
+  - **Tactical Lock:** No info. Allies +1d6 vs target (doesn't burn HD), target -1d6 vs you, target defense dice reduced by 1 (min 0).
 
 **Polymathic Mind** (Passive)
-- You automatically succeed on all Basic tier Lore checks without rolling
-- Advanced tier Lore checks require 1 less success (minimum 1)
-- You have advantage (gain +1d6) on all rolls to:
-  - Identify magic items, spells, rituals, or magical effects
-  - Recall information about history, religion, planes, or arcana
-  - Understand languages, decipher codes, or read ancient texts
-- This bonus die follows proficiency dice rules (doesn't burn HD on 1s)
-- "Knowledge is not power. Application of knowledge is power."
+- Auto-succeed Basic Lore checks. Advanced Lore checks need 1 less success (min 1).
+- Advantage (+1d6, doesn't burn HD) on: identify magic, recall knowledge, decipher codes/languages
 
 **Limited Spellcasting** (Passive)
-- You can learn and prepare spells, representing formulas and theories made manifest
-- **Known Spells:** Proficiency × 3 (Arcane domain)
-- **Prepared Spells:** Proficiency + 1 (can change during long rest)
-- **Ritual Casting:** Can ritual cast any Arcane spell, even if not known
-- You cannot cast Ultimate tier spells
-- Your magic is theoretical knowledge applied—formulaic, not intuitive
+- Known Spells: Proficiency × 3 (Arcane domain)
+- Prepared Spells: Proficiency + 1
+- Ritual Casting: Any Arcane spell, even if not known
+- Cannot cast Ultimate tier
+
+---
+
+**Level 2: Applied Knowledge**
++1d6 to crafting and investigation skill checks. **Way Node.**
+
+---
 
 **Level 3: Inevitable Outcome**
 
 **Expose Weakness** (Expert, 4+)
-- When you have an analyzed target, call out their critical vulnerability
 - Required: 3 successes
-- Range: 60 yards (you and allies who can hear you)
-- Effect: Next attack against target by any ally:
-  - Rolls with advantage (+2d6)
-  - Target may defend normally
-  - If attack succeeds, counts as 2 additional successes beyond what was rolled (increases damage scaling)
-- **Design Note:** Changed from double damage + no defense to bonus successes + defense allowed. Respects core defense engine while still rewarding knowledge exploitation. Prevents 2-3 HD attacks becoming 6-8 HD boss erasers at Level 3.
-- After one attack triggers this effect, target becomes immune to Expose Weakness for rest of encounter
+- 60 yards; next attack vs analyzed target by any ally rolls +2d6 and counts as 2 extra successes
+- Target may defend normally
+- One trigger per encounter per target
 - Usable once per short rest
-- "I've identified the pattern. Now we exploit it."
 
 **Tactical Projection** (Advanced, 3+)
-- As an action, engineer a tactical advantage against one enemy
 - Required: 2 successes
-- Choose one enemy you can see within 60 yards
-- Duration: Proficiency rounds
-- Effect:
-  - You and allies gain +1d6 to defense rolls against that enemy (doesn't burn HD on 1s)
-  - That enemy has disadvantage (-1d6) on all actions
-  - When that enemy acts, you may immediately grant one ally: Move up to 10 yards OR +2d6 to their next roll
+- 60 yards, one enemy, Proficiency rounds
+- You and allies +1d6 defense vs that enemy (doesn't burn HD)
+- That enemy -1d6 to all actions
+- When enemy acts, grant one ally 10 yards movement OR +2d6 to next roll
 - Usable Proficiency times per short rest
-- "I don't predict patterns. I account for them."
+
+---
+
+**Level 4: Multi-Analysis**
+Analyze can target 2 creatures simultaneously. **Way Node.**
+
+---
 
 **Level 5: Architect of Inevitability**
 
 **Systemic Advantage** (Expert, 4+)
-- Engineer a cascading advantage chain
 - Required: 4 successes
-- Duration: Proficiency rounds
-- Choose one ally as the **Advantage Node**
-- Effect:
-  - Advantage Node gains +2d6 to all actions during duration (these dice burn HD on 1s normally)
-  - Each time Advantage Node succeeds on an action, choose one benefit:
-    - Another ally gains +1d6 to their next action this round (doesn't burn HD)
-    - One enemy has disadvantage (-1d6) on their next action
-    - One ally restores 1 Resolve
-- **Design Note:** Reduced from +3d6 (no burn) to +2d6 (normal burn), cascade benefits reduced to +1d6/-1d6. Prevents exponential snowball while maintaining strong sustained advantage. Cascade Collapse drawback ensures meaningful risk.
-- **Cascade Collapse:** If Advantage Node drops to 0 HD during effect, it ends immediately and you lose all Resolve
+- Prof rounds; choose one ally as Advantage Node
+- Node gains +2d6 to all actions (burn HD on 1s normally)
+- Each Node success: choose one — ally +1d6, enemy -1d6, or ally restores 1 Resolve
+- Cascade Collapse: if Node drops to 0 HD, effect ends and you lose all Resolve
 - Usable once per long rest
-- "Inevitability through sequential advantage."
 
 **Systemic Collapse** (Expert, 4+)
-- Identify the critical failure point in an enemy, object, or effect
 - Required: 4 successes
-- Target: One creature, object, or ongoing magical effect within 60 yards
-- Effect (choose one):
-  - **Creature:** Target immediately makes a Resolve check. On failure, they lose 1 Resolve.
-  - **Object/Structure:** It suffers catastrophic failure (bridge collapses, door shatters, wall crumbles, weapon breaks).
-  - **Magical Effect:** Ongoing spell or magical effect immediately ends (doesn't work on Ultimate tier spells).
+- 60 yards, one target (creature, object, or magical effect)
+- Creature: immediate Resolve check, fail = lose 1 Resolve
+- Object: catastrophic structural failure
+- Magical Effect: immediately ends (doesn't work on Ultimate tier)
 - Usable once per long rest
-- "Everything has a breaking point. I found yours."
+
+---
+
+**Level 6: Predictive Defense**
+Gain +1d6 to defense against analyzed targets. **Way Node.**
+
+---
+
+**Level 7: Grand Architect**
+
+**Systemic Revelation** (Legendary, 5+)
+- Required: 4 successes
+- 60 yards, all creatures within
+- All enemies' HD, Resolve, abilities, weaknesses revealed to all allies
+- For Prof rounds, allies gain +2d6 vs revealed enemies
+- Usable once per long rest
+
+**Master Craftsman** (Passive)
+- Create Advanced-tier items during long rests. Crafting time halved.
+
+---
+
+**Level 8: Instant Analysis**
+Analyze is now a free action (still requires roll). **Way Node.**
+
+---
+
+**Level 9: Inevitable Architect**
+
+**Grand Design** (Legendary, 5+)
+- Required: 5 successes
+- Prof rounds: Expose Weakness usable once per round, Tactical Projection affects ALL enemies, once during duration declare one enemy action fails automatically
+- Cost: 2 Resolve
+- Usable once per long rest
+
+**Peerless Knowledge** (Passive)
+- Auto-succeed Expert Lore checks. Analyze targets: Prof simultaneous.
+
+---
+
+**Level 10: Omniscient Architect**
+
+**Grand Unified Theory** (Passive Capstone)
+- Once per long rest, for 1 round, choose the result of any single die roll (yours, ally, or enemy)
+- Analyze mode restriction removed (Diagnostic AND Tactical Lock simultaneously on all visible creatures)
+
+**Way Node.**
+
+---
+
+### Ways of the Curator Arcanum
+
+**Grid Structure (Ring):**
+```
+Moments ←→ Thresholds ←→ Unleashed Force ←→ Mutable Flesh ←→ Open Doors ←→ Veiled Sight ←→ (Moments)
+```
+
+#### Way of Moments
+*Temporal analysis, prediction, causality mastery*
+*Adjacent: Veiled Sight, Thresholds*
+
+**Row 1: Perfect Timing** — Once per round, when ally is about to roll, grant +1d6 (doesn't burn HD). Precise temporal advice.
+
+**Row 2: Temporal Analysis** — Analyze (Diagnostic) now reveals target's likely next action (GM provides one-word hint).
+
+**Row 3: Delayed Consequence** — Once per short rest, delay an enemy's damage by 1 round (hits next turn start instead of now).
+
+**Row 4: Causality Manipulation** — Once per short rest, after any die roll, declare it didn't happen and re-roll.
+
+**Row 5: Master of Moments** *(Legendary, 5+)* — Once per long rest, freeze time for 1 round. You + Prof allies take full turns while all others are frozen.
+
+#### Way of Thresholds
+*Medical knowledge, vital/lethal analysis*
+*Adjacent: Moments, Unleashed Force*
+
+**Row 1: Field Medic** — Analyze reveals exact medical needs. Healer's Kit restores +Prof HD.
+
+**Row 2: Pressure Points** — Precise Strike vs analyzed target: deal -1 HD but impose condition (slowed, -1d6 actions, or -1d6 defense) for Prof rounds.
+
+**Row 3: Critical Insight** — Once per short rest, when ally drops to half HD, free-action Analyze the damage source and grant ally +Prof HD healing.
+
+**Row 4: Lethal Knowledge** — Expose Weakness adds +Prof bonus successes instead of +2 against analyzed targets.
+
+**Row 5: Master Physician** *(Legendary, 5+)* — Once per long rest, touch target: (A) Stabilize dying + restore to half HD, (B) Remove any condition/curse/disease, or (C) Restore all lost Resolve. Costs 1 Resolve per use.
+
+#### Way of Unleashed Force
+*Physics weaponized, structural analysis*
+*Adjacent: Thresholds, Mutable Flesh*
+
+**Row 1: Structural Analysis** — Analyze on objects/constructs reveals weak point. Attacks deal +Prof HD.
+
+**Row 2: Force Calculation** — Curator's Bolt deals +1 HD and range extends to 60 yards vs analyzed targets.
+
+**Row 3: Siege Mind** — Once per short rest, identify structural weakness. Next attack on that structure auto-succeeds and deals maximum damage.
+
+**Row 4: Applied Physics** — Once per short rest, 15-yard area: reverse gravity 1 round, shockwave Prof HD to all, or force barrier (Prof HD to break).
+
+**Row 5: Unified Force Theory** *(Legendary, 5+)* — Once per long rest, 60-yard radius for Prof rounds: redirect any ranged attack to target of choice, doubled forced movement, allies +Prof HD force damage.
+
+#### Way of Mutable Flesh
+*Alchemy, potion-craft, body knowledge*
+*Adjacent: Unleashed Force, Open Doors*
+
+**Row 1: Alchemist's Craft** — During long rest, create Prof Common/Basic potions (no gold cost). Expire in 24 hours.
+
+**Row 2: Toxicologist** — Craft poisons (apply to weapons): Fortitude check or -1d6 all actions for Prof rounds. Craft antidotes for any non-magical poison.
+
+**Row 3: Adaptive Elixir** — Once per short rest, create elixir: +2d6 Fortitude, +2d6 Agility, or element resistance — each for 1 hour.
+
+**Row 4: Master Alchemist** — Potions enhanced: healing +Prof HD, combat elixirs last double. Create Advanced potions during long rest.
+
+**Row 5: Philosopher's Stone** *(Legendary, 5+)* — Once per long rest, Prof rounds: transmute objects (lead to gold, etc.), potions have double effect, brew one Legendary potion lasting 24 hours.
+
+#### Way of Open Doors
+*Dimensional theory, planar knowledge*
+*Adjacent: Mutable Flesh, Veiled Sight*
+
+**Row 1: Planar Scholar** — Identify planar influences and portal traces on sight. Analyze works on planar entities, reveals origin realm.
+
+**Row 2: Dimensional Pocket** — Once per short rest, create 5-yard extradimensional cube. Objects preserved and weightless. Lasts until next long rest.
+
+**Row 3: Summoning Theory** — Once per short rest, when enemy summons/opens portal, contest (your Prof vs theirs). Success = summoning fails or portal destabilizes.
+
+**Row 4: Planar Anchor** — Once per short rest, 30-yard radius for Prof rounds: teleportation, summoning, and planar travel impossible within. Existing portals suppressed.
+
+**Row 5: Breach Architect** *(Legendary, 5+)* — Once per long rest, open stable portal to any studied plane. Prof rounds. You + Prof allies may pass. You control what passes in either direction.
+
+#### Way of Veiled Sight
+*Information mastery, hidden knowledge*
+*Adjacent: Open Doors, Moments*
+
+**Row 1: Quick Study** — Analyze requires only 1 success instead of 2 (still Advanced tier).
+
+**Row 2: Pattern Memory** — Retain Diagnostic info permanently. Multi-target limit: Prof targets remembered simultaneously.
+
+**Row 3: Predictive Model** — Once per short rest, predict outcome of a plan. GM provides one-word: success, failure, danger, or uncertainty.
+
+**Row 4: Hidden Truth** — Once per long rest, ask GM one truthful question about current scenario (one sentence answer).
+
+**Row 5: Omniscience** *(Legendary, 5+)* — Once per long rest, Prof rounds: know location/condition of all creatures within 1 mile, all hidden objects/traps within 100 yards, Prof truthful answers about current scenario, and precise intention of every visible creature.
 
 ---
 
 ## Weaver
 
 *Weaver is the master of the Arcane, the beings most tapped into reading and using the weave around us all*
-*Paths will reflect areas of the Curator Arcanum*
-*All Weavers can cast spells*
+*All Weavers can cast spells from any domain*
 *They can cast basic spells with greater ease than other classes*
-*They are the only ones capable of casting the most legendary spells (other classes have legendary abilities)*
+*They are the only ones capable of casting Ultimate tier spells*
 
 **Hit Die:** d6 (Fragile)
-**Custodial Connection:** The Curator Arcanum - Keepers of the Weave
+**Custodial Connection:** The Curator Arcanum — Keepers of the Weave
 **Role:** Reality Reader, Spell Sovereign
 
 ### Class Identity
 
 Weavers are those rare souls who can perceive and manipulate the Weave—the fundamental fabric connecting all reality. Connected to the **Curator Arcanum**, they do not merely cast spells; they read the threads of existence and pull them to reshape what is into what could be. While physically vulnerable, their understanding of reality's underlying patterns grants them unmatched versatility in magical expression.
 
-**The Curator Arcanum teach restraint through understanding.** But not all Weavers heed this teaching. Some pursue forbidden knowledge despite the warnings. Some serve Velkir's whispered shortcuts. Some walk the Curator's path. Some defy it. All share the same gift: the ability to read reality's code.
-
 **Core Fantasy:**
-You see the code of reality. While others stumble in darkness, you read the threads that bind existence. Every spell is an act of cosmic literacy. You are frail, but reality itself bends when you will it. Whether you use this gift with humility or hubris—that is your choice.
+You see the code of reality. While others stumble in darkness, you read the threads that bind existence. Every spell is an act of cosmic literacy. You are frail, but reality itself bends when you will it.
 
-**Unique Strengths:**
-- **Spell Supremacy:** Can cast spells of any tier (Common → Arcanist → Ultimate)
-- **Effortless Basics:** Basic tier spells require 1 less exertion die (minimum 0)
-- **Ultimate Authority:** ONLY Weavers can cast Ultimate (6 only) tier spells
-- **Arcane Flexibility:** Swap known spells during long rests
-- **All-Tier Access:** Abilities spanning Basic through Ultimate tiers
+### Progression Table
 
-### Class Abilities
+| Level | Prof | Body HD | Resolve | Core Milestone | Way |
+|-------|------|---------|---------|----------------|-----|
+| 1 | 1 | 4d6 | 5 | Weave Reader | — |
+| 2 | 1 | 5d6 | 5 | Efficient Advanced | Row 1 |
+| 3 | 2 | 6d6 | 5 | Pattern Mastery | — |
+| 4 | 2 | 8d6 | 5 | Greater Recovery | Row 2 |
+| 5 | 3 | 9d6 | 5 | Thread Master | — |
+| 6 | 3 | 11d6 | 5 | Reality Anchor | Row 3 |
+| 7 | 4 | 12d6 | 5 | Reality Architect | — |
+| 8 | 4 | 14d6 | 5 | Efficient Expert | Row 4 |
+| 9 | 5 | 15d6 | 5 | Weave Ascendant | — |
+| 10 | 5 | 17d6 | 5 | Sovereign of the Weave | Row 5 |
 
-*Gained at odd levels: 1, 3, 5, 7, 9*
+### Core Abilities
 
 **Level 1: Weave Reader**
 
 **Starting Resources:**
-- Hit Dice: 4d6
-- Resolve: 5
+- **Hit Dice (Body):** 4d6 — *4 individual d6 dice (Fragile)*
+- **Resolve:** 5 — *5 individual d6 dice for checks*
+- **Proficiency:** 1 *(Level 1-2)*
+- **Defense Capacity:** 1 *(= Proficiency)*
+- **Armor Proficiency:** None (unarmored)
+- **Weapon Proficiency:** Simple weapons only
 
 **Spell Learning & Preparation:**
-- **Known Spells:** Proficiency × 5 (can learn from ANY domain: Arcane, Divine, or Primal)
-- **Prepared Spells:** 3 + Level (can be cast at moment's notice)
-- **Arcane Flexibility:** Swap prepared spells during long rests
-- **Ritual Casting:** Can ritual cast any spell from any domain, even if not known
-- Change prepared spells during long rest
-- Attempting spells beyond your capability risks HD through exertion mechanics
-
-*A level 1 Weaver could theoretically attempt to cast Power Word Kill. With only Proficiency 1 and needing 4 successes with only 6s counting (Ultimate tier), they would need massive exertion and face near-certain HD burn from rolling 1s. The system self-regulates.*
+- Known Spells: Proficiency × 5 (any domain: Arcane, Divine, Primal)
+- Prepared Spells: 3 + Level
+- Ritual Casting: Any spell from any domain, even if not known
+- Arcane Flexibility: Swap prepared spells during long rests
 
 **Weave Sight** (Basic, 2+)
-- As an action, read the threads of reality
 - Required: 1 success
-- Range: 10 yards per success rolled
-- Duration: Proficiency rounds
-- You perceive:
-  - All magical auras and active spells
-  - Magic items and enchanted objects (glow with Weave-light)
-  - Weave disturbances (recently cast spells, wild magic zones)
-  - Planar boundaries and thin places between realms
+- 10 yards per success, Proficiency rounds
+- Perceive: magical auras, active spells, magic items, Weave disturbances, planar boundaries
 - Usable at will
-- "The Weave is always visible to those trained to see it"
 
 **Thread Literacy** (Passive)
 - Basic tier spells require 1 less exertion die (minimum 0)
-- You can cast Basic tier spells using only Proficiency dice if you choose
-- This represents your natural ease reading simple patterns in the Weave
-- "The Weave's fundamental structures are obvious to me"
+- Can cast Basic spells using only Proficiency dice
 
 **Arcane Recovery** (Passive)
-- During each short rest, you may swap Proficiency prepared spells
-- This represents rapid Weave re-attunement
-- "The Weave shifts. So do my preparations."
+- During short rest, swap Proficiency prepared spells
+
+---
+
+**Level 2: Efficient Advanced**
+Advanced tier spells require 1 less exertion die (minimum 0). **Way Node.**
+
+---
 
 **Level 3: Pattern Mastery**
 
 **Weave Unraveling** (Advanced, 3+)
-- As a reaction when an enemy casts a spell within 60 yards, attempt to counterspell
-- Required: 2 successes (must equal or beat enemy's original successes)
-- If successful: Their spell fails and has no effect
-- Range: 60 yards
+- Reaction: when enemy casts spell within 60 yards, counterspell
+- Required: match or beat enemy's successes
 - Usable Proficiency times per short rest
 
 **Reality Distortion** (Expert, 4+)
-- Manipulate local Weave patterns to create environmental effect
 - Required: 3 successes
-- Range: 30-yard radius centered on a point within 60 yards
-- Duration: Proficiency rounds
-- Choose ONE effect:
-  - **Gravity Shift:** Alter gravity direction in zone (creatures fall sideways, upward, or normally). Difficult terrain for those not adapted.
-  - **Friction Null:** Make all surfaces frictionless OR adhesive (your choice). Movement becomes Advanced (3+) check or fall prone/stick in place.
-  - **Temperature Extreme:** Shift temperature to extreme cold or heat. Creatures take 1 HD damage per round, have disadvantage (-1d6) on actions.
-  - **Light Warp:** Bend light and sound. Zone becomes heavily obscured and silent to outsiders; you see/hear normally.
-  - **Time Dilation:** Slow or accelerate time in zone by 20% (affects movement speeds, duration countdown).
-- Not direct damage—reality manipulation creates tactical advantage
+- 30-yard radius on point within 60 yards, Proficiency rounds
+- Choose ONE: Gravity Shift, Friction Null, Temperature Extreme (1 HD/round + -1d6), Light Warp (obscured + silent), Time Dilation (20% speed change)
 - Usable once per short rest
+
+---
+
+**Level 4: Greater Recovery**
+During short rest, swap Prof × 2 prepared spells (up from Prof). **Way Node.**
+
+---
 
 **Level 5: Thread Master**
 
 **Arcane Supremacy** (Expert, 4+)
-- Briefly assert complete dominance over reality's patterns
 - Required: 4 successes
-- Duration: Proficiency rounds
-- Gain ALL benefits (you may use each once per round):
-  - **Fate Manipulation:** Reroll one die (yours, ally's, or enemy's) before result declared
-  - **Efficient Weaving:** Reduce one spell's exertion minimum by 2 (minimum 0) 
-  - **Time Extension:** Extend one active spell's duration by 1 round
+- Prof rounds; each round choose ONE (usable once per round):
+  - Fate Manipulation: Reroll one die (any creature's) before result declared
+  - Efficient Weaving: Reduce one spell's exertion minimum by 2 (min 0)
+  - Time Extension: Extend one active spell's duration by 1 round
 - Usable once per long rest
-- "For a brief moment, I AM the Weave"
+
+**Weave Shield** (Expert, 4+)
+- Required: 3 successes
+- Reaction: when you or ally within 30 yards takes damage, weave protective barrier
+- Reduce incoming damage by Prof × 2 HD (Weave absorbs it)
+- If damage is magical in origin, reduce by Prof × 3 HD instead
+- Usable Proficiency times per short rest
+
+---
+
+**Level 6: Reality Anchor**
+Advantage (+1d6) on concentration checks. **Way Node.**
+
+---
+
+**Level 7: Reality Architect**
+
+**Weave Mastery** (Legendary, 5+)
+- Required: 4 successes
+- Prof rounds: all spells cost 1 less exertion (min 0). Cast two spells per turn (second must be Advanced or lower).
+- Usable once per long rest
+
+**Spell Immunity** (Legendary, 5+)
+- Required: 4 successes
+- Prof rounds: immune to all magic from creatures with lower Proficiency. Spells unravel on contact.
+- Usable once per long rest
+
+---
+
+**Level 8: Efficient Expert**
+Expert tier spells require 1 less exertion die (minimum 0). **Way Node.**
+
+---
+
+**Level 9: Weave Ascendant**
+
+**Ultimate Authority** (Passive)
+- When casting Ultimate spells, add Prof bonus dice (don't burn HD on 1s — the Weave recognizes your mastery)
+
+**Reality Rewrite** (Legendary, 5+)
+- Required: 5 successes
+- Rewrite one fundamental rule within 30 yards for Prof rounds ("gravity reverses," "fire heals," "sound deals damage")
+- Cost: 3 Resolve
+- Usable once per long rest
+
+---
+
+**Level 10: Sovereign of the Weave**
+
+**Thread Sovereign** (Passive Capstone)
+- Maintain TWO concentration spells simultaneously
+- Basic and Advanced spells cast without exertion
+- Once per long rest, cast any spell as if you rolled maximum successes
+
+**Way Node.**
+
+---
+
+### Ways of the Curator Arcanum
+
+**Grid Structure (Ring):**
+```
+Moments ←→ Thresholds ←→ Unleashed Force ←→ Mutable Flesh ←→ Open Doors ←→ Veiled Sight ←→ (Moments)
+```
+
+#### Way of Moments
+*Time magic, temporal manipulation*
+*Adjacent: Veiled Sight, Thresholds*
+
+**Row 1: Temporal Awareness** — Sense recent magical disturbances in the Weave's timeline (spells cast nearby in last hour). +1d6 initiative.
+
+**Row 2: Haste Weave** — Once per short rest, accelerate one willing creature within 30 yards for Prof rounds: +10 yards movement and +1d6 all actions (doesn't burn HD).
+
+**Row 3: Slow Field** — Once per short rest, 15-yard zone for Prof rounds: enemies' action thresholds increase by 1 (Basic→Advanced, Advanced→Expert, etc.).
+
+**Row 4: Temporal Rewind** — Once per long rest, after any action resolves, rewind it. Action undone and replayed (new rolls). Only you remember the original.
+
+**Row 5: Time Sovereign** *(Legendary, 5+)* — Once per long rest, take two full turns this round. All your spell durations doubled for rest of encounter.
+
+#### Way of Thresholds
+*Boundary magic, life/death spells*
+*Adjacent: Moments, Unleashed Force*
+
+**Row 1: Death Ward** — Once per long rest, ward one creature. Next time they'd drop to 0 HD, drop to 1 instead. Lasts until triggered or next long rest.
+
+**Row 2: Boundary Sense** — Perceive exact HD and Resolve of any observed creature without Analyzing.
+
+**Row 3: Soul Tether** — Once per short rest, tether dying ally for Prof rounds: death suspended (0 HD, no Resolve checks). Must heal before tether expires or they die.
+
+**Row 4: Resurrect** — Once per long rest, bring back creature dead within 1 minute. Return at 1 HD, 1 Resolve. Cost: 3 Resolve, 5 HD.
+
+**Row 5: Master of Thresholds** *(Legendary, 5+)* — Once per long rest, for 1 round: no creature within 60 yards can die (held at 1 HD). Transfer HD between any creatures within range (contest for unwilling). Release chosen creatures across the threshold (instant death, 1 Resolve cost each).
+
+#### Way of Unleashed Force
+*Evocation mastery, raw magical power*
+*Adjacent: Thresholds, Mutable Flesh*
+
+**Row 1: Empowered Cantrips** — Basic tier damage spells deal +1 HD.
+
+**Row 2: Force Amplification** — Damage spells: add +Prof exertion beyond budget (these DO burn HD). Raw power, raw cost.
+
+**Row 3: Spell Shaping** — Area spells: exclude up to Prof creatures from effect.
+
+**Row 4: Overcharge** — Once per short rest, double one spell's damage this turn. Take Prof HD backlash.
+
+**Row 5: Arcane Apocalypse** *(Legendary, 5+)* — Once per long rest, 60-yard radius: Prof × 4 HD force damage to all enemies (each defends). Weave scarred — no magic in area for 1 hour (including yours).
+
+#### Way of Mutable Flesh
+*Transmutation, shapeshifting*
+*Adjacent: Unleashed Force, Open Doors*
+
+**Row 1: Minor Transmutation** — Alter physical properties of one small object (1 cubic foot) for 1 hour. Utility only.
+
+**Row 2: Alter Self** — Once per short rest, transform appearance for Prof hours. Size ±1, features, voice, race. Perfect disguise, no mechanical benefit.
+
+**Row 3: Polymorph** — Once per short rest, transform willing creature within 30 yards into beast (Prof × 3 HD, Prof HD attacks). Prof rounds. Can't cast spells. At 0 beast HD, revert.
+
+**Row 4: Flesh Sculptor** — Once per long rest, permanently alter one physical trait of willing creature. +1d6 to one physical skill permanently.
+
+**Row 5: True Transmutation** *(Legendary, 5+)* — Once per long rest, transform any creature within 30 yards into any other for Prof × 2 rounds (unwilling contest at -3d6). Gains ALL new form attributes. Revert at 0 HD with 1 HD remaining. Also: permanently transmute nonliving matter (10-yard cube).
+
+#### Way of Open Doors
+*Conjuration, summoning, portals*
+*Adjacent: Mutable Flesh, Veiled Sight*
+
+**Row 1: Minor Summon** — Once per short rest, summon minor servant (small, Prof HD, simple tasks, Prof hours). Cannot fight effectively.
+
+**Row 2: Gateway** — Once per short rest, linked portal pair within 60 yards (line of sight). Creatures pass through. Prof rounds.
+
+**Row 3: Summon Combatant** — Once per short rest, summon combat entity (medium, Prof × 3 HD, Prof HD damage, your turn/action to direct). Prof rounds.
+
+**Row 4: Planar Reach** — Summons gain +Prof HD and +1d6 all actions. Portals connect to previously visited locations (no line of sight, same plane).
+
+**Row 5: Grand Summoning** *(Legendary, 5+)* — Once per long rest, summon powerful entity (large, Prof × 5 HD, Prof × 2 HD damage, one Legendary ability). Acts independently in your interest for Prof rounds.
+
+#### Way of Veiled Sight
+*Divination, illusion, scrying*
+*Adjacent: Open Doors, Moments*
+
+**Row 1: Third Eye** — Weave Sight duration becomes permanent while active. See invisible creatures and magical concealment.
+
+**Row 2: Major Illusion** — Once per short rest, complex illusion (30-yard cube, sight/sound/smell). Contest (Prof dice) to disbelieve. Prof × 10 minutes.
+
+**Row 3: Scrying** — Once per long rest, observe any known creature/location for Prof minutes. See and hear as if present. Target may contest to sense observation.
+
+**Row 4: Mirage** — Once per short rest, phantasmal terrain (60-yard radius, all senses). Prof hours. Contest to disbelieve.
+
+**Row 5: True Seeing** *(Legendary, 5+)* — Permanent: see through illusions, disguises, shapeshifting, invisibility, concealment. Once per long rest, extend to allies within 30 yards for Prof rounds; observed creatures' true names, intentions, and secrets revealed.
 
 ---
 
@@ -689,146 +1423,285 @@ You see the code of reality. While others stumble in darkness, you read the thre
 
 *Shaman are the embodiment of the Spirit expressed... they manifest, they commune with the accords. Where Rangers embody the wilds and the tangible terrain... Shamans embody "what is beyond"*
 *Life and Death, Stone and Air, Fire and Water, Mortal and spirit, Self and Affinity; Shaman communes with consequence*
-*Paths will reflect areas of the communing with the spirits, with great powers, with reality and with what lies beyond reality, most Shamans are tied to The Living Accords, but any Custodial Power from any plane can bring about Shamans*
-*All Shamans can use Light Armor and all Weaponry, though no mastery like the Combatants. They can all cast some level of spells, though less than the Weaver.*
-*They have total understanding of the spirit, of the liminal spaces, of what is beyond and between what others perceive. They don't control the natural world, they wield it by communing with what lies beyond it.*
-*They all have the ability to commune, to see beyond, to become a drop in a flowing river, to step past what others can*
+*Most Shamans are tied to The Living Accords, but any Custodial Power from any plane can bring about Shamans*
+*They have total understanding of the spirit, of the liminal spaces, of what is beyond and between what others perceive*
 *They are not just an Elemental blaster, not just another Healer, not Just "nature magic"*
 
 **Hit Die:** d6 (Fragile)
-**Custodial Connection:** The Living Accord - Walkers Between Life and Death
+**Custodial Connection:** The Living Accord — Walkers Between Life and Death
 **Role:** Spirit Communer, Threshold Walker, Liminal Channeler
 
 ### Class Identity
 
 Shamans do not master the physical world like Rangers—they commune with what lies *beyond* it. They walk the thresholds between life and death, self and other, stone and spirit. Connected to the **Living Accord**, they understand that reality has two faces: the tangible world others see, and the spirit realm that underlies it. Where Rangers weaponize terrain, Shamans bridge worlds. Where Priests channel greater will, Shamans *merge* with it.
 
-**The Living Accord recognizes those who exist between.** The death-speaker who carries ancestor voices, the storm-caller who becomes the wind, the flesh-shaper who blurs the line between beast and mortal, the threshold-keeper who guards the passages between realms—all are Shamans when they learn to stand with one foot in each world. They do not command spirits. They *invite them in*.
-
 **Core Fantasy:**
-You exist between states. While others are fully here or fully there, you walk both worlds. You don't cast elemental magic—you commune with elemental spirits and they answer. You don't heal mechanically—you balance life and death in the moment. You don't transform mystically—something *else* rides you, speaks through you, acts with your hands. The price is never being fully yourself. The power is never being *only* yourself.
+You exist between states. While others are fully here or fully there, you walk both worlds. You don't cast elemental magic—you commune with elemental spirits and they answer. You don't heal mechanically—you balance life and death in the moment. The price is never being fully yourself. The power is never being *only* yourself.
 
-**Unique Strengths:**
-- **Spirit Communion:** Invite spirits to manifest through you or alongside you
-- **Threshold Sight:** See and navigate liminal spaces others cannot perceive
-- **Duality Embodiment:** Hold contradictions—life and death, flesh and spirit, self and other
-- **Guided Strikes:** Spirits direct your hand in combat (competent warrior, not master)
-- **Limited Spellcasting:** Magic as conversation with spiritual forces
-- **All-Tier Access:** Abilities spanning Basic through Expert tiers (Legendary at higher levels)
+### Progression Table
 
-### Class Abilities
+| Level | Prof | Body HD | Resolve | Core Milestone | Way |
+|-------|------|---------|---------|----------------|-----|
+| 1 | 1 | 4d6 | 5 | Threshold Walker | — |
+| 2 | 1 | 5d6 | 5 | Extended Communion | Row 1 |
+| 3 | 2 | 6d6 | 5 | Spirit Manifestation | — |
+| 4 | 2 | 8d6 | 5 | Dual Communion | Row 2 |
+| 5 | 3 | 9d6 | 5 | Walker Between Worlds | — |
+| 6 | 3 | 11d6 | 5 | Spirit Defense | Row 3 |
+| 7 | 4 | 12d6 | 5 | Great Spirit | — |
+| 8 | 4 | 14d6 | 5 | Spirit Fortification | Row 4 |
+| 9 | 5 | 15d6 | 5 | Accord Incarnate | — |
+| 10 | 5 | 17d6 | 5 | One with All | Row 5 |
 
-*Gained at odd levels: 1, 3, 5, 7, 9*
+### Core Abilities
 
 **Level 1: Threshold Walker**
 
 **Starting Resources:**
-- Hit Dice: 4d6
-- Resolve: 5
-- Armor Proficiency: Light
-- Weapon Proficiency: All weapons
-- Prepared Spells: 2 (Proficiency + 1)
+- **Hit Dice (Body):** 4d6 — *4 individual d6 dice (Fragile)*
+- **Resolve:** 5 — *5 individual d6 dice for checks*
+- **Proficiency:** 1 *(Level 1-2)*
+- **Defense Capacity:** 1 *(= Proficiency)*
+- **Armor Proficiency:** Light (2d6)
+- **Weapon Proficiency:** All weapons
+- **Prepared Spells:** Proficiency + 1
 
 **Spirit-Guided Strike** (Basic, 2+)
-- All weapon attacks are Basic (2+) tier
-- Required successes: 1-2 depending on weapon
-- When you have an active Spirit Communion, add +1 HD damage
-- You are not a weapon master—spirits guide your hand to vital points
+- Weapon attacks are Basic (2+)
+- With active Spirit Communion: +1 HD damage
 
 **Spirit Communion** (Advanced, 3+)
-- As an action, invite a spirit to manifest through or near you
 - Required: 2 successes
-- Duration: Proficiency rounds (may dismiss early as free action)
-- Choose the spirit's nature:
-  - **Ancestor Spirit:** Gain +2d6 to Lore, Medicine, or Influence rolls. Speak with their wisdom.
-  - **Elemental Spirit (Fire/Water/Air/Earth):** Reduce incoming damage by Proficiency HD (choose element when communing). Strikes deal +1 HD of that element's damage.
-  - **Beast Spirit:** Gain +2d6 to Wilderness or Agility rolls. Movement becomes predatory and instinctive.
-  - **Death Spirit:** Gain +2d6 vs undead or when interacting with dying creatures. See threads between life and death within 60 yards.
-- While communing: Your eyes, voice, and mannerisms shift—the spirit rides you
+- Proficiency rounds (dismiss early as free action)
+- Choose spirit nature:
+  - **Ancestor:** +2d6 to Lore, Medicine, or Influence
+  - **Elemental (Fire/Water/Air/Earth):** Reduce incoming damage by Prof HD (choose element). Strikes +1 HD that element.
+  - **Beast:** +2d6 to Wilderness or Agility. Movement becomes predatory.
+  - **Death:** +2d6 vs undead/dying creatures. See life/death threads within 60 yards.
+- While communing: eyes, voice, mannerisms shift — the spirit rides you
 - Usable Proficiency times per short rest
 
 **Liminal Sight** (Passive)
-- You automatically perceive:
-  - Spirits, ghosts, and ethereal creatures within 60 yards
-  - Recent deaths (within 24 hours) as faint echoes and residue
-  - Threshold spaces (portals, ley lines, planar boundaries, thin places)
-  - Spiritual "temperature" of locations (sacred, desecrated, haunted, neutral)
-- You have advantage (gain +1d6) on all rolls to:
-  - Navigate spirit realms, ethereal spaces, or liminal zones
-  - Communicate with non-corporeal entities
-  - Resist possession, spiritual domination, or soul manipulation
-- This bonus die follows proficiency dice rules (doesn't burn HD on 1s)
-- "I walk both worlds. Neither can hide from me."
+- Perceive: spirits/ghosts/ethereal within 60 yards, recent deaths (24 hours), threshold spaces, spiritual "temperature"
+- Advantage (+1d6, doesn't burn HD) on: navigate spirit realms, communicate with non-corporeal, resist possession/domination
 
 **Limited Spellcasting** (Passive)
-- You can learn and prepare spells, representing negotiations with spiritual forces
-- **Known Spells:** Proficiency × 3 (Primal domain)
-- **Prepared Spells:** Proficiency + 1 (can change during long rest when you commune)
-- **Ritual Casting:** Can ritual cast any Primal spell, even if not known
-- You cannot cast Ultimate tier spells
-- Your magic is relational—spirits answer when you call, if you maintain the relationship
+- Known Spells: Proficiency × 3 (Primal domain)
+- Prepared Spells: Proficiency + 1
+- Ritual Casting: Any Primal spell, even if not known
+- Cannot cast Ultimate tier
+
+---
+
+**Level 2: Extended Communion**
+Spirit Communion duration increases by Prof rounds. **Way Node.**
+
+---
 
 **Level 3: Spirit Manifestation**
 
 **Manifest Spirit** (Expert, 4+)
-- When you have Spirit Communion active, bring the spirit fully into reality
+- Requires active Spirit Communion
 - Required: 3 successes
-- Duration: Proficiency rounds (replaces remaining communion duration)
-- Spirit manifests as a visible entity adjacent to you
-- **Manifestation Stats:**
-  - Spirit has HD = Proficiency × 3
-  - Acts on your turn when you use your action to direct it (you cannot take other actions that turn)
-  - Attacks using your Proficiency + Exertion: 2 successes required, Proficiency HD damage
-  - When spirit takes damage, you lose the HD instead (symbiotic link)
-  - If reduced to 0 HD, communion ends; cannot commune with that spirit type until long rest
-- **Spirit Abilities by Type:**
-  - **Ancestor:** Answer one question about past events or hidden knowledge (GM discretion).
-  - **Elemental:** Unleash elemental burst in 10-yard radius (creatures inside take Proficiency HD damage, chosen element).
-  - **Beast:** Track or scout without being detected. Auto-succeeds on Basic Wilderness tasks.
-  - **Death:** Sense all dying/undead creatures within 100 yards. Know their exact condition.
-- **Design Note:** Spirit requires action direction (prevents automatic double action economy every round). You control spirit, but must commit your action to do so.
+- Prof rounds (replaces remaining communion)
+- Spirit manifests adjacent, HD = Prof × 3
+- Acts on your turn (you use action to direct)
+- Attacks: 2 successes required, Prof HD damage
+- Damage to spirit = you lose the HD (symbiotic link)
+- At 0 HD: communion ends, can't commune that type until long rest
+- **Spirit abilities:** Ancestor (answer 1 question), Elemental (10-yard burst Prof HD), Beast (track/scout unseen), Death (sense dying/undead 100 yards)
 - Usable once per short rest
 
 **Threshold Step** (Advanced, 3+)
-- As an action, briefly step into the spirit realm and reappear elsewhere
 - Required: 2 successes
-- You disappear and reappear up to 30 yards away at a location you can see
-- You pass through the liminal space—walls, barriers, obstacles, and creatures mean nothing
-- While stepping (instant), you briefly perceive both worlds overlapped
+- Teleport up to 30 yards to visible location
+- Pass through walls, barriers, obstacles (through liminal space)
 - Usable Proficiency times per short rest
-- "The threshold is always open to those who know where to look"
+
+---
+
+**Level 4: Dual Communion**
+Maintain 2 Spirit Communion types simultaneously. **Way Node.**
+
+---
 
 **Level 5: Walker Between Worlds**
 
 **Spirit Embodiment** (Expert, 4+)
-- Transform fully into a spirit-fused form
-- Required: 3 successes
-- Duration: Proficiency rounds
-- Your body transforms to reflect the spirit type:
-  - **Ancestor Form:** Become semi-corporeal (physical attacks against you have disadvantage -2d6, you can pass through objects by spending movement).
-  - **Elemental Form:** Become living element (immune to chosen element type, all attacks deal +Proficiency HD elemental damage, gain flight 30 yards or swim 60 yards).
-  - **Beast Form:** Transform into apex predator (attacks deal double HD damage, gain +Proficiency HD temporary buffer, movement speed doubled).
-  - **Death Form:** Become reaper (undead treat you as one of them, your strikes reduce target's maximum HD by 1 per hit until end of encounter, see all life forces as glowing threads through walls).
-- **Restriction:** While embodied, you cannot cast spells or use other Expert-tier abilities (transformation is your focus)
-- **Design Note:** Prevents stacking transformation + spellcasting + other Expert abilities. Trade power for versatility. Death Form max HD reduction temporary (encounter only, not until long rest).
-- Cost: When form ends, lose Proficiency HD (spirit demands payment)
+- Required: 3 successes, Prof rounds
+- Transform to reflect spirit type:
+  - **Ancestor:** Semi-corporeal. Physical attacks -2d6 vs you. Pass through objects by spending movement.
+  - **Elemental:** Become living element. Immune to chosen type. Attacks +Prof HD elemental. Fly 30 or swim 60.
+  - **Beast:** Apex predator. Attacks double HD. +Prof temporary HD buffer. Movement doubled.
+  - **Death:** Undead treat you as one of them. Strikes reduce target's max HD by 1 per hit (encounter only). See life through walls.
+- Cannot cast spells or use other Expert abilities while embodied
+- Cost: Lose Prof HD when form ends
 - Usable once per long rest
 
 **Living Threshold** (Expert, 4+)
-- Tear open a portal between mortal and spirit realms
 - Required: 4 successes
-- Range: Touch a surface within 10 yards
-- Duration: Proficiency rounds
-- A 10-yard diameter portal opens between worlds
-- Choose effect when casting:
-  - **Summon Spirits:** Call forth Proficiency spirits (each makes one attack dealing Proficiency HD damage, then fades).
-  - **Banish Corporeal:** All creatures within 10 yards contest (Proficiency dice vs your Proficiency) or are pushed into spirit realm (removed from combat for duration).
-  - **Healing Threshold:** Allies passing through restore Proficiency HD and 1 Resolve.
-  - **Destructive Threshold:** All enemies within 10 yards take Proficiency × 2 HD damage as both worlds crush them.
-- **Concentration Required:** While maintaining threshold, you cannot use other Expert-tier abilities or cast spells requiring concentration
-- **Design Note:** Prevents stacking threshold + embodiment + other Expert abilities. Portal maintenance demands full focus.
-- The boundary between worlds is yours to tear
+- Touch surface within 10 yards, Prof rounds
+- 10-yard portal between mortal and spirit realms
+- Choose: Summon Prof spirits (one attack each, Prof HD, then fade), Banish Corporeal (contest or removed for duration), Healing (allies passing through restore Prof HD + 1 Resolve), Destructive (enemies within 10 yards take Prof × 2 HD)
+- Concentration required
 - Usable once per long rest
+
+---
+
+**Level 6: Spirit Defense**
+While in Spirit Communion, gain +1d6 to defense. **Way Node.**
+
+---
+
+**Level 7: Great Spirit**
+
+**Spirit Host** (Legendary, 5+)
+- Required: 4 successes
+- Commune with ALL spirit types simultaneously for Prof rounds
+- Each round, use one Manifestation ability without spending your action
+- Usable once per long rest
+
+**Greater Threshold** (Legendary, 5+)
+- Required: 4 successes
+- Create permanent thin point between mortal/spirit realms at location
+- Future Spirit Communion here requires no roll
+- Prof active thin points at once
+
+---
+
+**Level 8: Spirit Fortification**
+All manifested spirit HD increase by Prof. **Way Node.**
+
+---
+
+**Level 9: Accord Incarnate**
+
+**Become the Accord** (Legendary, 5+)
+- Required: 5 successes
+- Prof rounds: avatar of the Living Accord. Exist in both realms simultaneously. Spirit abilities require no rolls. Presence heals allies Prof HD/round within 30 yards. Enemies within 30 yards make Resolve checks each round.
+- Cost: Drop to 1 HD and lose 3 Resolve when it ends
+- Usable once per long rest
+
+**Deep Communion** (Passive)
+- Spirit Communion has no duration limit (until dismissed). Maintain two spirit types simultaneously.
+
+---
+
+**Level 10: One with All**
+
+**Everywhere and Nowhere** (Passive Capstone)
+- Permanently perceive spirits/ghosts/ethereal at all times
+- Threshold Step at will (once per round, no action, no roll, 30 yards)
+- Once per long rest, physically enter spirit realm for 1 hour with up to Prof companions
+
+**Way Node.**
+
+---
+
+### Ways of the Living Accord
+
+**Grid Structure (Ring):**
+```
+Breath ←→ Thorn ←→ Tide ←→ Rot ←→ Hearth ←→ Star ←→ Howl ←→ (Breath)
+```
+
+#### Way of Breath
+*Life spirits, vital channeling, healing*
+*Adjacent: Howl, Thorn*
+
+**Row 1: Life's Whisper** — While in Spirit Communion, +1d6 to all healing effects (spells or abilities). Doesn't burn HD.
+
+**Row 2: Vital Channel** — Once per short rest, restore Prof HD to all allies within 10 yards.
+
+**Row 3: Spirit Healer** — Manifested Ancestor Spirit can heal: direct it to restore Prof HD to one ally within 30 yards (uses your action).
+
+**Row 4: Breath Between** — When ally within 30 yards would drop to 0 HD, spend 2 HD to keep them at 1. Once per ally per combat.
+
+**Row 5: Living Breath** *(Legendary, 5+)* — Once per long rest, all allies within 60 yards restore all lost HD. All conditions removed. Cost: half your current HD.
+
+#### Way of Thorn
+*Beast spirits, predator forms, feral power*
+*Adjacent: Breath, Tide*
+
+**Row 1: Feral Communion** — Spirit-Guided Strike +1 HD when using Beast Spirit communion (total +2 HD with base).
+
+**Row 2: Predator's Senses** — Beast Spirit communion grants blindsight 30 yards.
+
+**Row 3: Greater Beast** — Spirit Embodiment (Beast) gains specific form bonus: Charge (+Prof HD first hit), Pack Tactics (+2d6 near allies), Flight (30 yards), or Constrict (restrain target).
+
+**Row 4: Spirit Pack** — Once per short rest, summon Prof beast spirits. Each has Prof HD and deals 1 HD per attack. Prof rounds.
+
+**Row 5: Apex Spirit** *(Legendary, 5+)* — Once per long rest, ultimate beast form for Prof rounds: double body HD, +Prof × 2 HD attacks, ALL beast bonuses active, can still cast Primal spells.
+
+#### Way of Tide
+*Change spirits, flow states, adaptive communion*
+*Adjacent: Thorn, Rot*
+
+**Row 1: Flowing Communion** — Switch Spirit Communion type as free action once per round (no re-rolling).
+
+**Row 2: Tidal Step** — Threshold Step distance +15 yards (45 total) and may bring one willing ally within touch.
+
+**Row 3: Adaptive Spirit** — Spirit Communion grants primary bonus AND secondary bonus from adjacent spirit type.
+
+**Row 4: River Walk** — Threshold Step as reaction when attacked; attack misses. Prof times per short rest.
+
+**Row 5: Spirit of Change** *(Legendary, 5+)* — Once per long rest, Prof rounds: free Threshold Step and Spirit Communion switch each turn. Attacks cycle damage type (fire/cold/lightning/necrotic/radiant).
+
+#### Way of Rot
+*Death spirits, decay communion, endings*
+*Adjacent: Tide, Hearth*
+
+**Row 1: Death Speaker** — Communicate with recently dead (24 hours). Prof questions (GM determines answer quality).
+
+**Row 2: Necrotic Touch** — Death Spirit communion: attacks deal necrotic and reduce target max HD by 1 per hit (until long rest).
+
+**Row 3: Spirit of Endings** — Manifested Death Spirit forces creature within 30 yards to Resolve check. Fail = frightened + -2d6 all actions for Prof rounds.
+
+**Row 4: Guided Passage** — Once per long rest, creature dead within 1 minute: ask Prof questions with complete truthful answers.
+
+**Row 5: Herald of Rot** *(Legendary, 5+)* — Once per long rest, choose: (A) 30-yard radius Prof × 2 HD necrotic + max HD reduced by Prof, (B) One recently dead creature rises as spirit ally under your command (original stats, Prof rounds), (C) For 1 round all attacks auto-hit, double damage, force Resolve checks.
+
+#### Way of Hearth
+*Ancestor spirits, home wards, community bonds*
+*Adjacent: Rot, Star*
+
+**Row 1: Ancestral Guidance** — During short rest, commune with ancestors for +2d6 to one specific skill check before next rest.
+
+**Row 2: Spirit Ward** — Place ward on room/camp (10-yard radius, 8 hours). Alert when creature enters. Intruders contest Prof dice to pass silently.
+
+**Row 3: Ancestral Council** — Manifest Prof ancestors simultaneously. Each answers one question. Combined knowledge: +3d6 to one Lore check.
+
+**Row 4: Hearthfire** — Once per long rest, create spiritual hearth during rest. Allies within 30 yards restore +Prof HD and +1 Resolve.
+
+**Row 5: Home of the Spirits** *(Legendary, 5+)* — Once per long rest, 30-yard sanctuary for Prof × 2 rounds: allies +2d6 all actions, manifest any spirit without rolling, hostile spirits/undead cannot enter.
+
+#### Way of Star
+*Cosmic spirits, celestial communion, stellar power*
+*Adjacent: Hearth, Howl*
+
+**Row 1: Star Communion** — During long rest, commune with cosmic spirits. Cryptic vision of most significant event within 24 hours (GM provides clue).
+
+**Row 2: Celestial Channeling** — New "Star Spirit" communion type: +2d6 to spellcasting rolls and spell ranges doubled.
+
+**Row 3: Astral Projection** — Once per long rest, project spirit into astral plane 10 minutes. Observe any location within 1 mile, invisible/incorporeal. Body unconscious.
+
+**Row 4: Starfire** — Once per short rest, channel cosmic power: Prof × 2 HD radiant to all enemies within 15 yards (each defends normally).
+
+**Row 5: Star Walker** *(Legendary, 5+)* — Once per long rest, merge with cosmic spirit for Prof rounds: fly 60 yards, attacks deal radiant +Prof HD, see all creatures within 1 mile, cast one spell without exertion cost.
+
+#### Way of Howl
+*Storm spirits, catastrophe channeling, elemental fury*
+*Adjacent: Star, Breath*
+
+**Row 1: Storm Voice** — Spirit-Guided Strike deals lightning/thunder damage instead of physical during Elemental communion.
+
+**Row 2: Tempest Call** — Once per short rest, wind burst: all creatures within 15 yards contest or pushed 10 yards + knocked prone.
+
+**Row 3: Lightning Communion** — Elemental (Air/Lightning) communion: +Prof HD to all attacks instead of +1 HD.
+
+**Row 4: Storm Avatar** — Elemental Embodiment (Air): creates 30-yard thunderstorm. Enemies -2d6 ranged, 1 HD lightning/round within.
+
+**Row 5: Howl of the World** *(Legendary, 5+)* — Once per long rest, 100-yard radius: Prof × 3 HD lightning/thunder to all enemies (each defends). Terrain reshaped. Prof rounds: enemies -3d6 all actions within. Allies protected.
 
 ---
 
@@ -837,178 +1710,243 @@ You exist between states. While others are fully here or fully there, you walk b
 *The Sovereign: "Where others draw from the cosmos, I draw from myself."*
 *They are the proof that the universe's structure is not absolute. They are the crack in the metaphysical system.*
 *This class masters resource efficiency—manipulating HD, Exertion, and Resolve through perfect internal control*
-*Paths will reflect martial disciplines and internal philosophies - stances, forms, meditation techniques that refine their efficiency*
-*All Sovereigns can use Light and Medium Armor and all Weaponry, though no mastery like the Combatants. They cannot cast spells - they need nothing external.*
-*They have total understanding and advantage in matters of internal discipline, self-control, mental fortitude, resistance to external manipulation*
-*Their Role: Resource efficiency expert and last-one-standing specialist. They operate at peak effectiveness longer than anyone else. When others burn bright and collapse, Sovereigns endure through perfect economy.*
+*Paths will reflect martial disciplines and internal philosophies — stances, forms, meditation techniques*
+*All Sovereigns can use Light and Medium Armor and all Weaponry. They cannot cast spells — they need nothing external.*
+*Their Role: Resource efficiency expert and last-one-standing specialist*
 
 **Hit Die:** d10 (Tough)
-**Custodial Connection:** Any or None - Self-Sufficient Anomaly
+**Custodial Connection:** Any or None — Self-Sufficient Anomaly
 **Role:** Resource Master, Endurance Specialist, Unbreakable Duelist
 
 ### Class Identity
 
 Sovereigns are masters of internal economy. While others burn resources frantically, Sovereigns have perfected the art of using exactly what is needed—no more, no less. They do not reject cosmic power; they simply prove it unnecessary. Through meditation, discipline, and absolute self-knowledge, they manipulate their own thresholds, converting between resources and operating when others would collapse.
 
-**Sovereigns can be recognized by any Custodial Power—or by none.** The duelist who never wastes a motion, the ascetic who walks for days without rest, the condemned who refuses death through pure will, the warmaster who remains calm while armies panic—all are Sovereigns when they prove that perfected self-control surpasses borrowed power.
+**Sovereigns can be recognized by any Custodial Power—or by none.** The duelist who never wastes a motion, the ascetic who walks for days without rest, the condemned who refuses death through pure will—all are Sovereigns when they prove that perfected self-control surpasses borrowed power.
 
 **Core Fantasy:**
-You are a closed system, perfectly efficient. Every point of HD, every die of Exertion, every point of Resolve—you know exactly where it goes and what it buys. You convert resources like an alchemist transmutes elements: Resolve becomes endurance, HD becomes damage, Exertion becomes precision. You are not flashy. You are *efficient*. And efficiency means you're still fighting when everyone else has collapsed.
+You are a closed system, perfectly efficient. Every point of HD, every die of Exertion, every point of Resolve—you know exactly where it goes and what it buys. You are not flashy. You are *efficient*. And efficiency means you're still fighting when everyone else has collapsed.
 
-**Unique Strengths:**
-- **Resource Conversion:** Trade HD ↔ Resolve ↔ Exertion efficiency through active abilities
-- **Perfect Economy:** Reduce costs, prevent waste, bank resources across rounds
-- **Threshold Manipulation:** Operate beyond normal limits through internal adjustments
-- **Collapse Resistance:** Last one standing through refusal and resource management
-- **No External Dependencies:** No spells, spirits, or channeled power needed
-- **Consistent Combatant:** Light/Medium armor + all weapons, unaffected by cosmic forces
-- **All-Tier Access:** Abilities spanning Basic through Expert tiers (Legendary at higher levels)
+### Progression Table
 
-### Class Abilities
+| Level | Prof | Body HD | Resolve | Core Milestone | Way |
+|-------|------|---------|---------|----------------|-----|
+| 1 | 1 | 5d10 | 5 | Internal Economy | — |
+| 2 | 1 | 7d10 | 5 | Disciplined Form | Row 1 |
+| 3 | 2 | 9d10 | 5 | Threshold Mastery | — |
+| 4 | 2 | 11d10 | 5 | Efficient Rest | Row 2 |
+| 5 | 3 | 13d10 | 5 | Perfect Control | — |
+| 6 | 3 | 15d10 | 5 | Iron Will | Row 3 |
+| 7 | 4 | 17d10 | 5 | Transcendent Economy | — |
+| 8 | 4 | 19d10 | 5 | Superior Conversion | Row 4 |
+| 9 | 5 | 21d10 | 5 | Absolute Mastery | — |
+| 10 | 5 | 23d10 | 5 | Sovereign Absolute | Row 5 |
 
-*Gained at odd levels: 1, 3, 5, 7, 9*
+### Core Abilities
 
 **Level 1: Internal Economy**
 
 **Starting Resources:**
-- Hit Dice: 5d10
-- Resolve: 5
-- Armor Proficiency: Light, Medium
-- Weapon Proficiency: All weapons
+- **Hit Dice (Body):** 5d10 — *5 individual d10 dice*
+- **Resolve:** 5 — *5 individual d6 dice for checks*
+- **Proficiency:** 1 *(Level 1-2)*
+- **Defense Capacity:** 1 *(= Proficiency)*
+- **Armor Proficiency:** Light (2d6), Medium (3d8)
+- **Weapon Proficiency:** All weapons
 
 **Centered Strike** (Basic, 2+)
-- All weapon attacks are Basic (2+) tier
-- Required successes: 1-2 depending on weapon
-- **Economy Bonus:** When you use 0 Exertion dice this turn, add +Proficiency to damage (perfect efficiency)
-- **Clarity Bonus:** When at 5 Resolve (maximum), your success threshold reduces by 1 step (calm precision)
+- Weapon attacks are Basic (2+)
+- **Economy Bonus:** When you use 0 Exertion dice this turn, +Proficiency to damage
+- **Clarity Bonus:** At 5 Resolve (maximum), success threshold reduces by 1 step
 - You fight with mathematics, not emotion
 
 **Internal Alchemy** (Passive — Core Mechanic)
-- You can convert between your internal resources using actions:
-  - **Resolve → Endurance:** Spend 1 Resolve as free action to prevent next Proficiency HD loss (once per round)
-  - **HD → Will:** Once per round, if you lose 3+ HD from a single source (damage, cost, burn), restore 1 Resolve at end of your turn
-  - **Efficiency Banking:** Unused Exertion budget from previous turn grants +1d6 to your first roll next turn (does not burn HD on 1s)
-- This is your core mechanic—you are a resource alchemist
-- **Sovereign Advantage:** Steady action requires using an action (3 HD → 1 Resolve). Your HD→Will conversion triggers AUTOMATICALLY when taking damage, costs no action, and happens at end of turn (superior efficiency)
-- "Energy cannot be created or destroyed, only converted"
+- **Resolve → Endurance:** Spend 1 Resolve (free action) to prevent next Prof HD loss. Once per round.
+- **HD → Will:** If you lose 3+ HD from single source, restore 1 Resolve at end of turn. Once per round.
+- **Efficiency Banking:** Unused Exertion budget from previous turn = +1d6 on first roll next turn (doesn't burn HD)
 
 **Sovereign Discipline** (Passive)
-- You have advantage on all rolls to:
-  - Resist mental manipulation, charm, fear, domination
-  - Maintain concentration despite pain or distraction  
-  - Resist Resolve loss from environmental or social pressure
-  - Endure physical hardship through willpower alone
-- You automatically succeed on Basic tier Fortitude checks for endurance
-- This bonus die follows proficiency dice rules (doesn't burn HD on 1s)
+- Advantage on: resist mental manipulation/charm/fear/domination, maintain concentration, resist environmental Resolve loss, endure physical hardship
+- Auto-succeed Basic Fortitude for endurance
+- Doesn't burn HD
 
 **Efficient Recovery** (Advanced, 3+)
-- As an action, enter perfect recovery meditation
 - Required: 2 successes
-- Effect: Restore Proficiency HD immediately
-- Cost: Lose 1 Resolve (converting will to body)
+- Restore Proficiency HD immediately
+- Cost: 1 Resolve
 - Usable Proficiency times per short rest
-- **Sovereign Advantage:** Rush trades 1 Resolve → Prof HD (guaranteed, no roll). You get the SAME trade but must roll 2 successes—higher risk, but can use Prof times per rest instead of once
-- "I allocate resources precisely"
+
+---
+
+**Level 2: Disciplined Form**
+Treat one armor die type as one step larger (d6→d8, d8→d10). **Way Node.**
+
+---
 
 **Level 3: Threshold Mastery**
 
 **Resource Cascade** (Advanced, 3+)
-- When you successfully strike an enemy (any attack), you may trigger this cascade
-- Required: 2 successes (rolled after your attack succeeds)
-- Choose one benefit based on your current resource state:
-  - **If HD is below half:** Restore Proficiency HD
-  - **If Resolve is below 5:** Restore 1 Resolve  
-  - **If you used maximum Exertion this turn:** Next turn your Exertion budget increases by +2
-- Victory feeds efficiency
+- After successfully striking an enemy, trigger cascade
+- Required: 2 successes (rolled after attack succeeds)
+- Choose: HD below half → restore Prof HD; Resolve below 5 → restore 1 Resolve; max Exertion used → next turn budget +2
 - Usable Proficiency times per short rest
-- **Sovereign Advantage:** Steady costs 3 HD and an action to gain 1 Resolve. You restore Resolve WHILE attacking successfully, no separate action needed (combat-integrated efficiency)
-- "Every action strengthens the next"
 
 **Deny Death** (Expert, 4+)
-- When you would lose Resolve and drop to 0 Resolve, you may refuse
-- Required: 3 successes (roll using Proficiency + any remaining exertion before failing the Resolve check)
-- On success: You do not lose the Resolve (remain at 1 Resolve minimum)
-- Can also be used when at 0 HD and about to make a Resolve check—success means you automatically pass the check
-- **Restriction:** You cannot use Deny Death while Inevitable Stance is active (cannot stack immortality clauses)
-- You may use this once per long rest
-- "I do not permit collapse"
+- When you would lose Resolve and drop to 0, refuse
+- Required: 3 successes (Prof + remaining exertion)
+- Success: remain at 1 Resolve minimum
+- Also: at 0 HD with Resolve check — success = auto-pass check
+- Cannot stack with other immortality effects
+- Usable once per long rest
+
+---
+
+**Level 4: Efficient Rest**
+Recover Prof additional HD during short rests. **Way Node.**
+
+---
 
 **Level 5: Perfect Control**
 
-**Flawless Economy** (Expert, 4+)
-- Achieve perfect resource state for 2 rounds
+**Economy of Action** (Expert, 4+)
 - Required: 3 successes
-- Duration: 2 rounds (fixed, not Proficiency rounds)
-- Gain ALL benefits simultaneously:
-  - Your Internal Alchemy conversions no longer have "once per round" limits
-  - All Exertion dice that roll 1 become 2 automatically (no waste)
-  - You may take one additional action per turn (pure efficiency)
-- Cost: Lose 3 Resolve when effect ends (cannot be reduced or prevented by any ability)
-- **High Risk:** If reduced to 0 Resolve while Flawless Economy is active, effect ends immediately and you collapse
-- **Design Note:** Short explosive burst (2 rounds flat, not scaling). Removed unlimited bonus cap (would break bounded accuracy). Extra action + perfect conversions + no waste is enough dominance without breaking math ceiling.
+- Prof rounds: Exertion dice results of 2 also count as successes (widens success window)
 - Usable once per short rest
-- "This is what mastery looks like—and it costs everything"
 
-**Inevitable Stance** (Expert, 4+)
-- When you are the last ally standing (all others at 0 HD or 0 Resolve within 60 yards)
+**Sovereign's Challenge** (Expert, 4+)
+- Required: 3 successes
+- Challenge one enemy within 30 yards; Prof rounds
+- You and target: +2d6 against each other, -2d6 against anyone else
+- Neither can willingly disengage
+- Usable once per short rest
+
+---
+
+**Level 6: Iron Will**
+Auto-pass first Resolve check per combat. **Way Node.**
+
+---
+
+**Level 7: Transcendent Economy**
+
+**Flawless Economy** (Legendary, 5+)
 - Required: 4 successes
-- Duration: Until allies recover or Proficiency rounds (whichever comes first)
-- You become the immovable axis:
-  - Gain temporary HD equal to twice your Proficiency
-  - All attacks deal +Proficiency HD damage
-  - You have advantage (+2d6) on any Resolve checks
-  - Enemies attacking you must roll with disadvantage (-1d6)
-  - You cannot be moved, knocked prone, or displaced
-- Cost: When this ends, you must make a Resolve check (you exceeded all limits)
-- **Design Note:** Changed auto-succeed Resolve checks to advantage. Auto-pass kills tension—Sovereign should be extremely resilient, not invulnerable.
+- 2 rounds (fixed): Internal Alchemy has no "once per round" limits, all Exertion 1s become 2s, take one additional action per turn
+- Cost: 3 Resolve when it ends (cannot be prevented)
+- If reduced to 0 Resolve during effect, it ends and you collapse
+- Usable once per short rest
+
+**Inevitable Stance** (Legendary, 5+)
+- When last ally standing (all others at 0 HD/Resolve within 60 yards)
+- Required: 4 successes
+- Prof rounds or until allies recover
+- Gain: Prof × 2 temporary HD, +Prof HD damage, +2d6 Resolve checks, enemies attacking you -1d6, cannot be moved/knocked prone
+- Cost: Resolve check when it ends
 - Usable once per long rest
-- "I am the constant. Reality can adjust."
 
 ---
 
-## Time & Movement
-
-### Combat Time
-- **1 Round:** 10 seconds of in-game time
-- **1 Turn:** Your actions within one round
-
-### Movement in Combat
-
-**Base Movement:** 10 yards per round (free action, can be split before/after actions)
-
-**Movement Actions:** See **Movement & Chase Mechanics** section for full rules on:
-- Dash (move extra 10 yards)
-- Forced March (move extra 20 yards)
-- Disengage (withdraw safely)
-
-**Difficult Terrain:** Costs double movement
-
-### Travel Time
-
-**Travel** uses daily segments. See **Travel & Journey System** section for complete mechanics including:
-- Journey Clock structure
-- Daily travel rolls
-- Complications and Resolve strain
-- Rest during travel
-
-**Quick Reference:**
-- Short journey (<20 miles): 3 days
-- Medium journey (20-100 miles): 6 days  
-- Long journey (100-500 miles): 12 days
-- Epic journey (500+ miles): 18+ days
+**Level 8: Superior Conversion**
+Internal Alchemy: Resolve → Endurance prevents Prof × 2 HD loss (up from Prof). **Way Node.**
 
 ---
 
-## Initiative
+**Level 9: Absolute Mastery**
 
-At the start of any encounter (combat or social), all participants roll initiative.
+**Closed System** (Legendary, 5+)
+- Required: 4 successes
+- Prof rounds: immune to all external effects (magic, conditions, environmental). Only your own choices and physical damage affect you.
+- Usable once per long rest
 
-**Roll:** PROFICIENCY per character
+**Absolute Efficiency** (Passive)
+- Exertion dice that show 1 become 2 instead of burning HD. Perfect internal economy eliminates waste.
 
-**Highest result goes first**, then descending order.
+---
 
-**Ties:** Reroll among tied participants.
+**Level 10: Sovereign Absolute**
 
-**Turn-Based:** Each character takes their full turn in initiative order.
+**Sovereign Absolute** (Passive Capstone)
+- Once per long rest, for 1 round, treat all your die results as maximum face value. Every action succeeds, every defense holds.
+- After this round, make Resolve check (perfection is overreach)
+- Additionally, permanently immune to all effects that force you to act against your will
 
-**Rally to Action:** When you roll initiative and are not surprised, gain 1 Resolve (maximum 5). The rush of engagement sharpens your focus.
+**Way Node.**
+
+---
+
+### Ways of the Sovereign Self
+
+**Grid Structure (Ring):**
+```
+Sealed Gate ←→ Keen Edge ←→ Still Water ←→ Tempered Forge ←→ Unbroken ←→ (Sealed Gate)
+```
+
+#### Way of the Sealed Gate
+*Defensive perfection, impenetrable form*
+*Adjacent: Unbroken, Keen Edge*
+
+**Row 1: Iron Defense** — Using 0 Exertion this turn grants +2d6 defense (up from +1d6 via Centered Strike's Economy Bonus interaction with defense).
+
+**Row 2: Deflection** — Once per round when hit, reduce HD damage by Prof (flat reduction before dice destroyed).
+
+**Row 3: Counter-Guard** — When all defense dice survive an attack, free Weapon Strike against attacker (if in reach). Prof times per short rest.
+
+**Row 4: Impenetrable Form** — Armor dice one size larger (d6→d8, d8→d10, d10→d12). Body dice survive on 4+ instead of 5+.
+
+**Row 5: Absolute Defense** *(Legendary, 5+)* — Once per long rest, Prof rounds: auto-succeed all defense rolls (no dice destroyed). May attack normally. Lose 3 Resolve when it ends.
+
+#### Way of the Keen Edge
+*Offensive efficiency, lethal economy*
+*Adjacent: Sealed Gate, Still Water*
+
+**Row 1: Efficient Strike** — Centered Strike's Prof damage bonus applies even when using Exertion (not just 0 Exertion).
+
+**Row 2: Waste Nothing** — Excess damage beyond outermost defense layer carries to next layer (no wasted damage).
+
+**Row 3: Economy of Violence** — Once per short rest on hit: deal normal damage + target loses 1 Resolve, OR deal Prof × 2 HD. Maximum effect.
+
+**Row 4: Surgical Precision** — Your attacks ignore 2 defense dice (target rolls 2 fewer, min 0).
+
+**Row 5: Death by Efficiency** *(Legendary, 5+)* — Once per long rest, Perfect Strike: auto-hit, Prof × 3 HD, ignores armor (targets body), target Resolve check at -Prof d6.
+
+#### Way of the Still Water
+*Mental mastery, counter-arts, awareness*
+*Adjacent: Keen Edge, Tempered Forge*
+
+**Row 1: Read Intent** — Start of combat: know each enemy's primary target for first action.
+
+**Row 2: Counter Stance** — Once per round, when enemy misses you, their next action has -2d6.
+
+**Row 3: Mind Like Water** — Immune to surprise. Once per combat, choose to act first regardless of initiative.
+
+**Row 4: Reflective Mind** — Once per short rest, when mental effect targets you, auto-succeed AND reflect it onto caster (they save against their own effect).
+
+**Row 5: Perfect Clarity** *(Legendary, 5+)* — Once per long rest, Prof rounds: know every enemy action before they take it (reposition ally or self 10 yards as reaction to each), +2d6 all attacks, immune to ALL conditions.
+
+#### Way of the Tempered Forge
+*Resource alchemy perfection, endurance*
+*Adjacent: Still Water, Unbroken*
+
+**Row 1: Efficient Metabolism** — Short rest: restore Prof additional HD. Body wastes nothing.
+
+**Row 2: Refined Conversion** — Resolve → Endurance prevents Prof × 2 HD loss (stacks with L8 upgrade for Prof × 4 at high level).
+
+**Row 3: Secondary Alchemy** — New conversion: once per round, spend 2 HD for +2d6 on next action (these dice don't burn HD).
+
+**Row 4: Perpetual Engine** — Efficiency Banking grants +2d6 instead of +1d6. Taking 0 damage on a round restores 1 HD.
+
+**Row 5: Transcendent Alchemy** *(Legendary, 5+)* — Once per long rest, Prof rounds: all Internal Alchemy has no limits, Exertion never burns HD (1s become 2s), restore 2 HD per turn end. Lose 2 Resolve when it ends.
+
+#### Way of the Unbroken
+*Survival defiance, last-one-standing*
+*Adjacent: Tempered Forge, Sealed Gate*
+
+**Row 1: Stubborn Will** — When failing Resolve check, spend 1 HD to reroll. Once per check.
+
+**Row 2: Defiance Threshold** — Deny Death usable Prof times per long rest (up from once).
+
+**Row 3: Unbreakable Body** — Once per long rest, when dropping to 0 HD, instead drop to Prof HD.
+
+**Row 4: Rising Stronger** — Each time Deny Death or Unbreakable Body triggers, gain +2d6 to all actions for Prof rounds.
+
+**Row 5: Sovereign Immortality** *(Legendary, 5+)* — Once per long rest, when you would die, refuse. Stand at 1 HD, 1 Resolve, gain a full extra turn. All attacks this turn auto-hit, max damage. After: Resolve check — fail = collapse to 0 everything, success = 1 HD, 1 Resolve.

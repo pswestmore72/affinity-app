@@ -141,6 +141,121 @@ Alternative: If mage never casts:
 
 ---
 
+## Defense Rolls & Damage Resolution
+
+### ⚠️ CRITICAL: Dice Are Destroyed, Not Hit Points Deducted
+
+**Affinity has NO hit points.** Damage destroys individual dice from your defense pools.
+
+### Defense Layers (Outermost to Innermost)
+
+1. **Shield** (if equipped): 1d12 die
+2. **Armor** (if worn): 2-4 dice (d6 light, d8 medium, d10 heavy)
+3. **Body**: Your Hit Dice from class (d10/d8/d6)
+
+**Damage flows from outside inward.** Shield is destroyed first, then armor, then body.
+
+### Defense Capacity (= Proficiency)
+
+**Defense Capacity = how many defense rolls you get PER ATTACK.**
+
+- Proficiency 1 = 1 roll per attack
+- Proficiency 2 = 2 rolls per attack
+- Proficiency 3 = 3 rolls per attack
+- etc.
+
+**Each new attack refreshes your Defense Capacity.** It's not "2 rolls per round"—it's "2 rolls per attack you receive."
+
+### Defense Roll Sequence (Per Attack)
+
+**For each HD of incoming damage:**
+
+1. **If you have Defense Capacity remaining:**
+   - Roll 1 die from your outermost layer
+   - **5+ = Success** → That die survives (stays in pool)
+   - **4- = Fail** → That die is DESTROYED (remove from pool)
+   - Subtract 1 from Defense Capacity
+
+2. **If Defense Capacity exhausted (no rolls left):**
+   - **Auto-fail** → Lose 1 die from outermost layer (no roll)
+   - Continue until all damage resolved
+
+3. **When layer depleted (0 dice remaining):**
+   - Move to next inner layer
+   - Continue rolling/losing dice from that layer
+
+### Complete Defense Example
+
+**Character Status:**
+```
+Body: 6d8 (1d8, 1d8, 1d8, 1d8, 1d8, 1d8)
+Armor: 3d8 chain shirt (1d8, 1d8, 1d8)
+Shield: 1d12 wooden shield (1d12)
+Proficiency: 2 (Defense Capacity 2 per attack)
+
+Total Defense: [1d12] → [1d8, 1d8, 1d8] → [1d8 ×6]
+```
+
+**ATTACK 1: Enemy deals 5 HD damage**
+
+**Defense Capacity: 2 rolls available**
+
+- **1st HD:** Roll 1d12 (shield) → **8** ✅ SUCCESS (shield survives, still 1d12)
+- **2nd HD:** Roll 1d12 (shield) → **3** ❌ FAIL (shield DESTROYED, now 0d12)
+- **3rd HD:** No rolls left (0/2 capacity) → Auto-fail, lose armor die (3d8 → 2d8)
+- **4th HD:** No rolls left → Auto-fail, lose armor die (2d8 → 1d8)
+- **5th HD:** No rolls left → Auto-fail, lose armor die (1d8 → 0d8, armor gone)
+
+**Result After Attack 1:**
+```
+Body: 6d8 (all 6 body dice intact)
+Armor: 0 (DESTROYED)
+Shield: 0 (DESTROYED)
+
+Total Defense: [1d8 ×6] only
+```
+
+**DICE DESTROYED: 1 shield + 3 armor = 4 dice lost**  
+**REMAINING DEFENSE: 6d8 body only**
+
+---
+
+**ATTACK 2: Enemy deals 4 HD damage** *(Same round, new attack)*
+
+**Defense Capacity: 2 rolls (REFRESHED for new attack!)**
+
+- **1st HD:** Roll 1d8 (body) → **7** ✅ SUCCESS (body still 6d8)
+- **2nd HD:** Roll 1d8 (body) → **2** ❌ FAIL (body 6d8 → 5d8)
+- **3rd HD:** No rolls left → Auto-fail (body 5d8 → 4d8)
+- **4th HD:** No rolls left → Auto-fail (body 4d8 → 3d8)
+
+**Result After Attack 2:**
+```
+Body: 3d8 (1d8, 1d8, 1d8) — lost 3 body dice
+Armor: 0
+Shield: 0
+
+Total Defense: [1d8 ×3] only
+```
+
+**DICE DESTROYED THIS ATTACK: 3 body dice**  
+**CUMULATIVE: 7 total dice destroyed (shield + armor + 3 body)**
+
+---
+
+**Key Takeaways:**
+
+✅ **Defense Capacity refreshes PER ATTACK** (not per round)  
+✅ **Each die is discrete** — it exists or it doesn't  
+✅ **5+ sustains, 4- destroys** — dice roll individually for survival  
+✅ **Outer layers destroyed first** — shield → armor → body  
+✅ **No hit points** — you track individual dice, not a summed total  
+✅ **"7d10" means seven dice, not ~49 HP** — capacity matters, not averages
+
+**This is how Affinity defense works. Dice destroyed, not points deducted.**
+
+---
+
 ## Multi-Target Actions
 
 Actions can affect multiple targets in several distinct ways. Understanding these mechanics prevents table confusion and enables strategic gameplay.
@@ -543,6 +658,12 @@ Use an action to protect an ally within 5 yards:
 - Required: 1 success
 - Effect: Each success cancels 1 HD damage to ally
 - Uses exertion from your turn's budget
+
+**Note on Resolve Penalties:**
+When calculating defense rolls, Resolve stage penalties apply:
+- Shaken (Resolve 3): Roll -1 defense die
+- Weakened (Resolve 2): Roll -1 defense die, Advanced+ actions need +1 success
+- Staggering (Resolve 1): Roll -2 defense dice, Advanced+ actions need +1 success
 
 ---
 

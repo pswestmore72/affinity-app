@@ -867,6 +867,32 @@ The Concordant Halls exist where those two forces meet.
 
 The most renowned among them may verge on demi-divinity—but only because so many others believe the same oath will still matter tomorrow.
 
+**The Seven Charges of the Halls:**
+
+These charges are not divine mandates—they are **commitments**, chosen by those who believe civilization requires more than survival:
+
+- **The Shield** — Protection, guardianship, sanctuary
+- **The Blade** — Justice, enforcement, righteous consequence
+- **The Bond** — Loyalty, fellowship, unbreakable trust
+- **The Crown** — Authority, command, burden of leadership
+- **The Flame** — Defiance, renewal, hope against despair
+- **The Stone** — Tradition, foundation, enduring memory
+- **The Bell** — Witness, truth-telling, accountability
+
+**Each charge is vital.**  
+**None are moral.**
+
+A Shield raised over the wrong people becomes a wall against the desperate.  
+A Blade swung without restraint becomes an executioner's habit.  
+A Bond held past reason becomes complicity.  
+A Crown worn too comfortably becomes a throne that forgets its purpose.  
+A Flame that refuses to die becomes an inferno that consumes what it meant to save.  
+A Stone that will not move becomes the foundation of a prison.  
+A Bell rung without mercy becomes a weapon louder than any sword.
+
+Those who carry a Charge do not choose good or evil.  
+**They choose what they will not allow to happen—and swear it.**
+
 **The Nature of Their Power:**
 
 The Concordant Halls do not grant power. They **recognize commitment**.

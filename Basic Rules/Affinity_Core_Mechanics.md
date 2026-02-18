@@ -86,16 +86,74 @@ Different classes have different Hit Dice:
 
 | Level | Tough (d10) | Balanced (d8) | Fragile (d6) |
 |-------|-------------|---------------|--------------|
-| 1 | 3 | 3 | 3 |
-| 2 | 5 | 5 | 4 |
-| 3 | 7 | 6 | 5 |
-| 4 | 9 | 8 | 7 |
-| 5 | 11 | 10 | 8 |
-| 6 | 13 | 11 | 10 |
-| 7 | 15 | 13 | 11 |
-| 8 | 17 | 15 | 13 |
-| 9 | 19 | 16 | 14 |
-| 10 | 21 | 18 | 16 |
+| 1 | 5 | 5 | 4 |
+| 2 | 7 | 7 | 5 |
+| 3 | 9 | 8 | 6 |
+| 4 | 11 | 10 | 8 |
+| 5 | 13 | 12 | 9 |
+| 6 | 15 | 13 | 11 |
+| 7 | 17 | 15 | 12 |
+| 8 | 19 | 17 | 14 |
+| 9 | 21 | 18 | 15 |
+| 10 | 23 | 20 | 17 |
+
+### ⚠️ CRITICAL: Hit Dice Are DICE POOLS, Not Hit Points
+
+**THERE ARE NO HIT POINTS IN AFFINITY.**
+
+**Hit Dice are individual dice that exist or don't exist.** They are NOT summed into a total.
+
+**WRONG (D&D-style thinking):**
+- "A Level 3 Combatant has 7d10 Hit Dice."
+- "I roll 7d10 and get 48, so I have 48 hit points."
+- "I take 5 damage, now I have 43/48 HP."
+
+**CORRECT (Affinity):**
+- "A Level 3 Combatant has 7d10 Hit Dice."
+- "That means I have SEVEN INDIVIDUAL d10 DICE in my body pool."
+- "When I take damage, I lose DICE from my pool, one at a time."
+- "7d10 → take 3 HD damage → might become 4d10 (lost 3 individual dice)."
+
+**Character Sheet Notation:**
+```
+Hit Dice: 7d10 (1d10, 1d10, 1d10, 1d10, 1d10, 1d10, 1d10)
+Armor: 3d8 (1d8, 1d8, 1d8)
+Shield: 1d12 (1d12)
+
+Total Defense Pool: [1d12] → [1d8, 1d8, 1d8] → [1d10, 1d10, 1d10, 1d10, 1d10, 1d10, 1d10]
+                    (shield)   (armor layer)      (body layer)
+```
+
+**When Defending:**
+- You roll INDIVIDUAL DICE from your outermost layer
+- Each die that rolls 5+ = sustain (that die survives)
+- Each die that rolls 4- = fail (LOSE that specific die from your pool)
+- Defense Capacity (= Proficiency) = how many rolls you get PER ATTACK
+- Remaining damage after capacity exhausted = auto-lose dice
+
+**Example Defense Sequence:**
+```
+Character: 5d10 body + 2d8 armor (two separate dice)
+Defense Capacity: 2 (Proficiency 2)
+Incoming: 4 HD damage
+
+1st HD: Roll 1d8 (armor) → 6 ✅ Sustain (armor still 2d8)
+2nd HD: Roll 1d8 (armor) → 3 ❌ Fail (armor becomes 1d8)
+3rd HD: No rolls left → Auto-fail (armor becomes 0, lose 1 body die: 5d10 → 4d10)
+4th HD: No rolls left → Auto-fail (lose 1 body die: 4d10 → 3d10)
+
+Final Status: 3d10 body + 0 armor
+DICE DESTROYED: 2 armor dice + 2 body dice = 4 dice lost
+```
+
+**Key Understanding:**
+- You don't "have 48 HP and take 12 damage to be at 36 HP"
+- You "have 7 dice, lose 3 dice, now have 4 dice remaining"
+- Each die is discrete—it exists or it doesn't
+- Armor/shields are OUTER LAYERS that deplete BEFORE body dice
+- When you're at "0 dice" you're incapacitated/dying (not "0 HP")
+
+**This is fundamental to Affinity. Dice are destroyed, not points deducted.**
 
 ---
 
@@ -246,12 +304,13 @@ Some abilities require ongoing focus to maintain their effects—portals held op
 **Maintaining Rule:**
 
 While maintaining an effect:
-- If you must make a Resolve check for any reason, and you fail it → the effect ends immediately
+- If you must make a Resolve check for any reason, and you lose Resolve (roll 1-4) → the effect ends immediately
+- Rolling 5 (hold current Resolve) or 6 (gain Resolve) maintains the effect
 - You cannot maintain multiple concentration effects simultaneously (starting a new one ends the previous)
 - The effect ends if you are knocked unconscious or die
 
 **Why This Matters:**
-Concentration makes powerful sustained abilities vulnerable to pressure. A Shaman holding a threshold portal must remain mentally intact—taking damage that triggers a Resolve check risks collapsing the gateway. This creates tactical decisions: do you maintain the powerful effect, or can you risk the mental strain?
+Concentration makes powerful sustained abilities vulnerable to pressure. A Shaman holding a threshold portal must remain mentally intact—losing Resolve collapses the gateway. Rolling a 5 on a Resolve check (holding steady under strain) is enough to maintain the effect. This creates tactical decisions: do you maintain the powerful effect, or can you risk the mental strain?
 
 ---
 
@@ -667,7 +726,7 @@ A lone Navigator in harsh conditions faces impossible odds. A coordinated party 
 - You lose ≥ Proficiency + 1 HD in a single round
 - You are reduced to 0 HD
 - You are at 0 HD and take any hit
-- You use maximum Exertion in a single round (equal to your Level)
+- You use maximum Exertion in a single round (equal to your Proficiency)
 - You fail an Expert+ action
 - Certain enemy effects force a check
 
@@ -695,25 +754,22 @@ As Resolve decreases, you suffer cumulative penalties:
 
 **Resolve 3 — Shaken**
 - Cannot initiate Expert+ actions
-- All actions require +1 additional success
-- Your ambition falters—safer, simpler choices become necessary
+- Roll one fewer defense die (minimum 1)
+- Vulnerability sets in—you can still act, but defense falters
 
 **Resolve 2 — Weakened**
 - Cannot initiate Expert+ actions  
-- All actions require +1 additional success
+- Advanced+ actions require +1 additional success
 - Roll one fewer defense die (minimum 1)
-- Defense begins to crumble
+- Offense and defense both crumble
 
 **Resolve 1 — Staggering**
 - Cannot initiate Expert+ actions
-- All actions require +1 additional success
-- Roll one fewer defense die (minimum 1)
+- Advanced+ actions require +1 additional success
+- Roll two fewer defense dice (minimum 1)
 - This is the "you should be running" stage
 
 **Resolve 0 — Collapse**
-- Cannot initiate Expert+ actions
-- All actions require +1 additional success
-- Roll one fewer defense die (minimum 1)
 - **You fall unconscious immediately**
 - **If you have HD > 0:** You are NOT dying, but collapsed (unconscious 0-2 days, see Death & Dying)
 - **If you have HD = 0:** You ARE dying (make Resolve checks each round until healed or dead, see Death & Dying)
@@ -877,10 +933,10 @@ Affinity Dice are bonus d6s earned by embodying your chosen virtue.
 
 **Spending Affinity Dice:**
 - On any roll, you may add stored Affinity Dice as bonus dice
-- **Affinity Dice count as exertion dice:**
-  - They burn your HD if they roll 1s
-  - They count toward your per-action exertion cap (max Proficiency per action)
-- You may spend multiple Affinity Dice on one roll (respecting action cap)
+- **Affinity Dice are SAFE bonus dice:**
+  - 1s rolled on Affinity Dice do NOT burn HD
+  - They do NOT count toward your per-action exertion cap
+- You may spend multiple Affinity Dice on one roll (up to your stored pool)
 
 **Sharing Affinity Dice:**
 - As a **free action** on your turn, transfer any number of stored Affinity Dice to an ally within 30 yards
@@ -971,21 +1027,21 @@ Your class determines which dice you use:
 
 ### How Many Dice You Roll
 
-**When you defend, you roll: ½ your Proficiency (rounded up)**
+**When you defend, you roll: your Proficiency**
 
 Using your current Hit Dice types:
 
 | Proficiency | Defense Dice |
 |-------------|--------------|
 | 1 | 1 die |
-| 2 | 1 die |
-| 3 | 2 dice |
-| 4 | 2 dice |
-| 5 | 3 dice |
+| 2 | 2 dice |
+| 3 | 3 dice |
+| 4 | 4 dice |
+| 5 | 5 dice |
 
 **Example:**
-- Level 5 Combatant (Proficiency 3) → Roll 2d10 on defense
-- Level 5 Weaver (Proficiency 3) → Roll 2d6 on defense
+- Level 5 Combatant (Proficiency 3) → Roll 3d10 on defense
+- Level 5 Weaver (Proficiency 3) → Roll 3d6 on defense
 
 ### Defense Resolution
 
@@ -1040,15 +1096,15 @@ Armor provides **defense dice** rolled as your outer layer during defense:
 
 Level 5 Combatant (d10 HD, Proficiency 3, wearing Heavy Armor 2d10 + Shield 1d12):
 - Takes 4 damage
-- Defense capacity: 2 dice (½ Prof rounded up)
-- Roll 2d10 for armor layer → Results: 7, 3
-- Successes: 1 (the 7 rolls 5+)
-- Canceled: 1 damage, 3 damage remains
+- Defense capacity: 3 dice (Prof 3)
+- Roll 3d10 for armor layer → Results: 7, 3, 5
+- Successes: 2 (the 7 and 5 roll 5+)
+- Canceled: 2 damage, 2 damage remains
 - **Armor layer depletes** (destroyed until repaired/rest)
-- Roll 2d10 for permanent HD → Results: 8, 4
-- Successes: 1 (the 8)
-- Canceled: 1 damage, 2 damage remains
-- **Lose 2 permanent HD**
+- Roll 3d10 for permanent HD → Results: 8, 4, 6
+- Successes: 2 (the 8 and 6)
+- Canceled: 2 damage, 0 damage remains
+- **No permanent HD lost** (all damage absorbed)
 
 *Note: The shield's +1d12 is part of the armor layer—once that layer depletes, both armor and shield are unavailable until restored.*
 

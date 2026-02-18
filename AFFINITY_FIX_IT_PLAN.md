@@ -301,7 +301,7 @@ Multiple contradictions and unanswered questions:
 - "Can be shared with allies" ← No mechanics for how
 
 **Decision Made:**
-✅ **Affinity Dice count as exertion dice with full sharing mechanics**
+✅ **Affinity Dice are SAFE bonus dice (do NOT count as exertion)**
 
 **Implemented Fix:**
 
@@ -319,10 +319,10 @@ Multiple contradictions and unanswered questions:
 
 **Spending Affinity Dice:**
 - ✅ On any roll, you may add stored Affinity Dice as bonus dice
-- ✅ **Affinity Dice count as exertion dice:**
-  - They burn your HD if they roll 1s
-  - They count toward your per-action exertion cap (max Proficiency per action)
-- ✅ You may spend multiple Affinity Dice on one roll (respecting action cap)
+- ✅ **Affinity Dice are SAFE bonus dice:**
+  - 1s rolled on Affinity Dice do NOT burn HD
+  - They do NOT count toward your per-action exertion cap
+- ✅ You may spend multiple Affinity Dice on one roll (up to your stored pool)
 
 **Sharing Affinity Dice:**
 - ✅ As a **free action** on your turn, transfer any number of stored Affinity Dice to an ally within 30 yards
@@ -336,7 +336,7 @@ Multiple contradictions and unanswered questions:
 **Design Philosophy Preserved:**
 - Virtue embodiment creates mechanical advantage
 - Sharing mechanic reinforces party cooperation
-- Affinity Dice as exertion = risk/reward tension (1s burn HD)
+- Affinity Dice as SAFE dice = pure reward for roleplay (no risk of burning HD)
 - Cap prevents degenerate play while scaling with advancement
 - Daily gain limit = Proficiency (scales naturally)
 - Storage limit = Level (prevents hoarding at low levels, allows reserves at high levels)

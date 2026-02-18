@@ -30,13 +30,48 @@ Welcome to the **Affinity TTRPG** library, Wizard! This collection of tomes cont
 
 ## System Identity
 
-**Hit Dice RPG** uses a unified d6 dice pool system where:
-- All dice are d6
-- Rolling 5+ = 1 success
-- Rolling 6 = 2 successes (Explosive)
-- Rolling 1 on exertion dice = burn 1 HD
+**⚠️ CRITICAL UNDERSTANDING: There Are NO Hit Points in Affinity**
 
-Hit Dice serve as your health, fuel for abilities, and the core tension of risk vs. reward.
+**Hit Dice are INDIVIDUAL DICE, not summed totals.**
+
+```
+WRONG (D&D thinking):
+"I have 7d10 Hit Dice = I roll 7d10 and get 48, so I have 48 HP"
+
+CORRECT (Affinity):
+"I have 7d10 Hit Dice = I have SEVEN INDIVIDUAL d10 DICE in my body pool"
+"When I take 3 HD damage, I might lose 3 dice (7d10 → 4d10)"
+"Dice are destroyed one at a time, not points deducted"
+```
+
+**Character Notation:**
+```markdown
+Hit Dice: 7d10 (1d10, 1d10, 1d10, 1d10, 1d10, 1d10, 1d10) ← 7 discrete dice
+Armor: 3d8 (1d8, 1d8, 1d8) ← 3 discrete dice (outer layer)
+
+Defense Pool: [Armor dice] → [Body dice]
+              (destroyed first)  (destroyed after armor gone)
+```
+
+**Affinity** uses a unified d6 dice pool resolution system where:
+- **All action rolls use d6 dice pools**
+- **Rolling 5+ = 1 success**
+- **Rolling 6 = 2 successes (Explosive)**
+- **Rolling 1 on exertion dice = burn 1 HD** (lose a die from your pool)
+
+**Hit Dice serve as:**
+- **Your health** (discrete dice, not summed points)
+- **Fuel for abilities** (exertion costs)
+- **Defense capacity** (dice rolled to sustain against damage)
+- **Core tension** (risk vs. reward)
+
+**When defending:**
+- You roll individual dice from your outermost layer (shield → armor → body)
+- 5+ = that die survives
+- 4- = that die is DESTROYED (removed from your pool)
+- You lose DICE, not \"hit points\"
+
+**See Core Mechanics for complete dice pool explanation.**
 
 ---
 

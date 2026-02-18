@@ -76,9 +76,9 @@ The Path Board is organized around the cosmic forces that stabilize the Mortal W
 **Philosophy:** Self-determination, resource autonomy, internal economy, refusing external dependency.
 
 **Path Disciplines:**
-- **Self-Sufficiency** (Jack of All Trades, Resourceful, Independent)
-- **Internal Mastery** (Composed Mind, Efficient Action, Centered Will)
-- **Freedom Through Skill** (Versatile Fighter, Tool Proficiency, Adaptable)
+- **Travel Mastery** (Wanderer, Tireless Traveler, Cartographer, Cultural Adapter)
+- **Internal Mastery** (Self-Made, Iron Focus, Efficient Action, Self-Reliant, Unbroken)
+- **Freedom Through Skill** (Resourceful, Jack of All Trades, Versatile Fighter)
 
 **Bridge Connections:** Where Self meets Oath (Self-imposed discipline), where Independence meets Life (Surviving alone), where Mastery meets Knowledge (Self-taught expertise)
 
@@ -193,6 +193,7 @@ graph TB
     
     subgraph SS_PILLAR["👤 SOVEREIGN SELF<br/>Independence & Mastery"]
         Wand[Wanderer<br/>TRAVEL PRIMARY]
+        SelfM[Self-Made<br/>SOVEREIGN PRIMARY]
         
         Wand --> TT[Tireless Traveler]
         Wand --> Carto[Cartographer]
@@ -203,6 +204,16 @@ graph TB
         Carto --> MR[Map Reader]
         CultA --> WW[World Wise]
         Res --> JAT[Jack of All Trades]
+        
+        SelfM --> IronF[Iron Focus]
+        SelfM --> EffA[Efficient Action]
+        SelfM --> SelfR[Self-Reliant]
+        SelfM --> Unbrok[Unbroken]
+        
+        IronF --> LaserF[Laser Focus]
+        EffA --> Conserv[Conservation]
+        SelfR --> LoneW[Lone Wolf]
+        Unbrok --> Temp[Tempered]
     end
     
     subgraph CROSS["⚖️ CONVERGENCE<br/>Multiple Philosophies"]
@@ -347,6 +358,32 @@ graph TB
     %% Liminal ↔ Social
     Charm -.->|Bridge| Belov
     
+    %% Sovereign ↔ Martial
+    IronF -.->|Bridge| TM
+    LaserF -.->|Bridge| WT
+    
+    %% Sovereign ↔ Shadow
+    SelfR -.->|Bridge| ShT
+    LoneW -.->|Bridge| GW
+    
+    %% Sovereign ↔ Resilience
+    Unbrok -.->|Bridge| Unyield
+    Temp -.->|Bridge| PTol
+    
+    %% Sovereign ↔ Cosmic
+    Unbrok -.->|Bridge| VirtB
+    
+    %% Sovereign ↔ Scholar
+    EffA -.->|Bridge| Craft
+    Conserv -.->|Bridge| SchM
+    
+    %% Sovereign ↔ Arcane
+    Conserv -.->|Bridge| SpT
+    
+    %% Sovereign ↔ Wanderer
+    SelfR -.->|Bridge| Wand
+    LoneW -.->|Bridge| Wand
+    
     %% Styling
     classDef primary fill:#FFD700,stroke:#FF8C00,stroke-width:4px,color:#000
     classDef oath fill:#DC143C,stroke:#8B0000,stroke-width:2px,color:#FFF
@@ -355,16 +392,16 @@ graph TB
     classDef sovereign fill:#9370DB,stroke:#4B0082,stroke-width:2px,color:#FFF
     classDef convergence fill:#FF69B4,stroke:#C71585,stroke-width:2px,color:#FFF
     
-    class WT,HK,WildT,ShT,SchM,SpT,Wand,Unyield,VirtB,PactB,LimB,SilT primary
+    class WT,HK,WildT,ShT,SchM,SpT,Wand,SelfM,Unyield,VirtB,PactB,LimB,SilT primary
     class WS,DS,CR,TM,FM,CW,PI,HT,AP,HTL,CM,VC,GC,RP oath
     class BB,TE,NR,Forage,SS,AmP,SM,Mis,PT,PF,SI,Herb,BS,PH,GW,Feint,SoH life
     class LM,Craft,Ling,Inv,RE,SF,MD,AE,AL,MA,Poly,Det,CDS,AC,ME,ER knowledge
-    class TT,Carto,CultA,Res,TB,MR,WW,JAT sovereign
+    class TT,Carto,CultA,Res,TB,MR,WW,JAT,IronF,EffA,SelfR,Unbrok,LaserF,Conserv,LoneW,Temp sovereign
     class SW,FW,PTol,Stub,AS,CosmA,VV,ResS,PatW,BorP,MbD,InfR,SpiS,PhStep,BetW,PlanA,Charm,Decep,ComP,Neg,DR,Unshake,IO,CosmR,FW_fate,IP,CC,DarkC,AoD,SpiG,BlinkT,IncD,ThW,Belov,MoD,NatL,Med convergence
 ```
 
 **Legend:**
-- 🟡 **Gold Nodes** = 10 Primary Feats (your Level 1 cosmic anchor)
+- 🟡 **Gold Nodes** = 13 Primary Feats (your Level 1 cosmic anchor)
 - **Solid Arrows** = Direct progression within a discipline
 - **Dotted "Bridge" Lines** = Convergence points where philosophies overlap
 - 🔴 **Red Nodes** = Concordant Halls paths (Oath & Purpose)
@@ -476,9 +513,12 @@ Your Path web (by Level 10) will show which philosophies matter most to YOU—re
 - ❌ Permanent +1 defense die to all defense rolls
 - ❌ Permanent +1 proficiency
 - ❌ Increased exertion cap per turn
-- ❌ Increased HD pool
+- ❌ Scaling HD pool increases (flat one-time bonuses on specific Primaries are acceptable)
 - ❌ Flat damage increases
 - ❌ Always-on bonuses that bypass risk
+
+**Primary Feat Exception — Proficiency Milestones:**
+Primary Feats are the strongest feats you'll ever take. Each Primary includes a **Proficiency 3+ Milestone** — a modest enhancement that activates at Proficiency 3 (Levels 5-6). This ensures Primaries grow with your character without dominating high-level play. Milestones are tied to Proficiency because it's the system's cleanest scaling stat.
 
 **Critical Principle: Feats change WHEN you push, not HOW STRONG pushing is.**
 
@@ -554,7 +594,7 @@ Each feat should create interesting **decision points** about **when and how to 
 
 ---
 
-## The Ten Disciplines
+## The Thirteen Disciplines
 
 Each Primary Feat opens a unique branch of personal focus. Choose one at Level 1—this becomes your **Foundation**.
 
@@ -571,7 +611,9 @@ You've dedicated yourself to martial discipline.
 - When wielding your Signature Weapon and spending at least 1 Exertion die, gain +1d6 to that attack roll (this extra die does NOT burn HD on 1s—it represents your trained reliability)
 - You may don/doff armor as a free action (narrative benefit)
 
-**Design Note:** This is conditional (requires exertion commitment) and grants reliable bonus die without bypassing the risk of your exertion dice.
+**Proficiency 3+ Milestone:** Your first Signature Weapon hit each encounter strips 1 defense die from the target until end of their next turn (minimum 0 defense dice). Your trained precision finds the gap in their guard.
+
+**Design Note:** This is conditional (requires exertion commitment) and grants reliable bonus die without bypassing the risk of your exertion dice. The milestone rewards mastery without inflating damage math.
 
 **Connects to:** `Weapon Specialist` • `Defensive Stance` • `Combat Reflexes` • `Tactical Mind`
 
@@ -698,7 +740,9 @@ You've mastered stealth and misdirection.
 - Once per encounter when attacking from hiding, your target rolls defense with -1d6 (describe how you exploit their blindness)
 - You can attempt to hide in combat as a free action if you have cover or concealment
 
-**Design Note:** Conditional on environment (darkness) and limited (once per encounter for defense penalty), creates stealth specialist without always-on bonuses.
+**Proficiency 3+ Milestone:** Once per encounter as a free action, you may suppress light sources within 10 yards for 1 round (torches gutter, lanterns dim, magical light flickers to dim). This creates the dim conditions your other abilities thrive in. Darkness answers your call.
+
+**Design Note:** Conditional on environment (darkness) and limited (once per encounter for defense penalty), creates stealth specialist without always-on bonuses. The milestone lets you create your own conditions rather than relying on the GM.
 
 **Connects to:** `Shadow Step` • `Ambush Predator` • `Silent Movement` • `Misdirection`
 
@@ -749,7 +793,9 @@ You've mastered stealth and misdirection.
 #### Blink Step
 **Prerequisite:** `Shadow Step`
 
-**Benefit:** Shadow Step can now be used Proficiency times per long rest instead of once per short rest. Distance remains 30 yards.
+**Benefit:** Shadow Step no longer requires darkness at the destination — you can emerge from shadows into any lighting. When you arrive, a burst of darkness (5-yard dim area) emanates from your arrival point for 1 round, concealing your appearance. Additionally, you can bring one willing ally within 5 yards through the shadow-path with you. Distance remains 30 yards.
+
+**Design Note:** Transforms Shadow Step from environmental dependence to environmental creation. The ally-carry and dim burst make it tactically richer without just adding uses.
 
 **Connects to:** `Shadow Step` → `Liminal-Born` • `Phase Walk`
 
@@ -801,6 +847,8 @@ You have a deep connection to nature and beasts.
 - Gain +2d6 to all Wilderness skill rolls (doesn't burn HD on 1s)
 - You can communicate simple concepts with animals (not mind-reading, but intent)
 - Once per long rest, you may call a **Beast Companion** (wolf, hawk, bear, etc.) that aids you for one scene. It has HD = half your level, acts on your turn following simple commands
+
+**Proficiency 3+ Milestone:** Your Beast Companion gains +1d6 to its own actions (doesn't burn HD). Your animal communication deepens — you can convey plans, warnings, and abstract concepts to animals. Complex ideas like "guard this passage and howl if anyone approaches from the east" are understood.
 
 **Connects to:** `Beast Bond` • `Tracker's Eye` • `Natural Resilience` • `Forager`
 
@@ -889,6 +937,8 @@ Your connection to your Defining Virtue runs deeper than most.
 - When you embody your Virtue dramatically (GM judges), gain 2 Affinity Dice instead of 1
 - Once per day: **Virtue Flare** (free action)—spend all stored Affinity Dice to create a narrative effect aligned with your Virtue (GM collaboration). Not a direct power boost, but a story moment.
 
+**Proficiency 3+ Milestone:** When you use Virtue Flare, you and each ally within 10 yards restore 1 HD. Your conviction mends those who witness it. The effect is visible — a pulse of light, a tremor of resolve, a warmth that defies the cold.
+
 **Connects to:** `Affinity Surge` • `Cosmic Awareness` • `Virtue's Voice` • `Resonant Strike`
 
 ---
@@ -896,7 +946,9 @@ Your connection to your Defining Virtue runs deeper than most.
 #### Affinity Surge
 **Prerequisite:** `Virtue-Bound`
 
-**Benefit:** When you spend Affinity Dice on a roll, you may spend up to (Proficiency + 2) instead of just Proficiency.
+**Benefit:** When you spend 2+ Affinity Dice on a single roll, gain an additional +1d6 (safe, doesn't burn HD on 1s). Your cosmic resonance amplifies when you commit fully — the Virtue-energy cascades.
+
+**Design Note:** Rewards committing multiple Affinity Dice at once rather than spending them one at a time. Creates moments of dramatic all-in cosmic power.
 
 **Connects to:** `Virtue-Bound` • `Cosmic Reservoir` → `Spell-Touched`
 
@@ -959,7 +1011,9 @@ Your connection to your Defining Virtue runs deeper than most.
 #### Cosmic Conduit
 **Prerequisite:** `Resonant Strike`
 
-**Benefit:** Resonant Strike can now be used Proficiency times per long rest instead of once per encounter.
+**Benefit:** When you use Resonant Strike, the Virtue-energy ripples outward — one ally within 10 yards also gains +1d6 on their next action (doesn't burn HD on 1s). Your Virtue echoes through those who witness it. Additionally, Resonant Strike can now be used Proficiency times per long rest.
+
+**Design Note:** Adds an echo/ripple effect on top of the frequency increase, making the investment feel qualitatively different rather than just "more of the same."
 
 **Connects to:** `Resonant Strike` → `Spell-Touched` • `Channeled Power`
 
@@ -972,9 +1026,11 @@ Your connection to your Defining Virtue runs deeper than most.
 Your body and will refuse to quit.
 
 **Benefit:**
-- Maximum HD increases by +1 per level (retroactive: Level 5 = +5 HD total)
+- Maximum HD increases by +2 (flat, does not scale with level)
 - When making Resolve checks, succeed on 4+ instead of 5+
 - Once per short rest: **Grit** (reaction)—when you would drop to 0 HD, remain at 1 HD instead
+
+**Design Note:** The flat +2 HD (not scaling) sets your foundation. Deep Reserves handles the growth. Grit + Resolve 4+ together define the "cannot be broken" fantasy without inflating math.
 
 **Connects to:** `Second Wind` • `Fortified Will` • `Pain Tolerance` • `Stubborn`
 
@@ -1019,7 +1075,9 @@ Your body and will refuse to quit.
 #### Deep Reserves
 **Prerequisite:** `Second Wind`
 
-**Benefit:** Your maximum HD increases by another +1 per level (total +2/level from Unyielding). Second Wind now restores Proficiency + 1d6 HD.
+**Benefit:** Your maximum HD increases by +1 per level (retroactive: Level 5 = +5 HD total). This is where your body's reserves truly deepen. Second Wind now restores Proficiency + 1d6 HD instead of Proficiency alone.
+
+**Design Note:** The scaling HD pool lives here at the secondary tier, not the Primary. This means you must invest 2 feat slots (Unyielding + Second Wind + Deep Reserves path) to get the full tank fantasy, which is the correct price.
 
 **Connects to:** `Second Wind` → `Hearth-Keeper` • `Cosmic Reservoir`
 
@@ -1056,14 +1114,14 @@ Your body and will refuse to quit.
 *"I shape magic with knowledge and will."*
 
 ### PRIMARY: Spell-Touched (Level 1)
-*Prerequisite: Must be a spellcaster*
-
-Magic flows through you more readily than most.
+Magic flows through you more readily than most. For non-casters, this represents latent magical ability awakening — choose one spell domain (Arcane, Divine, or Primal) to draw your bonus spells from.
 
 **Benefit:**
 - Learn +Proficiency bonus spells from your domain (doesn't count against Known Spells limit)
 - Ritual casting time reduced by 25%
 - Once per long rest: **Overcast**—cast a spell at your current tier, but apply the effect of one tier higher (damage, duration, range, etc.). Still roll at your tier.
+
+**Proficiency 3+ Milestone:** When you cast a spell and spend exertion, one of your exertion dice becomes safe for that roll (doesn't burn HD on 1s). Your magical discipline minimizes waste.
 
 **Connects to:** `Ritual Expertise` • `Spell Flexibility` • `Metamagic Dabbling` • `Arcane Efficiency`
 
@@ -1156,11 +1214,13 @@ You carry a fragment of your patron's influence.
 **Benefit:**
 - Choose your **Patron** (Azravael, Gephorix, Velkir, the Nameless, or another dark power)
 - Gain one **Pact Boon** based on patron:
-  - **Azravael** (Obligation): Once per long rest, rewrite one failure into a success (any roll). You now owe cosmic debt (GM tracks).
+  - **Azravael** (Obligation): Once per long rest, rewrite one failure into a success (any roll). You now owe cosmic debt — the GM tracks each use on a visible **Debt Ledger**. Each uncollected debt makes the next consequence more severe. The ledger always balances.
   - **Gephorix** (Suffering): When you or allies within 10 yards take damage, gain 1 **Pain Token**. Spend tokens: 3 tokens = +2d6 to any roll. Max 6 tokens.
   - **Velkir** (Secrets): Once per session, ask the GM a question about hidden information. You receive a truthful answer stripped of context.
   - **Nameless** (Void): Once per long rest, your attacks ignore all armor and temporary HD for one turn. You channel unreality.
 - **Warning:** Acting against your patron's interests invites consequences.
+
+**Proficiency 3+ Milestone:** Your patron's influence grants a permanent minor manifestation. Choose one: darkvision 30 yards, resistance to your patron's associated element (reduce incoming damage of that type by 1 HD), or the ability to sense creatures aligned with your patron within 30 yards. Your body becomes a vessel.
 
 **Connects to:** `Patron's Whisper` • `Borrowed Power` • `Marked by Darkness` • `Infernal Resilience`
 
@@ -1252,6 +1312,8 @@ You are the anchor that steadies your companions.
 - Once per short rest: **Steady Hands**—touch ally to grant them +1d6 on their next roll. You offer comfort and confidence.
 - **Sanctuary Presence**: Allies taking a short rest within 10 yards of you restore an additional +1d6 HD. Your presence is calming.
 
+**Proficiency 3+ Milestone:** Sanctuary Presence extends to 20 yards. Steady Hands can now also remove the Shaken condition (restore an ally from Resolve 3 to Resolve 4) once per long rest. Your care reaches further and deeper.
+
 **Connects to:** `Field Medic` • `Calming Words` • `Protective Instinct` • `Healer's Touch`
 
 ---
@@ -1304,7 +1366,9 @@ You are the anchor that steadies your companions.
 #### Voice of Comfort
 **Prerequisite:** `Calming Words`
 
-**Benefit:** Calming Words can now be used Proficiency times per long rest instead of once per encounter.
+**Benefit:** Calming Words now affects all allies within 10 yards who can hear you (not just one target — your voice carries weight). Additionally, when an ally succeeds on their Calming Words reroll, they gain +1d6 on their next action this encounter. Your reassurance doesn't just steady them — it emboldens them.
+
+**Design Note:** Transforms from frequency ("more uses") to scope (AoE) and reward (bonus on success). Creates dramatic "rally cry" moments.
 
 **Connects to:** `Calming Words` → `Silver Tongue` • `Inspiring Presence`
 
@@ -1313,7 +1377,9 @@ You are the anchor that steadies your companions.
 #### Guardian's Call
 **Prerequisite:** `Protective Instinct`
 
-**Benefit:** Protective Instinct can now be used Proficiency times per long rest instead of once per encounter. Additionally, you may use it on yourself.
+**Benefit:** Your protection has teeth. When you use Protective Instinct and the ally's defense succeeds, you may immediately make a free Basic attack against the attacker as a reaction — your warning becomes a battle cry. Additionally, you may use Protective Instinct on yourself. Once per encounter for the counterattack; Protective Instinct itself can be used Proficiency times per long rest.
+
+**Design Note:** Transforms pure defense into defense-with-offense. The counterattack rewards successful protection and creates guardian fantasy — "hurt my friends and I'll make you pay."
 
 **Connects to:** `Protective Instinct` → `War-Trained` • `Defensive Stance`
 
@@ -1338,6 +1404,8 @@ You exist partially outside normal reality.
 - **Threshold Sight**: You perceive both material and spirit worlds simultaneously. See invisible creatures, notice planar boundaries, sense magical auras within 30 yards.
 - Once per long rest: **Phase Walk**—become incorporeal for 1 round (immune to physical damage, can move through solid objects, can't attack or interact physically). Describe how you slip between spaces.
 - Gain +2d6 to saves against teleportation/banishment effects (doesn't burn HD on 1s)
+
+**Proficiency 3+ Milestone:** Threshold Sight extends to 60 yards. You can sense when teleportation or portal magic is used within that range, and you perceive the destination — a flash of the other side. The veil thins further for you.
 
 **Connects to:** `Spirit Sense` • `Phase Step` • `Between Worlds` • `Planar Awareness`
 
@@ -1391,7 +1459,9 @@ You exist partially outside normal reality.
 #### Blink Travel
 **Prerequisite:** `Phase Step`
 
-**Benefit:** Phase Step can now be used Proficiency times per long rest instead of once per short rest.
+**Benefit:** Phase Step distance increases to 40 yards. When you phase, you briefly perceive the space between realms — the GM reveals one hidden feature of the area you pass through (traps, hidden doors, invisible creatures, secret passages, etc.). Additionally, Phase Step can be used Proficiency times per long rest. The veil is your window.
+
+**Design Note:** Distance increase + free information on each use makes this qualitatively different from Phase Step rather than just "more teleports." The liminal perception ties perfectly to the between-worlds fantasy.
 
 **Connects to:** `Phase Step` → `Shadow Step` • `Wanderer`
 
@@ -1423,8 +1493,10 @@ You navigate social situations with grace and cunning.
 
 **Benefit:**
 - Gain +2d6 to all Influence skill rolls (doesn't burn HD on 1s)
-- Once per session: **Perfect Pitch**—automatically succeed on one social roll (persuasion, deception, negotiation). Describe your masterful performance.
+- Once per long rest: **Perfect Pitch**—reduce the required successes on one social roll by 2 (minimum 1). Describe your masterful performance — the perfect words, the precise timing, the devastating charm.
 - **Read the Room**: Spend 1 minute observing a social situation to learn the power dynamics, tensions, and key figures (GM provides useful social information)
+
+**Proficiency 3+ Milestone:** Read the Room becomes instant — a glance (free action) is sufficient for social situations you've studied before (you've visited the location, met the key figures, or spent time observing the culture previously). Your social intuition is second nature.
 
 **Connects to:** `Charming` • `Deceptive` • `Commanding Presence` • `Negotiator`
 
@@ -1512,6 +1584,8 @@ You approach problems with research and careful study.
 - Gain +2d6 to all Lore skill rolls (doesn't burn HD on 1s)
 - Once per long rest: **Recall Lore**—automatically know one relevant fact about your current situation (history, creature, artifact, magic, etc.). GM provides useful information.
 - **Tool Proficiency**: Choose two tool sets (alchemist's supplies, smith's tools, thieves' tools, cartographer's tools, etc.). You gain +1d6 when using them (doesn't burn HD on 1s).
+
+**Proficiency 3+ Milestone:** When you spend 1 round studying a creature, trap, puzzle, or obstacle, your next related action requires 1 fewer success (minimum 1). Your study translates to decisive advantage — knowledge is preparation.
 
 **Connects to:** `Lore Master` • `Craftsman` • `Linguist` • `Investigator`
 
@@ -1601,6 +1675,8 @@ You are most alive when moving between places.
 - **Wayfinder**: You always know which direction is north and can estimate distances traveled with uncanny accuracy
 - Once per long rest: **Second Wind While Moving**—restore Proficiency HD while traveling without stopping (represent long-practiced endurance)
 
+**Proficiency 3+ Milestone:** Your adaptability extends beyond travel — the first time each encounter you attempt an action type you haven't tried yet this encounter, gain +1d6 (doesn't burn HD on 1s). You've picked up something useful everywhere you've been.
+
 **Connects to:** `Tireless Traveler` • `Cartographer` • `Cultural Adapter` • `Resourceful`
 
 ---
@@ -1677,6 +1753,112 @@ You are most alive when moving between places.
 
 ---
 
+## 👊 Sovereign Focus
+*"I answer to no one. I owe nothing. I built this."*
+
+### PRIMARY: Self-Made (Level 1)
+You have forged yourself through discipline rather than destiny. No patron, no cosmic gift, no wild bond — just will.
+
+**Benefit:**
+- When you roll exertion dice and exactly 1 die shows a 1, you may reroll it once (still burns HD if the reroll is also a 1). Your discipline minimizes waste.
+- Once per short rest: **Composed** (reaction)—when a mental or emotional effect targets you (fear, charm, domination, intimidation), gain +2d6 to resist (doesn't burn HD on 1s). Your will is your shield.
+
+**Proficiency 3+ Milestone:** Composed can now also be used as an action to break free from an ongoing mental or emotional effect (charm, fear, domination). You don't wait for it to wear off — you *decide* it's over.
+
+**Design Note:** Self-Made rewards self-sufficiency without punishing teamwork. The exertion reroll is modest (only triggers on exactly 1 die showing 1, not multiple), and Composed is reactive. The class appeals to Monks, lone-wolf Rangers, and anyone who wants to say "I got here on my own."
+
+**Connects to:** `Iron Focus` • `Efficient Action` • `Self-Reliant` • `Unbroken`
+
+---
+
+#### Iron Focus
+**Prerequisite:** `Self-Made`
+
+**Benefit:** Once per encounter, declare **"I will not be distracted."** You are immune to Resolve loss from failed Expert+ difficulty actions for 1 round. Additionally, you cannot be taunted, goaded, or socially manipulated into breaking concentration during this round. Your focus is absolute.
+
+**Design Note:** Resolve loss from hard failures is a major risk in Affinity. Immunity for 1 round encourages attempting risky actions you'd normally avoid — perfect for clutch moments.
+
+**Connects to:** `Self-Made` • `Laser Focus` → `War-Trained` • `Tactical Mind`
+
+---
+
+#### Efficient Action
+**Prerequisite:** `Self-Made`
+
+**Benefit:** When you succeed on an action with 2+ extra successes beyond what was required, restore 1 HD. Once per round. Your precision conserves energy — nothing wasted, nothing spilled.
+
+**Design Note:** Rewards skilled play (rolling well) and creates the sensation of effortless mastery. Triggers often enough to matter but caps at 1 HD/round to stay balanced.
+
+**Connects to:** `Self-Made` • `Conservation` → `Scholar's Method` • `Craftsman`
+
+---
+
+#### Self-Reliant
+**Prerequisite:** `Self-Made`
+
+**Benefit:** When no ally is within 20 yards of you, gain +1d6 to all rolls (doesn't burn HD on 1s). You fight harder alone — not out of rage, but out of practiced independence. You've always been your own backup.
+
+**Design Note:** Conditional on isolation (no ally within 20 yards), which means this is a tactical choice, not a permanent bonus. Pairs beautifully with scouts, sentinels, and flankers.
+
+**Connects to:** `Self-Made` • `Lone Wolf` → `Shadow-Trained` • `Wanderer`
+
+---
+
+#### Unbroken
+**Prerequisite:** `Self-Made`
+
+**Benefit:** When you lose Resolve and drop to a new Resolve stage (any stage), gain +1d6 on your next action. Pressure sharpens you rather than breaking you. Describe how you grit through the setback.
+
+**Design Note:** The Resolve spiral is Affinity's death spiral — this feat pushes back against it. You're still losing Resolve, but you get a brief burst of defiance. Pairs perfectly with the Resilience Focus tree.
+
+**Connects to:** `Self-Made` • `Tempered` → `Unyielding` • `Virtue-Bound`
+
+---
+
+#### Laser Focus
+**Prerequisite:** `Iron Focus`
+
+**Benefit:** Iron Focus now lasts until end of encounter (instead of 1 round). Additionally, your first Expert+ difficulty action each encounter requires 1 fewer success (minimum 1). Your concentration transforms difficulty into opportunity.
+
+**Design Note:** Extended Iron Focus + reduced difficulty on first expert action rewards those who specialize in clutch plays. The reduced success requirement is narrow (Expert+ only, first time only).
+
+**Connects to:** `Iron Focus` → `War-Trained` • `Tactical Mind` • `Scholar's Method`
+
+---
+
+#### Conservation
+**Prerequisite:** `Efficient Action`
+
+**Benefit:** Efficient Action's threshold drops — restore 2 HD when you succeed with 3+ extra successes (instead of 1 HD for 2+ extra). Additionally, when you roll a natural 6 on an exertion die, that die protects you: 1s on other exertion dice in the same roll don't burn HD. Mastery protects you from waste.
+
+**Design Note:** The natural-6 protection is elegant — it means your best rolls partially shield your worst, creating a sensation of "earned armor." Pairs with Spell-Touched's safe exertion milestone.
+
+**Connects to:** `Efficient Action` → `Scholar's Method` • `Spell-Touched`
+
+---
+
+#### Lone Wolf
+**Prerequisite:** `Self-Reliant`
+
+**Benefit:** Self-Reliant bonus increases to +2d6 (still doesn't burn HD on 1s). When ambushed or surprised while alone, you still act on the first round — you are never caught flat-footed. Your independence is your armor.
+
+**Design Note:** The surprise immunity is narrow (only when alone) and pairs with Shadow Mastery thematically. The +2d6 when isolated makes lone operating a genuine build choice.
+
+**Connects to:** `Self-Reliant` → `Shadow-Trained` • `Wanderer` • `Ghost Walk`
+
+---
+
+#### Tempered
+**Prerequisite:** `Unbroken`
+
+**Benefit:** When at Resolve 2 or lower, gain +2d6 on all actions until end of your next turn (doesn't burn HD on 1s). You become more dangerous the closer you are to breaking. Additionally, the first time each encounter you would drop to Resolve 0, you instead remain at Resolve 1 — you *refuse* to break.
+
+**Design Note:** The Resolve 0 save is once per encounter and doesn't prevent subsequent drops. This creates the dramatic "last stand" moment where the battered hero delivers their greatest performance. Pairs with Unyielding's Grit for a double-safety net that still requires investment.
+
+**Connects to:** `Unbroken` → `Unyielding` • `Virtue-Bound` • `Pain Tolerance`
+
+---
+
 ## Cross-Discipline Bridges
 
 The Path Board isn't isolated disciplines—many nodes connect across paths, creating hybrid journeys:
@@ -1706,6 +1888,68 @@ The Path Board isn't isolated disciplines—many nodes connect across paths, cre
 - **Social ↔ Scholar**: `Negotiator` ↔ `Mediator`, `Linguist` ↔ `Polyglot`
 - **Scholar ↔ Wanderer**: `Cartographer` ↔ `Map Reader`, `Resourceful` ↔ `Jack of All Trades`
 - **Wanderer ↔ Primal**: `Tireless Traveler` ↔ `Trail Blazer`
+- **Sovereign ↔ Martial**: `Iron Focus` ↔ `Tactical Mind`, `Laser Focus` ↔ `War-Trained`
+- **Sovereign ↔ Shadow**: `Self-Reliant` ↔ `Shadow-Trained`, `Lone Wolf` ↔ `Ghost Walk`
+- **Sovereign ↔ Resilience**: `Unbroken` ↔ `Unyielding`, `Tempered` ↔ `Pain Tolerance`
+- **Sovereign ↔ Cosmic**: `Unbroken` ↔ `Virtue-Bound`, `Tempered` ↔ `Virtue-Bound`
+- **Sovereign ↔ Scholar**: `Efficient Action` ↔ `Craftsman`, `Conservation` ↔ `Scholar's Method`
+- **Sovereign ↔ Arcane**: `Conservation` ↔ `Spell-Touched`
+- **Sovereign ↔ Wanderer**: `Self-Reliant` ↔ `Wanderer`, `Lone Wolf` ↔ `Wanderer`
+- **Scholar ↔ Liminal**: `Investigator` ↔ `Spirit Sense` *(new bridge — the investigator who questions spirits)*
+- **Wanderer ↔ Social**: `Cultural Adapter` ↔ `Negotiator` *(new bridge — the diplomat who's been everywhere)*
+
+---
+
+## Bridge Resonance
+
+**When you own nodes on both sides of a Bridge connection, you gain a small Resonance Bonus — a passive benefit that activates only because you've walked between philosophies.**
+
+Bridge Resonance rewards cross-pathing with something more than the sum of individual nodes. These bonuses are small, flavorful, and represent the convergence of different cosmic philosophies in one mortal. They activate automatically when both sides are owned.
+
+| Bridge Connection | Resonance Bonus |
+|---|---|
+| `Quick Draw` ↔ `Ambush Predator` | When you act first AND the target is unaware, deal +1 HD damage |
+| `Herbalist` ↔ `Field Medic` | Your herb remedies restore +1 HD when applied by someone with Field Medic |
+| `Misdirection` ↔ `Deceptive` | Your Misdirection doesn't cost your encounter use if you succeed on an Influence check first |
+| `Stubborn` ↔ `Immovable Object` | Allies adjacent to you cannot be frightened |
+| `Ghost Walk` ↔ `Between Worlds` | You leave no magical signature — detection spells require Expert (4+) to sense you |
+| `Virtue's Voice` ↔ `Inspiring Presence` | Your social Affinity Dice bonus extends to allies who can hear you speaking |
+| `Scarred Veteran` ↔ `War-Trained` | Your intimidation bonus applies to creatures you've damaged this encounter |
+| `Investigator` ↔ `Tracker's Eye` | Your investigation and tracking time is halved |
+| `Shadow Step` ↔ `Phase Step` | Your teleportation range increases by 10 yards (both abilities) |
+| `Cultural Adapter` ↔ `Charming` | You never suffer social penalties for being a foreigner or outsider |
+| `Iron Focus` ↔ `Tactical Mind` | When you use Iron Focus, one ally within 10 yards also ignores Resolve loss from failed Expert+ actions for 1 round |
+| `Efficient Action` ↔ `Craftsman` | Items you craft during downtime take 25% less time |
+| `Lone Wolf` ↔ `Ghost Walk` | While alone, you also cannot be tracked by scent or magic below Expert difficulty |
+| `Tempered` ↔ `Pain Tolerance` | At Resolve 2 or lower, wound penalties are halved |
+
+**Design Note:** Bridge Resonance bonuses are intentionally small — they're the "click" of two puzzle pieces fitting together, not a third feat's worth of power. They should make players smile, not break math.
+
+---
+
+## Discipline Mastery
+
+**When you take 4+ nodes from the same discipline (Primary + 3 from that tree), you unlock a Discipline Mastery passive — a permanent benefit reflecting your deep commitment to one philosophy.**
+
+Discipline Mastery is not a feat choice — it activates automatically the moment you take your 4th node from the same discipline. It represents the point where practice becomes identity.
+
+| Discipline | Mastery Passive |
+|---|---|
+| **Martial Mastery** | Your reputation as a warrior precedes you. +1d6 to social rolls where combat expertise is relevant (doesn't burn HD on 1s). NPCs recognize your martial prowess. |
+| **Shadow Mastery** | You can never be fully surprised. Even when ambushed, you act on the first round of combat. |
+| **Primal Mastery** | Natural animals never attack you unless magically compelled. Beasts and natural creatures recognize you as kin to the wild. |
+| **Cosmic Mastery** | You may spend your stored Affinity Dice on behalf of allies within 30 yards — channel your Virtue directly through your bond. |
+| **Resilience Mastery** | When you succeed on a Resolve check, restore 1 HD. Your endurance feeds itself. |
+| **Arcane Mastery** | Your ritual casting time is reduced by 75% total. The patterns of magic are second nature. |
+| **Pact Mastery** | Your patron considers you a favored servant. Borrowed Power results improve by +1 (minimum success on 2+). The debt still accrues. |
+| **Hearth Mastery** | Allies who complete a long rest within your Sanctuary Presence begin the next day with +1 temporary HD. Your care mends what sleep cannot. |
+| **Liminal Mastery** | Phase Walk can be used once per short rest instead of once per long rest. The veil barely exists for you. |
+| **Social Mastery** | Once per session, learn one secret about an NPC you've interacted with for at least 10 minutes. The GM reveals a hidden motivation, fear, or desire. |
+| **Scholar Mastery** | Recall Lore becomes at-will (no daily limit). Knowledge flows effortlessly. |
+| **Travel Mastery** | You and your party's overland travel speed increases by 25%. You find paths where others see wilderness. |
+| **Sovereign Mastery** | Once per long rest, when you would fail any roll, you may spend 2 HD to succeed instead. Sheer force of will overcomes the odds. |
+
+**Design Note:** Discipline Mastery rewards depth over breadth without punishing cross-pathing — you only need 4 of the 5+ possible nodes in a tree, leaving room for one branch into another discipline. The passive should feel like a badge of identity: *"I AM this."*
 
 ---
 
@@ -1716,7 +1960,7 @@ The Path Board isn't isolated disciplines—many nodes connect across paths, cre
 - L3: `Defensive Stance` (allies gain defense near you)
 - L6: `Hold the Line` (cross to Hearth—warn allies, grant +defense)
 - L9: `Protective Instinct` (cross to Hearth—intercept attacks)
-- L10: `Guardian's Call` (use protection multiple times)
+- L10: `Guardian's Call` (counterattack when you protect allies)
 
 **The Traveling Diplomat** *(Social + Exploration)*:
 - L1: `Silver Tongue` (Social Primary)
@@ -1724,6 +1968,7 @@ The Path Board isn't isolated disciplines—many nodes connect across paths, cre
 - L6: `Mediator` (cross to Scholar—resolve conflicts)
 - L9: `Cultural Adapter` (cross to Wanderer—multicultural understanding)
 - L10: `World Wise` (leverage cultural knowledge)
+- *Bridge Resonance:* `Cultural Adapter` ↔ `Charming` = no foreign social penalties
 
 **The Shadow Scholar** *(Knowledge + Stealth)*:
 - L1: `Scholar's Method` (Scholar Primary)
@@ -1731,11 +1976,12 @@ The Path Board isn't isolated disciplines—many nodes connect across paths, cre
 - L6: `Detective` (cross to Shadow—detailed investigation)
 - L9: `Silent Movement` (cross to Shadow—quiet research)
 - L10: `Ghost Walk` (leave no trace)
+- *Discipline Mastery:* Shadow Mastery (never surprised) at 4th Shadow node
 
 **The Virtue-Driven Mage** *(Magic + Cosmic)*:
 - L1: `Spell-Touched` (Arcane Primary)
 - L3: `Metamagic Dabbling` (flexible casting)
-- L6: `Cosmic Conduit` (cross to Cosmic—channel Virtue into spells)
+- L6: `Cosmic Conduit` (cross to Cosmic—Virtue-energy ripples to allies)
 - L9: `Resonant Strike` (cross to Cosmic—Virtue-enhanced actions)
 - L10: `Virtue's Voice` (social influence through conviction)
 
@@ -1745,6 +1991,7 @@ The Path Board isn't isolated disciplines—many nodes connect across paths, cre
 - L6: `Herbalist` (cross to Scholar—craft remedies)
 - L9: `Field Medic` (cross to Hearth—combat healing)
 - L10: `Healer's Touch` (remove conditions)
+- *Bridge Resonance:* `Herbalist` ↔ `Field Medic` = herb remedies restore +1 HD
 
 **The Pact-Bound Wanderer** *(Dark Power + Travel)*:
 - L1: `Pact-Bound` (Infernal Primary—Velkir patron for secrets)
@@ -1759,6 +2006,23 @@ The Path Board isn't isolated disciplines—many nodes connect across paths, cre
 - L6: `Immovable Object` (cross to Martial—grant stability to ally)
 - L9: `Battle Commander` (cross to Martial—tactical leadership)
 - L10: `Inspiring Presence` (cross to Social—rally allies)
+- *Bridge Resonance:* `Stubborn` ↔ `Immovable Object` = adjacent allies immune to fear
+
+**The Unbreakable Exile** *(Self-Mastery + Resilience)*:
+- L1: `Self-Made` (Sovereign Primary)
+- L3: `Unbroken` (pressure sharpens you)
+- L6: `Tempered` (cross to Resilience—more dangerous when battered)
+- L9: `Pain Tolerance` (cross to Resilience—ignore wound penalties)
+- L10: `Scarred Veteran` (cross to Social—scars tell stories)
+- *Bridge Resonance:* `Tempered` ↔ `Pain Tolerance` = halved wound penalties at Resolve 2+
+
+**The Disciplined Wanderer** *(Self-Mastery + Travel)*:
+- L1: `Self-Made` (Sovereign Primary)
+- L3: `Self-Reliant` (stronger alone)
+- L6: `Lone Wolf` (never surprised alone, +2d6 when isolated)
+- L9: `Tireless Traveler` (cross to Wanderer—terrain mastery)
+- L10: `Trail Blazer` (pathfinding mastery)
+- *Discipline Mastery:* Sovereign Mastery (spend 2 HD to force success) at 4th node
 
 ---
 
@@ -1768,6 +2032,7 @@ The Path Board isn't isolated disciplines—many nodes connect across paths, cre
 - Primary Feats are impactful but shouldn't overshadow Level 1 class abilities
 - All other nodes are equal in power—a Level 10 player isn't getting stronger nodes than a Level 3 player, just more customization
 - Feats create **opportunities** (social doors, skill advantages, tactical options) rather than raw power spikes
+- **Proficiency 3+ Milestones** on Primaries are modest enhancements, not second feats — they should feel like "your specialty matures" not "you got a free feat"
 
 **Diverse Utility, Not Class Redundancy:**
 - Every path can lead to combat, social, skill, resource, and downtime benefits
@@ -1778,17 +2043,26 @@ The Path Board isn't isolated disciplines—many nodes connect across paths, cre
 - The most interesting characters walk across multiple disciplines
 - Cross-connections are intentional—reward creative combinations
 - Ask players: "How did you learn that? What bridges your two paths?"
+- **Bridge Resonance** bonuses activate automatically when both sides are owned — remind players these exist when they cross-path
+- Don't stack Bridge Resonance with similar effects from other sources — they represent unique synergy
+
+**New Mechanics Integration:**
+- **Bridge Resonance**: Small passive bonuses for owning both sides of a cross-discipline bridge. These are rewards, not requirements — don't gate story content behind them
+- **Discipline Mastery**: Automatic passive at 4+ nodes from one tree. Announce it when the player takes their 4th node — make it a moment. "You've walked the shadow path so deeply that surprise itself cannot find you"
+- **Proficiency 3+ Milestones**: Track when PCs hit Proficiency 3 (Levels 5-6) and remind them their Primary has grown. This is a satisfying mid-game moment
 
 **Narrative Weight:**
 - When a player takes a feat, explore it in the story
-- Pact-Bound should have patron interactions
+- Pact-Bound should have patron interactions — track the **Debt Ledger** visibly
 - Silver Tongue should open social opportunities
 - Scholar's Method should make knowledge useful
+- **Self-Made** characters should face challenges to their self-reliance — test their conviction, not just their dice
 
 **Balance Checks:**
 - If a feat grants +2d6, it's in specific circumstances or doesn't burn HD
 - If a feat grants once/encounter power, it's narrative flavor not combat domination
 - Primary Feats should feel roughly equivalent in impact across the board
+- **Unyielding's flat +2 HD** is the only Primary that directly increases HD pool — Deep Reserves handles the scaling at secondary tier
 
 **Level 10 Feat:**
 - Final feat at Level 10 completes a 5-feat journey (L1, L3, L6, L9, L10)
@@ -1799,3 +2073,4 @@ The Path Board isn't isolated disciplines—many nodes connect across paths, cre
 - GMs may gate certain nodes based on narrative choices (betraying patron locks Pact progression)
 - Virtues might naturally align or conflict with certain paths
 - Discovering hidden nodes through gameplay rewards exploration
+- **Discipline Mastery** should never be withheld as punishment — it's earned through investment, not behavior

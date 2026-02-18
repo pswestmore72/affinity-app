@@ -443,7 +443,7 @@ These create dynamic encounters without exertion micromanagement.
 
 **NPCs use the same layered defense system as PCs:**
 
-1. **Defense Capacity:** ½ Proficiency (rounded up, min 1 die)
+1. **Defense Capacity:** Proficiency (min 1 die)
 2. **Layers:** Magical barriers (d12) → Armor temp HD → Permanent HD
 3. **Roll & Check:** Roll capacity dice using layer's die type, meet 5+ threshold
 4. **Simplification:** 1s on NPC defense rolls **do NOT burn HD**
@@ -451,7 +451,7 @@ These create dynamic encounters without exertion micromanagement.
 **Example:**
 ```
 Verdant Guardian (Prof 3, Armor 2d10 temp HD) takes 4 HD fire damage:
-- Defense Capacity: ½ x 3 = 2 dice (rounded up)
+- Defense Capacity: 3 dice
 - Rolls: 2d10 (armor layer)
 - Result: 7, 2 = 1 success (meets 5+ threshold)
 - Outcome: Defense succeeds! Armor depletes (loses 2d10 temp HD), permanent HD untouched
