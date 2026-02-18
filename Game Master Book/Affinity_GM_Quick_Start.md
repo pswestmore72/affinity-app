@@ -78,7 +78,8 @@ ATTACK: [Name] (Basic, 2+)
 ## Running Combat
 
 ### Turn Structure
-1. **Roll initiative** (everyone rolls 3d6, count successes, highest goes first)
+1. **Roll initiative** (everyone rolls 3d6, sum the total, highest goes first)
+   - Range is 3-18; some NPCs roll fewer or more dice
    - You CAN exert on initiative (if not surprised)
    - Ties: highest single die wins, then GM decides
 2. **Each turn:** Move (10 yards free) + 2 actions

@@ -184,7 +184,7 @@ _______________________________________________
 
 ### COMBAT REFERENCE
 
-**Initiative:** Roll 3d6 (can exert if not surprised), count successes
+**Initiative:** Roll 3d6 and sum (range 3-18), can exert if not surprised
 
 **Defense Roll:** Proficiency dice + Exertion (if chosen)
 

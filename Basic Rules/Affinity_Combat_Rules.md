@@ -6,10 +6,10 @@
 
 ### Rolling Initiative
 
-- **Roll 3d6** and count successes (5+ = 1 success, 6 = 2 successes)
-- **Highest success count acts first**, descending order from there
+- **Roll 3d6** and sum the total (range 3-18)
+- **Highest total acts first**, descending order from there
 - **You CAN exert on initiative** (up to Proficiency extra dice) if you are **not surprised**
-- **Surprised characters** cannot exert and roll at disadvantage (roll 3d6, count only lowest result)
+- **Surprised characters** cannot exert and roll fewer dice (2d6 or 1d6 at GM discretion)
 
 ### Ties
 
