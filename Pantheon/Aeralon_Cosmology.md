@@ -655,18 +655,24 @@ Among her clergy, deliberate historical revision is considered a grave spiritual
 ---
 
 #### Gephorix the Many-Masked
-**Deity of Pain, Despair, and Vanity**
+**Deity of Excess, Sensation, and Truth Through Extremity**
 
-- **Appearance:** Large wraith with three heads; known shapechanger
-- **Colors:** White, grey, yellow, more grey
-- **Domains:** Pain, despair, vanity, truth through suffering
+- **Appearance:** Large wraith with three heads; known shapechanger. Each head represents a different aspect: the weeping face (suffering), the laughing face (pleasure), the silent face (desire unfulfilled)
+- **Colors:** White, grey, yellow, more grey—the colors of bone, ash, and fevered gold
+- **Domains:** Pain, suffering, despair, vanity, excess, euphoria, pleasure, desire, obsession, sensation without limit
 - **Realm:** The Ashen Waste
-- **Followers:** Self-denial cults, pain-as-truth adherents
-- **Nature:** Unknown origin and history. Power is vast and not to be crossed. Only "Evil" deity spotted on the Mortal Weave. Routinely walks among mortal civilizations sowing pain and despair. Believed responsible for the Gnome King and Queen Blitzspan going mad in 20435M.
+- **Followers:** Self-denial cults, pain-as-truth adherents, seekers of transcendence through sensation, pleasure-houses that have forgotten moderation, artists who believe suffering reveals beauty, those who have pursued desire until it consumed them
+- **Nature:** Unknown origin and history. Power is vast and not to be crossed. Only "Evil" deity spotted on the Mortal Weave. Routinely walks among mortal civilizations in various guises—sometimes sowing despair, sometimes offering ecstasy, always pushing mortals toward the extremes where truth waits. Believed responsible for the Gnome King and Queen Blitzspan going mad in 20435M. Gephorix does not distinguish between agony and bliss; both are merely intensity, and intensity reveals what moderation conceals.
 
-**Symbol:** Shattered mirror  
-**Practices:** Self-denial cults, pain-as-truth rituals  
-**Taboos:** Healing without price
+**The Full Scope:** Gephorix governs all sensation taken to its terminus. Pain *and* pleasure. Suffering *and* euphoria. Despair *and* obsessive desire. The ascetic who starves themselves for revelation and the hedonist who drowns in excess both kneel at the same altar. Gephorix teaches that the middle path is the lie—only at the edges does truth become visible.
+
+**Symbol:** Shattered mirror (reflecting fractured truths seen only through extremity)  
+**Practices:** Self-denial cults, pain-as-truth rituals, euphoric rites, sensation-seeking pilgrimages, artistic movements that pursue beauty through destruction  
+**Taboos:** Healing without price, moderation presented as virtue, comfort without cost
+
+**Custodial Connection:** The Living Accord recognizes Gephorix's domain—transformation through intensity is a legitimate cycle. But the Custodial Powers demand *balance*. Gephorix's followers who cannot return from the edge often feed the Cycle of Rot rather than the Cycle of Renewal. The Curator Arcanum watches Gephorix closely; some truths revealed through sensation are truths that should remain veiled.
+
+*"You sought pleasure? You sought pain? No—you sought the place where they become indistinguishable. I live there."*
 
 ---
 
@@ -869,29 +875,150 @@ The most renowned among them may verge on demi-divinity—but only because so ma
 
 **The Seven Charges of the Halls:**
 
-These charges are not divine mandates—they are **commitments**, chosen by those who believe civilization requires more than survival:
+These charges are not divine mandates—they are **commitments**, chosen by those who believe civilization requires more than survival. The Concordant Halls recognize oath-bound service across **all realms**, not merely the virtuous. A paladin of Caerith and an executioner sworn to Azravael walk the same Halls if their commitment is absolute.
 
-- **The Shield** — Protection, guardianship, sanctuary
-- **The Blade** — Justice, enforcement, righteous consequence
-- **The Bond** — Loyalty, fellowship, unbreakable trust
-- **The Crown** — Authority, command, burden of leadership
-- **The Flame** — Defiance, renewal, hope against despair
-- **The Stone** — Tradition, foundation, enduring memory
-- **The Bell** — Witness, truth-telling, accountability
+**The cosmos does not judge the oath—only whether it is kept.**
 
-**Each charge is vital.**  
+---
+
+**The Shield** — *Protection, guardianship, sanctuary*
+
+The Shield is oath-bound defense. Those who bear this Charge swear that something—or someone—will not fall while they stand.
+
+*Examples across the cosmos:*
+- **Empyreal Accord:** Caerith's paladins shielding refugees, guardians of sacred groves
+- **Mortal Weave:** City watch captains, bodyguards, fortress wardens, sanctuary keepers
+- **The Gloam:** Moonbound sentinels protecting the dead from desecration
+- **Engine of Bael-Zaroth:** Contract-bound protectors ensuring "assets" survive to fulfill obligations; those who guard tyrants not from loyalty but because they *swore* the tyrant would not die by blade
+- **Ashen Waste:** Pain-knights who shield suffering from interference—they guard torment itself, ensuring agony completes its "truth-teaching"
+
+The Shield does not ask *who* deserves protection. It asks only: **Will you stand when they come?**
+
+A Shield raised over the wrong people becomes a wall against the desperate. A Shield that never lowers becomes a cage.
+
+---
+
+**The Blade** — *Justice, enforcement, righteous consequence*
+
+The Blade is oath-bound retribution. Those who bear this Charge swear that certain acts will not go unanswered.
+
+*Examples across the cosmos:*
+- **Empyreal Accord:** Aubret's justicars, executioners of cosmic law, sword-saints of Nyroth
+- **Mortal Weave:** Headsmen, duelists of honor, avengers of broken oaths
+- **The Gloam:** Thalos's adjudicators ensuring consequence follows choice, even in death
+- **Engine of Bael-Zaroth:** Amendment enforcers who punish breach of contract with surgical brutality; their justice is *contractually obligated*, morality irrelevant
+- **Ashen Waste:** Despair-bringers who ensure the guilty suffer appropriately; their Blade cuts hearts, not flesh
+- **Verdant Verge:** Thorn-speakers who cull the old to feed the new—their justice is ecological, not moral
+
+The Blade does not ask *who* deserves consequence. It asks only: **Will you deliver what is owed?**
+
+A Blade swung without restraint becomes an executioner's habit. A Blade that demands perfection becomes genocide.
+
+---
+
+**The Bond** — *Loyalty, fellowship, unbreakable trust*
+
+The Bond is oath-bound connection. Those who bear this Charge swear their commitment to another will outlast death, reason, or morality.
+
+*Examples across the cosmos:*
+- **Empyreal Accord:** Nyroth's blood-brothers, sacred partnerships, celestial war-bands
+- **Mortal Weave:** Knights sworn to doomed lords, companions who refuse to abandon the fallen
+- **The Verdant Verge:** Symbiotic pairs who metabolize as one entity
+- **Engine of Bael-Zaroth:** Those bound by infernal partnership clauses—their loyalty is *literally contractual*; betrayal rewrites their name
+- **Ashen Waste:** Co-dependent tormentors whose bond is forged through shared infliction of suffering
+- **The Gloam:** Deathsworn pairs who follow each other into oblivion rather than break the oath
+
+The Bond does not ask *who* deserves loyalty. It asks only: **Will you break before they do?**
+
+A Bond held past reason becomes complicity. A Bond that refuses reflection becomes destruction of the self.
+
+---
+
+**The Crown** — *Authority, command, burden of leadership*
+
+The Crown is oath-bound governance. Those who bear this Charge swear to lead—and accept that leadership is a debt owed to those who follow.
+
+*Examples across the cosmos:*
+- **Empyreal Accord:** Divine monarchs, celestial commanders, oath-bound rulers
+- **Mortal Weave:** Chiefs, generals, stewards, those who accept the weight of others' survival
+- **Wild Expanse:** Pack alphas, herd-mothers, those who lead through strength
+- **Engine of Bael-Zaroth:** Hierarchy enforcers who lead through rewritten obligation—followers obey not from respect but because their signatures demand it
+- **Ashen Waste:** Tyrant-ascetics who rule through example of endured suffering, demanding others follow into pain
+- **The Gloam:** Pale Shepherds who guide the lost dead, carrying the burden of eternal grief
+
+The Crown does not ask *who* deserves to rule. It asks only: **Will you carry the cost of command?**
+
+A Crown worn too comfortably becomes a throne that forgets its purpose. A Crown that hoards authority becomes tyranny.
+
+---
+
+**The Flame** — *Defiance, renewal, hope against despair*
+
+The Flame is oath-bound persistence. Those who bear this Charge swear to continue when surrender would be rational.
+
+*Examples across the cosmos:*
+- **Empyreal Accord:** Beryn's laughing champions, those who refuse entropy through joy
+- **Mortal Weave:** Rebels against impossible odds, survivors who rebuild after apocalypse
+- **Verdant Verge:** Bloom-speakers who force growth through stone, refuse winter's claim
+- **Engine of Bael-Zaroth:** Those who defy Azravael's amendments through *technically compliant rebellion*—finding loopholes to resist while honoring the letter of law
+- **Ashen Waste:** Pain-defiers who endure agony not to transcend it, but to *prove it cannot break them*; their hope is spite given form
+- **The Gloam:** Candlewights—undead who refuse final rest, clinging to unfinished purpose
+
+The Flame does not ask *what* deserves continuation. It asks only: **Will you burn when all else dies?**
+
+A Flame that refuses to die becomes an inferno that consumes what it meant to save. A Flame that ignores consequence becomes reckless destruction.
+
+---
+
+**The Stone** — *Tradition, foundation, enduring memory*
+
+The Stone is oath-bound preservation. Those who bear this Charge swear that something will be remembered, maintained, carried forward.
+
+*Examples across the cosmos:*
+- **Empyreal Accord:** Archivists of sacred law, temple foundation-keepers
+- **Mortal Weave:** Historians, monument guardians, tradition-bearers, ancestral shrine keepers
+- **Living Accord:** Ancient forests thinking in centuries, geological consciousness
+- **Engine of Bael-Zaroth:** Ledger-keepers ensuring no debt is forgotten across millennia; amendment scribes preserving *exact wording* to enforce forever
+- **Ashen Waste:** Memory-torturers who ensure victims cannot forget their suffering—preservation as weapon
+- **The Gloam:** Black Reliquary archivists recording every death, every ending, so none are erased
+
+The Stone does not ask *what* deserves remembrance. It asks only: **Will you ensure it is not forgotten?**
+
+A Stone that will not move becomes the foundation of a prison. A Stone that refuses change becomes fossilization.
+
+---
+
+**The Bell** — *Witness, truth-telling, accountability*
+
+The Bell is oath-bound testimony. Those who bear this Charge swear to see clearly, speak truly, and ensure actions are witnessed.
+
+*Examples across the cosmos:*
+- **Empyreal Accord:** Radiant Witnesses recording cosmic oaths, truth-seers of Aubret
+- **Mortal Weave:** Trial witnesses, battle chroniclers, those who document atrocity to prevent denial
+- **Living Accord:** Predators who track prey perfectly—their witness is ecological, ensuring nothing hunts unseen
+- **Engine of Bael-Zaroth:** Auditor Choirs enumerating every obligation simultaneously; their witness makes debt inescapable
+- **Ashen Waste:** Despair-scribes forcing victims to witness their own degradation; truth as torture
+- **The Gloam:** Pale Shepherds who know every soul's unfinished business, refusing to let the dead lie about their lives
+
+The Bell does not ask *whose* truth deserves telling. It asks only: **Will you speak what you have seen?**
+
+A Bell rung without mercy becomes a weapon louder than any sword. A Bell that names all secrets becomes the end of trust.
+
+---
+
+**Each Charge is vital.**  
 **None are moral.**
-
-A Shield raised over the wrong people becomes a wall against the desperate.  
-A Blade swung without restraint becomes an executioner's habit.  
-A Bond held past reason becomes complicity.  
-A Crown worn too comfortably becomes a throne that forgets its purpose.  
-A Flame that refuses to die becomes an inferno that consumes what it meant to save.  
-A Stone that will not move becomes the foundation of a prison.  
-A Bell rung without mercy becomes a weapon louder than any sword.
 
 Those who carry a Charge do not choose good or evil.  
 **They choose what they will not allow to happen—and swear it.**
+
+The Concordant Halls do not judge the content of the oath. They judge only its **integrity**—whether the commitment is real, whether it is upheld, whether it serves the Balance by preventing collapse into chaos *or* into tyranny. A paladin of light and an executioner of darkness can both walk the Halls if their oaths are absolute.
+
+**This is why the Halls terrify gods.**
+
+Azravael's enforcers, Caerith's defenders, Gephorix's pain-priests, and Nyroth's champions all draw from the same cosmic reservoir of oath-bound power. Morality is for deities. The Halls recognize only **will made manifest and kept**.
+
+*The cosmos does not reward virtue. It rewards commitment.*
 
 **The Nature of Their Power:**
 
@@ -931,17 +1058,139 @@ Because of this, only mortals are entrusted with the Living Accord.
 
 **The Seven Living Domains:**
 
-These domains are not divine aspects—they are **roles**, assumed by those willing to bear their cost:
+These domains are not divine aspects—they are **roles**, assumed by those willing to bear their cost. The Living Accord spans **all realms**—the plague-speaker of the Wastes and the bloom-tender of Thei'wanar both serve the same cosmic function: maintaining the cycle.
 
-- **Breath** — Birth, propagation, resilience
-- **Thorn** — Predation, competition, resistance
-- **Tide** — Migration, change, adaptation
-- **Rot** — Decay, recycling, necessary endings
-- **Hearth** — Domestication, settlement, cultivation
-- **Star** — Cosmic influence, seasons, external pressure
-- **Howl** — Catastrophe, extinction, cleansing collapse
+**The cosmos does not judge what lives or dies—only whether the cycle continues.**
 
-**Each role is vital.**  
+---
+
+**Breath** — *Birth, propagation, resilience*
+
+Breath is oath-bound beginning. Those who bear this Domain swear to ensure that what must emerge, emerges.
+
+*Examples across the cosmos:*
+- **Wild Expanse:** Midwives of Thymera, those who coax life from inhospitable places
+- **Mortal Weave:** Healers, farmers, parents who choose to bring life into darkness
+- **Verdant Verge:** Bloom-catalysts who force germination, pollination emissaries
+- **Engine of Bael-Zaroth:** Those who birth new contracts from old obligations—"life" as recursion, spawning sub-clauses
+- **Ashen Waste:** Pain-birthers who ensure suffering propagates; they midwife new agonies from old wounds
+- **The Gloam:** Candlewight-kindlers who refuse to let the dead rest—resurrection as defiance of proper endings
+
+Breath does not ask *what* deserves to be born. It asks only: **Will you ensure it begins?**
+
+Breath that refuses death becomes cancer. Breath without selection becomes plague.
+
+---
+
+**Thorn** — *Predation, competition, resistance*
+
+Thorn is oath-bound struggle. Those who bear this Domain swear to maintain the pressure that keeps life sharp.
+
+*Examples across the cosmos:*
+- **Wild Expanse:** Apex hunters, those who ensure only the worthy survive
+- **Mortal Weave:** Competitive merchants, warriors who push others to excellence, those who refuse to let the weak stay weak
+- **Verdant Verge:** Thorn-speakers of the Tempest who destroy what adaptation cannot save
+- **Engine of Bael-Zaroth:** Debt collectors who pressure signatories until they evolve or collapse; competition as contractual selection
+- **Ashen Waste:** Agony-refiners who ensure suffering improves its victims—pain as pressure toward "truth"
+- **Roiling Crucible:** Elemental predators who cull the slow from the flux
+
+Thorn does not ask *who* deserves to struggle. It asks only: **Will you maintain the pressure?**
+
+Thorn without mercy becomes cruelty. Thorn that hunts the strong instead of the weak becomes chaos.
+
+---
+
+**Tide** — *Migration, change, adaptation*
+
+Tide is oath-bound movement. Those who bear this Domain swear to ensure that what must change, changes.
+
+*Examples across the cosmos:*
+- **Mortal Weave:** Nomads, refugees, those who carry culture across borders
+- **Verdant Verge:** Migration-guides who lead species through seasonal shifts
+- **The Gloam:** Pale Shepherds who guide souls between states of existence
+- **Engine of Bael-Zaroth:** Amendment Scriveners who ensure contracts evolve as circumstances shift—change as legal reinterpretation
+- **Roiling Crucible:** Flux-riders who embody transformation without destination
+- **Outer Black:** Those touched by absence who drift between existence and void
+
+Tide does not ask *where* change leads. It asks only: **Will you ensure nothing stays frozen?**
+
+Tide without anchor becomes erosion of meaning. Tide that moves too fast becomes destruction.
+
+---
+
+**Rot** — *Decay, recycling, necessary endings*
+
+Rot is oath-bound dissolution. Those who bear this Domain swear to ensure that what must end, ends completely.
+
+*Examples across the cosmos:*
+- **Wild Expanse:** Darthun's servants, fungi-speakers, those who return the dead to soil
+- **Mortal Weave:** Gravediggers, hospice keepers, those who help the dying complete their work
+- **The Gloam:** Black Reliquary archivists who ensure the dead are properly processed, not merely stored
+- **Verdant Verge:** Withering-agents who ripen fruit to fall, ensuring no bloom outlasts its purpose
+- **Engine of Bael-Zaroth:** Contract terminators who ensure fulfilled obligations are discharged—rot as legal closure
+- **Ashen Waste:** Despair-finishers who ensure suffering reaches its conclusion rather than becoming comfortable numbness
+
+Rot does not ask *what* deserves to end. It asks only: **Will you finish what must be finished?**
+
+Rot that refuses life becomes void. Rot that takes the living becomes murder.
+
+---
+
+**Hearth** — *Domestication, settlement, cultivation*
+
+Hearth is oath-bound stability. Those who bear this Domain swear to create spaces where life can concentrate and flourish.
+
+*Examples across the cosmos:*
+- **Empyreal Accord:** Ilyra's distant presence, architects of lasting communities
+- **Mortal Weave:** Farmers, city planners, those who create sustainable environments
+- **Verdant Verge:** Buried Root adherents who establish deep-growing, lasting ecosystems
+- **Engine of Bael-Zaroth:** Those who build stable contractual ecosystems—"cultivation" of reliable debt-producing populations
+- **Ashen Waste:** Pain-cultivators who create environments optimized for suffering to flourish and deepen
+- **The Gloam:** Graveyard keepers who maintain the dead's resting places as stable communities of the passed
+
+Hearth does not ask *who* deserves stability. It asks only: **Will you create a place that lasts?**
+
+Hearth that refuses change becomes stagnation. Hearth that hoards resources becomes fortress against the needy.
+
+---
+
+**Star** — *Cosmic influence, seasons, external pressure*
+
+Star is oath-bound perspective. Those who bear this Domain swear to bring external forces to bear on local systems.
+
+*Examples across the cosmos:*
+- **Empyreal Accord:** Those who carry divine will into mortal affairs, season-bringers
+- **Mortal Weave:** Astrologers, weather-workers, those who interpret cosmic signals
+- **Verdant Verge:** Season-avatars who trigger dormancy and awakening across vast regions
+- **Engine of Bael-Zaroth:** Those who apply cosmic precedent to local contracts—external jurisdiction imposing on personal obligation
+- **Roiling Crucible:** Chaos-importers who bring elemental instability to ordered systems
+- **Outer Black:** Those who bring the weight of absence to bear on existence—the Star that is a void
+
+Star does not ask *what* influence to bring. It asks only: **Will you connect the local to the cosmic?**
+
+Star that ignores local needs becomes tyranny of the distant. Star that refuses to intervene becomes abandonment.
+
+---
+
+**Howl** — *Catastrophe, extinction, cleansing collapse*
+
+Howl is oath-bound destruction. Those who bear this Domain swear to bring the necessary ending when systems fail beyond repair.
+
+*Examples across the cosmos:*
+- **Wild Expanse:** Extinction-bringers, wildfire-runners, volcanic awakeners
+- **Mortal Weave:** Those who burn fields to renew soil, war-bringers who collapse corrupt empires, plague doctors who cull the sick before infection spreads
+- **Verdant Verge:** Tempest-speakers who destroy entire regions so new life can emerge
+- **Engine of Bael-Zaroth:** Bankruptcy executors who collapse debt systems that have become unsustainable, rewriting reality through mass contract termination
+- **Ashen Waste:** Despair-apocalyptics who bring suffering to critical mass until it breaks through into transformation
+- **The Gloam:** Those who trigger mass death events when the natural order is violated beyond repair
+
+Howl does not ask *what* deserves preservation. It asks only: **Will you end what cannot be saved?**
+
+Howl without renewal is genocide. Howl that enjoys destruction becomes evil incarnate.
+
+---
+
+**Each Domain is vital.**  
 **None are moral.**
 
 **Who Bears the Accord:**
@@ -949,6 +1198,9 @@ These domains are not divine aspects—they are **roles**, assumed by those will
 - Rangers who understand when protection becomes harm
 - Shamans who speak for land, ancestors, and endings
 - Barbarians who embody destruction as renewal
+- Plague priests who serve Darthun's necessity
+- Death-speakers who carry souls through transition
+- Bloom-maniacs who force life where none should grow
 
 Those who hold a mantle too long are changed by it.  
 Those who refuse to relinquish one become dangerous.
@@ -959,7 +1211,7 @@ The Living Accord acts when growth becomes cancerous, when preservation becomes 
 
 **They are feared because they are right too often.**
 
-*Aligned with:* Thymera, Darthun, Iosyx
+*Aligned with:* Thymera, Darthun, Iosyx (and, disturbingly, aspects of Gephorix's suffering-as-transformation)
 
 ---
 
@@ -981,17 +1233,133 @@ The Curator exist because mortals are curious—and because curiosity survives c
 
 **The Six Paths of the Curator:**
 
-Each Path represents not mastery, but **restraint earned through understanding**:
+Each Path represents not mastery, but **restraint earned through understanding**. The Curator Arcanum spans **all realms**—the void-scholar of the Outer Black and the archivist of the Empyreal Accord both serve the same cosmic function: maintaining the balance between knowing and being ready to know.
 
-- **The Path of Moments** — Time and causality
-- **The Path of Thresholds** — Life, death, and return
-- **The Path of Unleashed Force** — Energy and destruction
-- **The Path of Mutable Flesh** — Form, alchemy, identity
-- **The Path of Open Doors** — Summoning and planar breach
-- **The Path of Veiled Sight** — Knowledge, prophecy, truth
+**The cosmos does not judge what is learned—only whether knowledge serves or enslaves.**
+
+---
+
+**The Path of Moments** — *Time and causality*
+
+The Path of Moments is oath-bound temporal wisdom. Those who walk it swear to understand causality deeply enough to know when not to change it.
+
+*Examples across the cosmos:*
+- **Empyreal Accord:** Archivists who record unchanging celestial history, time-witnesses who ensure precedent is preserved
+- **Mortal Weave:** Chronomancers who study paradox to prevent it, historians who understand that the past belongs to the dead
+- **The Gloam:** Those who understand that death is the ultimate moment, studying the instant of transition
+- **Engine of Bael-Zaroth:** Amendment Scriveners who rewrite contract clauses retroactively—time manipulation as legal precedent
+- **Roiling Crucible:** Chaos-chronologists who study how time behaves without causality
+- **Outer Black:** Those who touch the Nameless's timelessness—moments that never happened, futures that cannot exist
+
+The Path does not ask *what* moment deserves preservation. It asks only: **Will you understand time well enough to leave it alone?**
+
+Moments manipulated without wisdom collapse into paradox. Moments preserved beyond their purpose become prisons.
+
+---
+
+**The Path of Thresholds** — *Life, death, and return*
+
+The Path of Thresholds is oath-bound liminal wisdom. Those who walk it swear to understand the boundary between existence and non-existence.
+
+*Examples across the cosmos:*
+- **Empyreal Accord:** Those who study the nature of celestial immortality, the wisdom of eternal souls
+- **Mortal Weave:** Necromancers who study death to prevent improper resurrection, healers who know when to stop
+- **The Gloam:** Black Reliquary scholars who understand why some dead must stay dead
+- **Verdant Verge:** Those who study the threshold between growth and overgrowth, life and cancer
+- **Engine of Bael-Zaroth:** Those who study contract termination and renewal—what "ends" and what merely transforms
+- **Ashen Waste:** Pain-philosophers who study the threshold between suffering that teaches and suffering that destroys
+
+The Path does not ask *who* deserves to cross. It asks only: **Will you understand thresholds well enough to keep them sacred?**
+
+Thresholds crossed without wisdom become one-way doors. Thresholds guarded too jealously become walls against mercy.
+
+---
+
+**The Path of Unleashed Force** — *Energy and destruction*
+
+The Path of Unleashed Force is oath-bound destructive wisdom. Those who walk it swear to understand power well enough to know what it costs.
+
+*Examples across the cosmos:*
+- **Empyreal Accord:** Those who channel divine radiance, understanding that even holiness burns the unworthy
+- **Mortal Weave:** War-mages who study collateral damage, artificers who understand that power always escapes
+- **Roiling Crucible:** Elemental scholars who know that raw force cannot be truly controlled, only redirected
+- **Engine of Bael-Zaroth:** Those who study the force of accumulated obligation—debt that crushes, contracts that break minds
+- **Ashen Waste:** Pain-scholars who study how much agony a soul can absorb before it shatters
+- **Outer Black:** Those who study absence as force—the power of void to unmake
+
+The Path does not ask *what* deserves destruction. It asks only: **Will you understand force well enough to restrain it?**
+
+Unleashed force without wisdom becomes apocalypse. Force restrained indefinitely becomes pressure that must eventually explode.
+
+---
+
+**The Path of Mutable Flesh** — *Form, alchemy, identity*
+
+The Path of Mutable Flesh is oath-bound transformation wisdom. Those who walk it swear to understand change deeply enough to know what should remain stable.
+
+*Examples across the cosmos:*
+- **Empyreal Accord:** Those who study celestial form, understanding why angels cannot truly change
+- **Mortal Weave:** Transmuters, alchemists, those who reshape matter while preserving essence
+- **Verdant Verge:** Those who study the Verge's constant transformation, learning when mutation serves and when it destroys
+- **Roiling Crucible:** Zarun's wisdom-keepers who understand that identity is chosen, not given
+- **Engine of Bael-Zaroth:** Those who study how obligation reshapes souls—transformation through debt
+- **Ashen Waste:** Flesh-scholars who study how pain reshapes bodies and minds—transformation through suffering
+
+The Path does not ask *what* form is correct. It asks only: **Will you understand transformation well enough to preserve what must not change?**
+
+Mutable flesh without wisdom loses all identity. Flesh that refuses change becomes brittle and breaks.
+
+---
+
+**The Path of Open Doors** — *Summoning and planar breach*
+
+The Path of Open Doors is oath-bound dimensional wisdom. Those who walk it swear to understand connection between realms well enough to know what should remain separate.
+
+*Examples across the cosmos:*
+- **Empyreal Accord:** Those who understand why divine realms must remain distant, why angels cannot freely walk the Weave
+- **Mortal Weave:** Conjurers and planar scholars who study why the Veil exists, why some things should not meet
+- **The Gloam:** Those who understand why the dead's realm must remain shadowed, why the living should not linger
+- **Verdant Verge:** Threshold-walkers who know that fey promises become binding, that Verge bargains metabolize the bargainer
+- **Engine of Bael-Zaroth:** Those who understand that entering constitutes consent—the ultimate study of jurisdictional breach
+- **Outer Black:** Those who study what waits beyond opened doors, why some portals should never close because re-opening them would be worse
+
+The Path does not ask *what* realm deserves access. It asks only: **Will you understand doors well enough to keep the wrong ones closed?**
+
+Open doors without wisdom become invasions. Doors closed too long become prisons on both sides.
+
+---
+
+**The Path of Veiled Sight** — *Knowledge, prophecy, truth*
+
+The Path of Veiled Sight is oath-bound epistemic wisdom. Those who walk it swear to understand revelation well enough to know what should remain hidden.
+
+*Examples across the cosmos:*
+- **Empyreal Accord:** Those who know divine truth but understand why mortals must discover it themselves
+- **Mortal Weave:** Prophets who see futures but understand why most should not be spoken, archivists who know secrets that would collapse societies
+- **The Gloam:** Those who know the final truths of death but understand that the living must find their own way
+- **Engine of Bael-Zaroth:** Those who know every clause of every contract but understand that revealing them would create despair beyond recovery
+- **Ashen Waste:** Velkir's counterparts—those who know his truths but understand the corruption that follows "harmless" shortcuts
+- **Outer Black:** Those who have glimpsed the Nameless and understood why even speaking of absence invites it
+
+The Path does not ask *what* truth deserves revelation. It asks only: **Will you understand knowledge well enough to keep the dangerous parts veiled?**
+
+Veiled sight without wisdom becomes obscurantism. Truth revealed without preparation becomes weapon.
+
+---
+
+**Each Path is vital.**  
+**None are moral.**
 
 Those who walk these Paths are not the strongest mages.  
 **They are the ones who learned when not to cast.**
+
+**Who Walks the Paths:**
+- Scholars who study forbidden magic to ensure it stays forbidden
+- Weavers who understand that power is not neutral—it changes the wielder
+- Librarians who catalog apocalyptic spells they pray no one will read
+- Void-touched who walked too close to the Outer Black and learned humility through horror
+- Infernal scholars who study Azravael's amendments to find loopholes for escape
+- Death-seers who understand the threshold between mercy and violation
 
 **Their Highest Law:**
 
@@ -1006,7 +1374,8 @@ Legends speak of Curators who destroyed their own life's work because it worked 
 
 *"Wisdom is knowing what should remain unknown."*
 
-*Aligned with:* Aluneth, Murien, Aubret  
+*Aligned with:* Aluneth, Murien, Aubret (and, uncomfortably, aspects of Velkir's truth-revelation—the Curators war with him precisely because he is not wrong, merely irresponsible)
+
 *Role:* Prevent magical knowledge from outpacing mortal wisdom; maintain the Accords that prevent unregulated planar breach; document and preserve arcane discoveries while suppressing apocalyptic secrets.
 
 **Headquarters:** The Eternal Library exists simultaneously in seven locations across the Mortal Weave. No two scholars agree on all seven locations, and maps showing the Library's position change between readings.
@@ -1028,6 +1397,118 @@ Gods embody absolutes.
 Mortals live between them.
 
 And that—more than divinity—is why the Balance listens.
+
+---
+
+### Why the Mortal Weave's Custodial Powers Are Different
+
+Other realms have their own custodial structures. The Gloam has the Black Reliquary and the Loom of Fates. The Verdant Verge has the Verdant Synod and the Wheel of Ruin. The Empyreal Accord has angelic hierarchies. Even the Engine of Bael-Zaroth has the Auditor Choir and the Amendment Scriveners.
+
+**But the Mortal Weave's three Custodial Powers are fundamentally different.**
+
+**They span the entire cosmos.**
+
+The Black Reliquary serves the Gloam's death-truths. The Verdant Synod serves the Verge's ecological imperatives. The Auditor Choir serves Azravael's amendments. Each realm-bound custodial structure serves its realm, often serving its deities directly.
+
+**The Concordant Halls, the Living Accord, and the Curator Arcanum serve no deity. They serve Balance itself.**
+
+This is why their principles appear in *every* realm:
+- The Shield exists in the Empyreal Accord AND the Engine of Bael-Zaroth
+- Rot operates in the Wild Expanse AND the Ashen Waste
+- The Path of Veiled Sight walks in the Gloam AND the Outer Black
+
+**The Mortal Weave's Custodial Powers are not aligned with particular gods—they are aligned with the structure that allows gods to exist.**
+
+This makes them:
+- **More powerful** than realm-specific custodians (their jurisdiction is cosmic, not local)
+- **More dangerous** to anger (their consequences follow you across planes)
+- **More terrifying to deities** (they represent limits that even gods must acknowledge)
+
+**Why Mortals?**
+
+Deities embody absolutes. They cannot hold contradictions without shattering.
+
+Azravael cannot forgive a debt without ceasing to be Azravael.  
+Thymera cannot stop growth without becoming something else.  
+Gephorix cannot relieve suffering without dissolving.
+
+But mortals? Mortals hold contradictions *daily*.
+
+A mortal can protect (Shield) someone they know deserves punishment (Blade).  
+A mortal can cultivate life (Hearth) while preparing to destroy it (Howl).  
+A mortal can seek knowledge (Veiled Sight) while keeping secrets (Thresholds).
+
+**The Mortal Weave is the only realm where all cosmic pressures meet as equals.** No single principle dominates. No god rules unopposed. The Balance exists because mortals can hold the tension that would break gods.
+
+This is why the three Custodial Powers of the Mortal Weave have *real, tangible power* across all planes:
+- The Concordant Halls can enforce oaths made in the Engine itself
+- The Living Accord can trigger ecological collapse in realms that refuse necessary endings
+- The Curator Arcanum can seal knowledge that even deities cannot uncover
+
+**They are not the good guys.**
+
+A Priest of Gephorix channels the Living Accord (suffering-as-transformation).  
+A Combatant sworn to Azravael walks the Concordant Halls (contract-enforcement as purpose).  
+A Scholar who studied the Outer Black serves the Curator Arcanum (knowing what must stay veiled).
+
+The cosmos does not reward virtue.  
+It rewards **commitment**, **balance**, and **willingness to hold what cannot coexist**.
+
+---
+
+### The Cosmic Origin: How the Crown-Breaking Created the Custodial Powers
+
+**Before the Infernal Schism, there was no need.**
+
+The Sovereign Realms held their own balance. Each realm had custodial structures—the Verdant Synod, the Black Reliquary, the angelic hierarchies—but these served their realms, not the cosmos. The Balance was assumed. Cosmic law was *immutable*.
+
+**Then Azravael broke the Crown.**
+
+The Crown-Breaking was not merely an infernal coup. It was **proof that cosmic law could be rewritten**. Azravael did not destroy the Engine of Bael-Zaroth's other powers—she *amended their foundational code*. She inserted herself into the final line of every contract in existence: all debt, all obligation, all binding now terminates in her name.
+
+The shockwave propagated across every realm. Reality *thinned* at the fracture points. The Schism-Scarred were born—beings corrupted mid-existence when infernal law propagated through them. The Pact of Neutrality was hastily signed. The Roiling Crucible was sealed.
+
+**But the deeper wound had already been dealt.**
+
+Azravael had proven something that terrified even the gods: **divine law is not immutable**. One will, with sufficient cunning, could rewrite reality without destroying it. The cosmos had been *edited*.
+
+**And so the cosmos wrote back.**
+
+The Balance does not think. It does not plan. It does not punish. But it *responds*—the way an immune system responds to infection, the way a fracture responds with callus.
+
+In the aftermath of the Crown-Breaking, something *crystallized* in the Mortal Weave that had not existed before with such clarity. The Concordant Halls, the Living Accord, and the Curator Arcanum had always governed their principles in loose, diffuse ways. But now they **solidified into Custodial Powers** with *real, enforceable authority* across all planes.
+
+**The cosmos's amendment to Azravael's amendment.**
+
+- **The Concordant Halls** became the answer to contract-tyranny: oaths that serve commitment, not exploitation
+- **The Living Accord** became the answer to eternal debt: cycles that must end, transformation that cannot be hoarded
+- **The Curator Arcanum** became the answer to knowledge-as-weapon: truths that should remain veiled until mortals are ready
+
+Azravael proved the cosmos could be scarred. The Custodial Powers are the scar tissue.
+
+**Why the Mortal Weave?**
+
+Because the Mortal Weave was the only realm that did not align with any single cosmic principle. The Empyreal Accord is too lawful. The Wild Expanse is too primal. The Gloam is too final. The Engine is too *Azravael's*.
+
+Only in the Mortal Weave—where all cosmic pressures meet as equals—could custodial structures emerge that answer to the Balance itself rather than any particular power.
+
+Azravael wanted to be the final signature on all obligation.
+
+**The cosmos responded by creating entities whose authority she cannot amend.**
+
+The Concordant Halls can enforce oaths that supersede infernal contracts—because they serve *commitment*, not *termination in Azravael's name*.
+
+The Living Accord can trigger endings that Azravael's eternal debt cannot prevent—because cycles must *end*, even when the Engine wants them to compound forever.
+
+The Curator Arcanum can seal knowledge that even Azravael cannot access—because some truths are dangerous even to those who *edit reality*.
+
+**She scarred the cosmos. The cosmos wrote an amendment.**
+
+And now that amendment has become the manifestation of these ideals—three Custodial Powers that represent not *goodness*, but *balance*. Not *virtue*, but *limits*.
+
+*Even for gods. Especially for gods who thought they could rewrite everything.*
+
+**Mortals are forged from Balance. That is why they wield it.**
 
 ---
 

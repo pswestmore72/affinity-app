@@ -245,6 +245,18 @@ Shield ←→ Blade ←→ Bond ←→ Crown ←→ Flame ←→ Stone ←→ Be
 ```
 Each Way has 5 rows. Row 1 at Level 2, Row 5 at Level 10. Adjacent Ways are ring-connected.
 
+---
+
+### The Cosmic Truth of the Combatant's Ways
+
+*The Concordant Halls do not care whether you protect tyrants or liberators. They care whether you hold the line.*
+
+Every Way below represents a principle that exists across the entire cosmos—in the angelic legions of the Empyreal Accord, in the contract-enforcers of Bael-Zaroth's Engine, in the pack-oaths of the Wild Expanse, in the silent witnesses of the Gloam.
+
+When you walk a Combatant's Way, you are not claiming virtue. You are claiming *commitment*. The cosmos does not judge your oath—only whether you keep it.
+
+---
+
 #### Way of the Shield
 *Protection, guardianship, sanctuary*
 *Adjacent: Bell, Blade*
@@ -536,6 +548,18 @@ Reduce the Resolve cost of one Power Word per long rest by 1 (minimum 0). **Way 
 ```
 Shield ←→ Blade ←→ Bond ←→ Crown ←→ Flame ←→ Stone ←→ Bell ←→ (Shield)
 ```
+
+---
+
+### The Cosmic Truth of the Priest's Ways
+
+*The Concordant Halls are older than the gods Priests serve. The oaths that bind divinity itself flow through these channels.*
+
+A Priest walks the same Seven Charges as a Combatant—but where the Combatant embodies martial commitment, the Priest channels *divine* commitment. The Shield that guards a battlefield is the same Shield that wards a sanctuary. The Bell that tolls accountability on the corpse-field is the same Bell that speaks prophecy in temples.
+
+Your patron may be merciful or merciless. The Concordant Halls care only that your service is *true*.
+
+---
 
 #### Way of the Shield
 *Divine protection, warding, sanctuary*

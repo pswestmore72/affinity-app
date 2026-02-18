@@ -24,6 +24,24 @@ It is the **mechanical representation of the Custodial Powers converging in the 
 
 The Mortal Weave is the only realm where these forces meet as equals. The Path Board reflects that convergence.
 
+---
+
+### Why This Matters: The Crown-Breaking's Gift
+
+When Azravael broke the Crown and proved cosmic law could be rewritten, the cosmos responded by crystallizing the Custodial Powers into enforceable authorities across all planes. But in the Mortal Weave—where no single power dominates—something unique emerged.
+
+**Mortals became the living intersection of cosmic principles.**
+
+The Path Board is not just character advancement. It is the map of powers that exist because one deity's treachery forced the cosmos to create *limits that even gods must acknowledge*. When you walk these paths, you are walking channels carved by the cosmos's response to Azravael's wound.
+
+The angels of the Empyreal Accord can walk one Charge of the Concordant Halls. The enforcers of Bael-Zaroth can walk another. The druids of the Wild Expanse serve certain Domains of the Living Accord while the death-priests of the Gloam serve others.
+
+**Only mortals can walk them all. Only mortals can hold contradictions that would shatter gods.**
+
+That power is what turns adventurers into legends.
+
+---
+
 ### The Four Pillars of Mortal Growth
 
 The Path Board is organized around the cosmic forces that stabilize the Mortal Weave:
@@ -32,6 +50,8 @@ The Path Board is organized around the cosmic forces that stabilize the Mortal W
 *"Commitment shapes reality. Purpose gives it direction."*
 
 **Philosophy:** Sworn dedication, martial discipline, protection of others, honoring bonds.
+
+The Shield exists in the Empyreal Accord guarding celestial gates. The Shield exists in the Engine of Bael-Zaroth protecting contract-holders from breach. The Shield exists in the Gloam where death-knights guard tombs. **None of these are "good" or "evil"—they are committed.**
 
 **Path Disciplines:**
 - **Martial Focus** (War-Trained, Weapon Specialist, Defensive Stance)
@@ -47,6 +67,8 @@ The Path Board is organized around the cosmic forces that stabilize the Mortal W
 
 **Philosophy:** Cycles, survival, natural law, necessary endings, primal adaptation.
 
+The Tidekeepers of the Mortal Weave and the Rot-shepherds of the Gloam both serve the Living Accord. The druids who nurture forests and the predators who cull them both answer to the same cosmic principle. Growth without Rot is cancer. Rot without Growth is true death.
+
 **Path Disciplines:**
 - **Wilderness Mastery** (Nature's Treaty, Primal Instinct, Tracker's Eye)
 - **Survival Imperative** (Endurance Training, Forager, Hardy Constitution)
@@ -61,6 +83,8 @@ The Path Board is organized around the cosmic forces that stabilize the Mortal W
 
 **Philosophy:** Learning, careful study, restraint through understanding, preserving truth.
 
+The Curator Arcanum exists because Velkir the Ash-Tongued proves what happens when knowledge loses humility. They war with him philosophically—not by destroying truths, but by preserving the *context* that makes truth safe. The scholar who studies forbidden lore and the sage who seals it both serve the same principle: knowledge-with-limits.
+
 **Path Disciplines:**
 - **Scholarly Pursuit** (Loremaster, Research Focus, Historical Insight)
 - **Arcane Study** (Spell Scholar, Ritual Knowledge, Magical Theory)
@@ -74,6 +98,8 @@ The Path Board is organized around the cosmic forces that stabilize the Mortal W
 *"You are not what you were. You are choosing."*
 
 **Philosophy:** Self-determination, resource autonomy, internal economy, refusing external dependency.
+
+The Sovereign Self is the mortal addition to the cosmic equation. The gods embody absolutes. The Custodial Powers serve Balance. But *mortals?* Mortals can refuse both. The wanderer who answers to no oath, the self-made master who forges their own path—these are not *opposed* to the other Pillars. They are the proof that mortal will can stand alongside cosmic principles without being consumed.
 
 **Path Disciplines:**
 - **Travel Mastery** (Wanderer, Tireless Traveler, Cartographer, Cultural Adapter)
