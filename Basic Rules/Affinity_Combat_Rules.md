@@ -1,5 +1,32 @@
 # Combat Rules
 
+## Initiative
+
+**At the start of combat, all combatants roll initiative to determine turn order.**
+
+### Rolling Initiative
+
+- **Roll 3d6** and count successes (5+ = 1 success, 6 = 2 successes)
+- **Highest success count acts first**, descending order from there
+- **You CAN exert on initiative** (up to Proficiency extra dice) if you are **not surprised**
+- **Surprised characters** cannot exert and roll at disadvantage (roll 3d6, count only lowest result)
+
+### Ties
+
+When two combatants tie on initiative:
+1. Highest single die result wins
+2. If still tied, GM decides (or players choose among themselves)
+
+### Resolve Bonus
+
+Characters who roll initiative **and are not surprised** gain 1 Resolve (maximum 5). This represents the adrenaline surge of entering combat ready.
+
+### Initiative Stays Fixed
+
+Once established, initiative order remains constant for the entire combat unless an ability specifically changes it.
+
+---
+
 ## Action Economy
 
 ### Actions Per Turn

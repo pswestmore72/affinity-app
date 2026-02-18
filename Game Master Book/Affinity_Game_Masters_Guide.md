@@ -162,6 +162,28 @@ Examples: [2-3 concrete examples]
 
 ### Designing Skill Challenges
 
+**Core Philosophy: Group Rolls Are Default**
+
+Affinity is designed to avoid "skill monkey" and "face" character problems. Most skill challenges should be **group rolls** where everyone contributes and successes are pooled. The party wins or fails together.
+
+**Scaling Difficulty for Group Size:**
+
+| Difficulty | Base Successes | Per Extra Player (beyond 1) |
+|------------|----------------|----------------------------|
+| Easy | 3 | +1 |
+| Medium | 5 | +2 |
+| Hard | 8 | +3 |
+
+*Example: 4-player party, Hard challenge = 8 + (3 × 3) = 17 successes needed*
+
+**When to Use Individual Rolls:**
+- Initiative-order actions (each character acts separately)
+- Personal consequences (resisting poison, concentration)
+- Spotlight moments (one character attempting something unique)
+- GM discretion based on fiction
+
+---
+
 **Single-Domain Challenges:**
 - Clear, focused obstacles
 - One primary approach
@@ -176,10 +198,10 @@ Examples: [2-3 concrete examples]
   - **Craft:** Create distractions with gadgets
   - **Awareness:** Study patrol patterns for timing
 
-**Group Challenges:**
-- Multiple characters can contribute
-- Each rolls using their strengths
-- Pool successes toward a target
+**Group Challenges (Default):**
+- Multiple characters contribute simultaneously
+- Each rolls using their strengths (different domains welcome)
+- Pool successes toward a scaled target
 - Example: "Navigate the treacherous mountain pass"
   - Ranger uses **Wilderness** to find the path
   - Combatant uses **Fortitude** to help carry supplies

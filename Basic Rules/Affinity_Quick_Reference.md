@@ -87,6 +87,17 @@ Result: 4d8 body, 0 armor (3 dice destroyed)
 
 ---
 
+## Initiative
+
+**Roll 3d6**, count successes (5+ = 1, 6 = 2). Highest acts first.
+
+- **Can exert** on initiative (up to Proficiency) if not surprised
+- **Surprised:** Cannot exert, roll at disadvantage
+- **Ties:** Highest single die wins, then GM decides
+- **Resolve bonus:** Gain 1 Resolve when rolling initiative (not surprised, max 5)
+
+---
+
 ## Action Economy
 
 **Actions Per Turn:** Up to 2 actions
@@ -238,7 +249,10 @@ Trade physical vitality for mental fortitude. Use one action, lose 3 HD (no chec
 - Bonus dice from abilities do NOT burn HD on 1s (like proficiency dice—they represent trained reliability)
 - Any character can attempt any roll, but abilities give advantages in specific domains
 
-**Example:** Ranger's "Nature's Treaty" grants +2d6 on Wilderness rolls. Scholar's "Arcane Study" feat grants +2d6 on Lore rolls.
+**Group Rolls (Default for Skill Challenges):**
+- Everyone rolls, successes are pooled
+- Scale required successes by group size (see GM Guide)
+- The party wins or fails together — no "skill monkeys"
 
 **Resolution Modes:**
 - **Contest Mode:** Combat, duels, social conflict (extra successes = more impact)

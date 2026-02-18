@@ -184,7 +184,7 @@ _______________________________________________
 
 ### COMBAT REFERENCE
 
-**Initiative:** Roll Awareness or relevant skill
+**Initiative:** Roll 3d6 (can exert if not surprised), count successes
 
 **Defense Roll:** Proficiency dice + Exertion (if chosen)
 

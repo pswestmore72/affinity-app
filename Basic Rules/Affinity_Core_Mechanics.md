@@ -444,6 +444,8 @@ Skills represent specialized **domains** where training matters. They are **not 
 - No "skill monkey" characters who monopolize certain checks
 - Your class and feat choices determine where you gain advantages
 - Players remember and invoke their abilities when applicable domains arise
+- **Most skill challenges are GROUP ROLLS** — everyone rolls, successes are pooled, the party wins or fails together
+- Individual rolls are used for initiative-order actions, personal consequences, or spotlight moments
 
 **Example:** A Ranger's "Nature's Treaty" ability grants +2d6 when rolling for Wilderness-related tasks. The Wilderness skill itself doesn't grant dice—the class ability does. When tracking a beast through the forest, the Ranger rolls Proficiency + Exertion + 2d6 (Nature's Treaty bonus). The 2d6 from the ability don't burn HD on 1s.
 
