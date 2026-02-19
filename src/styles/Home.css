@@ -1,5 +1,5 @@
 /* ============================================
-   HOME PAGE - COSMIC LANDING EXPERIENCE
+   HOME PAGE - CELESTIAL LANDING EXPERIENCE
    ============================================ */
 
 .home-page {
@@ -14,7 +14,7 @@
   padding: var(--space-2xl) var(--space-lg);
   margin-bottom: var(--space-2xl);
   background: linear-gradient(180deg, var(--surface) 0%, transparent 100%);
-  border-bottom: var(--border-thin) solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
   position: relative;
 }
 
@@ -24,9 +24,11 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 300px;
-  height: 300px;
-  background: radial-gradient(circle, rgba(238, 180, 98, 0.05) 0%, transparent 70%);
+  width: 400px;
+  height: 400px;
+  background: 
+    radial-gradient(circle, rgba(155, 139, 184, 0.08) 0%, transparent 50%),
+    radial-gradient(circle, rgba(229, 193, 88, 0.06) 0%, transparent 70%);
   pointer-events: none;
 }
 
@@ -36,7 +38,7 @@
   color: var(--accent-gold);
   letter-spacing: 0.2em;
   margin-bottom: var(--space-sm);
-  text-shadow: 0 0 40px rgba(238, 180, 98, 0.3);
+  text-shadow: 0 0 40px rgba(155, 139, 184, 0.35), 0 0 60px rgba(229, 193, 88, 0.2);
 }
 
 .hero-subtitle {
@@ -59,7 +61,7 @@
 }
 
 .hero-tagline .symbol {
-  color: var(--secondary-color);
+  color: var(--accent-purple);
   font-size: 1.1em;
 }
 
@@ -90,15 +92,17 @@
 
 .philosophy-card {
   background: var(--surface);
-  border: var(--border-thin) solid var(--border-color);
+  border: 1px solid var(--border-color);
   padding: var(--space-lg);
   text-align: center;
   transition: border-color 0.2s ease, transform 0.2s ease;
+  border-radius: 2px;
 }
 
 .philosophy-card:hover {
-  border-color: var(--secondary-color);
+  border-color: var(--accent-purple);
   transform: translateY(-2px);
+  box-shadow: var(--border-mystical);
 }
 
 .philosophy-card .card-symbol {
@@ -145,18 +149,19 @@
 
 .nav-card {
   background: var(--surface);
-  border: var(--border-thin) solid var(--border-color);
+  border: 1px solid var(--border-color);
   padding: var(--space-lg);
   text-decoration: none;
   transition: all 0.2s ease;
   display: block;
-  clip-path: polygon(12px 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%, 0 12px);
+  border-radius: 2px;
 }
 
 .nav-card:hover {
-  border-color: var(--accent-gold);
+  border-color: var(--accent-purple);
   background: var(--surface-elevated);
   transform: translateY(-3px);
+  box-shadow: var(--border-mystical);
 }
 
 .nav-card .card-icon {
@@ -200,8 +205,9 @@
 
 .quick-block {
   background: var(--surface);
-  border: var(--border-thin) solid var(--border-color);
+  border: 1px solid var(--border-color);
   padding: var(--space-md);
+  border-radius: 2px;
 }
 
 .quick-block h4 {
@@ -211,7 +217,7 @@
   letter-spacing: 0.05em;
   margin-bottom: var(--space-sm);
   padding-bottom: var(--space-xs);
-  border-bottom: var(--border-thin) solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
 }
 
 .quick-block ol,
@@ -274,7 +280,7 @@
 .cta-section {
   text-align: center;
   padding: var(--space-xl);
-  border-top: var(--border-thin) solid var(--border-color);
+  border-top: 1px solid var(--border-color);
 }
 
 .cta-section .design-intent {

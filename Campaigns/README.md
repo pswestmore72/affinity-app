@@ -124,7 +124,7 @@ After completing **The Hollow Below**, each PC receives hooks leading to their i
 **Estimated Sessions**: 4-6  
 **Key Themes**: Grief, death, the price of immortality, mercy vs. justice
 
-**Synopsis**: A sacred Willow Tree protecting the village of Everspring is dying—poisoned by a father who bound his dead daughter's soul to its roots in a desperate bid to keep her "alive." The PCs must navigate grief-stricken antagonists, descend into a twilight root network between Mortal Weave and Verdant Verge, and decide whether to forcefully sever the binding or guide the souls to peace. All while The Bloom (a Verdant Excess) hungers to consume the village when the tree falls.
+**Synopsis**: A sacred Willow Tree protecting the village of Everspring is dying—poisoned by a father who bound his dead daughter's soul to its roots in a desperate bid to keep her "alive." The PCs must navigate grief-stricken antagonists, descend into a twilight root network between Mortal Weave and Tangled Verge, and decide whether to forcefully sever the binding or guide the souls to peace. All while The Bloom (a Verdant Excess) hungers to consume the village when the tree falls.
 
 **What It Tests**:
 - Hit Dice attrition through dungeon crawls
@@ -339,7 +339,7 @@ All five campaigns explore **guardianship and protection**:
 
 ### Shared Themes
 - **Binding Magic**: Souls bound to trees (Willow) vs. warriors bound to forests (Elm) vs. constructs bound to duty (Hollow Below)
-- **The Verdant Verge**: The Bloom threatens in Willow; Spring Wood borders Verge in Elm
+- **The Tangled Verge**: The Bloom threatens in Willow; Spring Wood borders Verge in Elm
 - **Custodial Powers**: Black Reliquary's corruption in Willow; Concordant Halls' oaths in Elm; Khuldras's temple guardians in Hollow Below
 - **Price of Immortality**: Opal trapped forever (Willow); Harper enduring 200 years (Elm); Sentinel Guardians eternally vigilant (Hollow Below)
 - **Forgotten Deities**: Khuldras (Hollow Below) nearly lost to memory; Aluneth (Moonless) fighting erasure; minor gods still matter
@@ -372,7 +372,7 @@ All five campaigns explore **guardianship and protection**:
 - The Black Reliquary takes interest in PCs (friend or foe?)
 
 **From The Elm Convocation**:
-- Spring Wood's new guardian faces Verdant Verge incursion
+- Spring Wood's new guardian faces Tangled Verge incursion
 - Laurel (if redeemed) asks PCs to rescue others trapped in Verge
 - Council mediator position leads to regional political intrigue
 
@@ -429,7 +429,7 @@ All five campaigns explore **guardianship and protection**:
 | **Boss Fight Difficulty** | Expert (Bloom Avatar, Thalos) | Expert to Legendary (Harper) |
 | **Moral Complexity** | Mercy-kill vs. peaceful release | Punishment vs. forgiveness |
 | **Custodial Power** | Black Reliquary (death/accounting) | Concordant Halls (oaths/purpose) |
-| **Verdant Verge Role** | The Bloom (antagonist force) | Boundary pressure (environmental) |
+| **Tangled Verge Role** | The Bloom (antagonist force) | Boundary pressure (environmental) |
 | **Replayability** | Moderate (choice-driven ending) | High (many negotiation paths) |
 | **New Player Friendly** | Moderate (emotionally heavy) | High (clear structure) |
 

@@ -79,8 +79,8 @@
 
 **The Planes:**
 - **The Mortal Weave** — Material plane where mortals dwell
-- **The Verdant Verge** — Realm of excess life (Bloom, Withering, Tempest)
-- **The Hollow Marches** — Realm of entropy and endings
+- **The Tangled Verge** — Realm of excess life (Bloom, Withering, Tempest)
+- **The Gloam** — Realm of entropy and endings
 - **The Curator's Arcanum** — Realm of knowledge and hidden truths
 - **The Ashen Waste** — Domain of Gephorix, where sensation becomes sacrament
 

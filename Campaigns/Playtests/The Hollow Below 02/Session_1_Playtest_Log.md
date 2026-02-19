@@ -42,7 +42,7 @@
 
 **Nyra Thornweave** arrived three days ago, drawn by rumors of miners dying in the dark. *"They shouldn't die alone,"* she told the innkeeper. She's been quietly observing, offering comfort to grieving families, learning the names of the dead. Shadow Affinity compels her—these deaths were sudden, violent, far from home. Someone must witness.
 
-**Roots-Between-Stone** came when the tremors began disrupting the Verdant Verge's cycles hundreds of miles away. Ancient stone carries vibrations far—and the Accord whispered that something sealed was prevented from transforming. The firbolg arrived yesterday, speaking little, listening to the earth with one massive hand pressed to cobblestones. Renewal demands completion of interrupted cycles.
+**Roots-Between-Stone** came when the tremors began disrupting the Tangled Verge's cycles hundreds of miles away. Ancient stone carries vibrations far—and the Accord whispered that something sealed was prevented from transforming. The firbolg arrived yesterday, speaking little, listening to the earth with one massive hand pressed to cobblestones. Renewal demands completion of interrupted cycles.
 
 **Kessa Ironvow** was passing through when militia tried to bar the western road "for your safety." She laughed in their faces. No one tells her where she can't go. Now she's camped at the edge of town, watching the mine entrance with hungry eyes. Something trapped for 800 years? She wants to meet it. Change recognizes a kindred spirit—locked things either break free or die trying.
 

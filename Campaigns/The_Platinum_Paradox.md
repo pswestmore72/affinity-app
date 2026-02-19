@@ -169,7 +169,7 @@ The party arrives at Silverbrook's market square on market day. The town is bust
 
 **First Encounter: A Merchant in Need**
 
-**Mira Copperkettle** (middle-aged  halfling merchant) approaches the party discreetly:
+**Mira Copperkettle** (middle-aged smallfolk merchant) approaches the party discreetly:
 
 *"You're new here. Word of advice: don't make trouble for the guards. They... they're not what they used to be. Just pay the fees, keep your heads down, and move on. Trust me."*
 

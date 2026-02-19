@@ -423,7 +423,7 @@
 
 **SUCCESS! Spirit Strike activates!**
 
-> **Roots' quarterstaff BLAZES with green-gold light—spiritual energy channeling from the Verdant Verge itself. The firbolg's eyes glow.**
+> **Roots' quarterstaff BLAZES with green-gold light—spiritual energy channeling from the Tangled Verge itself. The firbolg's eyes glow.**
 
 **Roots:** *"Stone without spirit... return to earth!"*
 

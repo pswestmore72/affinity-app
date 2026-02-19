@@ -1,5 +1,5 @@
 /* ============================================
-   CLASSES PAGE - PATH OF POWER STYLING
+   CLASSES PAGE - THE SEVEN PATHS
    ============================================ */
 
 .classes-page {
@@ -12,7 +12,7 @@
   text-align: center;
   margin-bottom: var(--space-xl);
   padding-bottom: var(--space-lg);
-  border-bottom: var(--border-thin) solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
 }
 
 .classes-header h1 {
@@ -34,22 +34,23 @@
 /* Individual Class Card */
 .class-card {
   background: var(--surface);
-  border: var(--border-thin) solid var(--border-color);
+  border: 1px solid var(--border-color);
   padding: var(--space-lg);
   position: relative;
   transition: all 0.2s ease;
   cursor: pointer;
+  border-radius: 2px;
 }
 
 .class-card::before {
-  content: '◇';
+  content: '✦';
   position: absolute;
   top: -0.6em;
   left: var(--space-md);
   background: var(--background);
   padding: 0 var(--space-xs);
   color: var(--secondary-color);
-  font-size: 0.8rem;
+  font-size: 0.75rem;
 }
 
 .class-card:hover {
@@ -81,12 +82,13 @@
 .hd-badge {
   display: inline-block;
   background: var(--surface-elevated);
-  border: var(--border-thin) solid var(--secondary-color);
+  border: 1px solid var(--secondary-color);
   padding: var(--space-xs) var(--space-sm);
   font-family: var(--font-display);
   font-size: 0.85rem;
   color: var(--secondary-color);
   margin-right: var(--space-sm);
+  border-radius: 2px;
 }
 
 .hd-badge.tough {
@@ -126,7 +128,7 @@
 .key-abilities {
   margin-top: var(--space-md);
   padding-top: var(--space-md);
-  border-top: var(--border-thin) solid var(--border-color);
+  border-top: 1px solid var(--border-color);
 }
 
 .key-abilities h3 {
@@ -166,7 +168,7 @@
 .class-expanded {
   margin-top: var(--space-lg);
   padding-top: var(--space-lg);
-  border-top: var(--border-thin) solid var(--border-color);
+  border-top: 1px solid var(--border-color);
 }
 
 .class-expanded h3 {
@@ -198,17 +200,17 @@
   background: var(--surface-elevated);
   color: var(--accent-gold);
   font-family: var(--font-display);
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 0.03em;
   padding: var(--space-sm) var(--space-sm);
   text-align: left;
-  border-bottom: var(--border-thin) solid var(--accent-gold);
+  border-bottom: 1px solid var(--accent-gold);
   white-space: nowrap;
 }
 
 .progression-table td {
   padding: var(--space-sm);
-  border-bottom: var(--border-thin) solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
   color: var(--text-secondary);
 }
 
@@ -289,12 +291,13 @@
 
 .way-tag {
   background: var(--surface);
-  border: var(--border-thin) solid var(--border-color);
+  border: 1px solid var(--border-color);
   padding: var(--space-xs) var(--space-sm);
   font-size: 0.85rem;
   color: var(--text-secondary);
   font-family: var(--font-display);
   letter-spacing: 0.03em;
+  border-radius: 2px;
 }
 
 .way-tag:hover {
@@ -307,7 +310,7 @@
   display: block;
   width: 100%;
   background: transparent;
-  border: var(--border-thin) solid var(--border-color);
+  border: 1px solid var(--border-color);
   color: var(--text-muted);
   padding: var(--space-sm);
   margin-top: var(--space-md);
@@ -315,6 +318,7 @@
   font-size: 0.85rem;
   cursor: pointer;
   transition: all 0.2s ease;
+  border-radius: 2px;
 }
 
 .collapse-btn:hover {

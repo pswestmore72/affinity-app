@@ -1,17 +1,17 @@
 import { useState } from 'react';
-import '../styles/Cosmology.css';
+import '../styles/Lore.css';
 
-type CosmologyTab = 'realms' | 'custodial' | 'deities' | 'affinities';
+type LoreTab = 'realms' | 'custodial' | 'deities' | 'affinities';
 
-export default function Cosmology() {
-  const [activeTab, setActiveTab] = useState<CosmologyTab>('realms');
+export default function Lore() {
+  const [activeTab, setActiveTab] = useState<LoreTab>('realms');
 
   return (
     <div className="cosmology-page">
       <header className="cosmology-header">
-        <h1>◇ Cosmology of Aeralon</h1>
+        <h1>✧ Lore of Aeralon</h1>
         <p className="design-intent">
-          A cosmic geography of planes, powers, and the forces that shape reality
+          The realms, powers, and forces that shape existence
         </p>
       </header>
 
@@ -55,7 +55,7 @@ export default function Cosmology() {
 function RealmsSection() {
   return (
     <div className="cosmology-section">
-      <h2>◇ The Shape of the Cosmos</h2>
+      <h2>✧ The Shape of the Cosmos</h2>
       <p>
         All existence is suspended within <strong>the Veil Beyond</strong>, the absolute outer boundary—a 
         lightless metaphysical expanse that separates reality from unreality. Within the Veil drift the 
@@ -67,15 +67,15 @@ function RealmsSection() {
         no time, no direction—only relative distance measured in will and intent."
       </div>
 
-      <h2>◇ The Reflected Realms</h2>
+      <h2>✧ The Reflected Realms</h2>
       <p>Three echoes of one truth—<strong>mortality, growth, and ending</strong>—bound together in a reflection that cannot be broken without unmaking all three.</p>
 
       <div className="realm-card reflected">
-        <h3>The Mortal Weave</h3>
-        <p className="realm-subtitle">Realm of Balance, Memory, and Mortality</p>
+        <h3>The Weave</h3>
+        <p className="realm-subtitle">The Mortal Weave — Realm of Balance, Memory, and Mortality</p>
         <p>
           The core Plane of existence. Most inhabitants born here are mortal beings—a payment for living 
-          on the only Plane to encompass elements from all other Inner and Outer Planes. The Mortal Weave 
+          on the only Plane to encompass elements from all other Inner and Outer Planes. The Weave 
           is full of life and death, and this balance makes it unique.
         </p>
         <div className="creatures-block">
@@ -86,9 +86,9 @@ function RealmsSection() {
 
       <div className="realm-card reflected">
         <h3>The Gloam</h3>
-        <p className="realm-subtitle">Realm of Death, Endings, and Mercy</p>
+        <p className="realm-subtitle">The Hollow Marches — Realm of Death, Endings, and Mercy</p>
         <p>
-          A reflection of the Mortal Weave shrouded in heavy mist and perpetual darkness. The entire realm 
+          A reflection of the Weave shrouded in heavy mist and perpetual darkness. The entire realm 
           is filled with pale darkness, save for a dim ever-present moon and faint distant stars. The Gloam 
           asks only: <em>What did this mean?</em>
         </p>
@@ -104,24 +104,24 @@ function RealmsSection() {
       </div>
 
       <div className="realm-card reflected">
-        <h3>The Verdant Verge</h3>
-        <p className="realm-subtitle">Realm of Excess Life, Growth, and Wild Magic</p>
+        <h3>The Verge</h3>
+        <p className="realm-subtitle">The Tangled Verge — Realm of Excess Life, Growth, and Wild Magic</p>
         <p>
           The "opposite" to the Gloam—full of unchecked vitality, biological excess, and generative chaos. 
           Despite its beauty, this is a dangerous and hostile Plane. Often called the Faerie Plane.
         </p>
         <p>
-          The Verdant Verge does not have rulers—it has <strong>ecological imperatives given will</strong>: 
+          The Verge does not have rulers—it has <strong>ecological imperatives given will</strong>: 
           The Bloom (unstoppable growth), The Withering (necessary decay), The Tempest (creative chaos), 
           and The Buried Root (slow endurance).
         </p>
         <div className="creatures-block">
-          <strong>Common Creatures:</strong> Fey, nymphs, satyrs, centaurs, pixies, dryads, Eladrin, 
-          halflings, goblins, trolls, thorn-elks, laughing foxes.
+          <strong>Common Creatures:</strong> Fey, nymphs, satyrs, centaurs, pixies, dryads, fey-elves, 
+          smallfolk, goblins, trolls, thorn-elks, laughing foxes.
         </div>
       </div>
 
-      <h2>◇ The Sovereign Realms</h2>
+      <h2>✧ The Sovereign Realms</h2>
       <p>Seats of divine authority where the gods maintain their highest power. These Planes are filled with Divine magic.</p>
 
       <div className="realm-card sovereign">
@@ -132,7 +132,7 @@ function RealmsSection() {
           Arvandor, and the House of Knowledge. This is the Plane of pure Celestial existence.
         </p>
         <div className="creatures-block">
-          <strong>Common Creatures:</strong> Unicorns, angels, aasimar, pegasi, guardinals, lillendi, 
+          <strong>Common Creatures:</strong> Unicorns, angels, iluminari, pegasi, guardinals, lillendi, 
           asuras, luminarch gryphons, oath-lions.
         </div>
       </div>
@@ -146,7 +146,7 @@ function RealmsSection() {
           contract-magic older than mercy.
         </p>
         <div className="creatures-block">
-          <strong>Common Creatures:</strong> Devils, imps, cambions, chain-wraiths, contract-hounds, 
+          <strong>Common Creatures:</strong> Devils, imps, half-fiends, chain-wraiths, contract-hounds, 
           debt-collectors, soul-brokers.
         </div>
       </div>
@@ -157,7 +157,7 @@ function RealmsSection() {
 function CustodialSection() {
   return (
     <div className="cosmology-section">
-      <h2>◇ The Custodial Powers</h2>
+      <h2>✧ The Custodial Powers</h2>
       <p>
         Ancient entities that maintain the fundamental laws and structures of reality. They are not gods 
         in the traditional sense—they are <em>functions</em>, cosmic roles that must be filled.
@@ -166,7 +166,7 @@ function CustodialSection() {
       <div className="power-grid">
         <div className="power-card">
           <h3>The Concordant Halls</h3>
-          <p className="power-domain">◇ Oaths, Purpose, Commitment</p>
+          <p className="power-domain">✦ Oaths, Purpose, Commitment</p>
           <p>
             Keepers of sworn purpose. The Halls do not judge what is sworn—only that commitment is real.
             Paladins, mercenaries, executioners—all walk the Halls equally if their purpose is true.
@@ -179,7 +179,7 @@ function CustodialSection() {
 
         <div className="power-card">
           <h3>The Living Accord</h3>
-          <p className="power-domain">◇ Nature, Balance, Life and Death Cycles</p>
+          <p className="power-domain">✦ Nature, Balance, Life and Death Cycles</p>
           <p>
             Maintains the balance between growth and decay, predation and preservation. The Accord 
             recognizes no difference between nurturing and culling—both are necessary for balance.
@@ -191,7 +191,7 @@ function CustodialSection() {
 
         <div className="power-card">
           <h3>The Curator Arcanum</h3>
-          <p className="power-domain">◇ Knowledge, Understanding, Patterns</p>
+          <p className="power-domain">✦ Knowledge, Understanding, Patterns</p>
           <p>
             Keepers of knowledge and humility. The Curator teaches that knowledge without humility 
             ends the world, but interpretation of this lesson varies. Understanding something 
@@ -204,7 +204,7 @@ function CustodialSection() {
 
         <div className="power-card">
           <h3>The Black Reliquary</h3>
-          <p className="power-domain">◇ Endings, Final Accounting, Necessary Destruction</p>
+          <p className="power-domain">✦ Endings, Final Accounting, Necessary Destruction</p>
           <p>
             Keepers of the Final Accounting. They record how each soul lived, how it ended, and whether 
             the ending matched the life. Not judges—archivists whose records cannot be falsified, even by gods.
@@ -216,19 +216,19 @@ function CustodialSection() {
 
         <div className="power-card">
           <h3>The Verdant Synod</h3>
-          <p className="power-domain">◇ Living Processes, Ecological Moderation</p>
+          <p className="power-domain">✦ Living Processes, Ecological Moderation</p>
           <p>
             Custodians who attempt to moderate the Excesses and prevent total ecological collapse 
-            in the Verdant Verge. They are gardeners of impossible scale.
+            in the Verge. They are gardeners of impossible scale.
           </p>
           <p className="power-classes">
-            <strong>Location:</strong> The Verdant Verge
+            <strong>Location:</strong> The Verge
           </p>
         </div>
 
         <div className="power-card">
           <h3>The Loom of Fates</h3>
-          <p className="power-domain">◇ Possibility, Paths Not Taken</p>
+          <p className="power-domain">✦ Possibility, Paths Not Taken</p>
           <p>
             Archivists of Possibility. They do not weave fate—they record the paths not taken, so that 
             the dead may understand what their choices cost and what they earned.
@@ -245,10 +245,10 @@ function CustodialSection() {
 function DeitiesSection() {
   return (
     <div className="cosmology-section">
-      <h2>◇ Greater Deities</h2>
+      <h2>✧ Greater Deities</h2>
       <p>
         Beyond the Custodial Powers exist gods—entities with personality, agenda, and mortal followers.
-        Every god reaches toward the Mortal Weave, yet none may claim it.
+        Every god reaches toward the Weave, yet none may claim it.
       </p>
 
       <div className="deity-section">
@@ -264,7 +264,7 @@ function DeitiesSection() {
       <div className="deity-section">
         <h4>Memory &amp; Passage</h4>
         <ul className="deity-list">
-          <li><strong>Aluneth</strong> — Memory, tides, continuity (resides in Mortal Weave)</li>
+          <li><strong>Aluneth</strong> — Memory, tides, continuity (resides in the Weave)</li>
           <li><strong>Murien of a Thousand Names</strong> — Stories, identity, craft</li>
           <li><strong>Thalos of the Even Hand</strong> — Consequence, choice, fate's weight</li>
           <li><strong>Aralys the Veilbearer</strong> — Death's mercy, final remembrance</li>
@@ -306,7 +306,7 @@ function DeitiesSection() {
       </div>
 
       <div className="lore-quote">
-        "Every god reaches toward the Mortal Weave, yet none may claim it. The Balance exists because they cannot agree."
+        "Every god reaches toward the Weave, yet none may claim it. The Balance exists because they cannot agree."
       </div>
     </div>
   );
@@ -315,7 +315,7 @@ function DeitiesSection() {
 function AffinitiesSection() {
   return (
     <div className="cosmology-section">
-      <h2>◇ The Affinity System</h2>
+      <h2>✧ The Affinity System</h2>
       <p>
         Characters possess <strong>Affinities</strong>—connections to fundamental virtues and cosmic principles 
         that grant bonus dice when embodied through action. Each Affinity represents a philosophy, a way of 
@@ -324,40 +324,40 @@ function AffinitiesSection() {
 
       <div className="affinity-grid">
         <div className="affinity-tag">
-          <h4>◇ Guardian</h4>
+          <h4>✦ Guardian</h4>
           <p>Protection, duty, steadfastness</p>
         </div>
         <div className="affinity-tag">
-          <h4>◇ Freedom</h4>
+          <h4>✦ Freedom</h4>
           <p>Liberation, choice, independence</p>
         </div>
         <div className="affinity-tag">
-          <h4>◇ Memory</h4>
+          <h4>✦ Memory</h4>
           <p>Preservation, truth, remembrance</p>
         </div>
         <div className="affinity-tag">
-          <h4>◇ Knowledge</h4>
+          <h4>✦ Knowledge</h4>
           <p>Understanding, patterns, humility</p>
         </div>
         <div className="affinity-tag">
-          <h4>◇ Chaos</h4>
+          <h4>✦ Chaos</h4>
           <p>Change, flux, transformation</p>
         </div>
         <div className="affinity-tag">
-          <h4>◇ Order</h4>
+          <h4>✦ Order</h4>
           <p>Structure, law, stability</p>
         </div>
         <div className="affinity-tag">
-          <h4>◇ Life</h4>
+          <h4>✦ Life</h4>
           <p>Growth, healing, vitality</p>
         </div>
         <div className="affinity-tag">
-          <h4>◇ Death</h4>
+          <h4>✦ Death</h4>
           <p>Endings, mercy, passage</p>
         </div>
       </div>
 
-      <h2>◇ Affinity Dice</h2>
+      <h2>✧ Affinity Dice</h2>
       <div className="realm-card">
         <h3>Earning Affinity Dice</h3>
         <p>

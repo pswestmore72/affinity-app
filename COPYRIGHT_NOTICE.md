@@ -31,7 +31,7 @@ This work is protected under international copyright law. Unauthorized reproduct
 
 For licensing inquiries, collaboration proposals, or permission requests:
 
-**Email:** affinity_chandle@gmail.com
+**Email:** affinity.chandle@gmail.com
 
 ---
 

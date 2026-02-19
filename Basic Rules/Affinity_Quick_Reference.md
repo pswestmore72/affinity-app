@@ -186,7 +186,7 @@ Trade physical vitality for mental fortitude. Use one action, lose 3 HD (no chec
 - Lose ≥ Proficiency + 1 HD in one round
 - Reduced to 0 HD
 - At 0 HD and take any hit
-- Use maximum Exertion in one round (= Proficiency)
+- Use maximum Exertion in one round (= Level)
 - Fail an Expert+ action
 - Certain enemy effects
 

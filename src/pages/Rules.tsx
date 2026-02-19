@@ -365,7 +365,7 @@ function DeathSection() {
           <li>Lose ≥ Proficiency + 1 HD in one round</li>
           <li>Reduced to 0 HD</li>
           <li>At 0 HD and take any hit</li>
-          <li>Use maximum Exertion in one round (= Proficiency)</li>
+          <li>Use maximum Exertion in one round (= Level)</li>
           <li>Fail an Expert+ action</li>
           <li>Certain enemy effects</li>
         </ul>

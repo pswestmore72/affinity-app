@@ -1,4 +1,4 @@
-﻿# The Shadowmark Debt
+# The Shadowmark Debt
 ## An Affinity Story Arc for Levels 1-3
 
 **Setting**: The Mortal Weave (Aeralon), the city of **Korshal**, the Crossroads City  
@@ -10,11 +10,11 @@
 
 ## The City of Korshal
 
-Before diving into the campaign, establish Korshal's characterâ€”it's not just a backdrop, but a living entity.
+Before diving into the campaign, establish Korshal's character—it's not just a backdrop, but a living entity.
 
 ### Geography & Layout
 
-**Korshal** sprawls across both banks of the **Silverrun River** where three ancient trade roads converge. Population: ~40,000. The city grew organically over centuries, resulting in winding streets, hidden alleys, and layers of construction. Old ruins lie beneath newer buildingsâ€”particularly in the Undercroft.
+**Korshal** sprawls across both banks of the **Silverrun River** where three ancient trade roads converge. Population: ~40,000. The city grew organically over centuries, resulting in winding streets, hidden alleys, and layers of construction. Old ruins lie beneath newer buildings—particularly in the Undercroft.
 
 **The Five Districts:**
 
@@ -27,7 +27,7 @@ Before diving into the campaign, establish Korshal's characterâ€”it's not j
   - **Koine's Mercantile**: Largest trading house, Kaine's "legitimate" business
   - **The Golden Scales**: High-end inn where deals are made
   - **Merchant's Plaza**: Auction house for rare goods, front for black market
-- **Atmosphere:** Opulent but paranoidâ€”everyone watching everyone
+- **Atmosphere:** Opulent but paranoid—everyone watching everyone
 - **Guild Presence:** Coterie operates quietly; merchant guilds control openly
 
 **2. The Undercroft** (South Bank, Lower City)
@@ -80,7 +80,7 @@ Before diving into the campaign, establish Korshal's characterâ€”it's not j
 
 ### The Coterie: Structure & Culture
 
-Not just "thieves guild"â€”**The Coterie** is a professional organization with century-old traditions.
+Not just "thieves guild"—**The Coterie** is a professional organization with century-old traditions.
 
 **Philosophy:**
 - "A thief takes. A professional makes the mark forget they had it."
@@ -90,9 +90,9 @@ Not just "thieves guild"â€”**The Coterie** is a professional organization w
 
 **Hierarchy:**
 - **The Silent Council** (3 unknown leaders, identities secret even to most members)
-- **Lieutenants** (like Whisperâ€”specialists who run operations)
+- **Lieutenants** (like Whisper—specialists who run operations)
 - **Full Members** (proven thieves, spies, fixers)
-- **Marked** (like the Rogueâ€”those who owe favors, not yet members)
+- **Marked** (like the Rogue—those who owe favors, not yet members)
 - **Shadows** (street informants, not formal members)
 
 **Specializations:**
@@ -110,17 +110,17 @@ Not just "thieves guild"â€”**The Coterie** is a professional organization w
 - Becomes **death mark** (visible to all Coterie) if broken
 
 **Shadowmark Powers (While Activated):**
-When the mark burns (debt called in), it grants boons to the bearer and their trusted companionsâ€”the guild's investment in success:
+When the mark burns (debt called in), it grants boons to the bearer and their trusted companions—the guild's investment in success:
 
 *For the Marked:*
 - **Guild's Edge:** Advantage on checks involving stealth, deception, lockpicking, or underworld knowledge (the Coterie's expertise flows through you)
 - **Shadow Strike:** Once per day, double damage on a single attack (shadows guide your blade to vital points)
 
 *For Allies Within 30 Feet:*
-- **The Guild's Favor:** Each ally gains one daily use of forced rerollâ€”they can reroll a failed check, or force an enemy to reroll a successful attack/check against them (the Coterie watches over those who serve their interests)
+- **The Guild's Favor:** Each ally gains one daily use of forced reroll—they can reroll a failed check, or force an enemy to reroll a successful attack/check against them (the Coterie watches over those who serve their interests)
 
 **Coterie Ethics:**
-Most members genuinely believe in "honorable thievery." They see themselves as necessary counterbalance to merchant-lord corruption. But recent years have seen driftâ€”some lieutenants taking darker contracts, philosophy compromising.
+Most members genuinely believe in "honorable thievery." They see themselves as necessary counterbalance to merchant-lord corruption. But recent years have seen drift—some lieutenants taking darker contracts, philosophy compromising.
 
 ### L'Argot des Ombres - The Shadow Tongue
 
@@ -137,8 +137,8 @@ The Coterie uses a thieves' cant based on archaic Korshalian dialect mixed with 
 - *"Vin doux"* (Sweet wine) = Wealthy target, lucrative job
 - *"Couteau et sourire"* (Knife and smile) = Assassin/dangerous contact
 - *"La dette vient"* (The debt comes) = Shadowmark activated
-- *"FrÃ¨re/SÅ“ur des toits"* (Brother/Sister of roofs) = Fellow thief greeting
-- *"Nuit bÃ©nie"* (Blessed night) = Farewell between guild members
+- *"Frère/Sœur des toits"* (Brother/Sister of roofs) = Fellow thief greeting
+- *"Nuit bénie"* (Blessed night) = Farewell between guild members
 
 **Code Names:** Coterie members use French-inspired monikers (Whisper = *Murmure*, Fingers = *Doigts*, Sparrow = *Moineau*, etc.)
 
@@ -177,19 +177,19 @@ The Coterie uses a thieves' cant based on archaic Korshalian dialect mixed with 
 
 ## Campaign Hook
 
-**Korshal**â€”the Crossroads City, where the three great trade roads meet. A sprawling metropolis of 40,000 souls, divided into districts both high and low: the golden-roofed **Merchant Quarter**, the labyrinthine **Undercroft** (the slums built atop old ruins), the stately **Sovereign's Rise** (where nobles dwell), and the bustling **Harbor District** where river meets commerce.
+**Korshal**—the Crossroads City, where the three great trade roads meet. A sprawling metropolis of 40,000 souls, divided into districts both high and low: the golden-roofed **Merchant Quarter**, the labyrinthine **Undercroft** (the slums built atop old ruins), the stately **Sovereign's Rise** (where nobles dwell), and the bustling **Harbor District** where river meets commerce.
 
-In a city this size, secrets flow like wine. And those who traffic in secrets belong to **The Coterie**â€”Korshal's oldest thieves guild. Not common cutpurses or murderers, but professional thieves, spies, and information brokers. They operate by strict codes: never kill without contract, never steal from the poor, honor your debts.
+In a city this size, secrets flow like wine. And those who traffic in secrets belong to **The Coterie**—Korshal's oldest thieves guild. Not common cutpurses or murderers, but professional thieves, spies, and information brokers. They operate by strict codes: never kill without contract, never steal from the poor, honor your debts.
 
-**[The Rogue PC]** knows The Coterie well. Years ago, they needed helpâ€”a narrow escape, a debt forgiven, a contact made, or training received. In exchange, they bore **The Shadowmark**: a small tattoo behind the left ear, invisible except under moonlight. It marks them as someone who owes the guild **one favor, no questions asked**.
+**[The Rogue PC]** knows The Coterie well. Years ago, they needed help—a narrow escape, a debt forgiven, a contact made, or training received. In exchange, they bore **The Shadowmark**: a small tattoo behind the left ear, invisible except under moonlight. It marks them as someone who owes the guild **one favor, no questions asked**.
 
 **Last night, the mark burned.**
 
 A message arrived via dead drop: *"The debt comes due. Meet Whisper at the Broken Compass. Three bells past midnight. Come alone, or the mark becomes a warrant."*
 
-The Rogue goes. In the back room of a dockside tavern, they meet **Whisper** (Level 3 Rogue, guild lieutenant)â€”a hooded figure whose face you never quite remember.
+The Rogue goes. In the back room of a dockside tavern, they meet **Whisper** (Level 3 Rogue, guild lieutenant)—a hooded figure whose face you never quite remember.
 
-*"You owe us. We're calling it in. Simple job: break into Merchant-Lord Davrik Kaine's vault, steal one itemâ€”a **sealed scroll case marked with a red wax phoenix**. Don't open it. Don't read it. Just bring it to us. You have five days before Kaine moves it to a more secure location. Succeed, and your debt is paid. Your mark fades. You're free."*
+*"You owe us. We're calling it in. Simple job: break into Merchant-Lord Davrik Kaine's vault, steal one item—a **sealed scroll case marked with a red wax phoenix**. Don't open it. Don't read it. Just bring it to us. You have five days before Kaine moves it to a more secure location. Succeed, and your debt is paid. Your mark fades. You're free."*
 
 *"Fail, or betray us, and every thief, fence, smuggler, and shadow in Korshal becomes your enemy. The Coterie does not forgive broken promises."*
 
@@ -214,11 +214,11 @@ What the Rogue doesn't know yet:
 
 The session begins with **[The Rogue PC]** experiencing the Shadowmark activation:
 
-*Last night, as midnight bells rang across Korshal, the mark behind your left ear began to burn. Not painfulâ€”but impossible to ignore. A cold fire that whispers: "The debt comes due." You've felt it beforeâ€”the night you received itâ€”but never like this. This is the call. The Coterie wants payment.*
+*Last night, as midnight bells rang across Korshal, the mark behind your left ear began to burn. Not painful—but impossible to ignore. A cold fire that whispers: "The debt comes due." You've felt it before—the night you received it—but never like this. This is the call. The Coterie wants payment.*
 
 *A street urchin approached you this morning with a simple message: "Broken Compass. Three bells past midnight. Whisper waits. Come alone, or the mark becomes a warrant."*
 
-The Rogue explains their history with The Coterie to the party (player provides detailsâ€”encourage creative backgrounds). Establish what the debt was for:
+The Rogue explains their history with The Coterie to the party (player provides details—encourage creative backgrounds). Establish what the debt was for:
 - Escape from city guards after a job gone wrong?
 - Training in specialized skills?
 - Protection from a dangerous enemy?
@@ -235,22 +235,22 @@ The Rogue explains their history with The Coterie to the party (player provides 
 
 #### Scene 1: The Broken Compass
 
-**Setting:** Dockside tavern in the Undercroft, late night. Salt-smell from river, creaking wood, sailors gambling. The back room is accessed through the wine cellarâ€”password changes weekly (current: *"Le prix de prospÃ©ritÃ©"* - The price of prosperity).
+**Setting:** Dockside tavern in the Undercroft, late night. Salt-smell from river, creaking wood, sailors gambling. The back room is accessed through the wine cellar—password changes weekly (current: *"Le prix de prospérité"* - The price of prosperity).
 
 **Description:**
-The back room is windowless, lit by a single oil lamp. A table with two chairs. On the walls: maps of Korshal with certain buildings marked in code. **Whisper** (*Murmure* in the cant) sits in shadowâ€”you never quite see their face clearly, like memory can't hold the details.
+The back room is windowless, lit by a single oil lamp. A table with two chairs. On the walls: maps of Korshal with certain buildings marked in code. **Whisper** (*Murmure* in the cant) sits in shadow—you never quite see their face clearly, like memory can't hold the details.
 
-As the Rogue enters, Whisper nods: *"FrÃ¨re des toits."* (Brother of roofs - thieves' greeting)
+As the Rogue enters, Whisper nods: *"Frère des toits."* (Brother of roofs - thieves' greeting)
 
 **Whisper's Briefing:**
 
-*"You know why you're here. La dette vientâ€”the debt comes. The mark burns. I'll make this simple."*
+*"You know why you're here. La dette vient—the debt comes. The mark burns. I'll make this simple."*
 
-*"Target: Davrik Kaine. Merchant-Lord. Vin douxâ€”sweet wine. He owns half the river trade and has... friends in uncomfortable places."*
+*"Target: Davrik Kaine. Merchant-Lord. Vin doux—sweet wine. He owns half the river trade and has... friends in uncomfortable places."*
 
-*"Objective: Break into his manor. Reach the vaultâ€”third floor, east wing. Inside, you'll find a scroll case. Red wax seal, phoenix mark. Take it. Don't open it. Don't read it. Bring it to us. That's the job."*
+*"Objective: Break into his manor. Reach the vault—third floor, east wing. Inside, you'll find a scroll case. Red wax seal, phoenix mark. Take it. Don't open it. Don't read it. Bring it to us. That's the job."*
 
-*"Timeline: Five days. After that, Kaine moves the scroll somewhere we can't reach. Complete this, and your mark fades. Doigts propresâ€”clean fingers. You're free. Fail, and... well. You understand what it means to break faith with the Coterie."*
+*"Timeline: Five days. After that, Kaine moves the scroll somewhere we can't reach. Complete this, and your mark fades. Doigts propres—clean fingers. You're free. Fail, and... well. You understand what it means to break faith with the Coterie."*
 
 **PC Questions (Roleplay Opportunities):**
 
@@ -271,11 +271,11 @@ A: *"Don't get caught. If you're captured, the Coterie doesn't know you. The Sha
 1. **City Map** (parchment with districts marked, Kaine's manor circled)
 2. **Thieves' Toolkit** (lockpicks, glass cutter, 50 feet of silk rope, grappling hook, chalk)
 3. **Forged Merchant Credentials** (one set, names the party as "representatives of Westermarch Trading Company")
-4. **100 Silver** (expense fundsâ€”bribes, supplies, information purchases)
+4. **100 Silver** (expense funds—bribes, supplies, information purchases)
 5. **Contact Information:**
-   - *"Talk to Doigtsâ€”'Fingers'â€”in the Undercroft. He installed Kaine's vault lock. He'll tell you how to beat it. Use the greeting: 'FrÃ¨re des toits' so he knows you're guild."*
-   - *"Moineauâ€”'Sparrow'â€”works the Crossroads market. She knows the Watch patrol schedules. Say 'La lune sourit' when you approach."*
-   - *"If you need muscle, 'Knuckles' at the Drowned Mermaid hires out. We won't pay for it, but he's reliable. Not guildâ€”don't use cant with him."*
+   - *"Talk to Doigts—'Fingers'—in the Undercroft. He installed Kaine's vault lock. He'll tell you how to beat it. Use the greeting: 'Frère des toits' so he knows you're guild."*
+   - *"Moineau—'Sparrow'—works the Crossroads market. She knows the Watch patrol schedules. Say 'La lune sourit' when you approach."*
+   - *"If you need muscle, 'Knuckles' at the Drowned Mermaid hires out. We won't pay for it, but he's reliable. Not guild—don't use cant with him."*
 
 **The Weight of the Mark:**
 
@@ -286,11 +286,11 @@ If the Rogue checks (mirror, another PC looking): The Shadowmark is now faintly 
 
 *"It'll get stronger the closer you come to breaking your word. Complete the job, and it fades by dawn. Betray us... and every shadow in Korshal will see you for what you are: an oath-breaker. There's no running from that."*
 
-Whisper pauses at the door: *"The mark isn't just a collarâ€”it's a key. While it burns, you carry the guild's favor. Your hands will be steadier, your blade truer. Those who travel with you... the shadows will smile on them too. Use it well."*
+Whisper pauses at the door: *"The mark isn't just a collar—it's a key. While it burns, you carry the guild's favor. Your hands will be steadier, your blade truer. Those who travel with you... the shadows will smile on them too. Use it well."*
 
-Whisper offers a final phrase in cant: *"Marche dans la brume, frÃ¨re. Nuit bÃ©nie."* (Walk in the fog, brother. Blessed night.)
+Whisper offers a final phrase in cant: *"Marche dans la brume, frère. Nuit bénie."* (Walk in the fog, brother. Blessed night.)
 
-**Mechanical Note:** While the Shadowmark is activated, the Rogue gains advantage on stealth, deception, lockpicking, and underworld knowledge checks, plus one Shadow Strike per day (double damage). Allies within 30 feet gain The Guild's Favor (one reroll per dayâ€”force reroll of their own failed checks or enemy successes against them). These powers fade if the debt is paid or the mark becomes a death mark.
+**Mechanical Note:** While the Shadowmark is activated, the Rogue gains advantage on stealth, deception, lockpicking, and underworld knowledge checks, plus one Shadow Strike per day (double damage). Allies within 30 feet gain The Guild's Favor (one reroll per day—force reroll of their own failed checks or enemy successes against them). These powers fade if the debt is paid or the mark becomes a death mark.
 
 **Whisper leaves.** The party is alone with their mission.
 
@@ -341,15 +341,15 @@ Common knowledge gathered from merchants, gossiping shopkeepers:
 - Known to collect rare documents and contracts
 
 **Rumors (Advanced 3+ Social, costs drinks/bribes, 10-20 silver):**
-- *"Kaine doesn't just trade goodsâ€”he trades in obligations. People owe him."*
+- *"Kaine doesn't just trade goods—he trades in obligations. People owe him."*
 - *"Three merchant rivals died in 'accidents' over the years. Convenient timing."*
 - *"He hosts monthly gatherings. Only the wealthy attend. They say deals are made that don't appear in any ledger."*
-- *"His guards are paid wellâ€”very well. Loyal. Don't bother trying to bribe them."*
+- *"His guards are paid well—very well. Loyal. Don't bother trying to bribe them."*
 - *"I heard the Temple of the Scales investigated him once. Dropped it suddenly. Someone was paid off."*
 
 **Expert (4+ Investigation with specific research direction):**
 - Records at The Ledger House show Kaine's business acquisitions correlate with competitors falling into sudden debt
-- Pattern suggests supernatural influenceâ€”possibly divine contract magic
+- Pattern suggests supernatural influence—possibly divine contract magic
 
 ---
 
@@ -358,7 +358,7 @@ Common knowledge gathered from merchants, gossiping shopkeepers:
 **Location:** Merchant Quarter, eastern edge near old city walls
 
 **Description:**
-Three-story stone manor, 60 feet tall at peak. Surrounded by 10-foot stone wall with iron spikes. Fortifiedâ€”windows barred on ground floor, shuttered on upper floors. Small courtyard visible through gate. East wing appears to be the "personal" section (fewer windows, reinforced brick).
+Three-story stone manor, 60 feet tall at peak. Surrounded by 10-foot stone wall with iron spikes. Fortified—windows barred on ground floor, shuttered on upper floors. Small courtyard visible through gate. East wing appears to be the "personal" section (fewer windows, reinforced brick).
 
 **Exterior Observation (2-4 hours, Basic 2+ Perception):**
 
@@ -374,7 +374,7 @@ Obvious details:
 Guard patterns:
 - **6 guards total:** 2 at main gate, 2 patrolling grounds, 1 at servant entrance, 1 inside (rotating)
 - Patrols change every 2 hours
-- Shift change at dawn (6 bells) and dusk (18 bells)â€”brief 10-15 minute gap with reduced alertness
+- Shift change at dawn (6 bells) and dusk (18 bells)—brief 10-15 minute gap with reduced alertness
 - At night (after 22 bells), 2 mastiff dogs released into courtyard
 
 **Daily routines observed:**
@@ -387,7 +387,7 @@ Guard patterns:
 - East wall has slightly looser mortar (easier climbing, Advanced 3+ instead of Expert 4+)
 - Chimney stacks are wide enough to climb inside (risky, potential for getting stuck)
 - Skylight appears to be hinged (opens for ventilation), third floor
-- Adjacent building (3-story warehouse) has rooftop accessâ€”possible jump point (15-foot gap, risky)
+- Adjacent building (3-story warehouse) has rooftop access—possible jump point (15-foot gap, risky)
 
 **NPC Encounter During Surveillance:**
 
@@ -398,7 +398,7 @@ A hooded figure (40 yards away, different vantage point) also observing Kaine's 
 **Reveal: This is "Glass"** (Level 2 Rogue, independent thief, NOT Coterie)
 - Friendly if PCs are non-aggressive
 - If PCs use Coterie cant, she bristles: *"Save your fancy French for the guild rats. I'm freelance."*
-- *"Scouting Kaine too? Yeah, he's got something I want. No, not the scrollâ€”something else. We're not competing. You do your job, I'll do mine. Maybe we help each other. I know the guard captain's schedule. You interested?"*
+- *"Scouting Kaine too? Yeah, he's got something I want. No, not the scroll—something else. We're not competing. You do your job, I'll do mine. Maybe we help each other. I know the guard captain's schedule. You interested?"*
 
 **Trade Opportunity:**
 - Glass offers information on Captain Harrick (vault guard) in exchange for party causing a distraction during THEIR heist (different day/target)
@@ -407,11 +407,11 @@ A hooded figure (40 yards away, different vantage point) also observing Kaine's 
 
 **Information Glass Provides (if deal made):**
 - Captain Harrick guards the third floor personally at night
-- Harrick is loyal but expensiveâ€”bribery would cost 200+ silver minimum
+- Harrick is loyal but expensive—bribery would cost 200+ silver minimum
 - Vault door is trapped (doesn't know details, but saw Fingers install it years ago)
 - Kaine has "something else" protecting his valuables (Glass thinks it's magical)
 
-This encounter adds a wildcardâ€”another thief in play, potential ally or future complication.
+This encounter adds a wildcard—another thief in play, potential ally or future complication.
 
 ---
 
@@ -428,7 +428,7 @@ Summary of what PCs learned during their first day/night in Korshal:
 
 As party returns to their lodgings that night, they notice:
 - Someone has been in their room (subtle signs: items slightly moved, window ajar)
-- Nothing stolen, but a message left in charcoal on the table: *"Chercher les ombres. You're not the only ones the Coterie hired. Stay out of each other's way. Nuit bÃ©nie. -S"*
+- Nothing stolen, but a message left in charcoal on the table: *"Chercher les ombres. You're not the only ones the Coterie hired. Stay out of each other's way. Nuit bénie. -S"*
   - (Translation: "Seek the shadows" - lay low, avoid conflict)
 
 **Mystery:** Is "S" another team?A rival thief? Or is Whisper testing them? The use of proper cant suggests they're guild.
@@ -451,8 +451,8 @@ Describe the city waking up based on where PCs are staying:
 
 **News of the Day (from criers or gossip):**
 - *"Merchant Council meets today to discuss new tariffs!"*
-- *"Three more dock workers disappeared last weekâ€”authorities baffled!"*
-- *"Lord Hastings' estate doubles guardâ€”paranoia or prudence?"*
+- *"Three more dock workers disappeared last week—authorities baffled!"*
+- *"Lord Hastings' estate doubles guard—paranoia or prudence?"*
 
 These rumors seed future plot points (nobles already nervous, Kaine's influence growing).
 
@@ -470,13 +470,13 @@ The PCs have multiple avenues to explore. Encourage them to split up or tackle t
 
 **Fingers** (*Doigts* - elderly human, Level 2 Scholar, former master thief, now retired):
 
-When the party uses the greeting *"FrÃ¨re/SÅ“ur des toits,"* Fingers' suspicious glare softens:
+When the party uses the greeting *"Frère/Sœur des toits,"* Fingers' suspicious glare softens:
 - *"Ah, Murmure sent you. About damn time."* He switches to cant briefly: *"Vin doux, non? Kaine?"* (Sweet wine, yes? Kaine?)
 
 *"Coterie sending kids after Kaine now? Hah. Desperate times. Sit. Don't touch anything. That trap's live."*
 
 **Information Gained (Basic 2+ Influence or bribe of 50 silver):**
-- *"Davrik Kaine? Paranoid bastard. Had me install his vault lock twelve years ago. Then tried to have me killed so I couldn't tell anyone how it works. Joke's on himâ€”I'm still here, and I remember everything."*
+- *"Davrik Kaine? Paranoid bastard. Had me install his vault lock twelve years ago. Then tried to have me killed so I couldn't tell anyone how it works. Joke's on him—I'm still here, and I remember everything."*
 - Vault door has a **three-tumbler mechanical lock** (requires Expert 4+ lockpicking OR the combination)
 - Lock is trapped: failed attempts trigger a poison needle (1 HD damage + Constitution check or paralyzed 10 minutes)
 - Combination changes monthly, but Fingers knows the pattern: *"Kaine uses dates. His daughter's birthday, his wife's death anniversary, his first profit margin. Sentimental fool."*
@@ -487,8 +487,8 @@ When the party uses the greeting *"FrÃ¨re/SÅ“ur des toits,"* Fingers' suspi
 
 **Expert (4+) Persuasion (Fingers likes the Rogue if they show respect):**
 - Fingers gives them his old **master lockpick set** (+1d6 to lockpicking checks, one-time gift). He mutters in cant as he hands it over: *"Doigts propres, oui? Promise me."* (Clean fingers, yes? Leave no trace.)
-- Warns: *"Be careful. I've heard rumors. Kaine's hosting someone important in three daysâ€”a 'business partner' from out of town. Extra security. Whatever you're planning, do it before then or after they leave."*
-- As they leave: *"Nuit bÃ©nie, mes amis."* (Blessed night, my friends.)
+- Warns: *"Be careful. I've heard rumors. Kaine's hosting someone important in three days—a 'business partner' from out of town. Extra security. Whatever you're planning, do it before then or after they leave."*
+- As they leave: *"Nuit bénie, mes amis."* (Blessed night, my friends.)
 
 ---
 
@@ -496,7 +496,7 @@ When the party uses the greeting *"FrÃ¨re/SÅ“ur des toits,"* Fingers' suspi
 
 **Location:** Crossroads Market, midday. Crowds, merchants hawking wares, colorful chaos.
 
-**Finding Sparrow:** She works as a flower vendor, but the Rogue knows the signsâ€”chalk marks on her stall (Coterie symbols), specific flower arrangements that signal "safe to approach."
+**Finding Sparrow:** She works as a flower vendor, but the Rogue knows the signs—chalk marks on her stall (Coterie symbols), specific flower arrangements that signal "safe to approach."
 
 **Greeting:** When the party approaches and the Rogue says *"La lune sourit,"* Sparrow's eyes flicker with recognition.
 
@@ -506,8 +506,8 @@ When the party uses the greeting *"FrÃ¨re/SÅ“ur des toits,"* Fingers' suspi
 - When confirmed it's Kaine: *"Vin doux indeed. But le corbeau chante often in that quarter."* (The raven sings - guards patrol heavily)
 
 **Information Gained (she shares freely with guild-marked):**
-- *"City Watch patrols Merchant Quarter every two hours at night. Three bells, five bells, seven bells past dusk. Captain Harrick pays them to ignore Kaine's manorâ€”they walk past, don't actually check. Lazy."*
-- *"But Kaine has his own guards. Six. Shift change at dawn and duskâ€”marche dans la brume during those ten minutes."* (Walk in the fog - best infiltration window)
+- *"City Watch patrols Merchant Quarter every two hours at night. Three bells, five bells, seven bells past dusk. Captain Harrick pays them to ignore Kaine's manor—they walk past, don't actually check. Lazy."*
+- *"But Kaine has his own guards. Six. Shift change at dawn and dusk—marche dans la brume during those ten minutes."* (Walk in the fog - best infiltration window)
 - *"Dogs loose after midnight. Two mastiffs. Mean ones. Heard they killed a beggar last month who climbed the wall."*
 
 **Bonus Information (Basic 2+ Social):**
@@ -567,7 +567,7 @@ Kaine hosts 15-20 merchants in his main hall (ground floor). Wine flows. Deals a
 - Failure = recognized as frauds, escorted out (backup plan needed)
 
 **Challenge 2: Blend In (Advanced 3+ Social/Performance)**
-- Partygoers are merchantsâ€”talk trade, economics, rumors
+- Partygoers are merchants—talk trade, economics, rumors
 - Success = gain trust, invited to "inner circle" conversation
 - Failure = seem suspicious, watched closely by guards
 
@@ -578,7 +578,7 @@ Kaine hosts 15-20 merchants in his main hall (ground floor). Wine flows. Deals a
 
 **Opportunity:**
 - If Rogue/party succeeds at ALL challenges, they may slip away to explore manor during gathering
-- Can scout first and second floors (not vault levelâ€”too guarded)
+- Can scout first and second floors (not vault level—too guarded)
 - Find Kaine's study on second floor (possible location of combination notes)
 
 ---
@@ -595,7 +595,7 @@ Kaine hosts 15-20 merchants in his main hall (ground floor). Wine flows. Deals a
 
 **Bribery (Advanced 3+, costs 100+ silver):**
 - Jenna reveals guard schedule, number of guards, dog patrol times
-- Warns: *"Vault's on third floor. Only Kaine and Captain Harrick have keys. Door's wardedâ€”magic stuff. And... there's something else up there. I've heard noises at night. Movement. Kaine might have a guardian."*
+- Warns: *"Vault's on third floor. Only Kaine and Captain Harrick have keys. Door's warded—magic stuff. And... there's something else up there. I've heard noises at night. Movement. Kaine might have a guardian."*
 
 **Intimidation (Expert 4+, risks alerting Kaine):**
 - Same info as bribery, but Jenna reports attempt to Captain Harrick
@@ -617,7 +617,7 @@ Kaine hosts 15-20 merchants in his main hall (ground floor). Wine flows. Deals a
 
 **What They Learn:**
 - Davrik Kaine arrived in Korshal 15 years ago with modest wealth
-- Rapid rise to powerâ€”made fortune through "fortunate" trade deals
+- Rapid rise to power—made fortune through "fortunate" trade deals
 - Rumored connection to **the Engine's cult** (Azravael, goddess of eternal debt)
 - Three of his major business rivals died in "accidents" over the years
 - His wife died 8 years ago under mysterious circumstances (no body found)
@@ -626,9 +626,9 @@ Kaine hosts 15-20 merchants in his main hall (ground floor). Wine flows. Deals a
 **Expert (4+ Scholar/History check):**
 - Kaine's fortune correlates with other merchants falling into debt
 - Pattern suggests supernatural influence: victims make deals, prosper briefly, then lose everything
-- The scroll he possesses may be leverageâ€”evidence of debts or pacts he's forcing nobles into
+- The scroll he possesses may be leverage—evidence of debts or pacts he's forcing nobles into
 
-**Clue:** Kaine isn't just a merchant. He's an **oath-broker**â€”he traps people in contracts enforced by Azravael's power.
+**Clue:** Kaine isn't just a merchant. He's an **oath-broker**—he traps people in contracts enforced by Azravael's power.
 
 ---
 
@@ -671,7 +671,7 @@ Session begins with PCs executing their plan. Time: Evening, as chosen (either g
 
 **Set the Atmosphere:**
 
-*Korshal at night: Bells ring the hour. River mist creeps through streets. Lantern-light flickers in windows. In the Merchant Quarter, everything is quieterâ€”private guards patrol with purpose, not the lazy Watch of other districts.*
+*Korshal at night: Bells ring the hour. River mist creeps through streets. Lantern-light flickers in windows. In the Merchant Quarter, everything is quieter—private guards patrol with purpose, not the lazy Watch of other districts.*
 
 *Kaine's manor looms ahead. Three stories of stone and secrets. This is it. No turning back now.*
 
@@ -783,7 +783,7 @@ If PCs pass by her door, they might hear quiet sobbing.
 
 **If Investigated:**
 
-Door is unlocked (Kaine keeps her prisoner through other meansâ€”magical binding or threat).
+Door is unlocked (Kaine keeps her prisoner through other means—magical binding or threat).
 
 Inside: Small, sparse room. Teenage girl (Elara) sits by window, crying softly.
 
@@ -794,12 +794,12 @@ She sees PCs, freezes:
 
 If PCs are gentle and honest:
 - *"You're here for something in the vault. I know. Father keeps terrible things there. Contracts. Papers that bind people's souls."*
-- *"I want to help. I hate him. He killed Motherâ€”I know he did, even if no one believes me. And he keeps me here, says I'm 'collateral' for his deals."*
+- *"I want to help. I hate him. He killed Mother—I know he did, even if no one believes me. And he keeps me here, says I'm 'collateral' for his deals."*
 
 **Critical Information IF PCs earn her trust:**
 - **Vault command word:** *"Prosperity's price"* (bypasses magical ward completely)
 - **Warning:** *"There's something alive in there. A guardian made of contracts. Father created it. Fire hurts it."*
-- **Combination hint:** *"My birthday is the first number: 17. Mother's death anniversary is second: 23rd day. Father's profit marginâ€”he brags about itâ€”is 23%. So: 17-23-23."*
+- **Combination hint:** *"My birthday is the first number: 17. Mother's death anniversary is second: 23rd day. Father's profit margin—he brags about it—is 23%. So: 17-23-23."*
 
 **Cost:** Elara asks: *"When you're done ... Please come back. Get me out. I'll die if I stay here."*
 
@@ -850,7 +850,7 @@ Stationed outside vault door. Level 2 Elite Combatant, loyal (or bribed, if PCs 
 
 **Option D: Deception (if PCs crafted false orders or emergency)**
 - Requires Advanced (3+) Deception and prop (forged message)
-- *"Captain! Kaine needs you downstairs immediatelyâ€”intruders at main entrance!"*
+- *"Captain! Kaine needs you downstairs immediately—intruders at main entrance!"*
 - Success = Harrick leaves for 5-10 minutes
 - Failure = Harrick suspicious, combat begins
 
@@ -860,7 +860,7 @@ Stationed outside vault door. Level 2 Elite Combatant, loyal (or bribed, if PCs 
 
 Cliffhanger: PCs stand before the vault door. Harrick dealt with (however they chose). The vault beckons.
 
-*The door is reinforced steel, inscribed with glowing sigils. A three-tumbler lock gleams in lamplight. This is itâ€”everything you've prepared for comes down to the next few minutes.*
+*The door is reinforced steel, inscribed with glowing sigils. A three-tumbler lock gleams in lamplight. This is it—everything you've prepared for comes down to the next few minutes.*
 
 **Next session begins with vault breach.**
 
@@ -878,7 +878,7 @@ Recap: PCs have reached the vault. Harrick is bypassed (unconscious, bribed, or 
 Reinforced steel, 4 inches thick. No hinges visible (internal mechanism). Three components:
 
 1. **Mechanical Lock** (three tumblers, titanium)
-2. **Magical Ward** (glowing sigils, Engine symbolâ€”broken chain in gear)
+2. **Magical Ward** (glowing sigils, Engine symbol—broken chain in gear)
 3. **Unknown Interior Threat** (if Elara warned them)
 
 ---
@@ -910,7 +910,7 @@ Reinforced steel, 4 inches thick. No hinges visible (internal mechanism). Three 
 
 **Observing the Ward (Advanced 3+ Magic/Religion check):**
 
-Sigils glow faintly blue. Engine symbology (broken chain inside gearâ€”freedom through debt)This is an **alert spell**. Opening door without command word triggers silent alarm to guard barracks.
+Sigils glow faintly blue. Engine symbology (broken chain inside gear—freedom through debt)This is an **alert spell**. Opening door without command word triggers silent alarm to guard barracks.
 
 **Bypassing Options:**
 
@@ -939,10 +939,10 @@ Sigils glow faintly blue. Engine symbology (broken chain inside gearâ€”free
 
 20x20-foot stone chamber. No windows. Shelves line walls:
 - Ledgers (hundreds, labeled by year/name)
-- Coin chests (gold, silverâ€”thousands of markers)
+- Coin chests (gold, silver—thousands of markers)
 - Jewelry boxes (valuables)
 - Scroll tubes (various, sealed)
-- At center pedestal: **THE TARGETâ€”red wax phoenix seal, ornate scroll case**
+- At center pedestal: **THE TARGET—red wax phoenix seal, ornate scroll case**
 
 **But also present:**
 
@@ -950,7 +950,7 @@ Sigils glow faintly blue. Engine symbology (broken chain inside gearâ€”free
 
 **Animated Contract Effigy**
 
-A humanoid construct made of: parchment skin, inky veins, wax joints. Stands 6 feet tall. Shambles forward when PCs enter (unless they spoke Kaine's nameâ€”see below).
+A humanoid construct made of: parchment skin, inky veins, wax joints. Stands 6 feet tall. Shambles forward when PCs enter (unless they spoke Kaine's name—see below).
 
 **Stats:**
 - **HD Pool:** 15d6
@@ -958,7 +958,7 @@ A humanoid construct made of: parchment skin, inky veins, wax joints. Stands 6 f
 - **Appearance:** Body covered in contract text, eyes are wax seals, fingers are quill pens
 - **Attacks:**
   - **Binding Tendrils** (Advanced 3+): 3 successes, 2 HD damage + target Restrained (Athletics check to escape)
-  - **Debt Mark** (Expert 4+, once per target): Target makes Resolve check or gains "debt curse" (disadvantage on all checks until long restâ€”psychological weight)
+  - **Debt Mark** (Expert 4+, once per target): Target makes Resolve check or gains "debt curse" (disadvantage on all checks until long rest—psychological weight)
   - **Contract Whip** (Basic 2+): 2 successes, 2 HD slashing
 - **Vulnerabilities:**
   - **Fire:** Double damage
@@ -970,7 +970,7 @@ A humanoid construct made of: parchment skin, inky veins, wax joints. Stands 6 f
 **Tactics:**
 - Prioritizes Restraining intruders (hold for guards)
 - Uses Debt Mark sparingly (draining)
-- Relentlessâ€”fights until destroyed
+- Relentless—fights until destroyed
 
 **Bypassing Guardian (if PCs researched Engine rituals, Expert 4+ Religion to deduce):**
 - Speaking Kaine's full name aloud while touching scroll: *"Davrik Casimir Kaine"*
@@ -1026,7 +1026,7 @@ Inside: Single parchment scroll, folded. Text is mix of legal language and infer
 >
 > *Sealed under the Engine's Gaze, 9th Year of Current Count*
 
-**Translation:** This isn't just evidence of embezzlementâ€”it's a **soul-binding contract**. Three nobles are trapped in eternal debt. If the scroll leaves Kaine's hands improperly, they DIE and their souls go to Azravael.
+**Translation:** This isn't just evidence of embezzlement—it's a **soul-binding contract**. Three nobles are trapped in eternal debt. If the scroll leaves Kaine's hands improperly, they DIE and their souls go to Azravael.
 
 **Realization:** The Coterie plans to deliver this scroll to someone (rival nobles? Engine cult? the nobles themselves for ransom?). Delivering it as ordered might kill three people.
 
@@ -1094,11 +1094,11 @@ Morning after the heist. City criers announce:
 
 *"Daring robbery at Merchant-Lord Kaine's estate! Valuable documents stolen! Reward offered for information! Kaine demands justice!"*
 
-Kaine has mobilized. Watch is investigating. But PCs are safe (for nowâ€”unless they left obvious evidence).
+Kaine has mobilized. Watch is investigating. But PCs are safe (for now—unless they left obvious evidence).
 
 **Whisper's Summons:**
 
-Message delivered: *"Tonight. Broken Compass. Bring the scroll. Your debt ends tonightâ€”one way or another."*
+Message delivered: *"Tonight. Broken Compass. Bring the scroll. Your debt ends tonight—one way or another."*
 
 ---
 
@@ -1118,7 +1118,7 @@ Cons:
 - Moral guilt
 - Embezzlement goes unpunished (nobles dead, money vanishes)
 
-**If Chosen:** Skip to Scene 4 (Whisper takes scroll, mark fades, nobles die in their sleep that nightâ€”news next day)
+**If Chosen:** Skip to Scene 4 (Whisper takes scroll, mark fades, nobles die in their sleep that night—news next day)
 
 ---
 
@@ -1178,7 +1178,7 @@ Meet: **Sister Vera** (Level 3 Priest of Thalos)
 **Social Encounter (Advanced 3+ Influence, explaining situation):**
 
 Sister Vera listens carefully:
-*"This is Azravael's work. The Engine binds through fear and greed. These nobles are guilty of embezzlement, yesâ€”but eternal soul-slavery? That is tyranny, not justice."*
+*"This is Azravael's work. The Engine binds through fear and greed. These nobles are guilty of embezzlement, yes—but eternal soul-slavery? That is tyranny, not justice."*
 
 *"Thalos teaches: all debts must have endings. I can perform the Ritual of Unbinding. But it requires components."*
 
@@ -1188,7 +1188,7 @@ Sister Vera listens carefully:
 2. **Consent from all three signatory nobles** (must convince them)
 3. **Three drops of blood from each noble** (voluntary donation)
 4. **Kaine's Contract Signet Ring** (proves he's original debt-holder, allows severance)
-5. **Full moon** (next one is TONIGHTâ€”timing works perfectly)
+5. **Full moon** (next one is TONIGHT—timing works perfectly)
 
 **The Catch:**
 
@@ -1218,7 +1218,7 @@ Hastings is terrified (rightly suspects Kaine sent assassins).
 Must prove they're trying to help:
 - Show the contract (evidence they have it)
 - Explain ritual can free him
-- Appeal to his fear: *"Kaine owns your soul. When you die, you don't go to ancestorsâ€”you go to the Engine. Forever."*
+- Appeal to his fear: *"Kaine owns your soul. When you die, you don't go to ancestors—you go to the Engine. Forever."*
 
 **Success:** Hastings agrees, provides blood drop willingly
 **Failure:** Hastings calls guards, PCs must flee or fight
@@ -1244,7 +1244,7 @@ Must break through her nihilism:
 
 ##### Noble 3: Baron Kellan Threllis (Guilt-Ridden)
 
-**Location:** Modest townhouse, Crossroads (he's not wealthy anymoreâ€”spent everything)
+**Location:** Modest townhouse, Crossroads (he's not wealthy anymore—spent everything)
 
 **Difficulty:** Basic (2+) Social
 
@@ -1257,7 +1257,7 @@ Easiest to convince:
 *"You can make this right. Help us free everyone. Return the money.Confess. Face justice in THIS life, not the Engine."*
 
 **Success:** Threllis weeps, agrees immediately, provides blood
-**Failure:** (Hard to failâ€”he wants help)
+**Failure:** (Hard to fail—he wants help)
 
 ---
 
@@ -1298,7 +1298,7 @@ Easiest to convince:
 - **Attacks:**
   - **Soul Lash** (Advanced 3+): 3 successes, 2 HD necrotic + target loses 1 Resolve (manifests as spectral chain)
   - **Binding Oath** (Expert 4+, once per encounter): Target makes Resolve check or becomes Compelled (must obey one command, lasts 1 minute)
-  - **Debt Shield** (Reaction): When attacked, call on bound soulâ€”one nearby NPC (driver, bystander) takes damage instead (cruel)
+  - **Debt Shield** (Reaction): When attacked, call on bound soul—one nearby NPC (driver, bystander) takes damage instead (cruel)
 - **Equipment:** Signet ring (target), ornate dagger, leather coat with hidden armor
 
 **2 Engine Enforcers** (Level 2 Combatants)
@@ -1311,7 +1311,7 @@ Easiest to convince:
 
 **Objectives:**
 - Defeat or disable Kaine
-- **Steal ring** (worn on his fingerâ€”requires knock him out or kill, or Expert 4+ sleight of hand during combat)
+- **Steal ring** (worn on his finger—requires knock him out or kill, or Expert 4+ sleight of hand during combat)
 - Escape before Watch arrives
 
 **If Kaine is Defeated:**
@@ -1347,7 +1347,7 @@ Sister Vera begins chanting in divine language (Thalos' liturgy).
 
 **Round 3 of ritual (takes 5 rounds total):**
 
-Reality cracks. Void rift opens above altar (not Veil Beyondâ€”this is Engine's domain).
+Reality cracks. Void rift opens above altar (not Veil Beyond—this is Engine's domain).
 
 From it: **The Debt Collector** (extraplanar enforcer)
 
@@ -1368,7 +1368,7 @@ From it: **The Debt Collector** (extraplanar enforcer)
 - Round 1-2: Vera chanting, no visible effect
 - Round 3: Debt Collector arrives (combat begins)
 - Round 4: Contract begins smoking (breaking in progress)
-- Round 5: Final chantâ€”contract disintegrates in silver flames (success)
+- Round 5: Final chant—contract disintegrates in silver flames (success)
 
 **Mechanical Challenges:**
 - PCs must defend Sister Vera (she cannot fight, maintains concentration)
@@ -1395,7 +1395,7 @@ Contract scroll **ignites** in silver-white flames. Burns completely, ash scatte
 
 Debt Collector **screams** (unearthly sound), dissolves back through rift. Rift snaps shut.
 
-Three nobles gasp simultaneouslyâ€”feeling soul-bonds SNAP. Free.
+Three nobles gasp simultaneously—feeling soul-bonds SNAP. Free.
 
 Sister Vera collapses (exhausted, but alive).
 
@@ -1408,7 +1408,7 @@ Sister Vera collapses (exhausted, but alive).
 **The Nobles' Reactions:**
 
 **Lord Hastings:** Grateful but pragmatic.
-*"You saved my soul. I'm in your debtâ€”a non-binding one. I'll confess embezzlement quietly. Return the funds. But I won't face public execution. That's my condition."*
+*"You saved my soul. I'm in your debt—a non-binding one. I'll confess embezzlement quietly. Return the funds. But I won't face public execution. That's my condition."*
 
 **Lady Corven:** Grudgingly respectful.
 *"I underestimated you. And... maybe I underestimated what comes after death. Fine. I'll repay the city. Quietly. Consider this my better judgment."*
@@ -1427,11 +1427,11 @@ Sister Vera collapses (exhausted, but alive).
 But Whisper is not alone. **Four Coterie Enforcers** accompany them.
 
 Whisper's voice is cold, speaking in harsh cant:
-*"Le corbeau chante, mes amis. The raven singsâ€”for you." (Danger is here)*
+*"Le corbeau chante, mes amis. The raven sings—for you." (Danger is here)*
 
 Switching to Common: *"You broke the deal. The nobles live. Our employers are... displeased. Furious, actually. You've made us look incompetent."*
 
-**The Rogue's Shadowmark** is now fully visibleâ€”glowing red, marking them as oath-breaker.
+**The Rogue's Shadowmark** is now fully visible—glowing red, marking them as oath-breaker.
 
 **Final Choice:**
 
@@ -1451,17 +1451,17 @@ Switching to Common: *"You broke the deal. The nobles live. Our employers are...
 **If Negotiation Succeeds:**
 - Whisper considers, hand still on blade.
 - Long pause. Then, reluctantly in cant: *"...Doigts propres? Non. Pain sec."* (Clean fingers? No. Poor outcome.)
-- Switching to Common: *"...The Silent Council will decide. But you've made your case. The mark staysâ€”you owe us double now. And next time we call, you DON'T refuse. Understood?"*
-- Before leaving: *"Marche dans la brume. You've earned both respect and enmity tonight. Nuit bÃ©nie... and may you never hear 'le corbeau chante' meant for you."*
+- Switching to Common: *"...The Silent Council will decide. But you've made your case. The mark stays—you owe us double now. And next time we call, you DON'T refuse. Understood?"*
+- Before leaving: *"Marche dans la brume. You've earned both respect and enmity tonight. Nuit bénie... and may you never hear 'le corbeau chante' meant for you."*
 - Debt extended, but not enemies
 
 **Option C: Leverage (if PCs have evidence of WHO hired Coterie)**
-- Reveal: Merchant Council hired Coterie to kill nobles (to cover THEIR embezzlement of the embezzled goldâ€”layers of corruption)
+- Reveal: Merchant Council hired Coterie to kill nobles (to cover THEIR embezzlement of the embezzled gold—layers of corruption)
 - Threaten to expose this unless guild backs off
 - Requires evidence gathered earlier (Expert 4+ Investigation)
 - Whisper: *"Couteau et sourire... you play that game well."* (Knife and smile - dangerous cunning)
-- *"You're playing dangerous games. Fine. Debt's paused. But you've made enemies in high places now. Watch your back, frÃ¨re. The shadows can't protect you from everything."*
-- As they leave: *"Nuit bÃ©nie. We'll meet again."*
+- *"You're playing dangerous games. Fine. Debt's paused. But you've made enemies in high places now. Watch your back, frère. The shadows can't protect you from everything."*
+- As they leave: *"Nuit bénie. We'll meet again."*
 
 **Outcome:** Coterie backs off, but party has drawn attention of Merchant Council (future antagonists)
 
@@ -1472,7 +1472,7 @@ Switching to Common: *"You broke the deal. The nobles live. Our employers are...
 **Resolution Variations:**
 
 **Best Outcome (Path B or C success):**
-- Shadowmark fades by 75% (still visible under moonlightâ€”debt remains, butlessened)
+- Shadowmark fades by 75% (still visible under moonlight—debt remains, butlessened)
 - Coterie relationship: Neutral /wary respect
 - Nobles freed, funds returned
 - Reputation in Korshal: Heroes (to some), troublemakers (to others)
@@ -1496,7 +1496,7 @@ Switching to Common: *"You broke the deal. The nobles live. Our employers are...
 Days later. City criers announce:
 - *"Mysterious benefactor returns 40,000 gold to city treasury! Defense fund restored!"*
 - *"Baron Threllis confesses to embezzlement, accepts exile!"*
-- *"Merchant-Lord Kaine's estate raided by Temple of the Scalesâ€”illegal contracts seized!"* (if PCs tipped off temple)
+- *"Merchant-Lord Kaine's estate raided by Temple of the Scales—illegal contracts seized!"* (if PCs tipped off temple)
 
 The Rogue looks at their hand, where Shadowmark once burned.
 
@@ -1601,7 +1601,7 @@ Campaign ends with party having made real impact on Korshal:
 - **Effect:** 
   - Wearer gains +1d6 on Influence checks involving contracts, oaths, or trade
   - Once per day, may sense if someone is lying about a debt or promise (automatic)
-  - Cursed: Azravael's markâ€”Engine cultists recognize wearer as "oath-bound"
+  - Cursed: Azravael's mark—Engine cultists recognize wearer as "oath-bound"
 - **Attunement:** Any
 - **Description:** Gold ring with black pearl, Engine's symbol (broken chain) engraved inside band
 
@@ -1691,7 +1691,7 @@ Campaign ends with party having made real impact on Korshal:
 
 **Choices & Consequences:**
 - Multiple paths through every session
-- No "correct" answerâ€”all choices have weight
+- No "correct" answer—all choices have weight
 - Thalos' philosophy: consequences matter more than intentions
 
 ---
@@ -1723,7 +1723,7 @@ Campaign ends with party having made real impact on Korshal:
 
 **Moral Choice Mechanics:**
 - Paths that change campaign outcome
-- No "right" answerâ€”consequences for all choices
+- No "right" answer—consequences for all choices
 - Reputation system (Coterie relationship)
 
 ---
@@ -1772,4 +1772,4 @@ Campaign ends with party having made real impact on Korshal:
 ---
 
 *"The mark fades, but memory remains. What you owe defines you less than what you choose."*
-*â€”Sister Vera, Priest of the Even Hand*
+*—Sister Vera, Priest of the Even Hand*

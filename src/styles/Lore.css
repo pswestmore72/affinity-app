@@ -1,5 +1,5 @@
 /* ============================================
-   COSMOLOGY PAGE - COSMIC KNOWLEDGE STYLING
+   LORE PAGE - THE REALMS & POWERS
    ============================================ */
 
 .cosmology-page {
@@ -12,7 +12,7 @@
   text-align: center;
   margin-bottom: var(--space-xl);
   padding-bottom: var(--space-lg);
-  border-bottom: var(--border-thin) solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
 }
 
 .cosmology-header h1 {
@@ -28,7 +28,7 @@
   display: flex;
   gap: var(--space-xs);
   margin-bottom: var(--space-xl);
-  border-bottom: var(--border-thin) solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
   padding-bottom: var(--space-sm);
   flex-wrap: wrap;
   justify-content: center;
@@ -36,20 +36,21 @@
 
 .cosmology-tabs .tab {
   background: transparent;
-  border: var(--border-thin) solid var(--border-color);
+  border: 1px solid var(--border-color);
   color: var(--text-secondary);
   padding: var(--space-sm) var(--space-md);
   font-family: var(--font-display);
-  font-size: 0.9rem;
-  letter-spacing: 0.05em;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
   cursor: pointer;
   transition: all 0.2s ease;
-  clip-path: polygon(8px 0, 100% 0, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0 100%, 0 8px);
+  border-radius: 2px;
 }
 
 .cosmology-tabs .tab:hover {
-  color: var(--primary-color);
-  border-color: var(--primary-color);
+  color: var(--accent-purple-bright);
+  border-color: var(--accent-purple);
+  background: rgba(155, 139, 184, 0.1);
 }
 
 .cosmology-tabs .tab.active {
@@ -80,7 +81,7 @@
   color: var(--primary-color);
   margin-top: var(--space-lg);
   padding-bottom: var(--space-xs);
-  border-bottom: var(--border-thin) solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
 }
 
 .cosmology-section h2:first-child {
@@ -90,21 +91,22 @@
 /* Realm Cards */
 .realm-card {
   background: var(--surface);
-  border: var(--border-thin) solid var(--border-color);
+  border: 1px solid var(--border-color);
   padding: var(--space-lg);
   margin: var(--space-md) 0;
   position: relative;
+  border-radius: 2px;
 }
 
 .realm-card::before {
-  content: '◇';
+  content: '✦';
   position: absolute;
   top: -0.6em;
   left: var(--space-md);
   background: var(--background);
   padding: 0 var(--space-xs);
-  color: var(--secondary-color);
-  font-size: 0.8rem;
+  color: var(--accent-purple);
+  font-size: 0.75rem;
 }
 
 .realm-card h3 {
@@ -117,7 +119,7 @@
 
 .realm-subtitle {
   font-style: italic;
-  color: var(--secondary-color);
+  color: var(--accent-purple);
   font-size: 0.9rem;
   margin-bottom: var(--space-sm);
 }
@@ -129,7 +131,7 @@
 }
 
 .realm-card.reflected {
-  border-left: 3px solid var(--secondary-color);
+  border-left: 3px solid var(--accent-purple);
 }
 
 .realm-card.sovereign {
@@ -150,13 +152,15 @@
 
 .power-card {
   background: var(--surface);
-  border: var(--border-thin) solid var(--border-color);
+  border: 1px solid var(--border-color);
   padding: var(--space-md);
   transition: border-color 0.2s ease;
+  border-radius: 2px;
 }
 
 .power-card:hover {
-  border-color: var(--accent-gold);
+  border-color: var(--accent-purple);
+  box-shadow: var(--border-mystical);
 }
 
 .power-card h3 {
@@ -183,7 +187,7 @@
 .power-classes {
   margin-top: var(--space-sm);
   padding-top: var(--space-sm);
-  border-top: var(--border-thin) solid var(--border-color);
+  border-top: 1px solid var(--border-color);
   font-size: 0.85rem;
   color: var(--text-muted);
 }
@@ -257,10 +261,11 @@
 
 .affinity-tag {
   background: var(--surface);
-  border: var(--border-thin) solid var(--border-color);
+  border: 1px solid var(--border-color);
   padding: var(--space-sm) var(--space-md);
   text-align: center;
   transition: border-color 0.2s ease;
+  border-radius: 2px;
 }
 
 .affinity-tag:hover {
@@ -282,14 +287,15 @@
 
 /* Lore Quote Block */
 .lore-quote {
-  background: linear-gradient(135deg, var(--surface) 0%, rgba(238, 180, 98, 0.05) 100%);
-  border: var(--border-thin) solid var(--border-color);
+  background: linear-gradient(135deg, var(--surface) 0%, rgba(212, 175, 55, 0.04) 100%);
+  border: 1px solid var(--border-color);
   border-left: 3px solid var(--accent-gold);
   padding: var(--space-md);
   margin: var(--space-lg) 0;
   font-style: italic;
   color: var(--text-secondary);
   text-align: center;
+  border-radius: 0 2px 2px 0;
 }
 
 .lore-quote cite {

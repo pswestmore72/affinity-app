@@ -44,7 +44,7 @@ This compendium contains creatures drawn from across the **Reflected Realms**, *
 |-------|-----------|
 | **Mortal Weave** | Crownstag, Memory Echo, Coin-Bound Merchant, Debt Collector, Oathbound Squire, Village Blacksmith, Traveling Merchant, Wyrmkin (all), Mire Drake, Ember Wyrmling, Adolescent Flame Wyrm, Young Flame Wyrm, Adult Flame Wyrm, Greenskin (all), Sellsword, Veteran Sellsword, Cutpurse, Shadowblade, Bandit Captain, Militia Squad, Hedge Mystic, Wolf Pack, Street Urchin, Muck Slime, Acid Slime, Gelatinous Maw, Sewer Vermin Swarm, Orc Berserker |
 | **The Gloam** | Mist Wisp, Candlewight, Pall-Wolf, Oath-Breaker Shade, Vigil Shade, Grief-Lantern, Hollow Drifter, Mournbat Swarm, Moonbound Watcher, Revenant Knight, Sorrow Leech, Void Shepherd, Twilight Aspect of Aralys, Gloam Wyrmling, Young Gloamwyrm, Elder Gloamwyrm, Voidwyrm |
-| **Verdant Verge** | Verdant Creeper, Bloom-Spawn, Withering Herald, Verdant Guardian, Ancient Verdant Colossus, Ash Sprite, Thornscale Drake |
+| **Tangled Verge** | Verdant Creeper, Bloom-Spawn, Withering Herald, Verdant Guardian, Ancient Verdant Colossus, Ash Sprite, Thornscale Drake |
 | **Empyreal Accord** | Archon of the Halls, Celestial Drake, Covenant Wyrm |
 | **Wild Expanse** | Primal Wyrm, Storm Drake, Stormwyrm |
 | **Engine of Bael-Zaroth** | Schism-Scarred Enforcer, Death Knight of Azravael, Herald of the Schism |
@@ -591,7 +591,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 **Terrain/Environment:** Cave systems, ruined structures, anywhere they can hide and ambush.
 
-**Lore:** The smallest and weakest of Greenskin society—relegated to scouting, trap-setting, and being thrown at problems first. Runts dream of growing large enough to bully others, but most become food for their larger kin or adventurers. Despite their weakness, they're cunning survivors who've outlasted civilizations by hiding in the cracks. Born from the Verdant Verge's Withering aspect—life twisted toward survival at any cost.
+**Lore:** The smallest and weakest of Greenskin society—relegated to scouting, trap-setting, and being thrown at problems first. Runts dream of growing large enough to bully others, but most become food for their larger kin or adventurers. Despite their weakness, they're cunning survivors who've outlasted civilizations by hiding in the cracks. Born from the Tangled Verge's Withering aspect—life twisted toward survival at any cost.
 
 ---
 
@@ -896,14 +896,14 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 **Special Abilities:**
 - **Excess Growth:** Regains 1 HD per round if standing in direct sunlight on natural ground
-- **Bloom-Touched:** During Bloom dominance in the Verdant Verge, gains +2d6 to all actions and unlimited Seedlings
+- **Bloom-Touched:** During Bloom dominance in the Tangled Verge, gains +2d6 to all actions and unlimited Seedlings
 - **Beautiful Danger:** First time a creature sees a Bloom-Spawn, must make Awareness check (Basic, 2+) or approach without hostility (entranced by beauty)
 
 **Tactics:** Creates Seedlings to swarm enemies, uses Thorn Spray on grouped targets. Retreats toward sunlight if damaged. Does not pursue into darkness.
 
-**Terrain/Environment:** Appears in areas where the Bloom Excess is ascendant—meadows choked with flowers, forests where growth outpaces decay. Common near threshold zones where Verdant Verge bleeds into Mortal Weave.
+**Terrain/Environment:** Appears in areas where the Bloom Excess is ascendant—meadows choked with flowers, forests where growth outpaces decay. Common near threshold zones where Tangled Verge bleeds into Mortal Weave.
 
-**Lore:** When the Bloom dominates the Verdant Verge, its ideology (*Growth must not slow*) spawns living avatars. Bloom-Spawn are walking gardens of impossible beauty, flowers emerging from humanoid shapes made of vine and nectar. They aren't hostile by nature—they simply proliferate, filling spaces with growth, treating other creatures as substrate for more Bloom. What they create is beautiful. What they replace is gone forever. The Verdant Synod attempts to moderate Bloom-Spawn, but during Bloom-tides, they proliferate faster than they can be culled.
+**Lore:** When the Bloom dominates the Tangled Verge, its ideology (*Growth must not slow*) spawns living avatars. Bloom-Spawn are walking gardens of impossible beauty, flowers emerging from humanoid shapes made of vine and nectar. They aren't hostile by nature—they simply proliferate, filling spaces with growth, treating other creatures as substrate for more Bloom. What they create is beautiful. What they replace is gone forever. The Verdant Synod attempts to moderate Bloom-Spawn, but during Bloom-tides, they proliferate faster than they can be culled.
 
 ---
 
@@ -930,7 +930,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Special Abilities:**
 - **Withering Aura:** All plants within 10 yards slowly turn gold and brown. Food spoils in hours. Not harmful to living creatures directly, but rations ruined.
 - **Graceful Decay:** When reduced to 0 HD, releases cloud of spores in 10-yard radius. Creatures must make Fortitude check or suffer -1d6 to next action (drowsy, ready to sleep).
-- **Withering-Touched:** During Withering dominance in the Verdant Verge, gains +2d6 defense (harvest cannot be stopped)
+- **Withering-Touched:** During Withering dominance in the Tangled Verge, gains +2d6 defense (harvest cannot be stopped)
 
 **Tactics:** Approaches slowly, gesturing for prey to accept their time. Uses Harvest Scythe on weakened targets. Does not chase those who flee—they'll ripen eventually.
 
@@ -1249,7 +1249,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 **Tactics:** Waits submerged until prey approaches water's edge. Lunges to bite, then retreats to spit poison from the water. Drags weakened prey under.
 
-**Terrain/Environment:** Swamps, marshes, polluted rivers, and the edges of the Verdant Verge where Withering energy seeps through.
+**Terrain/Environment:** Swamps, marshes, polluted rivers, and the edges of the Tangled Verge where Withering energy seeps through.
 
 **Lore:** Distant cousins of true wyrms, reduced to bestial cunning over generations in toxic environments. They're territorial rather than intelligent, guarding hunting grounds fiercely. Alchemists prize their venom sacs, and their hide makes serviceable (if foul-smelling) leather armor.
 
@@ -1464,7 +1464,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 **Terrain/Environment:** Village outskirts, forest edges, anywhere civilization meets wilderness.
 
-**Lore:** Self-taught magic users who learned power from scraps—hedge witches, cunning folk, village wisewomen. They lack formal training but possess practical knowledge passed through generations. Most serve rural communities as healers and advisors, occupying uncertain space between respected and feared. Their magic draws from primal sources (Verdant Verge, Curator fragments) rather than structured domains.
+**Lore:** Self-taught magic users who learned power from scraps—hedge witches, cunning folk, village wisewomen. They lack formal training but possess practical knowledge passed through generations. Most serve rural communities as healers and advisors, occupying uncertain space between respected and feared. Their magic draws from primal sources (Tangled Verge, Curator fragments) rather than structured domains.
 
 ---
 
@@ -2101,7 +2101,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 **Tactics:** Ambushes from dense foliage. Opens with Thorn Volley to scatter groups, then picks off isolated prey. Climbs trees to escape superior numbers.
 
-**Terrain/Environment:** Verdant Verge borders, ancient forests, overgrown ruins, and Thymera's sacred groves (though never harming druids).
+**Terrain/Environment:** Tangled Verge borders, ancient forests, overgrown ruins, and Thymera's sacred groves (though never harming druids).
 
 **Lore:** Drakes that have bonded with the Living Accord's more aggressive aspects. Their scales sprout naturally sharp thorns that regrow within hours of being shed. Druids respect them as guardians of wild places, though they're territorial toward all intruders equally. Their thorns are prized for making enchanted caltrops and arrow tips.
 
@@ -2975,7 +2975,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 
 **Terrain/Environment:** Frostbound Reaches, glacial mountains, frozen tundras, anywhere eternal winter holds.
 
-**Lore:** Neither aligned with the Verdant Verge's cycles nor touched by Iosyx's flame—Frostscale Wyrms embody pure elemental cold, the stillness before and after life. They're ancient beyond reckoning, having slept through cataclysms and awakened unchanged. Their territories are permanent winter, and entire civilizations have migrated to avoid their expansion. Unlike other wyrms, they don't hoard gold (too soft)—they collect frozen moments: a waterfall suspended mid-cascade, prey preserved in perfect ice tableaux, sometimes even heroes flash-frozen in heroic poses.
+**Lore:** Neither aligned with the Tangled Verge's cycles nor touched by Iosyx's flame—Frostscale Wyrms embody pure elemental cold, the stillness before and after life. They're ancient beyond reckoning, having slept through cataclysms and awakened unchanged. Their territories are permanent winter, and entire civilizations have migrated to avoid their expansion. Unlike other wyrms, they don't hoard gold (too soft)—they collect frozen moments: a waterfall suspended mid-cascade, prey preserved in perfect ice tableaux, sometimes even heroes flash-frozen in heroic poses.
 
 ---
 

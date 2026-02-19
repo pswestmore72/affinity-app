@@ -43,9 +43,9 @@ Not figures in the distance. *Tens of thousands*. Packed into a valley that shou
 
 And they were not all mortal.
 
-I saw creatures from the Verge—Bloom-touched dancers whose skin sprouted flowers with every step, and Withering pilgrims who seemed to be decomposing in real time yet moved with terrible grace. Entities from the Hollow Marches drifted at the edges—not participating, exactly, but *observing*, their empty forms drinking in the excess of sensation they could no longer feel. I even spotted what I believe was a minor Custodian, its form shifting between masks, perhaps here to report back to the Curator or perhaps—more disturbingly—here for personal reasons.
+I saw creatures from the Verge—Bloom-touched dancers whose skin sprouted flowers with every step, and Withering pilgrims who seemed to be decomposing in real time yet moved with terrible grace. Entities from the Gloam drifted at the edges—not participating, exactly, but *observing*, their empty forms drinking in the excess of sensation they could no longer feel. I even spotted what I believe was a minor Custodian, its form shifting between masks, perhaps here to report back to the Curator or perhaps—more disturbingly—here for personal reasons.
 
-They'd brought everything: drums made from materials I will refuse to identify before this tribunal, torches that burned in colors the Weave doesn't name, and enough intoxicants to fuel a Verdant Verge metabolic shift.
+They'd brought everything: drums made from materials I will refuse to identify before this tribunal, torches that burned in colors the Weave doesn't name, and enough intoxicants to fuel a Tangled Verge metabolic shift.
 
 A man in mismatched armor stumbled past me, grinning with teeth that had been filed to points. "First time?" he asked.
 
@@ -73,7 +73,7 @@ I do not mean they moved in time. I mean they *danced*—the way a mystic channe
 
 The first death happened seven minutes in.
 
-A young Halfling, barely into her third decade, simply stopped. Not collapsed. *Stopped*. She remained standing, still moving, but something essential had exited—slipped out through her eyes, perhaps, or evaporated through her pores. Her companions didn't notice for another hour. By then, three more had stopped with her, their bodies keeping something else's time.
+A young smallfolk, barely into her third decade, simply stopped. Not collapsed. *Stopped*. She remained standing, still moving, but something essential had exited—slipped out through her eyes, perhaps, or evaporated through her pores. Her companions didn't notice for another hour. By then, three more had stopped with her, their bodies keeping something else's time.
 
 No one screamed. The drums were too loud for screaming.
 
@@ -151,7 +151,7 @@ I wondered if that was the real lesson of the Dance.
 
 It continued through nights and days.
 
-I should describe the wonders. There were wonders. An artificer had constructed an instrument that translated starlight directly into sound and memory, and for seventeen hours the Waste sang with frequencies that predated the Covenant of Balance. Three sorcerers collaborated on an illusion so perfect that an entire section of the crowd believed they were dancing in the Verdant Verge—the Bloom incarnate, flowers erupting from their skin, roots threading through their feet. It was beautiful. It was *transcendent*.
+I should describe the wonders. There were wonders. An artificer had constructed an instrument that translated starlight directly into sound and memory, and for seventeen hours the Waste sang with frequencies that predated the Covenant of Balance. Three sorcerers collaborated on an illusion so perfect that an entire section of the crowd believed they were dancing in the Tangled Verge—the Bloom incarnate, flowers erupting from their skin, roots threading through their feet. It was beautiful. It was *transcendent*.
 
 Two of the mages did not survive the threefold casting. The third completed the work alone, weeping without pause, her tears falling upward. She was, I learned later, a high priestess of Gephorix—and the illusion was not entertainment. It was liturgy. A sermon in sensory overload, demonstrating that the Many-Masked's domain touched even the realm of wild growth.
 
