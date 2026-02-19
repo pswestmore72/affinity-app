@@ -6,6 +6,85 @@ This compendium contains creatures drawn from across the **Reflected Realms**, *
 
 ---
 
+## Table of Contents
+
+1. [Understanding NPC Power Tiers](#understanding-npc-power-tiers)
+2. [NPC Action Rules](#npc-action-rules)
+3. [NPC Stat Block Format](#npc-stat-block-format)
+4. [Quick Lookup Tables](#quick-lookup-tables)
+5. [Trivial Tier Creatures](#trivial-tier-creatures)
+6. [Basic Tier Creatures](#basic-tier-creatures)
+7. [Advanced Tier Creatures](#advanced-tier-creatures)
+8. [Expert Tier Creatures](#expert-tier-creatures)
+9. [Legendary Tier Creatures](#legendary-tier-creatures)
+10. [Ultimate Tier Creatures](#ultimate-tier-creatures)
+11. [Mythical Tier Creatures](#mythical-tier-creatures)
+12. [Allies & Companions](#allies--companions)
+13. [Using the Bestiary](#using-the-bestiary)
+
+---
+
+## Quick Lookup Tables
+
+### By Threat Tier
+
+| Tier | Creatures |
+|------|-----------|
+| **Trivial** | Mist Wisp, Scrap Imp, Candlewight, River Minnow Swarm, Ash Sprite |
+| **Basic** | Pall-Wolf, Oath-Breaker Shade, Vigil Shade, Grief-Lantern, Hollow Drifter, Verdant Creeper, Bloom-Spawn, Withering Herald, Memory Echo, Coin-Bound Merchant, Hollow Vesper Scout, Forge Salamander, Moonbound Watcher, Crownstag, Debt Collector |
+| **Advanced** | Threshold Walker, Verdant Guardian, Schism-Scarred Enforcer, Mournbat Swarm, Coin Golem, River-Kin Guide, Revenant Knight, Chaos Elemental, Hollow Vesper Corruptor |
+| **Expert** | Archon of the Halls, Planar Warden, Primal Wyrm, Sorrow Leech, Flame Titan, Memory Devourer, Death Knight of Azravael |
+| **Legendary** | Celestial Drake, Void Shepherd, Ancient Verdant Colossus |
+| **Ultimate** | Herald of the Schism, Twilight Aspect of Aralys |
+| **Mythical** | Fragment of Iosyx, The Tidebound Memory |
+
+### By Native Realm
+
+| Realm | Creatures |
+|-------|-----------|
+| **Mortal Weave** | Crownstag, Memory Echo, Coin-Bound Merchant, Debt Collector, Oathbound Squire, Village Blacksmith, Traveling Merchant |
+| **The Gloam** | Mist Wisp, Candlewight, Pall-Wolf, Oath-Breaker Shade, Vigil Shade, Grief-Lantern, Hollow Drifter, Mournbat Swarm, Moonbound Watcher, Revenant Knight, Sorrow Leech, Void Shepherd, Twilight Aspect of Aralys |
+| **Verdant Verge** | Verdant Creeper, Bloom-Spawn, Withering Herald, Verdant Guardian, Ancient Verdant Colossus, Ash Sprite |
+| **Empyreal Accord** | Archon of the Halls, Celestial Drake |
+| **Wild Expanse** | Primal Wyrm |
+| **Engine of Bael-Zaroth** | Schism-Scarred Enforcer, Death Knight of Azravael, Herald of the Schism |
+| **Roiling Crucible** | Forge Salamander, Chaos Elemental, Flame Titan, Fragment of Iosyx |
+| **Threshold Zones** | Threshold Walker, Planar Warden |
+| **Multiple Realms** | River-Kin Guide, Hollow Vesper Scout, Hollow Vesper Corruptor |
+
+### By Deity/Faction Allegiance
+
+| Deity/Faction | Creatures |
+|---------------|-----------|
+| **Concordant Halls** | Archon of the Halls, Planar Warden, Revenant Knight, Celestial Drake, Oathbound Squire |
+| **Living Accord** | Verdant Creeper, Bloom-Spawn, Withering Herald, Verdant Guardian, Crownstag, Primal Wyrm, Ancient Verdant Colossus |
+| **Verdant Excesses** | Bloom-Spawn (Bloom), Withering Herald (Withering) |
+| **Curator Arcanum** | Memory Echo, Memory Devourer, Threshold Walker, Wandering Scholar |
+| **Aralys (Death/Mercy)** | Moonbound Watcher, Void Shepherd, Twilight Aspect of Aralys, Mist Wisp, Candlewight |
+| **Gloam Mourning States** | Vigil Shade (Vigil), Grief-Lantern (Remembrance), Hollow Drifter (Hollow) |
+| **Aluneth (Memory/Tides)** | River-Kin Guide, Memory Echo, The Tidebound Memory |
+| **Azravael (Schism)** | Schism-Scarred Enforcer, Death Knight of Azravael, Herald of the Schism, Debt Collector (Advanced) |
+| **Korthane (Trade/Debt)** | Coin-Bound Merchant, Coin Golem, Debt Collector (Basic) |
+| **Iosyx (Chaos/Elements)** | Chaos Elemental, Flame Titan, Forge Salamander, Fragment of Iosyx, Ash Sprite |
+| **Hollow Vespers (Enemy of Balance)** | Hollow Vesper Scout, Hollow Vesper Corruptor, Oath-Breaker Shade |
+| **Unaligned/Wild** | Pall-Wolf, Mournbat Swarm, River Minnow Swarm, Scrap Imp |
+
+### By Encounter Role
+
+| Role | Creatures |
+|------|-----------|
+| **Minion/Swarm** | Mist Wisp, Scrap Imp, Ash Sprite, River Minnow Swarm, Mournbat Swarm, Bloom-Spawn (with Seedlings) |
+| **Skirmisher** | Pall-Wolf, Threshold Walker, Chaos Elemental, Vigil Shade |
+| **Bruiser** | Verdant Guardian, Primal Wyrm, Flame Titan, Ancient Verdant Colossus, Withering Herald |
+| **Controller** | Verdant Creeper, Hollow Vesper Corruptor, Death Knight of Azravael, Grief-Lantern |
+| **Support** | Moonbound Watcher, River-Kin Guide, Hearth Priest, Wandering Scholar |
+| **Social/Negotiator** | Coin-Bound Merchant, Debt Collector, Memory Echo |
+| **Boss** | Archon of the Halls, Celestial Drake, Herald of the Schism, Twilight Aspect of Aralys |
+| **Identity Threat** | Hollow Drifter, Memory Devourer, Sorrow Leech |
+| **Reality-Warping** | Fragment of Iosyx, The Tidebound Memory |
+
+---
+
 ## Understanding NPC Power Tiers
 
 NPCs are categorized by their **Threat Tier**, which determines their overall power level and typical encounter difficulty:
@@ -208,7 +287,9 @@ Each creature lists:
 
 **Tactics:** Drifts aimlessly, only attacking when disturbed. Flees after taking any damage.
 
-**Lore:** Fragments of memory from the Gloam that have seeped through planar boundaries. They seek warmth and life, draining it instinctively. Associated with Aralys's forgotten dead—souls who slipped past the Pale Shepherds.
+**Terrain/Environment:** Most common near Threshold Zones where the Gloam bleeds through, or in areas where the Hollow Mourning State has left its mark. Abandoned villages, forgotten battlefields, places where even grief has faded to nothing.
+
+**Lore:** Fragments of memory from the Gloam that have seeped through planar boundaries, born during Hollow-tides when mourning forgets what it mourned. They seek warmth and life, draining it instinctively—not from malice, but from a desperate, wordless need to remember what being alive felt like. Associated with souls who slipped past the Pale Shepherds during the Hollow. The Moonbound Choir considers them cautionary tales: this is what happens when grief is never resolved. A Mist Wisp cannot be reasoned with because there is nothing left inside to reason with.
 
 ---
 
@@ -252,9 +333,11 @@ Each creature lists:
 - **Living Flame:** Sheds light 10 yards, can ignite flammable objects
 - **Snuff:** Dies immediately if exposed to strong wind or water
 
-**Tactics:** Hovers near travelers, drawn to loneliness and sorrow. Not inherently hostile but burns if touched.
+**Tactics:** Hovers near travelers, drawn to loneliness and sorrow. Not inherently hostile but burns if touched. Follows grieving travelers for miles, offering light without words.
 
-**Lore:** Spirits from the Gloam representing the last flicker of hope in dying souls. They appear as floating candle flames with soft, mournful light. Balemor the Hearth-Walker is said to send them to comfort the lost.
+**Terrain/Environment:** Appears during Remembrance Mourning States, near deathbeds, and in places where someone died alone but remembered. Most common at crossroads and inn hearths after midnight. Occasionally drifts through the Mortal Weave where the Gloam's influence thins.
+
+**Lore:** Spirits from the Gloam born during Remembrance—the Mourning State when grief still honors what was lost. Each Candlewight is the last flicker of hope from a dying soul, sent by Balemor the Hearth-Walker to comfort those who grieve. They appear as floating candle flames with soft, mournful light, and their presence means someone nearby needs comfort. The Pale Shepherds recognize them as allies; during Release, Candlewights often guide souls toward their final passage. Unlike Grief-Lanterns (which feed on sorrow), Candlewights ease it. Those who treat them gently report dreams of closure. Those who extinguish them carelessly sometimes find their own hope harder to kindle.
 
 ---
 
@@ -372,6 +455,107 @@ Each creature lists:
 
 ---
 
+### Vigil Shade
+**Threat Tier:** Basic  
+**HD Pool:** 4d6  
+**Proficiency:** 1  
+**Resolve:** 3  
+**Armor:** None  
+**Movement:** 10 yards  
+
+**Denial Strike** (Basic, 2+)
+- Rolls: 2d6
+- Required: 1
+- Base: 1 HD psychic damage
+- Special: Target must succeed on Resolve check or forget they were damaged (cannot tell how much HD they've lost until combat ends)
+
+**Loop the Moment** (Advanced, 3+)
+- Rolls: 3d6
+- Required: 2
+- Range: 15 yards
+- Effect: Target is forced to repeat last action taken (whether successful or not). If they cannot repeat it (moved out of range, target gone), they lose their action entirely
+
+**Special Abilities:**
+- **Denial State:** Cannot be convinced it is dead. If reduced to 0 HD, reforms at sundown unless laid to rest with proper funeral rites
+- **Vigil-Born:** Appears only during Vigil-tides in the Gloam or when someone refuses to accept a recent death
+- **Familiar Face:** Appears as someone target has lost—a parent, friend, or comrade recently dead
+
+**Tactics:** Doesn't understand it's fighting. Repeats last moments of its life endlessly. Attacks only those who interfere with its loop for anyone who forces it to acknowledge death.
+
+**Terrain/Environment:** Appears at fresh graves, deathbeds, battlefield sites within days of a death. Most common during the Vigil Mourning State. Mist follows it. Time feels slower nearby.
+
+**Lore:** When the Gloam's Vigil dominates a region, the recently dead sometimes fail to realize they've died. These Vigil Shades walk through their last moments in an infinite loop—eating breakfast, walking to market, dying, waking, eating breakfast again. They aren't hostile unless forced to confront reality. Wise travelers let them pass. Those who force closure too roughly may face a shade's desperate rage. The Pale Shepherds gently guide Vigil Shades toward Release when Remembrance arrives.
+
+---
+
+### Grief-Lantern
+**Threat Tier:** Basic  
+**HD Pool:** 3d8  
+**Proficiency:** 2  
+**Resolve:** 2  
+**Armor:** None (incorporeal)  
+**Movement:** Fly 15 yards (hover)  
+
+**Sorrowlight** (Basic, 2+)
+- Rolls: 3d6
+- Required: 1
+- Base: 1 HD psychic damage
+- Range: 20 yards
+- Special: Target sees brief vision of someone they've lost
+
+**Grief Beacon** (Advanced, 3+) - Environmental
+- Rolls: 4d6
+- Required: 2
+- Effect: 15-yard radius fills with pale light. All living creatures within must make Resolve check or suffer -1d6 to all actions as grief weighs on them (lasts while in light)
+
+**Special Abilities:**
+- **Incorporeal:** Physical attacks pass through unless magical or blessed
+- **Mourner's Light:** Sheds pale, cold light in 20-yard radius. Undead within this light gain +1d6 to all actions
+- **Feed on Sorrow:** Heals 1 HD whenever creature within 15 yards fails Resolve check
+
+**Tactics:** Drifts silently, following those carrying grief. Uses Grief Beacon to weaken groups, then Sorrowlight on those who show emotional vulnerability.
+
+**Terrain/Environment:** Floats above cemeteries, memorial sites, and places of recent tragedy. Common during Remembrance Mourning State but can appear anywhere death has touched.
+
+**Lore:** Unlike Candlewights (which offer comfort), Grief-Lanterns are parasites that feed on unprocessed sorrow. They're believed to be stillborn Candlewights—comfort that never arrived, curdled into hunger. Balemor the Hearth-Walker is said to weep when he sees what his failed blessings become. The light they shed is beautiful but cold, and many travelers mistake them for guides before realizing the lantern leads only deeper into grief.
+
+---
+
+### Hollow Drifter
+**Threat Tier:** Basic  
+**HD Pool:** 5d6  
+**Proficiency:** 2  
+**Resolve:** 0 (cannot be reduced; has no will to break)  
+**Armor:** None  
+**Movement:** 10 yards, phase through obstacles  
+
+**Identity Drain** (Basic, 2+)
+- Rolls: 3d6
+- Required: 1
+- Base: 1 HD necrotic damage
+- Special: Target must make Resolve check or forget their own name for 1 hour (cannot use class abilities tied to identity until remembered)
+
+**Emptiness Touch** (Advanced, 3+)
+- Rolls: 4d6
+- Required: 2
+- Targets Resolve
+- Range: Touch
+- Effect: 2 Resolve damage. If target reaches 0 Resolve, they become apathetic and cannot willingly act for 1d6 rounds
+
+**Special Abilities:**
+- **Hollow-Born:** Created when Hollow Mourning State strips identity from wandering souls
+- **Faceless:** Has no face—just smoothed, featureless skin. Immune to effects requiring eye contact
+- **Memory Null:** Creatures cannot remember Drifter's location if they look away. Must make Awareness check to track it
+- **Hunger for Self:** Drawn to those with strong identities (high Resolve, defined goals)
+
+**Tactics:** Drifts toward sources of identity and purpose. Attacks mechanically, without malice—it doesn't remember what malice is. Prioritizes targets with highest Resolve.
+
+**Terrain/Environment:** Appears during Hollow Mourning States, or in places where mass forgetting has occurred (destroyed libraries, massacred villages with no survivors to remember). The air feels empty where they drift.
+
+**Lore:** The Hollow is the Gloam's most dangerous Mourning State—grief that has curdled into emptiness, mourning that forgot what it mourned. Hollow Drifters are what remains of souls caught in the Hollow too long. They've forgotten everything: name, face, purpose, even the memory of having memories. They drift through the Gloam seeking what they lost, draining identity from others in vain hope of recovering their own. The Pale Shepherds can guide many souls, but Hollow Drifters are beyond even their reach—there's nothing left to guide.
+
+---
+
 ### Verdant Creeper
 **Threat Tier:** Basic  
 **HD Pool:** 5d8  
@@ -399,6 +583,72 @@ Each creature lists:
 **Tactics:** Waits in ambush near paths. Entangles strongest-looking target, then focuses Thorned Lash on casters. Flees underground if reduced below half HD.
 
 **Lore:** Plant creatures animated by the Living Accord's overflow of growth energy. They defend ancient forests and sacred groves, attacking those who harm nature. Thymera's priests can speak with them and negotiate safe passage. Not evil, but protective and territorial.
+
+---
+
+### Bloom-Spawn
+**Threat Tier:** Basic  
+**HD Pool:** 4d8  
+**Proficiency:** 1  
+**Resolve:** 1  
+**Armor:** Petal layers (1d8 temp HD)  
+**Movement:** 10 yards  
+
+**Thorn Spray** (Basic, 2+)
+- Rolls: 2d6
+- Required: 1
+- Base: 2 HD piercing damage
+- Range: 15 yards (all creatures in 5-yard cone)
+
+**Proliferate** (Advanced, 3+)
+- Rolls: 3d6
+- Required: 2
+- Effect: Creates 1 Bloom-Seedling (1d4 HD, Trivial) adjacent to target. Seedling acts next round with 1d6 attack dealing 1 HD damage.
+- Special: Can only have 3 Seedlings active at once
+
+**Special Abilities:**
+- **Excess Growth:** Regains 1 HD per round if standing in direct sunlight on natural ground
+- **Bloom-Touched:** During Bloom dominance in the Verdant Verge, gains +2d6 to all actions and unlimited Seedlings
+- **Beautiful Danger:** First time a creature sees a Bloom-Spawn, must make Awareness check (Basic, 2+) or approach without hostility (entranced by beauty)
+
+**Tactics:** Creates Seedlings to swarm enemies, uses Thorn Spray on grouped targets. Retreats toward sunlight if damaged. Does not pursue into darkness.
+
+**Terrain/Environment:** Appears in areas where the Bloom Excess is ascendant—meadows choked with flowers, forests where growth outpaces decay. Common near threshold zones where Verdant Verge bleeds into Mortal Weave.
+
+**Lore:** When the Bloom dominates the Verdant Verge, its ideology (*Growth must not slow*) spawns living avatars. Bloom-Spawn are walking gardens of impossible beauty, flowers emerging from humanoid shapes made of vine and nectar. They aren't hostile by nature—they simply proliferate, filling spaces with growth, treating other creatures as substrate for more Bloom. What they create is beautiful. What they replace is gone forever. The Verdant Synod attempts to moderate Bloom-Spawn, but during Bloom-tides, they proliferate faster than they can be culled.
+
+---
+
+### Withering Herald
+**Threat Tier:** Basic  
+**HD Pool:** 5d8  
+**Proficiency:** 2  
+**Resolve:** 2  
+**Armor:** Desiccated bark (2d6 temp HD)  
+**Movement:** 10 yards  
+
+**Ripening Touch** (Basic, 2+)
+- Rolls: 3d6
+- Required: 1
+- Base: 2 HD necrotic damage
+- Special: Organic materials touched (wood, leather, plant) begin aging rapidly—mundane items may decay over hours
+
+**Harvest Scythe** (Advanced, 3+)
+- Rolls: 4d6
+- Required: 2
+- Base: 3 HD slashing damage
+- Special: If target is below half HD, deals +1d6 damage (ripe for harvest)
+
+**Special Abilities:**
+- **Withering Aura:** All plants within 10 yards slowly turn gold and brown. Food spoils in hours. Not harmful to living creatures directly, but rations ruined.
+- **Graceful Decay:** When reduced to 0 HD, releases cloud of spores in 10-yard radius. Creatures must make Fortitude check or suffer -1d6 to next action (drowsy, ready to sleep).
+- **Withering-Touched:** During Withering dominance in the Verdant Verge, gains +2d6 defense (harvest cannot be stopped)
+
+**Tactics:** Approaches slowly, gesturing for prey to accept their time. Uses Harvest Scythe on weakened targets. Does not chase those who flee—they'll ripen eventually.
+
+**Terrain/Environment:** Orchards where fruit falls endlessly, forests blanketed in autumn gold even in summer, fields of grain bowed heavy with seed. The Withering is not winter—it's the necessary maturation before rest.
+
+**Lore:** Sentient expressions of the Withering Excess, these figures appear as orchard-ghosts wrapped in falling leaves and the scent of ripe fruit. They aren't death-bringers—they're harvesters. Their ideology (*All beauty must mature and fall*) makes them patient, accepting, even kind. A Withering Herald will warn travelers: "Your time approaches. Use it well." They become dangerous only when the Bloom grows too aggressive, racing to restore balance by forcing premature harvest. During Withering-tides, they walk in procession, bringing autumn wherever they go.
 
 ---
 
@@ -1134,7 +1384,13 @@ Each creature lists:
 
 **Tactics:** Remains invisible, using Amplify Grief to weaken groups. Possesses target with lowest Resolve. Flees into ethereal plane if threatened.
 
-**Lore:** Parasitic entities from the Gloam that feed on sorrow and grief. Unlike Hollow Vespers (which create despair), Sorrow Leeches merely consume it. They're drawn to funerals, battlefields, and places of tragedy. Not inherently evil—they're predators filling an ecological niche. Balemor the Hearth-Walker allows them to exist as they consume grief that would otherwise fester. Can be driven away by celebrations of life and strong community bonds. Priests of Ilyra ward against them with hearthstone charms.
+**Terrain/Environment:** Most active during Remembrance and Vigil Mourning States. Drawn to funerals, battlefields, deathbeds, and memorials. Avoids areas in Release (nothing left to feed on) and flees from the Hollow (even parasite needs prey with something to drain). Follows the grief-heavy, sometimes for weeks.
+
+**Lore:** Parasitic entities from the Gloam that feed on sorrow and grief. Unlike Hollow Vespers (which *create* despair), Sorrow Leeches merely consume it—filling an ecological niche within the Gloam's emotional weather. During Vigil, they gorge on denial; during Remembrance, they feast on active mourning. They're most dangerous when the Gloam's grief accumulates faster than it can process, and Sorrow Leeches multiply to consume the excess.
+
+Not inherently evil—they're predators, and predators serve functions. Balemor the Hearth-Walker tolerates them because grief that festers too long becomes the Hollow, and Hollow Drifters cannot be saved. Better a Sorrow Leech drain your sorrow than let it consume you entirely. The Pale Shepherds sometimes *guide* grieving souls toward Sorrow Leeches when grief threatens to trap them in Vigil forever—a painful mercy.
+
+Can be driven away by celebrations of life and strong community bonds. Priests of Ilyra ward against them with hearthstone charms. The Moonbound Choir regards them as necessary evils, distasteful but part of the Gloam's balance.
 
 ---
 

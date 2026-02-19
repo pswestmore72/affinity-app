@@ -1519,10 +1519,11 @@ You navigate social situations with grace and cunning.
 
 **Benefit:**
 - Gain +2d6 to all Influence skill rolls (doesn't burn HD on 1s)
+- **Composure Upgrade:** Your base Composure dice are d8 (upgraded from d6)
 - Once per long rest: **Perfect Pitch**—reduce the required successes on one social roll by 2 (minimum 1). Describe your masterful performance — the perfect words, the precise timing, the devastating charm.
 - **Read the Room**: Spend 1 minute observing a social situation to learn the power dynamics, tensions, and key figures (GM provides useful social information)
 
-**Proficiency 3+ Milestone:** Read the Room becomes instant — a glance (free action) is sufficient for social situations you've studied before (you've visited the location, met the key figures, or spent time observing the culture previously). Your social intuition is second nature.
+**Proficiency 3+ Milestone:** Read the Room becomes instant — a glance (free action) is sufficient. Additionally, gain +1 Composure die in social duels (representing honed social armor).
 
 **Connects to:** `Charming` • `Deceptive` • `Commanding Presence` • `Negotiator`
 
@@ -1531,7 +1532,7 @@ You navigate social situations with grace and cunning.
 #### Charming
 **Prerequisite:** `Silver Tongue`
 
-**Benefit:** When making favorable first impressions, gain +1d6 (doesn't burn HD on 1s). NPCs are generally inclined to like you unless you give them reason not to. Narrative benefit: doors open more easily.
+**Benefit:** When making favorable first impressions, gain +1d6 (doesn't burn HD on 1s). NPCs are generally inclined to like you unless you give them reason not to. In social duels, your Discern stance also grants +1d6 (you read people effortlessly).
 
 **Connects to:** `Silver Tongue` • `Beloved` → `Hearth-Keeper` • `Virtue's Voice`
 
@@ -1540,7 +1541,7 @@ You navigate social situations with grace and cunning.
 #### Deceptive
 **Prerequisite:** `Silver Tongue`
 
-**Benefit:** When lying or deceiving, gain +1d6 (doesn't burn HD on 1s). Gain +2d6 if your lie is plausible. Narrative benefit: people believe your cover stories.
+**Benefit:** When lying or deceiving, gain +1d6 (doesn't burn HD on 1s). Gain +2d6 if your lie is plausible. In social duels, once per duel you may declare "That was a feint"—treat your chosen stance as a different stance for interaction purposes (after seeing opponent's stance).
 
 **Connects to:** `Silver Tongue` • `Master of Disguise` → `Shadow-Trained` • `Misdirection`
 
@@ -1549,7 +1550,7 @@ You navigate social situations with grace and cunning.
 #### Commanding Presence
 **Prerequisite:** `Silver Tongue`
 
-**Benefit:** When giving orders, making demands, or intimidating, gain +1d6 (doesn't burn HD on 1s). NPCs take you seriously. Narrative benefit: you project authority even if you lack formal rank.
+**Benefit:** When giving orders, making demands, or intimidating, gain +1d6 (doesn't burn HD on 1s). NPCs take you seriously. In social duels, your Assert stance deals +1 additional damage on victory.
 
 **Connects to:** `Silver Tongue` • `Natural Leader` → `War-Trained` • `Battle Commander`
 
@@ -1558,7 +1559,7 @@ You navigate social situations with grace and cunning.
 #### Negotiator
 **Prerequisite:** `Silver Tongue`
 
-**Benefit:** When negotiating deals, trades, or agreements, gain +1d6 (doesn't burn HD on 1s). You can usually find common ground. Narrative benefit: you broker deals others can't.
+**Benefit:** When negotiating deals, trades, or agreements, gain +1d6 (doesn't burn HD on 1s). You can usually find common ground. In social duels, your Reason stance converts at 1 success per Leverage (instead of 2).
 
 **Connects to:** `Silver Tongue` • `Mediator` → `Scholar's Method`
 

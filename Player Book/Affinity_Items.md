@@ -698,6 +698,86 @@ Writing implements
 
 ---
 
+## Social Combat Items
+
+*Items designed for the battle of words and wills*
+
+### Common Tier (Social)
+
+**Signet of Minor House**  
+**Effect:** +1 Composure die when dealing with commoners or servants (they recognize your station)  
+**Description:** Ring bearing a lesser noble house's insignia.
+
+**Diplomat's Sash**  
+**Effect:** Neutral parties treat you as credentialed negotiator. +1d6 on first social roll with strangers.  
+**Description:** Silk sash in colors recognized across nations as "under parley."
+
+---
+
+### Basic Tier (Social)
+
+**Circlet of Composure**  
+**Effect:** Upgrade your Composure dice by one step (d6→d8 or d8→d10)  
+**Description:** Silver circlet that radiates calm authority. Favored by court advisors.
+
+**Amulet of Silver Tongue**  
+**Effect:** In social duels, Reason stance converts at 1 success per Leverage (instead of 2). Once per long rest, re-roll a failed social attack.  
+**Description:** Amulet shaped like a serpent devouring its own words.
+
+**Ring of Truth's Weight**  
+**Effect:** When you present hard evidence in a social duel, reduce threshold by 1 additional step (stacks with evidence bonus). Evidence you carry cannot be stolen or destroyed.  
+**Description:** Heavy iron ring inscribed with Aluneth's runes of memory.
+
+---
+
+### Advanced Tier (Social)
+
+**Mask of Many Faces**  
+**Effect:** Change appearance at will (illusion, does not alter voice). In social duels, once per duel declare "You don't know who I am"—opponent loses 1 Leverage and you gain it.  
+**Description:** Featureless mask that shows different faces to different viewers.
+
+**Mantle of the Sovereign**  
+**Effect:** Your Composure dice are d10 (regardless of other upgrades). Assert stance deals +2 damage instead of +1. Commoners cannot initiate social attacks against you (automatic intimidation).  
+**Description:** Ermine-lined cloak bearing ancient symbols of absolute authority. Said to be cut from a king's burial shroud.
+
+**Crown of Measured Words**  
+**Effect:** +2 Composure dice. Once per social duel, after seeing opponent's stance, change your declared stance (free action). You are always watching, always calculating.  
+**Description:** Thin golden crown with eyes etched along its band—Aluneth's gift to diplomats.
+
+**Tongue of the Concordant**  
+**Effect:** In social duels where you invoke the Concordant Halls or oath-keeping, reduce threshold to Basic 2+. When opponent breaks an oath during duel, they automatically lose 2 Composure dice.  
+**Description:** Pin shaped like balanced scales. Hums when oaths are broken nearby.
+
+---
+
+### Expert Tier (Social)
+
+**Regalia of Absolute Authority**  
+**Effect:** Your Composure dice are d10. You have +3 Composure dice. In social duels, you may spend 1 Resolve to automatically win a round (no roll needed). Once per long rest, issue a Command (target must succeed on Resolve check or obey one reasonable order).  
+**Description:** Complete set—crown, scepter, and orb—forged for a legendary emperor. Radiates power that makes knees bend.
+
+**The Covenant Blade**  
+**Effect:** Not a weapon for combat—when drawn in social duel, all participants are bound by absolute honesty (cannot lie, Deceptive stance unavailable to all). Breaking this compulsion costs 3 Resolve. Duel winner may demand one true answer from the loser.  
+**Description:** Crystal blade that shatters lies. Said to be forged from a shard of Aluneth's mirror.
+
+**Paradox Tongue**  
+**Effect:** Once per social duel, speak a logical paradox—opponent's next roll is at +2 threshold (they're momentarily confused). If you have the Scholar class, this effect triggers automatically each round you use Reason stance (can only affect each opponent once).  
+**Description:** Tiny spiral carved from impossible geometry. Whispers contradictions.
+
+---
+
+### Legendary Tier (Social)
+
+**Voice of the Pillar**  
+**Effect:** Choose one Custodial Power when you attune. In social duels involving that Power's domain (oaths for Concordant, knowledge for Curator, etc.), you roll at Basic 2+ threshold, your Composure dice are d10, and opponent's threshold increases by 1. You speak with the weight of cosmic principle.  
+**Description:** Fragment of the Mortal Weave itself, crystallized into a pendant. Each Power's version appears different.
+
+**The Last Word**  
+**Effect:** Once per long rest, when an opponent would win a social duel, speak The Last Word. The duel immediately ends in stalemate—no stakes are resolved. Both parties must withdraw. This cannot be prevented or countered. You have spoken, and nothing more can be said.  
+**Description:** A single syllable carved onto a sliver of bone from something that existed before the cosmos. To speak it is to end all discourse.
+
+---
+
 ## Mythical Artifacts
 
 *Reality-warping items, campaign-defining, referenced in cosmology*

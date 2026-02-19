@@ -17,9 +17,9 @@
 
 ## The Shape of the Cosmos
 
-All existence is suspended within **the Veil Beyond**, a lightless metaphysical expanse that separates reality from unreality. Within it drift the **Realms**, vast metaphysical territories shaped by belief, principle, and primordial force.
+All existence is suspended within **the Veil Beyond**, the absolute outer boundary—a lightless metaphysical expanse that separates reality from unreality. Nothing exists beyond it; nothing can. Within the Veil drift the **Realms**, vast metaphysical territories shaped by belief, principle, and primordial force.
 
-The cosmos is organized through the vast **Ethereal Void**, a place and time removed from both, existing only as the space between the known Planes.
+Between the Realms flows **the Ethereal Void**, the navigable emptiness that separates Plane from Plane. Where the Veil Beyond is the shell containing all existence, the Ethereal Void is the medium through which travelers pass when moving between worlds. It has no substance, no time, no direction—only relative distance measured in will and intent.
 
 ### The Three Great Strata
 
@@ -31,9 +31,11 @@ The cosmos is organized through the vast **Ethereal Void**, a place and time rem
 
 ## The Reflected Realms
 
-Three echoes of one truth. These realms share a common core and mirror each other's reality; where a mountain range exists in one, similar formations exist in the others. These are also known as the **"Focal Point"**, containing the largest observable amount of arcane energy in the universe.
+Three echoes of one truth—**mortality, growth, and ending**—bound together in a reflection that cannot be broken without unmaking all three. Where a mountain rises in the Mortal Weave, its shadow falls in the Gloam, and its overgrown twin chokes the Verdant Verge. What dies in one ripples through the others. What grows without death in one must be paid for elsewhere.
 
-### 1. The Mortal Weave
+Together they form the **Focal Point**, the convergence where cosmic law and arcane energy concentrates because belief, death, and growth press against each other without resolution.
+
+### 1. The Weave (or Mortal Weave)
 **Realm of Balance, Memory, and Mortality**
 
 This is the core, or prime, Plane of existence. Sometimes called the "Mortal" Plane, as most inhabitants born here are mortal beings—a payment for living on the only Plane to encompass elements and inhabitants from all other Inner and Outer Planes. The Mortal Weave is full of life and death, and this balance makes it unique.
@@ -42,28 +44,30 @@ This is the core, or prime, Plane of existence. Sometimes called the "Mortal" Pl
 
 **Greater Deities (Indirect Influence):**
 
-*All gods press upon the Mortal Weave, though none may rule it directly. Their competing pressures create the Balance.*
+*Every god reaches toward the Mortal Weave, yet none may claim it. The Balance exists because they cannot agree.*
 
-**Light & Order:**
-- Aluneth — Memory, tides, continuity *(resides in-realm)*
-- Nyroth Stonebound — Oaths, bonds, communal strength
+**Order & Protection:**
 - Aubret the Unbent — Law, justice, incorruptibility
-- Beryn the Laughing Dawn — Joy, renewal, defiance
-- Murien of a Thousand Names — Stories, identity, craft
+- Nyroth Stonebound — Oaths, bonds, communal strength
 - Caerith the Dawnwarden — Protection, guardianship, mercy-in-action
+- Korthane the Coinbound — Trade, finite obligation, fair exchange
 
-**Nature & Cycle:**
+**Memory & Passage:**
+- Aluneth — Memory, tides, continuity *(resides in-realm)*
+- Murien of a Thousand Names — Stories, identity, craft
+- Thalos of the Even Hand — Consequence, choice, fate's weight
+- Aralys the Veilbearer — Death's mercy, final remembrance
+
+**Life & Cycle:**
 - Thymera, the Verdant-Mother — Growth, healing, inevitability
 - Darthun, the Coil Below — Decay, cycles, necessity
+- Balemor the Hearth-Walker — Comfort within the process, solace for the lost
+
+**Hearth & Community:**
 - Ilyra the Hearthbound — Home, community, survival *(presence only, never manifests)*
+- Beryn the Laughing Dawn — Joy, family, renewal
 
-**Shadow & Passage:**
-- Aralys the Veilbearer — Death's mercy, final remembrance
-- Thalos of the Even Hand — Consequence, choice, fate's weight
-- Balemor the Hearth-Walker — Comfort for the lost and heartbroken
-
-**Change & Exchange:**
-- Korthane the Coinbound — Trade, finite obligation, fair exchange
+**Change & Becoming:**
 - Iosyx the Twin-Flame — Chaos, elemental flux, cosmic change
 - Zarun the Unshaped — Personal transformation, identity, freedom
 
@@ -96,26 +100,48 @@ No being of higher power is allowed entrance into the Mortal Weave. However, hig
 ### 2. The Gloam
 **Realm of Death, Endings, and Mercy**
 
-A reflection of the Mortal Weave shrouded in heavy mist and perpetual darkness. The entire realm is filled with pale darkness, save for a dim ever-present moon and faint distant stars. Life occurs here, though often cursed or filled with pain and loneliness.
+A reflection of the Mortal Weave shrouded in heavy mist and perpetual darkness. The entire realm is filled with pale darkness, save for a dim ever-present moon and faint distant stars. Where the Mortal Weave asks *what will you do?* and the Verdant Verge asks *what could you become?*, the Gloam asks only: **What did this mean?**
 
-**Common Creatures:** Vampires, ghouls, ghosts, revenants, creepers, banshees, gargoyles, mournbats, pall-wolves, candlewights, bone moths, and other living and undead creatures.
+**This is not a land of the dead. It is the weight of endings, given geography.**
+
+The Gloam does not have seasons or governments—it has **states of mourning** that roll across the landscape like weather. These are not metaphors. When grief concentrates, the terrain responds. Hills steepen. Rivers slow. Mist thickens until travelers cannot see their own hands. When acceptance arrives—when the dead are properly remembered and released—the land exhales. Paths clear. The moon brightens. For a time.
+
+Time passes at the same rate as the Mortal Weave, but the Gloam does not experience time the same way mortals do. A funeral can last years if the mourners cannot let go. A life's revelation takes only seconds to witness in the Black Reliquary. Duration is measured in **emotional resolution**, not hours. Those who arrive grieving may leave to find decades have passed—or moments, depending on what they were willing to accept.
+
+Life exists here, though often touched by curse, loss, or loneliness. Some creatures were born in the Gloam. Others came here to die and found they could only linger. Still others refuse to leave because the living world holds nothing for them anymore. The Gloam does not judge. It only asks: *Are you finished?*
+
+**Common Creatures:** Vampires, ghouls, ghosts, revenants, creepers, banshees, gargoyles, mournbats, pall-wolves, candlewights, bone moths, shade-sparrows, veil-cats, and other living and undead creatures. Most are not hostile by nature—they are simply **unresolved**. A ghost who remembers its purpose may guide travelers. A vampire who has accepted its curse may keep order in shadow-cities. The truly dangerous are those who have forgotten why they remain.
 
 **Greater Deities:**
 - Aralys the Veilbearer — Death, final mercy, remembrance, keeper of light in the darkest places
 - Thalos of the Even Hand — Fate, choice, consequence
 
+**The Mourning States (Emotional Weather):**
+
+These are not rulers. Not factions. Not seasons.
+
+They are **collective grief given atmospheric presence**—the accumulated weight of endings that rolls across the Gloam in waves.
+
+- **The Vigil** — The immediate aftermath. Denial made manifest. When the Vigil dominates a region, time slows to a crawl. The recently dead walk beside the living, confused, believing nothing has changed. Conversations repeat. Wounds that should kill do not. Those caught in deep Vigil may not realize they have died for years. The Vigil is not cruel—it simply cannot accept that something is over.
+
+- **The Remembrance** — Active memory. Grief that honors. When Remembrance holds, the dead appear as they wished to be remembered—young, strong, at peace. Monuments rise from nothing. Names echo from the stones. This is the Gloam at its most bearable. Living travelers may speak with ancestors, receive closure, learn truths that died with others. But Remembrance cannot last. Memory without release becomes monument without meaning.
+
+- **The Release** — Acceptance. The exhale. When Release moves through, the mists thin, paths open, and the dead finally pass onward to whatever waits beyond the Veil. It is melancholy but not painful. Those who witness Release often weep—not from sorrow, but because they finally understand that endings are necessary. The Gloam is most navigable during Release. Wise travelers wait for it.
+
+- **The Hollow** — Grief that has curdled into emptiness. Mourning that forgot what it mourned. When the Hollow dominates, even the moon dims. The dead do not appear—they *hunger*. Names are forgotten. Purpose dissolves. Travelers caught in the Hollow may lose memories of why they came, who they loved, what they lived for. The Pale Shepherds work hardest during Hollow-tides, guiding souls before they become untethered permanently.
+
 **Lesser Powers:**
-- **The Pale Shepherds** — Psychopomp entities guiding the unmoored dead
-- **The Moonbound Choir** — Spectral guardians sworn to Aralys
+- **The Pale Shepherds** — Psychopomp entities who guide the unmoored dead. They do not judge. They do not comfort. They simply ensure that those ready to pass find their way through. In the Gloam, this is essential work—without the Shepherds, souls would wander until the Hollow consumed them.
+- **The Moonbound Choir** — Spectral guardians sworn to Aralys, each one a former mortal who chose service over passage. They carry lanterns of pale fire and sing the names of the dead so that none are forgotten. Their voices can push back the Hollow for a time.
 
 **Custodial Powers:**
-- **The Black Reliquary** — Keepers of the Final Accounting
-- **The Loom of Fates** — Archivists of Possibility
+- **The Black Reliquary** — Keepers of the Final Accounting. They record how each soul lived, how it ended, and whether the ending matched the life. Not judges—archivists whose records cannot be falsified, even by gods.
+- **The Loom of Fates** — Archivists of Possibility. They do not weave fate—they record the paths not taken, so that the dead may understand what their choices cost and what they earned.
 
 **Planar Artifact:** *The Lantern of Last Mercy*
 
 **Travel Restrictions:**  
-Few legal open travel portals exist with the Mortal Weave, due to open portals to the "Evil" Outer Planes. Most non-native creatures dwell here on work and study visas only, in regulated areas. Powerful beings have traveled here, but entry limits are strict.
+Few legal open travel portals exist with the Mortal Weave, due to open portals to the "Evil" Outer Planes. Most non-native creatures dwell here on work and study visas only, in regulated areas. Powerful beings have traveled here, but entry limits are strict. Those who enter without understanding the Mourning States could arrive during Vigil and leave during Hollow—if they leave at all.
 
 ---
 

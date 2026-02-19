@@ -149,12 +149,12 @@ When you lose dice, cross them off. When they're gone, they're gone.
 
 ## Resting
 
-**Short Rest (30 min - 8 hours, "threatened"):**
+**Rest (30 min - 8 hours, "threatened"):**
 - Regain 1 HD (at Level 1)
 - Regain 1 Resolve
 - Max 2 per day
 
-**Long Rest (6+ hours, safe place):**
+**Recover (6+ hours, safe place):**
 - Regain ALL HD
 - Regain ALL Resolve
 - Restore armor

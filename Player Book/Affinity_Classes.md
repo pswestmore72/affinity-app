@@ -125,6 +125,12 @@ You are purpose made manifest in combat. Your weapon is an extension of your oat
   - Coordinating group combat tactics
 - Does NOT apply to attack or defense rolls
 
+**Warrior's Presence** (Passive — Social Mastery)
+- **Assert Mastery:** In social duels, Assert stance deals +1 additional damage on victory
+- **Intimidation Aura:** When you have visibly won a combat encounter, gain +2d6 on your next social duel against anyone who witnessed it (fear/respect)
+- **Unshakeable:** Your Composure dice defend on 4+ instead of 5+ (you don't flinch)
+- *The Combatant doesn't argue—they project. Their presence IS the argument.*
+
 **War Cry: Rally** (Advanced, 3+)
 - Required: 2 successes
 - Range: 30 yards, one ally who can hear you
@@ -429,6 +435,12 @@ You are a relay point between the mortal and the infinite. When companions falte
 **Invoke Resilience** (Passive)
 - Advantage (+1d6, doesn't burn HD) on: Resolve checks, concentration maintenance, endurance rolls
 
+**Divine Authority** (Passive — Social Mastery)
+- **Deity's Voice:** In social duels where you invoke your deity's domain or principles, reduce threshold to Basic 2+
+- **Consecrated Words:** When you speak truth according to your patron's values, opponent cannot gain Leverage that round (your conviction drowns out their preparation)
+- **Faithful Composure:** Gain +1 Composure die when defending positions aligned with your patron's teachings
+- *The Priest speaks with borrowed weight. Their deity watches, and others feel it.*
+
 **Limited Spellcasting** (Passive)
 - Known Spells: Proficiency × 3 (Divine domain)
 - Prepared Spells: Proficiency + 1
@@ -718,6 +730,12 @@ You decide where the battle happens, what it costs to get there, and who suffers
 - Advanced Wilderness checks require 1 less success (minimum 1)
 - Leading group travel: all party members +1d6 to Wilderness rolls (doesn't burn HD)
 
+**Hunter's Read** (Passive — Social Mastery)
+- **Discern Mastery:** In social duels, Discern stance grants +1d6 (you read people like terrain)
+- **Predator's Patience:** When you spend a round in Discern stance, gain 1 Leverage automatically (you're studying their weaknesses)
+- **Silent Pressure:** You may take Assert stance without speaking—your posture, gaze, and presence do the work (opponents find this deeply unsettling)
+- *The Ranger watches. They've tracked prey that was smarter than most nobles. Reading a courtier is simple.*
+
 **Mark Prey** (Advanced, 3+)
 - Required: 2 successes
 - 60 yards, one creature; lasts until they drop to 0 HD or you mark another
@@ -995,6 +1013,12 @@ You see patterns others miss. In combat, you identify weaknesses before striking
 - Auto-succeed Basic Lore checks. Advanced Lore checks need 1 less success (min 1).
 - Advantage (+1d6, doesn't burn HD) on: identify magic, recall knowledge, decipher codes/languages
 
+**Rhetorical Precision** (Passive — Social Mastery)
+- **Reason Mastery:** In social duels, Reason stance rolls at Basic 2+ threshold
+- **Evidence Leverage:** When you present evidence in a social duel, gain 1 Leverage automatically (in addition to any Reason stance conversion)
+- **Pattern Recognition:** When you successfully use Discern stance, you also learn one fact about opponent's strategy (GM reveals their likely next stance or a weakness in their position)
+- *The Scholar does not argue emotionally. They build cases, present proof, and let logic do the work.*
+
 **Limited Spellcasting** (Passive)
 - Known Spells: Proficiency × 3 (Arcane domain)
 - Prepared Spells: Proficiency + 1
@@ -1253,6 +1277,12 @@ You see the code of reality. While others stumble in darkness, you read the thre
 - Basic tier spells require 1 less exertion die (minimum 0)
 - Can cast Basic spells using only Proficiency dice
 
+**Pattern Sight** (Passive — Social Mastery)
+- **Discern Mastery:** In social duels, Discern stance rolls at Basic 2+ threshold (you see through facades)
+- **Weave Reading:** When you successfully use Discern, you also learn if opponent is under magical influence, oath-bound, or emotionally compromised
+- **Arcane Authority:** When discussing magic, planar matters, or the Weave, gain +2d6 to social rolls (doesn't burn HD)
+- *The Weaver perceives threads in everything—including the strings that move people.*
+
 **Arcane Recovery** (Passive)
 - During short rest, swap Proficiency prepared spells
 
@@ -1508,6 +1538,12 @@ You exist between states. While others are fully here or fully there, you walk b
 **Liminal Sight** (Passive)
 - Perceive: spirits/ghosts/ethereal within 60 yards, recent deaths (24 hours), threshold spaces, spiritual "temperature"
 - Advantage (+1d6, doesn't burn HD) on: navigate spirit realms, communicate with non-corporeal, resist possession/domination
+
+**Spirit Witness** (Passive — Social Mastery)
+- **Reason Mastery:** In social duels, Reason stance grants +1d6 when spirits are present or invoked (the dead remember truth)
+- **Ancestral Counsel:** Once per social duel, call upon ancestor spirits—restore 1 Composure die or gain 2 Leverage (whichever you need)
+- **Death's Honesty:** You automatically know when someone lies about the dead, oaths to the dead, or matters of legacy
+- *The Shaman speaks with the weight of generations. Ancestors watch through their eyes.*
 
 **Limited Spellcasting** (Passive)
 - Known Spells: Proficiency × 3 (Primal domain)
@@ -1793,6 +1829,12 @@ You are a closed system, perfectly efficient. Every point of HD, every die of Ex
 - Advantage on: resist mental manipulation/charm/fear/domination, maintain concentration, resist environmental Resolve loss, endure physical hardship
 - Auto-succeed Basic Fortitude for endurance
 - Doesn't burn HD
+
+**Commanding Presence** (Passive — Social Mastery)
+- **Base Composure:** d8 dice (upgraded from common d6)
+- **Assert Mastery:** In social duels, Assert stance rolls at Basic 2+ threshold
+- **Unshakeable Poise:** When defending in social combat, 4s count as successes (not just 5+)
+- *The Sovereign's internal discipline manifests as absolute social confidence. They do not flinch.*
 
 **Efficient Recovery** (Advanced, 3+)
 - Required: 2 successes
