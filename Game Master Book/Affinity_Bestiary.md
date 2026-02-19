@@ -30,58 +30,67 @@ This compendium contains creatures drawn from across the **Reflected Realms**, *
 
 | Tier | Creatures |
 |------|-----------|
-| **Trivial** | Mist Wisp, Scrap Imp, Candlewight, River Minnow Swarm, Ash Sprite |
-| **Basic** | Pall-Wolf, Oath-Breaker Shade, Vigil Shade, Grief-Lantern, Hollow Drifter, Verdant Creeper, Bloom-Spawn, Withering Herald, Memory Echo, Coin-Bound Merchant, Hollow Vesper Scout, Forge Salamander, Moonbound Watcher, Crownstag, Debt Collector |
-| **Advanced** | Threshold Walker, Verdant Guardian, Schism-Scarred Enforcer, Mournbat Swarm, Coin Golem, River-Kin Guide, Revenant Knight, Chaos Elemental, Hollow Vesper Corruptor |
-| **Expert** | Archon of the Halls, Planar Warden, Primal Wyrm, Sorrow Leech, Flame Titan, Memory Devourer, Death Knight of Azravael |
-| **Legendary** | Celestial Drake, Void Shepherd, Ancient Verdant Colossus |
-| **Ultimate** | Herald of the Schism, Twilight Aspect of Aralys |
-| **Mythical** | Fragment of Iosyx, The Tidebound Memory |
+| **Trivial** | Mist Wisp, Scrap Imp, Candlewight, River Minnow Swarm, Ash Sprite, Wyrmkin Whelp, Cinderspawn, Muck Slime, Greenskin Runt, Street Urchin, Tomb Walker, Sewer Vermin Swarm |
+| **Basic** | Pall-Wolf, Oath-Breaker Shade, Vigil Shade, Grief-Lantern, Hollow Drifter, Verdant Creeper, Bloom-Spawn, Withering Herald, Memory Echo, Coin-Bound Merchant, Hollow Vesper Scout, Forge Salamander, Moonbound Watcher, Crownstag, Debt Collector, Wyrmkin Scout, Wyrmkin Warrior, Mire Drake, Ember Wyrmling, Gloam Wyrmling, Greenskin Raider, Sellsword, Cutpurse, Hedge Mystic, Zealot Initiate, Acid Slime, Skeletal Warrior, Wolf Pack |
+| **Advanced** | Threshold Walker, Verdant Guardian, Schism-Scarred Enforcer, Mournbat Swarm, Coin Golem, River-Kin Guide, Revenant Knight, Chaos Elemental, Hollow Vesper Corruptor, Wyrmkin Flamecaller, Wyrmkin Broodwarden, Storm Drake, Thornscale Drake, Adolescent Flame Wyrm, Veteran Sellsword, Shadowblade, Greenskin Warchief, Cult Warlock, Gelatinous Maw, Wight Lord, Orc Berserker, Bandit Captain, Militia Squad |
+| **Expert** | Archon of the Halls, Planar Warden, Primal Wyrm, Sorrow Leech, Flame Titan, Memory Devourer, Death Knight of Azravael, Wyrmkin Warlord, Young Flame Wyrm, Young Gloamwyrm, Frostscale Wyrm |
+| **Legendary** | Celestial Drake, Void Shepherd, Ancient Verdant Colossus, Adult Flame Wyrm, Stormwyrm, Voidwyrm |
+| **Ultimate** | Herald of the Schism, Twilight Aspect of Aralys, Elder Gloamwyrm, Covenant Wyrm |
+| **Mythical** | Fragment of Iosyx, The Tidebound Memory, Wyrm Progenitor, The First Ember |
 
 ### By Native Realm
 
 | Realm | Creatures |
 |-------|-----------|
-| **Mortal Weave** | Crownstag, Memory Echo, Coin-Bound Merchant, Debt Collector, Oathbound Squire, Village Blacksmith, Traveling Merchant |
-| **The Gloam** | Mist Wisp, Candlewight, Pall-Wolf, Oath-Breaker Shade, Vigil Shade, Grief-Lantern, Hollow Drifter, Mournbat Swarm, Moonbound Watcher, Revenant Knight, Sorrow Leech, Void Shepherd, Twilight Aspect of Aralys |
-| **Verdant Verge** | Verdant Creeper, Bloom-Spawn, Withering Herald, Verdant Guardian, Ancient Verdant Colossus, Ash Sprite |
-| **Empyreal Accord** | Archon of the Halls, Celestial Drake |
-| **Wild Expanse** | Primal Wyrm |
+| **Mortal Weave** | Crownstag, Memory Echo, Coin-Bound Merchant, Debt Collector, Oathbound Squire, Village Blacksmith, Traveling Merchant, Wyrmkin (all), Mire Drake, Ember Wyrmling, Adolescent Flame Wyrm, Young Flame Wyrm, Adult Flame Wyrm, Greenskin (all), Sellsword, Veteran Sellsword, Cutpurse, Shadowblade, Bandit Captain, Militia Squad, Hedge Mystic, Wolf Pack, Street Urchin, Muck Slime, Acid Slime, Gelatinous Maw, Sewer Vermin Swarm, Orc Berserker |
+| **The Gloam** | Mist Wisp, Candlewight, Pall-Wolf, Oath-Breaker Shade, Vigil Shade, Grief-Lantern, Hollow Drifter, Mournbat Swarm, Moonbound Watcher, Revenant Knight, Sorrow Leech, Void Shepherd, Twilight Aspect of Aralys, Gloam Wyrmling, Young Gloamwyrm, Elder Gloamwyrm, Voidwyrm |
+| **Verdant Verge** | Verdant Creeper, Bloom-Spawn, Withering Herald, Verdant Guardian, Ancient Verdant Colossus, Ash Sprite, Thornscale Drake |
+| **Empyreal Accord** | Archon of the Halls, Celestial Drake, Covenant Wyrm |
+| **Wild Expanse** | Primal Wyrm, Storm Drake, Stormwyrm |
 | **Engine of Bael-Zaroth** | Schism-Scarred Enforcer, Death Knight of Azravael, Herald of the Schism |
-| **Roiling Crucible** | Forge Salamander, Chaos Elemental, Flame Titan, Fragment of Iosyx |
+| **Roiling Crucible** | Forge Salamander, Chaos Elemental, Flame Titan, Fragment of Iosyx, Cinderspawn, The First Ember |
 | **Threshold Zones** | Threshold Walker, Planar Warden |
-| **Multiple Realms** | River-Kin Guide, Hollow Vesper Scout, Hollow Vesper Corruptor |
+| **Frostbound Reaches** | Frostscale Wyrm |
+| **Multiple Realms** | River-Kin Guide, Hollow Vesper Scout, Hollow Vesper Corruptor, Wyrm Progenitor |
 
 ### By Deity/Faction Allegiance
 
 | Deity/Faction | Creatures |
 |---------------|-----------|
-| **Concordant Halls** | Archon of the Halls, Planar Warden, Revenant Knight, Celestial Drake, Oathbound Squire |
-| **Living Accord** | Verdant Creeper, Bloom-Spawn, Withering Herald, Verdant Guardian, Crownstag, Primal Wyrm, Ancient Verdant Colossus |
+| **Concordant Halls** | Archon of the Halls, Planar Warden, Revenant Knight, Celestial Drake, Oathbound Squire, Covenant Wyrm |
+| **Living Accord** | Verdant Creeper, Bloom-Spawn, Withering Herald, Verdant Guardian, Crownstag, Primal Wyrm, Ancient Verdant Colossus, Thornscale Drake |
 | **Verdant Excesses** | Bloom-Spawn (Bloom), Withering Herald (Withering) |
 | **Curator Arcanum** | Memory Echo, Memory Devourer, Threshold Walker, Wandering Scholar |
-| **Aralys (Death/Mercy)** | Moonbound Watcher, Void Shepherd, Twilight Aspect of Aralys, Mist Wisp, Candlewight |
+| **Aralys (Death/Mercy)** | Moonbound Watcher, Void Shepherd, Twilight Aspect of Aralys, Mist Wisp, Candlewight, Gloam Wyrmling, Young Gloamwyrm, Elder Gloamwyrm, Voidwyrm |
 | **Gloam Mourning States** | Vigil Shade (Vigil), Grief-Lantern (Remembrance), Hollow Drifter (Hollow) |
 | **Aluneth (Memory/Tides)** | River-Kin Guide, Memory Echo, The Tidebound Memory |
 | **Azravael (Schism)** | Schism-Scarred Enforcer, Death Knight of Azravael, Herald of the Schism, Debt Collector (Advanced) |
 | **Korthane (Trade/Debt)** | Coin-Bound Merchant, Coin Golem, Debt Collector (Basic) |
-| **Iosyx (Chaos/Elements)** | Chaos Elemental, Flame Titan, Forge Salamander, Fragment of Iosyx, Ash Sprite |
+| **Iosyx (Chaos/Elements)** | Chaos Elemental, Flame Titan, Forge Salamander, Fragment of Iosyx, Ash Sprite, Cinderspawn, The First Ember, Ember Wyrmling, Adolescent Flame Wyrm, Young Flame Wyrm, Adult Flame Wyrm |
+| **Tempest (Storm)** | Storm Drake, Stormwyrm |
 | **Hollow Vespers (Enemy of Balance)** | Hollow Vesper Scout, Hollow Vesper Corruptor, Oath-Breaker Shade |
-| **Unaligned/Wild** | Pall-Wolf, Mournbat Swarm, River Minnow Swarm, Scrap Imp |
+| **Dragonkind (Unaligned)** | Wyrmkin (all), Mire Drake, Frostscale Wyrm, Wyrm Progenitor |
+| **Unaligned/Wild** | Pall-Wolf, Mournbat Swarm, River Minnow Swarm, Scrap Imp, Wolf Pack, Sewer Vermin Swarm, Muck Slime, Acid Slime, Gelatinous Maw |
+| **Criminal Guilds** | Cutpurse, Shadowblade, Bandit Captain, Street Urchin |
+| **Mercenary/Professional** | Sellsword, Veteran Sellsword, Militia Squad |
+| **Dark Cults** | Zealot Initiate, Cult Warlock |
+| **Greenskin Tribes** | Greenskin Runt, Greenskin Raider, Greenskin Warchief |
+| **Necromantic (Aralys's Anathema)** | Tomb Walker, Skeletal Warrior, Wight Lord |
+| **Roiling Crucible Children** | Orc Berserker |
 
 ### By Encounter Role
 
 | Role | Creatures |
 |------|-----------|
-| **Minion/Swarm** | Mist Wisp, Scrap Imp, Ash Sprite, River Minnow Swarm, Mournbat Swarm, Bloom-Spawn (with Seedlings) |
-| **Skirmisher** | Pall-Wolf, Threshold Walker, Chaos Elemental, Vigil Shade |
-| **Bruiser** | Verdant Guardian, Primal Wyrm, Flame Titan, Ancient Verdant Colossus, Withering Herald |
-| **Controller** | Verdant Creeper, Hollow Vesper Corruptor, Death Knight of Azravael, Grief-Lantern |
-| **Support** | Moonbound Watcher, River-Kin Guide, Hearth Priest, Wandering Scholar |
-| **Social/Negotiator** | Coin-Bound Merchant, Debt Collector, Memory Echo |
-| **Boss** | Archon of the Halls, Celestial Drake, Herald of the Schism, Twilight Aspect of Aralys |
+| **Minion/Swarm** | Mist Wisp, Scrap Imp, Ash Sprite, Cinderspawn, River Minnow Swarm, Mournbat Swarm, Bloom-Spawn (with Seedlings), Wyrmkin Whelp, Wyrmkin Scout, Greenskin Runt, Street Urchin, Tomb Walker, Sewer Vermin Swarm, Wolf Pack, Muck Slime, Zealot Initiate |
+| **Skirmisher** | Pall-Wolf, Threshold Walker, Chaos Elemental, Vigil Shade, Wyrmkin Warrior, Mire Drake, Ember Wyrmling, Gloam Wyrmling, Storm Drake, Cutpurse, Shadowblade, Greenskin Raider |
+| **Bruiser** | Verdant Guardian, Primal Wyrm, Flame Titan, Ancient Verdant Colossus, Withering Herald, Thornscale Drake, Young Flame Wyrm, Frostscale Wyrm, Stormwyrm, Orc Berserker, Skeletal Warrior, Veteran Sellsword |
+| **Controller** | Verdant Creeper, Hollow Vesper Corruptor, Death Knight of Azravael, Grief-Lantern, Wyrmkin Flamecaller, Young Gloamwyrm, Cult Warlock, Hedge Mystic, Wight Lord, Gelatinous Maw, Acid Slime |
+| **Support** | Moonbound Watcher, River-Kin Guide, Hearth Priest, Wandering Scholar, Wyrmkin Broodwarden, Militia Squad |
+| **Social/Negotiator** | Coin-Bound Merchant, Debt Collector, Memory Echo, Covenant Wyrm, Bandit Captain, Veteran Sellsword |
+| **Boss** | Archon of the Halls, Celestial Drake, Herald of the Schism, Twilight Aspect of Aralys, Wyrmkin Warlord, Adult Flame Wyrm, Voidwyrm, Elder Gloamwyrm, Greenskin Warchief, Wight Lord |
 | **Identity Threat** | Hollow Drifter, Memory Devourer, Sorrow Leech |
-| **Reality-Warping** | Fragment of Iosyx, The Tidebound Memory |
+| **Reality-Warping** | Fragment of Iosyx, The Tidebound Memory, Wyrm Progenitor, The First Ember |
 
 ---
 
@@ -262,6 +271,96 @@ Each creature lists:
 
 ---
 
+## Swarm & Group Mechanics
+
+*For streamlining large fights and creating "bulkier" encounters without tracking individual creatures*
+
+When running many identical creatures, use these optional rules to create **Swarms** (mindless or bestial mobs) or **Squads** (organized groups). This transforms multiple individual threats into a single, easier-to-manage entity.
+
+### Creating a Swarm/Squad
+
+Take any creature and apply the following template:
+
+**Step 1: Combine HD**
+- 2-4 creatures = ×2 HD (Small group)
+- 5-8 creatures = ×3 HD (Medium swarm/squad)
+- 9-16 creatures = ×4 HD (Large swarm/squad)
+- 17+ creatures = ×5 HD (Horde)
+
+**Step 2: Modify Attacks**
+- Swarm attacks target all creatures in a 10-yard area (for Small) to 20-yard area (for Horde)
+- Add +1d6 to attack rolls per size category above "individual"
+- Base damage applies to each target in area (single roll, multiple victims)
+
+**Step 3: Apply Swarm Traits**
+- **Swarm Form:** Resistant to single-target attacks (+2d6 defense); Vulnerable to area effects (-2d6 defense)
+- **Fill the Gaps:** Cannot be flanked; ignores difficult terrain (flows around it)
+- **Overwhelming:** When swarm attacks, defenders lose 1d6 from defense roll per size category (too many attacks to block)
+
+### Swarm HP Thresholds
+
+As swarms take damage, they diminish:
+
+| HD Remaining | Status | Effect |
+|--------------|--------|--------|
+| 75%+ | Full Strength | Normal attacks and abilities |
+| 50-74% | Bloodied | Attack rolls reduced by 1d6 |
+| 25-49% | Scattered | Attack rolls reduced by 2d6, loses Overwhelming |
+| Below 25% | Broken | Must flee or make Resolve check to continue |
+
+### Squad Mechanics (Organized Groups)
+
+For intelligent creatures fighting in formation (soldiers, cultists, skilled bandits):
+
+**Formation Benefits:**
+- **Shield Wall:** Adjacent members grant +1d6 defense to each other (max +3d6)
+- **Coordinated Strike:** Once per round, sacrifice one member's action to grant another +2d6 on attack
+- **Focused Fire:** All squad members can target single enemy; if 2+ hit, add +1 HD damage per additional hit
+
+**Leadership:**
+- Every 5 creatures needs 1 leader (use next tier up stat block)
+- If leader dies, Squad must make Resolve check or break formation (lose all Formation Benefits until they rally)
+- Rallying requires leader action or successful Resolve check by any member
+
+### Example Swarm: Goblin Horde
+
+Take **Goblin Raider** (Basic tier, 3d8 HD) and create 12-creature horde:
+
+- **HD Pool:** 3d8 × 4 = 12d8 (Large swarm)
+- **Attack:** Crude Weapons (Basic, 2+), Rolls 5d6 (+2d6 for Large), Required 1, Base 2 HD to all in 15-yard area
+- **Defense:** +2d6 vs single-target; -2d6 vs area effects
+- **Special:** Overwhelming (targets lose 2d6 from defense)
+- **Thresholds:** Full at 9+ HD, Bloodied at 6-8, Scattered at 3-5, Broken below 3
+
+### Example Squad: Mercenary Company
+
+Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
+
+- **HD Pool:** 4d8 × 3 = 12d8 (Medium squad)
+- **Sergeant:** Uses Veteran Sellsword stat block (Advanced tier)
+- **Formation:** Shield Wall (+3d6 defense when adjacent), Focused Fire active
+- **If Sergeant dies:** Resolve check or lose formations; -2d6 to all rolls until rally
+
+### When to Use Swarm/Squad Rules
+
+**Use Swarms for:**
+- Mindless creatures (zombies, insects, slimes)
+- Bestial packs (wolves, rats, bats)
+- Situations where individual tactics don't matter
+
+**Use Squads for:**
+- Trained soldiers and guards
+- Organized bandits or cultists
+- Any intelligent group fighting together
+
+**Use Individual Stat Blocks for:**
+- Creatures with unique abilities that would be lost
+- Boss encounters
+- Narrative moments where each enemy matters
+- Mixed groups (different creature types together)
+
+---
+
 ## Trivial Tier Creatures
 
 *Minimal threats, easily overcome by even level 1 characters*
@@ -383,6 +482,195 @@ Each creature lists:
 **Tactics:** Floats near campfires and forges. If startled, panics and explodes.
 
 **Lore:** Tiny elementals born from the Primal Flame, touched by Iosyx the Twin-Flame's chaos. They're not malicious—just unstable and easily frightened. Scholars debate whether they're alive or merely animated ash.
+
+---
+
+### Wyrmkin Whelp
+**Threat Tier:** Trivial  
+**HD Pool:** 1d6  
+**Proficiency:** 0  
+**Resolve:** 1  
+**Armor:** Light (Scaled Hide)  
+**Movement:** 10 yards  
+
+**Crude Spear** (Basic, 2+)
+- Rolls: 1d6
+- Required: 1
+- Base: 1 HD piercing damage
+
+**Special Abilities:**
+- **Pack Tactics:** Gains +1d6 when attacking a target flanked by another Wyrmkin
+- **Darkvision:** Sees perfectly in complete darkness out to 30 yards
+
+**Tactics:** Attacks in groups of 4-6. Flees if isolated or if the brood's larger protector falls.
+
+**Terrain/Environment:** Dragon lairs, volcanic caverns, underground warrens. Wyrmkin carve elaborate tunnel systems beneath their masters' domains.
+
+**Lore:** The smallest and youngest of Wyrmkin society. Whelps serve as scouts, trap-tenders, and alarm-raisers for their broods. They worship true wyrms as divine beings and will sacrifice themselves without hesitation for their scaled masters. Despite their size, they're cunning—using ambush tunnels, tripwires, and coordinated strikes rather than direct confrontation.
+
+---
+
+### Cinderspawn
+**Threat Tier:** Trivial  
+**HD Pool:** 2d4  
+**Proficiency:** 0  
+**Resolve:** 1  
+**Armor:** None  
+**Movement:** 10 yards  
+
+**Ember Touch** (Basic, 2+)
+- Rolls: 2d6
+- Required: 1
+- Base: 1 HD fire damage
+
+**Special Abilities:**
+- **Molten Core:** When reduced to 0 HD, deals 1 HD fire damage to all creatures within 2 yards
+- **Fire Immunity:** Takes no damage from fire
+- **Flame Sense:** Detects heat sources within 20 yards, even through walls
+
+**Tactics:** Crawls toward heat sources. Multiple Cinderspawn cluster together, making their death-bursts overlap.
+
+**Terrain/Environment:** Volcanic regions, forges, and areas scorched by dragonfire. Often found near Flame Wyrm nests, feeding on residual heat.
+
+**Lore:** These small, lizard-like creatures are born from the cooling embers of dragonfire. They're not true dragons—merely parasitic fire-elementals drawn to draconic flame. Flame Wyrms tolerate them because Cinderspawn make excellent living alarms, rushing toward any intruder-shaped heat signature. Cultists of Iosyx sometimes collect them as pets, though "collection" usually ends in conflagration.
+
+---
+
+### Muck Slime
+**Threat Tier:** Trivial  
+**HD Pool:** 2d6  
+**Proficiency:** 0  
+**Resolve:** 0 (mindless)  
+**Armor:** None (but see Amorphous)  
+**Movement:** 5 yards, climb 5 yards  
+
+**Pseudopod** (Basic, 2+)
+- Rolls: 1d6
+- Required: 1
+- Base: 1 HD acid damage
+
+**Special Abilities:**
+- **Mindless:** Cannot be affected by charm, fear, or psychic effects
+- **Amorphous:** Can squeeze through gaps as small as 1 inch; +3d6 defense against slashing/piercing
+- **Corrosive Body:** Creatures grappling or grappled by slime take 1 HD acid damage per round
+- **Split:** When reduced below half HD by slashing damage, splits into two slimes with remaining HD divided between them
+
+**Tactics:** Slowly approaches prey. Attacks closest creature. No tactics—purely reactive.
+
+**Terrain/Environment:** Sewers, dungeons, caves, anywhere with moisture and organic matter to consume.
+
+**Lore:** The simplest of oozes—leftover magical essence pooled with organic waste and given rudimentary hunger. Muck Slimes are found anywhere civilization builds and forgets to clean. Alchemists prize their residue for dissolving compounds, and some dungeons are "cleaned" by intentionally releasing slimes to consume vermin and the occasional unwary explorer.
+
+---
+
+### Greenskin Runt
+**Threat Tier:** Trivial  
+**HD Pool:** 1d6  
+**Proficiency:** 0  
+**Resolve:** 1  
+**Armor:** None  
+**Movement:** 10 yards  
+
+**Crude Knife** (Basic, 2+)
+- Rolls: 1d6
+- Required: 1
+- Base: 1 HD piercing damage
+
+**Sling** (Basic, 2+)
+- Rolls: 1d6
+- Required: 1
+- Base: 1 HD bludgeoning damage
+- Range: 20 yards
+
+**Special Abilities:**
+- **Cowardly:** -2d6 to Resolve checks when not in group of 3+ Greenskins
+- **Darkvision:** Sees in darkness to 30 yards
+- **Scrounger:** Automatically finds 1d6 copper worth of salvage after combat if winner
+
+**Tactics:** Attacks in groups, flees if outnumbered or if leader falls. Uses slings from cover, charges only when overwhelming.
+
+**Terrain/Environment:** Cave systems, ruined structures, anywhere they can hide and ambush.
+
+**Lore:** The smallest and weakest of Greenskin society—relegated to scouting, trap-setting, and being thrown at problems first. Runts dream of growing large enough to bully others, but most become food for their larger kin or adventurers. Despite their weakness, they're cunning survivors who've outlasted civilizations by hiding in the cracks. Born from the Verdant Verge's Withering aspect—life twisted toward survival at any cost.
+
+---
+
+### Street Urchin
+**Threat Tier:** Trivial  
+**HD Pool:** 1d6  
+**Proficiency:** 0  
+**Resolve:** 2  
+**Armor:** None  
+**Movement:** 12 yards  
+
+**Shiv** (Basic, 2+)
+- Rolls: 1d6
+- Required: 1
+- Base: 1 HD piercing damage
+
+**Special Abilities:**
+- **Pickpocket:** +3d6 to Sleight of Hand when attempting to steal unattended or poorly-guarded items
+- **Know the Streets:** Cannot become lost in urban environments; knows shortcuts
+- **Scatter:** As a reaction when attacked, can move 5 yards without provoking opportunity attacks
+
+**Tactics:** Distracts, steals, and runs. Never fights unless cornered. Works in groups to surround and confuse marks.
+
+**Terrain/Environment:** Cities, towns, marketplaces, anywhere crowds gather.
+
+**Lore:** Not every threat carries a sword. Street urchins survive through cunning and desperation rather than violence. Most work for larger criminal organizations, serving as lookouts, couriers, and pickpockets. Some are genuinely just hungry children; others are recruiters for darker purposes. Wise adventurers make allies of them rather than enemies—an urchin's knowledge of a city's secrets is worth more than their silver.
+
+---
+
+### Tomb Walker
+**Threat Tier:** Trivial  
+**HD Pool:** 2d6  
+**Proficiency:** 0  
+**Resolve:** 0 (mindless)  
+**Armor:** None  
+**Movement:** 8 yards  
+
+**Clumsy Grasp** (Basic, 2+)
+- Rolls: 1d6
+- Required: 1
+- Base: 1 HD bludgeoning damage
+
+**Special Abilities:**
+- **Undead Fortitude:** Immune to poison, disease, fear, and charm; doesn't breathe or eat
+- **Mindless:** Cannot be reasoned with or intimidated
+- **Shambling Horror:** Living creatures seeing Tomb Walker for first time must make Resolve check or suffer -1d6 to next action (fear)
+- **Aralys's Rejected:** Tomb Walkers are an affront to the Gloam; priests of Aralys deal +1 HD damage against them
+
+**Tactics:** Advances toward nearest living creature. Attacks until destroyed. No self-preservation.
+
+**Terrain/Environment:** Crypts, battlefields, plague pits, anywhere corpses rest without proper funeral rites.
+
+**Lore:** When bodies are left without Aralys's blessing—denied proper burial or consumed by Withering—the corpse sometimes rises as a Tomb Walker. Unlike intelligent undead, they have no memories or purpose beyond movement and hunger. Necromancers prize them as expendable labor, though Aralys's faithful hunt them as affronts to death's sacred cycle. A single Tomb Walker is barely a threat; twenty is a crisis.
+
+---
+
+### Sewer Vermin Swarm
+**Threat Tier:** Trivial (Swarm)  
+**HD Pool:** 3d6 (swarm acts as single entity)  
+**Proficiency:** 0  
+**Resolve:** 0 (mindless)  
+**Armor:** None  
+**Movement:** 10 yards, climb 10 yards  
+
+**Biting Tide** (Basic, 2+)
+- Rolls: 2d6
+- Required: 1
+- Base: 1 HD piercing damage to all creatures in 10-yard area
+
+**Special Abilities:**
+- **Swarm Form:** +2d6 defense vs single-target attacks; -2d6 vs area effects
+- **Disease Carriers:** Creatures damaged must make Fortitude check or contract Sewer Plague (1 HD damage/day until treated)
+- **Scatter and Reform:** If dispersed by area damage, reforms in 1d4 rounds unless fire or poison was used
+
+**Tactics:** Flows toward warmth and food. Engulfs sleeping or incapacitated creatures first.
+
+**Terrain/Environment:** Sewers, refuse heaps, dungeons, anywhere filth accumulates.
+
+**Lore:** Rats, insects, and worse—bound together by hunger into a single crawling mass. Sewer vermin swarms are symptoms of urban neglect or magical corruption. Some cities employ ratcatchers with magical training; others simply accept the occasional swarm emergence as urban life. The truly paranoid note that swarms sometimes emerge in patterns, as if guided by unseen purpose.
 
 ---
 
@@ -864,6 +1152,452 @@ Each creature lists:
 
 ---
 
+### Wyrmkin Scout
+**Threat Tier:** Basic  
+**HD Pool:** 3d8  
+**Proficiency:** 1  
+**Resolve:** 2  
+**Armor:** Light (Scaled Hide)  
+**Movement:** 12 yards, climb 10 yards  
+
+**Shortbow** (Basic, 2+)
+- Rolls: 3d6
+- Required: 1
+- Base: 2 HD piercing damage
+- Range: 30 yards
+
+**Dagger** (Basic, 2+)
+- Rolls: 2d6
+- Required: 1
+- Base: 1 HD piercing damage
+
+**Special Abilities:**
+- **Pack Tactics:** Gains +1d6 when attacking a target flanked by another Wyrmkin
+- **Darkvision:** Sees perfectly in complete darkness out to 30 yards
+- **Trap Expert:** +3d6 to set and detect traps; can create basic snares and pit traps in 10 minutes
+
+**Tactics:** Harasses from range using prepared trap corridors. Retreats through escape tunnels if engaged in melee. Uses alarm calls to summon reinforcements.
+
+**Terrain/Environment:** Dragon lairs, mountain caves, volcanic tunnels. Scouts patrol the perimeter of Wyrmkin warrens, watching for intruders.
+
+**Lore:** The eyes and ears of Wyrmkin broods. Scouts are chosen for their cunning rather than strength—they map escape routes, identify threats, and report to Broodwardens. A scout who dies warning of danger is honored; one who dies fleeing is forgotten.
+
+---
+
+### Wyrmkin Warrior
+**Threat Tier:** Basic  
+**HD Pool:** 4d8  
+**Proficiency:** 1  
+**Resolve:** 2  
+**Armor:** Medium (Crude Scale Armor)  
+**Movement:** 10 yards  
+
+**Crude Battleaxe** (Basic, 2+)
+- Rolls: 3d6
+- Required: 1
+- Base: 2 HD slashing damage
+
+**Shield Bash** (Basic, 2+)
+- Rolls: 2d6
+- Required: 1
+- Base: 1 HD bludgeoning damage
+- Special: Target must roll Fortitude or lose 1d6 from next attack roll
+
+**Special Abilities:**
+- **Pack Tactics:** Gains +1d6 when attacking a target flanked by another Wyrmkin
+- **Darkvision:** Sees perfectly in complete darkness out to 30 yards
+- **Shield Wall:** When adjacent to another Wyrmkin Warrior, both gain +1d6 to defense rolls
+
+**Tactics:** Forms shield walls at chokepoints. Warriors hold invaders while scouts flank from side tunnels. Will fight to the death if their wyrm master commands it.
+
+**Terrain/Environment:** Dragon lairs and Wyrmkin warrens. Warriors guard treasure chambers, egg vaults, and their master's sleeping chambers.
+
+**Lore:** The backbone of Wyrmkin military force. Warriors earn their position through combat trials, bearing scars proudly. They forge their own weapons from slag left by dragonfire—crude but effective. The greatest honor is to die in direct service to a true wyrm.
+
+---
+
+### Mire Drake
+**Threat Tier:** Basic  
+**HD Pool:** 5d8  
+**Proficiency:** 1  
+**Resolve:** 2  
+**Armor:** Medium (Thick Hide)  
+**Movement:** 10 yards, swim 15 yards  
+
+**Bite** (Basic, 2+)
+- Rolls: 3d6
+- Required: 1
+- Base: 2 HD piercing damage
+
+**Tail Lash** (Basic, 2+)
+- Rolls: 2d6
+- Required: 1
+- Base: 1 HD bludgeoning damage
+- Special: 5-yard reach
+
+**Noxious Spit** (Advanced, 3+)
+- Rolls: 3d6
+- Required: 2
+- Base: 2 HD poison damage
+- Range: 15 yards
+- Special: Target must roll Fortitude or be Poisoned (1 HD/round for 3 rounds)
+
+**Special Abilities:**
+- **Swamp Camouflage:** +4d6 to Stealth when submerged in murky water
+- **Hold Breath:** Can remain submerged for 30 minutes
+- **Poison Immunity:** Immune to poison damage and the Poisoned condition
+
+**Tactics:** Waits submerged until prey approaches water's edge. Lunges to bite, then retreats to spit poison from the water. Drags weakened prey under.
+
+**Terrain/Environment:** Swamps, marshes, polluted rivers, and the edges of the Verdant Verge where Withering energy seeps through.
+
+**Lore:** Distant cousins of true wyrms, reduced to bestial cunning over generations in toxic environments. They're territorial rather than intelligent, guarding hunting grounds fiercely. Alchemists prize their venom sacs, and their hide makes serviceable (if foul-smelling) leather armor.
+
+---
+
+### Ember Wyrmling
+**Threat Tier:** Basic  
+**HD Pool:** 4d8  
+**Proficiency:** 1  
+**Resolve:** 2  
+**Armor:** Light (Scaled Hide)  
+**Movement:** 10 yards, fly 20 yards  
+
+**Bite** (Basic, 2+)
+- Rolls: 3d6
+- Required: 1
+- Base: 2 HD piercing + 1 HD fire damage
+
+**Claw Rake** (Basic, 2+)
+- Rolls: 2d6
+- Required: 1
+- Base: 1 HD slashing damage
+- Special: Can attack twice in one action
+
+**Flame Breath** (Advanced, 3+)
+- Rolls: 3d6
+- Required: 2
+- Base: 3 HD fire damage
+- Range: 15-yard cone
+- Special: Recharge after 3 rounds
+
+**Special Abilities:**
+- **Fire Immunity:** Immune to fire damage
+- **Heat Aura:** Creatures that start their turn within 2 yards take 1 HD fire damage
+- **Darkvision:** Sees perfectly in darkness out to 60 yards
+
+**Tactics:** Aggressive and reckless. Opens with Flame Breath, then swoops into melee. Flees to find older wyrms if badly wounded.
+
+**Terrain/Environment:** Volcanic regions, near Roiling Crucible rifts, and anywhere Iosyx's flame touches the Mortal Weave.
+
+**Lore:** Young Flame Wyrms, only decades old but already dangerous. They're impulsive and territorial, claiming small lairs and hoarding anything shiny. Cults of Iosyx sometimes attempt to bond with Ember Wyrmlings—those who succeed gain potent allies; those who fail become kindling. Their scales shift between orange and red depending on mood, glowing brighter when angry.
+
+---
+
+### Gloam Wyrmling
+**Threat Tier:** Basic  
+**HD Pool:** 4d8  
+**Proficiency:** 1  
+**Resolve:** 3  
+**Armor:** Light (Shadow-Woven Scales)  
+**Movement:** 10 yards, fly 20 yards  
+
+**Bite** (Basic, 2+)
+- Rolls: 3d6
+- Required: 1
+- Base: 2 HD necrotic damage
+
+**Shadow Claw** (Basic, 2+)
+- Rolls: 2d6
+- Required: 1
+- Base: 1 HD necrotic damage
+- Special: On hit, target's next attack roll loses 1d6 (fear)
+
+**Grief Exhalation** (Advanced, 3+)
+- Rolls: 3d6
+- Required: 2
+- Base: 2 HD necrotic damage + 1 Resolve damage
+- Range: 15-yard cone
+- Special: Recharge after 3 rounds
+
+**Special Abilities:**
+- **Shadow Form:** As an action, become incorporeal until start of next turn; immune to non-magical damage but cannot attack
+- **Darkvision:** Sees perfectly in any darkness, even magical
+- **Death Sense:** Detects dying creatures within 100 yards
+
+**Tactics:** Circles prey, using Grief Exhalation to weaken groups before diving at isolated targets. Uses Shadow Form to escape when wounded.
+
+**Terrain/Environment:** The Gloam's borders, graveyards, deathbed chambers, and places of mass grief.
+
+**Lore:** Born from the Gloam where Aralys's influence touches draconic essence, these shadowy wyrmlings embody merciful death. Unlike malevolent undead, they're drawn to suffering rather than life itself—appearing where grief is sharpest. Some priests of Aralys believe they guide souls, but their predatory nature suggests otherwise. Their scales are the color of bruised twilight, and their eyes hold the soft glow of distant funeral pyres.
+
+---
+
+### Greenskin Raider
+**Threat Tier:** Basic  
+**HD Pool:** 3d8  
+**Proficiency:** 1  
+**Resolve:** 2  
+**Armor:** Light (Scrap Leather)  
+**Movement:** 10 yards  
+
+**Crude Axe** (Basic, 2+)
+- Rolls: 2d6
+- Required: 1
+- Base: 2 HD slashing damage
+
+**Javelin** (Basic, 2+)
+- Rolls: 2d6
+- Required: 1
+- Base: 2 HD piercing damage
+- Range: 20 yards
+
+**Special Abilities:**
+- **Pack Tactics:** +1d6 when attacking target flanked by ally
+- **Darkvision:** Sees in darkness to 30 yards
+- **Goblin Cunning:** +2d6 to avoid traps and detect ambushes (suspicious by nature)
+
+**Tactics:** Ambushes from prepared positions. Throws javelins, then charges wounded targets. Retreats if half the group falls.
+
+**Terrain/Environment:** Cave systems, forest edges, ruined structures, anywhere they can prepare ambush sites.
+
+**Lore:** Full-grown Greenskins who've survived long enough to claim proper weapons and a place in raiding parties. They're still cowardly by human standards, but cunning—setting traps, using terrain, and picking fights they can win. Born from Withering essence, they embody survival through aggression. Some tribes have developed crude religions around Iosyx (chaos and fire) or darker powers.
+
+---
+
+### Sellsword
+**Threat Tier:** Basic  
+**HD Pool:** 4d8  
+**Proficiency:** 1  
+**Resolve:** 2  
+**Armor:** Medium (Chainmail)  
+**Movement:** 10 yards  
+
+**Longsword** (Basic, 2+)
+- Rolls: 3d6
+- Required: 1
+- Base: 2 HD slashing damage
+
+**Shield Bash** (Basic, 2+)
+- Rolls: 2d6
+- Required: 1
+- Base: 1 HD bludgeoning damage
+- Special: Target pushed 5 yards
+
+**Special Abilities:**
+- **Professional:** +1d6 to Resolve checks (seen combat before)
+- **Shield Training:** +1d6 defense while shield equipped
+- **Mercenary Code:** Will negotiate surrender if clearly outmatched
+
+**Tactics:** Forms line with allies. Uses shield to protect flanks. Fights professionally but not recklessly—survival matters more than glory.
+
+**Terrain/Environment:** Battlefields, caravan routes, anywhere coin changes hands.
+
+**Lore:** Professional soldiers who fight for pay rather than cause. Sellswords range from honorable mercenaries to barely-legal thugs. Most operate in companies with contracts, codes, and reputations to maintain. They're common guards, bodyguards, and hired muscle throughout the Mortal Weave. Some worship Korthane (god of fair exchange), viewing combat as transaction.
+
+---
+
+### Cutpurse
+**Threat Tier:** Basic  
+**HD Pool:** 3d8  
+**Proficiency:** 1  
+**Resolve:** 2  
+**Armor:** Light (Leather)  
+**Movement:** 12 yards  
+
+**Dagger** (Basic, 2+)
+- Rolls: 2d6
+- Required: 1
+- Base: 2 HD piercing damage
+
+**Backstab** (Advanced, 3+)
+- Rolls: 4d6 (requires surprise or flanking)
+- Required: 2
+- Base: 3 HD piercing damage
+- Special: Only usable against unaware or flanked targets
+
+**Special Abilities:**
+- **Slippery:** +2d6 to escape grapples
+- **Streetwise:** +3d6 to Stealth and Sleight of Hand in urban environments
+- **Dirty Fighter:** Once per combat, can blind target for 1 round (throw dirt, pocket sand)
+
+**Tactics:** Avoids fair fights entirely. Backstabs isolated targets, then flees through prepared escape routes. Works with distraction partners.
+
+**Terrain/Environment:** Cities, market districts, anywhere with crowds to blend into and shadows to hide in.
+
+**Lore:** Thieves who've moved beyond petty pickpocketing to more dangerous work. Cutpurses specialize in ambush, mugging, and the occasional assassination. Most belong to guilds that provide fencing services, safe houses, and contracts. Some answer to Korthane (debts must be paid, even stolen ones), others to darker patrons who value their flexible morality.
+
+---
+
+### Hedge Mystic
+**Threat Tier:** Basic  
+**HD Pool:** 3d6  
+**Proficiency:** 1  
+**Resolve:** 3  
+**Armor:** None  
+**Movement:** 10 yards  
+
+**Staff** (Basic, 2+)
+- Rolls: 2d6
+- Required: 1
+- Base: 1 HD bludgeoning damage
+
+**Cantrip Bolt** (Basic, 2+)
+- Rolls: 3d6
+- Required: 1
+- Base: 2 HD force damage
+- Range: 30 yards
+
+**Minor Hex** (Advanced, 3+)
+- Rolls: 3d6
+- Required: 2
+- Targets Resolve
+- Range: 20 yards
+- Effect: Target suffers -1d6 to all rolls for 3 rounds
+
+**Special Abilities:**
+- **Primal Sensitivity:** Can detect magic within 20 yards
+- **Folk Remedies:** Can heal 1d4 HD to ally (once per day)
+- **Superstitious:** +1d6 Resolve against magical fear/charm; -1d6 Resolve against clearly divine entities
+
+**Tactics:** Stays behind fighters, casting Cantrip Bolt. Uses Minor Hex on dangerous threats. Flees when targeted directly.
+
+**Terrain/Environment:** Village outskirts, forest edges, anywhere civilization meets wilderness.
+
+**Lore:** Self-taught magic users who learned power from scraps—hedge witches, cunning folk, village wisewomen. They lack formal training but possess practical knowledge passed through generations. Most serve rural communities as healers and advisors, occupying uncertain space between respected and feared. Their magic draws from primal sources (Verdant Verge, Curator fragments) rather than structured domains.
+
+---
+
+### Zealot Initiate
+**Threat Tier:** Basic  
+**HD Pool:** 4d8  
+**Proficiency:** 1  
+**Resolve:** 3  
+**Armor:** Light (Robes with hidden padding)  
+**Movement:** 10 yards  
+
+**Ritual Dagger** (Basic, 2+)
+- Rolls: 2d6
+- Required: 1
+- Base: 2 HD piercing damage
+- Special: +1 HD necrotic damage if target already wounded
+
+**Invoke Patron** (Advanced, 3+)
+- Rolls: 3d6
+- Required: 2
+- Base: 2 HD necrotic/fire/cold damage (depends on patron)
+- Range: 20 yards
+
+**Special Abilities:**
+- **Fanatical:** +2d6 to Resolve checks; will not surrender or negotiate
+- **Dark Blessing:** Once per day, can heal 2d6 HD by sacrificing 3 HD from wounded ally or captive
+- **Cult Tongue:** Speaks secret language with other cult members
+
+**Tactics:** Fights without self-preservation. Uses Invoke Patron at range, closes to finish with daggers. Prioritizes capturing enemies alive for sacrifice.
+
+**Terrain/Environment:** Abandoned temples, secret basements, anywhere dark rituals can proceed undisturbed.
+
+**Lore:** New converts to forbidden cults—still learning dark arts but already dangerous in their fervor. Zealot Initiates serve under more powerful clergy, performing grunt work: kidnapping sacrifices, guarding rituals, dying for the cause. Their patrons vary—Azravael's Schism (soul contracts), corrupted Gloam entities (death worship), Hollow Vespers (despair cults), or stranger things. Most were ordinary people before conversion, which makes them tragically relatable and utterly unreasonable.
+
+---
+
+### Acid Slime
+**Threat Tier:** Basic  
+**HD Pool:** 4d8  
+**Proficiency:** 0  
+**Resolve:** 0 (mindless)  
+**Armor:** None (but see Amorphous)  
+**Movement:** 8 yards, climb 8 yards  
+
+**Acidic Pseudopod** (Basic, 2+)
+- Rolls: 2d6
+- Required: 1
+- Base: 2 HD acid damage
+
+**Engulf** (Advanced, 3+)
+- Rolls: 3d6
+- Required: 2
+- Effect: Target engulfed inside slime; takes 2 HD acid damage at start of each turn; restrained; must succeed Fortitude check to escape
+
+**Special Abilities:**
+- **Mindless:** Immune to charm, fear, psychic effects
+- **Amorphous:** +3d6 defense vs slashing/piercing; squeezes through 1-inch gaps
+- **Corrosive:** Dissolves metal; weapons hitting slime lose 1 durability per hit
+- **Split:** When hit by slashing damage while above half HD, splits into two slimes with HD divided
+
+**Tactics:** Moves toward organic matter. Engulfs smallest target first. No tactics—pure consumption drive.
+
+**Terrain/Environment:** Dungeons, sewers, alchemical labs, anywhere magical or chemical waste accumulates.
+
+**Lore:** More evolved than Muck Slimes—these oozes have developed stronger acids and predatory instincts. Some alchemists theorize they're magical experiments that escaped; others believe they naturally evolve from lesser slimes that consume enough magical material. Their acids can dissolve metal, making them threats to armored warriors. Smart dungeons use them as garbage disposal; smarter dungeons place them as guards.
+
+---
+
+### Skeletal Warrior
+**Threat Tier:** Basic  
+**HD Pool:** 4d8  
+**Proficiency:** 1  
+**Resolve:** 0 (undead)  
+**Armor:** Medium (Rusted Mail, 1d6 temp HD)  
+**Movement:** 10 yards  
+
+**Rusted Sword** (Basic, 2+)
+- Rolls: 3d6
+- Required: 1
+- Base: 2 HD slashing damage
+- Special: On max damage, target must make Fortitude check or contract tetanus (1 HD/day until treated)
+
+**Shield Block** (Reaction)
+- Rolls: 2d6
+- Trigger: Takes damage
+- Effect: Reduce damage by successes
+
+**Special Abilities:**
+- **Undead Fortitude:** Immune to poison, disease, fear, charm; doesn't breathe, eat, or sleep
+- **Resistant Bones:** +2d6 defense vs piercing damage
+- **Necromantic Command:** Automatically obeys whoever raised it; if master dies, attacks nearest living creature
+- **Vulnerability:** Takes +1 HD damage from bludgeoning weapons
+
+**Tactics:** Forms shield wall if multiple present. Attacks methodically without tactical adaptation. Follows last command literally until destroyed.
+
+**Terrain/Environment:** Battlefields, crypts, necromancer lairs, anywhere dead warriors rest without Aralys's blessing.
+
+**Lore:** Warriors denied Aralys's mercy, raised by necromancers as permanent soldiers. Unlike Tomb Walkers, Skeletal Warriors retain combat training—muscle memory literally etched into bone. They follow commands precisely but cannot improvise. Experienced adventurers know to target the necromancer controlling them rather than waste effort on the bones. Each skeleton was once someone; priests of Aralys consider destroying them a mercy.
+
+---
+
+### Wolf Pack
+**Threat Tier:** Basic (Swarm)  
+**HD Pool:** 5d8 (4-6 wolves)  
+**Proficiency:** 1  
+**Resolve:** 2  
+**Armor:** None  
+**Movement:** 15 yards  
+
+**Pack Bite** (Basic, 2+)
+- Rolls: 4d6
+- Required: 1
+- Base: 2 HD piercing damage to all creatures in 10-yard area
+
+**Drag Down** (Advanced, 3+)
+- Rolls: 4d6
+- Required: 2
+- Target: One creature in area
+- Effect: Target knocked prone and pinned; takes 1 HD piercing damage per round until escapes (Fortitude check)
+
+**Special Abilities:**
+- **Swarm Form:** +2d6 defense vs single-target; -2d6 vs area effects
+- **Pack Hunters:** +2d6 to track wounded creatures
+- **Surrounding:** Targets in pack area cannot take reactions
+
+**Tactics:** Surrounds weakest target. Uses Drag Down on isolated prey, then Pack Bite to wound others. Flees if scattered below half HD.
+
+**Terrain/Environment:** Forests, plains, wilderness areas. Territorial around dens.
+
+**Lore:** Natural predators that hunt cooperatively—not malicious, merely hungry. Wolf packs avoid healthy humanoid groups but target isolated, wounded, or elderly prey. Druids and rangers can communicate with them, sometimes negotiating passage or even temporary alliance. Some packs have been corrupted by Withering influence, becoming unnaturally aggressive.
+
+---
+
 ## Advanced Tier Creatures
 
 *Challenging foes for mid-level parties (Level 3-5)*
@@ -1217,6 +1951,554 @@ Each creature lists:
 
 ---
 
+### Wyrmkin Flamecaller
+**Threat Tier:** Advanced  
+**HD Pool:** 7d8  
+**Proficiency:** 3  
+**Resolve:** 3  
+**Armor:** Light (Fire-Touched Scales)  
+**Movement:** 10 yards  
+
+**Staff Strike** (Basic, 2+)
+- Rolls: 4d6
+- Required: 1
+- Base: 2 HD bludgeoning damage
+
+**Flame Lance** (Advanced, 3+)
+- Rolls: 6d6
+- Required: 2
+- Base: 3 HD fire damage
+- Range: 30 yards
+
+**Dragonfire Invocation** (Expert, 4+)
+- Rolls: 7d6
+- Required: 3
+- Base: 4 HD fire damage
+- Range: 20-yard cone
+- Special: Recharge after 4 rounds; this is channeled dragonfire, not their own
+
+**Special Abilities:**
+- **Darkvision:** Sees perfectly in darkness out to 30 yards
+- **Fire Resistance:** +2d6 defense against fire damage
+- **Wyrm Communion:** Can telepathically communicate with any wyrm within 100 yards
+- **Fanatical Devotion:** Cannot be frightened while wyrm master is alive
+
+**Tactics:** Stays near wyrm masters, channeling their fire at distant threats. Uses Flame Lance to harass, saves Dragonfire Invocation for clustered enemies. Never flees while master lives.
+
+**Terrain/Environment:** Flame Wyrm lairs, volcanic temples, Roiling Crucible shrines.
+
+**Lore:** The priest-caste of Wyrmkin society. Flamecallers don't wield their own magic—they channel the raw elemental power of their wyrm masters through ritual scarification and devotion. Their scales are permanently discolored by repeated exposure to dragonfire, and their voices are hoarse from inhaling smoke. They interpret their masters' roars as divine pronouncements and lead religious ceremonies that culminate in live sacrifice to the flames.
+
+---
+
+### Wyrmkin Broodwarden
+**Threat Tier:** Advanced  
+**HD Pool:** 8d8  
+**Proficiency:** 3  
+**Resolve:** 3  
+**Armor:** Heavy (Ceremonial Scale)  
+**Movement:** 10 yards  
+
+**Glaive** (Advanced, 3+)
+- Rolls: 5d6
+- Required: 2
+- Base: 3 HD slashing damage
+- Special: 10-yard reach
+
+**Shield of the Brood** (Reaction)
+- Trigger: Adjacent Wyrmkin or egg is attacked
+- Effect: Intercept attack, taking damage instead
+
+**Rally the Swarm** (Advanced, 3+) - Command
+- Rolls: 5d6
+- Required: 2
+- Range: 30-yard radius
+- Effect: All Wyrmkin within range gain +1d6 to attacks and +2 temp HD until end of next round
+
+**Special Abilities:**
+- **Darkvision:** Sees perfectly in darkness out to 30 yards
+- **Brood Bond:** Knows location of all Wyrmkin within 100 yards
+- **Last Defender:** When reduced below half HD, gains +2d6 to all rolls until death
+
+**Tactics:** Positions near eggs or wyrm masters. Uses Rally the Swarm at start of combat, then engages strongest threat with glaive. Never retreats from egg chambers.
+
+**Terrain/Environment:** Wyrmkin egg vaults, nursery chambers, and guarding important passages in dragon lairs.
+
+**Lore:** Elite warriors chosen to protect the next generation. Broodwardens undergo ritual scarring that binds them to the brood's collective instinct—they know when any Wyrmkin is in danger and where every egg rests. They rarely speak, communicating through gestures and pheromones. A Broodwarden failing their duty is executed by the wyrm master; one who succeeds is honored with dragon-blood baptism.
+
+---
+
+### Storm Drake
+**Threat Tier:** Advanced  
+**HD Pool:** 8d10  
+**Proficiency:** 3  
+**Resolve:** 3  
+**Armor:** Medium (Storm-Charged Scales)  
+**Movement:** 15 yards, fly 40 yards  
+
+**Bite** (Advanced, 3+)
+- Rolls: 5d6
+- Required: 2
+- Base: 3 HD piercing + 1 HD lightning damage
+
+**Claw Rake** (Basic, 2+)
+- Rolls: 4d6
+- Required: 1
+- Base: 2 HD slashing damage
+- Special: Can attack twice in one action
+
+**Lightning Breath** (Expert, 4+)
+- Rolls: 6d6
+- Required: 3
+- Base: 4 HD lightning damage
+- Range: 40-yard line
+- Special: Recharge after 3 rounds; metallic armor provides no defense
+
+**Special Abilities:**
+- **Storm Flight:** Flight speed doubles during thunderstorms
+- **Lightning Immunity:** Immune to lightning damage
+- **Static Charge:** After using Lightning Breath, melee attackers take 1 HD lightning damage for 2 rounds
+
+**Tactics:** Dive-bombs from clouds during storms, opening with Lightning Breath. Uses superior mobility to strafe earthbound targets. Retreats above cloud cover if grounded.
+
+**Terrain/Environment:** Mountain peaks, stormy coastlines, and the Wild Expanse borderlands. Often found near Tempest shrines.
+
+**Lore:** Drakes blessed (or cursed) by the Tempest aspect of the Wild Expanse. They're drawn to thunderstorms, riding air currents for days without rest. Sailors consider them omens—some say they herald salvation from becalmed seas, others say they bring lightning-strike death. Their scales crackle with static, and their bones can be crafted into lightning rods of extraordinary power.
+
+---
+
+### Thornscale Drake
+**Threat Tier:** Advanced  
+**HD Pool:** 7d10  
+**Proficiency:** 3  
+**Resolve:** 2  
+**Armor:** Heavy (Thorn-Covered Scales)  
+**Movement:** 12 yards, climb 15 yards  
+
+**Bite** (Advanced, 3+)
+- Rolls: 5d6
+- Required: 2
+- Base: 3 HD piercing damage
+- Special: Injects mild neurotoxin; target loses 1d6 from next roll
+
+**Tail Sweep** (Advanced, 3+)
+- Rolls: 4d6
+- Required: 2
+- Base: 2 HD bludgeoning damage
+- Special: All creatures in 10-yard arc; knocked prone on 3+ successes
+
+**Thorn Volley** (Expert, 4+)
+- Rolls: 6d6
+- Required: 3
+- Base: 3 HD piercing damage
+- Range: 20 yards, 10-yard radius burst
+- Special: Recharge after 4 rounds; thorns continue dealing 1 HD/round until removed (Agility check to remove)
+
+**Special Abilities:**
+- **Thorn Coat:** Melee attackers take 1 HD piercing damage per attack
+- **Forest Camouflage:** +4d6 Stealth in forested or overgrown areas
+- **Poison Immunity:** Immune to poison and the Poisoned condition
+
+**Tactics:** Ambushes from dense foliage. Opens with Thorn Volley to scatter groups, then picks off isolated prey. Climbs trees to escape superior numbers.
+
+**Terrain/Environment:** Verdant Verge borders, ancient forests, overgrown ruins, and Thymera's sacred groves (though never harming druids).
+
+**Lore:** Drakes that have bonded with the Living Accord's more aggressive aspects. Their scales sprout naturally sharp thorns that regrow within hours of being shed. Druids respect them as guardians of wild places, though they're territorial toward all intruders equally. Their thorns are prized for making enchanted caltrops and arrow tips.
+
+---
+
+### Adolescent Flame Wyrm
+**Threat Tier:** Advanced  
+**HD Pool:** 10d10  
+**Proficiency:** 3  
+**Resolve:** 4  
+**Armor:** Medium (Fire-Forged Scales)  
+**Movement:** 15 yards, fly 30 yards  
+
+**Bite** (Advanced, 3+)
+- Rolls: 6d6
+- Required: 2
+- Base: 4 HD piercing + 2 HD fire damage
+
+**Claw** (Advanced, 3+)
+- Rolls: 5d6
+- Required: 2
+- Base: 3 HD slashing damage
+
+**Tail Slam** (Basic, 2+)
+- Rolls: 5d6
+- Required: 1
+- Base: 2 HD bludgeoning damage
+- Special: 10-yard reach; target knocked back 5 yards
+
+**Flame Breath** (Expert, 4+)
+- Rolls: 7d6
+- Required: 3
+- Base: 5 HD fire damage
+- Range: 30-yard cone
+- Special: Recharge after 2 rounds
+
+**Special Abilities:**
+- **Fire Immunity:** Immune to fire damage
+- **Frightful Presence:** At start of combat, all enemies within 30 yards must make Resolve check or suffer -1d6 to all rolls for 1 round
+- **Heat Shimmer:** +2d6 defense against ranged attacks (heat distortion)
+- **Darkvision:** Sees perfectly in darkness out to 120 yards
+
+**Tactics:** Tests prey's strength with Frightful Presence before committing. Uses Flame Breath immediately, then closes to melee. Targets casters and healers first. Young enough to retreat if outmatched.
+
+**Terrain/Environment:** Volcanic calderas, geothermal caves, and territories gifted by elder Flame Wyrms.
+
+**Lore:** Flame Wyrms between 100 and 300 years old—old enough to claim territory, young enough to still be reckless. Adolescents are driven from their parents' lairs when they reach sufficient size, forced to carve out their own domains. This is when they're most dangerous—hungry, proud, and desperate to establish their place in wyrm hierarchy. Their scales haven't yet developed the deeper crimson of adults, showing more orange and gold.
+
+---
+
+### Veteran Sellsword
+**Threat Tier:** Advanced  
+**HD Pool:** 7d10  
+**Proficiency:** 3  
+**Resolve:** 3  
+**Armor:** Heavy (Plate, 2d8 temp HD)  
+**Movement:** 10 yards  
+
+**Bastard Sword** (Advanced, 3+)
+- Rolls: 5d6
+- Required: 2
+- Base: 4 HD slashing damage
+
+**Shield Slam** (Basic, 2+)
+- Rolls: 4d6
+- Required: 1
+- Base: 2 HD bludgeoning damage
+- Special: Target stunned for 1 round unless Fortitude check succeeds
+
+**Tactical Strike** (Advanced, 3+)
+- Rolls: 6d6
+- Required: 2
+- Base: 3 HD piercing damage
+- Special: Ignores 1d6 of target's defense (finds armor gaps)
+
+**Special Abilities:**
+- **Battle-Hardened:** Advantage on Resolve checks; immune to fear from creatures of lower tier
+- **Mercenary Captain:** Grants +1d6 to all allied Sellswords within 20 yards
+- **Know When to Fold:** If clearly outmatched, will negotiate rather than die
+- **Second Wind:** Once per combat, heal 2d8 HD as bonus action
+
+**Tactics:** Commands lesser sellswords, holding back until threats are identified. Engages strongest enemy personally. Uses Tactical Strike to finish wounded foes.
+
+**Terrain/Environment:** Battlefields, mercenary camps, caravan routes, noble estates.
+
+**Lore:** Sellswords who've survived enough campaigns to command. Veterans run mercenary companies, train guards, or serve as bodyguards to those who can afford them. They've seen magic, monsters, and the worst of mortal nature—nothing surprises them. Most follow a personal code: contracts are sacred, certain crimes aren't worth gold, professionals don't hold grudges. Some worship Korthane openly; all understand the transactional nature of violence.
+
+---
+
+### Shadowblade
+**Threat Tier:** Advanced  
+**HD Pool:** 6d8  
+**Proficiency:** 3  
+**Resolve:** 3  
+**Armor:** Light (Shadow-Touched Leather)  
+**Movement:** 12 yards  
+
+**Short Sword** (Advanced, 3+)
+- Rolls: 5d6
+- Required: 2
+- Base: 3 HD piercing damage
+
+**Assassinate** (Expert, 4+)
+- Rolls: 7d6 (requires surprise or target unaware)
+- Required: 3
+- Base: 5 HD piercing damage + 2 Resolve damage
+- Special: Only usable on first round against unaware target
+
+**Shadow Step** (Advanced, 3+)
+- Rolls: Auto-success if shadows within range
+- Range: 30 yards
+- Effect: Teleport between shadows; cannot be tracked or followed
+
+**Special Abilities:**
+- **Darkvision:** Perfect sight in darkness
+- **Ghost Walk:** +4d6 to Stealth; can hide even while observed if shadows present
+- **Poison Use:** All weapon attacks also deal 1 HD poison damage
+- **Escape Artist:** +3d6 to escape grapples, bonds, or restraints
+
+**Tactics:** Assassinates priority target immediately, then Shadow Steps to safety. Only engages in fair fight if no escape possible.
+
+**Terrain/Environment:** Urban shadows, night-time anywhere, dungeons and crypts.
+
+**Lore:** Elite assassins who've learned to step through darkness itself. Shadowblades serve guilds, noble patrons, or darker powers—Aralys's corrupted worshippers, Gloam entities, or those who've sworn themselves to Azravael for power. Their shadow-walking is not natural magic but a pact-gift, and each bears the Mark of Mercy somewhere on their body (twisted into Mark of Murder). Some remain professional; others have become addicted to killing.
+
+---
+
+### Greenskin Warchief
+**Threat Tier:** Advanced  
+**HD Pool:** 8d10  
+**Proficiency:** 3  
+**Resolve:** 4  
+**Armor:** Medium (Looted Chainmail)  
+**Movement:** 10 yards  
+
+**Great Club** (Advanced, 3+)
+- Rolls: 5d6
+- Required: 2
+- Base: 4 HD bludgeoning damage
+- Special: Target knocked prone unless Fortitude check succeeds
+
+**Rallying Bellow** (Advanced, 3+)
+- Rolls: Auto-success
+- Range: 40 yards
+- Effect: All Greenskins within range gain +2d6 to attacks and +2 temp HD for 3 rounds
+
+**Savage Charge** (Advanced, 3+)
+- Rolls: 6d6 (requires 10-yard charge)
+- Required: 2
+- Base: 5 HD bludgeoning damage
+- Special: Target knocked back 10 yards and prone
+
+**Special Abilities:**
+- **Bigger Means Boss:** +2d6 to Resolve checks; Greenskins within 30 yards cannot flee while Warchief lives
+- **Darkvision:** Sees in darkness to 60 yards
+- **Survival of the Fittest:** Heals 1d6 HD whenever a nearby Greenskin dies (feeds on death)
+- **Fear of Magic:** -2d6 to Resolve against spellcasters (instinctive terror of greater power)
+
+**Tactics:** Commands from front lines, using Rallying Bellow early. Charges casters first (fear masking as aggression). Fights to death—fleeing Warchiefs are eaten by their own tribe.
+
+**Terrain/Environment:** Greenskin strongholds, conquered ruins, caves large enough for tribes.
+
+**Lore:** The largest and most brutal Greenskins rise to lead tribes through violence. Warchiefs are cunning in their brutality—they've learned to coordinate raids, use prisoners as shields, and retreat to fight another day. Each Warchief bears scars from challengers; their authority exists only as long as their strength. Born from concentrated Withering essence, they represent survival-through-domination. Some have made pacts with darker powers for additional strength, though such alliances rarely last.
+
+---
+
+### Cult Warlock
+**Threat Tier:** Advanced  
+**HD Pool:** 7d8  
+**Proficiency:** 3  
+**Resolve:** 4  
+**Armor:** Light (Ritual Robes with wards, 1d6 temp HD)  
+**Movement:** 10 yards  
+
+**Athame** (Basic, 2+)
+- Rolls: 3d6
+- Required: 1
+- Base: 2 HD piercing + 1 HD necrotic damage
+
+**Eldritch Bolt** (Advanced, 3+)
+- Rolls: 5d6
+- Required: 2
+- Base: 4 HD force/necrotic damage (caster chooses)
+- Range: 40 yards
+
+**Invoke Patron** (Expert, 4+)
+- Rolls: 6d6
+- Required: 3
+- Base: 5 HD damage (type varies by patron)
+- Range: 30-yard cone or line
+- Special: Recharge after 3 rounds
+
+**Dark Command** (Advanced, 3+) - Targets Resolve
+- Rolls: 5d6
+- Required: 2
+- Range: 30 yards
+- Effect: Target must make Resolve check or obey one simple command (approach, flee, drop weapon, etc.)
+
+**Special Abilities:**
+- **Patron's Gift:** Choose one - Fire Immunity, Cold Immunity, or +3d6 vs necrotic
+- **Blood Magic:** Can sacrifice own HD (any amount) to add same number of d6 to any spell
+- **Cult Leader:** +2d6 to social checks against Zealot Initiates
+- **Dark Pact:** If reduced to 0 HD, patron may intervene (25% chance; restores to half HD)
+
+**Tactics:** Stays behind initiates, casting Eldritch Bolt. Uses Dark Command on threats, Invoke Patron on groups. Sacrifices Blood Magic when desperate.
+
+**Terrain/Environment:** Hidden temples, underground ritual chambers, corrupted shrines.
+
+**Lore:** The true power behind cults—warlocks who've made pacts for magical gifts. Unlike scholars who study or priests who serve, warlocks transact. Their patrons vary: Azravael's Schism (soul-contracts for power), Hollow Vespers (despair-feeding for strength), corrupted Gloam entities (death-worship for necromancy), or stranger things from beyond the established cosmology. Each warlock believes they've made the better bargain; most discover otherwise eventually.
+
+---
+
+### Gelatinous Maw
+**Threat Tier:** Advanced  
+**HD Pool:** 8d10  
+**Proficiency:** 2  
+**Resolve:** 0 (mindless)  
+**Armor:** None  
+**Movement:** 6 yards  
+
+**Engulf** (Advanced, 3+)
+- Rolls: 5d6
+- Required: 2
+- Effect: Target pulled inside cube; restrained; takes 3 HD acid damage at start of each turn; requires Fortitude check (Advanced, 3+) to escape
+
+**Acidic Slam** (Basic, 2+)
+- Rolls: 4d6
+- Required: 1
+- Base: 3 HD acid damage
+- Special: 10-yard reach (pseudopod extends)
+
+**Special Abilities:**
+- **Mindless:** Immune to charm, fear, psychic effects
+- **Transparent:** +5d6 to Stealth in dungeons; creatures often walk into it
+- **Amorphous:** Immune to prone, grapple, restrain conditions; squeezes through any gap
+- **Absorption:** Metal, wood, and organic matter inside dissolves; creatures engulfed cannot use gear
+- **Split:** Takes half damage from slashing; does not split like lesser slimes
+
+**Tactics:** Remains still in corridor, waiting for prey to walk inside. Engulfs nearest creature, then moves toward others.
+
+**Terrain/Environment:** Dungeon corridors (perfectly sized to fill passages), sewage systems, underground ruins.
+
+**Lore:** The apex of mindless ooze evolution—nearly invisible cubes that fill dungeon corridors completely. Gelatinous Maws were likely created by wizards seeking self-maintaining dungeon cleaners; they've since propagated to any underground space with sufficient organic matter. Veteran dungeoneers prod corridors with long poles before entering. The truly unlucky find trapped victims still alive inside, slowly dissolving but unable to scream with acid-filled lungs.
+
+---
+
+### Wight Lord
+**Threat Tier:** Advanced  
+**HD Pool:** 9d10  
+**Proficiency:** 3  
+**Resolve:** 4  
+**Armor:** Heavy (Ancient Plate, 2d8 temp HD)  
+**Movement:** 10 yards  
+
+**Life-Draining Blade** (Advanced, 3+)
+- Rolls: 6d6
+- Required: 2
+- Base: 4 HD necrotic damage
+- Special: Wight Lord heals HD equal to half damage dealt
+
+**Death's Grasp** (Advanced, 3+)
+- Rolls: 5d6
+- Required: 2
+- Base: 3 HD necrotic damage
+- Special: Target's maximum HD reduced by 2 until long rest (life force drained)
+
+**Command Undead** (Advanced, 3+)
+- Rolls: Auto-success
+- Range: 60 yards
+- Effect: Control up to 6 HD worth of mindless undead; they follow commands until destroyed
+
+**Special Abilities:**
+- **Undead Lord:** Immune to poison, disease, fear, charm, sleep; doesn't breathe or eat
+- **Create Spawn:** Humanoids killed by Wight Lord rise as Tomb Walkers after 1 hour
+- **Sunlight Sensitivity:** -2d6 to all rolls in direct sunlight
+- **Aralys's Anathema:** Priests of Aralys deal +2 HD damage; radiant damage cannot be healed for 1 hour
+
+**Tactics:** Commands lesser undead to engage while draining life from strongest opponent. Creates spawn to replenish forces. Retreats to darkness if wounded.
+
+**Terrain/Environment:** Crypts, battlefields where nobles fell, cursed manors, anywhere powerful dead rest without Aralys's blessing.
+
+**Lore:** Unlike mindless undead, Wight Lords retain their intelligence—and often their memories. They were warriors, nobles, or commanders in life who refused death's mercy, clinging to existence through sheer will or dark bargains. Each Wight Lord remembers who they were, which makes them tragically dangerous—some seek to rebuild fallen kingdoms, others pursue vendettas centuries old. Priests of Aralys consider them the most offensive violations of death's sanctity.
+
+---
+
+### Orc Berserker
+**Threat Tier:** Advanced  
+**HD Pool:** 8d10  
+**Proficiency:** 3  
+**Resolve:** 4 (but see Blood Rage)  
+**Armor:** Light (Tribal Leathers)  
+**Movement:** 12 yards  
+
+**Greataxe** (Advanced, 3+)
+- Rolls: 5d6
+- Required: 2
+- Base: 4 HD slashing damage
+
+**Reckless Assault** (Expert, 4+)
+- Rolls: 7d6
+- Required: 3
+- Base: 6 HD slashing damage
+- Special: After using, all attacks against Berserker gain +2d6 until their next turn
+
+**Rage Bellow** (Advanced, 3+)
+- Rolls: Auto-success
+- Effect: Self gains +2d6 to attacks and +3 temp HD for 3 rounds; cannot use defensive actions or tactical retreat
+
+**Special Abilities:**
+- **Blood Rage:** Below half HD, gains +3d6 to all attacks but cannot retreat or surrender
+- **Relentless:** Once per combat, when reduced to 0 HD, may make one final attack before falling
+- **Darkvision:** Sees in darkness to 30 yards
+- **Iosyx's Blessing:** Fire damage heals rather than harms (rare—only Crucible-blessed orcs)
+
+**Tactics:** Uses Rage Bellow immediately, then charges with Reckless Assault at strongest enemy. No tactical consideration—pure aggression until death.
+
+**Terrain/Environment:** Tribal lands, raiding paths, anywhere the strong rule.
+
+**Lore:** Unlike Greenskins (twisted by Withering), Orcs are children of the Roiling Crucible—born from Iosyx's chaos-flame given flesh. They're not malicious by nature but value strength above all else. Berserkers are the most devoted to this philosophy, surrendering reason for power. Some tribes worship Iosyx directly; others have developed unique philosophies around survival-through-combat. Orcs can be negotiated with (they respect strength), though Berserkers specifically often cannot stop once blood rage takes them.
+
+---
+
+### Bandit Captain
+**Threat Tier:** Advanced  
+**HD Pool:** 7d10  
+**Proficiency:** 3  
+**Resolve:** 3  
+**Armor:** Medium (Studded Leather)  
+**Movement:** 10 yards  
+
+**Sabre** (Advanced, 3+)
+- Rolls: 5d6
+- Required: 2
+- Base: 3 HD slashing damage
+
+**Parry and Riposte** (Reaction)
+- Trigger: Hit by melee attack
+- Rolls: 4d6
+- Required: 2
+- Effect: Reduce damage by half; if 3+ successes, deal 2 HD slashing damage to attacker
+
+**Dirty Trick** (Advanced, 3+)
+- Rolls: 5d6
+- Required: 2
+- Effect: Choose one - Blind (1 round), Disarm (weapon drops), or Trip (prone)
+
+**Rally the Lads** (Advanced, 3+)
+- Rolls: Auto-success
+- Range: 30 yards
+- Effect: All allied bandits gain +1d6 to attacks and +2 to Resolve for 3 rounds
+
+**Special Abilities:**
+- **Cunning Leader:** +2d6 to tactical planning and ambush setup
+- **Escape Route:** Always has prepared escape; +3d6 to flee when combat turns against them
+- **Negotiator:** +2d6 to social checks regarding surrender, ransoms, and deals
+- **Criminal Network:** Can fence goods, find safe houses, and gather information in any settlement
+
+**Tactics:** Commands from mid-line, using Rally the Lads first. Engages distracted targets with Dirty Tricks, retreats through prepared routes if overwhelmed.
+
+**Terrain/Environment:** Forest ambush points, hidden camps, roadside positions with escape routes.
+
+**Lore:** Not all criminals lack sophistication. Bandit Captains run operations—planning raids, managing personnel, fencing goods, and paying bribes. Most were soldiers, guards, or merchants before circumstances pushed them outside law. They maintain codes: no unnecessary killing (corpses attract attention), honor ransoms (reputation matters), protect their people (loyalty keeps operations running). Many pray to Korthane for successful transactions, even illegal ones.
+
+---
+
+### Militia Squad
+**Threat Tier:** Advanced (Squad)  
+**HD Pool:** 8d8 (5-8 militia with sergeant)  
+**Proficiency:** 2  
+**Resolve:** 3  
+**Armor:** Light (Leather and shields)  
+**Movement:** 10 yards  
+
+**Spear Wall** (Advanced, 3+)
+- Rolls: 5d6
+- Required: 2
+- Base: 3 HD piercing damage to all enemies in 15-yard line
+
+**Shield Formation** (Reaction)
+- Rolls: 4d6
+- Trigger: Squad takes attack
+- Effect: Reduce damage by successes + 2 (formation absorbs impact)
+
+**Special Abilities:**
+- **Squad Form:** +2d6 defense vs single-target; -2d6 vs area effects
+- **Coordinated Defense:** Adjacent militia grant each other +1d6 defense
+- **Breaking Point:** If reduced below 25% HD or sergeant dies, must make Resolve check or scatter
+- **Citizens First:** Will retreat to protect civilians even if tactically inadvisable
+
+**Tactics:** Forms spear wall at chokepoints. Uses Shield Formation against strong attacks. Fights defensively, buying time for reinforcements or civilian evacuation.
+
+**Terrain/Environment:** Town squares, defensive walls, anywhere citizens protect their homes.
+
+**Lore:** Not soldiers but citizens who've trained together—farmers, smiths, merchants united by defense of home. Militia squads lack professional discipline but compensate with determination and local knowledge. They're commanded by sergeants (often retired soldiers or guards) who maintain order through respect rather than authority. When militia falls, it means everything has fallen; they fight accordingly.
+
+---
+
 ## Expert Tier Creatures
 
 *Dangerous adversaries requiring tactics (Level 6-7)*
@@ -1514,6 +2796,189 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 
 ---
 
+### Wyrmkin Warlord
+**Threat Tier:** Expert  
+**HD Pool:** 12d10  
+**Proficiency:** 4  
+**Resolve:** 4  
+**Armor:** Elite Dragonscale (3d6 temp HD)  
+**Movement:** 12 yards  
+
+**Wyrmbane Axe** (Expert, 4+)
+- Rolls: 8d6
+- Required: 3
+- Base: 4 HD slashing damage + 2 HD fire damage
+- Special: Forged in dragonfire; counts as magical weapon
+
+**Commanding Roar** (Expert, 4+) - Command
+- Rolls: 8d6
+- Required: 3
+- Range: 50-yard radius
+- Effect: All Wyrmkin within range immediately gain an extra action and +2d6 to attacks until end of round
+
+**Draconic Fury** (Legendary, 5+)
+- Rolls: 10d6 (requires 2 exertion minimum)
+- Required: 4
+- Base: Three attacks in succession, each dealing 3 HD slashing + 1 HD fire damage
+- Special: Can only use when below half HD
+
+**Special Abilities:**
+- **Darkvision:** Sees perfectly in darkness out to 60 yards
+- **Dragon's Chosen:** Immune to fear effects from non-draconic sources
+- **Brood Loyalty:** All Wyrmkin within 30 yards have +2d6 to all rolls
+- **Ritual Scarring:** Bears wyrm-blood brands that grant +2d6 resistance to fire damage
+
+**Tactics:** Commands from the rear initially, using Commanding Roar to coordinate lesser Wyrmkin. Engages personally when battle lines are set or when the wyrm master is threatened. Uses Draconic Fury as last stand.
+
+**Terrain/Environment:** Dragon strongholds, Wyrmkin war camps, anywhere a true wyrm has established dominance.
+
+**Lore:** The supreme military authority among Wyrmkin, second only to the wyrm itself. Warlords have drunk dragon blood, eaten wyrm-blessed flesh, and bear ritually carved scales as armor. They speak with the authority of their masters—defying a Warlord is defying the wyrm. Their axes are forged by Flamecallers using the master's breath, making each weapon unique. When a wyrm dies, its Warlord either dies in vengeance combat or goes into exile, hunting those responsible forever.
+
+---
+
+### Young Flame Wyrm
+**Threat Tier:** Expert  
+**HD Pool:** 14d10  
+**Proficiency:** 4  
+**Resolve:** 4  
+**Armor:** Heavy (Mature Fire-Forged Scales)  
+**Movement:** 15 yards, fly 45 yards  
+
+**Bite** (Expert, 4+)
+- Rolls: 8d6
+- Required: 3
+- Base: 5 HD piercing + 3 HD fire damage
+
+**Claw** (Advanced, 3+)
+- Rolls: 6d6
+- Required: 2
+- Base: 4 HD slashing damage
+
+**Wing Buffet** (Advanced, 3+)
+- Rolls: 6d6
+- Required: 2
+- Base: 3 HD bludgeoning damage
+- Special: 15-yard cone; targets must make Agility check or be knocked prone and pushed back 10 yards
+
+**Tail Slam** (Advanced, 3+)
+- Rolls: 6d6
+- Required: 2
+- Base: 3 HD bludgeoning damage
+- Special: 15-yard reach
+
+**Inferno Breath** (Legendary, 5+)
+- Rolls: 10d6
+- Required: 4
+- Base: 7 HD fire damage
+- Range: 45-yard cone
+- Special: Recharge after 2 rounds; ignites flammable objects
+
+**Special Abilities:**
+- **Fire Immunity:** Immune to fire damage
+- **Frightful Presence:** At start of combat, all enemies within 50 yards must make Resolve check or suffer -2d6 to all rolls for 2 rounds
+- **Heat Aura:** Creatures starting their turn within 5 yards take 2 HD fire damage
+- **Darkvision:** Sees perfectly in any darkness out to 120 yards
+
+**Tactics:** Opens with Frightful Presence, then uses Inferno Breath before closing to melee. Alternates between Bite and Wing Buffet to control battlefield. Never flees—too proud—but may negotiate if clearly outmatched.
+
+**Terrain/Environment:** Volcanic mountain territories, major geothermal zones, Roiling Crucible border realms.
+
+**Lore:** Flame Wyrms between 300 and 800 years old—fully grown but not yet ancient. They've established territories, gathered Wyrmkin servants, and begun accumulating hoards. Young Wyrms are the ones most likely to be encountered by adventurers—they're active, territorial, and haven't yet learned the patience that comes with centuries. Their scales have deepened to rich crimson, and their flames burn hot enough to melt steel. Some Young Wyrms serve Iosyx directly; others merely embody the Twin-Flame's chaotic nature.
+
+---
+
+### Young Gloamwyrm
+**Threat Tier:** Expert  
+**HD Pool:** 13d10  
+**Proficiency:** 4  
+**Resolve:** 5  
+**Armor:** Medium (Shadow-Woven Scales)  
+**Movement:** 15 yards, fly 40 yards  
+
+**Bite** (Expert, 4+)
+- Rolls: 7d6
+- Required: 3
+- Base: 4 HD necrotic + 2 HD piercing damage
+
+**Shadow Claw** (Advanced, 3+)
+- Rolls: 6d6
+- Required: 2
+- Base: 3 HD necrotic damage
+- Special: On hit, target suffers -1d6 to next roll (dread)
+
+**Tail Whip** (Advanced, 3+)
+- Rolls: 5d6
+- Required: 2
+- Base: 3 HD bludgeoning damage
+- Special: 15-yard reach; target wrapped in shadow wisps (can't go invisible or teleport for 2 rounds)
+
+**Grief Storm** (Legendary, 5+)
+- Rolls: 9d6
+- Required: 4
+- Base: 5 HD necrotic damage + 2 Resolve damage
+- Range: 40-yard radius centered on self
+- Special: Recharge after 3 rounds; all affected must make Resolve check or relive their greatest loss (stunned for 1 round)
+
+**Special Abilities:**
+- **Incorporeal Step:** As an action, become incorporeal until start of next turn; immune to non-magical damage but cannot attack
+- **Death Sense:** Knows the exact location of any creature below half HD within 100 yards
+- **Shepherd's Instinct:** Heals 2 HD when a creature dies within 30 yards
+- **Darkvision:** Sees perfectly in any darkness, including magical
+
+**Tactics:** Uses Death Sense to identify weakened prey. Opens with Grief Storm, then targets wounded creatures first. Uses Incorporeal Step to bypass defenders and strike backline targets. Negotiates with clerics of Aralys.
+
+**Terrain/Environment:** The Gloam borderlands, ancient battlegrounds, mass graves, places of historic tragedy.
+
+**Lore:** Gloamwyrms aged 200-600 years—mature enough to claim territory in the spaces between life and death. They embody Aralys's complex relationship with mortality: neither cruel nor kind, simply drawn to endings. They don't cause death so much as witness it, feeding on the grief left behind. Priests of Aralys can sometimes negotiate safe passage or even alliance—these wyrms honor the Death-Tender's servants. Their scales appear solid but shift like smoke when viewed from the corner of the eye.
+
+---
+
+### Frostscale Wyrm
+**Threat Tier:** Expert  
+**HD Pool:** 14d10  
+**Proficiency:** 4  
+**Resolve:** 4  
+**Armor:** Heavy (Ice-Encrusted Scales)  
+**Movement:** 12 yards, fly 40 yards, burrow (ice/snow) 20 yards  
+
+**Bite** (Expert, 4+)
+- Rolls: 8d6
+- Required: 3
+- Base: 4 HD piercing + 3 HD cold damage
+
+**Claw** (Advanced, 3+)
+- Rolls: 6d6
+- Required: 2
+- Base: 4 HD slashing damage
+
+**Tail Sweep** (Advanced, 3+)
+- Rolls: 6d6
+- Required: 2
+- Base: 3 HD bludgeoning damage
+- Special: 15-yard arc; all targets must make Agility check or be knocked prone
+
+**Glacier Breath** (Legendary, 5+)
+- Rolls: 9d6
+- Required: 4
+- Base: 6 HD cold damage
+- Range: 50-yard cone
+- Special: Recharge after 3 rounds; creates difficult terrain of ice in affected area; targets must make Fortitude check or be slowed (half movement) for 2 rounds
+
+**Special Abilities:**
+- **Cold Immunity:** Immune to cold damage
+- **Fire Vulnerability:** -2d6 defense against fire damage
+- **Ice Walk:** Moves across ice and snow without penalty; cannot be knocked prone on icy surfaces
+- **Freezing Aura:** Creatures starting their turn within 5 yards take 1 HD cold damage; water freezes within 10 yards
+- **Darkvision:** Sees perfectly in any darkness including blizzards
+
+**Tactics:** Creates environmental advantages with Glacier Breath, making terrain treacherous for enemies. Burrows through ice to reposition and ambush. Targets fire-users first (recognizes vulnerability). Will retreat into blizzards if necessary.
+
+**Terrain/Environment:** Frostbound Reaches, glacial mountains, frozen tundras, anywhere eternal winter holds.
+
+**Lore:** Neither aligned with the Verdant Verge's cycles nor touched by Iosyx's flame—Frostscale Wyrms embody pure elemental cold, the stillness before and after life. They're ancient beyond reckoning, having slept through cataclysms and awakened unchanged. Their territories are permanent winter, and entire civilizations have migrated to avoid their expansion. Unlike other wyrms, they don't hoard gold (too soft)—they collect frozen moments: a waterfall suspended mid-cascade, prey preserved in perfect ice tableaux, sometimes even heroes flash-frozen in heroic poses.
+
+---
+
 ## Legendary Tier Creatures
 
 *Epic threats, major story encounters (Level 8-9)*
@@ -1658,6 +3123,181 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 
 ---
 
+### Adult Flame Wyrm
+**Threat Tier:** Legendary  
+**HD Pool:** 18d12  
+**Proficiency:** 5  
+**Resolve:** 5  
+**Armor:** Legendary (Flame-Forged Dragonscale, 3d6 temp HD)  
+**Movement:** 15 yards, fly 60 yards  
+
+**Bite** (Legendary, 5+)
+- Rolls: 10d6
+- Required: 4
+- Base: 6 HD piercing + 4 HD fire damage
+
+**Claw** (Expert, 4+)
+- Rolls: 8d6
+- Required: 3
+- Base: 5 HD slashing damage
+
+**Wing Buffet** (Expert, 4+)
+- Rolls: 8d6
+- Required: 3
+- Base: 4 HD bludgeoning damage
+- Special: 20-yard cone; targets knocked prone and pushed 15 yards unless Agility check succeeds
+
+**Tail Slam** (Expert, 4+)
+- Rolls: 7d6
+- Required: 3
+- Base: 4 HD bludgeoning damage
+- Special: 20-yard reach; can target up to 3 adjacent creatures
+
+**Inferno Cataclysm** (Ultimate, 6 only)
+- Rolls: 14d6 (requires 3 exertion minimum)
+- Required: 5
+- Base: 10 HD fire damage
+- Range: 60-yard cone
+- Special: Recharge after 3 rounds; all flammable objects ignite; creates heat shimmer (ranged attacks into area have -2d6) for 3 rounds
+
+**Magma Eruption** (Legendary, 5+)
+- Rolls: 10d6 (requires 2 exertion minimum)
+- Required: 4
+- Base: 6 HD fire damage
+- Range: 30-yard radius centered anywhere within 100 yards
+- Special: Creates lava pool (difficult terrain, 3 HD fire damage to creatures entering or starting turn there) lasting 5 rounds
+
+**Special Abilities:**
+- **Legendary Resistance (2/day):** Can choose to succeed on a failed defense
+- **Fire Immunity:** Immune to fire damage
+- **Frightful Aura:** Enemies entering within 60 yards must make Resolve check or suffer -2d6 to all rolls while within range
+- **Heat Corona:** Creatures within 10 yards take 3 HD fire damage at start of their turn
+- **Darkvision:** Perfect vision to 200 yards
+- **Iosyx's Chosen:** Can communicate telepathically with Iosyx; gains +2d6 to all rolls for 1 round after using breath weapon (chaos surge)
+
+**Tactics:** Reshapes battlefield with Magma Eruption before engaging. Opens combat with Inferno Cataclysm, then uses flight superiority to control engagement. Lands only to finish weakened foes or if grounded by magic. Targets casters who threaten with cold or binding magic.
+
+**Terrain/Environment:** Active volcanoes, the Roiling Crucible border realms, deserts scorched by ancient fires.
+
+**Lore:** Flame Wyrms aged 800 to 2,000 years—fully mature and at the height of their power. Each rules a territory the size of a kingdom, with Wyrmkin armies numbering in the hundreds. They've accumulated hoards that could bankrupt nations and memories spanning civilizations. Adults are intelligent enough for complex negotiation—some have made treaties with mortal kingdoms, demanding tribute in exchange for protection or mere tolerance. They embody Iosyx's twin nature: capable of both creative warmth (forging alliances, granting fire-magic blessings) and destructive chaos (razing cities, igniting wars). Their scales are deep crimson verging on black at the edges, and their fire burns blue-white at the core.
+
+---
+
+### Stormwyrm
+**Threat Tier:** Legendary  
+**HD Pool:** 17d12  
+**Proficiency:** 5  
+**Resolve:** 4  
+**Armor:** Heavy (Storm-Charged Dragonscale)  
+**Movement:** 15 yards, fly 80 yards  
+
+**Bite** (Legendary, 5+)
+- Rolls: 10d6
+- Required: 4
+- Base: 5 HD piercing + 4 HD lightning damage
+
+**Claw** (Expert, 4+)
+- Rolls: 7d6
+- Required: 3
+- Base: 4 HD slashing damage
+
+**Wing Thunder** (Expert, 4+)
+- Rolls: 8d6
+- Required: 3
+- Base: 3 HD bludgeoning + 2 HD thunder damage
+- Special: 25-yard cone; all targets deafened for 1 round unless Fortitude check succeeds
+
+**Tail Lash** (Expert, 4+)
+- Rolls: 7d6
+- Required: 3
+- Base: 4 HD bludgeoning damage
+- Special: 20-yard reach; target stunned for 1 round unless Fortitude check succeeds
+
+**Tempest Breath** (Ultimate, 6 only)
+- Rolls: 13d6 (requires 3 exertion minimum)
+- Required: 5
+- Base: 8 HD lightning damage
+- Range: 100-yard line
+- Special: Recharge after 2 rounds; forks to hit up to 3 additional targets within 20 yards of primary target; metallic armor provides no defense
+
+**Call the Storm** (Legendary, 5+) - Environmental
+- Rolls: 11d6 (requires 2 exertion minimum)
+- Required: 4
+- Range: 1-mile radius centered on self
+- Effect: Summons thunderstorm that arrives in 1d4 rounds; lasts for 1 hour; provides Stormwyrm +3d6 to all rolls; creates difficult terrain (wind) for grounded creatures
+
+**Special Abilities:**
+- **Legendary Resistance (2/day):** Can choose to succeed on a failed defense
+- **Lightning Immunity:** Immune to lightning and thunder damage
+- **Thunder Vulnerability:** None—despite name, immune to thunder
+- **Storm Rider:** In active storms, can teleport anywhere in storm as bonus action (once per round)
+- **Static Field:** Ranged attacks against Stormwyrm have -2d6 (magnetic interference)
+- **Darkvision:** Perfect vision to 200 yards, sees through rain and fog
+
+**Tactics:** Calls storm immediately upon detecting intruders. Uses extreme flight speed for hit-and-run tactics. Tempest Breath targets clusters or lines of enemies. Rarely lands during combat—prefers strafing runs.
+
+**Terrain/Environment:** Mountain peaks above cloud level, permanent storm zones, Wild Expanse borderlands.
+
+**Lore:** Ancient wyrms who have bonded completely with Tempest, the storm-aspect of the Wild Expanse. Unlike other wyrms, they don't accumulate hoards—they collect storms, driving weather systems across continents for their amusement. Each Stormwyrm remembers every thunderstorm it has ridden since birth, a library of meteorological fury. They're neither good nor evil by mortal understanding—simply force of nature given will. Sailors both fear and revere them; some port cities make offerings to known Stormwyrms in hopes of calm seas. Their scales constantly crackle with lightning, and their roars sound like thunderclaps. Older ones sometimes develop philosophical outlooks, seeing themselves as agents of necessary change—storms that clear dead wood.
+
+---
+
+### Voidwyrm
+**Threat Tier:** Legendary  
+**HD Pool:** 18d12  
+**Proficiency:** 5  
+**Resolve:** 6  
+**Armor:** Medium (Void-Touched Scales—solid but semi-translucent)  
+**Movement:** 10 yards, fly 50 yards, teleport 30 yards (see ability)  
+
+**Bite** (Legendary, 5+)
+- Rolls: 10d6
+- Required: 4
+- Base: 5 HD necrotic + 3 HD psychic damage
+- Special: Target loses their highest remaining spell slot or 2 exertion dice (their choice)
+
+**Null Claw** (Expert, 4+)
+- Rolls: 8d6
+- Required: 3
+- Base: 4 HD necrotic damage
+- Special: Suppresses one magical effect on target for 3 rounds
+
+**Reality Tear** (Expert, 4+)
+- Rolls: 9d6
+- Required: 3
+- Base: 4 HD force damage
+- Range: 50 yards
+- Special: Creates rift that persists for 2 rounds; creatures starting turn adjacent take 2 HD force damage
+
+**Void Breath** (Ultimate, 6 only)
+- Rolls: 14d6 (requires 4 exertion minimum)
+- Required: 5
+- Base: 7 HD necrotic damage + 3 Resolve damage
+- Range: 50-yard cone
+- Special: Recharge after 3 rounds; targets must make Resolve check or be unable to use magical abilities for 1 round (anti-magic field)
+
+**Consume Magic** (Legendary, 5+) - Reaction
+- Trigger: Spell cast within 60 yards
+- Rolls: 10d6 (caster opposes with their casting roll)
+- Required: Match or exceed caster's successes
+- Effect: Spell fails; Voidwyrm heals HD equal to spell level × 2
+
+**Special Abilities:**
+- **Legendary Resistance (3/day):** Can choose to succeed on a failed defense
+- **Magic Immunity:** Cannot be targeted or affected by spells of Advanced difficulty or lower
+- **Null Field:** Magic within 30 yards requires +1 success to cast (difficulty increases by one tier)
+- **Void Step:** As bonus action, teleport up to 30 yards to any space not in direct sunlight
+- **Darkvision:** Sees in any darkness; detects magical auras within 100 yards
+- **Between Realms:** When below half HD, partially phases between planes—all damage reduced by half until healed above half HD
+
+**Tactics:** Positions to maximize anti-magic disruption. Uses Consume Magic aggressively against casters. Void Steps behind front lines to attack support. Uses Void Breath when multiple casters cluster. Flees via teleport if magic immunity proves insufficient against martial threats.
+
+**Terrain/Environment:** Planar boundaries, areas where reality thins, Curator Arcanum border zones (hunting knowledge), the void between stars.
+
+**Lore:** Wyrms that have gazed too long into the spaces between planes and been changed. Voidwyrms are what happens when draconic greed turns toward magic itself—they hoard spells, consuming magical energy as sustenance. They're hated by mages and priests alike, for a Voidwyrm's hunting ground becomes a dead zone for magic. Some theorize they're the Curator's failed experiments; others believe they're natural predators evolved to hunt magical creatures. They don't speak aloud—only telepathically, and their thoughts feel like static and silence. Their scales show glimpses of distant stars. The Weaver's Guild has standing bounties on Voidwyrm remains, though the parts are dangerous to handle—they continue consuming magic even after death.
+
+---
+
 ## Ultimate Tier Creatures
 
 *World-threatening entities (Level 10)*
@@ -1748,6 +3388,122 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Tactics:** Does not seek combat—appears only when cosmic balance of death is threatened (mass lichdom, true resurrection abuse, etc.). If forced to fight, uses Moonlight Cascade to cleanse undead, then Veil Between to show mortals their fate. Touch of Mercy only for those truly suffering.
 
 **Lore:** Aralys rarely manifests directly, but when death's natural order faces existential threat, she sends an Aspect—fragment of her consciousness given form. Aspects appear as beautiful figures shrouded in moonlight with eyes that reflect your death. They speak gently but with absolute authority. Cannot be defeated through violence (Deathless ability) but can be reasoned with. If you face an Aspect, someone has violated death's sanctity on cosmic scale. Aspects have granted mercy to heroes who convinced them their cause was just. Each encounter with an Aspect changes you forever—you've looked into death itself and seen mercy waiting.
+
+---
+
+### Elder Gloamwyrm
+**Threat Tier:** Ultimate  
+**HD Pool:** 24d12  
+**Proficiency:** 6  
+**Resolve:** 8  
+**Armor:** Legendary (Dusk-Woven Dragonscale, 3d10 temp HD)  
+**Movement:** 15 yards, fly 60 yards, ethereal step 40 yards  
+
+**Bite of Ending** (Ultimate, 6 only)
+- Rolls: 14d6
+- Required: 5
+- Base: 7 HD necrotic + 4 HD psychic damage
+- Special: Target's maximum HD reduced by damage dealt until long rest
+
+**Grief Claw** (Legendary, 5+)
+- Rolls: 10d6
+- Required: 4
+- Base: 5 HD necrotic damage
+- Special: Forces target to relive traumatic memory—lose action next round unless Resolve check succeeds
+
+**Shadow Coil** (Expert, 4+)
+- Rolls: 9d6
+- Required: 3
+- Base: 4 HD bludgeoning + 3 HD necrotic damage
+- Special: 25-yard reach; target restrained by shadows for 2 rounds or until Agility check succeeds
+
+**The Final Mourning** (Ultimate, 6 only)
+- Rolls: 16d6 (requires 4 exertion minimum)
+- Required: 5
+- Base: 8 HD necrotic damage + 4 Resolve damage
+- Range: 60-yard radius centered on self
+- Special: Recharge after 4 rounds; targets must make Resolve check or fall into catatonic grief for 1 round (unconscious but stable)
+
+**Shepherd's Call** (Legendary, 5+) - Summon
+- Rolls: 12d6 (requires 3 exertion minimum)
+- Required: 4
+- Range: 100 yards
+- Effect: Call forth 2d4 Moonbound Watchers (Basic tier) from the Gloam; appear next round and serve permanently unless dismissed
+
+**Special Abilities:**
+- **Legendary Resistance (3/day):** Can choose to succeed on a failed defense
+- **Death's Herald:** Creatures that die within 100 yards have souls automatically guided to Aralys—cannot become undead or be resurrected for 7 days
+- **Twilight Form:** Can shift between corporeal and incorporeal as bonus action
+- **Grief Immunity:** Cannot be affected by fear, charm, or emotional manipulation
+- **Darkvision:** Perfect vision in any darkness including magical; sees souls
+- **Aralys's Favored:** When within the Gloam or during Mourning State events, gains +3d6 to all rolls
+
+**Tactics:** Opens with The Final Mourning to incapacitate groups. Uses Shepherd's Call to summon support, then systematically ends threats using Bite of Ending on priority targets. Ethereal steps to reach healers attempting resurrection. Will negotiate with priests of Aralys.
+
+**Terrain/Environment:** The Gloam's deepest reaches, sites of ancient massacres, places where thousands died at once.
+
+**Lore:** Gloamwyrms that have existed for millennia—so old they've become extensions of Aralys's will rather than merely creatures of her realm. Elder Gloamwyrms remember every death they've witnessed, a library of endings spanning civilizations. They don't kill for sustenance; they kill because death is their nature, their service, their devotion. Each has a name known only to Aralys: titles like "Keeper of Forgotten Pyres" or "The Grief That Walks." They appear as massive serpentine forms of solidified dusk, their scales showing glimpses of final moments—a face at peace, a hand reaching out, a last breath. They can be negotiated with by those who genuinely respect death's necessity, and have been known to ally with mortals against necromancers or those who abuse resurrection. To destroy one is to anger Aralys herself.
+
+---
+
+### Covenant Wyrm
+**Threat Tier:** Ultimate  
+**HD Pool:** 22d12  
+**Proficiency:** 6  
+**Resolve:** 7  
+**Armor:** Legendary (Oathforged Dragonscale, 3d8 temp HD)  
+**Movement:** 15 yards, fly 50 yards  
+
+**Judgment Bite** (Ultimate, 6 only)
+- Rolls: 14d6
+- Required: 5
+- Base: 8 HD radiant damage
+- Special: If target has ever broken a sworn oath, add 4 HD additional damage
+
+**Claw of Binding** (Legendary, 5+)
+- Rolls: 11d6
+- Required: 4
+- Base: 5 HD radiant damage
+- Special: Any lie spoken by target in next round causes 3 HD radiant damage to them
+
+**Tail Strike** (Expert, 4+)
+- Rolls: 9d6
+- Required: 3
+- Base: 5 HD bludgeoning damage
+- Special: 20-yard reach; knocks prone unless Fortitude check succeeds
+
+**Breath of Covenant** (Ultimate, 6 only)
+- Rolls: 15d6 (requires 4 exertion minimum)
+- Required: 5
+- Base: 6 HD radiant damage
+- Range: 50-yard cone
+- Special: Recharge after 3 rounds; all oathbreakers in range take double damage and must make Resolve check or be compelled to confess one broken oath aloud
+
+**Seal of the Halls** (Ultimate, 6 only) - Binding
+- Rolls: 14d6 (requires 3 exertion minimum)
+- Required: 5
+- Target: One creature within 30 yards who has broken an oath
+- Effect: Target is banished to the Concordant Halls for judgment. Returns after 24 hours bearing magical geas to fulfill original oath—breaking the geas results in permanent service to the Halls
+
+**Invoke Concordance** (Legendary, 5+) - Command
+- Rolls: 12d6 (requires 2 exertion minimum)
+- Required: 4
+- Range: 100-yard radius
+- Effect: All creatures must make Resolve check or be compelled to honor any oath they've sworn to creatures present. Lasts for duration of encounter.
+
+**Special Abilities:**
+- **Legendary Resistance (3/day):** Can choose to succeed on a failed defense
+- **Oath-Sight:** Automatically knows all oaths sworn by any creature it can see
+- **Judgment Aura:** Oathbreakers within 50 yards have -3d6 to all rolls; oath-keepers have +2d6
+- **Cannot Lie:** Physically unable to speak falsehood; attacks do additional 2 HD damage to liars
+- **Concordant Authority:** Commands respect from all beings of order, law, and justice
+- **Radiant Immunity:** Immune to radiant damage
+
+**Tactics:** Opens with Invoke Concordance to reveal oathbreakers. Targets oathbreakers with Judgment Bite and Seal of the Halls. Uses Breath of Covenant when multiple oathbreakers cluster. Absolutely will not attack proven oath-keepers—even mid-combat, will fly over them to reach guilty parties.
+
+**Terrain/Environment:** The Concordant Halls themselves, sites of historic treaty-signing, wherever sacred oaths have been massively violated.
+
+**Lore:** The rarest and most revered of all wyrms—creatures born from the Concordant Halls themselves rather than the material plane. Covenant Wyrms are living embodiments of sacred promise, existing to ensure that sworn oaths carry weight across all planes. They appear as massive dragons of white and gold, scales inscribed with every oath ever witnessed, eyes burning with judicial certainty. Unlike most wyrms, they don't claim territory or accumulate hoards—they serve the Halls directly, manifesting when cosmic oaths face violation. Even evil creatures show them respect, for Covenant Wyrms judge by oath keeping, not moral alignment. A demon who keeps its word has nothing to fear; a paladin who broke a vow will be called to account. They can be called upon by those of pure Concordant faith to witness and seal unbreakable agreements—but invoking one without true need is considered grave disrespect.
 
 ---
 
@@ -1859,6 +3615,143 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Tactics:** Does not seek combat—appears when someone attempts to erase history or rewrite collective memory. First uses Memory Flood to show truth, then Aluneth's Judgment to force accountability. Rewrite History only in most extreme cases (usually to undo damage done by others). Tide of Forgetting as Last resort against those who refuse to accept truth.
 
 **Lore:** Appears when Aluneth herself manifests concern over historical revisionism, mass memory erasure, or attempt to unmake events. Looks like figure made of flowing water shaped by all memories held within—constantly shifting to show different historical moments. Speaks in chorus of voices (all who contributed to these memories). Cannot lie and forces truth upon world. Encountering Echo means you're part of event so significant it will be remembered eternally. Scholars debate whether Echo is Aluneth herself or merely her strongest manifestation. Either way, it represents infinite weight of history made manifest. Can be "reasoned" with only by accepting truth and committing to preserve memory.
+
+---
+
+### Wyrm Progenitor
+**Threat Tier:** Mythical  
+**HD Pool:** 32d12  
+**Proficiency:** 8  
+**Resolve:** 10  
+**Armor:** Primal (Scales of the First Age, 4d12 temp HD)  
+**Movement:** 20 yards, fly 100 yards, burrow 30 yards  
+
+**Primordial Bite** (Mythical)
+- Rolls: 20d6
+- Required: 6
+- Base: 12 HD physical damage (ignores resistance)
+- Special: Damage type matches victim's greatest vulnerability (automatically determined)
+
+**Rending Claw** (Ultimate, 6 only)
+- Rolls: 16d6
+- Required: 5
+- Base: 8 HD slashing damage
+- Special: Ignores armor temp HD entirely
+
+**World-Shatter Tail** (Ultimate, 6 only)
+- Rolls: 16d6
+- Required: 5
+- Base: 10 HD force damage
+- Range: 40-yard arc
+- Special: Destroys structures, creates 20-yard-wide chasms in earth
+
+**Breath of Ages** (Mythical)
+- Rolls: 22d6 (requires 5 exertion minimum)
+- Required: 6
+- Base: Varies—see below
+- Range: 100-yard cone
+- Special: Recharge after 2 rounds; can choose breath type each use:
+  - *Creation:* All allies in range heal 10 HD and gain +3d6 to all rolls for 3 rounds
+  - *Destruction:* 15 HD elemental damage (any type); all objects destroyed; terrain becomes difficult
+  - *Change:* Targets must make Resolve check or be polymorphed into young dragons (1 hour); Progenitor chooses type
+
+**Summon Lineage** (Ultimate, 6 only) - Summon
+- Rolls: 18d6 (requires 4 exertion minimum)
+- Required: 5
+- Range: 1 mile
+- Effect: Call forth 1d4+1 Young Flame Wyrms, Young Gloamwyrms, or Frostscale Wyrms (Progenitor's choice); they serve absolutely
+
+**Special Abilities:**
+- **Legendary Resistance (5/day):** Can choose to succeed on any failed defense
+- **Progenitor Presence:** All dragons within 1 mile recognize Progenitor's authority—most will not attack; hostile dragons have -4d6 to all rolls
+- **Elemental Transcendence:** Immune to fire, cold, lightning, acid, and poison damage
+- **Cannot Be Banished:** Immune to effects that would remove it from the plane
+- **Ancient Mind:** Immune to charm, fear, and psychic effects; has True Sight to 500 yards
+- **The First Clutch:** Can speak to and command any creature with draconic blood (Wyrmkin, drakes, half-dragons) within 1 mile
+- **Lair Action (Active in Lair):** At initiative count 20, one of:
+  - Magma erupts in 4 random 10-yard radius areas (5 HD fire damage)
+  - Earthquake topples structures and creates difficult terrain
+  - Wind blast pushes all flying creatures 40 yards in chosen direction
+
+**Tactics:** Opens with Summon Lineage for support, then uses Breath of Ages (Destruction) on main force. Engages most powerful threat personally while progeny handle others. Uses Breath of Ages (Change) on particularly annoying enemies. Retreats only if genuinely outmatched—extremely rare.
+
+**Terrain/Environment:** The world's oldest volcanic calderas, caverns beneath mountains, places where the primal fire still burns. Said to lair in impossible spaces—entire kingdoms inside single mountains.
+
+**Lore:** Before true gods walked, before the Mortal Weave was fully formed, the Progenitors crawled from the cosmic fires. They are neither creations nor creators—they simply were first. Each Progenitor is ancestor to entire lineages of wyrms; the Flame Wyrms trace descent from one, Frostscales from another, Gloamwyrms from a third. They've slept for ages, waking only when their children face existential threat or when cosmic events disturb their slumber. A Progenitor appearing is world-ending event—nations empty their treasuries for tribute, gods take notice, and the very landscape reshapes around the ancient one's whims. They don't think as mortals do; they remember creation and consider civilizations as mortals consider mayflies. Can theoretically be negotiated with, but their concerns are so vast that finding common ground is nearly impossible. Killing one would echo through all draconic bloodlines—every wyrm would know and respond.
+
+---
+
+### The First Ember (Iosyx's Firstborn)
+**Threat Tier:** Mythical  
+**HD Pool:** 35d12  
+**Proficiency:** 8  
+**Resolve:** 8 (but see Chaos Resolve)  
+**Armor:** Living Flame (cannot be reduced to temp HD 0 while fire exists nearby)  
+**Movement:** 20 yards, fly 80 yards, teleport (to any fire source) unlimited  
+
+**Creation Bite** (Mythical)
+- Rolls: 20d6
+- Required: 6
+- Base: 10 HD fire + 5 HD radiant damage
+- Special: Target is marked with First Fire—takes 3 HD fire damage per round indefinitely; only holy water, total immersion, or divine intervention removes it
+
+**Destruction Claw** (Ultimate, 6 only)
+- Rolls: 18d6
+- Required: 5
+- Base: 9 HD fire damage
+- Special: Permanently destroys magic items (no save); artifacts get Resolve check to resist
+
+**Tail of Change** (Ultimate, 6 only)
+- Rolls: 16d6
+- Required: 5
+- Base: 7 HD force damage
+- Special: 30-yard sweep; transforms struck objects randomly (weapons become snakes, armor becomes water, etc.)
+
+**Iosyx's True Breath** (Mythical)
+- Rolls: 24d6 (requires 6 exertion minimum)
+- Required: 6
+- Base: 20 HD fire damage
+- Range: 200-yard line (yes, 200 yards)
+- Special: Recharge after 4 rounds; this is the literal fire of creation and destruction combined. Everything flammable ignites; stone melts; water evaporates instantly. Creates permanent scar across landscape.
+
+**Twin-Flame Rebirth** (Mythical) - Transformation
+- Rolls: 20d6 (requires 5 exertion minimum)
+- Required: 5
+- Range: 100-yard radius
+- Effect: Destroys all and creates anew. Every creature in range must make Resolve check (Mythical):
+  - *Success:* Takes 10 HD fire damage, teleported 100 yards to safety
+  - *Failure:* Reduced to 0 HD but transformed into creature of fire (HD becomes fire elemental form for 1 hour; retain consciousness but lose class abilities)
+
+**Ignite the Faithful** (Ultimate, 6 only) - Command
+- Rolls: 18d6 (requires 4 exertion minimum)
+- Required: 5
+- Range: 1 mile
+- Effect: All fire within range becomes animated (each torch, campfire, brazier spawns 1 Ash Sprite or Cinderspawn under First Ember's control)
+
+**Special Abilities:**
+- **Legendary Resistance (4/day):** Can choose to succeed on any failed defense
+- **Living Fire:** Does not take damage from fire; fire attacks heal First Ember for damage that would have been dealt
+- **Chaos Resolve:** Resolve fluctuates—at start of each round, roll 1d6+4 for current Resolve
+- **Cannot Die by Flame:** If reduced to 0 HD by fire damage, instead fully healed and enters rage (+4d6 to all attacks for 3 rounds)
+- **Iosyx's Perfect Child:** Is considered Iosyx's direct presence for purposes of divine interaction; priests of Iosyx will not attack
+- **Fire Teleportation:** As bonus action, teleport to any fire source within sight
+- **The Twin Flames:** Embodies both creation and destruction. Once per day, can choose to either:
+  - *Create:* Permanently create a new species of fire creature (GM determines)
+  - *Destroy:* Permanently unmake one creature (no save; target erased from existence—only divine intervention restores)
+- **Lair Action (Active in Lair):** At initiative count 20, one of:
+  - All fires in lair intensify—creatures near fire take 4 HD damage
+  - New fires erupt from ground in 6 random locations (10-yard radius each)
+  - Temperature increases to lethal levels—creatures must make Fortitude check or take 3 HD damage and suffer Exhaustion
+
+**Tactics:** Chaos incarnate—no predictable pattern. Opens with either Iosyx's True Breath or Ignite the Faithful depending on "mood." Uses Fire Teleportation constantly to reposition. May use Twin-Flame Rebirth as "greeting" or "finale." The First Ember has been known to stop mid-combat to create something beautiful, then immediately resume trying to destroy everything.
+
+**Terrain/Environment:** The heart of the Roiling Crucible, the cores of stars, wherever the original fire of creation still burns. The First Ember's lair is literally inside a sun.
+
+**Lore:** When Iosyx the Twin-Flame first roared creation and destruction into being, the first thing born from that cosmic fury was The First Ember. Part herald, part avatar, part child—the First Ember is Iosyx's will made manifest in draconic form. It embodies the paradox of Iosyx completely: it creates and destroys with equal abandon, sometimes in the same breath. Unlike other mythical creatures, the First Ember has a personality—mercurial, passionate, terrifying, but not evil. It treasures experiences, novelty, and change. Those who bore it die; those who fascinate it may receive gifts beyond mortal comprehension.
+
+The First Ember's existence is why fire dragons exist at all—it is literally the first, the template, the burning prototype. Every Flame Wyrm carries a fraction of its essence. When the First Ember chooses (rarely), it can directly commune with any fire dragon across any distance, seeing through their eyes, speaking through their flames.
+
+Encountering the First Ember is campaign-defining. Either you've done something to draw Iosyx's attention (good or bad), or cosmic-level change is imminent. The last recorded appearance presaged the Schism itself. Those who survive report dreams of fire for the rest of their lives—not nightmares, but visions of transformation, of what they could become if they dared to burn away who they were.
 
 ---
 

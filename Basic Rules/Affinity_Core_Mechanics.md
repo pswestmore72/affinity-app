@@ -534,134 +534,70 @@ Skills represent specialized **domains** where training matters. They are **not 
 
 ## Social Duels
 
-**Social Duels** are rhetorical combat—debates, negotiations, interrogations, and battles of will where words wound as surely as swords. They use the same core mechanics as physical combat but target **Composure** and **Resolve** instead of armor and HD.
-
-*In Aeralon, words carry weight. A Sovereign's decree can break armies. A Scholar's revelation can unmake reputations. A well-timed truth can wound deeper than any blade.*
+**Social Duels** are rhetorical combat—debates, negotiations, interrogations, and battles of will. They use the same core mechanics as physical combat but target **Composure** and **Resolve** instead of armor and HD.
 
 ---
 
 ### Social Resources
 
-**Composure** is your social armor—your outer layer of rhetorical defense:
-- Prepared arguments and rehearsed positions
-- Emotional equilibrium and self-control
-- Your reputation preceding you
-- The social capital you've accumulated
-
-**Composure Dice:** You have individual Composure dice that exist or don't exist—exactly like armor.
+**Composure** is your social armor—prepared arguments, emotional equilibrium, and reputation.
 
 **Base Composure:** 1 + Proficiency dice at d6
-- Level 1-2: 2d6 Composure
-- Level 3-4: 3d6 Composure
-- Level 5-6: 4d6 Composure
-- Level 7-8: 5d6 Composure
-- Level 9-10: 6d6 Composure
-
-**Composure Die Size:** Default is d6. This can be upgraded through:
-- **Paths:** Silver Tongue feat line may grant d8 Composure
-- **Class Features:** Sovereigns may have innate d8 or d10 Composure
-- **Magical Items:** A Crown of Authority might grant d10 Composure
-- **Setting:** Debating in your own throne room might upgrade dice by one size
+- Level 1-2: 2d6 | Level 3-4: 3d6 | Level 5-6: 4d6 | Level 7-8: 5d6 | Level 9-10: 6d6
 
 | Composure Type | Die Size | Source Examples |
 |----------------|----------|-----------------|
-| **Untrained** | d4 | Socially inept, caught completely off-guard |
 | **Common** | d6 | Default for most characters |
-| **Practiced** | d8 | Social training, Silver Tongue path, court experience |
-| **Masterful** | d10 | Sovereign class feature, legendary reputation, magical enhancement |
+| **Practiced** | d8 | Silver Tongue path, court experience |
+| **Masterful** | d10 | Sovereign class feature, legendary reputation |
 
-**Resolve** functions exactly as in physical combat—your true stamina, your will to continue. When Resolve hits 0, you concede or break.
-
----
-
-### Social Defense (Exactly Like Armor)
-
-When you take social damage, you defend with your Composure dice—exactly like defending with armor in combat.
-
-**Social Defense Resolution:**
-1. Opponent declares social damage (their margin of victory)
-2. You roll Composure dice to defend (up to Proficiency dice per attack)
-3. Each **5+ cancels 1 incoming damage**
-4. Each die that rolls **4 or less is DESTROYED** (removed from your Composure pool)
-5. Remaining damage after defense rolls → **auto-destroys Composure dice**
-6. When all Composure dice are gone → damage targets Resolve directly
-
-**Example Social Defense:**
-```
-Scholar (Prof 3) has 4d6 Composure (1 + Prof 3 = 4)
-Takes 4 social damage from a Baron's cutting remark
-
-Defense Capacity: 3 dice (Proficiency 3)
-Roll 3d6 Composure → Results: 5, 2, 4
-
-Die 1 (rolled 5): ✅ Success - cancels 1 damage, die SURVIVES
-Die 2 (rolled 2): ❌ Fail - die DESTROYED, damage not canceled
-Die 3 (rolled 4): ❌ Fail - die DESTROYED, damage not canceled
-
-Damage canceled: 1
-Remaining damage: 3
-Composure dice destroyed by failed rolls: 2
-Composure dice auto-destroyed by excess damage: 1
-
-Final Status: 1d6 Composure remaining (4 - 3 destroyed = 1)
-Scholar still has one die of social armor left
-```
-
-**This is identical to armor defense.** Composure dice are your outer layer. They absorb hits until destroyed, then your Resolve takes the blow.
+**Resolve** functions exactly as in physical combat. When Resolve hits 0, you concede or break.
 
 ---
 
-### Social Damage Flow
+### Social Defense
+
+When you take social damage, defend with Composure dice—exactly like armor.
+
+1. Roll Composure dice (up to Proficiency per attack)
+2. Each **5+ cancels 1 damage** and the die survives
+3. Each **4 or less** destroys that die (damage not canceled)
+4. Remaining damage auto-destroys Composure dice
+5. When Composure = 0, damage targets Resolve directly
 
 ```
 Incoming Social Damage
         ↓
 [Composure Dice] ← Roll to defend; failed dice are DESTROYED
         ↓
-    (When all Composure dice destroyed)
+[Resolve] ← When Composure gone, damages will directly
         ↓
-[Resolve] ← Direct damage to your will (triggers Resolve penalties)
-        ↓
-    (When Resolve = 0)
-        ↓
-[Social Defeat] ← You concede the stakes
+[Social Defeat] ← When Resolve = 0
 ```
-
-**This mirrors physical combat:** Armor dice → Body HD → Incapacitation becomes Composure dice → Resolve → Concession.
 
 ---
 
 ### The Three Stances
 
-Each round, declare your **Stance**—your rhetorical approach. Different stances have different strengths and interact with each other.
+Each round, declare your **Stance**—your rhetorical approach.
 
-| Stance | Domain | Strength | Weakness |
-|--------|--------|----------|----------|
-| **Assert** | Influence | +1 damage dealt if you win | -1 damage reduction when defending |
-| **Reason** | Lore | Convert 2 successes → 1 Leverage | Cannot gain bonus damage this round |
-| **Discern** | Awareness | See opponent's Composure total | Roll 1 fewer die this round |
+| Stance | Domain | Effect |
+|--------|--------|--------|
+| **Assert** | Influence | +1 damage if you win; -1 when defending |
+| **Reason** | Lore | No bonus damage, but gain Preparation dice (see below) |
+| **Discern** | Awareness | See opponent's Composure; roll 1 fewer die |
 
-**Stance Interactions:**
-- **Assert vs Assert:** Pure clash. Highest successes wins; margin = damage.
-- **Assert vs Reason:** Assert deals full damage; Reason builds ammunition for later.
-- **Assert vs Discern:** Discern sees the attack coming; if Discern wins, Assert loses 1 Composure from overextension.
-- **Reason vs Reason:** Neither deals damage this round; both gain Leverage.
-- **Reason vs Discern:** Information war; winner gains +1d6 next round.
-- **Discern vs Discern:** Stalemate. Both see each other. No damage, no Leverage.
+Simply resolve: highest successes wins, margin = damage.
 
 ---
 
-### Leverage
+### Preparation
 
-**Leverage** represents ammunition—gathered intelligence, prepared counterarguments, emotional pressure points discovered.
+**Preparation** replaces mid-duel resource tracking. Before a social duel begins:
 
-- Gained through **Reason** stance (convert 2 successes → 1 Leverage)
-- Also gained through support roles (see below)
-- **Stored between rounds** (maximum = Proficiency)
-- **Spend any amount** for +1d6 per Leverage on any roll
-- *Leverage dice do not burn HD on 1s* (they're preparation, not exertion)
+**Pre-Duel Research:** For each hour spent researching your opponent (max 3 hours), gain **+1d6 Preparation dice** for the duel. These don't burn HD on 1s.
 
-**Leverage creates "I've been setting you up" moments.** The patient debater who spends three rounds in Reason, gathering 4-5 Leverage, then unleashes a devastating Assert with +5d6.
+**Reason Stance Benefit:** If you win a round while using Reason, gain +1d6 Preparation dice for next round instead of dealing damage.
 
 ---
 
@@ -669,246 +605,62 @@ Each round, declare your **Stance**—your rhetorical approach. Different stance
 
 **1. Declare Stances** (simultaneously or in initiative order)
 
-**2. Roll** (Proficiency + Exertion + Leverage spent + bonuses)
-- **Base Success Threshold: Advanced (3+)**
-- 6s still explode (2 successes)
-- 1s on exertion dice still burn HD (arguments are exhausting)
+**2. Roll** (Proficiency + Exertion + Preparation + class bonuses)
+- **Base Threshold: Advanced (3+)**
+- 6s explode (2 successes)
+- 1s on exertion dice burn HD
 
-**Threshold Modifiers:**
+**Threshold Modifiers (GM applies):**
 
-| Condition | Threshold Shift |
-|-----------|----------------|
-| **Hard Evidence** (documents, witnesses, proof) | Reduce threshold by 1 step (to Basic 2+) |
-| **Aligned Affinity** (your words resonate with a present Power) | Reduce threshold by 1 step |
-| **Contradicted by Evidence** (opponent has proof against you) | Increase threshold by 1 step (to Expert 4+) |
-| **Opposed Affinity** (a present Power disfavors your position) | Increase threshold by 1 step |
-| **Hostile Witnesses** (crowd has seen you lie before) | Increase threshold by 1 step |
-| **Class Mastery** (see below) | Varies by stance |
+| Condition | Shift |
+|-----------|-------|
+| Hard Evidence | -1 step (to Basic 2+) |
+| Contradicted by Evidence | +1 step (to Expert 4+) |
+| Hostile/Sympathetic Audience | ±1d6 |
+| Home Ground | +1 Composure die at start |
 
-**Class Stance Bonuses:**
+**Class Bonuses:** Each class has social strengths—see class entries. Examples:
+- **Sovereign:** Assert at 2+ threshold, d8 Composure
+- **Scholar:** Reason at 2+ threshold, evidence grants +1d6
+- **Combatant:** +1 damage on Assert, defend on 4+
 
-| Class | Stance | Bonus | Source |
-|-------|--------|-------|--------|
-| **Scholar** | Reason | 2+ threshold | Rhetorical Precision |
-| **Sovereign** | Assert | 2+ threshold | Commanding Presence |
-| **Priest** | Any invoking deity | 2+ threshold | Divine Authority |
-| **Weaver** | Discern | 2+ threshold | Pattern Sight |
-| **Ranger** | Discern | +1d6 + auto-Leverage | Hunter's Read |
-| **Shaman** | Reason (spirits present) | +1d6 | Spirit Witness |
-| **Combatant** | Assert | +1 damage, defend on 4+ | Warrior's Presence |
+**3. Compare Successes** — Higher wins; ties build tension
 
-**Additional Class Benefits (see class entries for full details):**
-- **Scholar:** Evidence grants +1 Leverage automatically
-- **Sovereign:** Composure dice are d8, defend on 4+ (not just 5+)
-- **Priest:** +1 Composure die when aligned with patron; blocks enemy Leverage
-- **Ranger:** Silent Assert (no speech needed); Discern grants auto-Leverage
-- **Shaman:** Once/duel restore 1 Composure or gain 2 Leverage; detect lies about the dead
-- **Combatant:** +2d6 after visible combat victory; Composure defends on 4+
-- **Weaver:** Learns magical influence/oaths via Discern; +2d6 on arcane topics
+**4. Calculate Damage** — Margin + stance bonus (capped at Proficiency)
 
-*A Scholar arguing with historical precedent (Reason stance + evidence) rolls at Basic 2+ threshold. A Baron with nothing but bluster rolls at Advanced 3+. The gap matters.*
-
-**3. Compare Successes**
-- Higher total wins the round
-- Ties: No damage dealt; tension builds
-
-**4. Calculate Damage**
-- **Base Damage:** Winner's Successes − Loser's Successes
-- **Stance Modifier:** Assert winners +1 damage
-- **Bonus Damage Cap:** Extra damage beyond margin capped at Proficiency
-
-**5. Apply Damage**
-- Depletes Composure first
-- When Composure = 0, damages Resolve
-- When Resolve = 0, social defeat
+**5. Apply Damage** — Composure first, then Resolve
 
 ---
 
 ### Support Roles
 
-Allies don't just grant "+1d6"—they take meaningful roles with real risk.
+Allies take meaningful roles with real risk.
 
 | Role | Effect | Risk |
 |------|--------|------|
-| **Champion** | Intercept any social attack targeting the speaker this round. You take the damage instead. | You're now in the duel. Future attacks can target you. |
-| **Counsel** | Roll Awareness (Advanced, 3+). Each success restores 1 destroyed Composure die to the speaker. | Uses your action. If you roll any 1s, destroy 1 of the speaker's Composure dice (bad advice). |
-| **Conspirator** | Roll separately against opponent. If you succeed, speaker gains +2d6 next round. | If you fail, speaker suffers -1d6 next round (you undermined their position). |
-| **Witness** | Do nothing but observe. At duel's end, you can testify to what was said. | No mechanical benefit—but narrative weight. Courts, reputation, consequences. |
-
-**Multiple Supporters:** A speaker can have multiple supporters, but each must take a different role. You can't have two Champions—that's an entourage, not a debate.
-
----
-
-### Composure Modifiers
-
-Certain conditions modify your Composure dice at duel's start:
-
-| Condition | Modifier |
-|-----------|----------|
-| **Home ground** (your court, your tavern, your territory) | +1 Composure die |
-| **Prepared arguments** (time to research opponent) | +1 Composure die |
-| **Reputation advantage** (you're famous, they're unknown) | Upgrade die size by one step |
-| **Caught off-guard** (ambushed socially, no preparation) | -1 Composure die (minimum 1) |
-| **Already wounded** (current Resolve 3 or below) | -1 Composure die (minimum 1) |
-| **Hostile audience** (crowd against you) | Downgrade die size by one step |
-
-**Example:** A Sovereign (Prof 3, base d8 Composure from class feature) enters a negotiation in their own throne room (home ground: +1 die) with a reputation advantage (upgrade to d10). Base = 1 + 3 = 4 dice. With home ground = 5 dice. Upgraded to d10. They have **5d10 Composure** and roll Assert at **Basic 2+ threshold** for this duel.
-
----
-
-### Audience & Witnesses
-
-**Audience Disposition** (1-5 track, optional):
-- **1-2 Hostile:** Opponent gains +1d6 to all rolls; your Composure dice downgrade one step
-- **3 Neutral:** No modifier
-- **4-5 Sympathetic:** You gain +1d6 to all rolls; your Composure dice upgrade one step
-
-**Shifting the Audience:**
-Spend your round's action to **Appeal** (roll vs. Advanced, 3+ threshold). Successes shift audience disposition by 1 per 2 successes toward you. This doesn't damage your opponent but changes the battlefield.
-
-*Some duels are won by convincing the crowd, not the opponent.*
+| **Champion** | Intercept social damage targeting speaker | You're now in the duel |
+| **Counsel** | Roll Awareness (3+); each success restores 1 Composure die | If you roll any 1s, destroy 1 speaker's Composure die |
 
 ---
 
 ### Tiered Stakes
 
-Not every social defeat is total surrender. Stakes are **tiered** based on Composure/Resolve damage:
-
 | Damage State | Consequence |
 |--------------|-------------|
-| **Composure depleted** | **Minor Concession** — You give ground on one point. Salvage your position. |
-| **1-2 Resolve lost** | **Major Concession** — You lose something significant. The deal shifts against you. |
-| **3+ Resolve lost** | **Total Defeat** — You concede entirely. Stakes are won by opponent. |
-| **0 Resolve** | **Broken** — You cannot continue. Collapse, flee, or accept any demand. |
+| **Composure depleted** | **Minor Concession** — Give ground on one point |
+| **1-2 Resolve lost** | **Major Concession** — Lose something significant |
+| **3+ Resolve lost** | **Total Defeat** — Concede all stakes |
+| **0 Resolve** | **Broken** — Accept any demand |
 
-**Walking Away:**
-At any point, you may choose to **Withdraw**. You automatically lose but:
-- Take no further damage this round
-- Stakes resolve at current tier (if Composure depleted, minor concession)
-- You've lost, but on your terms
-
-*The Sovereign who walks away having conceded a minor trade agreement keeps their dignity. The one who fights to 0 Resolve signs whatever is put before them.*
+**Withdraw:** At any point, leave the duel. You lose at current stake tier, but on your terms.
 
 ---
 
-### Restoring Composure
+### Recovery
 
-**During the duel:**
-- **Counsel** support role: Ally rolls Awareness (Advanced, 3+). Each success restores 1 Composure die to your pool
-- **Concede a Point** — Voluntarily accept Minor Concession; restore Proficiency Composure dice
-- Class abilities (Sovereign's Rally, Priest's Calming Word, etc.)
-
-**Between duels:**
-- **Short Rest:** Fully restore all Composure dice (you've regained equilibrium)
-- **Preparation time:** +1 Composure die per hour of research (max +3 dice) for next duel
-
-**Composure does NOT persist between encounters.** You start each social duel fresh with your base Composure dice—representing your readiness for *this specific* confrontation.
-
----
-
-### Example: The Regents' Ball
-
-**Setup:**
-- **Duchess Veraine** (Sovereign, Prof 3, Resolve 5) debates **Baron Aldric** (Prof 2, Resolve 5) over border rights
-- Veraine is on home ground (+1 Composure die), has prepared (+1 die). Base 4d6 (1+3) → 6d6 Composure
-- As Sovereign, Veraine has base d8 Composure and 2+ threshold on Assert
-- Aldric has reputation advantage (upgrades to d8). Base 3d6 (1+2) → 3d8 Composure
-- Stakes: Minor = small concession on tariffs; Major = significant border adjustment; Total = full territorial claim
-
-**Round 1:**
-- Veraine chooses **Reason** (building ammunition, playing patient)
-- Aldric chooses **Assert** (aggressive opening)
-- Veraine rolls: 3 Prof + 2 Exertion = 5d6 at Advanced 3+ → 4 successes. Converts 2 → 1 Leverage (keeps 2 successes).
-- Aldric rolls: 2 Prof + 2 Exertion = 4d6 at Advanced 3+ → 5 successes (+1 from Assert = 6).
-- **Aldric wins.** Damage = 6-2 = **4 social damage** to Veraine.
-- Veraine defends: Rolls 3d8 Composure (Prof 3, Sovereign d8) → 6, 3, 2
-  - Die 1 (6): ✅ Cancels 1 damage, survives
-  - Die 2 (3): ❌ Destroyed
-  - Die 3 (2): ❌ Destroyed
-  - Remaining damage (2): Auto-destroys 2 more Composure dice
-- **Veraine: 6d8 → 3d8 Composure remaining.** Aldric: 3d8 Composure. Veraine has 1 Leverage.
-
-**Round 2:**
-- Veraine chooses **Discern** (reading her opponent—she needs information)
-- Aldric chooses **Assert** (pressing advantage)
-- Veraine rolls: 3 Prof + 1 Exertion = 4d6 at Advanced 3+ → 3 successes. Sees Aldric has 3d8 Composure.
-- Aldric rolls: 2 Prof + 2 Exertion = 4d6 at Advanced 3+ → 4 successes (+1 Assert = 5).
-- **Aldric wins**, but Discern vs Assert triggers overextension penalty.
-- Damage = 5-3 = **2 social damage** to Veraine. Aldric loses 1 Composure die (overextension).
-- Veraine defends: Rolls 3d8 Composure → 5, 4, 2
-  - Die 1 (5): ✅ Cancels 1 damage, survives
-  - Die 2 (4): ❌ Destroyed
-  - Die 3 (2): ❌ Destroyed (but only 1 damage remained, so this was just a failed defense)
-- **Veraine: 3d8 → 1d8 Composure.** Aldric: 3d8 → 2d8 Composure (overextension).
-- *Veraine's armor is cracking, but she sees Aldric's weakness.*
-
-**Round 3:**
-- Veraine's advisor (Scholar) takes **Conspirator** role—rolls against Aldric, succeeds.
-- Veraine chooses **Assert** (counterattack), spends 1 Leverage.
-- **As Sovereign using Assert: Veraine rolls at Basic 2+ threshold.**
-- Aldric chooses **Assert** (clash) at Advanced 3+.
-- Veraine rolls: 3 Prof + 3 Exertion + 2d6 (Conspirator + Leverage) = 8d6 at **Basic 2+** → 11 successes (+1 Assert = 12).
-- Aldric rolls: 2 Prof + 2 Exertion = 4d6 at Advanced 3+ → 3 successes (+1 Assert = 4).
-- **Veraine wins decisively.** Damage = 12-4 = **8 social damage** (capped at Prof × 2 = 6).
-- Aldric defends: Rolls 2d8 Composure → 7, 3
-  - Die 1 (7): ✅ Cancels 1 damage, survives
-  - Die 2 (3): ❌ Destroyed
-  - Remaining damage (4): Auto-destroys last die, then 3 damage hits Resolve.
-- **Aldric: 0d8 Composure, 2 Resolve.** He's reeling.
-- *The Sovereign class bonus made the difference—Veraine's commands are natural authority.*
-
-**Round 4:**
-- Aldric chooses **Withdraw** before his Resolve shatters completely.
-- Stakes resolve at **Major Concession** tier (he's lost 3 Resolve total).
-- Veraine wins the border adjustment. Aldric retreats with what dignity remains.
-
-*Had Aldric pushed on and lost his remaining Resolve, he'd have signed away everything. Withdrawal saved him from total defeat—but the court saw him break.*
-
-**What Made This Feel Like Affinity:**
-- Composure dice behaved like armor (destroyed on failed defense rolls)
-- The Sovereign's class feature (2+ on Assert) gave Veraine a decisive edge
-- Exertion was risky (arguments exhaust you)
-- Leverage rewarded patience over aggression
-- Stakes scaled with damage (Aldric kept his dignity by withdrawing early)
-
----
-
-### Why This Feels Like Affinity
-
-| Combat Element | Social Equivalent |
-|----------------|-------------------|
-| Armor dice (d6/d8/d10) | Composure dice (d6/d8/d10) |
-| Armor dice destroyed on failed rolls | Composure dice destroyed on failed rolls |
-| Body HD (permanent pool) | Resolve (will to continue) |
-| Exertion burns HD on 1s | Exertion still burns HD on 1s |
-| Damage = margin + bonuses | Damage = margin + stance bonuses |
-| Support roles (healer, tank) | Support roles (Counsel, Champion) |
-| Proficiency = defense dice count | Proficiency = Composure dice count |
-| Defense capacity = Proficiency | Social defense capacity = Proficiency |
-| Death spiral (Resolve penalties) | Same Resolve penalties apply |
-
-**The same death spiral applies.** A character at Resolve 2 still has:
-- Cannot initiate Expert+ actions (social or physical)
-- Advanced+ actions require +1 additional success
-- Roll one fewer defense die (and one fewer Composure die when defending)
-
-*A warrior exhausted from battle will struggle in the throne room. A diplomat humiliated in debate will falter on the battlefield. Resolve is universal.*
-
----
-
-### Social Victory Conditions
-
-| Outcome | Trigger | Result |
-|---------|---------|--------|
-| **Composure Break** | Opponent's Composure → 0 | Minor concession; opponent must give ground |
-| **Will Break** | Opponent's Resolve → 0 | Total defeat; opponent concedes all stakes |
-| **Withdrawal** | Opponent chooses to leave | Stakes resolve at current damage tier |
-| **Stalemate** | Neither side gains advantage after extended exchange | GM determines compromise or continuation |
-
-**Recovery After Social Defeat:**
-- **Short Rest:** Restore all Composure. Restore Resolve as normal.
-- **Long Rest:** Full restoration. Psychological wounds heal.
-- **Narrative:** GM may impose lasting consequences—damaged reputation, broken alliances, witnesses who remember.
+- **Short Rest:** Restore all Composure; Resolve as normal
+- **Long Rest:** Full restoration
+- Composure resets fresh each social encounter
 
 ---
 

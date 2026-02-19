@@ -1,0 +1,315 @@
+/* ============================================
+   HOME PAGE - COSMIC LANDING EXPERIENCE
+   ============================================ */
+
+.home-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--space-lg);
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: var(--space-2xl) var(--space-lg);
+  margin-bottom: var(--space-2xl);
+  background: linear-gradient(180deg, var(--surface) 0%, transparent 100%);
+  border-bottom: var(--border-thin) solid var(--border-color);
+  position: relative;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(238, 180, 98, 0.05) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.hero-title {
+  font-family: var(--font-display);
+  font-size: 4rem;
+  color: var(--accent-gold);
+  letter-spacing: 0.2em;
+  margin-bottom: var(--space-sm);
+  text-shadow: 0 0 40px rgba(238, 180, 98, 0.3);
+}
+
+.hero-subtitle {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  color: var(--text-secondary);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: var(--space-lg);
+}
+
+.hero-tagline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.hero-tagline .symbol {
+  color: var(--secondary-color);
+  font-size: 1.1em;
+}
+
+.hero-tagline .divider {
+  color: var(--border-color);
+  margin: 0 var(--space-xs);
+}
+
+/* Philosophy Section */
+.philosophy-section {
+  margin-bottom: var(--space-2xl);
+}
+
+.philosophy-section h2 {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: var(--space-lg);
+  letter-spacing: 0.1em;
+}
+
+.philosophy-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--space-md);
+}
+
+.philosophy-card {
+  background: var(--surface);
+  border: var(--border-thin) solid var(--border-color);
+  padding: var(--space-lg);
+  text-align: center;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.philosophy-card:hover {
+  border-color: var(--secondary-color);
+  transform: translateY(-2px);
+}
+
+.philosophy-card .card-symbol {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  color: var(--accent-gold);
+  display: block;
+  margin-bottom: var(--space-sm);
+}
+
+.philosophy-card h3 {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  color: var(--text-primary);
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-xs);
+}
+
+.philosophy-card p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* Navigation Cards Section */
+.nav-section {
+  margin-bottom: var(--space-2xl);
+}
+
+.nav-section h2 {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: var(--space-lg);
+  letter-spacing: 0.1em;
+}
+
+.nav-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--space-md);
+}
+
+.nav-card {
+  background: var(--surface);
+  border: var(--border-thin) solid var(--border-color);
+  padding: var(--space-lg);
+  text-decoration: none;
+  transition: all 0.2s ease;
+  display: block;
+  clip-path: polygon(12px 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%, 0 12px);
+}
+
+.nav-card:hover {
+  border-color: var(--accent-gold);
+  background: var(--surface-elevated);
+  transform: translateY(-3px);
+}
+
+.nav-card .card-icon {
+  font-size: 2rem;
+  margin-bottom: var(--space-sm);
+}
+
+.nav-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  color: var(--accent-gold);
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-xs);
+}
+
+.nav-card p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* Quick Reference Section */
+.quick-section {
+  margin-bottom: var(--space-2xl);
+}
+
+.quick-section h2 {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: var(--space-lg);
+  letter-spacing: 0.1em;
+}
+
+.quick-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-md);
+}
+
+.quick-block {
+  background: var(--surface);
+  border: var(--border-thin) solid var(--border-color);
+  padding: var(--space-md);
+}
+
+.quick-block h4 {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  color: var(--secondary-color);
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-sm);
+  padding-bottom: var(--space-xs);
+  border-bottom: var(--border-thin) solid var(--border-color);
+}
+
+.quick-block ol,
+.quick-block ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.quick-block li {
+  padding: var(--space-xs) 0;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  padding-left: var(--space-md);
+  position: relative;
+}
+
+.quick-block ol li::before {
+  content: counter(list-item) '.';
+  counter-increment: list-item;
+  position: absolute;
+  left: 0;
+  color: var(--accent-gold);
+  font-family: var(--font-display);
+}
+
+.quick-block ul li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: var(--secondary-color);
+}
+
+.quick-block ol {
+  counter-reset: list-item;
+}
+
+.quick-block table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.quick-block td {
+  padding: var(--space-xs) var(--space-sm);
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.quick-block td:first-child {
+  color: var(--text-muted);
+}
+
+.quick-block td:last-child {
+  text-align: right;
+  color: var(--accent-gold);
+  font-family: var(--font-display);
+}
+
+/* CTA Section */
+.cta-section {
+  text-align: center;
+  padding: var(--space-xl);
+  border-top: var(--border-thin) solid var(--border-color);
+}
+
+.cta-section .design-intent {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .home-page {
+    padding: var(--space-md);
+  }
+
+  .hero {
+    padding: var(--space-xl) var(--space-md);
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+    letter-spacing: 0.1em;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .hero-tagline {
+    font-size: 0.8rem;
+    gap: var(--space-xs);
+  }
+
+  .philosophy-grid,
+  .nav-cards,
+  .quick-grid {
+    grid-template-columns: 1fr;
+  }
+}
