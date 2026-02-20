@@ -1,4 +1,4 @@
-﻿# Items & Artifacts of Aeralon
+# Items & Artifacts of Aeralon
 
 **Treasures, Tools, and Trinkets of the Realms**
 
@@ -43,7 +43,7 @@ Items are categorized by **Rarity Tier**, which determines their power, availabi
 - Trigger on conditions (at low HD, when ally falls, after successful defense)
 
 **3. Modify THRESHOLDS (Change Success Requirements)**
-- Lower difficulty tiers (Expertâ†’Advanced)
+- Lower difficulty tiers (Expert→Advanced)
 - Grant bonus/penalty dice in specific contexts
 - Bypass armor or resistance in defined situations
 - Auto-succeed under specific conditions
@@ -54,7 +54,7 @@ Items are categorized by **Rarity Tier**, which determines their power, availabi
 - Items should create **moments for glory**, not passive power increases
 
 ### Weapons
-- **Mundane weapons** provide a vessel for your attacksâ€”YOU determine damage through Proficiency and Exertion
+- **Mundane weapons** provide a vessel for your attacks—YOU determine damage through Proficiency and Exertion
 - **Magical weapons** grant properties (elemental types, conditional effects, threshold changes, resource interactions)
 - **Damage comes from the wielder**, not the weapon itself
 - **Best weapons create opportunities** for risk and reward, not guaranteed power
@@ -334,7 +334,7 @@ Writing implements
 **Description:** Crystal-clear liquid containing perfect stillness. Mind becomes diamond-sharp.
 
 **Oil of the Concordant**  
-**Effect:** Coat weapon (10 minutes); weapon gains "Oath-Forged" propertyâ€”attacks ignore resistance and deal +2 HD to oath-breakers  
+**Effect:** Coat weapon (10 minutes); weapon gains "Oath-Forged" property—attacks ignore resistance and deal +2 HD to oath-breakers  
 **Description:** Silvery oil blessed by Concordant Halls. Weapon pulses with righteous purpose.
 
 **Potion of Temporal Pocket**  
@@ -414,7 +414,7 @@ Writing implements
 **Description:** Cruel weapon cursed to inflict lingering wounds. Blade seems hungry.
 
 **Oathkeeper** (any weapon)  
-**Property:** Attuned to specific oath. Against those who violate similar oaths: lower attack difficulty tier by 1 (Expertâ†’Advanced), automatically detect lies they speak, attacks bypass resistance. Glows brightly near oath-breakers.  
+**Property:** Attuned to specific oath. Against those who violate similar oaths: lower attack difficulty tier by 1 (Expert→Advanced), automatically detect lies they speak, attacks bypass resistance. Glows brightly near oath-breakers.  
 **Description:** Weapon forged in Concordant Halls. Contains fragment of Purpose itself.
 
 **Bow of the Hunt** (bow only)  
@@ -442,18 +442,18 @@ Writing implements
 **Description:** Weapon infused with storm fury. Channels divine wrath.
 
 **Life Drinker** (any weapon)  
-**Property:** When you damage living creature, heal HD equal to half damage dealt (rounded down). When you drop creature to 0 HD, gain 1 Resolve (up to maximum). Requires attunement; slowly corrupts non-evil wieldersâ€”each kill reduces maximum Resolve by 1 (permanent) until you become hollow vessel.  
+**Property:** When you damage living creature, heal HD equal to half damage dealt (rounded down). When you drop creature to 0 HD, gain 1 Resolve (up to maximum). Requires attunement; slowly corrupts non-evil wielders—each kill reduces maximum Resolve by 1 (permanent) until you become hollow vessel.  
 **Description:** Weapon containing trapped fragment of Gephorix. Feeds on suffering.
 
 **Wyrmbane** (any weapon)  
-**Property:** Against dragons, wyrms, and dragon-touched creatures: lower attack difficulty tier by 2 (Legendaryâ†’Advanced, Expertâ†’Basic), bypass all resistances, attacks ignore armor. Wielder immune to frightful presence and dragon breath. Dragon-slayers wield this with pride.  
+**Property:** Against dragons, wyrms, and dragon-touched creatures: lower attack difficulty tier by 2 (Legendary→Advanced, Expert→Basic), bypass all resistances, attacks ignore armor. Wielder immune to frightful presence and dragon breath. Dragon-slayers wield this with pride.  
 **Description:** Weapon forged from dragon bone and quenched in wyrm's blood.
 
 ---
 
 ### Legendary Tier Weapons
 
-**GÃ¡e Bolg, the Fate-Piercer** (spear)  
+**Gáe Bolg, the Fate-Piercer** (spear)  
 **Property:** Once per combat, declare "fate strike" before rolling. Attack automatically succeeds with maximum successes possible for your dice pool. Target cannot defend. Target's Resolve reduced to 0 afterward.  
 **Description:** Spear blessed by Thalos himself. When thrown, fate itself bends to ensure the strike lands. Legendary heroes wield it.
 
@@ -462,11 +462,11 @@ Writing implements
 **Description:** Blade forged from boundary between life and death. Aralys watches through it.
 
 **The Coin-Counter's Ledger** (warhammer)  
-**Property:** Against creatures who owe debts or broke contracts: attacks automatically succeed (no roll required), ignore all defenses, target cannot resist effects. Can bind defeated enemies into serviceâ€”they owe you debt equal to HD they had (must serve until debt paid through tasks). Korthane watches through this hammer.  
+**Property:** Against creatures who owe debts or broke contracts: attacks automatically succeed (no roll required), ignore all defenses, target cannot resist effects. Can bind defeated enemies into service—they owe you debt equal to HD they had (must serve until debt paid through tasks). Korthane watches through this hammer.  
 **Description:** Hammer used by Korthane's most favored collectors. Every strike is debt enforceable.
 
 **Verdant Wrath** (greataxe)  
-**Property:** Living weapon that grows stronger in natural settingsâ€”in forests/wilderness, attacks lower difficulty tier by 2 (Legendaryâ†’Advanced). Once per day, summon 3 Verdant Creepers (Advanced tier, 15 HD each) to fight for 10 minutes. Can communicate with all plant life within 1 mile. When you drop plant-corrupted enemy to 0 HD, they dissolve into fertile soil and bloom with flowers.  
+**Property:** Living weapon that grows stronger in natural settings—in forests/wilderness, attacks lower difficulty tier by 2 (Legendary→Advanced). Once per day, summon 3 Verdant Creepers (Advanced tier, 15 HD each) to fight for 10 minutes. Can communicate with all plant life within 1 mile. When you drop plant-corrupted enemy to 0 HD, they dissolve into fertile soil and bloom with flowers.  
 **Description:** Axe carved from heart of World Tree. Thymera's fury given form.
 
 ---
@@ -536,7 +536,7 @@ Writing implements
 ### Expert Tier Armor
 
 **Armor of the Phoenix** (any armor)  
-**Temp HD:** +1 die tier (2d6â†’2d8, 2d8â†’2d10, 2d10â†’2d12)  
+**Temp HD:** +1 die tier (2d6→2d8, 2d8→2d10, 2d10→2d12)  
 **Property:** Once per long rest, if reduced to 0 HD, immediately restore to half maximum HD and armor temp HD fully regenerates in burst of flame (dealing 2 HD fire in 10-yard radius)  
 **Description:** Armor containing captured phoenix feather. Grants rebirth from death.
 
@@ -547,7 +547,7 @@ Writing implements
 
 **Cloak of the Veil** (light armor)  
 **Temp HD:** 2d10 (counts as light armor)  
-**Property:** Phase partially into Ethereal Voidâ€”all attacks against you suffer -2d6 penalty, can walk through walls (10 yards per day)  
+**Property:** Phase partially into Ethereal Void—all attacks against you suffer -2d6 penalty, can walk through walls (10 yards per day)  
 **Description:** Cloak woven from in-between space. Wearer exists slightly outside reality.
 
 ---
@@ -641,7 +641,7 @@ Writing implements
 **Description:** Silver circlet inscribed with focus meditation mantras.
 
 **Gauntlets of Titanic Might**  
-**Effect:** Strength-based actions lower difficulty tier by 1 (Expertâ†’Advanced). Can wield Heavy weapons one-handed. Can carry/drag objects of immense weight (up to 1 ton with effort). Crushing gripâ€”on successful grapple, target takes 1 HD automatically each round.  
+**Effect:** Strength-based actions lower difficulty tier by 1 (Expert→Advanced). Can wield Heavy weapons one-handed. Can carry/drag objects of immense weight (up to 1 ton with effort). Crushing grip—on successful grapple, target takes 1 HD automatically each round.  
 **Description:** Gauntlets containing bound strength-spirit.
 
 **Wings of Flying**  
@@ -677,7 +677,7 @@ Writing implements
 **Description:** Cube containing fragment of absolute barrier.
 
 **Deck of Many Things** (Minor)  
-**Effect:** Draw card from deckâ€”gain random boon or bane (GM creates table)  
+**Effect:** Draw card from deck—gain random boon or bane (GM creates table)  
 **Description:** Cards containing fragments of Iosyx's chaos. Dangerous and unpredictable.
 
 ---
@@ -717,7 +717,7 @@ Writing implements
 ### Basic Tier (Social)
 
 **Circlet of Composure**  
-**Effect:** Upgrade your Composure dice by one step (d6→d8 or d8→d10)  
+**Effect:** Upgrade your Composure dice by one step (d6?d8 or d8?d10)  
 **Description:** Silver circlet that radiates calm authority. Favored by court advisors.
 
 **Amulet of Silver Tongue**  
@@ -733,7 +733,7 @@ Writing implements
 ### Advanced Tier (Social)
 
 **Mask of Many Faces**  
-**Effect:** Change appearance at will (illusion, does not alter voice). In social duels, once per duel declare "You don't know who I am"—opponent loses 1 Leverage and you gain it.  
+**Effect:** Change appearance at will (illusion, does not alter voice). In social duels, once per duel declare "You don't know who I am"�opponent loses 1 Leverage and you gain it.  
 **Description:** Featureless mask that shows different faces to different viewers.
 
 **Mantle of the Sovereign**  
@@ -742,7 +742,7 @@ Writing implements
 
 **Crown of Measured Words**  
 **Effect:** +2 Composure dice. Once per social duel, after seeing opponent's stance, change your declared stance (free action). You are always watching, always calculating.  
-**Description:** Thin golden crown with eyes etched along its band—Aluneth's gift to diplomats.
+**Description:** Thin golden crown with eyes etched along its band�Aluneth's gift to diplomats.
 
 **Tongue of the Concordant**  
 **Effect:** In social duels where you invoke the Concordant Halls or oath-keeping, reduce threshold to Basic 2+. When opponent breaks an oath during duel, they automatically lose 2 Composure dice.  
@@ -754,14 +754,14 @@ Writing implements
 
 **Regalia of Absolute Authority**  
 **Effect:** Your Composure dice are d10. You have +3 Composure dice. In social duels, you may spend 1 Resolve to automatically win a round (no roll needed). Once per long rest, issue a Command (target must succeed on Resolve check or obey one reasonable order).  
-**Description:** Complete set—crown, scepter, and orb—forged for a legendary emperor. Radiates power that makes knees bend.
+**Description:** Complete set�crown, scepter, and orb�forged for a legendary emperor. Radiates power that makes knees bend.
 
 **The Covenant Blade**  
-**Effect:** Not a weapon for combat—when drawn in social duel, all participants are bound by absolute honesty (cannot lie, Deceptive stance unavailable to all). Breaking this compulsion costs 3 Resolve. Duel winner may demand one true answer from the loser.  
+**Effect:** Not a weapon for combat�when drawn in social duel, all participants are bound by absolute honesty (cannot lie, Deceptive stance unavailable to all). Breaking this compulsion costs 3 Resolve. Duel winner may demand one true answer from the loser.  
 **Description:** Crystal blade that shatters lies. Said to be forged from a shard of Aluneth's mirror.
 
 **Paradox Tongue**  
-**Effect:** Once per social duel, speak a logical paradox—opponent's next roll is at +2 threshold (they're momentarily confused). If you have the Scholar class, this effect triggers automatically each round you use Reason stance (can only affect each opponent once).  
+**Effect:** Once per social duel, speak a logical paradox�opponent's next roll is at +2 threshold (they're momentarily confused). If you have the Scholar class, this effect triggers automatically each round you use Reason stance (can only affect each opponent once).  
 **Description:** Tiny spiral carved from impossible geometry. Whispers contradictions.
 
 ---
@@ -773,7 +773,7 @@ Writing implements
 **Description:** Fragment of the Mortal Weave itself, crystallized into a pendant. Each Power's version appears different.
 
 **The Last Word**  
-**Effect:** Once per long rest, when an opponent would win a social duel, speak The Last Word. The duel immediately ends in stalemate—no stakes are resolved. Both parties must withdraw. This cannot be prevented or countered. You have spoken, and nothing more can be said.  
+**Effect:** Once per long rest, when an opponent would win a social duel, speak The Last Word. The duel immediately ends in stalemate�no stakes are resolved. Both parties must withdraw. This cannot be prevented or countered. You have spoken, and nothing more can be said.  
 **Description:** A single syllable carved onto a sliver of bone from something that existed before the cosmos. To speak it is to end all discourse.
 
 ---
@@ -810,7 +810,7 @@ Writing implements
 - **Binding Law:** Makes any contract absolutely unbreakable (Ultimate 6 only, requires 4 successes)
 - **Soul Collateral:** Can use souls as payment/currency (Ultimate 6 only, requires 4 successes)
 
-**Consequences:** Using this corrupts user toward Azravael's tyranny. The Engine "disagrees with the Balance" per cosmologyâ€”it threatens Mortal Weave's foundation.
+**Consequences:** Using this corrupts user toward Azravael's tyranny. The Engine "disagrees with the Balance" per cosmology—it threatens Mortal Weave's foundation.
 
 ---
 
@@ -835,7 +835,7 @@ Writing implements
 **Properties:**
 - **Soul Guidance:** Can perceive and communicate with all dead within 1 mile (passive, no roll required)
 - **Resurrection:** Once per month, return dead soul to life (Ultimate 6 only, requires 4 successes). Requires soul's consent.
-- **Death Ward:** Wearer cannot be killed by violenceâ€”only by choosing to pass into Gloam (passive, no roll required)
+- **Death Ward:** Wearer cannot be killed by violence—only by choosing to pass into Gloam (passive, no roll required)
 - **Gloam Walking:** Travel freely between Mortal Weave and Gloam (Ultimate 6 only, requires 3 successes per crossing)
 
 **Consequences:** Wielder becomes Aralys's agent. Must guide lost souls faithfully or lose favor.
@@ -847,12 +847,12 @@ Writing implements
 **Location:** Scattered across realms where Iosyx manifested  
 **Description:** Physical shard of chaos itself, shed when Iosyx transforms reality.  
 **Properties:**
-- **Reality Flux:** Roll d10 when activated (Ultimate 6 only to control, automatic random effect otherwise)â€”reality-warping effect (GM table)
+- **Reality Flux:** Roll d10 when activated (Ultimate 6 only to control, automatic random effect otherwise)—reality-warping effect (GM table)
 - **Elemental Omnibus:** Immune to all elemental damage (passive), can produce any elemental effect at will (Ultimate 6 only, requires 3 successes)
 - **Transformation:** Once per day, polymorph anything into anything else (Ultimate 6 only, requires 4 successes). Permanent.
 - **Chaos Incarnate:** Spells cast near Fragment have 50% chance of producing random additional effect (passive, no roll required)
 
-**Consequences:** Fragments are unstable. Prolonged exposure causes bearer to become creature of fluxâ€”identity becomes fluid, form becomes mutable.
+**Consequences:** Fragments are unstable. Prolonged exposure causes bearer to become creature of flux—identity becomes fluid, form becomes mutable.
 
 ---
 
@@ -866,7 +866,7 @@ Writing implements
 - **Debt Collection:** Force payment of any legitimate debt within 1000 miles (Ultimate 6 only, requires 4 successes)
 - **Economic Manipulation:** Can cause inflation, deflation, or economic shift with recorded entry (Ultimate 6 only, requires 4 successes)
 
-**Consequences:** Korthane watches through Archive. Using it binds you to principles of fair exchangeâ€”you cannot cheat, steal, or take without giving equivalent value.
+**Consequences:** Korthane watches through Archive. Using it binds you to principles of fair exchange—you cannot cheat, steal, or take without giving equivalent value.
 
 ---
 

@@ -1,0 +1,321 @@
+/* ============================================
+   HOME PAGE - CELESTIAL LANDING EXPERIENCE
+   ============================================ */
+
+.home-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--space-lg);
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: var(--space-2xl) var(--space-lg);
+  margin-bottom: var(--space-2xl);
+  background: linear-gradient(180deg, var(--surface) 0%, transparent 100%);
+  border-bottom: 1px solid var(--border-color);
+  position: relative;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 400px;
+  background: 
+    radial-gradient(circle, rgba(155, 139, 184, 0.08) 0%, transparent 50%),
+    radial-gradient(circle, rgba(229, 193, 88, 0.06) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.hero-title {
+  font-family: var(--font-display);
+  font-size: 4rem;
+  color: var(--accent-gold);
+  letter-spacing: 0.2em;
+  margin-bottom: var(--space-sm);
+  text-shadow: 0 0 40px rgba(155, 139, 184, 0.35), 0 0 60px rgba(229, 193, 88, 0.2);
+}
+
+.hero-subtitle {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  color: var(--text-secondary);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: var(--space-lg);
+}
+
+.hero-tagline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.hero-tagline .symbol {
+  color: var(--accent-purple);
+  font-size: 1.1em;
+}
+
+.hero-tagline .divider {
+  color: var(--border-color);
+  margin: 0 var(--space-xs);
+}
+
+/* Philosophy Section */
+.philosophy-section {
+  margin-bottom: var(--space-2xl);
+}
+
+.philosophy-section h2 {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: var(--space-lg);
+  letter-spacing: 0.1em;
+}
+
+.philosophy-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--space-md);
+}
+
+.philosophy-card {
+  background: var(--surface);
+  border: 1px solid var(--border-color);
+  padding: var(--space-lg);
+  text-align: center;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+  border-radius: 2px;
+}
+
+.philosophy-card:hover {
+  border-color: var(--accent-purple);
+  transform: translateY(-2px);
+  box-shadow: var(--border-mystical);
+}
+
+.philosophy-card .card-symbol {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  color: var(--accent-gold);
+  display: block;
+  margin-bottom: var(--space-sm);
+}
+
+.philosophy-card h3 {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  color: var(--text-primary);
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-xs);
+}
+
+.philosophy-card p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* Navigation Cards Section */
+.nav-section {
+  margin-bottom: var(--space-2xl);
+}
+
+.nav-section h2 {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: var(--space-lg);
+  letter-spacing: 0.1em;
+}
+
+.nav-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--space-md);
+}
+
+.nav-card {
+  background: var(--surface);
+  border: 1px solid var(--border-color);
+  padding: var(--space-lg);
+  text-decoration: none;
+  transition: all 0.2s ease;
+  display: block;
+  border-radius: 2px;
+}
+
+.nav-card:hover {
+  border-color: var(--accent-purple);
+  background: var(--surface-elevated);
+  transform: translateY(-3px);
+  box-shadow: var(--border-mystical);
+}
+
+.nav-card .card-icon {
+  font-size: 2rem;
+  margin-bottom: var(--space-sm);
+}
+
+.nav-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  color: var(--accent-gold);
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-xs);
+}
+
+.nav-card p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* Quick Reference Section */
+.quick-section {
+  margin-bottom: var(--space-2xl);
+}
+
+.quick-section h2 {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: var(--space-lg);
+  letter-spacing: 0.1em;
+}
+
+.quick-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-md);
+}
+
+.quick-block {
+  background: var(--surface);
+  border: 1px solid var(--border-color);
+  padding: var(--space-md);
+  border-radius: 2px;
+}
+
+.quick-block h4 {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  color: var(--secondary-color);
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-sm);
+  padding-bottom: var(--space-xs);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.quick-block ol,
+.quick-block ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.quick-block li {
+  padding: var(--space-xs) 0;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  padding-left: var(--space-md);
+  position: relative;
+}
+
+.quick-block ol li::before {
+  content: counter(list-item) '.';
+  counter-increment: list-item;
+  position: absolute;
+  left: 0;
+  color: var(--accent-gold);
+  font-family: var(--font-display);
+}
+
+.quick-block ul li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: var(--secondary-color);
+}
+
+.quick-block ol {
+  counter-reset: list-item;
+}
+
+.quick-block table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.quick-block td {
+  padding: var(--space-xs) var(--space-sm);
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.quick-block td:first-child {
+  color: var(--text-muted);
+}
+
+.quick-block td:last-child {
+  text-align: right;
+  color: var(--accent-gold);
+  font-family: var(--font-display);
+}
+
+/* CTA Section */
+.cta-section {
+  text-align: center;
+  padding: var(--space-xl);
+  border-top: 1px solid var(--border-color);
+}
+
+.cta-section .design-intent {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .home-page {
+    padding: var(--space-md);
+  }
+
+  .hero {
+    padding: var(--space-xl) var(--space-md);
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+    letter-spacing: 0.1em;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .hero-tagline {
+    font-size: 0.8rem;
+    gap: var(--space-xs);
+  }
+
+  .philosophy-grid,
+  .nav-cards,
+  .quick-grid {
+    grid-template-columns: 1fr;
+  }
+}

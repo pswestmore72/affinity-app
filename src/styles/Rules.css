@@ -1,0 +1,320 @@
+/* ============================================
+   RULES REFERENCE PAGE - ARCANE GRIMOIRE STYLING
+   ============================================ */
+
+.rules-page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: var(--space-lg);
+}
+
+.rules-header {
+  text-align: center;
+  margin-bottom: var(--space-xl);
+  padding-bottom: var(--space-lg);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.rules-header h1 {
+  font-family: var(--font-display);
+  font-size: 2.5rem;
+  color: var(--accent-gold);
+  margin-bottom: var(--space-sm);
+  letter-spacing: 0.15em;
+}
+
+/* Tab Navigation */
+.rules-tabs {
+  display: flex;
+  gap: var(--space-xs);
+  margin-bottom: var(--space-xl);
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: var(--space-sm);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.rules-tabs .tab {
+  background: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  padding: var(--space-sm) var(--space-md);
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-radius: 2px;
+}
+
+.rules-tabs .tab:hover {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.rules-tabs .tab.active {
+  background: var(--surface-elevated);
+  color: var(--accent-gold);
+  border-color: var(--accent-gold);
+}
+
+/* Rules Content Area */
+.rules-content {
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.rules-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.rules-section h2 {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  margin-top: var(--space-lg);
+  padding-bottom: var(--space-xs);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.rules-section h2:first-child {
+  margin-top: 0;
+}
+
+/* Rule Blocks */
+.rule-block {
+  background: var(--surface);
+  border: 1px solid var(--border-color);
+  padding: var(--space-md);
+  position: relative;
+  border-radius: 2px;
+}
+
+.rule-block::before {
+  content: '✦';
+  position: absolute;
+  top: -0.6em;
+  left: var(--space-md);
+  background: var(--background);
+  padding: 0 var(--space-xs);
+  color: var(--secondary-color);
+  font-size: 0.8rem;
+}
+
+.rule-block h3 {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  color: var(--accent-gold);
+  margin-bottom: var(--space-sm);
+  letter-spacing: 0.05em;
+}
+
+.rule-block.highlight {
+  border-color: var(--secondary-color);
+  background: linear-gradient(135deg, var(--surface) 0%, rgba(107, 142, 159, 0.1) 100%);
+}
+
+.rule-block.highlight::before {
+  color: var(--secondary-color);
+}
+
+/* Rule Lists */
+.rule-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.rule-list li {
+  padding: var(--space-xs) 0;
+  padding-left: var(--space-md);
+  position: relative;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.rule-list li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: var(--secondary-color);
+}
+
+.rule-list.numbered {
+  counter-reset: rule-counter;
+}
+
+.rule-list.numbered li {
+  counter-increment: rule-counter;
+}
+
+.rule-list.numbered li::before {
+  content: counter(rule-counter) '.';
+  color: var(--accent-gold);
+  font-family: var(--font-display);
+  font-size: 0.9em;
+}
+
+.rule-list li strong {
+  color: var(--text-primary);
+}
+
+/* Critical Warning Blocks */
+.critical-block {
+  background: linear-gradient(135deg, var(--surface) 0%, rgba(196, 167, 125, 0.12) 100%);
+  border: 1px solid var(--primary-color);
+  padding: var(--space-md);
+  margin: var(--space-md) 0;
+  border-radius: 2px;
+}
+
+.critical-block h3 {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  color: var(--primary-color);
+  margin-bottom: var(--space-sm);
+}
+
+.critical-block p {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin: var(--space-xs) 0;
+}
+
+/* Example Blocks */
+.example-block {
+  background: var(--surface-elevated);
+  border-left: 3px solid var(--accent-purple);
+  padding: var(--space-sm) var(--space-md);
+  margin-top: var(--space-sm);
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.example-block.large {
+  margin: var(--space-md) 0;
+  padding: var(--space-md);
+}
+
+.example-block h4 {
+  font-family: var(--font-display);
+  color: var(--accent-purple);
+  font-size: 1rem;
+  margin-bottom: var(--space-sm);
+}
+
+.example-block .sequence {
+  font-family: var(--font-mono, monospace);
+  font-size: 0.85rem;
+  background: var(--background);
+  padding: var(--space-sm);
+  margin: var(--space-sm) 0;
+  border: 1px solid var(--border-color);
+  border-radius: 2px;
+}
+
+.example-block .sequence p {
+  margin: var(--space-xs) 0;
+}
+
+.example-block .success {
+  color: var(--secondary-color);
+  font-weight: 600;
+}
+
+.example-block .fail {
+  color: var(--accent-rose);
+  font-weight: 600;
+}
+
+/* Tables */
+.rules-table-container {
+  overflow-x: auto;
+  margin: var(--space-md) 0;
+}
+
+.rules-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.rules-table th {
+  background: var(--surface-elevated);
+  color: var(--accent-gold);
+  font-family: var(--font-display);
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  padding: var(--space-sm) var(--space-md);
+  text-align: left;
+  border-bottom: 1px solid var(--accent-gold);
+}
+
+.rules-table td {
+  padding: var(--space-sm) var(--space-md);
+  border-bottom: 1px solid var(--border-color);
+  color: var(--text-secondary);
+}
+
+.rules-table tbody tr:hover {
+  background: var(--surface);
+}
+
+.rules-table.resolve-table .danger-row {
+  background: rgba(196, 167, 125, 0.08);
+}
+
+.rules-table.resolve-table .danger-row td {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+/* Flavor Text */
+.flavor-text {
+  font-style: italic;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-top: var(--space-xs);
+}
+
+/* Death Text */
+.death-text {
+  color: var(--accent-rose);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .rules-page {
+    padding: var(--space-md);
+  }
+
+  .rules-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .rules-tabs {
+    gap: var(--space-xs);
+  }
+
+  .rules-tabs .tab {
+    padding: var(--space-xs) var(--space-sm);
+    font-size: 0.8rem;
+  }
+
+  .rules-table {
+    font-size: 0.85rem;
+  }
+
+  .rules-table th,
+  .rules-table td {
+    padding: var(--space-xs) var(--space-sm);
+  }
+}

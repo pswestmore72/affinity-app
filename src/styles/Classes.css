@@ -1,0 +1,351 @@
+/* ============================================
+   CLASSES PAGE - THE SEVEN PATHS
+   ============================================ */
+
+.classes-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: var(--space-lg);
+}
+
+.classes-header {
+  text-align: center;
+  margin-bottom: var(--space-xl);
+  padding-bottom: var(--space-lg);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.classes-header h1 {
+  font-family: var(--font-display);
+  font-size: 2.5rem;
+  color: var(--accent-gold);
+  margin-bottom: var(--space-sm);
+  letter-spacing: 0.15em;
+}
+
+/* Class Grid Layout */
+.class-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: var(--space-lg);
+  margin-bottom: var(--space-2xl);
+}
+
+/* Individual Class Card */
+.class-card {
+  background: var(--surface);
+  border: 1px solid var(--border-color);
+  padding: var(--space-lg);
+  position: relative;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.class-card::before {
+  content: '✦';
+  position: absolute;
+  top: -0.6em;
+  left: var(--space-md);
+  background: var(--background);
+  padding: 0 var(--space-xs);
+  color: var(--secondary-color);
+  font-size: 0.75rem;
+}
+
+.class-card:hover {
+  border-color: var(--accent-gold);
+  transform: translateY(-2px);
+}
+
+.class-card.expanded {
+  grid-column: 1 / -1;
+  border-color: var(--primary-color);
+}
+
+.class-card h2 {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  color: var(--accent-gold);
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-xs);
+}
+
+.class-subtitle {
+  font-style: italic;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: var(--space-sm);
+}
+
+/* HD Badge */
+.hd-badge {
+  display: inline-block;
+  background: var(--surface-elevated);
+  border: 1px solid var(--secondary-color);
+  padding: var(--space-xs) var(--space-sm);
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  color: var(--secondary-color);
+  margin-right: var(--space-sm);
+  border-radius: 2px;
+}
+
+.hd-badge.tough {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.hd-badge.balanced {
+  border-color: var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+.hd-badge.fragile {
+  border-color: var(--accent-purple);
+  color: var(--accent-purple);
+}
+
+/* Custodial Connection */
+.custodial-connection {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-bottom: var(--space-sm);
+}
+
+.custodial-connection strong {
+  color: var(--primary-color);
+}
+
+/* Class Description */
+.class-description {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: var(--space-md);
+}
+
+/* Key Abilities */
+.key-abilities {
+  margin-top: var(--space-md);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--border-color);
+}
+
+.key-abilities h3 {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  color: var(--secondary-color);
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-sm);
+}
+
+.abilities-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.abilities-list li {
+  padding: var(--space-xs) 0;
+  padding-left: var(--space-md);
+  position: relative;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.abilities-list li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: var(--accent-gold);
+}
+
+.abilities-list li strong {
+  color: var(--text-primary);
+}
+
+/* Expanded View */
+.class-expanded {
+  margin-top: var(--space-lg);
+  padding-top: var(--space-lg);
+  border-top: 1px solid var(--border-color);
+}
+
+.class-expanded h3 {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  color: var(--primary-color);
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-md);
+  margin-top: var(--space-lg);
+}
+
+.class-expanded h3:first-child {
+  margin-top: 0;
+}
+
+/* Progression Table */
+.progression-table-container {
+  overflow-x: auto;
+  margin: var(--space-md) 0;
+}
+
+.progression-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.progression-table th {
+  background: var(--surface-elevated);
+  color: var(--accent-gold);
+  font-family: var(--font-display);
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  padding: var(--space-sm) var(--space-sm);
+  text-align: left;
+  border-bottom: 1px solid var(--accent-gold);
+  white-space: nowrap;
+}
+
+.progression-table td {
+  padding: var(--space-sm);
+  border-bottom: 1px solid var(--border-color);
+  color: var(--text-secondary);
+}
+
+.progression-table tbody tr:hover {
+  background: var(--surface);
+}
+
+.progression-table .level-cell {
+  font-family: var(--font-display);
+  color: var(--accent-gold);
+}
+
+.progression-table .milestone-cell {
+  color: var(--text-primary);
+}
+
+/* Ability Block */
+.ability-block {
+  background: var(--surface-elevated);
+  border-left: 3px solid var(--secondary-color);
+  padding: var(--space-md);
+  margin: var(--space-sm) 0;
+}
+
+.ability-block h4 {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  color: var(--accent-gold);
+  margin-bottom: var(--space-xs);
+}
+
+.ability-tier {
+  display: inline-block;
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  background: var(--surface);
+  border: 1px solid var(--border-color);
+  color: var(--text-muted);
+  margin-left: var(--space-sm);
+  font-family: var(--font-display);
+}
+
+.ability-tier.basic { border-color: var(--secondary-color); color: var(--secondary-color); }
+.ability-tier.advanced { border-color: var(--accent-gold); color: var(--accent-gold); }
+.ability-tier.expert { border-color: var(--primary-color); color: var(--primary-color); }
+.ability-tier.legendary { border-color: var(--accent-purple); color: var(--accent-purple); }
+
+.ability-block p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: var(--space-xs) 0;
+}
+
+.ability-block ul {
+  list-style: none;
+  padding: 0;
+  margin: var(--space-xs) 0;
+}
+
+.ability-block ul li {
+  padding: var(--space-xs) 0;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+/* Ways Section */
+.ways-section {
+  margin-top: var(--space-lg);
+}
+
+.ways-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+  margin-top: var(--space-sm);
+}
+
+.way-tag {
+  background: var(--surface);
+  border: 1px solid var(--border-color);
+  padding: var(--space-xs) var(--space-sm);
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  font-family: var(--font-display);
+  letter-spacing: 0.03em;
+  border-radius: 2px;
+}
+
+.way-tag:hover {
+  border-color: var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+/* Collapse Button */
+.collapse-btn {
+  display: block;
+  width: 100%;
+  background: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--text-muted);
+  padding: var(--space-sm);
+  margin-top: var(--space-md);
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-radius: 2px;
+}
+
+.collapse-btn:hover {
+  border-color: var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .classes-page {
+    padding: var(--space-md);
+  }
+
+  .classes-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .class-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .progression-table {
+    font-size: 0.8rem;
+  }
+
+  .progression-table th,
+  .progression-table td {
+    padding: var(--space-xs);
+  }
+}

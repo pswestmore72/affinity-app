@@ -5,7 +5,7 @@
 **Starting Level:** 1  
 **Progression:** Level 2 after Session 2, Level 3 after Session 5  
 **Party Size:** 4 Characters  
-**Origin:** All traveling from the Verdant Verge
+**Origin:** All traveling from the Tangled Verge
 
 **Playtest Focus:** Path Board diversity (testing different Pillars), Level 1 mechanics, Trapped Below variant
 
@@ -25,7 +25,7 @@
 ### Defining Affinity
 **Virtue:** **Shadow** *(Aralys the Veilbearer)* — *"Mercy through endings; witness final moments with compassion"*
 
-Nyra understands that death is not cruelty but release. She believes in gentle transitions, honoring last words, ensuring the dying are not alone. Born in the Verdant Verge where life explodes without restraint, she learned that sometimes the kindest act is to ease passage rather than prolong suffering.
+Nyra understands that death is not cruelty but release. She believes in gentle transitions, honoring last words, ensuring the dying are not alone. Born in the Tangled Verge where life explodes without restraint, she learned that sometimes the kindest act is to ease passage rather than prolong suffering.
 
 **Affinity Dice:**
 - **Gain:** 1 Affinity Die when offering mercy to the dying, honoring the dead, or easing difficult transitions (max 1 per day at Prof 1)
@@ -35,7 +35,7 @@ Nyra understands that death is not cruelty but release. She believes in gentle t
 
 ### Background & Personality
 
-**Age:** Early 20s (half-elf - Verdant Verge native)  
+**Age:** Early 20s (half-elf - Tangled Verge native)  
 **Appearance:** Pale skin with faint silver veins visible at temples, dark hair streaked with white (not from age—from her Affinity). Wears gray traveling robes with silver embroidery depicting moths and fallen leaves. Carries small memorial tokens from those she's helped pass.
 
 **Personality:**
@@ -45,7 +45,7 @@ Nyra understands that death is not cruelty but release. She believes in gentle t
 - **Gentle but not weak** - Mercy sometimes requires hard choices
 
 **Background:**
-Nyra grew up in a Verdant Verge settlement where the Bloom's excesses caused plants to grow so aggressively they suffocated buildings. She watched her grandmother—a healer—exhaust herself trying to save everyone, refusing to accept when treatments became torture. When her grandmother finally collapsed, Nyra held her hand and sang the songs Aralys' followers teach: *"Your work is done. Rest is earned. I witness your passing."*
+Nyra grew up in a Tangled Verge settlement where the Bloom's excesses caused plants to grow so aggressively they suffocated buildings. She watched her grandmother—a healer—exhaust herself trying to save everyone, refusing to accept when treatments became torture. When her grandmother finally collapsed, Nyra held her hand and sang the songs Aralys' followers teach: *"Your work is done. Rest is earned. I witness your passing."*
 
 She studied Weaving afterward, seeking to understand the patterns beneath reality—both to create and to gracefully unmake. She travels now, learning magic while offering final comfort to those far from home.
 
@@ -175,7 +175,7 @@ She studied Weaving afterward, seeking to understand the patterns beneath realit
 
 **Connects to:** Shadow Step, Ambush Predator, Silent Movement, Misdirection
 
-**Narrative Justification:** The Verdant Verge has deep, shadowed groves where even the Bloom's light cannot reach. Nyra learned to move through these spaces while studying the boundary between life and death—where shadows gather thickest.
+**Narrative Justification:** The Tangled Verge has deep, shadowed groves where even the Bloom's light cannot reach. Nyra learned to move through these spaces while studying the boundary between life and death—where shadows gather thickest.
 
 ---
 
@@ -199,7 +199,7 @@ She studied Weaving afterward, seeking to understand the patterns beneath realit
 
 ### Character Hooks
 
-**Relationship to Verdant Verge:**
+**Relationship to Tangled Verge:**
 "I left because the Verge teaches only growth. I needed to understand endings."
 
 **Response to Tremors:**
@@ -234,7 +234,7 @@ Roots-Between-Stone believes that nothing is ever truly lost—only transformed.
 
 ### Background & Personality
 
-**Age:** Mid-30s (firbolg - Verdant Verge native)  
+**Age:** Mid-30s (firbolg - Tangled Verge native)  
 **Appearance:** Towering (8 feet), covered in moss-like fur that changes color with seasons, antlers adorned with living vines. Face painted with spirals representing cycles. Wears armor made from shed bark and bone from natural deaths (never killed for materials).
 
 **Personality:**
@@ -244,7 +244,7 @@ Roots-Between-Stone believes that nothing is ever truly lost—only transformed.
 - **Fiercely protective of cycles** - Will oppose those who prevent natural progression
 
 **Background:**
-Roots-Between-Stone was born during the Withering's dominance in the Verdant Verge—when fruit fell endlessly and maturation was sacred. They learned from elder shamans that the Bloom and Withering aren't enemies but partners in an eternal dance. When the Tempest tried to disrupt this rhythm with chaotic instant-growth, Roots helped restore balance by composting the overflow and planting seeds properly.
+Roots-Between-Stone was born during the Withering's dominance in the Tangled Verge—when fruit fell endlessly and maturation was sacred. They learned from elder shamans that the Bloom and Withering aren't enemies but partners in an eternal dance. When the Tempest tried to disrupt this rhythm with chaotic instant-growth, Roots helped restore balance by composting the overflow and planting seeds properly.
 
 They travel now, seeking places where cycles have been interrupted—where death doesn't feed life, where growth is blocked, where transformation is prevented.
 
@@ -342,7 +342,7 @@ They travel now, seeking places where cycles have been interrupted—where death
 
 **Connects to:** Beast Bond, Tracker's Eye, Natural Resilience, Forager
 
-**Narrative Justification:** Born in the Verdant Verge, Roots-Between-Stone has always walked among nature spirits and beasts. The Path formalizes what they've known since childhood—the wild recognizes its own.
+**Narrative Justification:** Born in the Tangled Verge, Roots-Between-Stone has always walked among nature spirits and beasts. The Path formalizes what they've known since childhood—the wild recognizes its own.
 
 ---
 
@@ -366,7 +366,7 @@ They travel now, seeking places where cycles have been interrupted—where death
 
 ### Character Hooks
 
-**Relationship to Verdant Verge:**
+**Relationship to Tangled Verge:**
 "The Verge taught me that life without death is not paradise—it's suffocation. I seek balance."
 
 **Response to Tremors:**
@@ -401,7 +401,7 @@ Kessa believes that identity is fluid, transformation is freedom, and refusing t
 
 ### Background & Personality
 
-**Age:** Late 20s (human - Verdant Verge refugee)  
+**Age:** Late 20s (human - Tangled Verge refugee)  
 **Appearance:** Broad-shouldered, scarred from training and choice (ritual scars marking transformations), short-cropped hair dyed in rotating colors (currently copper-red). Wears practical armor with no insignia—refuses to be claimed by any banner. Eyes fierce and restless.
 
 **Personality:**
@@ -411,7 +411,7 @@ Kessa believes that identity is fluid, transformation is freedom, and refusing t
 - **Provocative** - Challenges others to examine their own prisons
 
 **Background:**
-Kessa was born in a Verdant Verge settlement that worshipped the Bloom—where growth meant always more, always upward, always beautiful. She was trained to be a guardian of flower-temples, to embody grace and nurture.
+Kessa was born in a Tangled Verge settlement that worshipped the Bloom—where growth meant always more, always upward, always beautiful. She was trained to be a guardian of flower-temples, to embody grace and nurture.
 
 She hated it.
 
@@ -498,7 +498,7 @@ She swore no oath to god or order—only to herself: *"I am not finished. I will
 
 ### Character Hooks
 
-**Relationship to Verdant Verge:**
+**Relationship to Tangled Verge:**
 "The Verge wanted me to bloom forever. I chose to burn instead."
 
 **Response to Tremors:**
@@ -533,7 +533,7 @@ Elrik believes that knowledge is earned through patient study, that hubris blind
 
 ### Background & Personality
 
-**Age:** Early 30s (half-elf - raised in Mortal Weave, spent years in Verdant Verge)  
+**Age:** Early 30s (half-elf - raised in Mortal Weave, spent years in Tangled Verge)  
 **Appearance:** Lean and weathered, ink-stained fingers from constant note-taking, carries multiple journals in waterproof cases. Wears practical leather with pockets for specimens. Eyes constantly observing, cataloging.
 
 **Personality:**
@@ -543,7 +543,7 @@ Elrik believes that knowledge is earned through patient study, that hubris blind
 - **Cautiously brave** - Will risk danger for knowledge, but prepares thoroughly
 
 **Background:**
-Elrik was an apprentice scholar in the Mortal Weave who became obsessed with the Verdant Verge's impossible ecology. How does life sustain unchecked growth? What are the Verdant Excesses, truly—gods, biomes, or something else? He spent five years embedded in Verge settlements, documenting the Bloom's rise, the Withering's fall, the Tempest's chaos.
+Elrik was an apprentice scholar in the Mortal Weave who became obsessed with the Tangled Verge's impossible ecology. How does life sustain unchecked growth? What are the Verdant Excesses, truly—gods, biomes, or something else? He spent five years embedded in Verge settlements, documenting the Bloom's rise, the Withering's fall, the Tempest's chaos.
 
 He learned wilderness survival by necessity (scholarly curiosity doesn't feed you), and found he had aptitude for it. Rangers who knew the land's secrets taught him to read tracks, predict weather, weaponize terrain. He became something rare: a scholar-ranger who understands both theory and practice.
 
@@ -658,14 +658,14 @@ He learned wilderness survival by necessity (scholarly curiosity doesn't feed yo
 - Cartographer's tools (mapping the depths)
 - Herbalist's kit (identifying underground flora)
 - Traveler's pack (bedroll, rope, rations, waterskin)
-- Pressed specimens from Verdant Verge (research samples)
+- Pressed specimens from Tangled Verge (research samples)
 - Sketching charcoal and paper
 
 ---
 
 ### Character Hooks
 
-**Relationship to Verdant Verge:**
+**Relationship to Tangled Verge:**
 "The Verge is a living laboratory—beautiful, terrifying, and endlessly instructive. I learned more there in five years than a lifetime of books could teach."
 
 **Response to Tremors:**
@@ -702,7 +702,7 @@ Will be drawn to those who value understanding over rushing to action. Respects 
 - Kessa's fierce independence vs group coordination needs
 
 **Shared Ground:**
-All four left the Verdant Verge seeking something the Bloom couldn't provide: understanding (Nyra, Elrik), balance (Roots), or freedom to choose (Kessa). All understand that growth without limits becomes prison.
+All four left the Tangled Verge seeking something the Bloom couldn't provide: understanding (Nyra, Elrik), balance (Roots), or freedom to choose (Kessa). All understand that growth without limits becomes prison.
 
 ---
 

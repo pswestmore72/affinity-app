@@ -1,0 +1,335 @@
+/* ============================================
+   LORE PAGE - THE REALMS & POWERS
+   ============================================ */
+
+.cosmology-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: var(--space-lg);
+}
+
+.cosmology-header {
+  text-align: center;
+  margin-bottom: var(--space-xl);
+  padding-bottom: var(--space-lg);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.cosmology-header h1 {
+  font-family: var(--font-display);
+  font-size: 2.5rem;
+  color: var(--accent-gold);
+  margin-bottom: var(--space-sm);
+  letter-spacing: 0.15em;
+}
+
+/* Tab Navigation */
+.cosmology-tabs {
+  display: flex;
+  gap: var(--space-xs);
+  margin-bottom: var(--space-xl);
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: var(--space-sm);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cosmology-tabs .tab {
+  background: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  padding: var(--space-sm) var(--space-md);
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-radius: 2px;
+}
+
+.cosmology-tabs .tab:hover {
+  color: var(--accent-purple-bright);
+  border-color: var(--accent-purple);
+  background: rgba(155, 139, 184, 0.1);
+}
+
+.cosmology-tabs .tab.active {
+  background: var(--surface-elevated);
+  color: var(--accent-gold);
+  border-color: var(--accent-gold);
+}
+
+/* Content Section */
+.cosmology-content {
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.cosmology-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.cosmology-section h2 {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  margin-top: var(--space-lg);
+  padding-bottom: var(--space-xs);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.cosmology-section h2:first-child {
+  margin-top: 0;
+}
+
+/* Realm Cards */
+.realm-card {
+  background: var(--surface);
+  border: 1px solid var(--border-color);
+  padding: var(--space-lg);
+  margin: var(--space-md) 0;
+  position: relative;
+  border-radius: 2px;
+}
+
+.realm-card::before {
+  content: '✦';
+  position: absolute;
+  top: -0.6em;
+  left: var(--space-md);
+  background: var(--background);
+  padding: 0 var(--space-xs);
+  color: var(--accent-purple);
+  font-size: 0.75rem;
+}
+
+.realm-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  color: var(--accent-gold);
+  margin-bottom: var(--space-xs);
+  letter-spacing: 0.05em;
+}
+
+.realm-subtitle {
+  font-style: italic;
+  color: var(--accent-purple);
+  font-size: 0.9rem;
+  margin-bottom: var(--space-sm);
+}
+
+.realm-card p {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin: var(--space-sm) 0;
+}
+
+.realm-card.reflected {
+  border-left: 3px solid var(--accent-purple);
+}
+
+.realm-card.sovereign {
+  border-left: 3px solid var(--accent-gold);
+}
+
+.realm-card.fracture {
+  border-left: 3px solid var(--accent-rose);
+}
+
+/* Power Cards (Custodial Powers) */
+.power-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--space-md);
+  margin: var(--space-md) 0;
+}
+
+.power-card {
+  background: var(--surface);
+  border: 1px solid var(--border-color);
+  padding: var(--space-md);
+  transition: border-color 0.2s ease;
+  border-radius: 2px;
+}
+
+.power-card:hover {
+  border-color: var(--accent-purple);
+  box-shadow: var(--border-mystical);
+}
+
+.power-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  color: var(--accent-gold);
+  margin-bottom: var(--space-xs);
+  letter-spacing: 0.03em;
+}
+
+.power-domain {
+  font-size: 0.85rem;
+  color: var(--secondary-color);
+  margin-bottom: var(--space-sm);
+  font-family: var(--font-display);
+}
+
+.power-card p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.power-classes {
+  margin-top: var(--space-sm);
+  padding-top: var(--space-sm);
+  border-top: 1px solid var(--border-color);
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.power-classes strong {
+  color: var(--primary-color);
+}
+
+/* Deity Lists */
+.deity-section {
+  margin: var(--space-md) 0;
+}
+
+.deity-section h4 {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  color: var(--secondary-color);
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-sm);
+}
+
+.deity-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-xs);
+}
+
+.deity-list li {
+  padding: var(--space-xs) 0;
+  padding-left: var(--space-md);
+  position: relative;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.deity-list li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: var(--accent-purple);
+}
+
+.deity-list li strong {
+  color: var(--text-primary);
+}
+
+/* Creatures Section */
+.creatures-block {
+  background: var(--surface-elevated);
+  border-left: 3px solid var(--accent-purple);
+  padding: var(--space-sm) var(--space-md);
+  margin: var(--space-sm) 0;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.creatures-block strong {
+  color: var(--text-secondary);
+}
+
+/* Affinity System */
+.affinity-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: var(--space-sm);
+  margin: var(--space-md) 0;
+}
+
+.affinity-tag {
+  background: var(--surface);
+  border: 1px solid var(--border-color);
+  padding: var(--space-sm) var(--space-md);
+  text-align: center;
+  transition: border-color 0.2s ease;
+  border-radius: 2px;
+}
+
+.affinity-tag:hover {
+  border-color: var(--accent-gold);
+}
+
+.affinity-tag h4 {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  color: var(--accent-gold);
+  margin-bottom: var(--space-xs);
+}
+
+.affinity-tag p {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+/* Lore Quote Block */
+.lore-quote {
+  background: linear-gradient(135deg, var(--surface) 0%, rgba(212, 175, 55, 0.04) 100%);
+  border: 1px solid var(--border-color);
+  border-left: 3px solid var(--accent-gold);
+  padding: var(--space-md);
+  margin: var(--space-lg) 0;
+  font-style: italic;
+  color: var(--text-secondary);
+  text-align: center;
+  border-radius: 0 2px 2px 0;
+}
+
+.lore-quote cite {
+  display: block;
+  margin-top: var(--space-sm);
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-style: normal;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .cosmology-page {
+    padding: var(--space-md);
+  }
+
+  .cosmology-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .cosmology-tabs {
+    gap: var(--space-xs);
+  }
+
+  .cosmology-tabs .tab {
+    padding: var(--space-xs) var(--space-sm);
+    font-size: 0.8rem;
+  }
+
+  .power-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .deity-list {
+    grid-template-columns: 1fr;
+  }
+}

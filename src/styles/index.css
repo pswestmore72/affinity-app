@@ -1,18 +1,95 @@
+/* Import Google Fonts for celestial high fantasy aesthetic */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Crimson+Pro:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap');
+
 :root {
-  --primary-color: #DC8665;
-  --secondary-color: #138086;
-  --accent-purple: #534666;
-  --accent-rose: #CD7672;
-  --accent-gold: #EEB462;
-  --background: #1a1520;
-  --surface: #2a2530;
-  --surface-light: #3a3540;
-  --text: #e8e5e5;
-  --text-muted: #9a9599;
-  --border: #534666;
-  --success: #138086;
-  --warning: #EEB462;
-  --danger: #CD7672;
+  /* Core Palette - Celestial Fantasy Theme */
+  /* Rich twilight purples and luminous cosmic accents */
+  --primary-color: #C4A77D;      /* Antique gold - worn metal, ancient script */
+  --secondary-color: #8BADC2;    /* Brighter twilight blue - sky reflection */
+  --accent-purple: #9B8BB8;      /* Vibrant violet - arcane energy, starlight */
+  --accent-purple-bright: #B8A0D4; /* Luminous purple - magical highlights */
+  --accent-rose: #C08888;        /* Soft rose - blood magic, dawn light */
+  --accent-gold: #E5C158;        /* Brighter gold - divine radiance */
+  --accent-copper: #C98844;      /* Polished copper - ancient artifacts */
+  
+  /* Backgrounds - Twilight purple, lighter than before */
+  --background: #242030;         /* Lighter twilight purple */
+  --surface: #2E2A3D;            /* Brighter parchment shadow */
+  --surface-light: #3D3854;      /* Elevated surfaces with purple tint */
+  --surface-elevated: #4A4566;   /* Cards, modals - more vibrant */
+  --surface-warm: #352F45;       /* Warm violet variant */
+  
+  /* Text - Warm parchment tones, crisper */
+  --text: #F0ECE5;               /* Brighter aged parchment */
+  --text-primary: #F8F4ED;       /* Crisp parchment white */
+  --text-secondary: #D5D0C5;     /* Clearer faded ink */
+  --text-muted: #9E998E;         /* Readable muted text */
+  
+  /* Borders - Purple-tinted, more visible */
+  --border: #5D5878;             /* Vibrant purple-gray */
+  --border-color: #5D5878;
+  --border-warm: #6A6058;        /* Warm stone border */
+  
+  /* Status colors */
+  --success: #7DB88D;            /* Brighter forest green */
+  --warning: #E5C158;            /* Bright gold */
+  --danger: #C06C6C;             /* Brighter crimson */
+  
+  /* Bootstrap CSS Variable Overrides */
+  --bs-body-bg: #242030;
+  --bs-body-color: #F0ECE5;
+  --bs-primary: #C4A77D;
+  --bs-primary-rgb: 196, 167, 125;
+  --bs-secondary: #8BADC2;
+  --bs-secondary-rgb: 139, 173, 194;
+  --bs-success: #7DB88D;
+  --bs-success-rgb: 125, 184, 141;
+  --bs-warning: #E5C158;
+  --bs-warning-rgb: 229, 193, 88;
+  --bs-danger: #C06C6C;
+  --bs-danger-rgb: 192, 108, 108;
+  --bs-info: #9B8BB8;
+  --bs-info-rgb: 155, 139, 184;
+  --bs-light: #3D3854;
+  --bs-light-rgb: 61, 56, 84;
+  --bs-dark: #242030;
+  --bs-dark-rgb: 36, 32, 48;
+  --bs-link-color: #9B8BB8;
+  --bs-link-hover-color: #B8A0D4;
+  --bs-border-color: #5D5878;
+  --bs-border-radius: 2px;
+  --bs-card-bg: #2E2A3D;
+  --bs-card-border-color: #5D5878;
+  --bs-modal-bg: #2E2A3D;
+  --bs-nav-link-color: #F0ECE5;
+  --bs-nav-link-hover-color: #E5C158;
+  
+  /* Design System - Celestial Fantasy Typography */
+  --font-display: 'Cinzel', 'Palatino Linotype', 'Book Antiqua', serif;
+  --font-body: 'Crimson Pro', 'Cormorant Garamond', Georgia, serif;
+  --font-ui: 'Cormorant Garamond', 'Palatino', serif;
+  --font-mono: 'Courier New', Courier, monospace;
+  
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  
+  /* Borders - Softer, more organic */
+  --border-thin: 1px;
+  --border-accent: 2px solid var(--accent-gold);
+  --border-glow: 0 0 15px rgba(229, 193, 88, 0.3);
+  --border-mystical: 0 0 20px rgba(155, 139, 184, 0.4);
+  --border-purple-glow: 0 0 25px rgba(184, 160, 212, 0.35);
 }
 
 * {
@@ -22,10 +99,12 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: var(--font-body);
   background-color: var(--background);
   color: var(--text);
-  line-height: 1.6;
+  line-height: 1.7;
+  font-size: 16px;
+  letter-spacing: 0.02em;
 }
 
 #root {
@@ -34,106 +113,828 @@ body {
   flex-direction: column;
 }
 
-h1, h2, h3, h4, h5, h6 {
+/* ═══════════════════════════════════════════════════════════════
+   BOOTSTRAP OVERRIDES - Celestial Fantasy Theme
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Cards - Aged parchment feel */
+.card {
+  background-color: var(--surface);
+  border: 1px solid var(--border-color);
+  border-radius: 2px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+.card-header {
+  background-color: var(--surface-elevated);
+  border-bottom: 1px solid var(--border-color);
+  font-family: var(--font-display);
+  color: var(--accent-gold);
+  letter-spacing: 0.08em;
+  font-weight: 500;
+}
+
+.card-body {
+  background-color: var(--surface);
+}
+
+/* Buttons - Elegant, weathered metal feel */
+.btn {
+  font-family: var(--font-display);
+  border-radius: 2px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.85rem;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.btn-primary {
+  background: linear-gradient(180deg, var(--primary-color) 0%, #A8845F 100%);
+  border-color: var(--accent-copper);
+  color: var(--background);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.btn-primary:hover {
+  background: linear-gradient(180deg, var(--accent-gold) 0%, var(--primary-color) 100%);
+  border-color: var(--accent-gold);
+  color: var(--background);
+  box-shadow: var(--border-glow), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 1px solid var(--secondary-color);
   color: var(--secondary-color);
-  margin-bottom: 0.5em;
+}
+
+.btn-secondary:hover {
+  background: var(--secondary-color);
+  border-color: var(--secondary-color);
+  color: var(--background);
+  box-shadow: var(--border-mystical);
+}
+
+.btn-outline-primary {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+  background: var(--primary-color);
+  color: var(--background);
+}
+
+/* Navigation */
+.navbar {
+  background-color: var(--surface) !important;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.navbar-brand {
+  font-family: var(--font-display);
+  color: var(--accent-gold) !important;
+  letter-spacing: 0.15em;
+}
+
+.nav-link {
+  font-family: var(--font-ui);
+  color: var(--text) !important;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--accent-gold) !important;
+}
+
+/* Tables */
+.table {
+  --bs-table-bg: transparent;
+  --bs-table-color: var(--text);
+  --bs-table-border-color: var(--border-color);
+}
+
+.table thead th {
+  background-color: var(--surface-elevated);
+  color: var(--accent-gold);
+  font-family: var(--font-display);
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid var(--accent-gold);
+}
+
+.table tbody tr:hover {
+  background-color: var(--surface);
+}
+
+/* Forms - Arcane inscriptions feel */
+.form-control,
+.form-select {
+  background-color: var(--surface);
+  border: 1px solid var(--border-color);
+  color: var(--text);
+  border-radius: 2px;
+  font-family: var(--font-body);
+}
+
+.form-control:focus,
+.form-select:focus {
+  background-color: var(--surface-elevated);
+  border-color: var(--secondary-color);
+  color: var(--text);
+  box-shadow: 0 0 0 0.2rem rgba(107, 142, 159, 0.25);
+}
+
+.form-label {
+  font-family: var(--font-display);
+  color: var(--text-secondary);
+  letter-spacing: 0.05em;
+  font-size: 0.9rem;
+}
+
+/* Tabs - Ancient tome tabs */
+.nav-tabs {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.nav-tabs .nav-link {
+  border: 1px solid transparent;
+  border-radius: 2px 2px 0 0;
+  color: var(--text-muted) !important;
+  background: transparent;
+  font-family: var(--font-display);
+  letter-spacing: 0.05em;
+}
+
+.nav-tabs .nav-link:hover {
+  border-color: var(--border-color);
+  color: var(--primary-color) !important;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: var(--surface-elevated);
+  border-color: var(--border-color) var(--border-color) var(--surface-elevated);
+  color: var(--accent-gold) !important;
+}
+
+/* Accordion - Sealed tome sections */
+.accordion {
+  --bs-accordion-bg: var(--surface);
+  --bs-accordion-border-color: var(--border-color);
+  --bs-accordion-btn-bg: var(--surface);
+  --bs-accordion-btn-color: var(--text);
+  --bs-accordion-active-bg: var(--surface-elevated);
+  --bs-accordion-active-color: var(--accent-gold);
+  border-radius: 2px;
+}
+
+.accordion-button {
+  font-family: var(--font-display);
+  letter-spacing: 0.05em;
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--accent-gold);
+}
+
+.accordion-button:focus {
+  box-shadow: 0 0 0 0.2rem rgba(107, 142, 159, 0.25);
+}
+
+/* Modals - Arcane windows */
+.modal-content {
+  background-color: var(--surface);
+  border: 1px solid var(--border-color);
+  border-radius: 2px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+.modal-header {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.modal-header .modal-title {
+  font-family: var(--font-display);
+  color: var(--accent-gold);
+  letter-spacing: 0.1em;
+}
+
+.modal-footer {
+  border-top: 1px solid var(--border-color);
+}
+
+/* Badges - Seal marks */
+.badge {
+  font-family: var(--font-display);
+  letter-spacing: 0.08em;
+  border-radius: 2px;
+  font-weight: 500;
+}
+
+.badge.bg-primary {
+  background-color: var(--primary-color) !important;
+}
+
+.badge.bg-secondary {
+  background-color: var(--secondary-color) !important;
+}
+
+/* Alerts - Proclamations */
+.alert {
+  border-radius: 2px;
+  border-left: 3px solid;
+  font-family: var(--font-body);
+}
+
+.alert-primary {
+  background-color: rgba(196, 167, 125, 0.1);
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.alert-secondary {
+  background-color: rgba(107, 142, 159, 0.1);
+  border-color: var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+.alert-warning {
+  background-color: rgba(212, 175, 55, 0.1);
+  border-color: var(--accent-gold);
+  color: var(--accent-gold);
+}
+
+.alert-danger {
+  background-color: rgba(166, 93, 93, 0.1);
+  border-color: var(--danger);
+  color: var(--danger);
+}
+
+/* Tooltips - Whispered knowledge */
+.tooltip-inner {
+  background-color: var(--surface-elevated);
+  border: 1px solid var(--border-color);
+  font-family: var(--font-body);
+}
+
+/* Dropdowns - Scroll menus */
+.dropdown-menu {
+  background-color: var(--surface);
+  border: 1px solid var(--border-color);
+  border-radius: 2px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+.dropdown-item {
+  color: var(--text);
+  font-family: var(--font-body);
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: var(--surface-elevated);
+  color: var(--accent-gold);
+}
+
+/* List Groups - Ledger entries */
+.list-group-item {
+  background-color: var(--surface);
+  border-color: var(--border-color);
+  color: var(--text);
+}
+
+.list-group-item:hover {
+  background-color: var(--surface-elevated);
+}
+
+.list-group-item.active {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  color: var(--background);
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   TYPOGRAPHY - Celestial Fantasy Scripts
+   ═══════════════════════════════════════════════════════════════ */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  color: var(--accent-gold);
+  margin-bottom: 0.75em;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  position: relative;
+  padding: var(--spacing-lg) 0;
+}
+
+h1::before,
+h1::after {
+  content: '✧';
+  color: var(--secondary-color);
+  margin: 0 var(--spacing-md);
+  font-size: 0.7em;
+  opacity: 0.8;
+}
+
+h2 {
+  font-size: 1.4rem;
+  color: var(--secondary-color);
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: var(--spacing-sm);
+  margin-top: var(--spacing-xl);
+}
+
+h2::before {
+  content: '❖ ';
+  color: var(--accent-gold);
+  font-size: 0.85em;
+}
+
+h3 {
+  font-size: 1.1rem;
+  color: var(--primary-color);
+  letter-spacing: 0.08em;
+}
+
+h3::before {
+  content: '✦ ';
+  color: var(--accent-gold);
+  font-size: 0.75em;
+}
+
+p {
+  margin-bottom: var(--spacing-md);
+  font-family: var(--font-body);
 }
 
 a {
   color: var(--secondary-color);
   text-decoration: none;
-  transition: color 0.3s;
+  transition: all 0.3s ease;
+  border-bottom: 1px solid transparent;
 }
 
 a:hover {
-  color: var(--primary-color);
+  color: var(--accent-gold);
+  border-bottom-color: var(--accent-gold);
 }
 
+/* ═══════════════════════════════════════════════════════════════
+   BUTTONS - Weathered Metal & Inscribed
+   ═══════════════════════════════════════════════════════════════ */
+
 button {
-  background-color: var(--primary-color);
-  color: var(--text);
-  border: none;
+  font-family: var(--font-display);
+  background: linear-gradient(180deg, var(--primary-color) 0%, #A8845F 100%);
+  color: var(--background);
+  border: 1px solid var(--accent-copper);
   padding: 0.75em 1.5em;
-  border-radius: 4px;
   cursor: pointer;
-  font-size: 1em;
-  transition: background-color 0.3s;
+  font-size: 0.85em;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  position: relative;
+  border-radius: 2px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 button:hover {
-  background-color: var(--secondary-color);
-  color: var(--background);
+  background: linear-gradient(180deg, var(--accent-gold) 0%, var(--primary-color) 100%);
+  transform: translateY(-1px);
+  box-shadow: var(--border-glow), inset 0 1px 0 rgba(255, 255, 255, 0.3);
 }
 
 button:disabled {
-  background-color: var(--border);
+  background: var(--surface-light);
+  color: var(--text-muted);
   cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+  border-color: var(--border-color);
 }
 
+/* ═══════════════════════════════════════════════════════════════
+   FORM ELEMENTS - Aged Parchment Inputs
+   ═══════════════════════════════════════════════════════════════ */
+
 input, select, textarea {
+  font-family: var(--font-body);
   background-color: var(--surface);
   color: var(--text);
-  border: 1px solid var(--border);
-  padding: 0.5em;
-  border-radius: 4px;
+  border: 1px solid var(--border-color);
+  padding: 0.6em 0.8em;
   font-size: 1em;
-  font-family: inherit;
+  transition: all 0.3s ease;
+  border-radius: 2px;
 }
 
 input:focus, select:focus, textarea:focus {
   outline: none;
   border-color: var(--secondary-color);
+  box-shadow: 0 0 0 2px rgba(107, 142, 159, 0.2);
 }
 
 textarea {
   width: 100%;
   resize: vertical;
+  min-height: 100px;
 }
+
+/* ═══════════════════════════════════════════════════════════════
+   PAGE LAYOUT - Mystical Spacing
+   ═══════════════════════════════════════════════════════════════ */
 
 .page {
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
-  padding: 2em;
+  padding: var(--spacing-xl) var(--spacing-lg);
 }
+
+/* Ornate Divider */
+.divider {
+  text-align: center;
+  margin: var(--spacing-xl) 0;
+  color: var(--accent-gold);
+  font-size: 0.9em;
+  letter-spacing: 0.5em;
+}
+
+.divider::before {
+  content: '─────────── ✧ ───────────';
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   INTRO BLOCKS - Ancient Tome Headers
+   ═══════════════════════════════════════════════════════════════ */
 
 .intro {
-  background-color: var(--surface);
-  padding: 1.5em;
-  border-radius: 8px;
-  margin-bottom: 2em;
-  border-left: 4px solid var(--secondary-color);
+  background: linear-gradient(135deg, var(--surface) 0%, rgba(123, 107, 141, 0.2) 100%);
+  padding: var(--spacing-xl);
+  margin-bottom: var(--spacing-xl);
+  position: relative;
+  border-left: 3px solid var(--secondary-color);
+  border-radius: 2px;
 }
 
-ul {
-  margin-left: 2em;
-  margin-bottom: 1em;
+.intro::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(circle at top right, rgba(212, 175, 55, 0.08) 0%, transparent 70%);
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   LISTS - Illuminated Manuscript Style
+   ═══════════════════════════════════════════════════════════════ */
+
+ul, ol {
+  margin-left: var(--spacing-xl);
+  margin-bottom: var(--spacing-md);
 }
 
 li {
-  margin-bottom: 0.5em;
+  margin-bottom: var(--spacing-sm);
+  position: relative;
+  font-family: var(--font-body);
 }
 
+ul li::marker {
+  color: var(--accent-gold);
+  content: '✦ ';
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   CARDS - Vellum Panels
+   ═══════════════════════════════════════════════════════════════ */
+
 .class-list, .cosmology-section {
-  margin-bottom: 2em;
+  margin-bottom: var(--spacing-xl);
 }
 
 .class-card, .power-card {
   background-color: var(--surface);
-  padding: 1.5em;
-  border-radius: 8px;
-  margin-bottom: 1.5em;
-  border-left: 4px solid var(--primary-color);
+  padding: var(--spacing-lg);
+  margin-bottom: var(--spacing-lg);
+  position: relative;
+  border: 1px solid var(--border-color);
+  border-left: 3px solid var(--primary-color);
+  border-radius: 2px;
+}
+
+.class-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, var(--primary-color) 0%, transparent 100%);
+}
+
+.class-card h2 {
+  margin-top: 0;
 }
 
 .class-subtitle {
+  font-family: var(--font-body);
   color: var(--text-muted);
   font-style: italic;
-  margin-bottom: 1em;
+  margin-bottom: var(--spacing-md);
+  font-size: 0.95em;
+  letter-spacing: 0.03em;
 }
 
 .cosmology-section {
   background-color: var(--surface);
-  padding: 1.5em;
-  border-radius: 8px;
-  margin-bottom: 1.5em;
+  padding: var(--spacing-lg);
+  border: 1px solid var(--border-color);
+  position: relative;
+  border-radius: 2px;
+}
+
+.cosmology-section::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  background: radial-gradient(circle at bottom right, rgba(107, 142, 159, 0.1) 0%, transparent 70%);
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   TABLES - Ledger & Chronicle Style
+   ═══════════════════════════════════════════════════════════════ */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--spacing-lg) 0;
+  font-family: var(--font-body);
+  font-size: 0.95em;
+}
+
+th {
+  font-family: var(--font-display);
+  background-color: var(--surface-light);
+  color: var(--accent-gold);
+  text-transform: uppercase;
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+  padding: var(--spacing-sm) var(--spacing-md);
+  text-align: left;
+  border-bottom: 2px solid var(--accent-gold);
+}
+
+td {
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-bottom: 1px solid var(--border-color);
+}
+
+tr:hover {
+  background-color: rgba(107, 142, 159, 0.08);
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   SPECIAL COMPONENTS - Affinity Fantasy Design Language
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Rule Block - For mechanical explanations */
+.rule-block {
+  background-color: var(--background);
+  border: 1px solid var(--border-color);
+  padding: var(--spacing-md);
+  margin: var(--spacing-md) 0;
+  position: relative;
+  border-radius: 2px;
+}
+
+.rule-block::before {
+  content: '✦ RULE';
+  font-family: var(--font-display);
+  font-size: 0.7em;
+  color: var(--accent-gold);
+  letter-spacing: 0.15em;
+  position: absolute;
+  top: -0.7em;
+  left: var(--spacing-md);
+  background-color: var(--background);
+  padding: 0 var(--spacing-sm);
+}
+
+/* Design Intent Block */
+.design-intent {
+  background: linear-gradient(90deg, rgba(123, 107, 141, 0.2) 0%, transparent 100%);
+  border-left: 2px solid var(--accent-purple);
+  padding: var(--spacing-md);
+  margin: var(--spacing-md) 0;
+  font-style: italic;
+  font-size: 0.95em;
+  border-radius: 0 2px 2px 0;
+}
+
+.design-intent::before {
+  content: '❖ DESIGN INTENT';
+  display: block;
+  font-family: var(--font-display);
+  font-size: 0.7em;
+  font-style: normal;
+  color: var(--accent-purple);
+  letter-spacing: 0.15em;
+  margin-bottom: var(--spacing-sm);
+}
+
+/* Stat Block - For creatures/NPCs */
+.stat-block-display {
+  background-color: var(--surface);
+  border: 2px solid var(--border);
+  padding: var(--spacing-lg);
+  margin: var(--spacing-md) 0;
+  border-radius: 2px;
+}
+
+.stat-block-display h4 {
+  font-family: var(--font-display);
+  color: var(--primary-color);
+  margin: 0 0 var(--spacing-sm) 0;
+  font-size: 1.1em;
+}
+
+.stat-block-display .stat-line {
+  font-family: var(--font-body);
+  font-size: 0.95em;
+  margin-bottom: var(--spacing-xs);
+}
+
+.stat-block-display .stat-label {
+  color: var(--accent-gold);
+  font-weight: 600;
+}
+
+/* Affinity Symbol Classes - Mystical Runes */
+.symbol-flame::before { content: '🜂 '; color: var(--primary-color); }
+.symbol-celestial::before { content: '✦ '; color: var(--secondary-color); }
+.symbol-sacred::before { content: '❖ '; color: var(--accent-gold); }
+.symbol-shadow::before { content: '✧ '; color: var(--accent-purple); }
+.symbol-arcane::before { content: '◈ '; color: var(--accent-gold); }
+
+/* Navigation Cards Grid */
+.nav-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--spacing-lg);
+  margin: var(--spacing-xl) 0;
+}
+
+.nav-card {
+  background: linear-gradient(135deg, var(--surface) 0%, var(--surface-light) 100%);
+  padding: var(--spacing-lg);
+  border: 1px solid var(--border-color);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  display: block;
+  border-radius: 2px;
+}
+
+.nav-card:hover {
+  border-color: var(--accent-gold);
+  transform: translateY(-3px);
+  box-shadow: var(--border-glow);
+}
+
+.nav-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, var(--secondary-color) 0%, var(--accent-gold) 100%);
+}
+
+.nav-card h3 {
+  margin-top: 0;
+}
+
+.nav-card p {
+  color: var(--text-muted);
+  font-size: 0.95em;
+  margin-bottom: 0;
+}
+
+/* Tabs System - Ancient Tome Markers */
+.tabs {
+  display: flex;
+  border-bottom: 2px solid var(--border);
+  margin-bottom: var(--spacing-lg);
+  gap: var(--spacing-xs);
+}
+
+.tab {
+  font-family: var(--font-display);
+  font-size: 0.85em;
+  padding: var(--spacing-sm) var(--spacing-lg);
+  background: transparent;
+  color: var(--text-muted);
+  border: none;
+  cursor: pointer;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  position: relative;
+  border-radius: 2px 2px 0 0;
+}
+
+.tab:hover {
+  color: var(--text);
+  background: transparent;
+  transform: none;
+  box-shadow: none;
+}
+
+.tab.active {
+  color: var(--accent-gold);
+  background: transparent;
+}
+
+.tab.active::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--accent-gold);
+}
+
+/* Accordion/Collapsible - Sealed Sections */
+.accordion-header {
+  font-family: var(--font-display);
+  background-color: var(--surface);
+  padding: var(--spacing-md);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid var(--border-color);
+  transition: all 0.3s ease;
+  border-radius: 2px;
+}
+
+.accordion-header:hover {
+  background-color: var(--surface-light);
+  border-color: var(--secondary-color);
+}
+
+.accordion-content {
+  padding: var(--spacing-lg);
+  background-color: var(--background);
+  border: 1px solid var(--border-color);
+  border-top: none;
+  border-radius: 0 0 2px 2px;
+}
+
+/* Scrollbar Styling - Parchment Scroll */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-purple);
+}
+
+/* Selection */
+::selection {
+  background-color: var(--secondary-color);
+  color: var(--text);
 }

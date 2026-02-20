@@ -1,7 +1,7 @@
 # The Willow's Price
 ## An Affinity Story Arc for Levels 1-3
 
-**Setting**: The Mortal Weave (Aeralon), borderlands between civilization and The Verdant Verge  
+**Setting**: The Mortal Weave (Aeralon), borderlands between civilization and The Tangled Verge  
 **Recommended Party Size**: 3-5 players  
 **Estimated Sessions**: 4-6  
 **Playtesting Focus**: Combat, Resolve checks, social encounters, Path Board progression
@@ -10,7 +10,7 @@
 
 ## Campaign Hook
 
-In the frontier village of **Everspring** (named for its endless spring bloom), a sacred **Willow Tree** stands at the village center - a natural anchor preventing The Verdant Verge's ecological chaos from spilling into the Mortal Weave. For generations, the tree has kept the village safe, its roots drinking from both realms, maintaining balance.
+In the frontier village of **Everspring** (named for its endless spring bloom), a sacred **Willow Tree** stands at the village center - a natural anchor preventing The Tangled Verge's ecological chaos from spilling into the Mortal Weave. For generations, the tree has kept the village safe, its roots drinking from both realms, maintaining balance.
 
 **But three days ago, the Willow began to die.**
 
@@ -73,7 +73,7 @@ An ancient druid living at the forest's edge (Level 6 Shaman). Villagers feared 
 
 **Lafsan knows**:
 - The binding ritual was taught by a traveler from The Gloam—a psychopomp gone rogue who sells "death-cheating" rituals
-- Reversing the binding requires entering the Willow's *root network*—a liminal space between Mortal Weave and Verdant Verge
+- Reversing the binding requires entering the Willow's *root network*—a liminal space between Mortal Weave and Tangled Verge
 - Opal's soul must *choose* to leave, or be forcibly severed (killing her again)
 - Ricton has fled, but he visits the tree each night, whispering to his "daughter"
 
@@ -108,7 +108,7 @@ At midnight, beneath the Willow, the PC who learned Lafsan's ritual must cast it
    - Failure = lose 1 Resolve, Success = gain insight (advantage on future Opal interaction)
 
 2. **Root Chamber Two - The Bloom's Scouts**:
-   - **4 Pollination Sprites** (scouts from Verdant Verge)
+   - **4 Pollination Sprites** (scouts from Tangled Verge)
      - HD Pool: 2d6 each
      - Proficiency: 1
      - **Attack - Spore Cloud** (Basic, 2+): 1 success required, 1 HD damage, inflicts "Rooted" (movement halved next turn on 2+ successes)
@@ -294,7 +294,7 @@ When Thalos falls:
 - **Personality**: Centuries-old, patient, speaks in metaphors about cycles
 - **HD Pool**: 8d6, Proficiency 3
 - **Key Ability**: *Wild Shape* (can transform into animals), *Threshold Guardian* (sees between realms)
-- **Motivation**: Maintain balance between Mortal Weave and Verdant Verge
+- **Motivation**: Maintain balance between Mortal Weave and Tangled Verge
 - **Secret**: He's been protecting Everspring for 200 years, waiting for successors
 
 ### Ricton Garveston

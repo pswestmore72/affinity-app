@@ -31,7 +31,7 @@ Between the Realms flows **the Ethereal Void**, the navigable emptiness that sep
 
 ## The Reflected Realms
 
-Three echoes of one truth—**mortality, growth, and ending**—bound together in a reflection that cannot be broken without unmaking all three. Where a mountain rises in the Mortal Weave, its shadow falls in the Gloam, and its overgrown twin chokes the Verdant Verge. What dies in one ripples through the others. What grows without death in one must be paid for elsewhere.
+Three echoes of one truth—**mortality, growth, and ending**—bound together in a reflection that cannot be broken without unmaking all three. Where a mountain rises in the Weave, its shadow falls in the Gloam, and its overgrown twin chokes the Verge. What dies in one ripples through the others. What grows without death in one must be paid for elsewhere.
 
 Together they form the **Focal Point**, the convergence where cosmic law and arcane energy concentrates because belief, death, and growth press against each other without resolution.
 
@@ -97,16 +97,16 @@ No being of higher power is allowed entrance into the Mortal Weave. However, hig
 
 ---
 
-### 2. The Gloam
+### 2. The Gloam (or Hollow Marches)
 **Realm of Death, Endings, and Mercy**
 
-A reflection of the Mortal Weave shrouded in heavy mist and perpetual darkness. The entire realm is filled with pale darkness, save for a dim ever-present moon and faint distant stars. Where the Mortal Weave asks *what will you do?* and the Verdant Verge asks *what could you become?*, the Gloam asks only: **What did this mean?**
+A reflection of the Weave shrouded in heavy mist and perpetual darkness. The entire realm is filled with pale darkness, save for a dim ever-present moon and faint distant stars. Where the Weave asks *what will you do?* and the Verge asks *what could you become?*, the Gloam asks only: **What did this mean?**
 
 **This is not a land of the dead. It is the weight of endings, given geography.**
 
 The Gloam does not have seasons or governments—it has **states of mourning** that roll across the landscape like weather. These are not metaphors. When grief concentrates, the terrain responds. Hills steepen. Rivers slow. Mist thickens until travelers cannot see their own hands. When acceptance arrives—when the dead are properly remembered and released—the land exhales. Paths clear. The moon brightens. For a time.
 
-Time passes at the same rate as the Mortal Weave, but the Gloam does not experience time the same way mortals do. A funeral can last years if the mourners cannot let go. A life's revelation takes only seconds to witness in the Black Reliquary. Duration is measured in **emotional resolution**, not hours. Those who arrive grieving may leave to find decades have passed—or moments, depending on what they were willing to accept.
+Time passes at the same rate as the Weave, but the Gloam does not experience time the same way mortals do. A funeral can last years if the mourners cannot let go. A life's revelation takes only seconds to witness in the Black Reliquary. Duration is measured in **emotional resolution**, not hours. Those who arrive grieving may leave to find decades have passed—or moments, depending on what they were willing to accept.
 
 Life exists here, though often touched by curse, loss, or loneliness. Some creatures were born in the Gloam. Others came here to die and found they could only linger. Still others refuse to leave because the living world holds nothing for them anymore. The Gloam does not judge. It only asks: *Are you finished?*
 
@@ -141,22 +141,22 @@ They are **collective grief given atmospheric presence**—the accumulated weigh
 **Planar Artifact:** *The Lantern of Last Mercy*
 
 **Travel Restrictions:**  
-Few legal open travel portals exist with the Mortal Weave, due to open portals to the "Evil" Outer Planes. Most non-native creatures dwell here on work and study visas only, in regulated areas. Powerful beings have traveled here, but entry limits are strict. Those who enter without understanding the Mourning States could arrive during Vigil and leave during Hollow—if they leave at all.
+Few legal open travel portals exist with the Weave, due to open portals to the "Evil" Outer Planes. Most non-native creatures dwell here on work and study visas only, in regulated areas. Powerful beings have traveled here, but entry limits are strict. Those who enter without understanding the Mourning States could arrive during Vigil and leave during Hollow—if they leave at all.
 
 ---
 
-### 3. The Verdant Verge
+### 3. The Verge (or Tangled Verge)
 **Realm of Excess Life, Growth, and Wild Magic**
 
 The "opposite" to the Gloam—full of unchecked vitality, biological excess, and generative chaos. Despite its beauty, this is a very dangerous and hostile Plane. Often called the Faerie Plane, most woodland and Fey creatures originate here.
 
 **This is not a kingdom. It is an ecosystem that achieved consciousness.**
 
-The Verdant Verge does not have rulers—it has **ecological imperatives given will**. These are not courts or factions. They are **metabolic processes** that have attained autonomy. The realm operates in century-long **oscillations of dominance**, not through warfare, but through the simple truth that **excess cannot sustain itself forever**.
+The Verge does not have rulers—it has **ecological imperatives given will**. These are not courts or factions. They are **metabolic processes** that have attained autonomy. The realm operates in century-long **oscillations of dominance**, not through warfare, but through the simple truth that **excess cannot sustain itself forever**.
 
-Time passes at the same rate as the Mortal Weave, but the Verge does not experience time the same way mortals do. A flower may bloom for a century. A tree may die in an hour. Seasons are not calendar events—they are **biological imperatives expressing dominance**.
+Time passes at the same rate as the Weave, but the Verge does not experience time the same way mortals do. A flower may bloom for a century. A tree may die in an hour. Seasons are not calendar events—they are **biological imperatives expressing dominance**.
 
-**Common Creatures:** Fey, nymphs, satyrs, centaurs, pixies, dryads, Eladrin (Immortal Elves), halflings, goblins, trolls, thorn-elks, laughing foxes, bark-trolls, mirror-wing insects. None serve courts—they are **symbiotic extensions** of the Verge's ecological consciousness, manifestations of pollination, decay, migration, and bloom.
+**Common Creatures:** Fey, nymphs, satyrs, centaurs, pixies, dryads, fey-elves (Immortal Elves), smallfolk, goblins, trolls, thorn-elks, laughing foxes, bark-trolls, mirror-wing insects. None serve courts—they are **symbiotic extensions** of the Verge's ecological consciousness, manifestations of pollination, decay, migration, and bloom.
 
 **Greater Deity:**
 - Thymera, the Verdant-Mother — Life unending, growth without apology
@@ -195,7 +195,7 @@ Seats of divine authority where the gods maintain their highest power. These Pla
 
 The largest of the Outer Planes, composed of 4 smaller demi-Planes: **The Golden Hills**, **Brightwater**, **Arvandor**, and the **House of Knowledge**. This is the Plane of pure Celestial existence. Many of the highest deities of Light must return here regularly to maintain their powers, though they often wander other Planes in forms suited to those realms.
 
-**Common Creatures:** Unicorns, angels, aasimar, pegasi, guardinals, lillendi, asuras, luminarch gryphons, oath-lions, silver serpents.
+**Common Creatures:** Unicorns, angels, iluminari, pegasi, guardinals, lillendi, asuras, luminarch gryphons, oath-lions, silver serpents.
 
 **Greater Deities:**
 - Nyroth Stonebound — Fighting, friendship, and honor
@@ -411,7 +411,7 @@ Little is known about the Nameless. None have been seen. Only known encounters c
 #### Beryn the Laughing Dawn
 **Deity of Hope, Light, and Laughter**
 
-- **Appearance:** Often a Halfling man; takes many forms
+- **Appearance:** Often a smallfolk man; takes many forms
 - **Colors:** Black, white, grey, green, yellow
 - **Domains:** Love, Laughter, Trickery, the Sun, Family
 - **Realm:** The Empyreal Accord
@@ -519,7 +519,7 @@ Among her clergy, deliberate historical revision is considered a grave spiritual
 - **Appearance:** Common Elf woman adorned in wreaths of greenery and flowers
 - **Colors:** Green, peach, white, brown
 - **Domains:** Plants, wildlife, medicine, forests, stone, soil, growth, healing
-- **Realms:** The Wild Expanse of Theiwanar, The Verdant Verge
+- **Realms:** The Wild Expanse of Theiwanar, The Verge
 - **Followers:** Those who worship nature, life, and healing
 - **Nature:** Goddess of Life—all life. All things hold reverence for her creations.
 
@@ -606,12 +606,12 @@ Among her clergy, deliberate historical revision is considered a grave spiritual
 #### Balemor the Hearth-Walker
 **Deity of the Lost, Outcast, and Heartbroken; Nature and Healing**
 
-- **Appearance:** Halfling with reddish-brown hair and bright green eyes
+- **Appearance:** Smallfolk with reddish-brown hair and bright green eyes
 - **Colors:** Green, yellow, white, red
 - **Domains:** Emotional healing, comfort, nature
-- **Realms:** The Verdant Verge, the Mortal Weave
+- **Realms:** The Verge, the Mortal Weave
 - **Followers:** The weary and heartbroken
-- **Nature:** Always gives favor to the weary and heartbroken, appearing without call. Aid is often emotional or comforting, but has been known to use power to aid physically. Remains mostly in the Verdant Verge; walks between the Excesses without being claimed by any, offering comfort to those lost in metabolic shifts. Also noted within the Mortal Weave.
+- **Nature:** Always gives favor to the weary and heartbroken, appearing without call. Aid is often emotional or comforting, but has been known to use power to aid physically. Remains mostly in The Verge; walks between the Excesses without being claimed by any, offering comfort to those lost in metabolic shifts. Also noted within the Mortal Weave.
 
 **Symbol:** Stitched leaf  
 **Practices:** Offering comfort before healing, sheltering exiles  
@@ -768,7 +768,7 @@ Powerful artifacts tied to the Realms, each with immense power and terrible cost
 ---
 
 ### The Crown of Seasons Unending
-**Realm:** The Verdant Verge
+**Realm:** The Verge
 
 - **Description:** A circlet of living leaves, ice-crystal, and ember-gold that shifts form constantly
 - **Function:** Grants the ability to channel one of the Verdant Excesses—forcing a localized metabolic shift across vast lands. The wearer can trigger spring bloom, autumn ripening, chaotic tempest, or root-stillness.
@@ -934,7 +934,7 @@ The Blade is oath-bound retribution. Those who bear this Charge swear that certa
 - **The Gloam:** Thalos's adjudicators ensuring consequence follows choice, even in death
 - **Engine of Bael-Zaroth:** Amendment enforcers who punish breach of contract with surgical brutality; their justice is *contractually obligated*, morality irrelevant
 - **Ashen Waste:** Despair-bringers who ensure the guilty suffer appropriately; their Blade cuts hearts, not flesh
-- **Verdant Verge:** Thorn-speakers who cull the old to feed the new—their justice is ecological, not moral
+- **the Verge:** Thorn-speakers who cull the old to feed the new—their justice is ecological, not moral
 
 The Blade does not ask *who* deserves consequence. It asks only: **Will you deliver what is owed?**
 
@@ -949,7 +949,7 @@ The Bond is oath-bound connection. Those who bear this Charge swear their commit
 *Examples across the cosmos:*
 - **Empyreal Accord:** Nyroth's blood-brothers, sacred partnerships, celestial war-bands
 - **Mortal Weave:** Knights sworn to doomed lords, companions who refuse to abandon the fallen
-- **The Verdant Verge:** Symbiotic pairs who metabolize as one entity
+- **The Verge:** Symbiotic pairs who metabolize as one entity
 - **Engine of Bael-Zaroth:** Those bound by infernal partnership clauses—their loyalty is *literally contractual*; betrayal rewrites their name
 - **Ashen Waste:** Co-dependent tormentors whose bond is forged through shared infliction of suffering
 - **The Gloam:** Deathsworn pairs who follow each other into oblivion rather than break the oath
@@ -985,7 +985,7 @@ The Flame is oath-bound persistence. Those who bear this Charge swear to continu
 *Examples across the cosmos:*
 - **Empyreal Accord:** Beryn's laughing champions, those who refuse entropy through joy
 - **Mortal Weave:** Rebels against impossible odds, survivors who rebuild after apocalypse
-- **Verdant Verge:** Bloom-speakers who force growth through stone, refuse winter's claim
+- **the Verge:** Bloom-speakers who force growth through stone, refuse winter's claim
 - **Engine of Bael-Zaroth:** Those who defy Azravael's amendments through *technically compliant rebellion*—finding loopholes to resist while honoring the letter of law
 - **Ashen Waste:** Pain-defiers who endure agony not to transcend it, but to *prove it cannot break them*; their hope is spite given form
 - **The Gloam:** Candlewights—undead who refuse final rest, clinging to unfinished purpose
@@ -1097,7 +1097,7 @@ Breath is oath-bound beginning. Those who bear this Domain swear to ensure that 
 *Examples across the cosmos:*
 - **Wild Expanse:** Midwives of Thymera, those who coax life from inhospitable places
 - **Mortal Weave:** Healers, farmers, parents who choose to bring life into darkness
-- **Verdant Verge:** Bloom-catalysts who force germination, pollination emissaries
+- **the Verge:** Bloom-catalysts who force germination, pollination emissaries
 - **Engine of Bael-Zaroth:** Those who birth new contracts from old obligations—"life" as recursion, spawning sub-clauses
 - **Ashen Waste:** Pain-birthers who ensure suffering propagates; they midwife new agonies from old wounds
 - **The Gloam:** Candlewight-kindlers who refuse to let the dead rest—resurrection as defiance of proper endings
@@ -1115,7 +1115,7 @@ Thorn is oath-bound struggle. Those who bear this Domain swear to maintain the p
 *Examples across the cosmos:*
 - **Wild Expanse:** Apex hunters, those who ensure only the worthy survive
 - **Mortal Weave:** Competitive merchants, warriors who push others to excellence, those who refuse to let the weak stay weak
-- **Verdant Verge:** Thorn-speakers of the Tempest who destroy what adaptation cannot save
+- **the Verge:** Thorn-speakers of the Tempest who destroy what adaptation cannot save
 - **Engine of Bael-Zaroth:** Debt collectors who pressure signatories until they evolve or collapse; competition as contractual selection
 - **Ashen Waste:** Agony-refiners who ensure suffering improves its victims—pain as pressure toward "truth"
 - **Roiling Crucible:** Elemental predators who cull the slow from the flux
@@ -1132,7 +1132,7 @@ Tide is oath-bound movement. Those who bear this Domain swear to ensure that wha
 
 *Examples across the cosmos:*
 - **Mortal Weave:** Nomads, refugees, those who carry culture across borders
-- **Verdant Verge:** Migration-guides who lead species through seasonal shifts
+- **the Verge:** Migration-guides who lead species through seasonal shifts
 - **The Gloam:** Pale Shepherds who guide souls between states of existence
 - **Engine of Bael-Zaroth:** Amendment Scriveners who ensure contracts evolve as circumstances shift—change as legal reinterpretation
 - **Roiling Crucible:** Flux-riders who embody transformation without destination
@@ -1152,7 +1152,7 @@ Rot is oath-bound dissolution. Those who bear this Domain swear to ensure that w
 - **Wild Expanse:** Darthun's servants, fungi-speakers, those who return the dead to soil
 - **Mortal Weave:** Gravediggers, hospice keepers, those who help the dying complete their work
 - **The Gloam:** Black Reliquary archivists who ensure the dead are properly processed, not merely stored
-- **Verdant Verge:** Withering-agents who ripen fruit to fall, ensuring no bloom outlasts its purpose
+- **the Verge:** Withering-agents who ripen fruit to fall, ensuring no bloom outlasts its purpose
 - **Engine of Bael-Zaroth:** Contract terminators who ensure fulfilled obligations are discharged—rot as legal closure
 - **Ashen Waste:** Despair-finishers who ensure suffering reaches its conclusion rather than becoming comfortable numbness
 
@@ -1169,7 +1169,7 @@ Hearth is oath-bound stability. Those who bear this Domain swear to create space
 *Examples across the cosmos:*
 - **Empyreal Accord:** Ilyra's distant presence, architects of lasting communities
 - **Mortal Weave:** Farmers, city planners, those who create sustainable environments
-- **Verdant Verge:** Buried Root adherents who establish deep-growing, lasting ecosystems
+- **the Verge:** Buried Root adherents who establish deep-growing, lasting ecosystems
 - **Engine of Bael-Zaroth:** Those who build stable contractual ecosystems—"cultivation" of reliable debt-producing populations
 - **Ashen Waste:** Pain-cultivators who create environments optimized for suffering to flourish and deepen
 - **The Gloam:** Graveyard keepers who maintain the dead's resting places as stable communities of the passed
@@ -1187,7 +1187,7 @@ Star is oath-bound perspective. Those who bear this Domain swear to bring extern
 *Examples across the cosmos:*
 - **Empyreal Accord:** Those who carry divine will into mortal affairs, season-bringers
 - **Mortal Weave:** Astrologers, weather-workers, those who interpret cosmic signals
-- **Verdant Verge:** Season-avatars who trigger dormancy and awakening across vast regions
+- **the Verge:** Season-avatars who trigger dormancy and awakening across vast regions
 - **Engine of Bael-Zaroth:** Those who apply cosmic precedent to local contracts—external jurisdiction imposing on personal obligation
 - **Roiling Crucible:** Chaos-importers who bring elemental instability to ordered systems
 - **Outer Black:** Those who bring the weight of absence to bear on existence—the Star that is a void
@@ -1205,7 +1205,7 @@ Howl is oath-bound destruction. Those who bear this Domain swear to bring the ne
 *Examples across the cosmos:*
 - **Wild Expanse:** Extinction-bringers, wildfire-runners, volcanic awakeners
 - **Mortal Weave:** Those who burn fields to renew soil, war-bringers who collapse corrupt empires, plague doctors who cull the sick before infection spreads
-- **Verdant Verge:** Tempest-speakers who destroy entire regions so new life can emerge
+- **the Verge:** Tempest-speakers who destroy entire regions so new life can emerge
 - **Engine of Bael-Zaroth:** Bankruptcy executors who collapse debt systems that have become unsustainable, rewriting reality through mass contract termination
 - **Ashen Waste:** Despair-apocalyptics who bring suffering to critical mass until it breaks through into transformation
 - **The Gloam:** Those who trigger mass death events when the natural order is violated beyond repair
@@ -1291,7 +1291,7 @@ The Path of Thresholds is oath-bound liminal wisdom. Those who walk it swear to 
 - **Empyreal Accord:** Those who study the nature of celestial immortality, the wisdom of eternal souls
 - **Mortal Weave:** Necromancers who study death to prevent improper resurrection, healers who know when to stop
 - **The Gloam:** Black Reliquary scholars who understand why some dead must stay dead
-- **Verdant Verge:** Those who study the threshold between growth and overgrowth, life and cancer
+- **the Verge:** Those who study the threshold between growth and overgrowth, life and cancer
 - **Engine of Bael-Zaroth:** Those who study contract termination and renewal—what "ends" and what merely transforms
 - **Ashen Waste:** Pain-philosophers who study the threshold between suffering that teaches and suffering that destroys
 
@@ -1326,7 +1326,7 @@ The Path of Mutable Flesh is oath-bound transformation wisdom. Those who walk it
 *Examples across the cosmos:*
 - **Empyreal Accord:** Those who study celestial form, understanding why angels cannot truly change
 - **Mortal Weave:** Transmuters, alchemists, those who reshape matter while preserving essence
-- **Verdant Verge:** Those who study the Verge's constant transformation, learning when mutation serves and when it destroys
+- **the Verge:** Those who study the Verge's constant transformation, learning when mutation serves and when it destroys
 - **Roiling Crucible:** Zarun's wisdom-keepers who understand that identity is chosen, not given
 - **Engine of Bael-Zaroth:** Those who study how obligation reshapes souls—transformation through debt
 - **Ashen Waste:** Flesh-scholars who study how pain reshapes bodies and minds—transformation through suffering
@@ -1345,7 +1345,7 @@ The Path of Open Doors is oath-bound dimensional wisdom. Those who walk it swear
 - **Empyreal Accord:** Those who understand why divine realms must remain distant, why angels cannot freely walk the Weave
 - **Mortal Weave:** Conjurers and planar scholars who study why the Veil exists, why some things should not meet
 - **The Gloam:** Those who understand why the dead's realm must remain shadowed, why the living should not linger
-- **Verdant Verge:** Threshold-walkers who know that fey promises become binding, that Verge bargains metabolize the bargainer
+- **the Verge:** Threshold-walkers who know that fey promises become binding, that Verge bargains metabolize the bargainer
 - **Engine of Bael-Zaroth:** Those who understand that entering constitutes consent—the ultimate study of jurisdictional breach
 - **Outer Black:** Those who study what waits beyond opened doors, why some portals should never close because re-opening them would be worse
 
@@ -1428,7 +1428,7 @@ And that—more than divinity—is why the Balance listens.
 
 ### Why the Mortal Weave's Custodial Powers Are Different
 
-Other realms have their own custodial structures. The Gloam has the Black Reliquary and the Loom of Fates. The Verdant Verge has the Verdant Synod and the Wheel of Ruin. The Empyreal Accord has angelic hierarchies. Even the Engine of Bael-Zaroth has the Auditor Choir and the Amendment Scriveners.
+Other realms have their own custodial structures. The Gloam has the Black Reliquary and the Loom of Fates. The Verge has the Verdant Synod and the Wheel of Ruin. The Empyreal Accord has angelic hierarchies. Even the Engine of Bael-Zaroth has the Auditor Choir and the Amendment Scriveners.
 
 **But the Mortal Weave's three Custodial Powers are fundamentally different.**
 
@@ -1540,7 +1540,7 @@ And now that amendment has become the manifestation of these ideals—three Cust
 
 ### Demi-Gods of the Reflected Realms
 
-Unlike the Mortal Weave, the Gloam and the Verdant Verge are overseen by demi-divine entities—beings of greater-than-mortal power who embody principles too extreme for mortal stewardship alone.
+Unlike the Mortal Weave, the Gloam and The Verge are overseen by demi-divine entities—beings of greater-than-mortal power who embody principles too extreme for mortal stewardship alone.
 
 #### The Gloam Custodians
 
@@ -1572,7 +1572,7 @@ Five veiled entities maintaining narrative causality:
 
 ---
 
-#### The Verdant Verge Custodians
+#### The Verge Custodians
 
 **The Verdant Synod** — *Custodians of Living Processes*  
 Six entities overseeing biological and existential transformation:
@@ -1667,7 +1667,7 @@ Thymera and Darthun emerged together—growth and decay entwined.
 Life was not a gift.
 It was a **process**, violent and beautiful.
 
-The Verdant Verge formed where change was allowed to persist without annihilation.
+The Verge formed where change was allowed to persist without annihilation.
 
 **The Infernal Accord — Price**
 
@@ -1779,7 +1779,7 @@ The Schism-Scarred are not a people granted passage, deliberately uplifted, or c
 
 They are **living afterimages of the Infernal Schism**—beings from across the cosmos touched by infernal law mid-rewrite, souls that resonate slightly out of phase with the Balance. When Azravael performed the Crown-Breaking, the metaphysical shockwave rippled outward from the Engine into every realm where obligation existed. It scarred mortals, spirits, and lesser entities who stood too close to the fracture points where reality thinned—those who were signing contracts, swearing oaths, making promises, or even thinking binding thoughts at the moment the Engine rewrote itself.
 
-They did not originate from a single world. **They came from everywhere**—the Mortal Weave, the Verdant Verge, the Gloam, even remote corners of the Sovereign Realms. Any place where someone **bound themselves to something else** became a potential fracture point.
+They did not originate from a single world. **They came from everywhere**—the Mortal Weave, The Verge, the Gloam, even remote corners of the Sovereign Realms. Any place where someone **bound themselves to something else** became a potential fracture point.
 
 **Common Manifestations:**
 - Horns, tails, ember-veins, cloven feet

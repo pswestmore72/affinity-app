@@ -14,7 +14,7 @@
 
 **But two weeks ago, the Elm Society went silent.**
 
-No druids emerged from their grove-sanctuary. No seasonal guidance was given. And without their blessing, the loggers fear cutting even a single tree will bring The Verdant Verge's wrath. The town's economy stalls. Tensions rise between desperate workers and those who respect old pacts.
+No druids emerged from their grove-sanctuary. No seasonal guidance was given. And without their blessing, the loggers fear cutting even a single tree will bring The Tangled Verge's wrath. The town's economy stalls. Tensions rise between desperate workers and those who respect old pacts.
 
 **Then, five days ago, the trees began *moving*.**
 
@@ -166,7 +166,7 @@ The PCs must decide how to handle this. Combat is *possible* but extremely diffi
 - Full boss fight
 - Harper uses all abilities, summons **Root Elementals** (4d8 HD minions) mid-fight
 - If PCs reduce her to half HD, she *stops*: "You fight with honor. I will hear your terms."
-- Defeating her fully *kills* her (forest loses guardian permanently, Verdant Verge breaches weakened)
+- Defeating her fully *kills* her (forest loses guardian permanently, Tangled Verge breaches weakened)
 
 **Option C: Bargain / Quest Offer**:
 - Propose a trial: PCs will bring oath-breakers' descendants to swear new pact AND restore burned land
@@ -349,7 +349,7 @@ Just as peace settles, **a second "Harper"** appears at town gates:
 - Both swore the oath 200 years ago
 - Harper became the Warden; Laurel was supposed to return to town as liaison
 - Laurel vanished (presumed dead)
-- But Laurel was taken by The Verdant Verge, transformed into fey-thing
+- But Laurel was taken by The Tangled Verge, transformed into fey-thing
 - She's returned, jealous and twisted, wanting Harper's power
 
 **Boss Fight: Laurel Lustre, The Verdant Imposter** (Level 5 Elite, Corrupted):
@@ -454,7 +454,7 @@ Just as peace settles, **a second "Harper"** appears at town gates:
 ### Laurel Lustre, The Verdant Imposter (Optional Final Boss)
 **Level 5 Elite (Corrupted Twin)**
 - **Role**: Twist villain, tragic figure
-- **Personality**: Mad with jealousy and centuries in Verdant Verge; wants recognition
+- **Personality**: Mad with jealousy and centuries in Tangled Verge; wants recognition
 - **HD Pool**: 12d8, Proficiency 3, Resolve 2
 - **Key Ability**: Fey magic, thorn control, shapeshifting
 - **Motivation**: Believed forgotten while Harper got glory; wants to BE the Warden
