@@ -1,0 +1,91 @@
+﻿Cooperative Game:
+* Uses dice and character sheets, and cards to advance through puzzles, and defeat foes. Added fun if players get into storytelling component, these are completely optional play augmentations.
+   * Main storytelling abilities - Every character will have one move that costs a flat 1 of each resource to perform. That player is then free to create (in the scope, model, and form of their character), any ability or action that they see playable in the moment. The group will decide whether this action falls within the realm of reason for the character and scenario and decide whether to allow or not allow the action. Whether or not the group allows the action, the resources are spent and cannot be recovered, and this ability can only be triggered 3 times per game (fails count towards this). It is up to the player to make this ability believable, enjoyable and fitting to the story as a whole, and it is up to non casting players to scrutinize and keep the story on track in order to accomplish their goals and have the most fun.
+   * Minor storytelling abilities - It is recommended (but optional), for players to embellish and flare to these moves that capture the essence of their character, team, and environment. These embellishments do not add to the outcome of the ability, but seek to add fun, depth, and ownership for the player. 
+* Build resources to make character specific (or card based) actions, resources needed in specific combination relative to character archetype.
+* Characters have two distinct styles specific to the character, either can be played
+* At the start of the game there are a collection of possible augmentation cards, 1 will be chosen by each player. Once an augmentation card is chosen, its effects cannot be chosen by another player.
+* Players will also choose the race(background?) of their character at the beginning of the game, each race has a minor strength and minor weakness
+
+
+Players:
+* 1 Character per game
+* 1 Draw card per turn
+* 2 Actions per turn
+* No movement tracking in game
+
+
+Characters:
+
+
+Eegan and Abbo (bard more and familiar) - 
+Eegan and Abbo are cunning and quick footed. They are both highly maneuverable and seem to always land on their feet. Eegan is renown for her acrobatics and fluid movements (second only to Abbo’s), while she is keen with a throwing ability, she mostly relies on traps and out maneuvering and outlasting her foes. Abbo is her feline familiar and will follow anywhere Eegan goes, Abbo is a master rogue and can stealthily enter and exit most any environment without notice, he also has a relatively high attack, especially when surprise attacking. This is a mixed support to high offensive role
+	Eegan is a natural speaker and is gifted with silver speech. With just a few words she can inspire her party, and confuse her enemy, has powerful persuasions, has minor spell casting and healing abilities. Abbo is her feline familiar and will follow anywhere Eegan goes, Abbo is a master rogue and can stealthily enter and exit most any environment without notice, he also has a relatively high attack, especially when surprise attacking. Abbo will listen to the request of any friendly team member, if they are charismatic enough to persuade him. Highly supportive role.
+	
+
+Garretth (maker and tinkerer) - 
+Maker and master of things. Garretth is able to create machines that others cannot fathom the workings of. From large, giant contraptions, to small fly sized, he can make it all. And it seems that the machines that he creates (and other objects around him) listen to him and perform for him at will. Telepathic ability with inanimate objects. Eekseems ability -  create an object to perform a single task, upon tasks completion, objects return to inanimateness. Support type roll. 
+	Garretth is a tinkerer and builder of weapons, and never leaves them behind when out on an adventure. Carries an arsenal of weapons and has a high proficiency with their unique abilities, as well as with other more basic weapons. Highly offensive roll
+	
+
+Panpo (summoner and master of plant life) - 
+Panpo is a master of the elements that surround him. By harnessing the elements around him, he can slow, blind, heal, protect, enhance, inflict minor damage. He is a supporting character.
+	Panpo is more of an offensive character with ability to summon a plant fiend familiar (cost one action point, begins the game with familiar already), and the familiar will last until killed, dismissed, or a different one is summoned. Panpo’s familiars cannot die but do require an action point to resummon if lost. Panpo has basic damage and limited support spells.
+	
+
+Libestra (spellcaster and wise) -
+Libestra is a powerful sorceress that harnesses arcane and nether magics to inflict massive damage. Limited support spells
+	Libestra is a master of the dark arts and magics. Able to break the minds and wills of others to force her bidding, able to shift and alter the reality around her to suit her liking. Has limited damage potential.
+	
+
+Da’ Avid (wise and knowledgeable and spell caster) - 
+Da’ Avid is an ancient being of immense knowledge. Master of many forms of magics, languages, arts, culture, and cookery. Highly supportive role.
+	Da’ Avid is an ancient being of unknown origin, some believe him only to be legend. Through his long life, he has learned many skills and become highly proficient in the art of magics and sorcery. He is capable of inflicting massive damage and massive healing. Powerhouse, little to no support role.
+	
+
+Taprek (shapeshifter and bard) - 
+Taprek is a daring adventurer and a natural leader to any party. He excels in conversation and wit, and can use his cunning charm to collect information, confuse his enemies, and buff his friends. He is gifted in armed combat and has a small collection of weapons and other items that are useful to him at all times. 
+	Taprek is a master illusionist, he is capable of borrowing the likeness of any creature near him for a short time (persits through 1 full round). Master trapper and skilled in combat. Small arsenal of personal items to aid him. 
+	
+
+Actions: (Major Action and Minor Actions)
+* Draw - Can draw up to 2 cards, cannot be two enhancement cards or two action cards 
+* Attack/ Do Stuff - 
+* Trade - Can trade up to 2 resource cards or 1 enhancement card per action spent, trade can only take place between two teammates
+
+
+Cards: (the rule of 7)
+* Resource - collect resources to perform character actions, if a player contains more than 12 resource cards total at the end of their turn: they must shuffle those resources into the resource card deck and draw up to 2 new resource cards. (meant to incentivise cooperative trading and not hoarding of resources)
+   * Energy -- basic resource card used by all characters
+   * Mana and Agility -- resource card used to cast spells
+   * Inspiration and Will -- resource card used to buff/ confuse/ mental games
+   * Goods and Reagents-- resource card mainly used by builders/ trappers/ summoners
+   * Coins -- resource that can be used to persuade NPCs, trade for other resource types at certain times (detailed in scenario), 
+* Enhancement - collect to use in addition to main character abilities (only set abilities, not usable on story told abilities), or action cards to enhance them. Max of 2 at the end of their turn. Cards and abilities that can be augmented by enhancement cards will have their enhancement affects detailed on their cards.
+* Action - Performs non character specific actions. Can be played by a character on any other player’s or enemy’s turn. Max of 2 at any point in time
+
+
+Maps:
+
+
+Scenarios:
+* 1 main card that describes the main scenario with main quests.
+   * Enemy can be played by another player or can be played by the group filling flipping cards and rolling dice on its behalf.
+   * Cards that are flipped could be prizes, traps, enemies, friends, etc...
+* Enemy moves can trigger a loss of resources/ health/ any cards that the team has in possession 
+* On scenario choose fast - medium, or medium - long options
+   * This will direct you to (using the scenario specific cards) add X, Y, and Z number of mini boss cards, quest cards, directive cards, enemy action cards. These should be laid face down on the enemy scenario board and flipped over one at a time to enact the enemies “turn”
+
+
+Random Notes:
+* Female character that has an unleash trait, i.e. hulk, phoenix force
+* Use small “chips” to denote buffs on chars, slows, poisons, place, etc that can be placed onto characters and taken away
+* Character sheets have numbers 1-30 for health that players can keep their token on, to track current HP, as well as character colored dots to show how many limited use spells are left.
+* Creatures can build immunity to confuses, poisons, etc ; Bosses can be fully immune from start
+* Buffs:
+   * Quicken - Some actions are only available while quickened (Gain a minor action)
+* Debuffs:
+   * Confusion - Loss of next turn
+   * Slowed - Some actions may not be available while slowed (Lose a minor Action)
+   * Poison - Deals damage at the start of the player's turn for duration of affect
+   * Silence - Cannot cast a magical spell for duration
