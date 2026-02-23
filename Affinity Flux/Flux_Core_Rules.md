@@ -57,7 +57,7 @@ Your Source Cards should be **visually distinct** from your opponent's—differe
 
 ### Drawing Source
 
-**At the start of YOUR turn**, draw **7 Source Cards** from the Source Deck. Place them **face-up in front of your board**—this is your Source Pool for the turn.
+**At the start of YOUR turn**, draw **5 Source Cards** from the Source Deck. Place them **face-up in front of your board**—this is your Source Pool for the turn.
 
 ### Spending Source
 
@@ -93,11 +93,9 @@ Your Warlord begins with **5 Life Tokens** on their card. These represent their 
 
 ### Spending Life Tokens
 
-On your turn, you may spend Life Tokens as Source:
+Life Tokens are spent to activate **Warlord abilities** (see Warlords). They cannot be converted to Source.
 
-> **1 Life Token = 1 Source, but you take 2 damage**
-
-Life Tokens are also spent to activate **Warlord abilities** (see Warlords).
+This creates a separate resource track: Source fuels your cards, Life Tokens fuel your Warlord.
 
 ### Recovering Life Tokens
 
@@ -113,20 +111,33 @@ Life Tokens cap at 5. You cannot exceed your starting amount.
 
 When you're out of options, sacrifice your own forces.
 
+**You may Burn once per turn** unless a card or ability grants additional Burns.
+
 ### How Burn Works
 
 1. **Choose a unit you control**
 2. **Remove it from the game** (not discard—gone forever)
-3. **Roll 1d6**
+3. **Roll 1d6** (treat 1 as 2, cap at 5)
 4. **Draw that many Source Cards** from the Source Deck (or Discard if empty) into your pool
 
 You may spend these immediately. They're yours regardless of whose design they are.
+
+### Burn Results
+
+| Roll | Result |
+|------|--------|
+| 1 | 2 Source |
+| 2 | 2 Source |
+| 3 | 3 Source |
+| 4 | 4 Source |
+| 5+ | 5 Source |
 
 ### Burn Modifiers
 
 - **+1 to roll** if the unit cost 4+ Source
 - **+2 to roll** if the unit cost 6+ Source
-- Maximum result: 6
+
+Modifiers are applied before the cap. A 4+ cost unit rolling a 4 = 5 Source (capped).
 
 ### The Permanent Cost
 
@@ -197,7 +208,7 @@ Persistent objects. Remain until destroyed.
 Players alternate turns. The game continues until a Warlord falls.
 
 **Each Turn:**
-1. **Draw 7 Source Cards** into your Source Pool
+1. **Draw 5 Source Cards** into your Source Pool
 2. **Draw 1 card** from your deck (skip the very first turn of the game)
 3. **Take actions** (any order, any number):
    - Play cards (spend Source)
@@ -300,7 +311,7 @@ Players alternate turns. The game continues until a Warlord falls.
 5. Roll for first turn
 
 **Each Turn:**
-1. Draw 7 Source Cards (face-up in front of you)
+1. Draw 5 Source Cards (face-up in front of you)
 2. Draw 1 card from deck
 3. Take actions (play cards, attack, abilities, Burn)
 4. Discard ALL Source Cards from your pool
@@ -309,12 +320,13 @@ Players alternate turns. The game continues until a Warlord falls.
 **Spending:**
 - Your Source Cards: 1 card = 1 Source
 - Opponent's Source Cards: 2 cards = 1 Source
-- Life Tokens: 1 = 1 Source (costs 2 Warlord Health)
+- Life Tokens: Warlord abilities only
 
 **Burn:**
 1. Destroy one of your units (removed from game)
-2. Roll d6 (+1 if unit cost 4+, +2 if cost 6+)
-3. Gain that many Source Cards (max 6)
+2. Roll d6 (min 2, max 5; +1 if cost 4+, +2 if cost 6+)
+3. Draw that many Source Cards
+4. Once per turn (unless a card grants more)
 
 **Victory:** Destroy enemy Warlord
 

@@ -1,149 +1,193 @@
 # Affinity: Focal Point
-## Core Rules for Skirmish Warfare
+## Skirmish Combat in the Fractured Realms
 
-*Where realities converge, armies clash.*
-
----
-
-## Introduction
-
-**Affinity: Focal Point** is a tabletop miniatures skirmish game set in the fractured cosmology of Aeralon. When the Infernal Schism tore reality apart, weak points formed between the Reflected Realms—places where the Weave, the Gloam, and the Verge press against each other. These **Focal Points** are contested ground where armies from across the planes clash for control of reality itself.
-
-Command formations of warriors, monsters, and heroes. Risk your forces for power. Claim objectives before your enemy erases you from existence.
+*Power demands sacrifice. Every formation counts.*
 
 ---
 
-## Game Overview
+## What Is Focal Point?
 
-### What You Need
+**Affinity: Focal Point** is a fast-paced skirmish game where small warbands clash at reality's weak points. Each player commands **3-5 formations**, not individual models. Formations move together, fight together, and break together.
 
-- Miniatures representing your army
+**The Core Truth:** You can always push harder. But pushing hurts.
+
+---
+
+## What You Need
+
+- 10-20 miniatures per player (organized into 3-5 formations)
+- Six-sided dice (d6s)
 - A measuring tape (inches)
-- Six-sided dice (d6s) and three-sided dice (d3s)
-- A playing surface (see Game Scales below)
-- Objective markers
+- A 2' × 2' play surface
+- 3 objective markers
 - This rulebook
 
-### Game Scales
+---
 
-| Battle Size | Points | Map Size | Core Formations | Heroes | Objectives |
-|-------------|--------|----------|-----------------|--------|------------|
-| **Skirmish** | 500 | 2' × 2' | 2 minimum | 1 minimum | 3 |
-| **Battle** | 1000 | 3' × 3' | 2 minimum | 2 minimum | 4 |
-| **War** | 1500 | 4' × 4' | 3 minimum | 2 minimum | 6 |
+## Formations
 
-### Run Distance
+Your warband is organized into **Formations**—tight groups of 2-5 models that act as a single unit. Formations move together, attack together, and share the cost of Strain.
 
-Movement in Affinity: Focal Point is measured in **Runs**. The Run distance scales with battle size:
+### Coherency
 
-| Battle Size | Run Distance |
-|-------------|--------------|
-| Skirmish (500) | 3 inches |
-| Battle (1000) | 4 inches |
-| War (1500) | 6 inches |
+Models in a formation must remain within **2 inches** of at least one other model in the same formation at all times. If coherency would be broken by a move, the formation cannot make that move.
+
+### Formation Profiles
+
+Each formation has six stats:
+
+| Stat | What It Does |
+|------|--------------|
+| **Move** | Inches the formation moves per Move action |
+| **Attack** | Number of dice rolled when attacking |
+| **Hit** | Target number to hit (e.g., 4+ means 4, 5, 6 hit) |
+| **Defense** | Target number to block wounds (e.g., 5+ blocks on 5, 6) |
+| **HP** | Total wounds before the formation is destroyed (pooled across all models) |
+| **Resolve** | Target number for morale tests (e.g., 3+ passes on 3, 4, 5, 6) |
+
+**Example Formation:**
+> **Blade Wardens (Threshold)** — Move 5 | Attack 4 | Hit 4+ | Defense 4+ | HP 8 | Resolve 3+
+
+### Formation Types
+
+Every formation is assigned a type that defines its battlefield role. These four types represent how warbands focus their strength:
+
+| Type | Bonus | Philosophy |
+|------|-------|------------|
+| **Threshold** | Critical hits can be blocked normally | *Where realms meet, we hold.* |
+| **Shard** | +1 Attack die | *Fracture them with a hundred cuts.* |
+| **Toll** | First hit each attack deals +1 damage | *The price is paid in full.* |
+| **Drift** | May choose Strain benefit after declaring action, before rolling | *Between states, we find our moment.* |
+
+### Leader Formations
+
+One formation in your warband must be designated your **Leader Formation**. This formation:
+- Contains your warband's commander
+- Is worth bonus VP if destroyed
+- Typically has higher HP and better Resolve
 
 ---
 
-## Army Building
+## Strain (The Core Mechanic)
 
-### Formations
+**Strain is the heart of Focal Point.** Any formation can push beyond its limits—but it costs.
 
-Your army is organized into **Formations**—groups of units that fight together. Each Formation must be assigned a **Formation Type** that determines its battlefield role and special abilities.
+### When You Strain
 
-#### Core Formations
+Once per activation, a formation may **Strain** to gain one of the following benefits for that activation:
 
-Every army must include at least the minimum number of **Core Formations** (see Game Scales). Core Formations must be different types—you cannot take two Shield Formations to meet your minimum.
+| Strain Effect | Benefit |
+|---------------|---------|
+| **Sprint** | +3 inches to Move actions this activation |
+| **Fury** | +2 Attack dice |
+| **Precision** | +1 to Hit (e.g., 4+ becomes 3+) |
+| **Brace** | +1 to Defense until your next activation |
 
-| Formation | Bonus |
-|-----------|-------|
-| **Shield** | Cannot be auto-hit by critical strikes. May roll defense against critical damage normally. |
-| **Spear** | Gains +1 attack for the entire game. |
-| **Hammer** | Deals +1/+1 damage on all hits. |
-| **Sword** | *(Balanced—no special bonus, but no restrictions)* |
+**Drift formations** may choose their Strain benefit AFTER declaring their action but BEFORE rolling dice—they read the battlefield, then commit.
 
-#### Specialty Formations
+### The Cost
 
-Beyond your Core requirements, you may take Specialty Formations:
+When a formation Strains, it takes **1 wound that cannot be blocked.**
 
-| Formation | Role | Special Rules |
-|-----------|------|---------------|
-| **Cavalry** | Mounted assault | If the Formation moves then attacks, gain +2 attacks. |
-| **Dagger** | Scouts and assassins | May Scout/Forward Deploy before the game begins. |
-| **Cloak** | Casters and mystics | *(Varies by faction)* |
-| **Siege** | War machines | Can destroy terrain. Formations moving through destroyed terrain roll Defense against 1 wound per inch. |
-| **Monster** | Titanic beasts | Runs +6 inches on all movement. Units within 2 inches when the Monster moves must roll Defense against 1d3 wounds. |
+Remove this wound from the formation's HP pool. This represents exhaustion, broken equipment, warriors pushing past their limits.
 
-### Units and Archetypes
+### Strain and Resolve
 
-Each unit in your army belongs to an **Archetype** that defines its role:
+**Strain damages more than bodies.** Each time a formation Strains during a round, it suffers **-1 to its Resolve test** at the end of that round.
 
-| Archetype | Role |
-|-----------|------|
-| **Minions** | Cheap buffs for Heroes. Add their stats to the Hero's stats. Do not attack, defend, or make rolls independently. |
-| **Quick Strikers** | Fast, fragile damage dealers. |
-| **Strikers** | Balanced melee combatants. |
-| **Heavy Strikers** | Armored elite melee fighters. |
-| **Mystics** | Spellcasters with the Mystic keyword. |
-| **Tacticians** | Elite forces with multiple capabilities. |
-| **Shooters** | Ranged attackers. |
-| **Heavy Shooters** | Long-range specialists. |
-| **Chargers** | Light cavalry. |
-| **Heavy Chargers** | Armored cavalry. |
-| **Monsters** | Massive creatures. |
-| **Artillery** | Mobile war machines. |
-| **Siege Weapons** | Devastating but immobile engines. |
+Push too hard, and your warriors may break.
 
-### Heroes and Leaders
+### Death by Strain
 
-**Heroes** are powerful individual units. If a unit has the **Hero** keyword:
-- They gain +3 HP and +1 Toughness
-- They form their own single-unit Formation (plus optional Minions)
-- They serve as the Leader of their Formation
+If Strain reduces a formation to 0 HP, it is destroyed. You pushed too hard.
 
-**Leaders** direct their Formations. Every Formation has a Leader:
-- If the Formation contains a Hero, that Hero is the Leader
-- Otherwise, an unspecified unit becomes the Leader
+---
 
-### Formation Health
+## Building Your Warband
 
-All units in a Formation pool their Health together. The Formation's total HP equals the sum of all unit HP. The Formation remains in play until its total HP reaches 0.
+### Warband Composition
+
+Each player fields **3-5 formations** with a combined **points value of 100**.
+
+| Requirement | Details |
+|-------------|---------|
+| Formations | 3-5 total |
+| Leader | Exactly one formation must be the Leader |
+| Points | 100 total |
+| Models per Formation | 2-5 |
+
+### Model Types
+
+Models within formations fall into three categories:
+
+| Type | Role | Typical HP Contribution |
+|------|------|------------------------|
+| **Champions** | Formation leaders, commanders | 3-4 HP |
+| **Elites** | Skilled warriors | 2-3 HP |
+| **Troops** | Rank-and-file fighters | 1-2 HP |
+
+The formation's total HP is the sum of all models' HP contributions.
 
 ---
 
 ## Turn Structure
 
-Each round consists of two phases: the **Strike Phase** and the **Reprisal Phase**.
+Players alternate activating **one formation at a time**.
 
-### Strike Phase
+### Determining First Player
 
-During the Strike Phase, players alternate activating Formations. The active Formation may take **two actions** from the following:
+At the start of each round, both players roll a d6. Higher roll chooses who activates first. Reroll ties.
+
+### Activation
+
+When you activate a formation, it takes **two actions** from:
 
 | Action | Effect |
 |--------|--------|
-| **Run** | Move up to Run distance |
-| **Attack (Melee)** | Strike enemies within 1 inch |
-| **Attack (Ranged)** | Strike enemies beyond 1 Run, within weapon range |
-| **Claim Objective** | If within 1 Run of an objective and meeting Endurance requirements |
-| **Contest Objective** | Challenge enemy control of an objective |
+| **Move** | Move the entire formation up to Move stat in inches (maintain coherency) |
+| **Attack** | The entire formation strikes one enemy formation within range |
+| **Claim** | Claim an objective the formation is touching |
+| **Hold** | Brace for impact (+1 Defense until next activation, stacks with Strain) |
 
-**Valid Action Combinations:**
-- Run + Run (double move)
-- Run + Attack (advance and strike)
-- Attack + Attack (focused assault)
-- Claim/Contest + any other action
+You may take the same action twice (Move + Move, Attack + Attack).
 
-### Reprisal Phase
+### Strain During Activation
 
-During the Reprisal Phase, players alternate issuing **Commands** to their Formations:
+Once per activation, you may Strain to gain a bonus. This doesn't cost an action.
 
-| Command | Effect |
-|---------|--------|
-| **Rally** | Restore morale, recover from status effects |
-| **Reform** | Reorganize unit positions within the Formation |
-| **Retreat** | Mandatory full 2-Run move away from enemies |
-| **Hold** | Brace for enemy assault |
+### End of Round
 
-Formations may also move one Run during the Reprisal Phase.
+After all formations have activated, proceed to **Resolve Phase**.
+
+---
+
+## Resolve Phase
+
+At the end of each round, formations that took damage this round must test their nerve.
+
+### When to Test
+
+A formation tests Resolve if it:
+- Lost any HP this round (from attacks OR from Strain)
+
+### How to Test
+
+Roll 1d6. Compare to the formation's Resolve stat.
+
+**Modifiers:**
+- -1 for each time the formation Strained this round
+- -1 if the formation is below 50% HP
+- -2 if the formation is below 25% HP
+
+### Results
+
+| Result | Effect |
+|--------|--------|
+| **Pass** | The formation holds. No effect. |
+| **Fail by 1-2** | **Shaken.** -1 to Attack dice next round. |
+| **Fail by 3+** | **Broken.** The formation flees and is removed from play. |
+
+**Shaken clears** at the end of the next round.
 
 ---
 
@@ -151,127 +195,155 @@ Formations may also move one Run during the Reprisal Phase.
 
 ### Making Attacks
 
-When a Formation attacks:
+When a formation attacks:
 
-1. **Declare Target:** Choose an enemy Formation within range
-2. **Roll Attack Dice:** Roll your Number of Attacks using d6s
-3. **Check for Hits:** Compare each die to your Attack profile (e.g., 6/4 means 6s hit, 4s critically hit)
-4. **Allocate Wounds:** For each hit, deal damage equal to your Damage profile
+1. **Check Range:** Melee attacks require at least one model within 1 inch of an enemy model. Ranged attacks require line of sight within weapon range.
+2. **Roll Attack dice:** Roll d6s equal to your Attack stat (-1 if below 50% HP)
+3. **Check hits:** Each die meeting your Hit value is a hit
+4. **Deal wounds:** Each hit deals 1 wound (Toll: first hit deals 2, rest deal 1)
 
-### Attack Profiles
+### Defending
 
-Attack stats are written as **X/Y** where:
-- **X** = The number needed to hit (e.g., "6" means a 6 hits)
-- **Y** = The number needed to critically hit (e.g., "4" means 4+ critically hits)
+When your formation takes wounds:
 
-**Example:** Attack 6/4 means rolls of 6 are normal hits, rolls of 4-5 are critical hits.
-
-### Damage Profiles
-
-Damage stats are written as **X/Y** where:
-- **X** = Damage dealt per normal hit
-- **Y** = Damage dealt per critical hit
-
-**Example:** Damage 3/2 means normal hits deal 3 damage, critical hits deal 2 additional damage.
+1. Roll one d6 per wound
+2. Each die meeting your Defense value blocks 1 wound
+3. Apply remaining wounds to the formation's HP pool
 
 ### Critical Hits
 
-When you roll a critical hit:
-- The attack automatically hits (defender cannot defend unless they have Shield Formation)
-- Deal critical damage in addition to normal damage
+Any natural 6 on an Attack roll is a **critical hit**:
+- The hit cannot be blocked (unless the defender is a Threshold formation)
+- It still deals normal damage (1 wound, or 2 for Toll)
 
-### Defense
+### Attrition
 
-When your Formation takes damage:
+**Formations at or below 50% HP suffer -1 Attack die** (minimum 1).
 
-1. **Roll Defense:** Roll d6s equal to the number of wounds
-2. **Check Success:** Each die meeting your Defense value (e.g., 4+) negates one wound
-3. **Apply Remaining Damage:** Wounds that weren't defended reduce Formation HP
+This represents lost warriors, broken equipment, and fading momentum.
 
-### Will Saves
+### Removing Models
 
-Some effects require **Will** saves—tests of mental fortitude against fear, magic, or supernatural influence. Roll against your Will value (e.g., 4+) to resist.
+When a formation's HP drops, remove models to represent casualties. Remove Troops first, then Elites, then Champions.
 
 ---
 
-## Keywords
+## Terrain
 
-### Fly
-
-Units with **Fly** ignore terrain when moving and cannot be engaged by non-flying units unless they choose to land.
-
-### Formation(X)
-
-This unit comes in groups. The number in parentheses indicates the minimum number of models for a single "unit" of this type. Costs and stats are per unit.
-
-### Mystic(X)
-
-This unit can cast spells. The number indicates their casting power:
-- **Mystic(1-2):** Minor magical abilities
-- **Mystic(3-4):** Significant spellcasting
-- **Mystic(5+):** Master-level magic
-
-### Hero
-
-This unit operates as a single-model Formation and gains +3 HP and +1 Toughness.
+| Terrain | Effect |
+|---------|--------|
+| **Open** | No effect |
+| **Cover** | +1 to Defense against ranged attacks |
+| **Blocking** | Can't move through, blocks line of sight |
+| **Difficult** | Costs 2 inches of movement per 1 inch crossed |
 
 ---
 
 ## Objectives
 
+Three objectives are placed on the battlefield before the game.
+
 ### Claiming Objectives
 
-To claim an objective, a Formation must:
-1. Be within 1 Run of the objective
-2. Meet the **Endurance** requirement for the battle size
-3. Spend an action to Claim
+To claim an objective, a formation must:
+1. Have at least one model touching the objective marker
+2. Spend a Claim action
 
-| Battle Size | Endurance Required |
-|-------------|--------------------|
-| Skirmish (500) | Formation HP > 0 |
-| Battle (1000) | Formation HP > 20% |
-| War (1500) | Formation HP > 50% |
+You control an objective until an enemy claims it.
 
-### Contesting Objectives
+### Contested Objectives
 
-If both players have Formations within range of an objective, it becomes **Contested** and neither player scores it until one side is destroyed or driven off.
+If both players have formations touching an objective, it's **contested**—neither player scores it.
 
 ---
 
-## Victory Conditions
+## Winning the Game
 
-At the end of each round after the first, check victory conditions:
+At the **end of round 4**, the game ends. Score:
 
-1. **Objective Control:** Score 1 VP per objective you control
-2. **Enemy Destroyed:** Score 1 VP for each enemy Formation destroyed
-3. **Leader Kills:** Score 2 VP for each enemy Hero destroyed
+| Condition | VP |
+|-----------|-----|
+| Control an objective | 2 VP |
+| Enemy Leader formation destroyed | 3 VP |
+| Each other enemy formation destroyed | 1 VP |
 
-The game ends when:
-- One player reaches the VP threshold (varies by scenario)
-- One player has no Formations remaining
-- The round limit is reached (highest VP wins)
-
----
-
-## Range Reference
-
-| Range Type | Distance |
-|------------|----------|
-| **Melee Range** | Within 1 inch |
-| **Ranged Minimum** | Beyond 1 Run |
-| **Ranged Maximum** | Weapon-specific |
-| **Aura Effects** | As specified (usually 6 or 12 inches) |
+**Highest VP wins.** Tied? The player with more surviving HP (total across all formations) wins.
 
 ---
 
-## Quick Combat Reference
+## Keywords
 
-1. **Attacker rolls** Number of Attacks dice
-2. **Check hits:** X hits, Y crits (from Attack X/Y)
-3. **Calculate damage:** Hits × normal damage, Crits × crit damage
-4. **Defender rolls:** One die per wound, Defense+ saves each
-5. **Reduce HP:** Failed saves reduce Formation HP
+Keywords define special capabilities. Not all realms have access to all keywords—check your faction rules.
+
+### Core Keywords
+
+| Keyword | Effect |
+|---------|--------|
+| **Leader** | Required (one per warband). Worth 3 VP if destroyed. |
+| **Hero** | Single-model formation. +2 HP. Immune to first Strain wound each round. |
+| **Ranged(X)** | May attack enemies up to X inches away. |
+| **Fly** | Ignores terrain when moving. Cannot be targeted by non-Fly melee attacks. |
+
+### Tactical Keywords
+
+| Keyword | Effect |
+|---------|--------|
+| **Weaver** | May cast one spell instead of attacking. Casting costs 1 HP (cannot be blocked). |
+| **Cloak** | Deploy after all non-Cloak formations. +1 to Hit against targets that haven't activated this round. |
+| **Oathbound** | +1 to Resolve tests. Cannot voluntarily retreat. |
+| **Dread** | Enemy formations within 6" suffer -1 to Resolve tests. |
+
+### Realm-Aligned Keywords
+
+| Keyword | Common In | Effect |
+|---------|-----------|--------|
+| **Undying** | Gloam | First time reduced to 0 HP each game, roll d6. On 4+, stay at 1 HP instead. |
+| **Relentless** | Engine, Crucible | Ignores the -1 Attack die penalty from being below 50% HP. |
 
 ---
 
-*The Focal Points await. Command your forces. Shape reality.*
+## Quick Reference
+
+### Activation
+1. Activate one formation
+2. Take two actions (Move, Attack, Claim, or Hold)
+3. May Strain once (take 1 wound, gain a bonus, -1 to Resolve test)
+
+### Formation Types
+| Type | Bonus |
+|------|-------|
+| Threshold | Block critical hits |
+| Shard | +1 Attack die |
+| Toll | First hit deals +1 damage |
+| Drift | Choose Strain after declaring, before rolling |
+
+### Strain Options (1 unblockable wound, -1 Resolve)
+| Effect | Benefit |
+|--------|---------|
+| Sprint | +3 inches Move |
+| Fury | +2 Attack dice |
+| Precision | +1 to Hit |
+| Brace | +1 Defense until next activation |
+
+### Resolve Test (end of round, if damaged)
+- Roll 1d6 vs Resolve stat
+- -1 per Strain this round
+- -1 if below 50% HP
+- -2 if below 25% HP
+- Fail by 1-2 = Shaken (-1 Attack next round)
+- Fail by 3+ = Broken (flee)
+
+### Combat
+1. Roll Attack dice (-1 die if below 50% HP)
+2. Each die ≥ Hit value = 1 wound (Toll: first hit = 2)
+3. Defender rolls Defense per wound
+4. Natural 6 = critical (unblockable, except Threshold)
+
+### Victory (End of Round 4)
+- 2 VP per objective controlled
+- 3 VP for enemy Leader destroyed
+- 1 VP per other formation destroyed
+
+---
+
+*Three to five formations. Three objectives. Every wound matters. What will you sacrifice?*
