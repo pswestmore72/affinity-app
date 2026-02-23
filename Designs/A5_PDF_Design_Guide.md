@@ -54,21 +54,21 @@ Safety Zone: Keep critical text/elements 5mm inside margins
 
 **Recommended Primary Pairing:**
 ```
-Body Text: PT Serif (10.5pt)
-Headers: Bebas Neue (Bold, sizes 24-36pt)
+Body Text: Crimson Text (10.5pt)
+Headers: Oswald (Bold, sizes 24-36pt)
 Monospace: Fira Code (9-10pt for stat blocks)
 ```
 
 **Alternative Pairings:**
 - **Classic:** EB Garamond (body) + Cinzel (headers) — elegant fantasy feel
-- **Modern:** Crimson Text (body) + Oswald (headers) — clean contemporary
+- **Bold:** PT Serif (body) + Bebas Neue (headers) — high contrast, dramatic
 - **Readable:** Libre Baskerville (body) + Raleway Bold (headers) — maximum clarity
 
 ### Typography Settings
 
 ```
 Body Text:
-  Font: PT Serif
+  Font: Crimson Text
   Size: 10.5pt (at A5, never go below 9pt)
   Line Height: 1.4 (14.7pt leading)
   Paragraph Spacing: 8pt after
@@ -76,9 +76,9 @@ Body Text:
   Color: #000000 (pure black)
 
 Headers:
-  Level 1 (Chapter): Bebas Neue 36pt
-  Level 2 (Section): Bebas Neue 24pt
-  Level 3 (Subsection): Bebas Neue 18pt
+  Level 1 (Chapter): Oswald 36pt
+  Level 2 (Section): Oswald 24pt
+  Level 3 (Subsection): Oswald 18pt
   Color: #1a1a2e (near-black with blue tint) OR accent color
 
 Italics: Use sparingly for emphasis and flavor text
@@ -459,11 +459,11 @@ Add page numbers, headers to masters
 **2. Define Styles (30 min)**
 ```
 Paragraph Styles:
-  - Body Text (PT Serif 10.5pt, 1.4 leading)
-  - Header 1 (Bebas Neue 36pt)
-  - Header 2 (Bebas Neue 24pt)
-  - Header 3 (Bebas Neue 18pt)
-  - Example Text (PT Serif 9.5pt, gray box)
+  - Body Text (Crimson Text 10.5pt, 1.4 leading)
+  - Header 1 (Oswald 36pt)
+  - Header 2 (Oswald 24pt)
+  - Header 3 (Oswald 18pt)
+  - Example Text (Crimson Text 9.5pt, gray box)
   - Stat Block (Fira Code 9.5pt)
 
 Character Styles:
@@ -633,7 +633,7 @@ GM Quick Start: 12-18 pages
 **PDF should use:**
 - Black headers with red underline accent
 - Red for warnings and important notes
-- Clean sans-serif headers (Bebas Neue fits)
+- Clean sans-serif headers (Oswald fits)
 - Sharp geometric dividing lines
 - Grid-based precise alignment
 
@@ -708,7 +708,7 @@ v2.0 - Public release
 ## Resources & Free Assets
 
 ### Free Fonts
-- [Google Fonts](https://fonts.google.com) — PT Serif, Crimson Text, EB Garamond
+- [Google Fonts](https://fonts.google.com) — Crimson Text, Oswald, EB Garamond
 - [FontSquirrel](https://fontsquirrel.com) — High-quality free fonts
 - [DaFont](https://dafont.com) — Decorative fonts (check licenses)
 
@@ -731,7 +731,7 @@ v2.0 - Public release
 **If you only do these things, you'll have a professional PDF:**
 
 1. **A5 portrait, facing pages, proper margins (18/20/20/15mm)**
-2. **PT Serif 10.5pt body, Bebas Neue headers**
+2. **Crimson Text 10.5pt body, Oswald headers**
 3. **Single column, left-aligned, 1.4 line height**
 4. **White background, one accent color from your website**
 5. **150 DPI RGB PDF with embedded fonts**
