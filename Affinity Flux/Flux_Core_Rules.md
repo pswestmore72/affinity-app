@@ -1,483 +1,323 @@
 # Affinity: Flux
-## Core Rules for Strategic Card Warfare
+## Card Game of Planar Warfare
 
-*Nothing endures. Everything becomes.*
-
----
-
-## Introduction
-
-**Affinity: Flux** is a deck-building card game set in the fractured cosmology of Aeralon. Players command armies led by powerful Leaders, drawing upon the primordial Source—the raw elemental energy that flows through the Roiling Crucible and permeates all reality.
-
-When the Infernal Schism tore reality apart, the barriers between planes weakened. Now, Source energy bleeds freely between realms. Those who can channel it wield the power to reshape existence itself.
-
-Build your deck. Draw your Source. Destroy your enemy's Leader.
+*Power demands sacrifice. Every card is a choice.*
 
 ---
 
-## Game Overview
+## What Is Flux?
 
-### Components
+**Affinity: Flux** is a competitive card game where you command forces from the Realms of Aeralon. Build a deck, spend Source to deploy units and cast spells, and destroy your opponent's Warlord to win.
 
-- **Deck** (up to 1000 points of cards + 1 Army Leader)
-- **Source Tokens** (15 per player, placed in a shared bag)
-- **Source Bag** (opaque bag for randomized draws)
-- **Play Area** (battlefield, hand, discard, removed zones)
+The core rhythm: **Draw Source, spend Source, sacrifice for more.** Each turn brings new resources. What you draw determines what you can do.
 
-### Win Condition
-
-**Destroy your opponent's Army Leader.** When a Leader is reduced to 0 Health, that player loses immediately.
-
-### Player Count
-
-| Players | Source Tokens | Tokens Drawn per Round |
-|---------|---------------|------------------------|
-| 2 | 30 total (15 each) | 21 |
-| 3 | 45 total (15 each) | 29 |
-| 4 | 60 total (15 each) | 37 |
-
-**Team Play:** 2v2 is supported. Each team shares a Source pool but maintains separate decks and Leaders.
+And when you're desperate? **Burn your own units.** Roll the die. Hope it's enough.
 
 ---
 
-## The Ten Affinities
+## Components
 
-Source tokens are **not** Affinity-specific—any token can fuel any card. However, cards belong to one of **Ten Affinities** that define their philosophy and synergies.
+- **Deck:** Up to 1000 points of cards + 1 Warlord
+- **Source Cards:** 15 per player (any design you like)
+- **One d6:** For Burn rolls
+- **Life Tokens:** 5 per Warlord (different shape/color)
 
-### The Affinities
+---
 
-| Affinity | Philosophy | Playstyle |
-|----------|------------|-----------|
-| **Memory** | Preserving truth, honoring the past | Recursion, graveyard manipulation |
-| **Communion** | Building community, offering shelter | Defensive synergies, healing |
-| **Guardian** | Protecting the defenseless | Damage prevention, shields |
-| **Growth** | Healing, nurturing potential | Ramping resources, strengthening |
-| **Decay** | Accepting necessary endings | Sacrifice, removal, attrition |
-| **Consequence** | Ensuring choices have weight | Triggers, reactions, punishment |
-| **Flux** | Embracing change and chaos | Transformation, randomness |
-| **Freedom** | Breaking bonds, self-determination | Evasion, untargettable effects |
-| **Obligation** | Binding others to debts and terms | Control, forced actions |
-| **Suffering** | Revealing truth through pain | Direct damage, life manipulation |
+## Victory
 
-### Affinity Synergy
+**Destroy your opponent's Warlord.** When a Warlord reaches 0 Health, you lose.
 
-Cards work with any Source tokens, but **Affinity Synergy** provides bonuses:
+---
 
-- **Matching Leader:** Cards matching your Leader's Affinity cost 1 less Source
-- **Affinity Pairs:** Some Affinities naturally synergize:
-  - Memory + Decay (cycle of remembering and releasing)
-  - Guardian + Communion (protecting community)
-  - Growth + Consequence (actions bearing fruit)
-  - Flux + Freedom (chaos enables liberation)
-  - Obligation + Suffering (debts enforced through pain)
+## The Six Realms
+
+Your deck is built from **one Realm**—where your forces originate. Your Warlord determines your Realm and deck identity.
+
+| Realm | Identity |
+|-------|----------|
+| **The Weave** | Balanced, adaptable |
+| **The Gloam** | Recursion, attrition |
+| **The Verge** | Swarm, growth |
+| **Empyreal Accord** | Protection, order |
+| **The Engine** | Sacrifice, punishment |
+| **The Crucible** | Burst damage, chaos |
+
+---
+
+## Source Cards
+
+Source Cards are the fuel for everything you do. They represent the raw power drawn from Aeralon's planar energy.
+
+### Setup
+
+Each player contributes **15 Source Cards** to create the **Source Deck** (30 total).
+
+Your Source Cards should be **visually distinct** from your opponent's—different card backs, sleeves, designs, whatever works. You need to tell them apart during play.
+
+### Drawing Source
+
+**At the start of YOUR turn**, draw **7 Source Cards** from the Source Deck. Place them **face-up in front of your board**—this is your Source Pool for the turn.
+
+### Spending Source
+
+| Source Type | Cost to Generate 1 Source |
+|-------------|---------------------------|
+| **Your cards** | 1 card = 1 Source |
+| **Opponent's cards** | 2 cards = 1 Source |
+
+To play a card costing 3 Source:
+- Spend 3 of your Source Cards, OR
+- Spend 6 of your opponent's Source Cards, OR
+- Any combination (e.g., 2 yours + 2 theirs = 3 Source)
+
+Spent Source Cards go to the **Source Discard**.
+
+### The Draw Tension
+
+You'll get a mix every turn. Some draws favor you. Some don't. **Adapt or sacrifice.**
+
+### Replenishing the Source Deck
+
+When the Source Deck runs out, immediately shuffle the Source Discard to form a new Source Deck.
+
+### Turn End
+
+At the end of your turn, discard **all** Source Cards (spent and unspent) from your pool to the Source Discard. You cannot hoard Source between turns.
+
+---
+
+## Life Tokens (The Warlord's Reserve)
+
+Your Warlord begins with **5 Life Tokens** on their card. These represent their personal reserve—their vitality converted to power.
+
+### Spending Life Tokens
+
+On your turn, you may spend Life Tokens as Source:
+
+> **1 Life Token = 1 Source, but you take 2 damage**
+
+Life Tokens are also spent to activate **Warlord abilities** (see Warlords).
+
+### Recovering Life Tokens
+
+Some cards restore Life Tokens. When you recover one:
+- Take a token from the supply
+- Heal 1 Warlord Health
+
+Life Tokens cap at 5. You cannot exceed your starting amount.
+
+---
+
+## The Burn (Core Mechanic)
+
+When you're out of options, sacrifice your own forces.
+
+### How Burn Works
+
+1. **Choose a unit you control**
+2. **Remove it from the game** (not discard—gone forever)
+3. **Roll 1d6**
+4. **Draw that many Source Cards** from the Source Deck (or Discard if empty) into your pool
+
+You may spend these immediately. They're yours regardless of whose design they are.
+
+### Burn Modifiers
+
+- **+1 to roll** if the unit cost 4+ Source
+- **+2 to roll** if the unit cost 6+ Source
+- Maximum result: 6
+
+### The Permanent Cost
+
+Burned units are **removed from the game**, not sent to discard. They cannot be retrieved by any effect. Your deck is literally dying for you to win.
+
+This is the Affinity feel—power through sacrifice, fate determined by dice.
+
+---
+
+## Warlord Abilities
+
+Each Warlord has:
+- **A Passive** (always active)
+- **An Ability** (costs Life Tokens to activate)
+
+Abilities do not cost regular Source. They cost **Life Tokens only.** This creates tension: Save tokens for abilities? Or spend them for emergency Source?
+
+### Affinity (Warlord Identity)
+
+Your Warlord has an **Affinity** representing their philosophical alignment. This determines the *flavor* of their abilities but has no deck-building restrictions.
+
+| Affinity | Ability Theme |
+|----------|---------------|
+| Memory | Retrieval, knowledge |
+| Communion | Buffing, unity |
+| Guardian | Protection, shields |
+| Growth | Healing, strengthening |
+| Decay | Destruction, weakening |
+| Consequence | Triggers, reactions |
+| Flux | Transformation, randomness |
+| Freedom | Evasion, independence |
+| Obligation | Forced choices, control |
+| Suffering | Direct damage |
+
+A Gloam Warlord with Decay might have abilities that destroy enemy units. A Weave Warlord with Memory might retrieve cards. Affinity is flavor, not restriction.
 
 ---
 
 ## Card Types
 
-### Army Leader (1 per deck)
-
-Your commander. Starts in play. If destroyed, you lose.
-
-**Leader Card Structure:**
-```
-┌─────────────────────────────────┐
-│ [LEADER NAME]                   │
-│ Affinity: [Affinity]            │
-├─────────────────────────────────┤
-│ Health: XX                      │
-│ Attack: X                       │
-│ Defense: X                      │
-├─────────────────────────────────┤
-│ [Passive Ability]               │
-│                                 │
-│ [Activated Ability] - Cost: X   │
-├─────────────────────────────────┤
-│ "Flavor text"                   │
-└─────────────────────────────────┘
-```
+### Warlord (1 per deck)
+Your commander. Starts in play with 5 Life Tokens. If destroyed, you lose.
+- **Realm:** Determines your deck's faction
+- **Affinity:** Theme of their abilities
+- **Health:** Damage to destroy
+- **Power:** Damage dealt attacking
+- **Passive:** Always active effect
+- **Ability:** Costs Life Tokens to activate
 
 ### Units
-
-Creatures and warriors that fight for you.
-
-**Unit Card Structure:**
-```
-┌─────────────────────────────────┐
-│ [UNIT NAME]           Cost: X   │
-│ Affinity: [Affinity]   Pts: XX  │
-├─────────────────────────────────┤
-│ Attack: X    Health: X          │
-│ [Keywords]                      │
-├─────────────────────────────────┤
-│ [Abilities]                     │
-├─────────────────────────────────┤
-│ "Flavor text"                   │
-└─────────────────────────────────┘
-```
+Creatures that fight. Pay Source to deploy.
+- **Cost:** Source tokens to play
+- **Points:** Deck-building value
+- **Power / Health:** Combat stats
 
 ### Spells
+One-time effects. Resolve and discard.
+- **Action:** Your turn only
+- **Reaction:** Anytime (even opponent's turn)
 
-One-time effects that resolve and go to discard.
-
-**Spell Card Structure:**
-```
-┌─────────────────────────────────┐
-│ [SPELL NAME]          Cost: X   │
-│ Affinity: [Affinity]   Pts: XX  │
-├─────────────────────────────────┤
-│ [Spell Type: Instant/Sorcery]   │
-├─────────────────────────────────┤
-│ [Effect]                        │
-├─────────────────────────────────┤
-│ "Flavor text"                   │
-└─────────────────────────────────┘
-```
-
-**Spell Types:**
-- **Sorcery:** Can only be cast during your Main Phase
-- **Instant:** Can be cast at any time, including in response to other effects
-
-### Artifacts
-
-Persistent objects that provide ongoing effects.
-
-**Artifact Card Structure:**
-```
-┌─────────────────────────────────┐
-│ [ARTIFACT NAME]       Cost: X   │
-│ Affinity: [Affinity]   Pts: XX  │
-├─────────────────────────────────┤
-│ [Passive Effect]                │
-│                                 │
-│ [Activated Ability] - Cost: X   │
-├─────────────────────────────────┤
-│ "Flavor text"                   │
-└─────────────────────────────────┘
-```
-
-### Locations
-
-Places of power that modify the battlefield.
-
-**Location Card Structure:**
-```
-┌─────────────────────────────────┐
-│ [LOCATION NAME]       Cost: X   │
-│ Affinity: [Affinity]   Pts: XX  │
-├─────────────────────────────────┤
-│ [Battlefield Effect]            │
-│                                 │
-│ [Control Bonus]                 │
-├─────────────────────────────────┤
-│ "Flavor text"                   │
-└─────────────────────────────────┘
-```
-
-**Location Rules:**
-- Only one Location can be active per player at a time
-- Playing a new Location discards your previous one
-- Some Locations provide effects for both players
+### Relics
+Persistent objects. Remain until destroyed.
 
 ---
 
-## Deck Building
+## Turn Structure
 
-### Construction Rules
+Players alternate turns. The game continues until a Warlord falls.
 
-| Component | Limit |
-|-----------|-------|
-| **Army Leader** | Exactly 1 |
-| **Total Points** | Up to 1000 |
-| **Minimum Cards** | 40 (not counting Leader) |
-| **Maximum Copies** | 4 of any single card |
-| **Affinity Restriction** | None (mix freely) |
-
-### Point Values
-
-Cards have both a **Source Cost** (to play) and a **Point Value** (for deck building).
-
-- **Point Value** reflects overall power and flexibility
-- **Source Cost** reflects immediate resource demand
-- High-value cards may have low costs (efficient) or high costs (powerful)
+**Each Turn:**
+1. **Draw 7 Source Cards** into your Source Pool
+2. **Draw 1 card** from your deck (skip the very first turn of the game)
+3. **Take actions** (any order, any number):
+   - Play cards (spend Source)
+   - Attack with units
+   - Activate abilities (spend Life Tokens)
+   - Burn units (roll for Source)
+4. **Discard unspent Source** to Source Discard
+5. **End turn** (discard cards to 7 if needed)
 
 ---
 
-## Game Flow
+## Combat
 
-### Setup
+1. **Declare attackers** and their targets (enemy units or Warlord)
+2. **Defender assigns blockers** (one blocker per attacker max)
+3. **Damage resolves simultaneously**
+4. Units at 0 Health are destroyed → go to discard
 
-1. **Reveal Leaders:** Both players place their Army Leader face-up
-2. **Shuffle Decks:** Shuffle your 40+ card deck
-3. **Create Source Bag:** Each player adds 15 Source tokens to the shared bag. Shake to mix.
-4. **Draw Opening Hand:** Each player draws 7 cards
-5. **Mulligan:** Each player may shuffle their hand into their deck and draw 7 new cards (once only)
-6. **Draw Source:** Draw 21 tokens from the bag (adjust for player count)
-7. **Distribute Source:** Divide drawn tokens evenly between players; odd tokens go to a neutral pool
-8. **Determine First Player:** Roll off; winner chooses to go first or second
-
-### Round Structure
-
-Each round consists of alternating **Turns** until all Source is spent or both players pass consecutively.
-
-**Turn Order:**
-1. **Draw Phase** (first turn of round only)
-2. **Main Phase**
-3. **Combat Phase**
-4. **End Phase**
-
-### Draw Phase
-
-At the start of your first turn each round, draw 2 cards.
-
-*(You do not draw on subsequent turns within the same round.)*
-
-### Main Phase
-
-During your Main Phase, you may (in any order, any number of times):
-
-- **Play Unit cards** (pay Source cost, place on battlefield)
-- **Cast Sorcery spells** (pay Source cost, resolve effect, discard)
-- **Play Artifacts** (pay Source cost, place on battlefield)
-- **Play Locations** (pay Source cost, replace any existing Location)
-- **Activate abilities** (pay Source cost, resolve effect)
-- **Pass priority** (let opponent act or respond)
-
-### Combat Phase
-
-Combat is declared against a specific target: enemy Units or the enemy Leader.
-
-**Combat Sequence:**
-1. **Declare Attackers:** Choose which of your Units will attack
-2. **Declare Target:** Choose enemy Unit(s) or Leader as target
-3. **Declare Blockers:** Defender assigns Units to block attackers
-4. **Resolve Damage:** Simultaneously deal and receive damage
-5. **Remove Destroyed Units:** Units at 0 Health are destroyed
-
-**Combat Rules:**
-- Units can attack the turn they enter play unless they have "Summoning Fatigue"
-- Each Unit can attack once per round
-- Unblocked attackers deal damage to their declared target
-- Blocked attackers deal damage to blockers (and vice versa)
-
-### End Phase
-
-1. **Discard excess:** If you have more than 7 cards in hand, discard down to 7
-2. **End-of-turn effects:** Resolve any "at end of turn" triggers
-3. **Pass turn:** Your opponent begins their turn
-
-### Round End
-
-The round ends when:
-- All Source tokens are spent, OR
-- Both players pass consecutively with Source remaining
-
-**Round Reset:**
-1. Return all spent Source tokens to the bag
-2. Shuffle the bag
-3. Draw new Source tokens (21 for 2 players)
-4. Redistribute evenly
-5. Begin new round (non-starting player goes first)
-
----
-
-## Source Economy
-
-### Spending Source
-
-Source tokens are spent to:
-- **Play cards** (pay the card's Source cost)
-- **Activate abilities** (pay the ability's Source cost)
-- **Trigger certain effects** (as specified on cards)
-
-### Source Pool
-
-Drawn Source tokens are divided between players:
-- **21 tokens ÷ 2 players = 10 each, 1 neutral**
-- Neutral tokens can be claimed by paying 1 token from your pool
-- Tokens spent go to a shared "spent" pile
-
-### Affinity Discounts
-
-- Cards matching your Leader's Affinity cost **1 less Source** (minimum 1)
-- Some cards provide additional discounts for specific Affinities
-
-### Source Manipulation
-
-Some cards interact with the Source economy:
-- **Source Drain:** Remove tokens from opponent's pool
-- **Source Surge:** Add tokens to your pool from the spent pile
-- **Source Disruption:** Force opponent to spend tokens inefficiently
+**Notes:**
+- Damage on units persists between rounds
+- Warlord at 0 Health = game over
+- Burned units bypass discard (removed from game)
 
 ---
 
 ## Keywords
 
-### Combat Keywords
-
 | Keyword | Effect |
 |---------|--------|
-| **Flying** | Can only be blocked by units with Flying or Reach |
-| **Reach** | Can block units with Flying |
-| **First Strike** | Deals combat damage before units without First Strike |
-| **Trample** | Excess damage dealt to blockers carries through to original target |
-| **Deathtouch** | Any damage this unit deals to another unit destroys it |
-| **Vigilance** | Doesn't exhaust when attacking |
-| **Haste** | Can attack the turn it enters play |
-| **Summoning Fatigue** | Cannot attack or use abilities the turn it enters play |
-
-### Defensive Keywords
-
-| Keyword | Effect |
-|---------|--------|
-| **Shield X** | Prevent the first X damage dealt to this unit each round |
-| **Ward** | Cannot be targeted by opponent's spells or abilities |
-| **Regenerate X** | At round start, heal X damage |
-| **Indestructible** | Cannot be destroyed by damage (can still be removed by effects) |
-
-### Utility Keywords
-
-| Keyword | Effect |
-|---------|--------|
-| **Deploy** | Effect triggers when this card enters play |
-| **Death Rattle** | Effect triggers when this card is destroyed |
-| **Resonance** | Effect triggers when you play a card of the same Affinity |
-| **Surge X** | Effect triggers when you spend X or more Source in one turn |
-| **Echo** | You may pay the Source cost again to play a copy from your discard |
-
-### Affinity-Specific Keywords
-
-| Keyword | Affinity | Effect |
-|---------|----------|--------|
-| **Eternal** | Memory | Returns to hand instead of being destroyed (once per game) |
-| **Shelter** | Communion | Adjacent allies gain Shield 1 |
-| **Aegis** | Guardian | May redirect damage from allies to self |
-| **Flourish** | Growth | Gains +1/+1 at round start |
-| **Wither** | Decay | Damaged units get -1/-1 until end of round |
-| **Ripple** | Consequence | When this triggers, you may copy the trigger to another valid target |
-| **Mutable** | Flux | May transform into a different form (specified on card) |
-| **Elusive** | Freedom | Cannot be blocked by units with higher Attack |
-| **Binding** | Obligation | Target cannot attack or use abilities until debt is paid |
-| **Agony** | Suffering | Deals 1 damage to self to deal 2 damage to target |
+| **Fast** | Can attack the turn it enters play |
+| **Flying** | Only blocked by Flying or Reach |
+| **Reach** | Can block Flying units |
+| **Shield X** | Prevent first X damage each round |
+| **Deathtouch** | Any damage destroys target unit |
+| **Ward** | Cannot be targeted by opponent |
+| **Deploy** | Effect triggers when entering play |
+| **Vengeance** | Effect triggers when destroyed (not Burned) |
 
 ---
 
-## Zones
+## Realm Playstyles
 
-### Battlefield
+### The Weave
+*Mortal grit. Adaptation. Options.*
+- Moderate stats, flexible effects
+- Card draw and selection
+- Efficient units that work together
 
-Where Leaders, Units, Artifacts, and Locations exist during play.
+### The Gloam
+*Inevitability. Attrition. Return.*
+- Vengeance abilities punish removal
+- Cards return from discard
+- Slow drain on opponent's Warlord
 
-### Hand
+### The Verge
+*Growth. Swarm. Overwhelm.*
+- Cheap units in high numbers
+- Stats that grow over time
+- Transformation effects
 
-Cards you've drawn but not yet played. Maximum 7 at end of turn.
+### Empyreal Accord
+*Law. Protection. Endurance.*
+- High Health, Shield effects
+- Abilities that protect allies
+- Hard to kill, outlast aggro
 
-### Deck (Library)
+### The Engine
+*Contracts. Sacrifice. Punishment.*
+- Cards that synergize with Burn
+- Opponent-choice effects
+- Calculate your losses into victory
 
-Your face-down draw pile. When empty, you do not reshuffle—you simply cannot draw.
-
-### Discard (Graveyard)
-
-Face-up pile of cards that have been played, destroyed, or discarded.
-
-### Removed (Exile)
-
-Cards removed from the game entirely. Cannot be recovered by normal means.
-
----
-
-## Combat Deep Dive
-
-### Attacking the Leader
-
-1. Declare an attacker targeting the enemy Leader
-2. Opponent may assign blockers
-3. If blocked: attacker fights blocker(s)
-4. If unblocked: attacker deals damage to Leader
-5. Reduce Leader health accordingly
-6. At 0 health, Leader is destroyed—game over
-
-### Multi-Unit Combat
-
-- Multiple Units can attack simultaneously
-- Each attacker must declare its target separately
-- Defenders assign blockers per attacker
-- One blocker can only block one attacker
-- Multiple blockers can block the same attacker (damage is divided by attacker's choice)
-
-### Damage and Destruction
-
-- Damage is marked on Units (doesn't reset automatically)
-- When Health reaches 0, the Unit is destroyed
-- Destroyed Units go to the discard pile
-- Death Rattle abilities trigger upon destruction
-- Some effects heal damage; others remove damage counters
+### The Crucible
+*Chaos. Power. Burst.*
+- High Power, aggressive stats
+- Direct damage spells
+- Win fast or burn out trying
 
 ---
 
-## Advanced Rules
+## Deck Building
 
-### The Stack
-
-When multiple effects trigger simultaneously or in response to each other:
-
-1. Effects go on "the stack" in the order they were played/triggered
-2. Each player may respond with Instant spells or abilities
-3. When both players pass, resolve the stack in reverse order (last in, first out)
-
-### Priority
-
-- Active player has priority first
-- After each action, priority passes to opponent
-- When both players pass priority, the current phase/step ends
-
-### Targeting
-
-- Effects that say "target" require a valid target when played
-- If all targets become invalid, the effect fizzles
-- Effects that say "choose" are not targeting (bypasses Ward)
-
----
-
-## Multiplayer Variants
-
-### Free-for-All (3-4 Players)
-
-- Each player has their own Leader
-- Attack any opponent
-- Last Leader standing wins
-- Politics encouraged
-
-### Two-Headed Giant (2v2)
-
-- Teams share Source pool (still add 15 each)
-- Teams draw Source together (37 tokens for 4 players)
-- Each player controls their own Leader
-- Team loses when both Leaders are destroyed
-- Teammates may attack the same targets
+| Rule | Limit |
+|------|-------|
+| Warlord | 1 (determines Realm) |
+| Total Points | 1000 |
+| Minimum Cards | 40 |
+| Max Copies | 4 per card |
+| Realm Restriction | All cards must match Warlord's Realm |
 
 ---
 
 ## Quick Reference
 
-### Round Structure
+**Setup:**
+1. Place Warlords face-up, 5 Life Tokens each
+2. Shuffle decks, draw 7 cards (mulligan once)
+3. Each player adds 15 Source Cards (visually distinct) to Source Deck
+4. Shuffle Source Deck
+5. Roll for first turn
 
-1. Draw Source → Divide evenly → First player starts
-2. Turn: Draw Phase → Main Phase → Combat Phase → End Phase
-3. Alternate turns until Source depleted or both pass
-4. Return Source to bag → Shuffle → New round
+**Each Turn:**
+1. Draw 7 Source Cards (face-up in front of you)
+2. Draw 1 card from deck
+3. Take actions (play cards, attack, abilities, Burn)
+4. Discard ALL Source Cards from your pool
+5. End turn
 
-### Source Costs
+**Spending:**
+- Your Source Cards: 1 card = 1 Source
+- Opponent's Source Cards: 2 cards = 1 Source
+- Life Tokens: 1 = 1 Source (costs 2 Warlord Health)
 
-- Pay Source to play cards and activate abilities
-- Leader's Affinity cards cost 1 less
-- Maximum hand size: 7 cards
+**Burn:**
+1. Destroy one of your units (removed from game)
+2. Roll d6 (+1 if unit cost 4+, +2 if cost 6+)
+3. Gain that many Source Cards (max 6)
 
-### Victory
-
-- Destroy enemy Leader (reduce to 0 Health)
-- If deck runs out, you continue with no draws
+**Victory:** Destroy enemy Warlord
 
 ---
 
-*The Flux flows through all things. Channel it. Shape it. Become it.*
+*The Realms collide. Your dice are your life. What are you willing to sacrifice?*
