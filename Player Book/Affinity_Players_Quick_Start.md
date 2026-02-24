@@ -12,12 +12,12 @@ Your class determines how tough you are and what you're good at.
 | Class | Hit Die | In One Sentence |
 |-------|---------|-----------------|
 | **Combatant** | d10 | You fight. You're armored. You hit things hard and don't fall down. |
-| **Priest** | d8 | You channel divine power to heal allies and smite enemies. |
-| **Ranger** | d8 | You survive wilderness and track anything that moves. |
-| **Scholar** | d8 | You know things and use that knowledge as a weapon. |
-| **Sovereign** | d10 | You rely on no one. Self-sufficient, balanced, dangerous. |
 | **Weaver** | d6 | You bend reality. Fragile, but reality is your plaything. |
-| **Shaman** | d6 | You speak to spirits and walk between worlds. |
+| **Ranger** | d8 | You survive wilderness and track anything that moves. |
+| **Scholar** | d8 | You know things and use that knowledge as a weapon. *NOT INCLUDED* |
+| **Sovereign** | d10 | You rely on no one. Self-sufficient, balanced, dangerous. *NOT INCLUDED* |
+| **Priest** | d8 | You channel divine power to heal allies and smite enemies. *NOT INCLUDED* |
+| **Shaman** | d6 | You speak to spirits and walk between worlds. *NOT INCLUDED* |
 
 ### At Level 1, You Have:
 

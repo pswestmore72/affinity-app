@@ -1,0 +1,837 @@
+════════════════════════════════════════════════════════════════════════
+                        AFFINITY: FRACTURE
+                   GAME MASTER'S STARTER GUIDE
+        
+              Running Your First Session with Confidence
+════════════════════════════════════════════════════════════════════════
+
+[NOTE: Cover page - use fractured d10 die illustration, same style as player guide]
+[Typography: Title in Oswald Bold 36pt, subtitle in Crimson Text 14pt italic]
+
+────────────────────────────────────────────────────────────────────────
+PAGE 1 - THE CORE PHILOSOPHY
+────────────────────────────────────────────────────────────────────────
+
+RUNNING AFFINITY
+────────◇────────
+
+Affinity is a risk-attrition system. Players have Hit Dice. They spend them, lose them, and guard them. Your job: create situations where those dice matter.
+
+There are no hit points. When you deal damage, you're destroying dice from dice pools. When an enemy has 5d8 and takes 3 damage, they now have 2d8.
+
+THE CORE TRUTH
+
+Combat is fast. Resources deplete. Characters are fragile but capable.
+
+Your first session should feel:
+• TENSE (dice matter, choices have weight)
+• FAIR (players understand the stakes)
+• REWARDING (success feels earned)
+
+────────◇────────
+QUICK ENCOUNTER BUILDING
+────────◇────────
+
+FOR LEVEL 1 PARTIES (3-5 Players)
+
+[TABLE - use minimal gray with gold accent]
+┌─────────────┬────────────┬──────────────────────────┐
+│ Encounter   │ Total      │ Suggested Composition    │
+│ Type        │ Enemy HD   │                          │
+├─────────────┼────────────┼──────────────────────────┤
+│ Easy        │ 8-12 HD    │ 3-4 Trivial (1-2 HD)    │
+│ Medium      │ 12-18 HD   │ 2-3 Basic (3-5 HD)      │
+│ Hard        │ 18-25 HD   │ 1 Advanced + 2-3 Trivial│
+│ Deadly      │ 25+ HD     │ 1 Advanced (6-10 HD)    │
+│             │            │ + multiple Basic         │
+└─────────────┴────────────┴──────────────────────────┘
+
+ENEMY ACTION BUDGET
+
+[TABLE]
+┌──────────┬─────────┬──────────┬─────────┐
+│ Enemy    │ Actions │ HD Range │ Resolve │
+│ Tier     │         │          │         │
+├──────────┼─────────┼──────────┼─────────┤
+│ Trivial  │ 1       │ 1-2 HD   │ 2       │
+│ Basic    │ 1-2     │ 3-5 HD   │ 2       │
+│ Advanced │ 2       │ 6-10 HD  │ 3       │
+└──────────┴─────────┴──────────┴─────────┘
+
+At Level 1, avoid Expert+ enemies unless you want a very hard fight.
+
+────────────────────────────────────────────────────────────────────────
+PAGE 2 - CREATING ENEMIES
+────────────────────────────────────────────────────────────────────────
+
+THE 30-SECOND NPC
+────────◇────────
+
+Use this template to create quick enemies:
+
+NAME: [Creature type]
+HD: [dice]         (Trivial: 1-2, Basic: 3-5)
+PROF: 1-2          (use 1 for Level 1 content)
+RESOLVE: 2
+ARMOR: [if any]    (2d6 light, 2d8 medium)
+MOVEMENT: 10 yards
+
+ATTACK: [Name] (Basic, 2+)
+- Rolls: 2-3d6 (fixed pool — NPCs don't track exertion)
+- Required: 1 success
+- Base: 1-2 HD damage
+
+SPECIAL: [One unique ability or tactic]
+
+────────◇────────
+
+EXAMPLE ENEMIES FOR LEVEL 1
+
+Goblin Skulker (Trivial)
+HD: 2d6, Prof: 1, Resolve: 2
+Attack: Rusty Dagger (2d6, 1 HD damage)
+Special: Flees at 1 HD remaining and/or 1- Resolve
+
+Orc Raider (Basic)
+HD: 4d8, Prof: 2, Resolve: 2
+Armor: 2d6 (hide scraps)
+Attack: Greataxe (3d6, 2 HD damage)
+Special: +1d6 when below half HD (rage)
+
+Animated Statue (Basic)
+HD: 5d10, Prof: 1, Resolve: 3
+Armor: 2d10 (stone body)
+Attack: Stone Fist (2d6, 2 HD damage)
+Special: Immune to fear/charm
+
+────────────────────────────────────────────────────────────────────────
+PAGE 3 - RUNNING COMBAT
+────────────────────────────────────────────────────────────────────────
+
+COMBAT TURN STRUCTURE
+────────◇────────
+
+1. ROLL INITIATIVE (everyone rolls 3d6, sum the total, highest first)
+   • Range is 3-18; some NPCs roll fewer or more dice
+   • Players CAN exert on initiative (if not surprised)
+   • Ties: highest single die wins, then GM decides
+
+2. EACH TURN: Move (10 yards free) + 2 actions
+
+3. NPCS USE THEIR FIXED DICE POOLS (no exertion tracking)
+
+WHEN NPCS ATTACK
+1. Roll the dice shown in their stat block
+2. Count successes (5+ = 1, 6 = 2)
+3. If they hit, player defends
+
+WHEN NPCS DEFEND
+1. Player declares damage
+2. NPC rolls Proficiency dice using their HD type
+3. 5+ = sustain (die survives), 4- = die destroyed
+4. NPC loses dice from their pool
+
+NPC Simplification: NPCs don't burn HD on 1s. Just roll and move on.
+
+────────◇────────
+DAMAGE AND DEATH
+────────◇────────
+
+WHEN PLAYERS TAKE DAMAGE
+
+1. Attacker declares HD damage
+2. Player rolls defense (1 roll per attack at Prof 1)
+3. 5+ on defense = that die survives, 1 damage cancelled
+4. Failed rolls or excess damage = lose dice from pool (armor first, then body)
+
+AT 0 BODY HD
+
+• Player makes Resolve checks each round
+• 4- = lose 1 Resolve
+• If healed above 0 HD, stops dying
+• At 0 HD AND 0 Resolve = dead
+
+For Session 1: If a player hits 0 HD, let them make one Resolve check, then have allies stabilize them or enemies shift target. Real death can come later when stakes are clear.
+
+────────────────────────────────────────────────────────────────────────
+PAGE 4 - SKILL CHALLENGES
+────────────────────────────────────────────────────────────────────────
+
+RUNNING SKILL CHALLENGES
+────────◇────────
+
+Affinity is a group game. Most skill challenges are resolved as GROUP ROLLS where everyone contributes and successes are pooled.
+
+GROUP ROLL METHOD (Default)
+
+1. Announce the domain: "This is an Agility challenge."
+2. Everyone rolls: Each player rolls Proficiency + any exertion + domain bonuses
+3. Pool successes: Add all successes together
+4. Compare to threshold: Did the group total meet the required successes?
+
+SETTING DIFFICULTY
+
+Find your dice pool (Players × Proficiency), pick a tuple from top (easy) to bottom (hard):
+
+[TABLE - show partial matrix for Level 1]
+┌──────────────┬────────────────────────────────┐
+│ Dice Pool    │ (Threshold, Required Successes)│
+├──────────────┼────────────────────────────────┤
+│ 3 dice       │ (2+, 2) EASY                   │
+│              │ (3+, 2)                        │
+│              │ (4+, 2)                        │
+│              │ (5+, 2) HARD                   │
+├──────────────┼────────────────────────────────┤
+│ 4 dice       │ (3+, 2) EASY                   │
+│              │ (4+, 2)                        │
+│              │ (5+, 2)                        │
+│              │ (6, 2) HARD                    │
+├──────────────┼────────────────────────────────┤
+│ 5 dice       │ (4+, 2) EASY                   │
+│              │ (3+, 3)                        │
+│              │ (5+, 3)                        │
+│              │ (6, 2) HARD                    │
+└──────────────┴────────────────────────────────┘
+
+Pip flavor: 2+ = anyone can help, 5+ = expertise required, 6 = only perfection counts
+
+At Level 1, expect players to exert for harder challenges.
+
+THE EIGHT DOMAINS
+
+[TABLE]
+┌─────────────┬──────────────────────────────────┐
+│ Domain      │ Covers                           │
+├─────────────┼──────────────────────────────────┤
+│ Agility     │ Stealth, acrobatics, movement    │
+│ Awareness   │ Perception, insight, investigation│
+│ Fortitude   │ Endurance, resistance, stamina   │
+│ Wilderness  │ Tracking, foraging, navigation   │
+│ Influence   │ Persuasion, deception, intimidate│
+│ Lore        │ History, arcana, religion        │
+│ Medicine    │ Healing, diagnosis, anatomy      │
+│ Craft       │ Making, repairing, building      │
+└─────────────┴──────────────────────────────────┘
+
+WHEN TO USE INDIVIDUAL ROLLS
+
+• Initiative order actions (each character acts separately)
+• Personal consequences (resisting poison, maintaining concentration)
+• Spotlight moments (one player attempting something only they can do)
+• GM discretion (when the fiction demands individual outcomes)
+
+────────────────────────────────────────────────────────────────────────
+PAGE 5 - THE WINTERMARCH VIGIL (SESSION 1)
+────────────────────────────────────────────────────────────────────────
+
+THE WINTERMARCH VIGIL
+────────◇────────
+A Two-Session Starter Adventure for Level 1
+
+SETTING: The northern frontier town of Coldmarch and the Pale Forest
+
+RECOMMENDED PARTY: 3-4 players, Level 1
+
+PLAYTESTING FOCUS: Basic combat, skill challenges, resource management
+
+────────◇────────
+THE HOOK
+────────◇────────
+
+The party arrives at Coldmarch, a frontier logging town. For the past three weeks, something in the Pale Forest has been killing people and raising them as undead.
+
+• Week 1: Logging crew goes missing (12 people)
+• Week 2: Two scouts disappear on patrol
+• Week 3: Dead loggers seen standing at forest edge, just watching
+
+Captain Eryn Frostfeld, leader of the Winterwatch garrison, sent urgent word calling for capable adventurers. The town's economy depends on lumber. The forest must be made safe.
+
+THE OFFER
+
+• Pay: 50 gold per person (town's defense fund)
+• Duration: Until the threat is ended
+• Risk: "People are dying. You might too."
+
+────────◇────────
+THE WINTERWATCH OATH
+────────◇────────
+
+Upon arrival, Sister Maren (town cleric) conducts a brief blessing ceremony.
+
+READ ALOUD:
+"Valkora watches those who stand in the cold places, who guard the edges of warmth against the darkness. You are not alone in your watch."
+
+Each PC receives a small brand on their palm (painless, glowing faintly)—the Winterwatch torch-and-spear.
+
+BLESSING GRANTED (lasts through adventure):
+
+ALL PARTY MEMBERS:
+• Cold Resistance: Reduce natural cold damage by half
+• Deathwatch: Sense undead within 30 feet (direction/rough distance)
+• Watch Bonfire: When resting at maintained campfire, regain +1d6 HD overnight
+
+────────────────────────────────────────────────────────────────────────
+PAGE 6 - SESSION 1: INTO THE PALE FOREST
+────────────────────────────────────────────────────────────────────────
+
+SESSION 1: INTO THE PALE FOREST
+────────◇────────
+
+SCENE 1: THE BRIEFING
+
+Captain Frostfeld lays out the situation at Coldmarch Lodge:
+
+READ ALOUD:
+"Three weeks ago, Logging Crew #3 went missing—twelve people. We found their camp intact, but they were gone. Then scouts started disappearing. Then the lights started. Blue-white, moving through the forest. Last night, my gate guard saw Garrus—one of the missing loggers—standing at the tree line. Dead. Frozen. Just... watching."
+
+She spreads a crude map:
+
+KEY LOCATIONS:
+1. Scout's Last Position (3 miles northwest): Where missing scouts were last reported
+2. Old Burial Cairn (7 miles northeast): Ancient monument, now glowing blue at night
+
+MISSION: Investigate these sites, find the source, eliminate it.
+
+SUPPLIES PROVIDED:
+• 7 days' rations (cold-weather provisions)
+• 3 healing draughts (restore 1d6 HD each)
+• Alchemical fire (4 vials, for burning undead or signals)
+• Signal horn (if blown, Watch sends reinforcements—takes 2 hours)
+
+────────◇────────
+
+SCENE 2: JOURNEY TO SCOUT'S POSITION
+
+The Pale Forest is oppressive:
+• White-barked trees, covered in frost
+• Visibility: 40 feet due to dense trees and mist
+• Temperature: -10°F (cold but not lethal with proper gear)
+• Unnatural silence
+
+TRAVEL TIME: 3-4 hours
+
+NAVIGATION CHECK (Group Roll, Wilderness domain)
+• Dice Pool: 3-4 (players × Prof 1)
+• Difficulty: (3+, 2) — Moderate
+• Failure: Add +1 hour, trigger random encounter (wolves or 2 Frostbitten Thralls)
+
+PERCEPTION CHECK (Group Roll, Awareness domain)
+• Difficulty: (2+, 2) — Easy
+• Success: Notice tracks in snow — boot prints (stumbling gait), drag marks, all leading NORTH
+
+────────────────────────────────────────────────────────────────────────
+PAGE 7 - SCOUT'S POSITION & FIRST COMBAT
+────────────────────────────────────────────────────────────────────────
+
+SCENE 3: SCOUT'S LAST POSITION
+
+The party finds a small clearing with:
+• Two backpacks (scouts' gear)
+• Cold campfire (abandoned 2+ weeks ago)
+• Blood in snow (frozen, dark)
+• Broken arrows scattered
+
+INVESTIGATION CHECK (Group Roll, Awareness domain)
+• Difficulty: (3+, 2) — Moderate
+• Success: The scouts fought something—multiple attackers from north. They were dragged away northeast (toward Burial Cairn).
+
+CARVED INTO TREE: "NO WARMTH HERE. ONLY COLD FOREVER."
+
+────────◇────────
+ENCOUNTER 1: FROSTBITTEN SCOUTS
+────────◇────────
+
+The two missing scouts emerge from trees—now undead, frost covering bodies, eyes glowing pale blue.
+
+SETUP:
+• 2 Frostbitten Scouts (see stat block page 12)
+• Terrain: Forest clearing, scattered trees (light cover)
+• Weather: Snow begins falling (reduces visibility slightly)
+
+TACTICS:
+• Fight with eerie coordination
+• Try to surround targets
+• Don't flee (undead, no survival instinct)
+
+AFTER COMBAT:
+
+If party searches bodies:
+• Scout Lyanna's journal (last entry):
+  "Something at the Cairn. We heard chanting. Saw a figure in robes. Blue light everywhere. Couldn't move. So cold. Can't feel my..."
+• Silver holy symbol (Valkora's torch, worth 10g, can be returned to town)
+• Masterwork shortswords (can be kept or returned)
+
+BURNING BODIES: Takes 10 minutes and requires fire (alchemical vials or magic). If not burned, they rise again in 1d6 hours.
+
+────────────────────────────────────────────────────────────────────────
+PAGE 8 - THE BURIAL CAIRN
+────────────────────────────────────────────────────────────────────────
+
+SCENE 4: THE BURIAL CAIRN
+
+Following tracks northeast, 2 hours travel. Party reaches Old Burial Cairn:
+
+THE CAIRN:
+• Ancient stone monument (20 feet tall, stacked stones)
+• Covered in frost and ice
+• Glowing with blue-white light (clearly magical)
+• Circle of frozen corpses around base (12 bodies—missing loggers + scouts)
+
+ATMOSPHERE:
+• Extremely cold here (feels like -30°F within 50 feet)
+• No sound—even wind is silent
+• Faint chanting audible (no words, just tones)
+
+PERCEPTION CHECK (Group Roll, Awareness)
+• Difficulty: (3+, 2)
+• Success: The cairn's top stone has been REPLACED—dark blue crystal, carved with symbols
+
+LORE CHECK (Individual, Lore domain)
+• Difficulty: Expert (4+), need 3 successes
+• Success: This is a Frost Focus—a necromantic ritual device that channels cold energy to raise and sustain undead. The crystal is the key—destroy it, undead lose animating force.
+
+────────◇────────
+ENCOUNTER 2: THE FROZEN DEAD
+────────◇────────
+
+When party approaches within 30 feet, the 12 corpses RISE.
+
+SETUP:
+• 8 Frostbitten Thralls (minions, see stat block page 13)
+• 1 Frostbitten Logger Elite (Garrus, the foreman, see stat block page 13)
+• Cairn in center (can be climbed, Athletics Moderate 3+)
+• Frozen ground (slippery terrain)
+
+FROST FOCUS CRYSTAL (Object):
+• HP: 15 (destroyed when reduced to 0)
+• Defense: None (object doesn't defend)
+• Location: Top of cairn (must climb to reach)
+• Effect: While intact, Frostbitten within 100 feet regenerate 1 HD per round
+
+OBJECTIVE: Destroy the crystal
+
+TACTICS:
+• Thralls swarm party
+• Elite Logger guards cairn
+• Party must either: destroy all undead THEN crystal, OR have someone climb and destroy crystal while others hold the line
+
+When crystal is destroyed:
+• It shatters with sound like breaking ice
+• Blue light fades
+• All Frostbitten IMMEDIATELY collapse (no longer animated)
+• Unnatural cold lifts slightly
+
+────────────────────────────────────────────────────────────────────────
+PAGE 9 - SESSION 1 CONCLUSION & SESSION 2 SETUP
+────────────────────────────────────────────────────────────────────────
+
+AFTERMATH OF CAIRN BATTLE
+
+Searching the area reveals:
+• A leather-bound journal hidden in cairn's base (requires thorough search, Awareness Expert 4+)
+• Journal belongs to Thane Coldbrook—a name locals might recognize (Lore/History Moderate 3+): a hedge wizard exiled from Coldmarch 10 years ago for "dark research"
+
+JOURNAL EXCERPTS (read to players):
+
+"They cast me out for seeking preservation. Fools. They don't understand—cold preserves life. Cold SUSPENDS death. If I master frost, I create servants who never tire, never hunger, never die."
+
+"The Frost Focus works. The dead rise at my command. But I need more power. The Cairn is only the first anchor. The second must be deeper. The Pale Heart calls."
+
+"Once both anchors are set, the entire forest will be mine. Let them see what preservation truly means."
+
+────────◇────────
+
+THE PALE HEART: The journal mentions "the Pale Heart"—the darkest, coldest part of the forest, rarely traveled. 12 miles north of the cairn.
+
+Captain Frostfeld (if contacted via signal horn or return to town):
+"Thane Coldbrook? I thought he was dead. If he's built another Frost Focus deeper in the forest, we need to end this before he finishes whatever he's planning. Can you go deeper?"
+
+────────◇────────
+SESSION 1 END
+────────◇────────
+
+GOOD STOPPING POINT: Party has cleared the cairn, discovered the villain's identity, and learned there's a second site deeper in the forest.
+
+AWARD XP: 100-150 XP each (adequate for first session of play)
+
+Players should feel:
+• Successful (cleared immediate threat)
+• Curious (who is Thane? What is the Pale Heart?)
+• Cautious (resources spent, deeper danger ahead)
+
+────────────────────────────────────────────────────────────────────────
+PAGE 10 - SESSION 2: THE PALE HEART
+────────────────────────────────────────────────────────────────────────
+
+SESSION 2: THE PALE HEART
+────────◇────────
+
+SCENE 1: JOURNEY DEEPER
+
+The party ventures 12 miles north into the darkest part of the Pale Forest.
+
+THE PALE HEART:
+• Trees grow twisted, bark is blackened with frost
+• Temperature drops to -20°F (genuinely dangerous without Winterwatch blessing)
+• Blue lights flicker between trees
+• Visibility reduced to 20 feet
+
+NAVIGATION CHECK (Group Roll, Wilderness)
+• Difficulty: (4+, 2) — Hard (treacherous terrain)
+• Failure: Lost for 2 hours, encounter 3 Frostbitten Thralls
+
+────────◇────────
+
+SCENE 2: THE SECOND FROST FOCUS
+
+Party finds a clearing with a LARGER cairn (30 feet tall), covered in ice sculptures—frozen corpses arranged artistically.
+
+At the base: Thane Coldbrook himself, working on ritual preparations.
+
+READ ALOUD:
+"A figure in frost-covered robes kneels before the cairn. His hands glow with blue light as he carves symbols into the frozen ground. He doesn't look up as you approach. 'I wondered if they'd send someone capable. The Watch has grown soft—but you... you survived the outer anchor. Impressive.'"
+
+────────◇────────
+THANE COLDBROOK'S OFFER
+────────◇────────
+
+Thane is willing to talk (briefly):
+
+"I don't want to kill you. I want the forest. Nothing more. Leave now, and I'll let you walk away. Stay, and you'll join my preserved gallery. Choose quickly—the second anchor completes in minutes."
+
+SOCIAL CONFRONTATION OPTIONS:
+
+INFLUENCE CHECK (to persuade him to stop)
+• Difficulty: Legendary (5+), need 4 successes
+• Likely failure—he's committed to his path
+
+LORE CHECK (to identify ritual weakness)
+• Difficulty: Expert (4+), need 3 successes
+• Success: The ritual isn't complete yet. Destroying the crystal NOW will cause backlash—Thane loses 3 HD and ritual fails permanently.
+
+────────────────────────────────────────────────────────────────────────
+PAGE 11 - FINAL ENCOUNTER
+────────────────────────────────────────────────────────────────────────
+
+ENCOUNTER 3: THANE COLDBROOK & THE FROZEN GALLERY
+────────◇────────
+
+SETUP:
+• Thane Coldbrook (see stat block page 14)
+• 4 Frostbitten Thralls (bodyguards)
+• Frost Focus Crystal (30 feet up cairn, HP 20)
+• Frozen sculptures animate if party gets within 10 feet (2 Ice Wraiths, see stat block page 14)
+
+TERRAIN:
+• Cairn in center (climbable, Athletics Hard 4+)
+• Frozen ground (difficult terrain)
+• Ice sculptures (provide hard cover but animate if approached)
+
+THANE'S TACTICS:
+• Stays near cairn base
+• Uses Cold Bolt to attack from range
+• If threatened, casts Frost Wall to block approach
+• If reduced to half HD, attempts to flee deeper into forest
+
+OBJECTIVE OPTIONS:
+1. Kill Thane (simplest)
+2. Destroy crystal (ends ritual, weakens Thane)
+3. Both
+
+VICTORY CONDITION: Thane dead OR crystal destroyed + Thane driven off
+
+────────◇────────
+AFTERMATH
+────────◇────────
+
+When Thane is defeated:
+• Second Frost Focus shatters
+• All undead in forest collapse
+• Unnatural cold begins to fade (will take days)
+• Blue lights extinguish
+
+TREASURE:
+• Thane's spellbook (contains 3 Arcane spells of GM's choice)
+• Frost Focus crystal shards (worth 50g to alchemist/sage)
+• Ritual notes (can be returned to Sister Maren for study)
+
+────────◇────────
+RETURN TO COLDMARCH
+────────◇────────
+
+Captain Frostfeld greets party at gate:
+
+"You did it. The scouts at the north edge say the lights are gone. The cold is lifting. The forest will be safe again."
+
+REWARDS:
+• 50 gold each (as promised)
+• Winterwatch badge (permanent, grants +1d6 to social checks in northern settlements)
+• Sister Maren's blessing (one free resurrection if player dies within next year—GM's discretion)
+• Town's gratitude (free lodging, crafting services at cost)
+
+AWARD XP: 150-200 XP each (total 250-350 for both sessions, enough to approach Level 2)
+
+────────◇────────
+CAMPAIGN HOOKS (Optional)
+────────◇────────
+
+• Thane's journal mentions a mentor who taught him the Frost Focus ritual
+• One of the frozen corpses was carrying a message to someone in the capital
+• The Pale Forest's magical corruption attracted something ELSE that still lurks
+
+────────────────────────────────────────────────────────────────────────
+PAGE 12-13 - ENEMY STAT BLOCKS
+────────────────────────────────────────────────────────────────────────
+
+ENEMY STAT BLOCKS
+────────◇────────
+
+FROSTBITTEN SCOUT (Basic Undead)
+────────────────────────────────
+HD: 5d8
+Proficiency: 1
+Resolve: — (undead, immune)
+Speed: 30 feet
+Armor: None (former light armor destroyed)
+
+ATTACK: Frozen Shortsword (Light, Basic)
+• Rolls: 2d6
+• Required: 1 success
+• Damage: 1 HD cold + special
+• Special: On hit, target must succeed Fortitude Save (Basic, 2+) or become Chilled (disadvantage -1d6 on next attack roll)
+
+SPECIAL ABILITIES:
+• Frost Aura: Creatures within 5 feet take 1 cold damage per round (automatic, minor attrition)
+• Undead Fortitude: Immune to cold, poison, charm, fear
+• Vulnerability: Fire damage deals +1d6
+
+TACTICS: Fight with eerie coordination, try to surround targets, never flee
+
+────────────────────────────────────────────────────────────────────────
+
+FROSTBITTEN THRALL (Trivial Undead, Minion)
+────────────────────────────────
+HD: 4d8 (weak)
+Proficiency: 1
+Resolve: — (undead)
+Speed: 20 feet (slow, shambling)
+Armor: None
+
+ATTACK: Frozen Claws (Light, Basic)
+• Rolls: 2d6
+• Required: 1 success
+• Damage: 1 HD cold
+• Special: Chilling effect (as Frostbitten Scout)
+
+SPECIAL ABILITIES:
+• Undead Fortitude: Immune to cold, poison, charm, fear
+• Mindless: Cannot be reasoned with, frightened, or controlled
+• Vulnerability: Fire damage deals +1d6
+
+TACTICS: Mindless swarm, slow approach, prioritize nearest target
+
+────────────────────────────────────────────────────────────────────────
+
+FROSTBITTEN LOGGER (Elite Undead)
+────────────────────────────────
+HD: 8d8
+Proficiency: 2
+Resolve: — (undead)
+Speed: 30 feet
+Armor: 2d6 (frozen hide)
+
+ATTACK: Frozen Axe (Heavy, Basic)
+• Rolls: 3d6
+• Required: 1 success
+• Damage: 2 HD cold
+
+SPECIAL ABILITIES:
+• Frost Breath (1/combat, action, 15-foot cone)
+  - Rolls: 3d6 vs Reflex save (Basic, 2+)
+  - Damage: 2d6 cold (half on save success)
+• Undead Fortitude: Immune to cold, poison, charm, fear
+• Remnant Skill: Retains some logger combat training—can flank, use tactics
+• Vulnerability: Fire damage deals +1d6
+
+TACTICS: Guards important locations, targets strongest-looking PC, uses Frost Breath when multiple targets clustered
+
+────────────────────────────────────────────────────────────────────────
+PAGE 14 - BOSS STAT BLOCKS
+────────────────────────────────────────────────────────────────────────
+
+THANE COLDBROOK (Advanced Enemy, Necromancer)
+────────────────────────────────
+HD: 10d6
+Proficiency: 3
+Resolve: 4
+Speed: 30 feet
+Armor: 2d6 (frost-infused robes)
+
+ATTACK: Cold Bolt (Ranged, Basic)
+• Range: 60 yards
+• Rolls: 4d6
+• Required: 1 success
+• Damage: 2 HD cold + special
+• Special: Target Fortitude save (Moderate, 3+) or slowed (movement halved) for 1 round
+
+SPELLS & ABILITIES:
+
+Frost Wall (Advanced, 3+, action)
+• 20-foot wall of ice, blocks line of sight and movement
+• HP 10, can be destroyed
+• Lasts Proficiency rounds
+• Usable 2/combat
+
+Raise Thrall (Advanced, 3+, action)
+• Target: One corpse within 30 yards
+• Raises as Frostbitten Thrall (see stat block)
+• Thrall acts immediately on Thane's turn
+• Usable 3/combat
+
+Frost Nova (Expert, 4+, action, desperate move)
+• 20-yard radius burst centered on self
+• All creatures: 3 HD cold damage
+• Reflex save (Moderate, 3+) for half
+• Thane loses 2 HD using this (backlash)
+• Usable 1/combat
+
+SPECIAL ABILITIES:
+• Cold Mastery: Immune to cold damage, resistance to fire (halve damage)
+• Necromantic Focus: +2d6 when animating or commanding undead
+• Ritual Anchor: While Frost Focus crystal intact, regenerate 1 HD per round
+
+TACTICS:
+• Stays at range, uses Cold Bolt
+• Raises Thralls to create barriers
+• Uses Frost Wall if party closes distance
+• At half HD or less: attempts Frost Nova then flees
+• Will negotiate if clearly losing
+
+────────────────────────────────────────────────────────────────────────
+
+ICE WRAITH (Basic Undead, Animated Sculpture)
+────────────────────────────────
+HD: 6d8
+Proficiency: 2
+Resolve: — (undead)
+Speed: 40 feet (flies/glides)
+Armor: None (incorporeal)
+
+ATTACK: Chilling Touch (Light, Basic)
+• Rolls: 3d6
+• Required: 1 success
+• Damage: 1 HD cold + 1 Resolve damage
+
+SPECIAL ABILITIES:
+• Incorporeal: Physical attacks deal half damage (round down)
+• Magic vulnerability: Magical attacks deal +1d6
+• Frost Glide: Can move through solid objects briefly
+• Death Wail (1/combat, action, when reduced to 3 HD or less)
+  - 30-yard radius
+  - All creatures: Resolve check (Moderate, 3+) or lose 1 Resolve
+  - Audible for miles
+
+TACTICS: Glide through obstacles, prioritize spellcasters, use Death Wail when bloodied
+
+────────────────────────────────────────────────────────────────────────
+PAGE 15 - QUICK REFERENCE
+────────────────────────────────────────────────────────────────────────
+
+GM QUICK REFERENCE
+────────◇────────
+
+SUCCESS THRESHOLDS
+
+[TABLE]
+┌──────────┬──────────┐
+│ Roll     │ Result   │
+├──────────┼──────────┤
+│ 1-4      │ Fail     │
+│ 5        │ 1 success│
+│ 6        │ 2 success│
+│ 1 (exert)│ Lose 1 HD│
+└──────────┴──────────┘
+
+DEFENSE SUCCESS RATE
+
+[TABLE]
+┌──────┬──────────────┐
+│ Die  │ Chance of 5+ │
+├──────┼──────────────┤
+│ d4   │ 0%           │
+│ d6   │ 33%          │
+│ d8   │ 50%          │
+│ d10  │ 60%          │
+│ d12  │ 67%          │
+└──────┴──────────────┘
+
+LEVEL 1 CHARACTER STATS
+
+Proficiency: 1
+Resolve: 5
+Defense Capacity: 1
+Actions: 2 per turn
+Movement: 10 yards
+Exertion cap: 1 per action
+
+EMERGENCY GM FIXES
+────────◇────────
+
+Fight too easy?
+• Add reinforcements
+• Give enemies +1d6 to attacks
+• NPC uses desperate move
+
+Fight too hard?
+• Enemies flee at half HP
+• Reinforcements arrive (for players)
+• Environmental effect ends fight early
+
+Player confused?
+• "Roll d6s. Count 5s and 6s."
+• "When hit, roll defense. 5+ = die survives."
+
+Player at 0 HD?
+• Make Resolve check (4- = lose Resolve, 5+ = hold)
+• Stabilize action from ally stops spiral
+• Don't kill players in Session 1 unless earned
+
+────────────────────────────────────────────────────────────────────────
+SESSION 1 CHECKLIST
+────────◇────────
+
+BEFORE SESSION:
+□ Read both session outlines
+□ Print/note enemy stat blocks
+□ Have dice ready (d6s, polyhedral set)
+□ Print Quick Reference for players
+□ Prepare Wintermarch map (simple sketch is fine)
+
+DURING SESSION:
+□ Explain: "No hit points—you have dice that get destroyed"
+□ Remind: "Roll d6s, 5+ is success, 6 is two"
+□ On defense: "Roll one die, 5+ saves it, otherwise lose it"
+□ Keep fights short (3-4 rounds at Level 1)
+
+AFTER SESSION:
+□ Award XP (100-300 for Level 1)
+□ Note what worked/didn't
+□ Plan Session 2 if continuing
+
+────────────────────────────────────────────────────────────────────────
+
+[NOTE: Back cover - include encounter difficulty table again as reference]
+
+You're Ready to Run
+
+Trust the dice. Trust your players. The system is forgiving at Level 1—
+small dice pools mean combat is fast, one defense roll per attack keeps 
+it simple, and NPCs with 2-5 HD don't last long.
+
+Welcome to GMing Affinity.
+
+════════════════════════════════════════════════════════════════════════
+                         END OF GAME MASTER'S GUIDE
+════════════════════════════════════════════════════════════════════════
+
+[Total: 15 pages including cover and back cover]

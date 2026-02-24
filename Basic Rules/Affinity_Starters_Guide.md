@@ -19,18 +19,45 @@ You don't subtract points. You lose DICE.
 
 ## How to Roll
 
-**Action rolls use d6 dice pools.** You roll several d6s and count successes.
-*It is recommended to have multiple d6s to play with and to have at least two different colors*
+There are two types of rolls in Affinity: **Action Rolls** and **Defense Rolls**.
 
-*(Defense rolls use your armor/body die type—d6, d8, d10, d12—but the 5+ = success rule stays the same.)*
+*It is recommended to have multiple d6s (at least two colors) plus a set of polyhedral dice (d4, d8, d10, d12, d20).*
 
-| You Roll for an Action | What It Means |
-|----------|---------------|
-| **5** | 1 success |
-| **6** | 2 successes (Explosive!) |
-| **1-4** | Nothing (but see Exertion below) |
+### Action Rolls (d6 Dice Pools)
 
-**Example:** Roll 3d6, get 6, 5, 2 → That's 3 successes (2+1+0).
+When you attack, cast spells, or use abilities, roll **d6s** and count successes.
+
+**The threshold depends on the action's tier:**
+
+| Action Tier | Success Threshold | What Counts |
+|-------------|-------------------|-------------|
+| **Basic** | 2+ | 2, 3, 4, 5 = 1 success; 6 = 2 successes |
+| **Advanced** | 3+ | 3, 4, 5 = 1 success; 6 = 2 successes |
+| **Expert** | 4+ | 4, 5 = 1 success; 6 = 2 successes |
+| **Legendary** | 5+ | 5 = 1 success; 6 = 2 successes |
+
+**At Level 1, most actions are Basic (2+).** A roll of 6 always counts as 2 successes.
+
+**Example:** Basic attack, roll 3d6, get 6, 3, 2 → That's 4 successes (2+1+1).
+
+### Defense Rolls (Armor/Body Dice)
+
+When you defend, roll **your actual armor or body dice** (d6, d8, d10, d12, etc.).
+
+**Defense always uses the same threshold: 5+**
+
+| You Roll | Result |
+|----------|--------|
+| **5+** | Success — die survives, 1 damage cancelled |
+| **1-4** | Fail — that die is destroyed |
+
+**Larger dice survive better:**
+- d6: 33% chance (5-6)
+- d8: 50% chance (5-8)
+- d10: 60% chance (5-10)
+- d12: 67% chance (5-12)
+
+**Example:** You have 2d8 armor. Take 2 damage, roll both → 7, 3 → One survives (7 ≥ 5), one destroyed (3 < 5). You now have 1d8 armor.
 
 ---
 
@@ -38,17 +65,17 @@ You don't subtract points. You lose DICE.
 
 Every action in Affinity follows this pattern:
 
-1. **Declare what you're doing**
-2. **Roll your dice** (usually Proficiency dice, sometimes more)
-3. **Count successes** (5+ = 1, 6 = 2)
-4. **Check threshold** (did you meet the minimum and required successes?)
+1. **Declare what you're doing** (and its tier — usually Basic at L1)
+2. **Roll your d6s** (Proficiency dice + any exertion)
+3. **Count successes** (based on the action's threshold)
+4. **Check requirements** (did you meet the required successes?)
 5. **Apply effect**
 
 ### At Level 1
 
-- **Proficiency = 1** (you roll 1d6 for most things)
-- **Basic actions need:** 2+ threshold, 1 success required
-- **That's it.** Roll 1d6, if you get 2+, you succeed with 1 success.
+- **Proficiency = 1** (you roll 1d6 for most actions)
+- **Most actions are Basic:** 2+ threshold, need 1 success
+- **That's it.** Roll 1d6, get 2+ = you succeed.
 
 ---
 
@@ -89,10 +116,10 @@ At Level 1 (Proficiency 1): You can exert 1 extra die per action.
 **At Level 1:** Roll 1-2d6. Get any 2+. Deal base weapon damage + bonus.
 
 **Example:**
-- Attacking with a sword (Base 1 HD damage)
+- Attacking with a sword (Base 1 HD damage, Basic tier = 2+ threshold)
 - Roll 2d6 (Prof 1 + Exert 1), get 5, 3
-- 1 success at 5 → hit for 1 HD damage
-- If you'd rolled 6, 5 → 3 successes → 1 base + 1 bonus (capped at Prof 1) = 2 HD damage
+- Both are 2+ → 2 successes → hit for 1 base + 1 bonus (capped at Prof 1) = 2 HD damage
+- If you'd rolled 6, 4 → 3 successes (2+1) → still capped at 2 HD damage at Level 1
 
 ---
 
