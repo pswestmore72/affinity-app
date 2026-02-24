@@ -345,6 +345,10 @@ These represent:
 
 Only exertion dice burn HD on 1s. Proficiency is reliable.
 
+### Help Action
+
+With any action you may choose to help an ally, you may give your Roll (Proficiency Dice + Exertion Dice) to their next roll. This cannot be stored by the recipient and must be used on their next roll.
+
 ---
 
 ## Exertion Dice
