@@ -8,7 +8,7 @@ Unlike physical actions, spells also have additional gates:
 - **Knowledge Gate:** Must learn the spell (see Spell Learning below)
 - **Preparation Gate:** Must prepare it during rest (limited slots)
 - **Exertion Gate:** Must commit minimum exertion based on tier
-- **Explicit Costs:** Some powerful spells explicitly burn HD or Resolve beyond exertion risk
+- **Explicit Costs:** Some powerful spells explicitly burn HD or advance Resolve Threshold beyond exertion risk
 
 **There are no material components to track, buy, or craft.** Component requirements are narrative flavor, not mechanical tracking. If a spell conceptually requires "moonlit water" or "sacred incense," the GM can make that a quest hook or ritual requirement, but it's not a consumable resource.
 
@@ -17,7 +17,7 @@ Unlike physical actions, spells also have additional gates:
 Your system already has spell cost built in:
 - Basic/Advanced spells: Risk HD burn on 1s (organic cost)
 - Expert+ spells: Require minimum exertion (guaranteed commitment)
-- Legendary/Ultimate spells: Explicitly cost Resolve or HD (permanent consequences)
+- Legendary/Ultimate spells: Explicitly advance Resolve Threshold or cost HD (permanent consequences)
 
 Adding gold-based components would create a "shopping trip tax" that competes with your core HD attrition economy. **Commitment should cost health, not coin.**
 
@@ -68,7 +68,7 @@ Instead, spellcasting uses:
 - Social magic for long-term effects (charm, illusion, persuasion enhancement)
 
 **Why This Matters:**
-- Conserves HD/Resolve for combat
+- Conserves HD/Resolve Threshold for combat
 - Encourages creative non-combat spell use
 - Rewards preparation and planning
 - Makes casters feel versatile without being resource-starved
@@ -226,7 +226,7 @@ Each spell defines:
 - **You fail a Resolve check for any reason** (see Resolve section in Core Mechanics for triggers)
 - You voluntarily end it (free action)
 
-**Note:** Resolve checks are 1d6 (need 5+ to succeed), maximum 1 per round even if multiple triggers occur. Any failed Resolve check while concentrating ends the effect immediately.
+**Note:** Resolve checks are 1d6 vs your current Resolve Threshold (need to roll at or above it to pass), maximum 1 per round even if multiple triggers occur. Any failed Resolve check while concentrating ends the effect immediately.
 
 ### Spell Duration Types
 
@@ -269,11 +269,11 @@ Some powerful spells don't just cost Exertion—they extract deeper prices.
 
 **Spells may explicitly cost:**
 - **HD:** Spell burns Hit Dice as part of its casting (separate from exertion burn)
-- **Resolve:** Spell drains mental stamina or causes you to lose Resolve
+- **Resolve:** Spell drains mental stamina or advances your Resolve Threshold
 
 These costs are **in addition to** normal exertion risks and are listed in the spell's description.
 
-Example: *Power Word Kill* might require 4 successes (Ultimate tier), 3+ exertion dice, AND cost 2 Resolve to cast—representing the mental strain of commanding death itself.
+Example: *Power Word Kill* might require 4 successes (Ultimate tier), 3+ exertion dice, AND advance RT by 2 to cast—representing the mental strain of commanding death itself.
 
 ---
 
@@ -311,15 +311,15 @@ You see reality's code. Every spell is an act of cosmic literacy. You are the mo
 - **Spell Limitation:** Cannot cast Ultimate tier spells (that belongs to Weavers)
 
 **Power Words (Class Abilities, NOT Spells):**  
-Priests have **Power Words**—direct invocations of cosmic powers that function as class abilities with Resolve costs and usage limits:
-- **Power Word: Endure** (Level 1): Restore HD to allies, costs Resolve
-- **Power Word: Smite** (Level 1): Advanced (3+) attack dealing Proficiency HD (or Prof × 2 vs opposed creatures), costs 1 Resolve, usable Prof times per short rest
+Priests have **Power Words**—direct invocations of cosmic powers that function as class abilities with RT costs and usage limits:
+- **Power Word: Endure** (Level 1): Restore HD to allies, advances RT
+- **Power Word: Smite** (Level 1): Advanced (3+) attack dealing Proficiency HD (or Prof × 2 vs opposed creatures), advances RT by 1, usable Prof times per short rest
 - **Power Word: Sanctify** (Level 3): Expert (4+) zone control with domain-aligned benefits
-- **Power Word: Transcend** (Level 5): Expert (4+) empowerment of self/ally, costs 2 Resolve
-- **Power Word: Annihilate** (Level 5): Expert (4+) devastating single-target attack, costs 3 Resolve
+- **Power Word: Transcend** (Level 5): Expert (4+) empowerment of self/ally, advances RT by 2
+- **Power Word: Annihilate** (Level 5): Expert (4+) devastating single-target attack, advances RT by 3
 
 **Priest Magic Philosophy:**  
-Your magic is twofold: **Limited Spellcasting** (prayers and rituals using normal spell mechanics) and **Power Words** (class abilities fueled by Resolve that bypass spell preparation). You are focused—narrower than a Weaver's versatility, but aligned with greater cosmic purpose. Your convictions have weight.
+Your magic is twofold: **Limited Spellcasting** (prayers and rituals using normal spell mechanics) and **Power Words** (class abilities fueled by Resolve Threshold sacrifice that bypass spell preparation). You are focused—narrower than a Weaver's versatility, but aligned with greater cosmic purpose. Your convictions have weight.
 
 ---
 

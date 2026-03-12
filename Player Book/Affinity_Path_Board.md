@@ -557,7 +557,7 @@ Your system has:
 Feats should work **with** these systems, creating interesting **choices about when to commit**, not making commitment safer or stronger.
 
 **Good Feat Examples:**
-- "When at 0 Resolve, first Resolve check each scene gains +1d6" (changes desperation behavior)
+- "When at RT 6 (Staggering), first Resolve check each scene gains +1d6" (changes desperation behavior)
 - "After succeeding at Expert threshold, gain +1d6 on next social check same scene" (cross-system reward)
 - "When defending an ally within 5 yards, you may redirect attack to yourself as free action" (tactical choice)
 
@@ -1053,10 +1053,10 @@ Your body and will refuse to quit.
 
 **Benefit:**
 - Maximum HD increases by +2 (flat, does not scale with level)
-- When making Resolve checks, succeed on 4+ instead of 5+
+- When making Resolve checks, succeed on one lower than your current Threshold (e.g., at RT 3, succeed on 2+)
 - Once per short rest: **Grit** (reaction)—when you would drop to 0 HD, remain at 1 HD instead
 
-**Design Note:** The flat +2 HD (not scaling) sets your foundation. Deep Reserves handles the growth. Grit + Resolve 4+ together define the "cannot be broken" fantasy without inflating math.
+**Design Note:** The flat +2 HD (not scaling) sets your foundation. Deep Reserves handles the growth. Grit + easier Resolve checks together define the "cannot be broken" fantasy without inflating math.
 
 **Connects to:** `Second Wind` • `Fortified Will` • `Pain Tolerance` • `Stubborn`
 
@@ -1338,7 +1338,7 @@ You are the anchor that steadies your companions.
 - Once per short rest: **Steady Hands**—touch ally to grant them +1d6 on their next roll. You offer comfort and confidence.
 - **Sanctuary Presence**: Allies taking a short rest within 10 yards of you restore an additional +1d6 HD. Your presence is calming.
 
-**Proficiency 3+ Milestone:** Sanctuary Presence extends to 20 yards. Steady Hands can now also remove the Shaken condition (restore an ally from Resolve 3 to Resolve 4) once per long rest. Your care reaches further and deeper.
+**Proficiency 3+ Milestone:** Sanctuary Presence extends to 20 yards. Steady Hands can now also remove the Shaken condition (lower an ally's RT from 4 to 3) once per long rest. Your care reaches further and deeper.
 
 **Connects to:** `Field Medic` • `Calming Words` • `Protective Instinct` • `Healer's Touch`
 
@@ -1801,9 +1801,9 @@ You have forged yourself through discipline rather than destiny. No patron, no c
 #### Iron Focus
 **Prerequisite:** `Self-Made`
 
-**Benefit:** Once per encounter, declare **"I will not be distracted."** You are immune to Resolve loss from failed Expert+ difficulty actions for 1 round. Additionally, you cannot be taunted, goaded, or socially manipulated into breaking concentration during this round. Your focus is absolute.
+**Benefit:** Once per encounter, declare **"I will not be distracted."** You are immune to RT advancement from failed Expert+ difficulty actions for 1 round. Additionally, you cannot be taunted, goaded, or socially manipulated into breaking concentration during this round. Your focus is absolute.
 
-**Design Note:** Resolve loss from hard failures is a major risk in Affinity. Immunity for 1 round encourages attempting risky actions you'd normally avoid — perfect for clutch moments.
+**Design Note:** RT advancement from hard failures is a major risk in Affinity. Immunity for 1 round encourages attempting risky actions you'd normally avoid — perfect for clutch moments.
 
 **Connects to:** `Self-Made` • `Laser Focus` → `War-Trained` • `Tactical Mind`
 
@@ -1834,9 +1834,9 @@ You have forged yourself through discipline rather than destiny. No patron, no c
 #### Unbroken
 **Prerequisite:** `Self-Made`
 
-**Benefit:** When you lose Resolve and drop to a new Resolve stage (any stage), gain +1d6 on your next action. Pressure sharpens you rather than breaking you. Describe how you grit through the setback.
+**Benefit:** When your Resolve Threshold advances to a new stage (any stage), gain +1d6 on your next action. Pressure sharpens you rather than breaking you. Describe how you grit through the setback.
 
-**Design Note:** The Resolve spiral is Affinity's death spiral — this feat pushes back against it. You're still losing Resolve, but you get a brief burst of defiance. Pairs perfectly with the Resilience Focus tree.
+**Design Note:** The Resolve spiral is Affinity's escalating spiral — this feat pushes back against it. Your RT is still advancing, but you get a brief burst of defiance. Pairs perfectly with the Resilience Focus tree.
 
 **Connects to:** `Self-Made` • `Tempered` → `Unyielding` • `Virtue-Bound`
 
@@ -1878,9 +1878,9 @@ You have forged yourself through discipline rather than destiny. No patron, no c
 #### Tempered
 **Prerequisite:** `Unbroken`
 
-**Benefit:** When at Resolve 2 or lower, gain +2d6 on all actions until end of your next turn (doesn't burn HD on 1s). You become more dangerous the closer you are to breaking. Additionally, the first time each encounter you would drop to Resolve 0, you instead remain at Resolve 1 — you *refuse* to break.
+**Benefit:** When at Resolve Threshold 5 or higher, gain +2d6 on all actions until end of your next turn (doesn't burn HD on 1s). You become more dangerous the closer you are to breaking. Additionally, the first time each encounter you would Collapse (fail at RT 6), you instead remain at RT 6 (Staggering) — you *refuse* to break.
 
-**Design Note:** The Resolve 0 save is once per encounter and doesn't prevent subsequent drops. This creates the dramatic "last stand" moment where the battered hero delivers their greatest performance. Pairs with Unyielding's Grit for a double-safety net that still requires investment.
+**Design Note:** The Collapse save is once per encounter and doesn't prevent subsequent Collapses. This creates the dramatic "last stand" moment where the battered hero delivers their greatest performance. Pairs with Unyielding's Grit for a double-safety net that still requires investment.
 
 **Connects to:** `Unbroken` → `Unyielding` • `Virtue-Bound` • `Pain Tolerance`
 
@@ -1945,10 +1945,10 @@ Bridge Resonance rewards cross-pathing with something more than the sum of indiv
 | `Investigator` ↔ `Tracker's Eye` | Your investigation and tracking time is halved |
 | `Shadow Step` ↔ `Phase Step` | Your teleportation range increases by 10 yards (both abilities) |
 | `Cultural Adapter` ↔ `Charming` | You never suffer social penalties for being a foreigner or outsider |
-| `Iron Focus` ↔ `Tactical Mind` | When you use Iron Focus, one ally within 10 yards also ignores Resolve loss from failed Expert+ actions for 1 round |
+| `Iron Focus` ↔ `Tactical Mind` | When you use Iron Focus, one ally within 10 yards also ignores RT advancement from failed Expert+ actions for 1 round |
 | `Efficient Action` ↔ `Craftsman` | Items you craft during downtime take 25% less time |
 | `Lone Wolf` ↔ `Ghost Walk` | While alone, you also cannot be tracked by scent or magic below Expert difficulty |
-| `Tempered` ↔ `Pain Tolerance` | At Resolve 2 or lower, wound penalties are halved |
+| `Tempered` ↔ `Pain Tolerance` | At Resolve Threshold 5+, wound penalties are halved |
 
 **Design Note:** Bridge Resonance bonuses are intentionally small — they're the "click" of two puzzle pieces fitting together, not a third feat's worth of power. They should make players smile, not break math.
 
@@ -2041,7 +2041,7 @@ Discipline Mastery is not a feat choice — it activates automatically the momen
 - L6: `Tempered` (cross to Resilience—more dangerous when battered)
 - L9: `Pain Tolerance` (cross to Resilience—ignore wound penalties)
 - L10: `Scarred Veteran` (cross to Social—scars tell stories)
-- *Bridge Resonance:* `Tempered` ↔ `Pain Tolerance` = halved wound penalties at Resolve 2+
+- *Bridge Resonance:* `Tempered` ↔ `Pain Tolerance` = halved wound penalties at RT 5+
 
 **The Disciplined Wanderer** *(Self-Mastery + Travel)*:
 - L1: `Self-Made` (Sovereign Primary)

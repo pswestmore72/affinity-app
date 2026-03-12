@@ -19,7 +19,7 @@ When two combatants tie on initiative:
 
 ### Resolve Bonus
 
-Characters who roll initiative **and are not surprised** gain 1 Resolve (maximum 5). This represents the adrenaline surge of entering combat ready.
+Characters who roll initiative **and are not surprised** reset their Resolve Threshold to 2. This represents the adrenaline surge of entering combat ready.
 
 ### Initiative Stays Fixed
 
@@ -660,7 +660,7 @@ Each attack you take is resolved **one Hit Die of damage at a time**, using your
 
 **Die Type Matters for Body HD:** d10 Combatants (40% sustain) survive better than d6 Weavers (33% sustain) when armor fails.
 
-**0 Body HD ≠ Death:** At 0 body HD, you have Resolve. Unconscious and dying, but allies can stabilize before you hit -5 Resolve.
+**0 Body HD ≠ Death:** At 0 body HD, you still have Resolve checks. Unconscious and dying, but allies can stabilize before you Collapse (fail at Threshold 6).
 
 **Defense Scales Slowly:** Defense Capacity increases every 4 levels. Positioning, armor quality, and magical protection matter more than raw levels.
 
@@ -686,11 +686,11 @@ Use an action to protect an ally within 5 yards:
 - Effect: Each success cancels 1 HD damage to ally
 - Uses exertion from your turn's budget
 
-**Note on Resolve Penalties:**
-When calculating defense rolls, Resolve stage penalties apply:
-- Shaken (Resolve 3): Roll -1 defense die
-- Weakened (Resolve 2): Roll -1 defense die, Advanced+ actions need +1 success
-- Staggering (Resolve 1): Roll -2 defense dice, Advanced+ actions need +1 success
+**Note on Resolve Threshold Penalties:**
+When calculating defense rolls, Resolve Threshold stage penalties apply:
+- Shaken (RT 4): Roll -1 defense die
+- Weakened (RT 5): Roll -1 defense die, Advanced+ actions need +1 success
+- Staggering (RT 6): Roll -2 defense dice, Advanced+ actions need +1 success
 
 ---
 
@@ -703,14 +703,14 @@ When calculating defense rolls, Resolve stage penalties apply:
 **You sacrifice mental fortitude for immediate physical recovery.**
 
 **Action Type:** Standard (uses one of your 2 actions)  
-**Cost:** 1 Resolve (automatic, no Resolve check required)  
+**Cost:** Advance Resolve Threshold by 1 (automatic, no Resolve check required)  
 **Effect:** Immediately regain Proficiency HD  
 **Frequency:** Resets on Rest (short rest)
 
 **How Rush Works:**
 
 1. **Declare Rush:** On your turn, use one action to Rush
-2. **Lose 1 Resolve:** You automatically lose 1 Resolve (no roll—you choose to sacrifice it)
+2. **Advance Resolve Threshold by 1:** Your RT increases automatically (no roll—you choose to sacrifice it)
 3. **Regain HD:** Immediately regain HD equal to your Proficiency
 4. **No Dice, No Risk:** Rush does not require a roll and cannot burn HD from 1s
 
@@ -720,24 +720,24 @@ You're converting long-term mental fortitude (Resolve) into short-term physical 
 **When to Use Rush:**
 - You're below half HD and need immediate recovery
 - Healing abilities are unavailable or already used
-- You have Resolve to spare but can't afford to wait for rest
+- Your Resolve Threshold is still low and you can afford to advance it
 - You need to survive one more round of combat
 
 **Example:**
 ```
-Level 5 Combatant (Proficiency 3, currently at 3 HD / 11 max, 4 Resolve)
+Level 5 Combatant (Proficiency 3, currently at 3 HD / 11 max, RT 3 Pressured)
 - Takes a devastating hit, now at 3 HD and worried about next attack
 - Uses Rush (one action)
-- Loses 1 Resolve: 4 → 3 Resolve
+- Advances RT: 3 → 4 (now Shaken)
 - Gains 3 HD: 3 HD → 6 HD
 - Now has breathing room to continue fighting
 - Can use second action to attack or defend
 ```
 
 **Strategic Considerations:**
-- **Resolve matters:** Dropping to low Resolve creates death spiral (penalties to actions, defense dice reduction)
+- **Threshold matters:** Advancing to high RT creates escalating penalties (defense dice reduction, action restrictions)
 - **Resets on Rest:** You can use Rush again after resting (max 2 Rests per day = max 2 Rushes per day normally)
-- **No stacking with Resolve triggers:** Even if you drop to 0 Resolve from Rush, you don't make a Resolve check (you chose this)
+- **No stacking with Resolve triggers:** Rush advances RT voluntarily—it doesn't trigger a Resolve check
 - **NPCs may have Rush too:** Some elite NPCs or monsters may use Rush to survive longer than expected
 
 **Design Philosophy:**  
@@ -747,41 +747,41 @@ Rush is desperation made mechanical. You're trading tomorrow's strength for toda
 
 ### Steady (Universal Action)
 
-**Steady** is the inverse of Rush—while Rush converts mental fortitude into physical vitality (Resolve → HD), Steady converts physical vitality into mental fortitude (HD → Resolve). Where Rush enables desperate physical recovery, Steady enables mental clarity through sacrifice.
+**Steady** is the inverse of Rush—while Rush converts mental fortitude into physical vitality (advancing RT for HD), Steady converts physical vitality into mental fortitude (HD to lower RT). Where Rush enables desperate physical recovery, Steady enables mental clarity through sacrifice.
 
 **All characters have access to Steady.**
 
 **Action Type:** Standard (uses 1 of 2 actions)  
 **Cost:** Lose 3 HD  
-**Effect:** Gain 1 Resolve immediately  
+**Effect:** Lower Resolve Threshold by 1 immediately (minimum 2)  
 **Frequency:** Resets on Rest (short rest)
 
 **No roll required**—this is a guaranteed trade. You sacrifice body for renewed mental clarity.
 
 **Design Philosophy:**
-- Clean resource conversion (HD → Resolve)
+- Clean resource conversion (HD → lower RT)
 - Fixed cost (3 HD) regardless of level
 - Simple to execute at the table
 - Provides universal Resolve management tool
-- Inverse of Rush (Rush: 1 Resolve → Prof HD, Steady: 3 HD → 1 Resolve)
+- Inverse of Rush (Rush: advance RT 1 → Prof HD, Steady: 3 HD → lower RT 1)
 - **Priests and Sovereigns are still superior** at Resolve restoration through their class abilities
 
 **Example:**
-Level 5 Combatant (10 HD, 2 Resolve) is Shaken and needs Resolve to attempt Expert actions. Uses Steady: Loses 3 HD (now 7 HD), gains 1 Resolve (now 3 Resolve). Can now attempt Expert actions again and has better defense dice.
+Level 5 Combatant (10 HD, RT 4 Shaken) needs to attempt Expert actions. Uses Steady: Loses 3 HD (now 7 HD), lowers RT by 1 (now RT 3 Pressured). Can now attempt Expert actions again and has better defense dice.
 
 **When to Use Steady:**
-- You've taken heavy physical damage but your Resolve is intact (high HD, low Resolve)
+- You have plenty of HD but your Resolve Threshold has escalated (high HD, high RT)
 - You need to break out of Resolve penalties (Shaken/Weakened stages)
-- You need mental fortitude for Expert actions or Resolve checks
-- Social combat has drained your Resolve but your body is fresh
+- You need a lower threshold for Expert actions or upcoming Resolve checks
+- Social combat has advanced your RT but your body is fresh
 - You're preparing for a mental/social challenge ahead
 
 **Trade-Off Awareness:**
 - Steady costs precious HD (your survival buffer)
 - Each use reduces your physical stamina
-- Death requires 0 HD AND 0 Resolve—managing both resources is critical
+- Death requires 0 HD AND Collapse—managing both resources is critical
 - Overuse can leave you physically vulnerable
-- **Priests and Sovereigns can do this more efficiently or restore Resolve to others**
+- **Priests and Sovereigns can do this more efficiently or lower Resolve Thresholds for others**
 
 ---
 

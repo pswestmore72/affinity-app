@@ -39,7 +39,7 @@ Items are categorized by **Rarity Tier**, which determines their power, availabi
 
 **2. Enable CONVERSION (Resource Interactions)**
 - Interact with HD, Resolve, Affinity, Exertion economy
-- Exchange one resource for another (spend Resolve for bonus dice, gain Exertion die on kills)
+- Exchange one resource for another (advance RT for bonus dice, gain Exertion die on kills)
 - Trigger on conditions (at low HD, when ally falls, after successful defense)
 
 **3. Modify THRESHOLDS (Change Success Requirements)**
@@ -242,7 +242,7 @@ Writing implements
 **Description:** Thick green paste made from crushed herbs blessed by Thymera's followers. Apply to wounds.
 
 **Resolve Tonic**  
-**Effect:** Restore 1 Resolve  
+**Effect:** Lower RT by 1 (minimum 2)  
 **Description:** Bitter tea infused with memory-flowers from Aluneth's rivers. Clears the mind and steadies nerves.
 
 **Stamina Draught**  
@@ -266,7 +266,7 @@ Writing implements
 **Description:** Ruby-red liquid brewed from rare Verdant herbs. Tastes of summer rain and fresh growth.
 
 **Resolve Elixir**  
-**Effect:** Restore 2 Resolve  
+**Effect:** Lower RT by 2 (minimum 2)  
 **Description:** Crystalline blue potion containing captured memories. Drinking it shows fleeting visions of courage and determination.
 
 **Affinity Infusion**  
@@ -298,7 +298,7 @@ Writing implements
 **Description:** Brilliant emerald liquid glowing with life energy. One sip heals grievous wounds.
 
 **Potion of Heroism**  
-**Effect:** For 1 hour: +1d6 to all attack rolls, immunity to fear effects, gain 2 Resolve  
+**Effect:** For 1 hour: +1d6 to all attack rolls, immunity to fear effects, lower RT by 2 (minimum 2)  
 **Description:** Golden liquid that burns like courage. Makes you feel invincible.
 
 **Oil of Etherealness**  
@@ -330,7 +330,7 @@ Writing implements
 **Description:** Opalescent liquid shifting through all colors. Makes your skin feel like marble.
 
 **Elixir of Clarity**  
-**Effect:** Restore all Resolve, remove all mental conditions (charmed, frightened, confused), +3d6 to Resolve checks for 1 day  
+**Effect:** Reset RT to 2, remove all mental conditions (charmed, frightened, confused), +3d6 to Resolve checks for 1 day  
 **Description:** Crystal-clear liquid containing perfect stillness. Mind becomes diamond-sharp.
 
 **Oil of the Concordant**  
@@ -354,7 +354,7 @@ Writing implements
 **Description:** Liquid starlight containing fragment of divine essence. You become briefly godlike.
 
 **Potion of the Phoenix**  
-**Effect:** If you die within 24 hours of drinking, return to life at dawn with full HD/Resolve at nearest safe location  
+**Effect:** If you die within 24 hours of drinking, return to life at dawn with full HD and RT reset to 2 at nearest safe location  
 **Description:** Flame trapped in crystal. Contains echo of Iosyx's twin-flame rebirth.
 
 ---
@@ -442,7 +442,7 @@ Writing implements
 **Description:** Weapon infused with storm fury. Channels divine wrath.
 
 **Life Drinker** (any weapon)  
-**Property:** When you damage living creature, heal HD equal to half damage dealt (rounded down). When you drop creature to 0 HD, gain 1 Resolve (up to maximum). Requires attunement; slowly corrupts non-evil wieldersâ€”each kill reduces maximum Resolve by 1 (permanent) until you become hollow vessel.  
+**Property:** When you damage living creature, heal HD equal to half damage dealt (rounded down). When you drop creature to 0 HD, lower your RT by 1 (minimum 2). Requires attunement; slowly corrupts non-evil wieldersâ€”each kill permanently increases your starting RT by 1 until you become hollow vessel.  
 **Description:** Weapon containing trapped fragment of Gephorix. Feeds on suffering.
 
 **Wyrmbane** (any weapon)  
@@ -454,7 +454,7 @@ Writing implements
 ### Legendary Tier Weapons
 
 **GÃ¡e Bolg, the Fate-Piercer** (spear)  
-**Property:** Once per combat, declare "fate strike" before rolling. Attack automatically succeeds with maximum successes possible for your dice pool. Target cannot defend. Target's Resolve reduced to 0 afterward.  
+**Property:** Once per combat, declare "fate strike" before rolling. Attack automatically succeeds with maximum successes possible for your dice pool. Target cannot defend. Target Collapses (RT immediately advances to 6) afterward.  
 **Description:** Spear blessed by Thalos himself. When thrown, fate itself bends to ensure the strike lands. Legendary heroes wield it.
 
 **Mournsong** (longsword)  
@@ -633,11 +633,11 @@ Writing implements
 **Description:** Boots allowing silent movement across any surface.
 
 **Amulet of the Living Accord**  
-**Effect:** Once per long rest, if you would be reduced to 0 HD, instead you are sustained at 1 HD (triggers automatically). During short rests, recover +1 additional Resolve (total 2 instead of 1). You feel Thymera's heartbeat through this amulet.  
+**Effect:** Once per long rest, if you would be reduced to 0 HD, instead you are sustained at 1 HD (triggers automatically). During short rests, lower RT by 1 additional step (total 2 steps instead of 1). You feel Thymera's heartbeat through this amulet.  
 **Description:** Amulet carved from heartwood of ancient tree blessed by Thymera.
 
 **Circlet of Clarity**  
-**Effect:** Maximum Resolve increased by 1 (6 instead of 5). When you succeed on Resolve check to resist mental effect (charm, fear, confusion), attacker must make Resolve check or be stunned (mental feedback).  
+**Effect:** You gain one extra Resolve stage before Collapse (your RT can reach 7 before Collapse instead of the normal 6). When you succeed on a Resolve check to resist a mental effect (charm, fear, confusion), attacker must make a Resolve check or be stunned (mental feedback).  
 **Description:** Silver circlet inscribed with focus meditation mantras.
 
 **Gauntlets of Titanic Might**  
@@ -733,7 +733,7 @@ Writing implements
 ### Advanced Tier (Social)
 
 **Mask of Many Faces**  
-**Effect:** Change appearance at will (illusion, does not alter voice). In social duels, once per duel declare "You don't know who I am"—opponent loses 1 Leverage and you gain it.  
+**Effect:** Change appearance at will (illusion, does not alter voice). In social duels, once per duel declare "You don't know who I am"ï¿½opponent loses 1 Leverage and you gain it.  
 **Description:** Featureless mask that shows different faces to different viewers.
 
 **Mantle of the Sovereign**  
@@ -742,7 +742,7 @@ Writing implements
 
 **Crown of Measured Words**  
 **Effect:** +2 Composure dice. Once per social duel, after seeing opponent's stance, change your declared stance (free action). You are always watching, always calculating.  
-**Description:** Thin golden crown with eyes etched along its band—Aluneth's gift to diplomats.
+**Description:** Thin golden crown with eyes etched along its bandï¿½Aluneth's gift to diplomats.
 
 **Tongue of the Concordant**  
 **Effect:** In social duels where you invoke the Concordant Halls or oath-keeping, reduce threshold to Basic 2+. When opponent breaks an oath during duel, they automatically lose 2 Composure dice.  
@@ -753,15 +753,15 @@ Writing implements
 ### Expert Tier (Social)
 
 **Regalia of Absolute Authority**  
-**Effect:** Your Composure dice are d10. You have +3 Composure dice. In social duels, you may spend 1 Resolve to automatically win a round (no roll needed). Once per long rest, issue a Command (target must succeed on Resolve check or obey one reasonable order).  
-**Description:** Complete set—crown, scepter, and orb—forged for a legendary emperor. Radiates power that makes knees bend.
+**Effect:** Your Composure dice are d10. You have +3 Composure dice. In social duels, you may advance your RT by 1 to automatically win a round (no roll needed). Once per long rest, issue a Command (target must succeed on Resolve check or obey one reasonable order).  
+**Description:** Complete setï¿½crown, scepter, and orbï¿½forged for a legendary emperor. Radiates power that makes knees bend.
 
 **The Covenant Blade**  
-**Effect:** Not a weapon for combat—when drawn in social duel, all participants are bound by absolute honesty (cannot lie, Deceptive stance unavailable to all). Breaking this compulsion costs 3 Resolve. Duel winner may demand one true answer from the loser.  
+**Effect:** Not a weapon for combatâ€”when drawn in social duel, all participants are bound by absolute honesty (cannot lie, Deceptive stance unavailable to all). Breaking this compulsion advances your RT by 3. Duel winner may demand one true answer from the loser.  
 **Description:** Crystal blade that shatters lies. Said to be forged from a shard of Aluneth's mirror.
 
 **Paradox Tongue**  
-**Effect:** Once per social duel, speak a logical paradox—opponent's next roll is at +2 threshold (they're momentarily confused). If you have the Scholar class, this effect triggers automatically each round you use Reason stance (can only affect each opponent once).  
+**Effect:** Once per social duel, speak a logical paradoxï¿½opponent's next roll is at +2 threshold (they're momentarily confused). If you have the Scholar class, this effect triggers automatically each round you use Reason stance (can only affect each opponent once).  
 **Description:** Tiny spiral carved from impossible geometry. Whispers contradictions.
 
 ---
@@ -773,7 +773,7 @@ Writing implements
 **Description:** Fragment of the Mortal Weave itself, crystallized into a pendant. Each Power's version appears different.
 
 **The Last Word**  
-**Effect:** Once per long rest, when an opponent would win a social duel, speak The Last Word. The duel immediately ends in stalemate—no stakes are resolved. Both parties must withdraw. This cannot be prevented or countered. You have spoken, and nothing more can be said.  
+**Effect:** Once per long rest, when an opponent would win a social duel, speak The Last Word. The duel immediately ends in stalemateï¿½no stakes are resolved. Both parties must withdraw. This cannot be prevented or countered. You have spoken, and nothing more can be said.  
 **Description:** A single syllable carved onto a sliver of bone from something that existed before the cosmos. To speak it is to end all discourse.
 
 ---

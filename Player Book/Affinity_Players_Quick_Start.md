@@ -25,7 +25,7 @@ Your class determines how tough you are and what you're good at.
 |------|-------------|------------|------------|
 | Body HD | 5d10 | 5d8 | 4d6 |
 | Proficiency | 1 | 1 | 1 |
-| Resolve | 5 | 5 | 5 |
+| Resolve Threshold | 2 | 2 | 2 |
 | Defense Capacity | 1 | 1 | 1 |
 
 **That's it.** Write down your class, your Hit Dice, and move on.
@@ -127,7 +127,7 @@ ARMOR:   [ ][ ] (light 2d6 / medium 2d8 / heavy 2d10)
 SHIELD:  [ ] (1d12 if you have one)
 
 PROFICIENCY: 1
-RESOLVE: 5 (rarely changes at L1)
+RESOLVE THRESHOLD: 2 (starts at 2+, escalates on failed checks)
 MOVEMENT: 10 yards
 
 WEAPON: _____________ (1 HD light / 2 HD heavy)

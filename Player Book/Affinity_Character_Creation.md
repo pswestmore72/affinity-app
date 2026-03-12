@@ -52,18 +52,20 @@ Your class provides TWO parallel progression systems:
 | 8 | ✅ Core progression | ✅ Row 4 node | ❌ No |
 | 9 | ✅ Core progression | ❌ No | ✅ Fourth feat |
 | 10 | ✅ Core progression | ✅ Row 5 node | ✅ Fifth feat |
-| Level | Proficiency | Tough (d10) HD | Balanced (d8) HD | Fragile (d6) HD | Resolve |
-|-------|-------------|----------------|------------------|-----------------|---------|
-| 1 | 1 | 5 | 5 | 4 | 5 |
-| 2 | 1 | 7 | 7 | 5 | 5 |
-| 3 | 2 | 9 | 8 | 6 | 5 |
-| 4 | 2 | 11 | 10 | 8 | 5 |
-| 5 | 3 | 13 | 12 | 9 | 5 |
-| 6 | 3 | 15 | 13 | 11 | 5 |
-| 7 | 4 | 17 | 15 | 12 | 5 |
-| 8 | 4 | 19 | 17 | 14 | 5 |
-| 9 | 5 | 21 | 18 | 15 | 5 |
-| 10 | 5 | 23 | 20 | 17 | 5 |
+| Level | Proficiency | Tough (d10) HD | Balanced (d8) HD | Fragile (d6) HD |
+|-------|-------------|----------------|------------------|------------------|
+| 1 | 1 | 5 | 5 | 4 |
+| 2 | 1 | 7 | 7 | 5 |
+| 3 | 2 | 9 | 8 | 6 |
+| 4 | 2 | 11 | 10 | 8 |
+| 5 | 3 | 13 | 12 | 9 |
+| 6 | 3 | 15 | 13 | 11 |
+| 7 | 4 | 17 | 15 | 12 |
+| 8 | 4 | 19 | 17 | 14 |
+| 9 | 5 | 21 | 18 | 15 |
+| 10 | 5 | 23 | 20 | 17 |
+
+**Resolve Threshold:** All PCs start at **RT 2** (need 2+ on 1d6). This does not change with level.
 
 ### 📝 How to Write Hit Dice on Your Character Sheet
 
@@ -72,7 +74,7 @@ Your class provides TWO parallel progression systems:
 **Correct Notation:**
 ```markdown
 Hit Dice: 7d10 (1d10, 1d10, 1d10, 1d10, 1d10, 1d10, 1d10)
-Resolve: 5 (1d6, 1d6, 1d6, 1d6, 1d6)
+Resolve Threshold: 2 (starting threshold, escalates on failed checks)
 Proficiency: 2
 Armor: 3d8 light leather (1d8, 1d8, 1d8)
 Shield: 1d12 wooden shield (1d12)

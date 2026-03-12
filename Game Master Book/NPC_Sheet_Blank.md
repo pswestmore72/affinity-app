@@ -20,7 +20,7 @@
 **Armor Threshold:** _____________ *(Basic 2+ / Moderate 3+ / Heavy 4+)*  
 **Speed:** _______ ft per round
 
-**Resolve:** _______ *(If applicable — most NPCs don't track Resolve)*
+**Starting RT:** _______ *(If applicable — most NPCs don't track RT)*
 
 ---
 

@@ -22,7 +22,7 @@
 **Armor Threshold:** Heavy (Moderate 3+ to hit)  
 **Speed:** 20 ft per round *(Slow but unstoppable)*
 
-**Resolve:** N/A *(Constructs don't have Resolve — cannot be intimidated or demoralized)*
+**Starting RT:** N/A *(Constructs are immune to Resolve effects — cannot be intimidated or demoralized)*
 
 ---
 

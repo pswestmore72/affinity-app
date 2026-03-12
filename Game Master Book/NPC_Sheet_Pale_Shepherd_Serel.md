@@ -32,8 +32,8 @@ Now Serel walks the boundary between Mortal Weave and Gloam, learning the Shephe
 **Armor Threshold:** Moderate (3+ to hit) — Spectral vestments  
 **Speed:** 30 ft per round (can step through solid objects in dim light)
 
-**Resolve:** 4 / 4  
-*(High—she's held herself together through sheer will for three years)*
+**Starting RT:** 3  
+*(Low—she's held herself together through sheer will for three years)*
 
 ---
 
@@ -57,13 +57,13 @@ Now Serel walks the boundary between Mortal Weave and Gloam, learning the Shephe
   - **Vigil:** Target forgets last action taken (loses next turn if action was hostile)
   - **Remembrance:** Target sees vision of someone they've lost (Resolve check or -2d6 next action)
   - **Release:** Target feels profound peace (Resolve check or cannot attack Serel for 1 round)
-  - **Hollow:** Target loses 1 Resolve directly (no damage, just emptiness)
+  - **Hollow:** Target's RT advances by 1 directly (no damage, just emptiness)
 
 **Guide the Lost** *(Utility, non-combat)*
 - **Action Tier:** Advanced (3+)
 - **Roll:** 5d6 *(Proficiency 2 + 3d6 Shepherd training)*
 - **Required Successes:** 2
-- **Effect:** Serel can guide willing souls toward Release, ending undead existence peacefully. Also works on creatures trapped in Vigil (Vigil Shades, confused ghosts). Requires consent or 0 Resolve.
+- **Effect:** Serel can guide willing souls toward Release, ending undead existence peacefully. Also works on creatures trapped in Vigil (Vigil Shades, confused ghosts). Requires consent or Collapse.
 - **Notes:** This is her aspiration—to earn the Pale Shepherds' full blessing.
 
 ---
@@ -102,7 +102,7 @@ Now Serel walks the boundary between Mortal Weave and Gloam, learning the Shephe
 **Vulnerabilities:** 
 - **Radiant damage** (burns the dead, even half-dead)
 - **Running water** (tradition holds the dead cannot cross living water easily)
-- **Proof of being forgotten** (if shown evidence Mira has moved on, Serel takes 2 Resolve damage immediately)
+- **Proof of being forgotten** (if shown evidence Mira has moved on, Serel's RT advances by 2 immediately)
 
 **Special Traits:**
 - **Gloam-Walker:** Knows safe paths through the Gloam. Traveling with Serel reduces random Gloam encounters by half.

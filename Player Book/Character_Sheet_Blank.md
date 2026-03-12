@@ -34,8 +34,8 @@
 [Shield] → [Armor dice] → [Body dice]  
 *Damage flows from outside to inside*
 
-**Resolve:** 5 (1d6, 1d6, 1d6, 1d6, 1d6)  
-*Always 5 for PCs — roll checks with these dice*
+**Resolve Threshold:** 2 *(starting threshold — escalates on failed checks, resets on Recover)*  
+*Roll 1d6 vs threshold when triggered — below = threshold advances by 1*
 
 **Proficiency:** _______ *(= Half Level, rounded up)*  
 **Defense Capacity:** _______ *(= Proficiency, rolls per attack)*
@@ -231,13 +231,13 @@ _______________________________________________
 
 **Healing During Combat:** Use class abilities or potions  
 **Healing During Short Rest:** Restore Proficiency HD  
-**Healing During Long Rest:** Restore all HD and Resolve  
+**Healing During Long Rest:** Restore all HD and reset Resolve Threshold to 2  
 
-**Collapse at 0 Resolve:** Each round, roll 1d6:
-- 5-6 = stabilize for 1 round
-- 1-4 = lose 1 HD
+**Collapse (failed at Threshold 6):** Each round, roll 1d6 vs current Threshold:
+- At or above Threshold = no change (but no rally)
+- Below Threshold = Threshold advances (death at 0 HD + Collapse)
 
-**Death at 0 HD:** Character dies (or makes death saves per GM ruling)
+**Death at 0 HD + Collapse:** Character dies (or makes death saves per GM ruling)
 
 ---
 

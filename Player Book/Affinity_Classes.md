@@ -84,18 +84,18 @@ You are purpose made manifest in combat. Your weapon is an extension of your oat
 
 ### Progression Table
 
-| Level | Prof | Body HD | Resolve | Core Milestone | Way |
-|-------|------|---------|---------|----------------|-----|
-| 1 | 1 | 5d10 | 5 | Oath-Bound Warrior | — |
-| 2 | 1 | 7d10 | 5 | Heavy Armor | Row 1 |
-| 3 | 2 | 9d10 | 5 | Oath Enforcer | — |
-| 4 | 2 | 11d10 | 5 | Rally Upgrade | Row 2 |
-| 5 | 3 | 13d10 | 5 | Champion of Purpose | — |
-| 6 | 3 | 15d10 | 5 | Veteran's Resilience | Row 3 |
-| 7 | 4 | 17d10 | 5 | Oath Ascendant | — |
-| 8 | 4 | 19d10 | 5 | Armor Mastery | Row 4 |
-| 9 | 5 | 21d10 | 5 | Living Oath | — |
-| 10 | 5 | 23d10 | 5 | Oath Absolute | Row 5 |
+| Level | Prof | Body HD | RT | Core Milestone | Way |
+|-------|------|---------|-----|----------------|-----|
+| 1 | 1 | 5d10 | 2 | Oath-Bound Warrior | — |
+| 2 | 1 | 7d10 | 2 | Heavy Armor | Row 1 |
+| 3 | 2 | 9d10 | 2 | Oath Enforcer | — |
+| 4 | 2 | 11d10 | 2 | Rally Upgrade | Row 2 |
+| 5 | 3 | 13d10 | 2 | Champion of Purpose | — |
+| 6 | 3 | 15d10 | 2 | Veteran's Resilience | Row 3 |
+| 7 | 4 | 17d10 | 2 | Oath Ascendant | — |
+| 8 | 4 | 19d10 | 2 | Armor Mastery | Row 4 |
+| 9 | 5 | 21d10 | 2 | Living Oath | — |
+| 10 | 5 | 23d10 | 2 | Oath Absolute | Row 5 |
 
 ### Core Abilities
 
@@ -103,7 +103,7 @@ You are purpose made manifest in combat. Your weapon is an extension of your oat
 
 **Starting Resources:**
 - **Hit Dice (Body):** 5d10 — *5 individual d10 dice*
-- **Resolve:** 5 — *5 individual d6 dice for checks*
+- **Resolve Threshold:** 2 — *starting threshold, escalates on failed checks*
 - **Proficiency:** 1 *(Level 1-2)*
 - **Defense Capacity:** 1 *(= Proficiency)*
 - **Armor Proficiency:** Light (2d6), Medium (3d8)
@@ -181,13 +181,13 @@ War Cry: Rally now targets up to Proficiency allies simultaneously. **Way Node.*
 - Required: 4 successes
 - 60 yards, all allies who can hear you, Proficiency rounds
 - Allies reduce damage from any single source by Proficiency HD
-- Allies gain advantage (+1d6) on all Resolve checks
+- Allies gain +1 to all Resolve check rolls
 - Usable once per long rest
 
 ---
 
 **Level 6: Veteran's Resilience**
-Once per combat, auto-succeed on your first Resolve check. **Way Node.**
+Once per combat, auto-pass your first Resolve check (roll vs RT). **Way Node.**
 
 ---
 
@@ -202,7 +202,7 @@ Once per combat, auto-succeed on your first Resolve check. **Way Node.**
 **War Cry: Break** (Legendary, 5+)
 - Required: 4 successes
 - 30 yards, all enemies who can hear you
-- Each enemy makes Resolve check at -2d6; failure = lose 1 Resolve
+- Each enemy makes Resolve check at −2 to roll; failure = RT advances by 1
 - Usable once per long rest
 
 ---
@@ -220,14 +220,14 @@ Your armor dice survive on 4+ instead of 5+ during defense rolls. **Way Node.**
 - Immune to restrained, stunned, prone, charmed, frightened, paralyzed
 - All attacks deal +Prof HD additional damage
 - War Cries affect double range
-- Cost: 2 Resolve when activated
+- Cost: Advances RT by 2 when activated
 - Usable once per long rest
 
 **War Cry: Seal the Field** (Legendary, 5+)
 - Required: 4 successes
 - 60 yards, Proficiency rounds
 - No enemy within range can flee (teleportation, movement out of range, planar travel fail)
-- Enemies attempting to flee make Resolve check or lose 1 Resolve
+- Enemies attempting to flee make Resolve check or RT advances by 1
 - Usable once per long rest
 
 ---
@@ -235,7 +235,7 @@ Your armor dice survive on 4+ instead of 5+ during defense rolls. **Way Node.**
 **Level 10: Oath Absolute**
 
 **Oath Absolute** (Passive Capstone)
-- Once per long rest, when reduced to 0 HD, instead stand at Prof HD with all Resolve restored
+- Once per long rest, when reduced to 0 HD, instead stand at Prof HD with RT reset to 2
 - Your next action automatically succeeds (no roll needed)
 - Permanently reduce all damage taken by 1 (flat reduction per hit)
 
@@ -295,13 +295,13 @@ When you walk a Combatant's Way, you are not claiming virtue. You are claiming *
 *Loyalty, fellowship, unbreakable trust*
 *Adjacent: Blade, Crown*
 
-**Row 1: Battle Bond** — Choose one ally during rest. While within 30 yards of bonded ally, you both gain +1d6 to Resolve checks.
+**Row 1: Battle Bond** — Choose one ally during rest. While within 30 yards of bonded ally, you both gain +1 to Resolve check rolls.
 
 **Row 2: Shared Fortitude** — When bonded ally loses HD, you may take half (rounded down, min 1) instead. Once per round.
 
 **Row 3: United Assault** — When you and bonded ally attack the same target in the same round, the second attacker gains +2d6.
 
-**Row 4: Oath Tether** — Once per short rest, when bonded ally would drop to 0 Resolve, they stay at 1 and you lose 2 Resolve instead.
+**Row 4: Oath Tether** — Once per short rest, when bonded ally would Collapse (fail at RT 6), they remain at RT 6 (Staggering) instead and your RT advances by 2.
 
 **Row 5: Unbreakable Fellowship** *(Legendary, 5+)* — Once per long rest, merge HD pools with bonded ally for Prof rounds. Sum remaining HD; damage to either draws from the shared pool.
 
@@ -315,7 +315,7 @@ When you walk a Combatant's Way, you are not claiming virtue. You are claiming *
 
 **Row 3: Warlord's Authority** — Allies in your Hold the Line zone may use YOUR Proficiency dice for contests within the zone.
 
-**Row 4: Burden of Command** — When you use any War Cry, also restore 1 Resolve to yourself.
+**Row 4: Burden of Command** — When you use any War Cry, also lower your RT by 1 (minimum 2).
 
 **Row 5: Sovereign Commander** *(Legendary, 5+)* — Once per long rest, issue Absolute Command. All allies within 60 yards immediately take one free action (attack, move, or cast Basic spell).
 
@@ -329,7 +329,7 @@ When you walk a Combatant's Way, you are not claiming virtue. You are claiming *
 
 **Row 3: Undying Flame** — First time per combat you would drop to 0 HD, stay at 1 HD and gain +Prof to next action's damage.
 
-**Row 4: Ignite Purpose** — Once per short rest, when an ally within 30 yards drops to 0 HD/Resolve, gain a free action and +3d6 to your next roll (doesn't burn HD).
+**Row 4: Ignite Purpose** — Once per short rest, when an ally within 30 yards drops to 0 HD or Collapses, gain a free action and +3d6 to your next roll (doesn't burn HD).
 
 **Row 5: Eternal Flame** *(Legendary, 5+)* — Once per long rest, enter Blazing State for Prof rounds. Cannot drop below 1 HD. All attacks deal +Prof HD fire/radiant. When it ends, make a Resolve check.
 
@@ -339,7 +339,7 @@ When you walk a Combatant's Way, you are not claiming virtue. You are claiming *
 
 **Row 1: Rooted Stance** — If you haven't moved this round, gain +1d6 to defense (doesn't burn HD). Cannot be pushed or knocked prone.
 
-**Row 2: Cornerstone** — Allies within 10 yards who can see you gain +1d6 to Resolve checks (doesn't burn HD).
+**Row 2: Cornerstone** — Allies within 10 yards who can see you gain +1 to Resolve check rolls.
 
 **Row 3: Immovable** — Your Hold the Line zone cannot be ended by enemy effects. Reduce forced movement against you by 10 yards (minimum 0).
 
@@ -359,23 +359,23 @@ When you walk a Combatant's Way, you are not claiming virtue. You are claiming *
 
 **Row 4: Toll the Bell** — Once per short rest, as reaction when an enemy within 60 yards attempts to flee, they must make Resolve check or cannot move for 1 round.
 
-**Row 5: Final Witness** *(Legendary, 5+)* — Once per long rest, ring the metaphysical Bell. All creatures within 60 yards: illusions end, invisible creatures revealed, disguises fail, lies from the last hour exposed. Choose one target: Resolve check at -3d6 or lose 2 Resolve.
+**Row 5: Final Witness** *(Legendary, 5+)* — Once per long rest, ring the metaphysical Bell. All creatures within 60 yards: illusions end, invisible creatures revealed, disguises fail, lies from the last hour exposed. Choose one target: Resolve check at −3 to roll or RT advances by 2.
 
 ---
 
 ## Priest
 
 *Priest are bound with powers far beyond themselves, they serve to bring about the will of the most powerful in the cosmos*
-*They steady Resolve, They prevent collapse, They sanctify space, make battle sites holy, They turn collapse into sacrifice, They can turn loss/failure of an ally into the driving force for greatness of another*
+*They stabilize Resolve Thresholds, They prevent collapse, They sanctify space, make battle sites holy, They turn collapse into sacrifice, They can turn loss/failure of an ally into the driving force for greatness of another*
 *Paths will reflect areas of the invocation/bringing out the power of the gods/cosmos, most Priests are tied to The Concordant Halls, but any Custodial Power from any plane can bring about Priests*
 *All Priests can use Light Armor and all Weaponry, though no mastery like the Combatants. They can all cast some level of spells, though less than the Weaver.*
-*They have total understanding and advantage in matters of Will, Resolve, Health, Stamina, Endurance*
+*They have total understanding and advantage in matters of Will, Resolve Threshold, Health, Stamina, Endurance*
 *They all have "Power Words" - direct invocations of greater powers*
 *They are not just healers, not just support batteries, not just undead/evil executioners, not just radiant cannons*
 
 **Hit Die:** d8 (Balanced)
 **Custodial Connection:** Any Custodial Power — Conduits of Greater Will
-**Role:** Invoker, Resolve Anchor, Space Sanctifier
+**Role:** Invoker, Threshold Anchor, Space Sanctifier
 
 ### Class Identity
 
@@ -388,18 +388,18 @@ You are a relay point between the mortal and the infinite. When companions falte
 
 ### Progression Table
 
-| Level | Prof | Body HD | Resolve | Core Milestone | Way |
-|-------|------|---------|---------|----------------|-----|
-| 1 | 1 | 5d8 | 5 | Conduit of Greater Will | — |
-| 2 | 1 | 7d8 | 5 | Medium Armor | Row 1 |
-| 3 | 2 | 8d8 | 5 | Avatar of Purpose | — |
-| 4 | 2 | 10d8 | 5 | Extended Range | Row 2 |
-| 5 | 3 | 12d8 | 5 | Chosen Instrument | — |
-| 6 | 3 | 13d8 | 5 | Sustained Faith | Row 3 |
-| 7 | 4 | 15d8 | 5 | Divine Ascendant | — |
-| 8 | 4 | 17d8 | 5 | Efficient Channel | Row 4 |
-| 9 | 5 | 18d8 | 5 | Voice of the Divine | — |
-| 10 | 5 | 20d8 | 5 | Avatar of the Divine | Row 5 |
+| Level | Prof | Body HD | RT | Core Milestone | Way |
+|-------|------|---------|-----|----------------|-----|
+| 1 | 1 | 5d8 | 2 | Conduit of Greater Will | — |
+| 2 | 1 | 7d8 | 2 | Medium Armor | Row 1 |
+| 3 | 2 | 8d8 | 2 | Avatar of Purpose | — |
+| 4 | 2 | 10d8 | 2 | Extended Range | Row 2 |
+| 5 | 3 | 12d8 | 2 | Chosen Instrument | — |
+| 6 | 3 | 13d8 | 2 | Sustained Faith | Row 3 |
+| 7 | 4 | 15d8 | 2 | Divine Ascendant | — |
+| 8 | 4 | 17d8 | 2 | Efficient Channel | Row 4 |
+| 9 | 5 | 18d8 | 2 | Voice of the Divine | — |
+| 10 | 5 | 20d8 | 2 | Avatar of the Divine | Row 5 |
 
 ### Core Abilities
 
@@ -407,7 +407,7 @@ You are a relay point between the mortal and the infinite. When companions falte
 
 **Starting Resources:**
 - **Hit Dice (Body):** 5d8 — *5 individual d8 dice*
-- **Resolve:** 5 — *5 individual d6 dice for checks*
+- **Resolve Threshold:** 2 — *starting threshold, escalates on failed checks*
 - **Proficiency:** 1 *(Level 1-2)*
 - **Defense Capacity:** 1 *(= Proficiency)*
 - **Armor Proficiency:** Light (2d6)
@@ -417,7 +417,7 @@ You are a relay point between the mortal and the infinite. When companions falte
 **Power Word: Endure** (Advanced, 3+)
 - Required: 2 successes
 - Range: 30 yards, one creature
-- Target regains Proficiency HD. If target has lost Resolve, restore 1 Resolve
+- Target regains Proficiency HD. If target's RT is above 2, lower RT by 1
 - Usable Proficiency times per short rest
 
 **Power Word: Smite** (Advanced, 3+)
@@ -425,7 +425,7 @@ You are a relay point between the mortal and the infinite. When companions falte
 - Required: 2 successes
 - Deal Proficiency HD as radiant/necrotic/divine damage
 - Against creatures opposed to patron: Prof × 2 HD instead
-- Cost: 1 Resolve
+- Cost: Advances RT by 1
 - Usable Proficiency times per short rest
 
 **Weapon of Faith** (Basic, 2+)
@@ -462,7 +462,7 @@ Gain Medium Armor Proficiency (2d8). **Way Node.**
 - Choose ONE zone effect (based on patron's nature):
   - **Order/Law:** Enemies -1d6 on deception/chaos. Allies +1d6 Influence.
   - **Life/Growth:** First time each ally drops to half HD in zone, restore 1 HD. Undead take 1 HD/round.
-  - **Death/Decay:** Enemies -1d6 Resolve checks. Enemies take 1 HD entering zone.
+  - **Death/Decay:** Enemies −1 to Resolve check rolls. Enemies take 1 HD entering zone.
   - **Knowledge:** Illusions suppressed. Allies +1d6 Lore/Awareness.
   - **Chaos/Change:** First exertion 1 per round becomes 2 (one die, one creature). Difficult terrain for enemies.
 - One zone at a time
@@ -472,7 +472,7 @@ Gain Medium Armor Proficiency (2d8). **Way Node.**
 - Required: 2 successes
 - 30-yard line or 15-yard cone
 - Proficiency HD divine damage to all targets (Prof × 2 vs patron-opposed)
-- Restore 1 Resolve to yourself after use
+- Lower your RT by 1 (minimum 2) after use
 - Usable Proficiency times per short rest
 
 ---
@@ -489,21 +489,21 @@ All Power Words gain +10 yards range. **Way Node.**
 - Touch (self or willing creature), Proficiency rounds
 - Target enters transcendent state: +Prof HD damage on attacks, +2d6 to patron-aligned actions (doesn't burn HD)
 - Must act in accordance with patron's principle or effect ends
-- Cost: 2 Resolve
+- Cost: Advances RT by 2
 - Usable once per long rest
 
 **Power Word: Annihilate** (Expert, 4+)
 - Required: 4 successes
 - 60 yards, one creature
-- Prof × 2 HD damage (defense applies). Target makes Resolve check at -2d6
-- Against patron-opposed: Prof × 3 HD and -3d6 Resolve
-- Cost: 3 Resolve
+- Prof × 2 HD damage (defense applies). Target makes Resolve check at −2 to roll
+- Against patron-opposed: Prof × 3 HD and Resolve check at −3 to roll
+- Cost: Advances RT by 3
 - Usable once per long rest
 
 ---
 
 **Level 6: Sustained Faith**
-Regain 1 Resolve per short rest automatically. **Way Node.**
+Lower your RT by 1 (minimum 2) per short rest automatically. **Way Node.**
 
 ---
 
@@ -512,8 +512,8 @@ Regain 1 Resolve per short rest automatically. **Way Node.**
 **Power Word: Resurrect** (Legendary, 5+)
 - Required: 4 successes
 - Touch a creature that died within 10 minutes
-- Target returns at half maximum HD and 2 Resolve
-- Cost: 3 Resolve, 5 HD
+- Target returns at half maximum HD and RT 5
+- Cost: Advances RT by 3, lose 5 HD
 - Usable once per long rest
 
 **Power Word: Greater Domain** (Legendary, 5+)
@@ -525,7 +525,7 @@ Regain 1 Resolve per short rest automatically. **Way Node.**
 ---
 
 **Level 8: Efficient Channel**
-Reduce the Resolve cost of one Power Word per long rest by 1 (minimum 0). **Way Node.**
+Reduce the RT advance cost of one Power Word per long rest by 1 (minimum 0). **Way Node.**
 
 ---
 
@@ -534,7 +534,7 @@ Reduce the Resolve cost of one Power Word per long rest by 1 (minimum 0). **Way 
 **Power Word: Miracle** (Legendary, 5+)
 - Required: 5 successes
 - Channel a miracle. Choose one: (A) Restore all allies within 60 yards to full HD, (B) Prof × 4 HD to all enemies within 60 yards, (C) Remove any curse/seal/ward of any tier, (D) Create lasting effect for 24 hours (GM negotiates scope)
-- Cost: All remaining Resolve (minimum 3)
+- Cost: Advances RT to 6 (requires RT 4 or lower to use)
 - Usable once per long rest
 
 **Greater Conduit** (Passive)
@@ -546,9 +546,9 @@ Reduce the Resolve cost of one Power Word per long rest by 1 (minimum 0). **Way 
 
 **Avatar State** (Passive Capstone)
 - Once per long rest (no roll required), become avatar of patron for Prof rounds
-- All Power Words cost 0 Resolve. Spell damage/healing doubled. +Prof to all actions
+- All Power Words have no RT cost. Spell damage/healing doubled. +Prof to all actions
 - Appearance transforms to reflect patron's nature
-- When this ends, drop to 1 Resolve
+- When this ends, RT advances to 6 (Staggering)
 
 **Way Node.**
 
@@ -591,15 +591,15 @@ Your patron may be merciful or merciless. The Concordant Halls care only that yo
 *Divine judgment, smiting, righteous wrath*
 *Adjacent: Shield, Bond*
 
-**Row 1: Focused Wrath** — Smite costs 0 Resolve against creatures directly opposed to your patron.
+**Row 1: Focused Wrath** — Smite has no RT cost against creatures directly opposed to your patron.
 
-**Row 2: Righteous Cascade** — When Smite reduces a target to 0 HD, regain the Resolve spent.
+**Row 2: Righteous Cascade** — When Smite reduces a target to 0 HD, the RT advance from Smite is reversed.
 
 **Row 3: Judgment Aura** — While Sanctify is active, weapon attacks within the zone deal +Prof HD divine damage.
 
 **Row 4: Divine Executioner** — Annihilate damage increases by Prof HD against creatures who have harmed your patron's servants within the last hour.
 
-**Row 5: Word of Undoing** *(Legendary, 5+)* — Once per long rest, one creature within 60 yards that acted against your patron makes Resolve check at -4d6. Failure = lose ALL Resolve. Success = lose 2.
+**Row 5: Word of Undoing** *(Legendary, 5+)* — Once per long rest, one creature within 60 yards that acted against your patron makes Resolve check at −4 to roll. Failure = Collapse (RT advances to 6). Success = RT advances by 2.
 
 #### Way of the Bond
 *Communion, shared faith, collective healing*
@@ -635,13 +635,13 @@ Your patron may be merciful or merciless. The Concordant Halls care only that yo
 
 **Row 1: Ember of Renewal** — Endure also removes one condition (poison, disease, fear, charm) from target.
 
-**Row 2: Defiant Faith** — When you or ally within 30 yards fails Resolve check, spend 1 HD to let them reroll.
+**Row 2: Defiant Faith** — When you or ally within 30 yards fails a Resolve check, spend 1 HD to let them reroll.
 
 **Row 3: Phoenix Spark** — Once per long rest, when ally within 30 yards drops to 0 HD, they immediately stand at 1 HD and gain +1d6 to all actions for 1 round.
 
 **Row 4: Resurrection Flame** — Transcend no longer ends when target acts against patron's principle (the flame forgives).
 
-**Row 5: True Resurrection** *(Legendary, 5+)* — Once per long rest, touch a creature dead within 1 hour. They return at half max HD and full Resolve. Cost: 3 Resolve and half your current HD.
+**Row 5: True Resurrection** *(Legendary, 5+)* — Once per long rest, touch a creature dead within 1 hour. They return at half max HD and RT reset to 2. Cost: Advances RT by 3 and lose half your current HD.
 
 #### Way of the Stone
 *Sacred tradition, ritual power, enduring faith*
@@ -665,7 +665,7 @@ Your patron may be merciful or merciless. The Concordant Halls care only that yo
 
 **Row 2: Prophetic Insight** — Once per short rest (bonus action), grant one ally within 30 yards advantage (+2d6) on their next action this round.
 
-**Row 3: Words of Reckoning** — Once per short rest, declare a truth about a target within 60 yards (GM confirms). Target must Resolve check; failure = lose 1 Resolve and -2d6 for 1 round.
+**Row 3: Words of Reckoning** — Once per short rest, declare a truth about a target within 60 yards (GM confirms). Target must make Resolve check; failure = RT advances by 1 and −2d6 for 1 round.
 
 **Row 4: Bell of Clarity** — Once per long rest, allies within 60 yards become immune to illusion, charm, and fear for Prof rounds. Current such effects dispelled.
 
@@ -676,7 +676,7 @@ Your patron may be merciful or merciless. The Concordant Halls care only that yo
 ## Ranger
 
 *Ranger are bound to a reverence for nature, for the hunt, for the beautiful harsh wilds*
-*Reduces or negates travel-based Resolve loss, Lowers Threshold requirements in wilderness scenes*
+*Reduces or negates travel-based Resolve Threshold advances, Lowers Threshold requirements in wilderness scenes*
 *Most Rangers are tied to The Living Accord, but any Custodial Power from any plane can bring about Rangers*
 *All Rangers can use Medium Armor and all Weaponry, though no mastery like the Combatants. They can all cast some level of spells, though significantly less than the Weaver.*
 *"The Ranger decides where and how you suffer.", "The wild obeys the Ranger.", "The Ranger wins before the fight begins."*
@@ -695,18 +695,18 @@ You decide where the battle happens, what it costs to get there, and who suffers
 
 ### Progression Table
 
-| Level | Prof | Body HD | Resolve | Core Milestone | Way |
-|-------|------|---------|---------|----------------|-----|
-| 1 | 1 | 5d8 | 5 | Wild's Arbiter | — |
-| 2 | 1 | 7d8 | 5 | Hunter's Reflexes | Row 1 |
-| 3 | 2 | 8d8 | 5 | Wild's Judgment | — |
-| 4 | 2 | 10d8 | 5 | Terrain Adaptation | Row 2 |
-| 5 | 3 | 12d8 | 5 | Apex Predator | — |
-| 6 | 3 | 13d8 | 5 | Dual Mark | Row 3 |
-| 7 | 4 | 15d8 | 5 | Nature's General | — |
-| 8 | 4 | 17d8 | 5 | Enhanced Mark | Row 4 |
-| 9 | 5 | 18d8 | 5 | Sovereign of the Wilds | — |
-| 10 | 5 | 20d8 | 5 | Voice of the Accord | Row 5 |
+| Level | Prof | Body HD | RT | Core Milestone | Way |
+|-------|------|---------|-----|----------------|-----|
+| 1 | 1 | 5d8 | 2 | Wild's Arbiter | — |
+| 2 | 1 | 7d8 | 2 | Hunter's Reflexes | Row 1 |
+| 3 | 2 | 8d8 | 2 | Wild's Judgment | — |
+| 4 | 2 | 10d8 | 2 | Terrain Adaptation | Row 2 |
+| 5 | 3 | 12d8 | 2 | Apex Predator | — |
+| 6 | 3 | 13d8 | 2 | Dual Mark | Row 3 |
+| 7 | 4 | 15d8 | 2 | Nature's General | — |
+| 8 | 4 | 17d8 | 2 | Enhanced Mark | Row 4 |
+| 9 | 5 | 18d8 | 2 | Sovereign of the Wilds | — |
+| 10 | 5 | 20d8 | 2 | Voice of the Accord | Row 5 |
 
 ### Core Abilities
 
@@ -714,7 +714,7 @@ You decide where the battle happens, what it costs to get there, and who suffers
 
 **Starting Resources:**
 - **Hit Dice (Body):** 5d8 — *5 individual d8 dice*
-- **Resolve:** 5 — *5 individual d6 dice for checks*
+- **Resolve Threshold:** 2 — *starting threshold, escalates on failed checks*
 - **Proficiency:** 1 *(Level 1-2)*
 - **Defense Capacity:** 1 *(= Proficiency)*
 - **Armor Proficiency:** Light (2d6), Medium (3d8)
@@ -767,8 +767,8 @@ Gain +1d6 to initiative rolls (doesn't burn HD). **Way Node.**
 
 **Culling Strike** (Advanced, 3+)
 - Required: 2 successes
-- Target must be at half HD or less, or Resolve 2 or lower
-- Weapon damage + Proficiency HD; target contests or loses 1 Resolve
+- Target must be at half HD or less, or RT 5 or higher
+- Weapon damage + Proficiency HD; target contests or RT advances by 1
 - Usable Proficiency times per short rest
 
 ---
@@ -855,7 +855,7 @@ Breath ←→ Thorn ←→ Tide ←→ Rot ←→ Hearth ←→ Star ←→ Howl
 *Life tracking, vitality sense, survival mastery*
 *Adjacent: Howl, Thorn*
 
-**Row 1: Life Reader** — Mark Prey reveals exact HD, Resolve, and conditions. Sense all living creatures within 30 yards.
+**Row 1: Life Reader** — Mark Prey reveals exact HD, Resolve Threshold, and conditions. Sense all living creatures within 30 yards.
 
 **Row 2: Vitality Drain** — Culling Strike restores 1 HD to you on hit.
 
@@ -972,18 +972,18 @@ You see patterns others miss. In combat, you identify weaknesses before striking
 
 ### Progression Table
 
-| Level | Prof | Body HD | Resolve | Core Milestone | Way |
-|-------|------|---------|---------|----------------|-----|
-| 1 | 1 | 5d8 | 5 | Pattern Reader | — |
-| 2 | 1 | 7d8 | 5 | Applied Knowledge | Row 1 |
-| 3 | 2 | 8d8 | 5 | Inevitable Outcome | — |
-| 4 | 2 | 10d8 | 5 | Multi-Analysis | Row 2 |
-| 5 | 3 | 12d8 | 5 | Architect of Inevitability | — |
-| 6 | 3 | 13d8 | 5 | Predictive Defense | Row 3 |
-| 7 | 4 | 15d8 | 5 | Grand Architect | — |
-| 8 | 4 | 17d8 | 5 | Instant Analysis | Row 4 |
-| 9 | 5 | 18d8 | 5 | Inevitable Architect | — |
-| 10 | 5 | 20d8 | 5 | Omniscient Architect | Row 5 |
+| Level | Prof | Body HD | RT | Core Milestone | Way |
+|-------|------|---------|-----|----------------|-----|
+| 1 | 1 | 5d8 | 2 | Pattern Reader | — |
+| 2 | 1 | 7d8 | 2 | Applied Knowledge | Row 1 |
+| 3 | 2 | 8d8 | 2 | Inevitable Outcome | — |
+| 4 | 2 | 10d8 | 2 | Multi-Analysis | Row 2 |
+| 5 | 3 | 12d8 | 2 | Architect of Inevitability | — |
+| 6 | 3 | 13d8 | 2 | Predictive Defense | Row 3 |
+| 7 | 4 | 15d8 | 2 | Grand Architect | — |
+| 8 | 4 | 17d8 | 2 | Instant Analysis | Row 4 |
+| 9 | 5 | 18d8 | 2 | Inevitable Architect | — |
+| 10 | 5 | 20d8 | 2 | Omniscient Architect | Row 5 |
 
 ### Core Abilities
 
@@ -991,7 +991,7 @@ You see patterns others miss. In combat, you identify weaknesses before striking
 
 **Starting Resources:**
 - **Hit Dice (Body):** 5d8 — *5 individual d8 dice*
-- **Resolve:** 5 — *5 individual d6 dice for checks*
+- **Resolve Threshold:** 2 — *starting threshold, escalates on failed checks*
 - **Proficiency:** 1 *(Level 1-2)*
 - **Defense Capacity:** 1 *(= Proficiency)*
 - **Armor Proficiency:** Light (2d6)
@@ -1006,7 +1006,7 @@ You see patterns others miss. In combat, you identify weaknesses before striking
 - Required: 2 successes
 - 60 yards, one creature or object; lasts until you analyze another
 - Choose ONE mode:
-  - **Diagnostic:** Full info (exact HD, Prof, active effects, defense type, Resolve, class). No mechanical bonus.
+  - **Diagnostic:** Full info (exact HD, Prof, active effects, defense type, Resolve Threshold, class). No mechanical bonus.
   - **Tactical Lock:** No info. Allies +1d6 vs target (doesn't burn HD), target -1d6 vs you, target defense dice reduced by 1 (min 0).
 
 **Polymathic Mind** (Passive)
@@ -1062,14 +1062,14 @@ Analyze can target 2 creatures simultaneously. **Way Node.**
 - Required: 4 successes
 - Prof rounds; choose one ally as Advantage Node
 - Node gains +2d6 to all actions (burn HD on 1s normally)
-- Each Node success: choose one — ally +1d6, enemy -1d6, or ally restores 1 Resolve
-- Cascade Collapse: if Node drops to 0 HD, effect ends and you lose all Resolve
+- Each Node success: choose one — ally +1d6, enemy -1d6, or ally lowers RT by 1 (minimum 2)
+- Cascade Collapse: if Node drops to 0 HD, effect ends and your RT advances to 6 (Collapse)
 - Usable once per long rest
 
 **Systemic Collapse** (Expert, 4+)
 - Required: 4 successes
 - 60 yards, one target (creature, object, or magical effect)
-- Creature: immediate Resolve check, fail = lose 1 Resolve
+- Creature: immediate Resolve check, fail = RT advances by 1
 - Object: catastrophic structural failure
 - Magical Effect: immediately ends (doesn't work on Ultimate tier)
 - Usable once per long rest
@@ -1086,7 +1086,7 @@ Gain +1d6 to defense against analyzed targets. **Way Node.**
 **Systemic Revelation** (Legendary, 5+)
 - Required: 4 successes
 - 60 yards, all creatures within
-- All enemies' HD, Resolve, abilities, weaknesses revealed to all allies
+- All enemies' HD, Resolve Threshold, abilities, weaknesses revealed to all allies
 - For Prof rounds, allies gain +2d6 vs revealed enemies
 - Usable once per long rest
 
@@ -1105,7 +1105,7 @@ Analyze is now a free action (still requires roll). **Way Node.**
 **Grand Design** (Legendary, 5+)
 - Required: 5 successes
 - Prof rounds: Expose Weakness usable once per round, Tactical Projection affects ALL enemies, once during duration declare one enemy action fails automatically
-- Cost: 2 Resolve
+- Cost: Advances RT by 2
 - Usable once per long rest
 
 **Peerless Knowledge** (Passive)
@@ -1156,7 +1156,7 @@ Moments ←→ Thresholds ←→ Unleashed Force ←→ Mutable Flesh ←→ Ope
 
 **Row 4: Lethal Knowledge** — Expose Weakness adds +Prof bonus successes instead of +2 against analyzed targets.
 
-**Row 5: Master Physician** *(Legendary, 5+)* — Once per long rest, touch target: (A) Stabilize dying + restore to half HD, (B) Remove any condition/curse/disease, or (C) Restore all lost Resolve. Costs 1 Resolve per use.
+**Row 5: Master Physician** *(Legendary, 5+)* — Once per long rest, touch target: (A) Stabilize dying + restore to half HD, (B) Remove any condition/curse/disease, or (C) Reset RT to 2. Cost: Advances RT by 1 per use.
 
 #### Way of Unleashed Force
 *Physics weaponized, structural analysis*
@@ -1236,18 +1236,18 @@ You see the code of reality. While others stumble in darkness, you read the thre
 
 ### Progression Table
 
-| Level | Prof | Body HD | Resolve | Core Milestone | Way |
-|-------|------|---------|---------|----------------|-----|
-| 1 | 1 | 4d6 | 5 | Weave Reader | — |
-| 2 | 1 | 5d6 | 5 | Efficient Advanced | Row 1 |
-| 3 | 2 | 6d6 | 5 | Pattern Mastery | — |
-| 4 | 2 | 8d6 | 5 | Greater Recovery | Row 2 |
-| 5 | 3 | 9d6 | 5 | Thread Master | — |
-| 6 | 3 | 11d6 | 5 | Reality Anchor | Row 3 |
-| 7 | 4 | 12d6 | 5 | Reality Architect | — |
-| 8 | 4 | 14d6 | 5 | Efficient Expert | Row 4 |
-| 9 | 5 | 15d6 | 5 | Weave Ascendant | — |
-| 10 | 5 | 17d6 | 5 | Sovereign of the Weave | Row 5 |
+| Level | Prof | Body HD | RT | Core Milestone | Way |
+|-------|------|---------|-----|----------------|-----|
+| 1 | 1 | 4d6 | 2 | Weave Reader | — |
+| 2 | 1 | 5d6 | 2 | Efficient Advanced | Row 1 |
+| 3 | 2 | 6d6 | 2 | Pattern Mastery | — |
+| 4 | 2 | 8d6 | 2 | Greater Recovery | Row 2 |
+| 5 | 3 | 9d6 | 2 | Thread Master | — |
+| 6 | 3 | 11d6 | 2 | Reality Anchor | Row 3 |
+| 7 | 4 | 12d6 | 2 | Reality Architect | — |
+| 8 | 4 | 14d6 | 2 | Efficient Expert | Row 4 |
+| 9 | 5 | 15d6 | 2 | Weave Ascendant | — |
+| 10 | 5 | 17d6 | 2 | Sovereign of the Weave | Row 5 |
 
 ### Core Abilities
 
@@ -1255,7 +1255,7 @@ You see the code of reality. While others stumble in darkness, you read the thre
 
 **Starting Resources:**
 - **Hit Dice (Body):** 4d6 — *4 individual d6 dice (Fragile)*
-- **Resolve:** 5 — *5 individual d6 dice for checks*
+- **Resolve Threshold:** 2 — *starting threshold, escalates on failed checks*
 - **Proficiency:** 1 *(Level 1-2)*
 - **Defense Capacity:** 1 *(= Proficiency)*
 - **Armor Proficiency:** None (unarmored)
@@ -1364,7 +1364,7 @@ Expert tier spells require 1 less exertion die (minimum 0). **Way Node.**
 **Reality Rewrite** (Legendary, 5+)
 - Required: 5 successes
 - Rewrite one fundamental rule within 30 yards for Prof rounds ("gravity reverses," "fire heals," "sound deals damage")
-- Cost: 3 Resolve
+- Cost: Advances RT by 3
 - Usable once per long rest
 
 ---
@@ -1407,13 +1407,13 @@ Moments ←→ Thresholds ←→ Unleashed Force ←→ Mutable Flesh ←→ Ope
 
 **Row 1: Death Ward** — Once per long rest, ward one creature. Next time they'd drop to 0 HD, drop to 1 instead. Lasts until triggered or next long rest.
 
-**Row 2: Boundary Sense** — Perceive exact HD and Resolve of any observed creature without Analyzing.
+**Row 2: Boundary Sense** — Perceive exact HD and Resolve Threshold of any observed creature without Analyzing.
 
 **Row 3: Soul Tether** — Once per short rest, tether dying ally for Prof rounds: death suspended (0 HD, no Resolve checks). Must heal before tether expires or they die.
 
-**Row 4: Resurrect** — Once per long rest, bring back creature dead within 1 minute. Return at 1 HD, 1 Resolve. Cost: 3 Resolve, 5 HD.
+**Row 4: Resurrect** — Once per long rest, bring back creature dead within 1 minute. Return at 1 HD, RT 6 (Staggering). Cost: Advances RT by 3, lose 5 HD.
 
-**Row 5: Master of Thresholds** *(Legendary, 5+)* — Once per long rest, for 1 round: no creature within 60 yards can die (held at 1 HD). Transfer HD between any creatures within range (contest for unwilling). Release chosen creatures across the threshold (instant death, 1 Resolve cost each).
+**Row 5: Master of Thresholds** *(Legendary, 5+)* — Once per long rest, for 1 round: no creature within 60 yards can die (held at 1 HD). Transfer HD between any creatures within range (contest for unwilling). Release chosen creatures across the threshold (instant death, advances your RT by 1 each).
 
 #### Way of Unleashed Force
 *Evocation mastery, raw magical power*
@@ -1494,18 +1494,18 @@ You exist between states. While others are fully here or fully there, you walk b
 
 ### Progression Table
 
-| Level | Prof | Body HD | Resolve | Core Milestone | Way |
-|-------|------|---------|---------|----------------|-----|
-| 1 | 1 | 4d6 | 5 | Threshold Walker | — |
-| 2 | 1 | 5d6 | 5 | Extended Communion | Row 1 |
-| 3 | 2 | 6d6 | 5 | Spirit Manifestation | — |
-| 4 | 2 | 8d6 | 5 | Dual Communion | Row 2 |
-| 5 | 3 | 9d6 | 5 | Walker Between Worlds | — |
-| 6 | 3 | 11d6 | 5 | Spirit Defense | Row 3 |
-| 7 | 4 | 12d6 | 5 | Great Spirit | — |
-| 8 | 4 | 14d6 | 5 | Spirit Fortification | Row 4 |
-| 9 | 5 | 15d6 | 5 | Accord Incarnate | — |
-| 10 | 5 | 17d6 | 5 | One with All | Row 5 |
+| Level | Prof | Body HD | RT | Core Milestone | Way |
+|-------|------|---------|-----|----------------|-----|
+| 1 | 1 | 4d6 | 2 | Threshold Walker | — |
+| 2 | 1 | 5d6 | 2 | Extended Communion | Row 1 |
+| 3 | 2 | 6d6 | 2 | Spirit Manifestation | — |
+| 4 | 2 | 8d6 | 2 | Dual Communion | Row 2 |
+| 5 | 3 | 9d6 | 2 | Walker Between Worlds | — |
+| 6 | 3 | 11d6 | 2 | Spirit Defense | Row 3 |
+| 7 | 4 | 12d6 | 2 | Great Spirit | — |
+| 8 | 4 | 14d6 | 2 | Spirit Fortification | Row 4 |
+| 9 | 5 | 15d6 | 2 | Accord Incarnate | — |
+| 10 | 5 | 17d6 | 2 | One with All | Row 5 |
 
 ### Core Abilities
 
@@ -1513,7 +1513,7 @@ You exist between states. While others are fully here or fully there, you walk b
 
 **Starting Resources:**
 - **Hit Dice (Body):** 4d6 — *4 individual d6 dice (Fragile)*
-- **Resolve:** 5 — *5 individual d6 dice for checks*
+- **Resolve Threshold:** 2 — *starting threshold, escalates on failed checks*
 - **Proficiency:** 1 *(Level 1-2)*
 - **Defense Capacity:** 1 *(= Proficiency)*
 - **Armor Proficiency:** Light (2d6)
@@ -1602,7 +1602,7 @@ Maintain 2 Spirit Communion types simultaneously. **Way Node.**
 - Required: 4 successes
 - Touch surface within 10 yards, Prof rounds
 - 10-yard portal between mortal and spirit realms
-- Choose: Summon Prof spirits (one attack each, Prof HD, then fade), Banish Corporeal (contest or removed for duration), Healing (allies passing through restore Prof HD + 1 Resolve), Destructive (enemies within 10 yards take Prof × 2 HD)
+- Choose: Summon Prof spirits (one attack each, Prof HD, then fade), Banish Corporeal (contest or removed for duration), Healing (allies passing through restore Prof HD and lower RT by 1, minimum 2), Destructive (enemies within 10 yards take Prof × 2 HD)
 - Concentration required
 - Usable once per long rest
 
@@ -1639,7 +1639,7 @@ All manifested spirit HD increase by Prof. **Way Node.**
 **Become the Accord** (Legendary, 5+)
 - Required: 5 successes
 - Prof rounds: avatar of the Living Accord. Exist in both realms simultaneously. Spirit abilities require no rolls. Presence heals allies Prof HD/round within 30 yards. Enemies within 30 yards make Resolve checks each round.
-- Cost: Drop to 1 HD and lose 3 Resolve when it ends
+- Cost: Drop to 1 HD and RT advances by 3 when it ends
 - Usable once per long rest
 
 **Deep Communion** (Passive)
@@ -1731,7 +1731,7 @@ Breath ←→ Thorn ←→ Tide ←→ Rot ←→ Hearth ←→ Star ←→ Howl
 
 **Row 3: Ancestral Council** — Manifest Prof ancestors simultaneously. Each answers one question. Combined knowledge: +3d6 to one Lore check.
 
-**Row 4: Hearthfire** — Once per long rest, create spiritual hearth during rest. Allies within 30 yards restore +Prof HD and +1 Resolve.
+**Row 4: Hearthfire** — Once per long rest, create spiritual hearth during rest. Allies within 30 yards restore +Prof HD and lower RT by 1 (minimum 2).
 
 **Row 5: Home of the Spirits** *(Legendary, 5+)* — Once per long rest, 30-yard sanctuary for Prof × 2 rounds: allies +2d6 all actions, manifest any spirit without rolling, hostile spirits/undead cannot enter.
 
@@ -1769,7 +1769,7 @@ Breath ←→ Thorn ←→ Tide ←→ Rot ←→ Hearth ←→ Star ←→ Howl
 
 *The Sovereign: "Where others draw from the cosmos, I draw from myself."*
 *They are the proof that the universe's structure is not absolute. They are the crack in the metaphysical system.*
-*This class masters resource efficiency—manipulating HD, Exertion, and Resolve through perfect internal control*
+*This class masters resource efficiency—manipulating HD, Exertion, and Resolve Threshold through perfect internal control*
 *Paths will reflect martial disciplines and internal philosophies — stances, forms, meditation techniques*
 *All Sovereigns can use Light and Medium Armor and all Weaponry. They cannot cast spells — they need nothing external.*
 *Their Role: Resource efficiency expert and last-one-standing specialist*
@@ -1785,22 +1785,22 @@ Sovereigns are masters of internal economy. While others burn resources frantica
 **Sovereigns can be recognized by any Custodial Power—or by none.** The duelist who never wastes a motion, the ascetic who walks for days without rest, the condemned who refuses death through pure will—all are Sovereigns when they prove that perfected self-control surpasses borrowed power.
 
 **Core Fantasy:**
-You are a closed system, perfectly efficient. Every point of HD, every die of Exertion, every point of Resolve—you know exactly where it goes and what it buys. You are not flashy. You are *efficient*. And efficiency means you're still fighting when everyone else has collapsed.
+You are a closed system, perfectly efficient. Every point of HD, every die of Exertion, every step of your Resolve Threshold—you know exactly where it goes and what it buys. You are not flashy. You are *efficient*. And efficiency means you're still fighting when everyone else has collapsed.
 
 ### Progression Table
 
-| Level | Prof | Body HD | Resolve | Core Milestone | Way |
-|-------|------|---------|---------|----------------|-----|
-| 1 | 1 | 5d10 | 5 | Internal Economy | — |
-| 2 | 1 | 7d10 | 5 | Disciplined Form | Row 1 |
-| 3 | 2 | 9d10 | 5 | Threshold Mastery | — |
-| 4 | 2 | 11d10 | 5 | Efficient Rest | Row 2 |
-| 5 | 3 | 13d10 | 5 | Perfect Control | — |
-| 6 | 3 | 15d10 | 5 | Iron Will | Row 3 |
-| 7 | 4 | 17d10 | 5 | Transcendent Economy | — |
-| 8 | 4 | 19d10 | 5 | Superior Conversion | Row 4 |
-| 9 | 5 | 21d10 | 5 | Absolute Mastery | — |
-| 10 | 5 | 23d10 | 5 | Sovereign Absolute | Row 5 |
+| Level | Prof | Body HD | RT | Core Milestone | Way |
+|-------|------|---------|-----|----------------|-----|
+| 1 | 1 | 5d10 | 2 | Internal Economy | — |
+| 2 | 1 | 7d10 | 2 | Disciplined Form | Row 1 |
+| 3 | 2 | 9d10 | 2 | Threshold Mastery | — |
+| 4 | 2 | 11d10 | 2 | Efficient Rest | Row 2 |
+| 5 | 3 | 13d10 | 2 | Perfect Control | — |
+| 6 | 3 | 15d10 | 2 | Iron Will | Row 3 |
+| 7 | 4 | 17d10 | 2 | Transcendent Economy | — |
+| 8 | 4 | 19d10 | 2 | Superior Conversion | Row 4 |
+| 9 | 5 | 21d10 | 2 | Absolute Mastery | — |
+| 10 | 5 | 23d10 | 2 | Sovereign Absolute | Row 5 |
 
 ### Core Abilities
 
@@ -1808,7 +1808,7 @@ You are a closed system, perfectly efficient. Every point of HD, every die of Ex
 
 **Starting Resources:**
 - **Hit Dice (Body):** 5d10 — *5 individual d10 dice*
-- **Resolve:** 5 — *5 individual d6 dice for checks*
+- **Resolve Threshold:** 2 — *starting threshold, escalates on failed checks*
 - **Proficiency:** 1 *(Level 1-2)*
 - **Defense Capacity:** 1 *(= Proficiency)*
 - **Armor Proficiency:** Light (2d6), Medium (3d8)
@@ -1817,16 +1817,16 @@ You are a closed system, perfectly efficient. Every point of HD, every die of Ex
 **Centered Strike** (Basic, 2+)
 - Weapon attacks are Basic (2+)
 - **Economy Bonus:** When you use 0 Exertion dice this turn, +Proficiency to damage
-- **Clarity Bonus:** At 5 Resolve (maximum), success threshold reduces by 1 step
+- **Clarity Bonus:** At RT 2 (starting threshold), success threshold reduces by 1 step
 - You fight with mathematics, not emotion
 
 **Internal Alchemy** (Passive — Core Mechanic)
-- **Resolve → Endurance:** Spend 1 Resolve (free action) to prevent next Prof HD loss. Once per round.
-- **HD → Will:** If you lose 3+ HD from single source, restore 1 Resolve at end of turn. Once per round.
+- **Resolve → Endurance:** Spend 1 RT advance (free action) to prevent next Prof HD loss. Once per round.
+- **HD → Will:** If you lose 3+ HD from single source, lower RT by 1 (minimum 2) at end of turn. Once per round.
 - **Efficiency Banking:** Unused Exertion budget from previous turn = +1d6 on first roll next turn (doesn't burn HD)
 
 **Sovereign Discipline** (Passive)
-- Advantage on: resist mental manipulation/charm/fear/domination, maintain concentration, resist environmental Resolve loss, endure physical hardship
+- Advantage on: resist mental manipulation/charm/fear/domination, maintain concentration, resist environmental Resolve Threshold advances, endure physical hardship
 - Auto-succeed Basic Fortitude for endurance
 - Doesn't burn HD
 
@@ -1839,7 +1839,7 @@ You are a closed system, perfectly efficient. Every point of HD, every die of Ex
 **Efficient Recovery** (Advanced, 3+)
 - Required: 2 successes
 - Restore Proficiency HD immediately
-- Cost: 1 Resolve
+- Cost: Advances RT by 1
 - Usable Proficiency times per short rest
 
 ---
@@ -1854,13 +1854,13 @@ Treat one armor die type as one step larger (d6→d8, d8→d10). **Way Node.**
 **Resource Cascade** (Advanced, 3+)
 - After successfully striking an enemy, trigger cascade
 - Required: 2 successes (rolled after attack succeeds)
-- Choose: HD below half → restore Prof HD; Resolve below 5 → restore 1 Resolve; max Exertion used → next turn budget +2
+- Choose: HD below half → restore Prof HD; RT above 2 → lower RT by 1; max Exertion used → next turn budget +2
 - Usable Proficiency times per short rest
 
 **Deny Death** (Expert, 4+)
-- When you would lose Resolve and drop to 0, refuse
+- When you would fail a Resolve check and Collapse, refuse
 - Required: 3 successes (Prof + remaining exertion)
-- Success: remain at 1 Resolve minimum
+- Success: remain at RT 6 (Staggering) instead of Collapsing
 - Also: at 0 HD with Resolve check — success = auto-pass check
 - Cannot stack with other immortality effects
 - Usable once per long rest
@@ -1898,12 +1898,12 @@ Auto-pass first Resolve check per combat. **Way Node.**
 **Flawless Economy** (Legendary, 5+)
 - Required: 4 successes
 - 2 rounds (fixed): Internal Alchemy has no "once per round" limits, all Exertion 1s become 2s, take one additional action per turn
-- Cost: 3 Resolve when it ends (cannot be prevented)
-- If reduced to 0 Resolve during effect, it ends and you collapse
+- Cost: RT advances by 3 when it ends (cannot be prevented)
+- If you Collapse during effect (fail at RT 6), it ends immediately
 - Usable once per short rest
 
 **Inevitable Stance** (Legendary, 5+)
-- When last ally standing (all others at 0 HD/Resolve within 60 yards)
+- When last ally standing (all others at 0 HD or Collapsed within 60 yards)
 - Required: 4 successes
 - Prof rounds or until allies recover
 - Gain: Prof × 2 temporary HD, +Prof HD damage, +2d6 Resolve checks, enemies attacking you -1d6, cannot be moved/knocked prone
@@ -1959,7 +1959,7 @@ Sealed Gate ←→ Keen Edge ←→ Still Water ←→ Tempered Forge ←→ Unb
 
 **Row 4: Impenetrable Form** — Armor dice one size larger (d6→d8, d8→d10, d10→d12). Body dice survive on 4+ instead of 5+.
 
-**Row 5: Absolute Defense** *(Legendary, 5+)* — Once per long rest, Prof rounds: auto-succeed all defense rolls (no dice destroyed). May attack normally. Lose 3 Resolve when it ends.
+**Row 5: Absolute Defense** *(Legendary, 5+)* — Once per long rest, Prof rounds: auto-succeed all defense rolls (no dice destroyed). May attack normally. RT advances by 3 when it ends.
 
 #### Way of the Keen Edge
 *Offensive efficiency, lethal economy*
@@ -1969,7 +1969,7 @@ Sealed Gate ←→ Keen Edge ←→ Still Water ←→ Tempered Forge ←→ Unb
 
 **Row 2: Waste Nothing** — Excess damage beyond outermost defense layer carries to next layer (no wasted damage).
 
-**Row 3: Economy of Violence** — Once per short rest on hit: deal normal damage + target loses 1 Resolve, OR deal Prof × 2 HD. Maximum effect.
+**Row 3: Economy of Violence** — Once per short rest on hit: deal normal damage + target's RT advances by 1, OR deal Prof × 2 HD. Maximum effect.
 
 **Row 4: Surgical Precision** — Your attacks ignore 2 defense dice (target rolls 2 fewer, min 0).
 
@@ -2001,7 +2001,7 @@ Sealed Gate ←→ Keen Edge ←→ Still Water ←→ Tempered Forge ←→ Unb
 
 **Row 4: Perpetual Engine** — Efficiency Banking grants +2d6 instead of +1d6. Taking 0 damage on a round restores 1 HD.
 
-**Row 5: Transcendent Alchemy** *(Legendary, 5+)* — Once per long rest, Prof rounds: all Internal Alchemy has no limits, Exertion never burns HD (1s become 2s), restore 2 HD per turn end. Lose 2 Resolve when it ends.
+**Row 5: Transcendent Alchemy** *(Legendary, 5+)* — Once per long rest, Prof rounds: all Internal Alchemy has no limits, Exertion never burns HD (1s become 2s), restore 2 HD per turn end. RT advances by 2 when it ends.
 
 #### Way of the Unbroken
 *Survival defiance, last-one-standing*
@@ -2015,4 +2015,4 @@ Sealed Gate ←→ Keen Edge ←→ Still Water ←→ Tempered Forge ←→ Unb
 
 **Row 4: Rising Stronger** — Each time Deny Death or Unbreakable Body triggers, gain +2d6 to all actions for Prof rounds.
 
-**Row 5: Sovereign Immortality** *(Legendary, 5+)* — Once per long rest, when you would die, refuse. Stand at 1 HD, 1 Resolve, gain a full extra turn. All attacks this turn auto-hit, max damage. After: Resolve check — fail = collapse to 0 everything, success = 1 HD, 1 Resolve.
+**Row 5: Sovereign Immortality** *(Legendary, 5+)* — Once per long rest, when you would die, refuse. Stand at 1 HD, RT resets to 6 (Staggering), gain a full extra turn. All attacks this turn auto-hit, max damage. After: Resolve check — fail = Collapse and death, success = remain at 1 HD, RT 6.

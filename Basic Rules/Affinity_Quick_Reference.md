@@ -23,13 +23,15 @@
 
 ## Character Resources
 
-| Level | Proficiency | Resolve |
-|-------|-------------|---------|
-| 1-2 | 1 | 5 |
-| 3-4 | 2 | 5 |
-| 5-6 | 3 | 5 |
-| 7-8 | 4 | 5 |
-| 9-10 | 5 | 5 |
+| Level | Proficiency |
+|-------|-------------|
+| 1-2 | 1 |
+| 3-4 | 2 |
+| 5-6 | 3 |
+| 7-8 | 4 |
+| 9-10 | 5 |
+
+**Resolve Threshold:** All PCs start every encounter at **RT 2** (need 2+ on 1d6 to hold). Threshold escalates on failed checks.
 
 ---
 
@@ -94,7 +96,7 @@ Result: 4d8 body, 0 armor (3 dice destroyed)
 - **Can exert** on initiative (up to Proficiency) if not surprised
 - **Surprised:** Cannot exert, roll at disadvantage
 - **Ties:** Highest single die wins, then GM decides
-- **Resolve bonus:** Gain 1 Resolve when rolling initiative (not surprised, max 5)
+- **Resolve bonus:** Reset Resolve Threshold to 2 when rolling initiative (not surprised)
 
 ---
 
@@ -124,14 +126,14 @@ Result: 4d8 body, 0 armor (3 dice destroyed)
 
 ### Rest (0.5-8 hours, threatened)
 - Regain **Proficiency HD**
-- Regain **1 Resolve**
+- **Lower Resolve Threshold by 1** (minimum 2)
 - Reset short rest abilities
 - Armor repairable (if you have craft abilities)
 - **Max 2 Rests per day**
 
 ### Recover (6+ hours, safe)
 - Regain **all HD**
-- Regain **all Resolve** (5)
+- **Reset Resolve Threshold to 2**
 - Restore armor layer (usable for defense again)
 - Reset all abilities
 - **Requires safe space** (Rangers/Priests can create safety)
@@ -141,37 +143,36 @@ Result: 4d8 body, 0 armor (3 dice destroyed)
 ## Universal Actions
 
 ### Rush
-**Cost:** 1 Resolve (automatic, no roll)  
+**Cost:** Advance Resolve Threshold by 1 (automatic, no roll)  
 **Effect:** Immediately regain Proficiency HD  
 **Frequency:** Resets on Rest
 
-Trade mental fortitude for physical recovery. Use one action, lose 1 Resolve (no check), gain Proficiency HD immediately. No dice roll, no risk—pure desperation.
+Trade mental fortitude for physical recovery. Use one action, advance RT by 1 (no check), gain Proficiency HD immediately. No dice roll, no risk—pure desperation.
 
 ### Steady
 **Cost:** 3 HD (automatic, no roll)  
-**Effect:** Immediately gain 1 Resolve  
+**Effect:** Lower Resolve Threshold by 1 (minimum 2)  
 **Frequency:** Resets on Rest
 
-Trade physical vitality for mental fortitude. Use one action, lose 3 HD (no check), gain 1 Resolve immediately. No dice roll, no risk—pure sacrifice. **Note:** Priests and Sovereigns have superior Resolve restoration through class abilities.
+Trade physical vitality for mental fortitude. Use one action, lose 3 HD (no check), lower RT by 1 immediately. No dice roll, no risk—pure sacrifice. **Note:** Priests and Sovereigns have superior Resolve restoration through class abilities.
 
 ---
 
 ## Death & Dying
 
-**You die when you reach BOTH 0 HD AND 0 Resolve.**
+**You die when you reach BOTH 0 HD AND Collapse (failed at RT 6).**
 
-**Collapse (0 Resolve, HD > 0):**
+**Collapse (Failed at Resolve Threshold 6, HD > 0):**
 - Fall unconscious for 0-2 days
 - NOT dying, but incapacitated
-- Wake with 1 Resolve eventually
+- Wake with RT 6 (Staggering) eventually
 
-**Dying (0 HD, Resolve > 0):**
-- Make Resolve check each round  
-- **4-:** Lose 1 Resolve  
-- **5:** Hold current Resolve  
-- **6:** Gain 1 Resolve
+**Dying (0 HD, not yet Collapsed):**
+- Make Resolve check each round (roll 1d6 vs current Threshold)
+- **Below Threshold:** Threshold advances by 1
+- **At or above Threshold:** No change (but no rally either)
 - If healed above 0 HD: Stop checks, regain consciousness
-- If you reach 0 Resolve while at 0 HD: **Death**
+- If you fail at Threshold 6 while at 0 HD: **Death**
 
 **Stabilize Action (Basic 2+):**
 - Touch dying ally
@@ -180,7 +181,7 @@ Trade physical vitality for mental fortitude. Use one action, lose 3 HD (no chec
 
 ---
 
-## Resolve Checks
+## Resolve Checks (The Escalating Spiral)
 
 **When Required:**
 - Lose ≥ Proficiency + 1 HD in one round
@@ -192,23 +193,23 @@ Trade physical vitality for mental fortitude. Use one action, lose 3 HD (no chec
 
 **Max 1 check per round** (even if multiple triggers)
 
-**Roll 1d6:**
-- **4 or less:** Lose 1 Resolve
-- **5:** Stay at current Resolve
-- **6:** Gain 1 Resolve (max 5)
+**Roll 1d6 vs Resolve Threshold:**
+- **At or above Threshold:** Pass — no change
+- **Below Threshold:** Fail — Threshold advances by 1
+- **No rally.** Recovery only via Steady, rest, or class abilities.
 
-### Resolve Stage Penalties
+### Resolve Threshold Stages
 
-| Resolve | Penalties |
-|---------|----------|
-| 5 (Full) | None |
-| 4 (Pressured) | No Expert+ actions |
-| 3 (Shaken) | No Expert+, -1 defense die |
-| 2 (Weakened) | No Expert+, Advanced+ needs +1 success, -1 defense die |
-| 1 (Staggering) | No Expert+, Advanced+ needs +1 success, -2 defense dice |
-| 0 (Collapse) | Unconscious (dying if 0 HD) |
+| Threshold | Stage | Penalties |
+|-----------|-------|----------|
+| 2 (2+) | Full Strength | None |
+| 3 (3+) | Pressured | No Expert+ actions |
+| 4 (4+) | Shaken | No Expert+, -1 defense die |
+| 5 (5+) | Weakened | No Expert+, Advanced+ needs +1 success, -1 defense die |
+| 6 (6 only) | Staggering | No Expert+, Advanced+ needs +1 success, -2 defense dice |
+| Failed at 6 | Collapse | Unconscious (dying if 0 HD) |
 
-**Note:** Rush action bypasses this roll (voluntary loss)
+**Note:** Rush action bypasses this roll (voluntary advance)
 
 ---
 
@@ -334,25 +335,27 @@ Trade physical vitality for mental fortitude. Use one action, lose 3 HD (no chec
 
 ## Resolve
 
-**Player Character Resolve = 5** *(constant for all levels)*  
-**NPC Resolve = Varies** *(typically equals Proficiency, but can be higher or lower)*
+**Player Character Resolve Threshold = 2** *(starting threshold for all PCs, resets each encounter)*  
+**NPC Resolve Threshold = Varies** *(typically based on tier; see GM Guide)*
 
-### Gain 1 Resolve when:
-- You roll initiative (and are not surprised) in any encounter (max 5)
+### Threshold advances by 1 when:
+- You fail a Resolve check (rolled below current Threshold)
+- You use Rush (voluntary advance, no roll)
 
-### Lose 1 Resolve when:
-- You lost HD this round
-- You used maximum exertion this round
-- You failed an Expert+ action
+### Threshold is lowered by 1 when:
+- You use Steady (costs 3 HD, minimum RT 2)
+- You Rest (minimum RT 2)
+- Certain class abilities
 
-### At 0 Resolve:
-- Cannot initiate Expert+ actions
-
-### At -1 Resolve:
-- You must retreat, collapse, surrender, or panic, or disadvantage and extra severe penalties
+### At Collapse (failed at Threshold 6):
+- Unconscious; dying if also at 0 HD
 
 ### Social Encounters:
-- Characters with Resolve below 2 cannot participate in social encounters
+- Social damage depletes **Composure** first (social armor), then advances RT directly
+- Resolve stage penalties apply to Composure defense (fewer dice at RT 4+)
+- RT 6 = Total Defeat; further damage at RT 6 = Collapse (socially broken)
+- Characters at Resolve Threshold 5+ cannot participate in social encounters
+- Composure resets each social encounter; RT carries over
 
 ---
 

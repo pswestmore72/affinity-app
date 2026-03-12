@@ -329,7 +329,7 @@ Track which abilities players struggle to remember or apply. Reword them for cla
 - **No exertion budgets:** NPCs roll fixed dice pools shown in stat blocks
 - **No HD burn from 1s:** Simplifies tracking (only players suffer death spirals)
 - **Variable actions:** Higher-tier NPCs get more actions to challenge parties
-- **Variable Resolve:** Unlike PCs (always 5), NPCs have tier-based Resolve
+- **Variable Resolve Threshold:** NPCs have tier-based starting RT (PCs always start at RT 2)
 
 **Why Simplify NPCs?**
 - You may run 3-8 NPCs simultaneously in combat
@@ -341,15 +341,15 @@ Track which abilities players struggle to remember or apply. Reword them for cla
 
 ### NPC Power Tiers
 
-| Tier | Actions Per Turn | Max Resolve | Typical Use |
+| Tier | Actions Per Turn | Starting RT | Typical Use |
 |------|------------------|-------------|-------------|
-| **Trivial** | 1 | 2 | Cannon fodder, harmless NPCs |
-| **Basic** | 1-2 | 2 | Standard encounters, guards, bandits |
-| **Advanced** | 1-2 | 3 | Mid-level threats, skilled warriors |
-| **Expert** | 2 | 4 | Mini-bosses, elite enemies |
-| **Legendary** | 2 + ½ party size (up) | 5+ | Major bosses, epic encounters |
-| **Ultimate** | 2 + ½ party size (up) | 8+ | World-threatening entities |
-| **Mythical** | 2 + party size (up) | 11+ | Reality-warping cosmic forces |
+| **Trivial** | 1 | 5 | Cannon fodder, harmless NPCs |
+| **Basic** | 1-2 | 5 | Standard encounters, guards, bandits |
+| **Advanced** | 1-2 | 4 | Mid-level threats, skilled warriors |
+| **Expert** | 2 | 3 | Mini-bosses, elite enemies |
+| **Legendary** | 2 + ½ party size (up) | 2 | Major bosses, epic encounters |
+| **Ultimate** | 2 + ½ party size (up) | 2 + Shield 3 | World-threatening entities |
+| **Mythical** | 2 + party size (up) | 2 + Shield 6 | Reality-warping cosmic forces |
 
 **Party Size Scaling:**
 - 4 PCs = Legendary NPC gets 4 actions (2 + 2)
@@ -483,17 +483,18 @@ Verdant Guardian (Prof 3, Armor 2d10 temp HD) takes 4 HD fire damage:
 
 ### NPC Resolve
 
-**Unlike PCs (who always have Resolve 5), NPCs vary by tier:**
+**Like PCs, NPCs use the Resolve Threshold (RT) system, but their starting RT varies by tier:**
 
-- **Trivial/Basic (Resolve 2):** Easily demoralized, flee when bloodied
-- **Advanced (Resolve 3):** Moderate willpower, fight until clear defeat
-- **Expert (Resolve 4):** Disciplined, retreat only when tactically smart
-- **Legendary+ (Resolve 5-11+):** Exceptional conviction, fight to death or victory
+- **Trivial/Basic (Starting RT 5):** Already near Collapse, easily demoralized, flee when bloodied
+- **Advanced (Starting RT 4):** Moderate willpower, fight until clear defeat
+- **Expert (Starting RT 3):** Disciplined, retreat only when tactically smart
+- **Legendary (Starting RT 2):** Same mental fortitude as PCs, fight to death or victory
+- **Ultimate/Mythical (Starting RT 2 + Resolve Shield):** Exceptional conviction; Resolve Shield absorbs RT advances before the threshold begins escalating
 
 **Use Resolve Narratively:**
-- When NPC reaches 0 Resolve: Demoralized, surrenders, or flees
-- Social encounters can reduce Resolve before combat even starts
-- High-Resolve NPCs make heroic last stands or villain monologues
+- When NPC Collapses (fails at RT 6): Demoralized, surrenders, or flees
+- Social encounters can advance NPC RT before combat even starts
+- Low-RT NPCs (Legendary+) make heroic last stands or villain monologues
 
 ---
 
@@ -552,22 +553,22 @@ Verdant Guardian (Prof 3, Armor 2d10 temp HD) takes 4 HD fire damage:
 ### Social Encounters with NPCs
 
 **NPCs in Social Conflicts:**
-- Use the same social attack rules as PCs (target Resolve)
+- Use the same social attack rules as PCs (target RT)
 - Roll fixed dice pools (no exertion choices)
-- Track Resolve damage normally
+- Track RT advancement normally
 
 **Example:**
 ```
-Noble NPC (Proficiency 3, Resolve 4)
+Noble NPC (Proficiency 3, Starting RT 3)
 - Cutting Insult (Influence attack):
   - Rolls: 4d6 (fixed pool)
   - Required: 2 (Advanced threshold)
-  - Resolve Damage: 1 base + bonus (capped at Prof 3)
+  - RT Advance: 1 base + bonus (capped at Prof 3)
 ```
 
-**Reducing NPC Resolve Before Combat:**
+**Advancing NPC RT Before Combat:**
 If PCs demoralize guards through Influence:
-- Guards start combat at reduced Resolve
+- Guards start combat with elevated RT
 - May flee earlier or fight less aggressively
 - Creates tactical advantage for clever players
 
@@ -590,7 +591,7 @@ If PCs demoralize guards through Influence:
 **Track Only What Matters:**
 - ✅ HP/HD (critical)
 - ✅ Armor status (depleted or not)
-- ✅ Resolve (for morale/social)
+- ✅ Resolve Threshold (for morale/social)
 - ❌ Individual exertion budgets (not used by NPCs)
 - ❌ HD burn from 1s (simplified away)
 
@@ -686,7 +687,7 @@ When a player accepts a Burden (offered by deities, cosmic forces, or earned thr
 
 **Cornerstone Burden** (Guardian Affinity):
 - **Benefit:** Designate one ally as your "Foundation" (1/long rest). While near you, they cannot be moved, knocked prone, or grappled against their will.
-- **Cost:** You cannot flee combat while your Foundation is endangered. If your Foundation drops to 0 HD, you lose 1 Resolve (guilt/failure).
+- **Cost:** You cannot flee combat while your Foundation is endangered. If your Foundation drops to 0 HD, your RT advances by 1 (guilt/failure).
 
 **Renewal Burden** (Decay Affinity):
 - **Benefit:** When you witness or cause a necessary ending, you may grant an ally +1d6 to their next action (transformation energy flows through you).
@@ -713,7 +714,7 @@ When a player accepts a Burden (offered by deities, cosmic forces, or earned thr
 **Adjudicating Burdens:**
 
 When a Burden's cost triggers:
-1. **Narrate the consequence clearly:** "Your Foundation drops to 0 HD. Torvan, you feel the weight of failure—lose 1 Resolve."
+1. **Narrate the consequence clearly:** "Your Foundation drops to 0 HD. Torvan, you feel the weight of failure—your RT advances by 1."
 2. **Allow player response:** Let them roleplay the guilt, determination, or conflict
 3. **Don't waive costs:** If costs can be avoided easily, the Burden becomes meaningless
 
@@ -779,13 +780,13 @@ Burdens work beautifully when costs are **triggered during play**, create **mean
 
 Social encounters use the same dice pool resolution as combat:
 - **Roll:** Proficiency + Exertion (class abilities may grant bonus dice if relevant domain applies)
-- **Target:** Resolve instead of HD
-- **Minimum Resolve:** Characters with Resolve below 2 cannot participate in social encounters
-- **Initiative Bonus:** Characters who roll initiative and are not surprised gain 1 Resolve (max 5)
+- **Damage Flow:** Composure first (social armor), then remaining damage advances RT directly
+- **Participation Limit:** Characters at RT 5+ cannot participate in social encounters — they are already at Major Concession or worse
+- **RT Carry-Over:** RT persists between physical and social encounters — combat pressure affects negotiations and vice versa
 
 **Resolve Recovery:**
-- **Short Rest:** Recover 1 Resolve
-- **Long Rest (protected/safe):** Restore all Resolve to maximum (5)
+- **Short Rest (Rest):** Lower RT by 1
+- **Long Rest (Recover, protected/safe):** Reset RT to 2
 - This ensures players can recover from social/mental exhaustion
 
 See **Social Duels** in Core Mechanics for complete rules.

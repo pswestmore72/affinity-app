@@ -170,7 +170,7 @@ DICE DESTROYED: 2 armor dice + 2 body dice = 4 dice lost
 
 **Benefits:**
 - Regain **Proficiency HD** (not maximum, just your Proficiency score)
-- Regain **1 Resolve** (up to maximum of 5)
+- **Lower Resolve Threshold by 1** (minimum 2)
 - Reset **short rest abilities** (War Cries, Power Words, etc.)
 - **Armor repair:** If you have class abilities that allow mending/repair/craft, you may restore your armor layer (making it usable for defense again)
 
@@ -179,9 +179,9 @@ DICE DESTROYED: 2 armor dice + 2 body dice = 4 dice lost
 - Resting while under threat means limited recovery
 
 **Example:**
-Level 5 Combatant (Proficiency 3, at 2 HD / 11 max, 3 Resolve)
+Level 5 Combatant (Proficiency 3, at 2 HD / 11 max, Resolve Threshold 4 — Shaken)
 - Takes a Rest in the dungeon (threatened space)
-- Regains 3 HD (2 → 5 HD), regains 1 Resolve (3 → 4 Resolve)
+- Regains 3 HD (2 → 5 HD), lowers Resolve Threshold by 1 (4 → 3 — now Pressured)
 - Short rest abilities reset (War Cries available again)
 
 ---
@@ -195,7 +195,7 @@ Level 5 Combatant (Proficiency 3, at 2 HD / 11 max, 3 Resolve)
 
 **Benefits:**
 - Regain **all HD** (back to maximum)
-- Regain **all Resolve** (back to 5)
+- **Reset Resolve Threshold to 2** (Full Strength)
 - **Armor dice reset:** Re-roll all armor temp HD when donning armor
 - Reset **all abilities** (daily powers, once-per-long-rest features)
 
@@ -204,9 +204,9 @@ Level 5 Combatant (Proficiency 3, at 2 HD / 11 max, 3 Resolve)
 - Typically once per day (but narrative context determines safety)
 
 **Example:**
-Level 5 Combatant (Proficiency 3, at 5 HD / 11 max, 4 Resolve)
+Level 5 Combatant (Proficiency 3, at 5 HD / 11 max, Resolve Threshold 3 — Pressured)
 - Returns to town inn, sleeps 8 hours (safe space)
-- Regains all HD (5 → 11 HD), regains all Resolve (4 → 5 Resolve)
+- Regains all HD (5 → 11 HD), resets Resolve Threshold (3 → 2 — Full Strength)
 - Re-rolls armor when donning (Medium Armor 2d8 → rolls 6+5 = 11 temp HD)
 - All daily abilities reset
 
@@ -304,13 +304,13 @@ Some abilities require ongoing focus to maintain their effects—portals held op
 **Maintaining Rule:**
 
 While maintaining an effect:
-- If you must make a Resolve check for any reason, and you lose Resolve (roll 1-4) → the effect ends immediately
-- Rolling 5 (hold current Resolve) or 6 (gain Resolve) maintains the effect
+- If you must make a Resolve check for any reason, and you **fail** (roll below your Resolve Threshold) → the effect ends immediately
+- **Passing** the Resolve check (rolling at or above your Resolve Threshold) maintains the effect
 - You cannot maintain multiple concentration effects simultaneously (starting a new one ends the previous)
 - The effect ends if you are knocked unconscious or die
 
 **Why This Matters:**
-Concentration makes powerful sustained abilities vulnerable to pressure. A Shaman holding a threshold portal must remain mentally intact—losing Resolve collapses the gateway. Rolling a 5 on a Resolve check (holding steady under strain) is enough to maintain the effect. This creates tactical decisions: do you maintain the powerful effect, or can you risk the mental strain?
+Concentration makes powerful sustained abilities vulnerable to pressure. A Shaman holding a threshold portal must remain mentally intact—failing a Resolve check collapses the gateway. At Resolve Threshold 2, this is nearly trivial. At Threshold 5+, maintaining a spell under fire becomes agonizing. The escalating spiral writes tension into concentration naturally: early in a fight, your magic holds firm. Late in a fight, every sustained effect is a gamble.
 
 ---
 
@@ -538,7 +538,7 @@ Skills represent specialized **domains** where training matters. They are **not 
 
 ## Social Duels
 
-**Social Duels** are rhetorical combat—debates, negotiations, interrogations, and battles of will. They use the same core mechanics as physical combat but target **Composure** and **Resolve** instead of armor and HD.
+**Social Duels** are rhetorical combat—debates, negotiations, interrogations, and battles of will. They use the same core mechanics as physical combat but target **Composure** and **Resolve Threshold (RT)** instead of armor and HD.
 
 ---
 
@@ -555,7 +555,9 @@ Skills represent specialized **domains** where training matters. They are **not 
 | **Practiced** | d8 | Silver Tongue path, court experience |
 | **Masterful** | d10 | Sovereign class feature, legendary reputation |
 
-**Resolve** functions exactly as in physical combat. When Resolve hits 0, you concede or break.
+**Resolve Threshold (RT)** carries over between physical and social encounters — if combat left you at RT 3, you enter the duel Pressured. Resolve stage penalties apply to social defense: at RT 4+, roll fewer Composure dice on defense; at RT 5+, social attacks also suffer the Advanced+1 penalty.
+
+When all Composure is gone and social damage pushes your RT to 6, you reach **Total Defeat** (concede all stakes). Any further social damage while at RT 6 triggers **Collapse** — you are socially broken.
 
 ---
 
@@ -567,16 +569,16 @@ When you take social damage, defend with Composure dice—exactly like armor.
 2. Each **5+ cancels 1 damage** and the die survives
 3. Each **4 or less** destroys that die (damage not canceled)
 4. Remaining damage auto-destroys Composure dice
-5. When Composure = 0, damage targets Resolve directly
+5. When Composure = 0, damage advances Resolve Threshold directly
 
 ```
 Incoming Social Damage
         ↓
 [Composure Dice] ← Roll to defend; failed dice are DESTROYED
         ↓
-[Resolve] ← When Composure gone, damages will directly
+[Resolve Threshold] ← When Composure gone, each damage advances threshold by 1
         ↓
-[Social Defeat] ← When Resolve = 0
+[Social Defeat] ← RT 6 = Total Defeat; further damage at RT 6 = Collapse
 ```
 
 ---
@@ -632,7 +634,7 @@ Simply resolve: highest successes wins, margin = damage.
 
 **4. Calculate Damage** — Margin + stance bonus (capped at Proficiency)
 
-**5. Apply Damage** — Composure first, then Resolve
+**5. Apply Damage** — Composure first, then Resolve Threshold
 
 ---
 
@@ -652,18 +654,20 @@ Allies take meaningful roles with real risk.
 | Damage State | Consequence |
 |--------------|-------------|
 | **Composure depleted** | **Minor Concession** — Give ground on one point |
-| **1-2 Resolve lost** | **Major Concession** — Lose something significant |
-| **3+ Resolve lost** | **Total Defeat** — Concede all stakes |
-| **0 Resolve** | **Broken** — Accept any demand |
+| **Resolve Threshold 4-5** | **Major Concession** — Lose something significant |
+| **Resolve Threshold 6+** | **Total Defeat** — Concede all stakes |
+| **Collapsed** | **Broken** — Accept any demand |
 
 **Withdraw:** At any point, leave the duel. You lose at current stake tier, but on your terms.
+
+**Participation Limit:** Characters at RT 5+ cannot participate in social encounters — they are already at Major Concession or worse and cannot defend their position.
 
 ---
 
 ### Recovery
 
-- **Short Rest:** Restore all Composure; Resolve as normal
-- **Long Rest:** Full restoration
+- **Short Rest:** Restore all Composure; lower Resolve Threshold by 1 (minimum 2)
+- **Long Rest:** Full restoration (Composure resets, Resolve Threshold resets to 2)
 - Composure resets fresh each social encounter
 
 ---
@@ -772,23 +776,23 @@ The party must work together to overcome the journey:
 **Success (met required successes):**
 - Arrive fresh at destination
 - No complications
-- Restore 1 Resolve from safe journey (all party members)
+- Lower Resolve Threshold by 1 from safe journey (all party members)
 
 **Partial Success (within 1-2 of target):**
 - Arrive at destination with complication
-- Lose 1 Resolve from strain (all party members)
+- Resolve Threshold advances by 1 from strain (all party members)
 - GM introduces minor setback tied to an unaddressed Hurdle: depleted supplies, minor encounter, equipment damage, weather delay
 
 **Failure (missed by 3+):**
 - Arrive at destination with major complication
-- Lose 2 Resolve from exhausting journey (all party members)
+- Resolve Threshold advances by 2 from exhausting journey (all party members)
 - GM introduces major setback tied to unaddressed Hurdles: hostile encounter, lost party member, severe injury, party arrives separately, or significant delay
 
 **Travel Strain Mitigation:**
-- Rangers with Nature's Treaty ability: reduce party Resolve loss by 1 (minimum 0)
+- Rangers with Nature's Treaty ability: reduce party Resolve Threshold advancement by 1 (minimum 0)
 - Adequate supplies/maps: grant +1d6 to Navigator
 - Mounts: reduce journey difficulty by 1 category
-- Priests using Power Word abilities before travel: can buffer Resolve loss
+- Priests using Power Word abilities before travel: can buffer Resolve Threshold advancement
 
 **Why Party Dynamics Matter:**
 A lone Navigator in harsh conditions faces impossible odds. A coordinated party with Scout, Guard, and Quartermaster supporting the Navigator transforms the journey into a team victory.
@@ -797,13 +801,15 @@ A lone Navigator in harsh conditions faces impossible odds. A coordinated party 
 
 ---
 
-## Resolve (The Death Spiral)
+## Resolve (The Escalating Spiral)
 
 **Resolve** represents your capacity to continue fighting—your mental stamina, physical endurance, and will to push forward.
 
-**All characters have a maximum Resolve of 5.**
+**Resolve is tracked as a Threshold** that starts at **2** and escalates as you fail checks. The higher your Resolve Threshold, the harder it becomes to hold yourself together—mirroring the Action Tier ladder that defines all of Affinity.
 
-### Losing Resolve
+**All player characters start each encounter at Resolve Threshold 2.**
+
+### The Resolve Check
 
 **You must make a Resolve check when ANY of these occur:**
 - You lose ≥ Proficiency + 1 HD in a single round
@@ -815,71 +821,85 @@ A lone Navigator in harsh conditions faces impossible odds. A coordinated party 
 
 **Maximum of 1 Resolve check per round** (even if multiple triggers occur).
 
-**Resolve Check:** Roll 1d6.
-- **4 or less →** You lose 1 Resolve (fall one stage)
-- **5 →** You hold your current Resolve level (no change)
-- **6 →** You gain 1 Resolve (rally—advance one stage, maximum 5)
+**Resolve Check:** Roll 1d6 against your current Resolve Threshold.
+- **Roll at or above your Resolve Threshold →** You hold. No change.
+- **Roll below your Resolve Threshold →** Your Resolve Threshold increases by 1 (you fall one stage).
+
+| Resolve Threshold | Pass On | Fail Chance | Stage Name |
+|-------------------|---------|-------------|------------|
+| 2 (2+) | 2, 3, 4, 5, 6 | 16.7% | Full Strength |
+| 3 (3+) | 3, 4, 5, 6 | 33.3% | Pressured |
+| 4 (4+) | 4, 5, 6 | 50% | Shaken |
+| 5 (5+) | 5, 6 | 33.3% → 66.7% | Weakened |
+| 6 (6 only) | 6 | 83.3% | Staggering |
+| Failed at 6 | — | — | Collapse |
+
+**This mirrors the Action Tier ladder:** Resolve Threshold 2+ is like a Basic action (easy to pass). Threshold 6 is like an Ultimate action (nearly impossible). The fight's pressure writes itself into the mechanic.
+
+**Resolve is one-directional.** Checks cannot improve your Resolve Threshold—only hold it or worsen it. Recovery comes from actions, allies, and rest (see Recovering Resolve below).
 
 **Special: Rush and Steady Actions Bypass Check**  
-When you use the Rush action or Steady action (see Universal Actions in Combat Rules), you choose to lose Resolve (Rush) or HD (Steady) without rolling. These voluntary sacrifices do not trigger additional Resolve checks.
+When you use the Rush action or Steady action (see Universal Actions in Combat Rules), you choose to worsen your Resolve Threshold by 1 (Rush) or lose HD (Steady) without rolling. These voluntary sacrifices do not trigger additional Resolve checks.
 
 ### The Resolve Stages
 
-As Resolve decreases, you suffer cumulative penalties:
+As your Resolve Threshold increases, you suffer cumulative penalties:
 
-**Resolve 5 — Full Strength**
+**Resolve Threshold 2 — Full Strength**
 - No penalties
 - You are at peak performance
 
-**Resolve 4 — Pressured**
+**Resolve Threshold 3 — Pressured**
 - Cannot initiate Expert+ actions
 - You feel the weight of combat but remain capable
 
-**Resolve 3 — Shaken**
+**Resolve Threshold 4 — Shaken**
 - Cannot initiate Expert+ actions
 - Roll one fewer defense die (minimum 1)
 - Vulnerability sets in—you can still act, but defense falters
 
-**Resolve 2 — Weakened**
+**Resolve Threshold 5 — Weakened**
 - Cannot initiate Expert+ actions  
 - Advanced+ actions require +1 additional success
 - Roll one fewer defense die (minimum 1)
 - Offense and defense both crumble
 
-**Resolve 1 — Staggering**
+**Resolve Threshold 6 — Staggering**
 - Cannot initiate Expert+ actions
 - Advanced+ actions require +1 additional success
 - Roll two fewer defense dice (minimum 1)
 - This is the "you should be running" stage
 
-**Resolve 0 — Collapse**
+**Collapse (Failed at Threshold 6)**
 - **You fall unconscious immediately**
 - **If you have HD > 0:** You are NOT dying, but collapsed (unconscious 0-2 days, see Death & Dying)
 - **If you have HD = 0:** You ARE dying (make Resolve checks each round until healed or dead, see Death & Dying)
-- **You only die when you reach BOTH 0 HD AND 0 Resolve**
+- **You only die when you reach BOTH 0 HD AND Collapse**
 
 **Note:** Defense dice reduction cannot go below 1 die (you always roll at least 1 defense die).
 
 ### Recovering Resolve
 
-- **Steady action** (Universal): Lose 3 HD → Gain 1 Resolve (see Combat Rules)
-- Healing spells with "Restore" keyword can restore Resolve stages
-- **Priest and Sovereign class abilities** are superior at restoring/protecting Resolve (better efficiency, can affect others)
-- Most regular healing does NOT restore Resolve (only HD)
-- **Short Rest:** Restore Resolve up to half your maximum (3 Resolve)
-- **Long Rest:** Fully restore to 5 Resolve
+Recovery **lowers your Resolve Threshold** (minimum 2):
 
-**Resolve is a death spiral that ensures fights end decisively.**
+- **Steady action** (Universal): Lose 3 HD → Lower Resolve Threshold by 1 (see Combat Rules)
+- Healing spells with "Restore" keyword can lower Resolve Threshold
+- **Priest and Sovereign class abilities** are superior at lowering Resolve Thresholds (better efficiency, can affect others)
+- Most regular healing does NOT lower Resolve Threshold (only HD)
+- **Short Rest:** Lower Resolve Threshold by 1 (minimum 2)
+- **Long Rest:** Reset Resolve Threshold to 2
+
+**Resolve is an escalating spiral that ensures fights end decisively.** Early pressure is manageable. Late pressure is lethal. The spiral accelerates—just like the fiction demands.
 
 ---
 
 ## Death & Dying
 
-**Death in Affinity requires BOTH resources to fail: You die when you reach 0 HD AND 0 Resolve simultaneously.**
+**Death in Affinity requires BOTH resources to fail: You die when you reach 0 HD AND Collapse (failed a Resolve check at Threshold 6).**
 
 ### The Two Paths to Incapacitation
 
-**1. Collapse (0 Resolve, but HD > 0)**
+**1. Collapse (Failed at Resolve Threshold 6, but HD > 0)**
 - You fall unconscious immediately
 - **You are NOT dying**—your body has vitality but your will has broken
 - You remain unconscious for **0-2 days** (GM's discretion based on narrative context)
@@ -887,45 +907,46 @@ As Resolve decreases, you suffer cumulative penalties:
   - Cannot take actions
   - Do not make Resolve checks
   - Are at the mercy of your environment (allies must protect you, enemies may capture you)
-- **Recovery:** When you regain consciousness (after 0-2 days or if allies restore your Resolve through abilities):
-  - Regain 1 Resolve automatically
+- **Recovery:** When you regain consciousness (after 0-2 days or if allies lower your Resolve Threshold through abilities):
+  - Resolve Threshold resets to 6 (Staggering—barely functional)
   - Resume normal play
   - Suffer narrative consequences (lost time, vulnerability, psychological impact)
 
 **Example: The Broken Warrior**
 ```
-Combatant at 8 HD, 1 Resolve
+Combatant at 8 HD, Resolve Threshold 6 (Staggering)
 - Enemy uses Power Word: Despair (forces Resolve check)
-- Combatant rolls 3 (loses 1 Resolve → 0 Resolve)
+- Combatant rolls 3 (below 6 — Collapse!)
 - Falls unconscious with 8 HD remaining
 - NOT dying, but incapacitated
 - Allies must protect them or retreat
-- Will wake in 0-2 days with 1 Resolve
+- Will wake in 0-2 days at Resolve Threshold 6
 ```
 
-**2. Dying (0 HD, but Resolve > 0)**
+**2. Dying (0 HD, but not yet Collapsed)**
 - You fall unconscious immediately
 - **You ARE dying**—your body has failed but your will persists
-- Make a Resolve check at the end of each round:
-  - **4 or less:** Lose 1 Resolve (death spiral accelerates)
-  - **5:** Hold current Resolve (buying time)
-  - **6:** Gain 1 Resolve (rallying from the brink)
-- **If you reach 0 Resolve while at 0 HD: YOU DIE**
+- Make a Resolve check at the end of each round using your current Resolve Threshold:
+  - **Roll below your Resolve Threshold:** Threshold increases by 1 (spiral tightens)
+  - **Roll at or above your Resolve Threshold:** Hold (buying time)
+- **If you Collapse while at 0 HD (fail at Threshold 6): YOU DIE**
 - **If healed above 0 HD:** Stop making Resolve checks, regain consciousness
 - Allies can stabilize you or heal you to prevent death
 
+**Dying Checks and the Escalating Spiral:**
+A character who drops to 0 HD while still at Resolve Threshold 2 has excellent survival odds—they need to fail FIVE consecutive checks, each getting harder. A character who's been spiraling all fight and drops to 0 HD at Threshold 5 is nearly dead already—two failures and it's over.
+
 **Example: The Bleeding Hero**
 ```
-Priest at 0 HD, 3 Resolve
-- Enemy strikes, triggering Resolve check
-- Priest rolls 4 (loses 1 Resolve → 2 Resolve)
-- Next round: Rolls 6 (gains 1 Resolve → 3 Resolve, still alive!)
-- Combatant uses Rush to heal themselves, then drags Priest to safety
-- Weaver casts healing spell: Priest regains 2 HD → 2 HD, 3 Resolve
-- Priest regains consciousness, continues fighting
+Priest at 0 HD, Resolve Threshold 3 (Pressured)
+- Resolve check: Rolls 2 (below 3 — Threshold advances to 4)
+- Next round: Rolls 5 (at or above 4 — holds at Threshold 4!)
+- Next round: Rolls 4 (at or above 4 — holds again!)
+- Combatant drags Priest to safety
+- Weaver casts healing spell: Priest regains 2 HD → conscious at 2 HD, Threshold 4
 ```
 
-**3. Death (0 HD AND 0 Resolve)**
+**3. Death (0 HD AND Collapsed)**
 - You have failed in body and spirit
 - You die
 - Resurrection may be possible through powerful magic (Legendary/Ultimate tier Divine spells)
@@ -938,36 +959,36 @@ Allies can help stabilize dying characters:
 **Stabilize Action** (Basic, 2+)
 - **Range:** Touch
 - **Required:** 1 success
-- **Effect:** Target automatically succeeds on their next Resolve check this round (counts as rolling a 5)
-- **Does NOT restore HD or Resolve**—only prevents immediate death spiral
+- **Effect:** Target automatically passes their next Resolve check this round (no roll needed)
+- **Does NOT restore HD or lower Resolve Threshold**—only prevents immediate spiral advancement
 - **Usable by:** Any character (Medicine domain abilities grant bonus dice)
 
 **Healing While Dying:**
 - Any HD restoration brings a character above 0 HD → stops Resolve checks, regains consciousness
-- Rush can be used while conscious and at 0 HD (if you have Resolve remaining)
+- Rush can be used while conscious and at 0 HD (if you have not yet Collapsed)
 - Healing spells, potions, class abilities all work normally
 
 ### Why Resolve is Critical
 
 **Resolve is the true survival stat:**
-- You can have 15 HD but 0 Resolve → collapse (unconscious for days)
-- You can have 0 HD but 5 Resolve → multiple chances to rally before death
-- Resolve loss cascades penalties (harder actions, weaker defense)
-- Managing Resolve is more important than managing HD
+- You can have 15 HD but Collapse → unconscious for days
+- You can have 0 HD but Resolve Threshold 2 → five chances to hold before death
+- Resolve Threshold escalation cascades penalties (harder actions, weaker defense)
+- Managing your Resolve Threshold is more important than managing HD
 
 **This creates dramatic tension:**
-- Warriors who push too hard collapse despite having HP
-- Dying heroes with strong will can rally from the brink
+- Warriors who push too hard collapse despite having HD remaining
+- Dying heroes with low Resolve Thresholds have real chances to survive
 - Social combat can incapacitate without killing
-- Resolve damage is as dangerous as HP damage
+- The spiral accelerates—early pressure barely registers, late pressure is lethal
 
 ### Preventing Collapse
 
-Some class abilities and features protect or restore Resolve:
-- **Priests:** Power Words can restore Resolve to allies
-- **Sovereigns:** Leadership abilities may grant Resolve
+Some class abilities and features protect or lower Resolve Thresholds:
+- **Priests:** Power Words can lower allies' Resolve Thresholds
+- **Sovereigns:** Leadership abilities may lower Resolve Thresholds
 - **Shamans:** Spirit channeling may stabilize Resolve
-- **Healing Spells with "Restore" keyword:** Explicitly restore Resolve stages
+- **Healing Spells with "Restore" keyword:** Explicitly lower Resolve Thresholds
 - **Rest & Recover:** Natural Resolve restoration (see Rest & Recovery section)
 
 ---
@@ -1201,19 +1222,19 @@ Level 5 Combatant (d10 HD, Proficiency 3, wearing Heavy Armor 2d10 + Shield 1d12
 ## Death & Dying
 
 **When you reach 0 HD:**
-- You immediately make a **Resolve check**
-- If you fail, you lose 1 Resolve
+- You immediately make a **Resolve check** (roll 1d6 against your Resolve Threshold)
+- If you fail (roll below threshold), your Resolve Threshold increases by 1
 - While at 0 HD, you remain in the scene but cannot take further HD damage
 - Each time you're hit while at 0 HD, make another Resolve check
 
-**When you reach 0 Resolve:**
+**When you Collapse (fail at Resolve Threshold 6):**
 - You fall unconscious or are otherwise removed from the scene
 - You are dying, captured, or at the mercy of events
-- Further failed Resolve checks = death
+- Collapsing while at 0 HD = death
 
 **Stabilization:**
 - Allies can attempt to stabilize you using Medicine or healing abilities
-- **Stabilize** (Basic 2+, Req 2): Target skips their next Resolve check this round
+- **Stabilize** (Basic 2+, Req 2): Target automatically passes their next Resolve check this round
 - Healing that restores HD brings you above 0 HD, ending the immediate death spiral
 
 **The Resolve system ensures death is dramatic but not instant—giving allies time to rescue fallen companions.**
@@ -1239,18 +1260,18 @@ Roll the healing dice. For each die result, restore 1 HD per die.
 **Regular healing DOES work on characters at 0 HD:**
 - Any healing that restores HD brings them above 0 HD
 - Once above 0 HD, they stop making Resolve checks from being at 0 HD
-- Regular healing does NOT restore Resolve
+- Regular healing does NOT lower Resolve Threshold
 
-### Restoring Resolve
+### Lowering Resolve Threshold
 
-**Most healing does NOT restore Resolve.**
+**Most healing does NOT lower Resolve Threshold.**
 
-Only abilities with the **"Restore" keyword** can restore Resolve:
-- These abilities/spells restore Resolve stages
-- They specify how many stages they restore ("Restore 1 Resolve" = increase current Resolve by 1)
-- Resolve cannot exceed 5
+Only abilities with the **"Restore" keyword** can lower your Resolve Threshold:
+- These abilities/spells lower your Resolve Threshold by a specified amount
+- They specify how many stages they restore ("Restore 1 Resolve" = lower Resolve Threshold by 1)
+- Resolve Threshold cannot go below 2
 
-**Resting also restores Resolve** (see Resting section).
+**Resting also lowers Resolve Threshold** (see Resting section).
 
 ---
 
@@ -1258,13 +1279,13 @@ Only abilities with the **"Restore" keyword** can restore Resolve:
 
 ### Short Rest (1/2 - 8 hours, threatened)
 - Regain HD equal to half your level (minimum 1)
-- Restore Resolve by 1 (half maximum, rounded up)
+- Lower Resolve Threshold by 1 (minimum 2)
 - Some class abilities recharge
 - Can repair/mend armor
 
 ### Long Rest (6+ hours, protected)
 - Regain all HD up to your maximum
-- Fully restore Resolve to 5
+- Reset Resolve Threshold to 2 (Full Strength)
 - Regain all armor HD
 - All abilities recharge
 

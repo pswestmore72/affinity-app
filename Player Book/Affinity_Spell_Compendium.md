@@ -2,7 +2,7 @@
 
 This section contains all spells available to spellcasting classes. Spells are organized by **Domain** (Primal, Divine, Arcane) and **Tier** (Basic, Advanced, Expert, Legendary, Ultimate).
 
-**Spell Costs:** Spells cost what all actions cost—Hit Dice through Exertion risk. When you roll Exertion dice to cast, any 1s burn HD. Higher-tier spells require minimum exertion dice (Expert = 1, Legendary = 2, Ultimate = 3). Some spells have explicit costs listed in their Special sections (Resolve or HD). Any material references in spell descriptions ("Heartwood from ancient tree", "Sacred relic") are narrative flavor for quest hooks, not mechanical tracking.
+**Spell Costs:** Spells cost what all actions cost—Hit Dice through Exertion risk. When you roll Exertion dice to cast, any 1s burn HD. Higher-tier spells require minimum exertion dice (Expert = 1, Legendary = 2, Ultimate = 3). Some spells have explicit costs listed in their Special sections (RT advances or HD). Any material references in spell descriptions ("Heartwood from ancient tree", "Sacred relic") are narrative flavor for quest hooks, not mechanical tracking.
 
 ---
 
@@ -257,7 +257,7 @@ Each spell lists:
 - **Base Impact:** Restore 2d6 HD to target + remove one minor condition (poisoned, diseased, or blinded)
 - **Scaling:** +1d6 HD per extra success
 - **Range:** Touch
-- **Special:** Does NOT work on Exhausted characters. On failure, you lose 1 Resolve from strain.
+- **Special:** Does NOT work on Exhausted characters. On failure, your RT advances by 1 from strain.
 
 **Phantom Trail**
 - **Domain:** Primal | **Tier:** Advanced (3+), Required: 2
@@ -285,10 +285,10 @@ Each spell lists:
 
 **Recall the Fallen** *(Restore)*
 - **Domain:** Divine | **Tier:** Advanced (3+), Required: 2
-- **Base Impact:** Restore 1 Resolve to target (minimum 0, maximum 5)
-- **Scaling:** +1 Resolve restored per extra success (can restore up to 5 Resolve total with enough successes)
+- **Base Impact:** Lower target's Resolve Threshold by 1 (minimum 2)
+- **Scaling:** Lower RT by 1 additional per extra success (minimum 2)
 - **Range:** Touch
-- **Special:** This is a **Restore** spell—restores Resolve, not just HD. Can be used on characters at any Resolve level, including 0. On failure, you lose 1 Resolve yourself.
+- **Special:** This is a **Restore** spell—lowers Resolve Threshold, not just HD. Can be used on characters at any RT, including Collapsed. On failure, your own RT advances by 1.
 
 ### Arcane Domain (Advanced)
 
@@ -313,7 +313,7 @@ Each spell lists:
 - **Scaling:** +1 round duration per extra success
 - **Duration:** Contest vs your successes; if they fail, paralyzed for duration
 - **Range:** 30 yards
-- **Special:** Concentration required. Target can attempt new contest at end of each turn. On spell failure, you lose 1 Resolve.
+- **Special:** Concentration required. Target can attempt new contest at end of each turn. On spell failure, your RT advances by 1.
 
 ---
 
@@ -361,7 +361,7 @@ Each spell lists:
 
 **Unravel Reality**
 - **Domain:** Arcane | **Tier:** Expert (4+), Required: 3
-- **Base Impact:** End all magical effects in 20-yard radius (spells, enchantments, ongoing effects). Casters in area when cast lose 1 Resolve.
+- **Base Impact:** End all magical effects in 20-yard radius (spells, enchantments, ongoing effects). Casters in area when cast have their RT advance by 1.
 - **Scaling:** +5 yards radius per extra success
 - **Range:** 40 yards
 - **Special:** Does not affect magic items (only active spells). On failure, all magic including yours within 10 yards goes haywire—GM determines chaotic effects.
@@ -386,10 +386,10 @@ Each spell lists:
 - **Domain:** Primal | **Tier:** Legendary (5+), Required: 3
 - **Base Impact:** Call upon The Living Accord to judge all creatures in 40-yard radius. Each creature must contest:
   - If maintaining natural balance (GM judges): Restore Proficiency HD
-  - If disrupting cycles carelessly: Take Proficiency HD damage + 1 Resolve loss
+  - If disrupting cycles carelessly: Take Proficiency HD damage + RT advances by 1
 - **Scaling:** +10 yards radius per extra success
 - **Range:** 60 yards
-- **Special:** The Accord judges all equally—including you and allies. On failure, you are judged harshly and lose 2 Resolve immediately.
+- **Special:** The Accord judges all equally—including you and allies. On failure, you are judged harshly and your RT advances by 2 immediately.
 
 ### Divine Domain (Legendary)
 
@@ -412,7 +412,7 @@ Each spell lists:
 - **Base Impact:** Choose one effect that has already occurred this round (attack, spell, ability). Reroll it completely—new dice, new results. You choose which version becomes reality.
 - **Scaling:** +1 additional rewrite per extra success (can affect multiple events)
 - **Range:** 60 yards (must see original event)
-- **Special:** This spell represents editing reality's record. Curator Arcanum warns against its use—knowledge of what "could have been" breeds dangerous hubris. On failure, both versions occur simultaneously (GM determines chaotic overlapping consequences). Cost: Lose 2 Resolve from seeing two timelines.
+- **Special:** This spell represents editing reality's record. Curator Arcanum warns against its use—knowledge of what "could have been" breeds dangerous hubris. On failure, both versions occur simultaneously (GM determines chaotic overlapping consequences). Cost: RT advances by 2 from seeing two timelines.
 
 ---
 
@@ -426,24 +426,24 @@ Each spell lists:
 - **Domain:** Primal | **Tier:** Ultimate (6 only), Required: 4
 - **Base Impact:** Target 40-yard radius. All creatures in area:
   - Instantly restored to full HD
-  - Restore to 5 Resolve (maximum)
+  - Reset Resolve Threshold to 2
   - All conditions removed
   - **BUT**: Area becomes permanently scarred (dead zone where nothing grows for years)
 - **Scaling:** +10 yards radius per extra success
 - **Range:** 100 yards
-- **Special:** You force The Living Accord to sacrifice the land's future to save the present. This is the ultimate violation of balance—you will be marked by the Accord forever. Cost: You permanently lose 1 point of Proficiency (recalculate all derived stats). On failure, everyone in radius loses 3 Resolve instead, including you.
+- **Special:** You force The Living Accord to sacrifice the land's future to save the present. This is the ultimate violation of balance—you will be marked by the Accord forever. Cost: You permanently lose 1 point of Proficiency (recalculate all derived stats). On failure, everyone in radius has their RT advance by 3 instead, including you.
 
 ### Divine Domain (Ultimate)
 
 **Invoke True Name**
 - **Domain:** Divine | **Tier:** Ultimate (6 only), Required: 5
 - **Base Impact:** Speak target's true name as your patron understands it. Target must contest using only their Proficiency dice (no exertion, no skills). If they fail:
-  - They immediately drop to 0 HD and 0 Resolve
+  - They immediately drop to 0 HD and Collapse (RT advances to 6)
   - They must obey one command from you (duration: until command fulfilled or 24 hours pass)
   - After effect ends, they know you hold power over their name
 - **Scaling:** Each extra success adds +1 to required contest successes for target
 - **Range:** Must see and hear target (any distance if conditions met)
-- **Special:** True names are metaphysical identities known only to cosmic powers. Your patron shares this knowledge—the price is steep. Cost: Permanently lose 1 maximum Resolve (your new maximum is 4). On failure, YOUR true name is revealed to target and they gain same power over you for 24 hours.
+- **Special:** True names are metaphysical identities known only to cosmic powers. Your patron shares this knowledge—the price is steep. Cost: Your starting Resolve Threshold permanently increases by 1 (now starts at 3 instead of 2). On failure, YOUR true name is revealed to target and they gain same power over you for 24 hours.
 
 ### Arcane Domain (Ultimate)
 
@@ -459,7 +459,7 @@ Each spell lists:
 - **Scaling:** +5 minutes duration per extra success
 - **Duration:** 10 minutes + scaling
 - **Range:** 30 yards
-- **Special:** This is why the Curator Arcanum teaches humility—you are literally rewriting local physics. Concentration required. Maintaining this spell is exceptionally difficult—when taking damage, roll 2× Proficiency dice instead of normal Proficiency dice, and need half to succeed (round up) or concentration breaks. Cost: Lose 2 Resolve and 2 HD when cast. On failure, the change happens but chaotically (GM determines reality tears/overlaps/contradictions). All casters in area immediately lose 2 Resolve as the Weave rejects your hubris.
+- **Special:** This is why the Curator Arcanum teaches humility—you are literally rewriting local physics. Concentration required. Maintaining this spell is exceptionally difficult—when taking damage, roll 2× Proficiency dice instead of normal Proficiency dice, and need half to succeed (round up) or concentration breaks. Cost: RT advances by 2 and lose 2 HD when cast. On failure, the change happens but chaotically (GM determines reality tears/overlaps/contradictions). All casters in area immediately have their RT advance by 2 as the Weave rejects your hubris.
 
 ---
 

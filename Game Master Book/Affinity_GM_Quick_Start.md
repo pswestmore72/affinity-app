@@ -26,11 +26,11 @@
 
 ### Enemy Action Budget
 
-| Enemy Tier | Actions | HD Range | Resolve |
-|------------|---------|----------|---------|
-| Trivial | 1 | 1-2 HD | 2 |
-| Basic | 1-2 | 3-5 HD | 2 |
-| Advanced | 2 | 6-10 HD | 3 |
+| Enemy Tier | Actions | HD Range | Starting RT |
+|------------|---------|----------|-------------|
+| Trivial | 1 | 1-2 HD | 5 |
+| Basic | 1-2 | 3-5 HD | 5 |
+| Advanced | 2 | 6-10 HD | 4 |
 
 **At Level 1, avoid Expert+ enemies unless you want a very hard fight.**
 
@@ -44,7 +44,7 @@
 NAME: [Creature type]
 HD: [dice]         (Trivial: 1-2, Basic: 3-5)
 PROF: 1-2          (use 1 for L1 content)
-RESOLVE: 2
+RESOLVE: RT 5
 ARMOR: [if any]    (2d6 light, 2d8 medium)
 MOVEMENT: 10 yards
 
@@ -57,18 +57,18 @@ ATTACK: [Name] (Basic, 2+)
 ### Example Enemies for Level 1
 
 **Goblin Skulker** (Trivial)
-- HD: 2d6, Prof: 1, Resolve: 2
+- HD: 2d6, Prof: 1, Starting RT: 5
 - Attack: Rusty Dagger (2d6, 1 HD damage)
-- Special: Flees at 1 HD remaining and/or 1- Resolve
+- Special: Flees at 1 HD remaining or RT 6
 
 **Orc Raider** (Basic)
-- HD: 4d8, Prof: 2, Resolve: 2
+- HD: 4d8, Prof: 2, Starting RT: 5
 - Armor: 2d6 (hide scraps)
 - Attack: Greataxe (3d6, 2 HD damage)
 - Special: +1d6 when below half HD
 
 **Animated Statue** (Basic)
-- HD: 5d10, Prof: 1, Resolve: 3
+- HD: 5d10, Prof: 1, Starting RT: 4
 - Armor: 2d10 (stone body)
 - Attack: Stone Fist (2d6, 2 HD damage)
 - Special: Immune to fear/charm
@@ -168,10 +168,10 @@ ___________________________________________
 4. Failed rolls or excess damage = lose dice from pool (armor first, then body)
 
 ### At 0 Body HD
-- Player makes Resolve checks each round
-- 4- = lose 1 Resolve
+- Player makes Resolve check each round (1d6 ≥ current RT to pass)
+- Fail = RT advances by 1
 - If healed above 0 HD, stops dying
-- At 0 HD AND 0 Resolve = dead
+- At 0 HD AND Collapse (fail at RT 6) = dead
 
 **For Session 1:** If a player hits 0 HD, let them make one Resolve check, then have allies stabilize them or enemies shift target. Real death can come later when stakes are clear.
 
@@ -224,7 +224,7 @@ When a player embodies their Virtue in a meaningful way:
 | Balanced (d8) | 5d8 | d8 |
 | Fragile (d6) | 4d6 | d6 |
 
-All Level 1: Proficiency 1, Resolve 5, Defense Capacity 1
+All Level 1: Proficiency 1, RT 2, Defense Capacity 1
 
 ---
 
@@ -235,7 +235,7 @@ Skip these until later:
 - ❌ Travel system (handwave travel for now)
 - ❌ Expert+ tier abilities (Level 1 players can't use them)
 - ❌ Legendary enemies (save for later)
-- ❌ Resolve death spiral details (just know: 0 HD = danger, 0 Resolve = collapse)
+- ❌ Resolve death spiral details (just know: 0 HD = danger, Collapse = done)
 
 ---
 
@@ -277,7 +277,7 @@ After the session:
 - "When you're hit, roll defense. 5+ = that armor die survives."
 
 **Player at 0 HD?**
-- Make a Resolve check (1d6: 4- = lose Resolve, 5 = hold, 6 = gain)
+- Make a Resolve check (1d6 ≥ current RT: pass = no change, fail = RT advances by 1)
 - Stabilize action (Basic, 2+) from ally stops the spiral
 - Don't kill players in Session 1 unless it's earned
 

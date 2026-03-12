@@ -163,9 +163,9 @@ When you lose dice, cross them off. When they're gone, they're gone.
 
 ## Resolve (Mental Fortitude)
 
-**Everyone starts at Resolve 5.** It rarely drops at Level 1.
+**Everyone starts at Resolve Threshold 2** (you need 2+ on 1d6 to hold steady). It rarely matters at Level 1.
 
-**When Resolve drops (rare at L1):**
+**When your Resolve Threshold increases (rare at L1):**
 - Taking massive damage in one round
 - Using maximum exertion repeatedly
 - Failing difficult actions
@@ -178,12 +178,12 @@ When you lose dice, cross them off. When they're gone, they're gone.
 
 **Rest (30 min - 8 hours, "threatened"):**
 - Regain 1 HD (at Level 1)
-- Regain 1 Resolve
+- Lower Resolve Threshold by 1 (minimum 2)
 - Max 2 per day
 
 **Recover (6+ hours, safe place):**
 - Regain ALL HD
-- Regain ALL Resolve
+- Reset Resolve Threshold to 2
 - Restore armor
 
 ---
@@ -193,7 +193,7 @@ When you lose dice, cross them off. When they're gone, they're gone.
 These exist in the full rules, but ignore them for Session 1:
 
 - ❌ Expert/Legendary/Ultimate actions (require higher Proficiency)
-- ❌ Complex Resolve death spiral (just know: 0 HD + 0 Resolve = death)
+- ❌ Complex Resolve death spiral (just know: 0 HD + Collapse = death)
 - ❌ Social Duels (your GM handles these)
 - ❌ Travel mechanics (your GM handles these)
 - ❌ Multi-target action scaling (just roll and see what happens)
@@ -208,7 +208,7 @@ These exist in the full rules, but ignore them for Session 1:
 | Proficiency | 1 |
 | Exertion Cap (per action) | 1 |
 | Defense Capacity | 1 roll per attack |
-| Resolve | 5 |
+| Resolve Threshold | 2 (need 2+ to hold) |
 | Movement | 10 yards |
 | Actions | 2 per turn |
 

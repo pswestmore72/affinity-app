@@ -22,7 +22,7 @@
 **Armor Threshold:** Moderate (3+ to hit) — Wears chainmail + shield  
 **Speed:** 30 ft per round
 
-**Resolve:** 3 / 3  
+**Starting RT:** 4  
 *(Can be targeted by social combat and redemption attempts)*
 
 ---
@@ -70,7 +70,7 @@
 
 **Ability 3: Rally the Watch** *(Once per combat)*
 - **Trigger/Activation:** Free action when first bloodied (below 15 HD)
-- **Effect:** All allied guards within 30 ft restore 1 Resolve and gain +1d6 to next attack. Marcus shouts: *"For Silverbrook! Stand firm!"*
+- **Effect:** All allied guards within 30 ft lower their RT by 1 (minimum 2) and gain +1d6 to next attack. Marcus shouts: *"For Silverbrook! Stand firm!"*
 - **Frequency:** Once per combat encounter
 - **Notes:** Can rally even corrupted guards — they still respect him
 
@@ -145,7 +145,7 @@ Marcus can be REDEEMED through opposed Resolve checks:
 - **Combat:** Reduce Marcus to 0 HD (capture or death)
 - **Redemption:** Succeed on any social combat redemption check
 - **Leverage:** Rescue Elara, prove to Marcus she's safe (automatic surrender)
-- **Exhaustion:** Reduce Marcus's Resolve to 0 (he collapses, gives up)
+- **Exhaustion:** Cause Marcus to Collapse (his RT reaches 6 and he fails—he gives up)
 
 **Retreat Conditions:**
 - Below 5 HD + guards defeated = retreats to town hall
@@ -197,17 +197,17 @@ Marcus can be REDEEMED through opposed Resolve checks:
 - **Private Confrontation:** If party catches Marcus alone + drunk, he might confess everything without fighting
 
 **Redemption Mechanics:**
-Marcus's Resolve represents his WILL TO RESIST redemption. Social combat targets this:
-- Start: Resolve 3
-- Each failed redemption attempt: Loses 1 Resolve (cracking)
-- At 0 Resolve: Breaks down completely, confesses, surrenders
-- Each successful evidence presentation: Lose 1 Resolve (doubt accumulating)
+Marcus's RT represents his WILL TO RESIST redemption. Social combat targets this:
+- Start: RT 4
+- Each failed redemption attempt: RT advances by 1 (cracking)
+- At Collapse (fail at RT 6): Breaks down completely, confesses, surrenders
+- Each successful evidence presentation: RT advances by 1 (doubt accumulating)
 
 **Party can "soften" Marcus before direct redemption:**
-1. Rescue Elara (show her safe) = Marcus loses 1 Resolve immediately
-2. Expose Vex's other crimes = Marcus loses 1 Resolve
-3. Reunite Marcus with old friend from watch = Marcus loses 1 Resolve
-4. Show him citizens he's hurt = Marcus loses 1 Resolve
+1. Rescue Elara (show her safe) = Marcus's RT advances by 1 immediately
+2. Expose Vex's other crimes = Marcus's RT advances by 1
+3. Reunite Marcus with old friend from watch = Marcus's RT advances by 1
+4. Show him citizens he's hurt = Marcus's RT advances by 1
 
 ---
 

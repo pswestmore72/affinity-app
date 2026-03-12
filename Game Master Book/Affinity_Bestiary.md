@@ -98,15 +98,15 @@ This compendium contains creatures drawn from across the **Reflected Realms**, *
 
 NPCs are categorized by their **Threat Tier**, which determines their overall power level and typical encounter difficulty:
 
-| Tier | Description | Typical Level Equivalent | HD Range | Actions | Max Resolve |
+| Tier | Description | Typical Level Equivalent | HD Range | Actions | Starting RT |
 |------|-------------|-------------------------|----------|---------|-------------|
-| **Trivial** | Minimal threat, easily dispatched | Below Level 1 | 1-2 HD | 1 | 2 |
-| **Basic** | Standard encounters for low-level parties | Level 1-2 | 3-5 HD | 1-2 | 2 |
-| **Advanced** | Challenging foes for mid-level parties | Level 3-5 | 6-10 HD | 1-2 | 3 |
-| **Expert** | Dangerous adversaries requiring tactics | Level 6-7 | 11-15 HD | 2 | 4 |
-| **Legendary** | Epic threats, major story encounters | Level 8-9 | 16-20 HD | 2 + ½ party size (up) | 5+ |
-| **Ultimate** | World-threatening entities | Level 10 | 21-25 HD | 2 + ½ party size (up) | 8+ |
-| **Mythical** | Reality-warping cosmic forces | Beyond Level 10 | 26+ HD | 2 + party size (up) | 11+ |
+| **Trivial** | Minimal threat, easily dispatched | Below Level 1 | 1-2 HD | 1 | 5 |
+| **Basic** | Standard encounters for low-level parties | Level 1-2 | 3-5 HD | 1-2 | 5 |
+| **Advanced** | Challenging foes for mid-level parties | Level 3-5 | 6-10 HD | 1-2 | 4 |
+| **Expert** | Dangerous adversaries requiring tactics | Level 6-7 | 11-15 HD | 2 | 3 |
+| **Legendary** | Epic threats, major story encounters | Level 8-9 | 16-20 HD | 2 + ½ party size (up) | 2 |
+| **Ultimate** | World-threatening entities | Level 10 | 21-25 HD | 2 + ½ party size (up) | 2 + Shield 3 |
+| **Mythical** | Reality-warping cosmic forces | Beyond Level 10 | 26+ HD | 2 + party size (up) | 2 + Shield 6 |
 
 **Note:** Higher-tier NPCs scale their action economy with party size to create epic, multi-phase encounters without becoming trivial or overwhelming.
 
@@ -183,16 +183,16 @@ These restrictions prevent NPCs from spamming their most powerful abilities and 
 
 ### NPC Resolve
 
-NPCs have **variable Resolve** based on their tier:
+NPCs use the **Resolve Threshold (RT) system**, with starting RT varying by tier:
 
-- **Trivial-Basic:** Resolve 2 (easily demoralized)
-- **Advanced:** Resolve 3 (moderate mental fortitude)
-- **Expert:** Resolve 4 (disciplined)
-- **Legendary:** Resolve 5+ (exceptional willpower)
-- **Ultimate:** Resolve 8+ (supernatural conviction)
-- **Mythical:** Resolve 11+ (reality-warping presence)
+- **Trivial-Basic (Starting RT 5):** Already near Collapse, easily demoralized
+- **Advanced (Starting RT 4):** Moderate mental fortitude
+- **Expert (Starting RT 3):** Disciplined
+- **Legendary (Starting RT 2):** Same mental fortitude as PCs
+- **Ultimate (Starting RT 2 + Resolve Shield 3):** Supernatural conviction; Shield absorbs RT advances before threshold escalates
+- **Mythical (Starting RT 2 + Resolve Shield 6+):** Reality-warping presence
 
-**Unlike player characters (who always have Resolve 5), NPCs scale to represent varying mental/spiritual strength.**
+**Like player characters (who always start at RT 2), NPCs use the same escalating threshold mechanic. Higher starting RT means they Collapse sooner.**
 
 ---
 
@@ -244,19 +244,19 @@ When you see **"Rolls: 5d6"** in a stat block, this represents:
 - Use extra actions narratively: "The dragon attacks, then breathes fire, then takes flight!"
 
 **Resolve as Narrative Tool:**
-- Low Resolve NPCs flee or surrender when bloodied
-- High Resolve NPCs fight to the death or until objectives achieved
-- Use Resolve damage from social encounters to demoralize enemies before combat
+- High-RT NPCs (Trivial/Basic) flee or surrender when bloodied
+- Low-RT NPCs (Legendary+) fight to the death or until objectives achieved
+- Use RT advancement from social encounters to demoralize enemies before combat
 
 ---
 
 ## NPC Stat Block Format
 
 Each creature lists:
-- **Threat Tier:** Power category (determines Actions and Max Resolve)
+- **Threat Tier:** Power category (determines Actions and Starting RT)
 - **HD Pool:** Total Hit Dice (die type and count)
 - **Proficiency:** Based on effective level
-- **Resolve:** Mental/spiritual fortitude (varies by tier, see table above)
+- **Starting RT:** Resolve Threshold (varies by tier, see table above)
 - **Armor:** Natural or worn armor (temp HD)
 - **Movement:** Base movement speed
 - **Attacks:** Name, tier, fixed dice pool, required successes, base damage
@@ -371,7 +371,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Trivial  
 **HD Pool:** 1d4  
 **Proficiency:** 0 (rolls 1d6 on all actions)  
-**Resolve:** 1  
+**Starting RT:** 6  
 **Armor:** None  
 **Movement:** Fly 15 yards (hover)  
 
@@ -396,7 +396,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Trivial  
 **HD Pool:** 2d4  
 **Proficiency:** 0  
-**Resolve:** 1  
+**Starting RT:** 6  
 **Armor:** None  
 **Movement:** 10 yards, climb 10 yards  
 
@@ -419,7 +419,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Trivial  
 **HD Pool:** 1d6  
 **Proficiency:** 1  
-**Resolve:** 1  
+**Starting RT:** 6  
 **Armor:** None  
 **Movement:** Fly 10 yards (hover)  
 
@@ -444,7 +444,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Trivial  
 **HD Pool:** 2d6 (swarm acts as single entity)  
 **Proficiency:** 0  
-**Resolve:** 0  
+**Starting RT:** — (immune to Resolve effects)  
 **Armor:** None  
 **Movement:** Swim 20 yards  
 
@@ -467,7 +467,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Trivial  
 **HD Pool:** 1d4  
 **Proficiency:** 0  
-**Resolve:** 1  
+**Starting RT:** 6  
 **Armor:** None  
 **Movement:** 15 yards, fly 15 yards  
 
@@ -489,7 +489,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Trivial  
 **HD Pool:** 1d6  
 **Proficiency:** 0  
-**Resolve:** 1  
+**Starting RT:** 6  
 **Armor:** Light (Scaled Hide)  
 **Movement:** 10 yards  
 
@@ -514,7 +514,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Trivial  
 **HD Pool:** 2d4  
 **Proficiency:** 0  
-**Resolve:** 1  
+**Starting RT:** 6  
 **Armor:** None  
 **Movement:** 10 yards  
 
@@ -540,7 +540,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Trivial  
 **HD Pool:** 2d6  
 **Proficiency:** 0  
-**Resolve:** 0 (mindless)  
+**Starting RT:** — (mindless, immune to Resolve effects)  
 **Armor:** None (but see Amorphous)  
 **Movement:** 5 yards, climb 5 yards  
 
@@ -567,7 +567,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Trivial  
 **HD Pool:** 1d6  
 **Proficiency:** 0  
-**Resolve:** 1  
+**Starting RT:** 6  
 **Armor:** None  
 **Movement:** 10 yards  
 
@@ -599,7 +599,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Trivial  
 **HD Pool:** 1d6  
 **Proficiency:** 0  
-**Resolve:** 2  
+**Starting RT:** 5  
 **Armor:** None  
 **Movement:** 12 yards  
 
@@ -625,7 +625,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Trivial  
 **HD Pool:** 2d6  
 **Proficiency:** 0  
-**Resolve:** 0 (mindless)  
+**Starting RT:** — (mindless, immune to Resolve effects)  
 **Armor:** None  
 **Movement:** 8 yards  
 
@@ -652,7 +652,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Trivial (Swarm)  
 **HD Pool:** 3d6 (swarm acts as single entity)  
 **Proficiency:** 0  
-**Resolve:** 0 (mindless)  
+**Starting RT:** — (mindless, immune to Resolve effects)  
 **Armor:** None  
 **Movement:** 10 yards, climb 10 yards  
 
@@ -684,7 +684,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Basic  
 **HD Pool:** 4d8  
 **Proficiency:** 1  
-**Resolve:** 1  
+**Starting RT:** 6  
 **Armor:** None  
 **Movement:** 15 yards  
 
@@ -715,7 +715,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Basic  
 **HD Pool:** 3d6  
 **Proficiency:** 1  
-**Resolve:** 2  
+**Starting RT:** 5  
 **Armor:** None  
 **Movement:** Fly 10 yards (hover)  
 
@@ -723,13 +723,13 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 - Rolls: 2d6
 - Required: 1
 - Base: 1 HD necrotic damage
-- Special: Target must make Resolve check or lose 1 Resolve
+- Special: Target must make Resolve check or their RT advances by 1
 
 **Whisper of Betrayal** (Advanced, 3+) - Social Attack
 - Rolls: 3d6
 - Required: 2
-- Targets Resolve instead of HD
-- Base: 1 Resolve damage
+- Targets RT instead of HD
+- Base: RT advances by 1
 - Range: 15 yards
 - Special: Can only target characters who have broken a promise or oath
 
@@ -737,7 +737,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 - **Incorporeal:** Physical weapons pass through unless magical or oath-bound
 - **Oath Sense:** Can detect broken promises within 30 yards
 
-**Tactics:** Targets those who have broken oaths, whispering their failures. Flees from those with strong conviction (Resolve 3+).
+**Tactics:** Targets those who have broken oaths, whispering their failures. Flees from those with strong conviction (RT 4 or lower).
 
 **Lore:** These are echoes of those who died with broken oaths, rejected by both the Concordant Halls and Aralys's mercy. They exist in torment, seeking to drag others into their guilt. The Hollow Vespers sometimes command them. Can only be truly destroyed by fulfilling the oath they broke in life.
 
@@ -747,7 +747,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Basic  
 **HD Pool:** 4d6  
 **Proficiency:** 1  
-**Resolve:** 3  
+**Starting RT:** 4  
 **Armor:** None  
 **Movement:** 10 yards  
 
@@ -780,7 +780,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Basic  
 **HD Pool:** 3d8  
 **Proficiency:** 2  
-**Resolve:** 2  
+**Starting RT:** 5  
 **Armor:** None (incorporeal)  
 **Movement:** Fly 15 yards (hover)  
 
@@ -813,7 +813,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Basic  
 **HD Pool:** 5d6  
 **Proficiency:** 2  
-**Resolve:** 0 (cannot be reduced; has no will to break)  
+**Starting RT:** — (no will to break, immune to Resolve effects)  
 **Armor:** None  
 **Movement:** 10 yards, phase through obstacles  
 
@@ -826,17 +826,17 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Emptiness Touch** (Advanced, 3+)
 - Rolls: 4d6
 - Required: 2
-- Targets Resolve
+- Targets RT
 - Range: Touch
-- Effect: 2 Resolve damage. If target reaches 0 Resolve, they become apathetic and cannot willingly act for 1d6 rounds
+- Effect: RT advances by 2. If target Collapses, they become apathetic and cannot willingly act for 1d6 rounds
 
 **Special Abilities:**
 - **Hollow-Born:** Created when Hollow Mourning State strips identity from wandering souls
 - **Faceless:** Has no face—just smoothed, featureless skin. Immune to effects requiring eye contact
 - **Memory Null:** Creatures cannot remember Drifter's location if they look away. Must make Awareness check to track it
-- **Hunger for Self:** Drawn to those with strong identities (high Resolve, defined goals)
+- **Hunger for Self:** Drawn to those with strong identities (low RT, defined goals)
 
-**Tactics:** Drifts toward sources of identity and purpose. Attacks mechanically, without malice—it doesn't remember what malice is. Prioritizes targets with highest Resolve.
+**Tactics:** Drifts toward sources of identity and purpose. Attacks mechanically, without malice—it doesn't remember what malice is. Prioritizes targets with lowest RT.
 
 **Terrain/Environment:** Appears during Hollow Mourning States, or in places where mass forgetting has occurred (destroyed libraries, massacred villages with no survivors to remember). The air feels empty where they drift.
 
@@ -848,7 +848,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Basic  
 **HD Pool:** 5d8  
 **Proficiency:** 1  
-**Resolve:** 1  
+**Starting RT:** 6  
 **Armor:** Natural bark (2d6 temp HD)  
 **Movement:** 5 yards, climb 10 yards  
 
@@ -878,7 +878,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Basic  
 **HD Pool:** 4d8  
 **Proficiency:** 1  
-**Resolve:** 1  
+**Starting RT:** 6  
 **Armor:** Petal layers (1d8 temp HD)  
 **Movement:** 10 yards  
 
@@ -911,7 +911,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Basic  
 **HD Pool:** 5d8  
 **Proficiency:** 2  
-**Resolve:** 2  
+**Starting RT:** 5  
 **Armor:** Desiccated bark (2d6 temp HD)  
 **Movement:** 10 yards  
 
@@ -944,7 +944,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Basic  
 **HD Pool:** 3d8  
 **Proficiency:** 2  
-**Resolve:** 2  
+**Starting RT:** 5  
 **Armor:** None  
 **Movement:** 10 yards  
 
@@ -956,8 +956,8 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Replay Trauma** (Advanced, 3+) - Social Attack
 - Rolls: 4d6
 - Required: 2
-- Targets Resolve
-- Base: 1 Resolve damage
+- Targets RT
+- Base: RT advances by 1
 - Range: 15 yards
 - Special: Forces target to relive a painful memory (describe a failure or loss)
 
@@ -975,7 +975,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Basic  
 **HD Pool:** 4d8  
 **Proficiency:** 2  
-**Resolve:** 3  
+**Starting RT:** 4  
 **Armor:** Fine clothes (1d6 temp HD)  
 **Movement:** 10 yards  
 
@@ -987,7 +987,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Binding Contract** (Advanced, 3+) - Social Attack
 - Rolls: 4d6
 - Required: 2
-- Targets Resolve
+- Targets RT
 - Effect: If target fails, they are compelled to honor a verbal agreement made (lasts until fulfilled or 24 hours)
 - Range: Touch (must shake hands)
 
@@ -1005,7 +1005,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Basic  
 **HD Pool:** 4d6  
 **Proficiency:** 2  
-**Resolve:** 2  
+**Starting RT:** 5  
 **Armor:** Tattered robes (1d6 temp HD)  
 **Movement:** 10 yards, fly 10 yards (hover)  
 
@@ -1018,14 +1018,14 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Whisper of Despair** (Advanced, 3+) - Social Attack
 - Rolls: 4d6
 - Required: 2
-- Targets Resolve
-- Base: 1 Resolve damage
+- Targets RT
+- Base: RT advances by 1
 - Range: 15 yards
 - Special: Target must make Resolve check or lose 1 action next turn (overwhelmed by despair)
 
 **Special Abilities:**
 - **Shadow Form:** Incorporeal in darkness (physical attacks pass through unless magical)
-- **Feed on Broken Oaths:** Regains 2 HD when near Oath-Breaker Shades or characters with Resolve below 0
+- **Feed on Broken Oaths:** Regains 2 HD when near Oath-Breaker Shades or Collapsed characters
 
 **Tactics:** Whispers temptations to abandon oaths and community. Focuses on isolated targets. If engaged in combat, uses Draining Touch while whispering failures and weaknesses. Flees toward other Vespers if reduced below half HD.
 
@@ -1037,7 +1037,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Basic  
 **HD Pool:** 5d8  
 **Proficiency:** 1  
-**Resolve:** 1  
+**Starting RT:** 6  
 **Armor:** Molten scales (2d8 temp HD)  
 **Movement:** 10 yards, swim 10 yards (lava)  
 
@@ -1068,7 +1068,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Basic  
 **HD Pool:** 4d8  
 **Proficiency:** 2  
-**Resolve:** 3  
+**Starting RT:** 4  
 **Armor:** Spectral form (1d8 temp HD)  
 **Movement:** Fly 15 yards  
 
@@ -1097,7 +1097,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Basic  
 **HD Pool:** 5d10  
 **Proficiency:** 2  
-**Resolve:** 2  
+**Starting RT:** 5  
 **Armor:** Thick hide (2d8 temp HD)  
 **Movement:** 20 yards  
 
@@ -1126,7 +1126,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Basic (often encountered as NPCs, not always hostile)  
 **HD Pool:** 4d8  
 **Proficiency:** 2  
-**Resolve:** 4  
+**Starting RT:** 3  
 **Armor:** Leather coat (2d6 temp HD)  
 **Movement:** 10 yards  
 
@@ -1138,9 +1138,9 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Call Debt** (Advanced, 3+) - Social Attack
 - Rolls: 5d6 (Proficiency + skill bonus)
 - Required: 2
-- Targets Resolve
+- Targets RT
 - Range: 15 yards
-- Effect: If target owes a debt (money, favor, broken promise), they take 2 Resolve damage and must make Resolve check or be compelled to acknowledge the debt
+- Effect: If target owes a debt (money, favor, broken promise), they their RT advances by 2 and must make Resolve check or be compelled to acknowledge the debt
 
 **Special Abilities:**
 - **Korthane's Mark:** Can sense unpaid debts within 50 yards
@@ -1156,7 +1156,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Basic  
 **HD Pool:** 3d8  
 **Proficiency:** 1  
-**Resolve:** 2  
+**Starting RT:** 5  
 **Armor:** Light (Scaled Hide)  
 **Movement:** 12 yards, climb 10 yards  
 
@@ -1188,7 +1188,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Basic  
 **HD Pool:** 4d8  
 **Proficiency:** 1  
-**Resolve:** 2  
+**Starting RT:** 5  
 **Armor:** Medium (Crude Scale Armor)  
 **Movement:** 10 yards  
 
@@ -1220,7 +1220,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Basic  
 **HD Pool:** 5d8  
 **Proficiency:** 1  
-**Resolve:** 2  
+**Starting RT:** 5  
 **Armor:** Medium (Thick Hide)  
 **Movement:** 10 yards, swim 15 yards  
 
@@ -1259,7 +1259,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Basic  
 **HD Pool:** 4d8  
 **Proficiency:** 1  
-**Resolve:** 2  
+**Starting RT:** 5  
 **Armor:** Light (Scaled Hide)  
 **Movement:** 10 yards, fly 20 yards  
 
@@ -1298,7 +1298,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Basic  
 **HD Pool:** 4d8  
 **Proficiency:** 1  
-**Resolve:** 3  
+**Starting RT:** 4  
 **Armor:** Light (Shadow-Woven Scales)  
 **Movement:** 10 yards, fly 20 yards  
 
@@ -1316,7 +1316,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Grief Exhalation** (Advanced, 3+)
 - Rolls: 3d6
 - Required: 2
-- Base: 2 HD necrotic damage + 1 Resolve damage
+- Base: 2 HD necrotic damage + RT advances by 1
 - Range: 15-yard cone
 - Special: Recharge after 3 rounds
 
@@ -1337,7 +1337,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Basic  
 **HD Pool:** 3d8  
 **Proficiency:** 1  
-**Resolve:** 2  
+**Starting RT:** 5  
 **Armor:** Light (Scrap Leather)  
 **Movement:** 10 yards  
 
@@ -1369,7 +1369,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Basic  
 **HD Pool:** 4d8  
 **Proficiency:** 1  
-**Resolve:** 2  
+**Starting RT:** 5  
 **Armor:** Medium (Chainmail)  
 **Movement:** 10 yards  
 
@@ -1401,7 +1401,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Basic  
 **HD Pool:** 3d8  
 **Proficiency:** 1  
-**Resolve:** 2  
+**Starting RT:** 5  
 **Armor:** Light (Leather)  
 **Movement:** 12 yards  
 
@@ -1433,7 +1433,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Basic  
 **HD Pool:** 3d6  
 **Proficiency:** 1  
-**Resolve:** 3  
+**Starting RT:** 4  
 **Armor:** None  
 **Movement:** 10 yards  
 
@@ -1451,14 +1451,14 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Minor Hex** (Advanced, 3+)
 - Rolls: 3d6
 - Required: 2
-- Targets Resolve
+- Targets RT
 - Range: 20 yards
 - Effect: Target suffers -1d6 to all rolls for 3 rounds
 
 **Special Abilities:**
 - **Primal Sensitivity:** Can detect magic within 20 yards
 - **Folk Remedies:** Can heal 1d4 HD to ally (once per day)
-- **Superstitious:** +1d6 Resolve against magical fear/charm; -1d6 Resolve against clearly divine entities
+- **Superstitious:** +1d6 to Resolve checks against magical fear/charm; -1d6 to Resolve checks against clearly divine entities
 
 **Tactics:** Stays behind fighters, casting Cantrip Bolt. Uses Minor Hex on dangerous threats. Flees when targeted directly.
 
@@ -1472,7 +1472,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Basic  
 **HD Pool:** 4d8  
 **Proficiency:** 1  
-**Resolve:** 3  
+**Starting RT:** 4  
 **Armor:** Light (Robes with hidden padding)  
 **Movement:** 10 yards  
 
@@ -1505,7 +1505,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Basic  
 **HD Pool:** 4d8  
 **Proficiency:** 0  
-**Resolve:** 0 (mindless)  
+**Starting RT:** — (mindless, immune to Resolve effects)  
 **Armor:** None (but see Amorphous)  
 **Movement:** 8 yards, climb 8 yards  
 
@@ -1537,7 +1537,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Basic  
 **HD Pool:** 4d8  
 **Proficiency:** 1  
-**Resolve:** 0 (undead)  
+**Starting RT:** — (undead, immune to Resolve effects)  
 **Armor:** Medium (Rusted Mail, 1d6 temp HD)  
 **Movement:** 10 yards  
 
@@ -1570,7 +1570,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Basic (Swarm)  
 **HD Pool:** 5d8 (4-6 wolves)  
 **Proficiency:** 1  
-**Resolve:** 2  
+**Starting RT:** 5  
 **Armor:** None  
 **Movement:** 15 yards  
 
@@ -1608,7 +1608,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Advanced  
 **HD Pool:** 8d8  
 **Proficiency:** 3  
-**Resolve:** 3  
+**Starting RT:** 4  
 **Armor:** Layered cloaks (2d8 temp HD)  
 **Movement:** 15 yards  
 
@@ -1645,7 +1645,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Advanced  
 **HD Pool:** 10d10  
 **Proficiency:** 3  
-**Resolve:** 2  
+**Starting RT:** 5  
 **Armor:** Living bark (2d10 temp HD)  
 **Movement:** 10 yards  
 
@@ -1683,7 +1683,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Advanced  
 **HD Pool:** 8d10  
 **Proficiency:** 3  
-**Resolve:** 2  
+**Starting RT:** 5  
 **Armor:** Infernal plate (2d10 temp HD, reforms at start of turn if damaged)  
 **Movement:** 10 yards  
 
@@ -1697,7 +1697,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Binding Contract** (Expert, 4+) - Social/Combat Hybrid
 - Rolls: 6d6
 - Required: 3
-- Targets Resolve
+- Targets RT
 - Range: Touch
 - Effect: Target must make Resolve check or be bound by infernal contract (compelled to follow one command, lasts 1 hour or until fulfilled)
 
@@ -1723,7 +1723,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Advanced  
 **HD Pool:** 9d6 (swarm acts as single entity)  
 **Proficiency:** 3  
-**Resolve:** 2  
+**Starting RT:** 5  
 **Armor:** None  
 **Movement:** Fly 20 yards  
 
@@ -1760,7 +1760,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Advanced  
 **HD Pool:** 10d10  
 **Proficiency:** 2  
-**Resolve:** 4 (cannot be reduced below 2)  
+**Starting RT:** 3 (cannot advance past 5)  
 **Armor:** Metal body (2d12 temp HD)  
 **Movement:** 10 yards  
 
@@ -1798,7 +1798,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Advanced (usually neutral or helpful)  
 **HD Pool:** 7d8  
 **Proficiency:** 3  
-**Resolve:** 4  
+**Starting RT:** 3  
 **Armor:** Flowing water form (2d6 temp HD, reforms each round)  
 **Movement:** Swim 30 yards, walk 15 yards  
 
@@ -1811,7 +1811,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Memory Flood** (Expert, 4+) - Social/Utility
 - Rolls: 7d6 (requires 2 exertion minimum, includes Lore domain bonus)
 - Required: 3
-- Targets Resolve
+- Targets RT
 - Range: Touch
 - Effect: Share visions of past events that occurred near this waterway (can be overwhelming; target must make Resolve check or be Stunned for 1 round from information overload)
 
@@ -1837,7 +1837,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Advanced  
 **HD Pool:** 9d10  
 **Proficiency:** 4  
-**Resolve:** 5 (cannot be reduced below 3)  
+**Starting RT:** 2 (cannot advance past 4)  
 **Armor:** Ancient plate (2d10 temp HD)  
 **Movement:** 10 yards  
 
@@ -1856,7 +1856,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Oath of Vengeance** (Expert, 4+) - Curse
 - Rolls: 7d6
 - Required: 3
-- Targets Resolve
+- Targets RT
 - Range: 15 yards
 - Effect: Marks target with supernatural hunter's mark. Revenant always knows target's direction and distance. Mark lasts until target is slain, revenant is destroyed, or oath is fulfilled
 
@@ -1876,7 +1876,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Advanced  
 **HD Pool:** 8d8  
 **Proficiency:** 3  
-**Resolve:** 1  
+**Starting RT:** 6  
 **Armor:** Unstable form (2d8 temp HD, changes element each round)  
 **Movement:** 15 yards, fly 15 yards  
 
@@ -1916,7 +1916,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Advanced  
 **HD Pool:** 7d8  
 **Proficiency:** 4  
-**Resolve:** 4  
+**Starting RT:** 3  
 **Armor:** Shadow cloak (2d6 temp HD)  
 **Movement:** 10 yards, fly 15 yards  
 
@@ -1929,14 +1929,14 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Whisper Campaign** (Expert, 4+) - Social Attack
 - Rolls: 8d6 (requires 2 exertion minimum)
 - Required: 3
-- Targets Resolve of all enemies within 15 yards
-- Base: 1 Resolve damage to each
+- Targets RT of all enemies within 15 yards
+- Base: RT advances by 1 to each
 - Special: Plant seeds of doubt and betrayal. Targets must make Resolve check or suffer -1d6 penalty on next action involving teamwork
 
 **Corrupt the Oath** (Expert, 4+) - Curse
 - Rolls: 7d6
 - Required: 3
-- Targets Resolve
+- Targets RT
 - Range: Touch
 - Effect: Twist existing oath or promise into darkest interpretation. Target must make Resolve check (Legendary, 5+) or be compelled to fulfill oath in harmful way
 
@@ -1955,7 +1955,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Advanced  
 **HD Pool:** 7d8  
 **Proficiency:** 3  
-**Resolve:** 3  
+**Starting RT:** 4  
 **Armor:** Light (Fire-Touched Scales)  
 **Movement:** 10 yards  
 
@@ -1995,7 +1995,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Advanced  
 **HD Pool:** 8d8  
 **Proficiency:** 3  
-**Resolve:** 3  
+**Starting RT:** 4  
 **Armor:** Heavy (Ceremonial Scale)  
 **Movement:** 10 yards  
 
@@ -2032,7 +2032,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Advanced  
 **HD Pool:** 8d10  
 **Proficiency:** 3  
-**Resolve:** 3  
+**Starting RT:** 4  
 **Armor:** Medium (Storm-Charged Scales)  
 **Movement:** 15 yards, fly 40 yards  
 
@@ -2071,7 +2071,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Advanced  
 **HD Pool:** 7d10  
 **Proficiency:** 3  
-**Resolve:** 2  
+**Starting RT:** 5  
 **Armor:** Heavy (Thorn-Covered Scales)  
 **Movement:** 12 yards, climb 15 yards  
 
@@ -2111,7 +2111,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Advanced  
 **HD Pool:** 10d10  
 **Proficiency:** 3  
-**Resolve:** 4  
+**Starting RT:** 3  
 **Armor:** Medium (Fire-Forged Scales)  
 **Movement:** 15 yards, fly 30 yards  
 
@@ -2156,7 +2156,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Advanced  
 **HD Pool:** 7d10  
 **Proficiency:** 3  
-**Resolve:** 3  
+**Starting RT:** 4  
 **Armor:** Heavy (Plate, 2d8 temp HD)  
 **Movement:** 10 yards  
 
@@ -2195,7 +2195,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Advanced  
 **HD Pool:** 6d8  
 **Proficiency:** 3  
-**Resolve:** 3  
+**Starting RT:** 4  
 **Armor:** Light (Shadow-Touched Leather)  
 **Movement:** 12 yards  
 
@@ -2207,7 +2207,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Assassinate** (Expert, 4+)
 - Rolls: 7d6 (requires surprise or target unaware)
 - Required: 3
-- Base: 5 HD piercing damage + 2 Resolve damage
+- Base: 5 HD piercing damage + RT advances by 2
 - Special: Only usable on first round against unaware target
 
 **Shadow Step** (Advanced, 3+)
@@ -2233,7 +2233,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Advanced  
 **HD Pool:** 8d10  
 **Proficiency:** 3  
-**Resolve:** 4  
+**Starting RT:** 3  
 **Armor:** Medium (Looted Chainmail)  
 **Movement:** 10 yards  
 
@@ -2258,7 +2258,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 - **Bigger Means Boss:** +2d6 to Resolve checks; Greenskins within 30 yards cannot flee while Warchief lives
 - **Darkvision:** Sees in darkness to 60 yards
 - **Survival of the Fittest:** Heals 1d6 HD whenever a nearby Greenskin dies (feeds on death)
-- **Fear of Magic:** -2d6 to Resolve against spellcasters (instinctive terror of greater power)
+- **Fear of Magic:** -2d6 to Resolve checks against spellcasters (instinctive terror of greater power)
 
 **Tactics:** Commands from front lines, using Rallying Bellow early. Charges casters first (fear masking as aggression). Fights to death—fleeing Warchiefs are eaten by their own tribe.
 
@@ -2272,7 +2272,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Advanced  
 **HD Pool:** 7d8  
 **Proficiency:** 3  
-**Resolve:** 4  
+**Starting RT:** 3  
 **Armor:** Light (Ritual Robes with wards, 1d6 temp HD)  
 **Movement:** 10 yards  
 
@@ -2294,7 +2294,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 - Range: 30-yard cone or line
 - Special: Recharge after 3 rounds
 
-**Dark Command** (Advanced, 3+) - Targets Resolve
+**Dark Command** (Advanced, 3+) - Targets RT
 - Rolls: 5d6
 - Required: 2
 - Range: 30 yards
@@ -2318,7 +2318,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Advanced  
 **HD Pool:** 8d10  
 **Proficiency:** 2  
-**Resolve:** 0 (mindless)  
+**Starting RT:** — (mindless, immune to Resolve effects)  
 **Armor:** None  
 **Movement:** 6 yards  
 
@@ -2352,7 +2352,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Advanced  
 **HD Pool:** 9d10  
 **Proficiency:** 3  
-**Resolve:** 4  
+**Starting RT:** 3  
 **Armor:** Heavy (Ancient Plate, 2d8 temp HD)  
 **Movement:** 10 yards  
 
@@ -2391,7 +2391,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Advanced  
 **HD Pool:** 8d10  
 **Proficiency:** 3  
-**Resolve:** 4 (but see Blood Rage)  
+**Starting RT:** 3 (but see Blood Rage)  
 **Armor:** Light (Tribal Leathers)  
 **Movement:** 12 yards  
 
@@ -2428,7 +2428,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Advanced  
 **HD Pool:** 7d10  
 **Proficiency:** 3  
-**Resolve:** 3  
+**Starting RT:** 4  
 **Armor:** Medium (Studded Leather)  
 **Movement:** 10 yards  
 
@@ -2451,7 +2451,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Rally the Lads** (Advanced, 3+)
 - Rolls: Auto-success
 - Range: 30 yards
-- Effect: All allied bandits gain +1d6 to attacks and +2 to Resolve for 3 rounds
+- Effect: All allied bandits gain +1d6 to attacks and lower their RT by 2 for 3 rounds
 
 **Special Abilities:**
 - **Cunning Leader:** +2d6 to tactical planning and ambush setup
@@ -2471,7 +2471,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Advanced (Squad)  
 **HD Pool:** 8d8 (5-8 militia with sergeant)  
 **Proficiency:** 2  
-**Resolve:** 3  
+**Starting RT:** 4  
 **Armor:** Light (Leather and shields)  
 **Movement:** 10 yards  
 
@@ -2509,7 +2509,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Expert  
 **HD Pool:** 13d10  
 **Proficiency:** 4  
-**Resolve:** 5  
+**Starting RT:** 2  
 **Armor:** Radiant plate (2d12 temp HD)  
 **Movement:** 15 yards, fly 20 yards  
 
@@ -2522,19 +2522,19 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Concordant Judgment** (Legendary, 5+)
 - Rolls: 10d6 (requires 2 exertion minimum)
 - Required: 3
-- Targets Resolve
+- Targets RT
 - Range: 30 yards
-- Effect: 3 Resolve damage, target must make Resolve check or be compelled to speak truth about any oaths broken
+- Effect: RT advances by 3, target must make Resolve check or be compelled to speak truth about any oaths broken
 
 **Rally the Faithful** (Expert, 4+) - Support
 - Rolls: 8d6
 - Required: 3
 - Range: 30 yards, affects all allies
-- Effect: Allies gain +2d6 to next action and 1 temporary Resolve (max 5)
+- Effect: Allies gain +2d6 to next action and temporarily lower RT by 1 (minimum 2)
 
 **Special Abilities:**
 - **Concordant Authority:** +3d6 to all Influence checks regarding oaths and honor
-- **Aura of Purpose:** Allies within 15 yards cannot have Resolve reduced below 1
+- **Aura of Purpose:** Allies within 15 yards cannot Collapse (RT cannot advance past 6)
 - **Oath Sense:** Can detect broken oaths within 100 yards
 - **Radiant Immunity:** Immune to radiant damage
 
@@ -2548,7 +2548,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Expert  
 **HD Pool:** 12d10  
 **Proficiency:** 4  
-**Resolve:** 4  
+**Starting RT:** 3  
 **Armor:** Ancestral vestments (2d10 temp HD)  
 **Movement:** 10 yards, fly 15 yards  
 
@@ -2586,7 +2586,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Expert  
 **HD Pool:** 15d12  
 **Proficiency:** 4  
-**Resolve:** 3  
+**Starting RT:** 4  
 **Armor:** Scales (2d12 temp HD)  
 **Movement:** 15 yards, fly 30 yards, burrow 10 yards  
 
@@ -2616,7 +2616,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 - Does not deal damage
 
 **Special Abilities:**
-- **Frightful Presence:** When wyrm roars, all enemies within 30 yards must make Resolve check or lose 1 Resolve and suffer -2d6 penalty on next action
+- **Frightful Presence:** When wyrm roars, all enemies within 30 yards must make Resolve check or their RT advances by 1 and suffer -2d6 penalty on next action
 - **Living Accord's Fury:** Embodies raw nature; Resistance to one element depending on environment
 - **Legendary Resilience:** Can reroll failed defense once per round
 - **Keen Senses:** +3d6 to Awareness checks
@@ -2633,7 +2633,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Threat Tier:** Expert  
 **HD Pool:** 10d8  
 **Proficiency:** 4  
-**Resolve:** 2  
+**Starting RT:** 5  
 **Armor:** Ethereal hide (2d8 temp HD)  
 **Movement:** Fly 15 yards (hover), phasing  
 
@@ -2647,14 +2647,14 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 **Amplify Grief** (Legendary, 5+) - Social Attack
 - Rolls: 10d6 (requires 2 exertion minimum)
 - Required: 3
-- Targets Resolve of all enemies within 20 yards
-- Base: 2 Resolve damage to each
-- Special: Target painful memories; creatures with tragic backstories take 3 Resolve damage instead
+- Targets RT of all enemies within 20 yards
+- Base: RT advances by 2 to each
+- Special: Target painful memories; creatures with tragic backstories their RT advances by 3 instead
 
 **Possession** (Legendary, 5+)
 - Rolls: 9d6 (requires 3 exertion minimum)
 - Required: 3
-- Targets Resolve
+- Targets RT
 - Range: Touch
 - Effect: Enter target's body. Target must make Resolve check (Legendary, 5+, requires 3 successes) each round or remain possessed. While possessed, Leech controls actions but takes half any damage target receives
 
@@ -2664,7 +2664,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 - **Invisible:** Naturally invisible; requires Awareness (Expert, 4+) to detect
 - **Vulnerability (Radiant):** Takes double damage from radiant
 
-**Tactics:** Remains invisible, using Amplify Grief to weaken groups. Possesses target with lowest Resolve. Flees into ethereal plane if threatened.
+**Tactics:** Remains invisible, using Amplify Grief to weaken groups. Possesses target with highest RT. Flees into ethereal plane if threatened.
 
 **Terrain/Environment:** Most active during Remembrance and Vigil Mourning States. Drawn to funerals, battlefields, deathbeds, and memorials. Avoids areas in Release (nothing left to feed on) and flees from the Hollow (even parasite needs prey with something to drain). Follows the grief-heavy, sometimes for weeks.
 
@@ -2680,7 +2680,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Threat Tier:** Expert  
 **HD Pool:** 14d12  
 **Proficiency:** 3  
-**Resolve:** 2  
+**Starting RT:** 5  
 **Armor:** Molten body (2d12 temp HD, reforms each round)  
 **Movement:** 15 yards  
 
@@ -2699,7 +2699,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 - Rolls: 7d6
 - Required: 3
 - Effect: Become pure flames for 1 round. Gain immunity to physical attacks (non-magical), can move through 1-inch openings, ignite everything touched
-- Duration: 1 round, costs 2 Resolve
+- Duration: 1 round, RT advances by 2
 
 **Special Abilities:**
 - **Heat Aura:** All creatures within 10 yards take 2 HD fire damage at start of their turn
@@ -2717,7 +2717,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Threat Tier:** Expert  
 **HD Pool:** 11d8  
 **Proficiency:** 5  
-**Resolve:** 5  
+**Starting RT:** 2  
 **Armor:** Psychic shell (2d8 temp HD)  
 **Movement:** 10 yards, fly 15 yards  
 
@@ -2731,9 +2731,9 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Consume Memory** (Legendary, 5+)
 - Rolls: 11d6 (requires 3 exertion minimum)
 - Required: 3
-- Targets Resolve
+- Targets RT
 - Range: Touch
-- Effect: Steal specific memory from target (GM's choice or player volunteers information). Target takes 4 Resolve damage and forgets event/person/skill. Devourer gains knowledge of that memory
+- Effect: Steal specific memory from target (GM's choice or player volunteers information). Target takes RT advances by 4 and forgets event/person/skill. Devourer gains knowledge of that memory
 
 **Aluneth's Echo** (Expert, 4+) - Utility/Social
 - Rolls: 10d6
@@ -2757,7 +2757,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Threat Tier:** Expert  
 **HD Pool:** 13d10  
 **Proficiency:** 4  
-**Resolve:** 4 (cannot be reduced below 2)  
+**Starting RT:** 3 (cannot advance past 5)  
 **Armor:** Infernal plate (2d12 temp HD)  
 **Movement:** 10 yards  
 
@@ -2777,7 +2777,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 - Rolls: 9d6
 - Required: 3
 - Range: 30 yards, affects all enemies
-- Effect: Each enemy must make Resolve check or take 2 Resolve damage and suffer -1d6 penalty on next action
+- Effect: Each enemy must make Resolve check or their RT advances by 2 and suffer -1d6 penalty on next action
 
 **Call the Debt** (Legendary, 5+) - Summon
 - Rolls: 10d6 (requires 3 exertion minimum)
@@ -2800,7 +2800,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Threat Tier:** Expert  
 **HD Pool:** 12d10  
 **Proficiency:** 4  
-**Resolve:** 4  
+**Starting RT:** 3  
 **Armor:** Elite Dragonscale (3d6 temp HD)  
 **Movement:** 12 yards  
 
@@ -2840,7 +2840,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Threat Tier:** Expert  
 **HD Pool:** 14d10  
 **Proficiency:** 4  
-**Resolve:** 4  
+**Starting RT:** 3  
 **Armor:** Heavy (Mature Fire-Forged Scales)  
 **Movement:** 15 yards, fly 45 yards  
 
@@ -2891,7 +2891,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Threat Tier:** Expert  
 **HD Pool:** 13d10  
 **Proficiency:** 4  
-**Resolve:** 5  
+**Starting RT:** 2  
 **Armor:** Medium (Shadow-Woven Scales)  
 **Movement:** 15 yards, fly 40 yards  
 
@@ -2915,7 +2915,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Grief Storm** (Legendary, 5+)
 - Rolls: 9d6
 - Required: 4
-- Base: 5 HD necrotic damage + 2 Resolve damage
+- Base: 5 HD necrotic damage + RT advances by 2
 - Range: 40-yard radius centered on self
 - Special: Recharge after 3 rounds; all affected must make Resolve check or relive their greatest loss (stunned for 1 round)
 
@@ -2937,7 +2937,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Threat Tier:** Expert  
 **HD Pool:** 14d10  
 **Proficiency:** 4  
-**Resolve:** 4  
+**Starting RT:** 3  
 **Armor:** Heavy (Ice-Encrusted Scales)  
 **Movement:** 12 yards, fly 40 yards, burrow (ice/snow) 20 yards  
 
@@ -2989,7 +2989,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Threat Tier:** Legendary  
 **HD Pool:** 18d12  
 **Proficiency:** 5  
-**Resolve:** 5  
+**Starting RT:** 2  
 **Armor:** Radiant scales (2d12 temp HD)  
 **Movement:** 20 yards, fly 40 yards  
 
@@ -3008,9 +3008,9 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Celestial Judgment** (Legendary, 5+) - Social Attack
 - Rolls: 12d6 (requires 2 exertion minimum)
 - Required: 3
-- Targets Resolve of all enemies within 30 yards
-- Base: 3 Resolve damage
-- Special: Oath-breakers take 5 Resolve damage instead and must make Resolve check or flee in shame
+- Targets RT of all enemies within 30 yards
+- Base: RT advances by 3
+- Special: Oath-breakers' RT advances by 5 instead and must make Resolve check or flee in shame
 
 **Wing Tempest** (Expert, 4+)
 - Rolls: 9d6
@@ -3034,7 +3034,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Threat Tier:** Legendary  
 **HD Pool:** 16d10  
 **Proficiency:** 5  
-**Resolve:** 6  
+**Starting RT:** 2, Resolve Shield 1  
 **Armor:** Ethereal vestments (2d10 temp HD)  
 **Movement:** 15 yards, fly 20 yards, plane shift at will  
 
@@ -3043,7 +3043,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 - Required: 3
 - Base: 4 HD radiant or necrotic damage (Shepherd's choice)
 - Range: 20 yards
-- Special: If target is undead and below half HD, can attempt to free soul (targets Resolve; success = undead destroyed peacefully)
+- Special: If target is undead and below half HD, can attempt to free soul (targets RT; success = undead destroyed peacefully)
 
 **Guide the Lost** (Legendary, 5+) - Utility/Social
 - Rolls: 12d6 (requires 2 exertion minimum)
@@ -3054,9 +3054,9 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Pale Judgment** (Ultimate, 6 only)
 - Rolls: 14d6 (requires 3 exertion minimum)
 - Required: 4
-- Targets Resolve of all creatures within 30 yards
-- Base: 4 Resolve damage
-- Special: Creatures reduced to 0 Resolve by this ability see vision of their death and must make Resolve check or collapse unconscious
+- Targets RT of all creatures within 30 yards
+- Base: RT advances by 4
+- Special: Creatures who Collapse from this ability see vision of their death and must make Resolve check or collapse unconscious
 
 **Call the Pale Shepherds** (Legendary, 5+) - Summon
 - Rolls: 11d6 (requires 3 exertion minimum)
@@ -3079,7 +3079,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Threat Tier:** Legendary  
 **HD Pool:** 20d12  
 **Proficiency:** 4  
-**Resolve:** 4  
+**Starting RT:** 3  
 **Armor:** Ancient bark (2d12 temp HD, regrows each round in sunlight)  
 **Movement:** 15 yards  
 
@@ -3127,7 +3127,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Threat Tier:** Legendary  
 **HD Pool:** 18d12  
 **Proficiency:** 5  
-**Resolve:** 5  
+**Starting RT:** 2  
 **Armor:** Legendary (Flame-Forged Dragonscale, 3d6 temp HD)  
 **Movement:** 15 yards, fly 60 yards  
 
@@ -3187,7 +3187,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Threat Tier:** Legendary  
 **HD Pool:** 17d12  
 **Proficiency:** 5  
-**Resolve:** 4  
+**Starting RT:** 3  
 **Armor:** Heavy (Storm-Charged Dragonscale)  
 **Movement:** 15 yards, fly 80 yards  
 
@@ -3246,7 +3246,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Threat Tier:** Legendary  
 **HD Pool:** 18d12  
 **Proficiency:** 5  
-**Resolve:** 6  
+**Starting RT:** 2, Resolve Shield 1  
 **Armor:** Medium (Void-Touched Scales—solid but semi-translucent)  
 **Movement:** 10 yards, fly 50 yards, teleport 30 yards (see ability)  
 
@@ -3272,7 +3272,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Void Breath** (Ultimate, 6 only)
 - Rolls: 14d6 (requires 4 exertion minimum)
 - Required: 5
-- Base: 7 HD necrotic damage + 3 Resolve damage
+- Base: 7 HD necrotic damage + RT advances by 3
 - Range: 50-yard cone
 - Special: Recharge after 3 rounds; targets must make Resolve check or be unable to use magical abilities for 1 round (anti-magic field)
 
@@ -3308,7 +3308,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Threat Tier:** Ultimate  
 **HD Pool:** 22d12  
 **Proficiency:** 5  
-**Resolve:** 6 (cannot be reduced below 3)  
+**Starting RT:** 2, Resolve Shield 1 (cannot advance past 4)  
 **Armor:** Living infernal armor (2d12 temp HD, reforms each round)  
 **Movement:** 15 yards, fly 30 yards, plane shift at will  
 
@@ -3327,7 +3327,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Azravael's Edict** (Ultimate, 6 only) - Reality Warping
 - Rolls: 15d6 (requires 3 exertion minimum)
 - Required: 4
-- Targets Resolve of all creatures within 50 yards
+- Targets RT of all creatures within 50 yards
 - Effect: Herald speaks contract aloud. All who hear must make Resolve check (Ultimate, 6 only) or become bound by its terms for 1 hour. Those who fail are compelled to follow stated contract
 
 **Summon Schism Legion** (Legendary, 5+)
@@ -3352,7 +3352,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Threat Tier:** Ultimate  
 **HD Pool:** 20d10  
 **Proficiency:** 6  
-**Resolve:** 8  
+**Starting RT:** 2, Resolve Shield 3  
 **Armor:** Moonlit vestments (2d10 temp HD)  
 **Movement:** 20 yards, fly 30 yards, ethereal step  
 
@@ -3395,7 +3395,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Threat Tier:** Ultimate  
 **HD Pool:** 24d12  
 **Proficiency:** 6  
-**Resolve:** 8  
+**Starting RT:** 2, Resolve Shield 3  
 **Armor:** Legendary (Dusk-Woven Dragonscale, 3d10 temp HD)  
 **Movement:** 15 yards, fly 60 yards, ethereal step 40 yards  
 
@@ -3420,7 +3420,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **The Final Mourning** (Ultimate, 6 only)
 - Rolls: 16d6 (requires 4 exertion minimum)
 - Required: 5
-- Base: 8 HD necrotic damage + 4 Resolve damage
+- Base: 8 HD necrotic damage + RT advances by 4
 - Range: 60-yard radius centered on self
 - Special: Recharge after 4 rounds; targets must make Resolve check or fall into catatonic grief for 1 round (unconscious but stable)
 
@@ -3450,7 +3450,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Threat Tier:** Ultimate  
 **HD Pool:** 22d12  
 **Proficiency:** 6  
-**Resolve:** 7  
+**Starting RT:** 2, Resolve Shield 2  
 **Armor:** Legendary (Oathforged Dragonscale, 3d8 temp HD)  
 **Movement:** 15 yards, fly 50 yards  
 
@@ -3517,7 +3517,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Threat Tier:** Mythical  
 **HD Pool:** 25d20  
 **Proficiency:** 6  
-**Resolve:** 4 (constantly fluctuates)  
+**Starting RT:** 3 (constantly fluctuates)  
 **Armor:** Chaotic form (2d20 temp HD, changes element/type each round)  
 **Movement:** Variable (roll 1d20 for yards per round), fly, teleport, irregular  
 
@@ -3572,16 +3572,16 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Threat Tier:** Mythical  
 **HD Pool:** 28d12  
 **Proficiency:** 7  
-**Resolve:** 10 (cannot be reduced)  
+**Starting RT:** 2, Resolve Shield 5 (immune to Resolve effects)  
 **Armor:** Flowing water form (2d20 temp HD, infinite regeneration in water)  
 **Movement:** 30 yards, swim 60 yards, water walk  
 
 **Tide of Forgetting** (Mythical, 6 only)
 - Rolls: 18d6 (requires 3 exertion minimum)
 - Required: 6
-- Targets Resolve of all creatures within 60 yards
-- Base: 2 Resolve damage
-- Special: Creatures reduced to 0 Resolve by this ability forget who they are (lose all class abilities, memories, personality). Effect is permanent unless memory is restored through quest/ritual
+- Targets RT of all creatures within 60 yards
+- Base: RT advances by 2
+- Special: Creatures who Collapse from this ability forget who they are (lose all class abilities, memories, personality). Effect is permanent unless memory is restored through quest/ritual
 
 **Memory Flood** (Ultimate, 6 only)
 - Rolls: 16d6
@@ -3593,7 +3593,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 - Rolls: 20d6
 - Required: 4
 - Range: 100 yards
-- Effect: Echo speaks truth of target's past aloud (reveals all secrets, all forgotten moments, all lies). Target must make Resolve check (Mythical) or suffer existential crisis (Resolve reduced to 0, see Tide of Forgetting)
+- Effect: Echo speaks truth of target's past aloud (reveals all secrets, all forgotten moments, all lies). Target must make Resolve check (Mythical) or suffer existential crisis (Collapse—RT immediately advances to 6, see Tide of Forgetting)
 
 **Rewrite History** (Mythical) - Ultimate Power
 - Requires 3 rounds of concentration
@@ -3622,7 +3622,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Threat Tier:** Mythical  
 **HD Pool:** 32d12  
 **Proficiency:** 8  
-**Resolve:** 10  
+**Starting RT:** 2, Resolve Shield 5  
 **Armor:** Primal (Scales of the First Age, 4d12 temp HD)  
 **Movement:** 20 yards, fly 100 yards, burrow 30 yards  
 
@@ -3685,7 +3685,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Threat Tier:** Mythical  
 **HD Pool:** 35d12  
 **Proficiency:** 8  
-**Resolve:** 8 (but see Chaos Resolve)  
+**Starting RT:** 2, Resolve Shield 3 (but see Chaos Resolve)  
 **Armor:** Living Flame (cannot be reduced to temp HD 0 while fire exists nearby)  
 **Movement:** 20 yards, fly 80 yards, teleport (to any fire source) unlimited  
 
@@ -3731,7 +3731,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Special Abilities:**
 - **Legendary Resistance (4/day):** Can choose to succeed on any failed defense
 - **Living Fire:** Does not take damage from fire; fire attacks heal First Ember for damage that would have been dealt
-- **Chaos Resolve:** Resolve fluctuates—at start of each round, roll 1d6+4 for current Resolve
+- **Chaos Resolve:** RT fluctuates—at start of each round, roll 1d6: on 1-2, RT advances by 1; on 5-6, RT lowers by 1 (minimum 2)
 - **Cannot Die by Flame:** If reduced to 0 HD by fire damage, instead fully healed and enters rage (+4d6 to all attacks for 3 rounds)
 - **Iosyx's Perfect Child:** Is considered Iosyx's direct presence for purposes of divine interaction; priests of Iosyx will not attack
 - **Fire Teleportation:** As bonus action, teleport to any fire source within sight
@@ -3767,7 +3767,7 @@ These NPCs represent inhabitants of the Mortal Weave who may aid the party tempo
 **Threat Tier:** Basic to Advanced (scales with party level)  
 **HD Pool:** 5d10 (Basic) or 8d10 (Advanced)  
 **Proficiency:** 2 (Basic) or 3 (Advanced)  
-**Resolve:** 2 or 3  
+**Starting RT:** 5 or 4  
 **Armor:** Medium armor (2d8 temp HD)  
 **Movement:** 10 yards  
 
@@ -3798,7 +3798,7 @@ These NPCs represent inhabitants of the Mortal Weave who may aid the party tempo
 **Threat Tier:** Basic  
 **HD Pool:** 4d8  
 **Proficiency:** 2  
-**Resolve:** 3  
+**Starting RT:** 4  
 **Armor:** None  
 **Movement:** 10 yards  
 
@@ -3819,10 +3819,10 @@ These NPCs represent inhabitants of the Mortal Weave who may aid the party tempo
 - **Ritual Caster:** Can ritual cast any Arcane spell of Advanced tier or lower (takes 20 minutes)
 - **Pattern Recognition:** Once per encounter, may reroll any failed skill roll related to investigation or problem-solving
 
-**Tactics:** Stays at range, uses Arcane Bolt conservatively, saves Resolve for Unravel Magic when magical threats appear.
+**Tactics:** Stays at range, uses Arcane Bolt conservatively, saves actions for Unravel Magic when magical threats appear.
 
 **Hiring Cost:** 5 gold per day + access to any historical sites, libraries, or arcane discoveries  
-**Loyalty:** Will not engage in combat if Resolve drops to 1 or below; primarily interested in knowledge
+**Loyalty:** Will not engage in combat if RT reaches 6 or higher; primarily interested in knowledge
 
 **Lore:** Scholars wander seeking forgotten lore, ancient sites, and mysteries. Many serve the Curator Arcanum indirectly—their pursuit of knowledge feeds the great repository. They join parties to access dangerous ruins, translate ancient texts, or investigate planar phenomena.
 
@@ -3832,7 +3832,7 @@ These NPCs represent inhabitants of the Mortal Weave who may aid the party tempo
 **Threat Tier:** Basic  
 **HD Pool:** 5d8  
 **Proficiency:** 2  
-**Resolve:** 3  
+**Starting RT:** 4  
 **Armor:** Light armor (2d6 temp HD)  
 **Movement:** 10 yards  
 
@@ -3866,7 +3866,7 @@ These NPCs represent inhabitants of the Mortal Weave who may aid the party tempo
 **Threat Tier:** Basic to Advanced  
 **HD Pool:** 5d8 (Basic) or 8d8 (Advanced)  
 **Proficiency:** 2 or 3  
-**Resolve:** 2 or 3  
+**Starting RT:** 5 or 4  
 **Armor:** Light armor (2d6 temp HD)  
 **Movement:** 12 yards  
 
@@ -3900,7 +3900,7 @@ These NPCs represent inhabitants of the Mortal Weave who may aid the party tempo
 **Threat Tier:** Trivial  
 **HD Pool:** 3d6  
 **Proficiency:** 1  
-**Resolve:** 2  
+**Starting RT:** 5  
 **Armor:** None  
 **Movement:** 10 yards  
 
@@ -3933,7 +3933,7 @@ These NPCs represent inhabitants of the Mortal Weave who may aid the party tempo
 **Threat Tier:** Basic  
 **HD Pool:** 6d10  
 **Proficiency:** 2  
-**Resolve:** 2  
+**Starting RT:** 5  
 **Armor:** Heavy apron (1d8 temp HD)  
 **Movement:** 10 yards  
 
@@ -3965,7 +3965,7 @@ These NPCs represent inhabitants of the Mortal Weave who may aid the party tempo
 **Threat Tier:** Basic  
 **HD Pool:** 5d10  
 **Proficiency:** 2  
-**Resolve:** 2  
+**Starting RT:** 5  
 **Armor:** Medium armor (2d8 temp HD)  
 **Movement:** 10 yards  
 
@@ -3997,7 +3997,7 @@ These NPCs represent inhabitants of the Mortal Weave who may aid the party tempo
 **Threat Tier:** Basic  
 **HD Pool:** 3d6  
 **Proficiency:** 2  
-**Resolve:** 3  
+**Starting RT:** 4  
 **Armor:** None  
 **Movement:** 10 yards  
 
@@ -4030,7 +4030,7 @@ These NPCs represent inhabitants of the Mortal Weave who may aid the party tempo
 **Threat Tier:** Trivial to Basic  
 **HD Pool:** 3d10  
 **Proficiency:** 1  
-**Resolve:** 2  
+**Starting RT:** 5  
 **Armor:** Light armor (2d6 temp HD)  
 **Movement:** 10 yards  
 
@@ -4057,7 +4057,7 @@ These NPCs represent inhabitants of the Mortal Weave who may aid the party tempo
 **Threat Tier:** Basic  
 **HD Pool:** 4d8  
 **Proficiency:** 2  
-**Resolve:** 4  
+**Starting RT:** 3  
 **Armor:** Flowing form (cannot wear armor; ethereal)  
 **Movement:** 15 yards, swim 30 yards  
 
@@ -4096,7 +4096,7 @@ These NPCs represent inhabitants of the Mortal Weave who may aid the party tempo
 **Threat Tier:** Advanced  
 **HD Pool:** 8d8  
 **Proficiency:** 3  
-**Resolve:** 4  
+**Starting RT:** 3  
 **Armor:** Black enforcer's coat (2d8 temp HD)  
 **Movement:** 10 yards  
 
@@ -4109,7 +4109,7 @@ These NPCs represent inhabitants of the Mortal Weave who may aid the party tempo
 **Binding Contract** (Expert, 4+) - Social
 - Rolls: 6d6
 - Required: 3
-- Targets Resolve
+- Targets RT
 - Effect: If target owes debt or has broken contract, must make Resolve check (Expert 4+) or be compelled to fulfill obligation immediately
 
 **Special Abilities:**
