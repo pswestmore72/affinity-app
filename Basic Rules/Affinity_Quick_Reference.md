@@ -58,8 +58,8 @@
 
 **Notation:**
 ```
-Hit Dice: 7d10 (1d10, 1d10, 1d10, 1d10, 1d10, 1d10, 1d10)
-Armor: 3d8 (1d8, 1d8, 1d8)
+Hit Dice: 7d10s (1d10, 1d10, 1d10, 1d10, 1d10, 1d10, 1d10)
+Armor: 3d8s (1d8, 1d8, 1d8)
 Shield: 1d12 (1d12)
 
 Defense Pool: [1d12] → [1d8 ×3] → [1d10 ×7]

@@ -1,9 +1,15 @@
-# Deities & Realms of Aeralon
-## A High-Fantasy Cosmology
+════════════════════════════════════════════════════════════════════════
+                    DEITIES & REALMS OF AERALON
+                    A High-Fantasy Cosmology
+════════════════════════════════════════════════════════════════════════
 
----
+[NOTE: Cover page — cosmic mandala illustration showing nested realms: the Mortal Weave at center, Gloam and Verge flanking, Sovereign Realms above, Fractured Realms below, all wrapped in the Veil Beyond. Ink line art with gold and purple accents. Typography: Title in Oswald Bold 36pt, subtitle in Crimson Text 14pt italic]
 
-## Table of Contents
+*The cosmos remembers. The planes persist. The gods endure.*
+
+────────────────────────────────────────────────────────────────────────
+
+## ◆ Table of Contents
 1. [The Shape of the Cosmos](#the-shape-of-the-cosmos)
 2. [The Reflected Realms](#the-reflected-realms)
 3. [The Sovereign Realms](#the-sovereign-realms)
@@ -17,6 +23,8 @@
 
 ## The Shape of the Cosmos
 
+[NOTE: Full-page diagram — “The Shape of the Cosmos” showing nested concentric rings: Veil Beyond (outermost dark shell), Ethereal Void (flowing space between), then the three strata as labeled regions. Sacred geometry style with minimal labels. Ink line art, gold accents for divine realms, purple for fractured]
+
 All existence is suspended within **the Veil Beyond**, the absolute outer boundary—a lightless metaphysical expanse that separates reality from unreality. Nothing exists beyond it; nothing can. Within the Veil drift the **Realms**, vast metaphysical territories shaped by belief, principle, and primordial force.
 
 Between the Realms flows **the Ethereal Void**, the navigable emptiness that separates Plane from Plane. Where the Veil Beyond is the shell containing all existence, the Ethereal Void is the medium through which travelers pass when moving between worlds. It has no substance, no time, no direction—only relative distance measured in will and intent.
@@ -26,6 +34,10 @@ Between the Realms flows **the Ethereal Void**, the navigable emptiness that sep
 1. **The Reflected Realms** — Mirrored worlds bound to mortal existence, where balance demands mortality
 2. **The Sovereign Realms** — Seats of divine authority and principle
 3. **The Fractured Realms** — Unstable, lawless, or forbidden spaces
+
+────────────────────────────────────────────────────────────────────────
+STRATUM I — THE REFLECTED REALMS
+────────────────────────────────────────────────────────────────────────
 
 ---
 
@@ -37,6 +49,8 @@ Together they form the **Focal Point**, the convergence where cosmic law and arc
 
 ### 1. The Weave (or Mortal Weave)
 **Realm of Balance, Memory, and Mortality**
+
+[NOTE: Spot illustration — A balanced landscape: one side green and living, the other shadowed and still, meeting at a river of silver light. Small mortal figures at the center. Ink line art]
 
 This is the core, or prime, Plane of existence. Sometimes called the "Mortal" Plane, as most inhabitants born here are mortal beings—a payment for living on the only Plane to encompass elements and inhabitants from all other Inner and Outer Planes. The Mortal Weave is full of life and death, and this balance makes it unique.
 
@@ -100,6 +114,8 @@ No being of higher power is allowed entrance into the Mortal Weave. However, hig
 ### 2. The Gloam (or Hollow Marches)
 **Realm of Death, Endings, and Mercy**
 
+[NOTE: Spot illustration — Perpetual twilight landscape. A dim moon over misty hills. Pale lanterns along a path fading into fog. Spectral figures walking. Dark ink, minimal detail, heavy atmosphere]
+
 A reflection of the Weave shrouded in heavy mist and perpetual darkness. The entire realm is filled with pale darkness, save for a dim ever-present moon and faint distant stars. Where the Weave asks *what will you do?* and the Verge asks *what could you become?*, the Gloam asks only: **What did this mean?**
 
 **This is not a land of the dead. It is the weight of endings, given geography.**
@@ -148,6 +164,8 @@ Few legal open travel portals exist with the Weave, due to open portals to the "
 ### 3. The Verge (or Tangled Verge)
 **Realm of Excess Life, Growth, and Wild Magic**
 
+[NOTE: Spot illustration — Explosive overgrowth: flowers erupting from stone, vines swallowing towers, everything blooming violently. A tiny figure nearly consumed by beauty. Energetic ink lines, organic chaos]
+
 The "opposite" to the Gloam—full of unchecked vitality, biological excess, and generative chaos. Despite its beauty, this is a very dangerous and hostile Plane. Often called the Faerie Plane, most woodland and Fey creatures originate here.
 
 **This is not a kingdom. It is an ecosystem that achieved consciousness.**
@@ -183,6 +201,10 @@ They are **biomes that achieved sentience**—vast ecological imperatives that p
 
 **Travel Restrictions:**  
 Freely travelable. Many Mortal Weave inhabitants frequent here. **Extreme caution advised**—the Verge is not hostile in the way mortals understand hostility. It simply does not recognize the difference between "guest" and "substrate." Promises here are metabolic bonds. Bargains become symbiosis. And the Excesses do not negotiate—they **incorporate**.
+
+────────────────────────────────────────────────────────────────────────
+STRATUM II — THE SOVEREIGN REALMS
+────────────────────────────────────────────────────────────────────────
 
 ---
 
@@ -241,6 +263,8 @@ Open travel portals exist in most major cities in the Reflected Planes. Freely t
 ### 6. The Engine of Bael-Zaroth
 **Realm of Rewritten Obligation and Metaphysical Tyranny**
 
+[NOTE: Half-page illustration — A vast machine made of contract text and chains. Living ink crawls across surfaces. A faceless figure composed of overlapping signatures at the center. Cold, mechanical, oppressive. Ink line art, heavy blacks, ember-red accent]
+
 Also known as **The Final Obligation**, **The Depth**, or sometimes simply **The Hells**. This is not a kingdom. It is a **malfunctioning metaphysical machine**—a realm where Azravael's rewriting of infernal law continues to cascade through reality itself.
 
 Before **The Infernal Schism**, Bael-Zaroth was a balanced engine of consequence governed by multiple infernal powers whose authority derived from function, not lineage. Azravael did not conquer them—she **rewrote the fundamental nature of obligation**. Through an act now forbidden to be named in full, known only as the **Crown-Breaking**, she replaced the final line of every contract in existence: all debt, all obligation, all binding now **terminates in her**.
@@ -286,10 +310,18 @@ They are **manifestations of law-function**—portions of the Engine given auton
 
 **Planar Artifact:** *The Ledger of Eternal Debt* — Not a book, but a **living document** that updates itself across all instances simultaneously. Every soul's contract history is recorded here. Attempting to read your own entry causes the text to expand infinitely—each obligation revealing sub-clauses, each sub-clause revealing dependencies, until the reader realizes they owe **far more than they remember agreeing to**.
 
-**Travel Restrictions:**  
+**Travel Restrictions:**
+
+┌──────────────────────────────────────────────────────┐
+│  ⚠ FORBIDDEN — Entry constitutes consent.      │
+└──────────────────────────────────────────────────────┘
 No legal open travel portals exist with the Mortal Weave. The only portal ever established was in 1A to evacuate the Schism-Scarred—it closed immediately and is now guarded by all realms. Entry is forbidden not because the realm is dangerous (though it is), but because **entering constitutes acceptance of local jurisdiction**. The Engine interprets presence as consent. Those who travel there without protection often cannot leave—not because they are imprisoned, but because they **agreed to stay** in ways they don't remember.
 
 Even speaking Azravael's name too often can trigger micro-obligations. Her clergy know: every invocation is a signature.
+
+────────────────────────────────────────────────────────────────────────
+STRATUM III — THE FRACTURED REALMS
+────────────────────────────────────────────────────────────────────────
 
 ---
 
@@ -299,6 +331,8 @@ Unstable, forbidden, or primordial spaces—the places "between" all other Plane
 
 ### 7. The Ashen Waste (The Wastelands)
 **Realm of Pain and Suffering as Truth**
+
+[NOTE: Spot illustration — A featureless desert of bone-white sand under an oppressive sky. Crystalline spires in the distance. Heat shimmer distorting reality. Stark, uncomfortable, beautiful. Bone-gold palette]
 
 A Plane of pain and unnatural life. The surface is a vast unlivable desert home to few creatures. Most inhabitants live underground to avoid harsh heat and limited water. The portal distance between this Plane and the Inner Planes is the shortest of any Outer Plane, making it a jumping point for illegal Planar travel.
 
@@ -319,7 +353,11 @@ A Plane of pain and unnatural life. The surface is a vast unlivable desert home 
 
 **Planar Artifact:** *The Mask of a Thousand Agonies*
 
-**Travel Restrictions:**  
+**Travel Restrictions:**
+
+┌──────────────────────────────────────────────────────┐
+│  ⚠ ILLEGAL — All travel strictly prohibited.    │
+└──────────────────────────────────────────────────────┘
 No legal open travel portals with the Mortal Weave. However, one of the easiest Outer Planes to access from the Mortal Weave, often used as a stepping stone. All travel is illegal and never recommended.
 
 ---
@@ -356,6 +394,11 @@ Closed to general travel. Visas for scientific exploration are readily available
 ### 9. The Outer Black (Eternal Dark)
 **Realm of Absence and Unmaking**
 
+╔══════════════════════════════════════════════════════╗
+║  ⚠ WARNING: KNOWLEDGE BEYOND THIS POINT       ║
+║  IS CLASSIFIED BY THE CURATOR ARCANUM          ║
+╚══════════════════════════════════════════════════════╝
+
 Where the Elemental Storm holds all building blocks of the Universe, the Eternal Dark holds no known substance—only deep, black space. Almost nothing is known of this Plane. Creatures brought out from here are among the worst terrors released onto any Ethereal Plane.
 
 **Common Creatures:** Most unknown. Believed origin of **Voidgazers** (floating aberrations whose many eyes unmake magic itself), **The Hollowed** (wizards cursed by forbidden sight, now shells with terrible vision), and **Essence Wraiths** (incorporeal hunters that drink life force).
@@ -367,8 +410,18 @@ Little is known about the Nameless. None have been seen. Only known encounters c
 
 **Planar Artifact:** *The Null Reliquary*
 
-**Travel Restrictions:**  
+**Travel Restrictions:**
+
+┌──────────────────────────────────────────────────────┐
+│  ☠ ILLEGAL TO TRAVEL — Punishable by death.      │
+└──────────────────────────────────────────────────────┘
 **ILLEGAL TO TRAVEL.** Some cities will detain or kill anyone caught traveling to/from this Plane or communing with its powers. Entirely off-limits to all who wish to remain alive.
+
+────────────────────────────────────────────────────────────────────────
+THE GREATER DEITIES
+────────────────────────────────────────────────────────────────────────
+
+[NOTE: Section header illustration — A row of divine symbols (hammer & clasped hands, silver line, half-sun, mask, shield & sun, scales) in a horizontal band. Geometric, minimal, gold ink]
 
 ---
 
@@ -483,6 +536,8 @@ Little is known about the Nameless. None have been seen. Only known encounters c
 
 #### Aluneth
 **Deity of Waterways, Wisdom, and Patience**
+
+[NOTE: Half-page illustration — An immense Dragon Turtle, 140 feet long, resting in moonlit waters. Shell covered in coral and barnacles, eyes ancient and knowing. A spiral shell symbol glows above the water. Dark blue and seafoam palette]
 
 - **Appearance:** Massive Dragon Turtle, roughly 140 feet from front to back
 - **Colors:** Deep dark blue, coral, seafoam cyan
@@ -660,6 +715,11 @@ Among her clergy, deliberate historical revision is considered a grave spiritual
 
 ### Infernal & Dark Deities
 
+╔══════════════════════════════════════════════════════╗
+║  ◆ THE DARK PANTHEON ◆                             ║
+║  Proceed with caution. Names have weight.         ║
+╚══════════════════════════════════════════════════════╝
+
 #### Azravael
 **The Prime Clause, The Living Amendment, The Default Beneficiary**
 
@@ -734,6 +794,12 @@ Among her clergy, deliberate historical revision is considered a grave spiritual
 - **Nature:** Almost nothing known. No encounters except through foolish meddling.
 
 **Warning:** Do NOT speak the Nameless aloud. They listen, even when unnamed.
+
+────────────────────────────────────────────────────────────────────────
+PLANAR ARTIFACTS
+────────────────────────────────────────────────────────────────────────
+
+[NOTE: Section illustration — Nine artifacts arranged in a grid: shell, lantern, crown of leaves, radiant shield, pulsing stone, shattered mask, living ledger, prismatic crystal, indescribable void-object. Ink silhouettes with a single accent color per artifact]
 
 ---
 
@@ -856,6 +922,10 @@ Powerful artifacts tied to the Realms, each with immense power and terrible cost
 
 *"What is forgotten was never safe."*
 
+────────────────────────────────────────────────────────────────────────
+CUSTODIAL POWERS & DEMI-GODS
+────────────────────────────────────────────────────────────────────────
+
 ---
 
 ## Custodial Powers & Demi-Gods
@@ -879,6 +949,8 @@ The other Reflected Realms are overseen by demi-divine entities, but the Mortal 
 
 #### The Concordant Halls
 **Oath and Purpose**
+
+[NOTE: Spot illustration — Seven icons representing the Charges (Shield, Blade, Bond, Crown, Flame, Stone, Bell) arranged in a circle. Geometric, bold, each a simple silhouette. Gold ink on dark background]
 
 **Domain:** Oath ✦ Purpose  
 **Nature:** Civilizational Balance  
@@ -1071,6 +1143,8 @@ The Concordant Halls intervene only when oaths become structurally dangerous—w
 #### The Living Accord
 **Life and Death**
 
+[NOTE: Spot illustration — Seven icons representing the Domains (Breath, Thorn, Tide, Rot, Hearth, Star, Howl) arranged in a cycle. Organic forms — flower, thorn, wave, mushroom, flame, star, storm. Ink line art]
+
 **Domain:** Life ✦ Death  
 **Nature:** Ecological and Existential Balance  
 **Form:** A rotating mantle of mortal stewardship
@@ -1243,6 +1317,8 @@ The Living Accord acts when growth becomes cancerous, when preservation becomes 
 
 #### The Curator Arcanum
 **Knowledge and Humility**
+
+[NOTE: Spot illustration — Six doors in a row, each slightly ajar, light spilling from some, darkness from others. The symbol of an open eye above, half-veiled. Represents the Six Paths. Ink line art with purple accent]
 
 **Domain:** Knowledge ✦ Humility  
 **Nature:** Epistemic and Arcane Balance  
@@ -1613,11 +1689,23 @@ Five ancient, semi-conscious forces predating structured reality:
 *Role:* Ensure reality never becomes static  
 *Warning:* "If they ever sing in unison, the Veil will tear."
 
+────────────────────────────────────────────────────────────────────────
+MYTHOLOGY & LORE
+────────────────────────────────────────────────────────────────────────
+
+[NOTE: Chapter opener illustration — The Eternal Dark as a vast formless expanse with the first cracks of light appearing. Genesis imagery: strain, tension, the moment before creation. Dark ink with gold fracture lines. Full or half-page]
+
 ---
 
 ## Mythology & Lore
 
 ### The Covenant of Balance (Creation Myth)
+
+╔══════════════════════════════════════════════════════╗
+║  ◆ THE COVENANT OF BALANCE ◆                       ║
+║  The Creation Myth of Aeralon                      ║
+║  As recorded in the Forbidden Tome of Dalamar Nidain║
+╚══════════════════════════════════════════════════════╝
 
 #### Before the Accords
 
@@ -1845,6 +1933,13 @@ Knowledge must be shared, even dangerous knowledge. Zealots believe truth justif
 
 ### Marginalia of the Forbidden Tome
 
+╔══════════════════════════════════════════════════════╗
+║  FRAGMENTS FROM THE FORBIDDEN TOME                  ║
+║  Handwritten annotations by Dalamar Nidain          ║
+║  ⚠ These marginalia were found burned or partially   ║
+║    erased. What remains is reproduced faithfully.    ║
+╚══════════════════════════════════════════════════════╝
+
 Fragments found in the notes of Dalamar Nidain:
 
 > *"This passage seems to contradict the Accord— almost deliberately."*
@@ -1861,9 +1956,13 @@ Fragments found in the notes of Dalamar Nidain:
 
 **Final Note:** The pages beyond this point are missing. Burned. Or erased.
 
+────────────────────────────────────────────────────────────────────────
+
 ---
 
 ## About This Chronicle
+
+[NOTE: Final page — A simple ink portrait of a Wizard opening a dark portal, light streaming from behind him. The portal leads to absolute darkness. A single open book at his feet. Bittersweet. Typography: Crimson Text italic for the colophon]
 
 This book details the life work of the Wizard **Dalamar Nidain**, final entry written in the year **463A**.
 
@@ -1871,6 +1970,10 @@ Dalamar died a horrible death a recorded **48 times** in the writing and researc
 
 Dalamar was a very skilled and highly intelligent Wizard, but he was not a wise man.
 
----
+────────◇────────
 
 *Compiled and organized, 467A – Reorganized by The Curator Arcanum, current date*
+
+════════════════════════════════════════════════════════════════════════
+                    END OF THE WORLD CODEX
+════════════════════════════════════════════════════════════════════════

@@ -61,7 +61,7 @@ Items are categorized by **Rarity Tier**, which determines their power, availabi
 
 ### Armor
 - **Armor provides defense dice** that form your outer defense layer (rolled during defense, depleted before permanent HD)
-- **Different armor types use different dice:** Light (2d6), Medium (2d8), Heavy (2d10), Shield (+1d12), Exceptional (2d12), Mythical (varies)
+- **Different armor types use different dice:** Light (2d6s), Medium (2d8s), Heavy (2d10s), Shield (+1d12), Exceptional (2d12s), Mythical (varies)
 - **Magical armor** may use better dice types, grant conditional benefits, or provide bonus defense effects
 - **Best armor interacts with risk**, protecting you when you need it most
 
@@ -152,17 +152,17 @@ Range 20/60 yards, 1 HD base damage
 
 ### Armor
 
-**Light Armor (2d6 temp HD)**
+**Light Armor (2d6s temp HD)**
 - **Leather Armor**
 - **Studded Leather**
 
-**Medium Armor (2d8 temp HD)**
+**Medium Armor (2d8s temp HD)**
 - **Hide Armor**
 - **Chain Shirt**
 - **Scale Mail**
 - **Breastplate**
 
-**Heavy Armor (2d10 temp HD)**
+**Heavy Armor (2d10s temp HD)**
 - **Chain Mail**
 - **Splint Armor**
 - **Plate Armor**
@@ -484,7 +484,7 @@ Writing implements
 ### Common Tier Armor
 
 **Reinforced Leather** (light armor)  
-**Temp HD:** 2d6 (same as mundane)  
+**Temp HD:** 2d6s (same as mundane)  
 **Property:** Can be repaired during short rest (roll new temp HD)  
 **Description:** Leather armor reinforced with metal studs and careful stitching.
 
@@ -498,12 +498,12 @@ Writing implements
 **Description:** Armor inscribed with elemental wards. Glows faintly when exposed to chosen element.
 
 **Living Hide** (medium armor)  
-**Temp HD:** 2d10 (instead of 2d8)  
+**Temp HD:** 2d10s (instead of 2d8s)  
 **Property:** Regenerates 1 temp HD per hour (up to maximum)  
 **Description:** Armor made from Living Accord creatures. Slowly heals itself.
 
 **Lightweave Armor** (light armor)  
-**Temp HD:** 2d8 (instead of 2d6)  
+**Temp HD:** 2d8s (instead of 2d6s)  
 **Property:** No movement penalty, weighs almost nothing  
 **Description:** Armor woven from enchanted silk. Lighter than air but surprisingly resilient.
 
@@ -512,17 +512,17 @@ Writing implements
 ### Advanced Tier Armor
 
 **Plate of the Guardian** (heavy armor)  
-**Temp HD:** 2d12 (instead of 2d10)  
+**Temp HD:** 2d12s (instead of 2d10s)  
 **Property:** Allies within 5 yards gain +1d6 defense. Armor glows when oath-sworn allies threatened.  
 **Description:** Armor blessed by Concordant Halls. Protects not just wearer but those they defend.
 
 **Shadowsilk Armor** (light armor)  
-**Temp HD:** 2d8 (instead of 2d6)  
+**Temp HD:** 2d8s (instead of 2d6s)  
 **Property:** In dim light or darkness: stealth checks auto-succeed (no roll required), enemies cannot target you unless they use actions to actively search. Can blend into shadows once per short rest (become invisible for 1 round, breaks on attack).  
 **Description:** Armor woven from Gloam's darkness. Wearer becomes difficult to see.
 
 **Dragonscale Armor** (medium armor)  
-**Temp HD:** 3d8  
+**Temp HD:** 3d8s  
 **Property:** Resistance to one element (+2d6 defense), armor shimmers with draconic colors  
 **Description:** Armor crafted from shed dragon scales. Contains echo of draconic majesty.
 
@@ -536,17 +536,17 @@ Writing implements
 ### Expert Tier Armor
 
 **Armor of the Phoenix** (any armor)  
-**Temp HD:** +1 die tier (2d6→2d8, 2d8→2d10, 2d10→2d12)  
+**Temp HD:** +1 die tier (2d6s→2d8s, 2d8s→2d10s, 2d10s→2d12s)  
 **Property:** Once per long rest, if reduced to 0 HD, immediately restore to half maximum HD and armor temp HD fully regenerates in burst of flame (dealing 2 HD fire in 10-yard radius)  
 **Description:** Armor containing captured phoenix feather. Grants rebirth from death.
 
 **Plate of the Mountain** (heavy armor)  
-**Temp HD:** 3d12  
+**Temp HD:** 3d12s  
 **Property:** Cannot be moved against will, immune to knockback/prone, +2d6 to all Fortitude checks  
 **Description:** Armor carved from living stone blessed by Darthun. Immovable as mountain.
 
 **Cloak of the Veil** (light armor)  
-**Temp HD:** 2d10 (counts as light armor)  
+**Temp HD:** 2d10s (counts as light armor)  
 **Property:** Phase partially into Ethereal Void—all attacks against you suffer -2d6 penalty, can walk through walls (10 yards per day)  
 **Description:** Cloak woven from in-between space. Wearer exists slightly outside reality.
 
@@ -555,12 +555,12 @@ Writing implements
 ### Legendary Tier Armor
 
 **Aegis of the Halls** (heavy armor)  
-**Temp HD:** 4d12  
+**Temp HD:** 4d12s  
 **Property:** Immune to all conditions (charm, fear, stun, paralysis, etc.). Defense rolls against you lower difficulty tier by 1 (attackers face harder threshold). Allies within 10 yards: defense rolls lower difficulty tier by 1. Cannot be disarmed or have armor removed against will. Once per combat, when ally within 10 yards would be reduced to 0 HD, you can intercept damage (transfer to yourself).  
 **Description:** Ultimate protection forged in Concordant Halls. Worn by greatest oath-keepers.
 
 **Raiment of the Stars** (light armor)  
-**Temp HD:** 3d10  
+**Temp HD:** 3d10s  
 **Property:** Wearer gains flight (30 yards), +3d6 to all social checks, immune to charm/fear, sheds starlight (30-yard daylight)  
 **Description:** Clothing woven from captured starlight. Grants divine presence.
 
@@ -657,7 +657,7 @@ Writing implements
 ### Expert Tier Items
 
 **Robe of the Archmagi**  
-**Effect:** Functions as 2d12 armor for unarmored casters. While concentrating on spell: gain +2d6 to Resolve checks. When you successfully defend against hostile spell (Resolve check or contested roll): reflect portion of effect back at caster (they face same defense challenge).  
+**Effect:** Functions as 2d12s armor for unarmored casters. While concentrating on spell: gain +2d6 to Resolve checks. When you successfully defend against hostile spell (Resolve check or contested roll): reflect portion of effect back at caster (they face same defense challenge).  
 **Description:** Robe woven from pure Weave threads. Grants ultimate magical protection.
 
 **Ring of Spell Storing**  

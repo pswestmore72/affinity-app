@@ -73,10 +73,10 @@ Your class provides TWO parallel progression systems:
 
 **Correct Notation:**
 ```markdown
-Hit Dice: 7d10 (1d10, 1d10, 1d10, 1d10, 1d10, 1d10, 1d10)
+Hit Dice: 7d10s (1d10, 1d10, 1d10, 1d10, 1d10, 1d10, 1d10)
 Resolve Threshold: 2 (starting threshold, escalates on failed checks)
 Proficiency: 2
-Armor: 3d8 light leather (1d8, 1d8, 1d8)
+Armor: 3d8s light leather (1d8, 1d8, 1d8)
 Shield: 1d12 wooden shield (1d12)
 Weapon: Longsword
 
@@ -85,16 +85,16 @@ Total Defense Pool: [1d12] → [1d8, 1d8, 1d8] → [1d10, 1d10, 1d10, 1d10, 1d10
 ```
 
 **What This Means:**
-- **7d10** = You have SEVEN separate d10 dice in your body pool
-- **3d8 armor** = Three separate d8 dice form your armor layer (destroyed BEFORE body)
+- **7d10s** = You have SEVEN separate d10 dice in your body pool
+- **3d8s armor** = Three separate d8 dice form your armor layer (destroyed BEFORE body)
 - **1d12 shield** = One d12 die is your outermost defense layer
 - When you take **3 HD damage**, you lose **3 individual dice** (not "3 hit points")
 - Dice are destroyed one at a time, from outermost layer inward
 
 **Defense Flow:**
 1. Damage hits shield layer first (1d12)
-2. Once shield destroyed (0 dice remaining), damage hits armor (3d8)
-3. Once armor destroyed (0 dice remaining), damage hits body (7d10)
+2. Once shield destroyed (0 dice remaining), damage hits armor (3d8s)
+3. Once armor destroyed (0 dice remaining), damage hits body (7d10s)
 4. Each die you lose is GONE until you rest/heal (regain dice)
 
 **Example Combat:**
@@ -107,7 +107,7 @@ Take 5 HD damage with Defense Capacity 2:
 Result: [0] → [0] → [1d10 ×4]
 
 Your shield + armor + 3 body dice are DESTROYED.
-You now have 4d10 remaining (not "28/70 HP").
+You now have 4d10s remaining (not "28/70 HP").
 ```
 
 **There are no hit points. Only dice that exist or don't.**
@@ -202,12 +202,12 @@ Use tokens, marks, or dice to track stored Affinity Dice between sessions.
 
 ### Armor (Choose One)
 - **No Armor** (no temp HD)
-- **Light Armor** (2d6 temp HD)
-- **Medium Armor** (2d8 temp HD)
-- **Heavy Armor** (2d10 temp HD) — **Requires Proficiency 2+** OR **Combatant/Sovereign class**
+- **Light Armor** (2d6s temp HD)
+- **Medium Armor** (2d8s temp HD)
+- **Heavy Armor** (2d10s temp HD) — **Requires Proficiency 2+** OR **Combatant/Sovereign class**
 - **Shield** (1d12 temp HD)
-- **Rage** type abilities (2d12 temp HD) when roll initiative
-- **Magic Armor** (2d12 temp HD)
+- **Rage** type abilities (2d12s temp HD) when roll initiative
+- **Magic Armor** (2d12s temp HD)
 
 **Note:** Heavy Armor restriction prevents fragile classes (Weavers, Shamans) from turtling at Level 1. They must invest in advancement or multiclass to access heavy protection.
 

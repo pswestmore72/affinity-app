@@ -215,8 +215,8 @@ Alternative: If mage never casts:
 
 **Character Status:**
 ```
-Body: 6d8 (1d8, 1d8, 1d8, 1d8, 1d8, 1d8)
-Armor: 3d8 chain shirt (1d8, 1d8, 1d8)
+Body: 6d8s (1d8, 1d8, 1d8, 1d8, 1d8, 1d8)
+Armor: 3d8s chain shirt (1d8, 1d8, 1d8)
 Shield: 1d12 wooden shield (1d12)
 Proficiency: 2 (Defense Capacity 2 per attack)
 
@@ -229,13 +229,13 @@ Total Defense: [1d12] → [1d8, 1d8, 1d8] → [1d8 ×6]
 
 - **1st HD:** Roll 1d12 (shield) → **8** ✅ SUCCESS (shield survives, still 1d12)
 - **2nd HD:** Roll 1d12 (shield) → **3** ❌ FAIL (shield DESTROYED, now 0d12)
-- **3rd HD:** No rolls left (0/2 capacity) → Auto-fail, lose armor die (3d8 → 2d8)
-- **4th HD:** No rolls left → Auto-fail, lose armor die (2d8 → 1d8)
+- **3rd HD:** No rolls left (0/2 capacity) → Auto-fail, lose armor die (3d8s → 2d8s)
+- **4th HD:** No rolls left → Auto-fail, lose armor die (2d8s → 1d8)
 - **5th HD:** No rolls left → Auto-fail, lose armor die (1d8 → 0d8, armor gone)
 
 **Result After Attack 1:**
 ```
-Body: 6d8 (all 6 body dice intact)
+Body: 6d8s (all 6 body dice intact)
 Armor: 0 (DESTROYED)
 Shield: 0 (DESTROYED)
 
@@ -243,7 +243,7 @@ Total Defense: [1d8 ×6] only
 ```
 
 **DICE DESTROYED: 1 shield + 3 armor = 4 dice lost**  
-**REMAINING DEFENSE: 6d8 body only**
+**REMAINING DEFENSE: 6d8s body only**
 
 ---
 
@@ -251,14 +251,14 @@ Total Defense: [1d8 ×6] only
 
 **Defense Capacity: 2 rolls (REFRESHED for new attack!)**
 
-- **1st HD:** Roll 1d8 (body) → **7** ✅ SUCCESS (body still 6d8)
-- **2nd HD:** Roll 1d8 (body) → **2** ❌ FAIL (body 6d8 → 5d8)
-- **3rd HD:** No rolls left → Auto-fail (body 5d8 → 4d8)
-- **4th HD:** No rolls left → Auto-fail (body 4d8 → 3d8)
+- **1st HD:** Roll 1d8 (body) → **7** ✅ SUCCESS (body still 6d8s)
+- **2nd HD:** Roll 1d8 (body) → **2** ❌ FAIL (body 6d8s → 5d8s)
+- **3rd HD:** No rolls left → Auto-fail (body 5d8s → 4d8s)
+- **4th HD:** No rolls left → Auto-fail (body 4d8s → 3d8s)
 
 **Result After Attack 2:**
 ```
-Body: 3d8 (1d8, 1d8, 1d8) — lost 3 body dice
+Body: 3d8s (1d8, 1d8, 1d8) — lost 3 body dice
 Armor: 0
 Shield: 0
 
@@ -277,7 +277,7 @@ Total Defense: [1d8 ×3] only
 ✅ **5+ sustains, 4- destroys** — dice roll individually for survival  
 ✅ **Outer layers destroyed first** — shield → armor → body  
 ✅ **No hit points** — you track individual dice, not a summed total  
-✅ **"7d10" means seven dice, not ~49 HP** — capacity matters, not averages
+✅ **"7d10s" means seven dice, not ~49 HP** — capacity matters, not averages
 
 **This is how Affinity defense works. Dice destroyed, not points deducted.**
 
@@ -525,8 +525,8 @@ Each attack you take is resolved **one Hit Die of damage at a time**, using your
 **Example 1: Combatant with Armor (Prof 3, Defense Capacity 2)**
 
 *Level 5 Combatant*
-- Body HD: 11d10
-- Armor: 2d8 (medium armor)
+- Body HD: 11d10s
+- Armor: 2d8s (medium armor)
 - Defense Capacity: 2 rolls per attack
 - Takes **3 HD damage** from orc's axe
 
@@ -534,12 +534,12 @@ Each attack you take is resolved **one Hit Die of damage at a time**, using your
 
 **1st HD of damage:**
 - Roll 1d8 (armor, outermost) → **7** = Success (5+) ✅
-- Armor survives (still 2d8), 1 damage cancelled
+- Armor survives (still 2d8s), 1 damage cancelled
 - Defense rolls used: 1/2
 
 **2nd HD of damage:**
 - Roll 1d8 (armor) → **4** = Fail (below 5) ❌
-- Armor reduced: 2d8 → 1d8 (one die lost)
+- Armor reduced: 2d8s → 1d8 (one die lost)
 - Defense rolls used: 2/2 (capacity exhausted)
 
 **3rd HD of damage:**
@@ -547,16 +547,16 @@ Each attack you take is resolved **one Hit Die of damage at a time**, using your
 - Auto-fail ❌
 - Armor reduced: 1d8 → 0 (armor depleted)
 
-**Final State:** 11d10 body HD (untouched), armor destroyed (0d8)
+**Final State:** 11d10s body HD (untouched), armor destroyed (0d8)
 
 ---
 
 **Example 2: Weaver with Magical Barrier (Prof 1, Defense Capacity 1)**
 
 *Level 1 Weaver*
-- Body HD: 5d6
-- Armor: 2d6 (light armor)
-- Magical Barrier: 2d12 (outermost)
+- Body HD: 5d6s
+- Armor: 2d6s (light armor)
+- Magical Barrier: 2d12s (outermost)
 - Defense Capacity: 1 roll per attack
 - Takes **4 HD damage** from area spell
 
@@ -564,13 +564,13 @@ Each attack you take is resolved **one Hit Die of damage at a time**, using your
 
 **1st HD of damage:**
 - Roll 1d12 (barrier, outermost) → **9** = Success ✅
-- Barrier survives (still 2d12), 1 damage cancelled
+- Barrier survives (still 2d12s), 1 damage cancelled
 - Defense rolls used: 1/1 (capacity exhausted)
 
 **2nd HD of damage:**
 - No rolls remaining (used 1/1)
 - Auto-fail ❌
-- Barrier reduced: 2d12 → 1d12
+- Barrier reduced: 2d12s → 1d12
 
 **3rd HD of damage:**
 - No rolls remaining
@@ -581,17 +581,17 @@ Each attack you take is resolved **one Hit Die of damage at a time**, using your
 **4th HD of damage:**
 - No rolls remaining
 - Auto-fail ❌
-- Armor reduced: 2d6 → 1d6
+- Armor reduced: 2d6s → 1d6
 
-**Final State:** 5d6 body HD (untouched), 1d6 armor remaining, barrier exhausted
+**Final State:** 5d6s body HD (untouched), 1d6 armor remaining, barrier exhausted
 
 ---
 
 **Example 3: Low-Level Combatant Taking Multiple Attacks (Prof 1, Defense Capacity 1)**
 
 *Level 2 Combatant (Torvan)*
-- Body HD: 5d10
-- Armor: 2d10 (half-plate)
+- Body HD: 5d10s
+- Armor: 2d10s (half-plate)
 - Shield: 1d12 (outermost)
 - Defense Capacity: 1 roll per attack
 - Takes **3 HD damage** from first attack, then **2 HD damage** from second attack (same round)
@@ -609,9 +609,9 @@ Each attack you take is resolved **one Hit Die of damage at a time**, using your
 
 **3rd HD:**
 - No rolls remaining → Auto-fail ❌
-- Armor reduced: 2d10 → 1d10
+- Armor reduced: 2d10s → 1d10
 
-**After First Attack:** 5d10 body, 1d10 armor, shield broken
+**After First Attack:** 5d10s body, 1d10 armor, shield broken
 
 **Second Attack (2 HD damage, NEW defense rolls):**
 
@@ -624,7 +624,7 @@ Each attack you take is resolved **one Hit Die of damage at a time**, using your
 - No rolls remaining → Auto-fail ❌
 - Armor depleted: 1d10 → 0
 
-**Final State:** 5d10 body HD (untouched), all armor/shield destroyed
+**Final State:** 5d10s body HD (untouched), all armor/shield destroyed
 
 ---
 
@@ -800,7 +800,7 @@ Enemies have simplified stats:
 **Example Monster:**
 
 **Orc Raider (Level 3)**
-- HD: 7d8
+- HD: 7d8s
 - Proficiency: 2
 - Attack: Greataxe (Heavy, Basic)
   - Rolls: 3d6

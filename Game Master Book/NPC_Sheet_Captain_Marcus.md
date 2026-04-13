@@ -157,7 +157,7 @@ Marcus can be REDEEMED through opposed Resolve checks:
 ### LOOT & REWARDS
 
 **On Defeat (Combat):**
-- **Captain's Chainmail** (Medium armor, 2d8 temp HD, engraved with Silverbrook crest)
+- **Captain's Chainmail** (Medium armor, 2d8s temp HD, engraved with Silverbrook crest)
 - **Silverbrook Watch Badge** (symbol of office, tarnished)
 - **Longsword** (well-maintained, +1 quality — sells for 50 gold)
 - Letter from Aldric Vex (evidence, used for redemption attempts on others)

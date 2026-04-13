@@ -9,7 +9,7 @@
 
 **Affinity is a risk-attrition system.** Players have Hit Dice. They spend them, lose them, and guard them. Your job: create situations where those dice matter.
 
-**There are no hit points.** When you deal damage, you're destroying dice from dice pools. When an enemy has 5d8 and takes 3 damage, they now have 2d8.
+**There are no hit points.** When you deal damage, you're destroying dice from dice pools. When an enemy has 5d8s and takes 3 damage, they now have 2d8s.
 
 ---
 
@@ -44,8 +44,8 @@
 NAME: [Creature type]
 HD: [dice]         (Trivial: 1-2, Basic: 3-5)
 PROF: 1-2          (use 1 for L1 content)
-RESOLVE: RT 5
-ARMOR: [if any]    (2d6 light, 2d8 medium)
+RESOLVE: RT 2      (most enemies start at 2)
+ARMOR: [if any]    (2d6s light, 2d8s medium)
 MOVEMENT: 10 yards
 
 ATTACK: [Name] (Basic, 2+)
@@ -57,19 +57,19 @@ ATTACK: [Name] (Basic, 2+)
 ### Example Enemies for Level 1
 
 **Goblin Skulker** (Trivial)
-- HD: 2d6, Prof: 1, Starting RT: 5
+- HD: 2d6s, Prof: 1, Starting RT: 2
 - Attack: Rusty Dagger (2d6, 1 HD damage)
-- Special: Flees at 1 HD remaining or RT 6
+- Special: Flees at 1 HD remaining or RT 5+
 
 **Orc Raider** (Basic)
-- HD: 4d8, Prof: 2, Starting RT: 5
-- Armor: 2d6 (hide scraps)
+- HD: 4d8s, Prof: 2, Starting RT: 2
+- Armor: 2d6s (hide scraps)
 - Attack: Greataxe (3d6, 2 HD damage)
 - Special: +1d6 when below half HD
 
 **Animated Statue** (Basic)
-- HD: 5d10, Prof: 1, Starting RT: 4
-- Armor: 2d10 (stone body)
+- HD: 5d10s, Prof: 1, Starting RT: 2
+- Armor: 2d10s (stone body)
 - Attack: Stone Fist (2d6, 2 HD damage)
 - Special: Immune to fear/charm
 
@@ -211,18 +211,18 @@ When a player embodies their Virtue in a meaningful way:
 
 | Armor | Defense Dice |
 |-------|-------------|
-| Light | 2d6 |
-| Medium | 2d8 |
-| Heavy | 2d10 |
+| Light | 2d6s |
+| Medium | 2d8s |
+| Heavy | 2d10s |
 | Shield | +1d12 |
 
 ### Level 1 Character Stats
 
 | Class Type | Body HD | Defense Die |
 |------------|---------|-------------|
-| Tough (d10) | 5d10 | d10 |
-| Balanced (d8) | 5d8 | d8 |
-| Fragile (d6) | 4d6 | d6 |
+| Tough (d10) | 5d10s | d10 |
+| Balanced (d8) | 5d8s | d8 |
+| Fragile (d6) | 4d6s | d6 |
 
 All Level 1: Proficiency 1, RT 2, Defense Capacity 1
 
@@ -273,7 +273,7 @@ After the session:
 - Environmental collapse ends fight early
 
 **Player confused about dice?**
-- "Roll d6s. Count 5s and 6s. That's your successes."
+- "Roll d6s. Count successes by tier (usually 2+ at Level 1, and 6 = 2 successes)."
 - "When you're hit, roll defense. 5+ = that armor die survives."
 
 **Player at 0 HD?**

@@ -27,8 +27,8 @@ There are NO hit points.
 You have Hit Dice — actual individual dice that exist or get destroyed.
 
 Example:
-• You have 5d10 body dice = five separate d10 dice
-• Take 1 damage, fail defense = lose 1 die → now you have 4d10
+• You have 5d10s body dice = five separate d10 dice
+• Take 1 damage, fail defense = lose 1 die → now you have 4d10s
 • You don't subtract points. You lose DICE.
 
 When your dice run out, you face death. This is the core of Affinity.
@@ -92,7 +92,7 @@ d12 67%  — Shields & magic. Hard to break.
 Your armor is your lifeline. Invest wisely.
 · · ─────────────────────── · ·
 
-Example: You have 2d8 armor. Take 2 damage, roll both → 7, 3 → One survives (7 ≥ 5), one destroyed (3 < 5). You now have 1d8 armor.
+Example: You have 2d8s armor. Take 2 damage, roll both → 7, 3 → One survives (7 ≥ 5), one destroyed (3 < 5). You now have 1d8 armor.
 
 
 ────────────────────────────────────────────────────────────────────────
@@ -194,8 +194,8 @@ HIT DICE TRACKING
 
 Your character sheet shows dice pools:
 
-Body HD:  ⬡ ⬡ ⬡ ⬡ ⬡  (5d10 body dice)
-Armor:    ⬡ ⬡         (2d8 armor dice)
+Body HD:  ⬡ ⬡ ⬡ ⬡ ⬡  (5d10s body dice)
+Armor:    ⬡ ⬡         (2d8s armor dice)
 
 When you lose dice, cross them off. When they're gone, they're gone.
 
@@ -208,16 +208,22 @@ PAGE 5 - RESOLVE & REST
 RESOLVE (Mental Fortitude)
 ────────◇────────
 
-Everyone starts at Resolve 5. It rarely drops at Level 1.
+Everyone starts at Resolve Threshold 2 (you need 2+ on 1d6 to hold steady). It rarely escalates at Level 1.
 
-When Resolve drops (rare at L1):
-• Taking large damage amounts in one round
+When your Resolve Threshold increases (rare at L1):
+• Taking massive damage in one round
 • Using maximum exertion repeatedly
-• Failing difficult actions with consequences
+• Failing difficult actions
+
+Resolve Check: Roll 1d6 against your current Resolve Threshold.
+• Roll at or above RT = You hold (no change)
+• Roll below RT = RT increases by 1 (you fall one stage)
+
+Resolve Stages: RT 2 (Full Strength) → RT 3 (Pressured) → RT 4 (Shaken) → RT 5 (Weakened) → RT 6 (Staggering) → Collapse
 
 Don't worry about Resolve yet. Your GM will tell you when to check.
 
-At 0 Body HD AND 0 Resolve = death. Until then, you can be saved.
+At 0 Body HD AND Collapse (fail at RT 6) = death. Until then, you can be saved.
 
 ────────◇────────
 RESTING
@@ -225,12 +231,12 @@ RESTING
 
 Rest (30 min - 8 hours, threatened):
 • Regain 1 HD (at Level 1)
-• Regain 1 Resolve
+• Lower Resolve Threshold by 1 (minimum 2)
 • Max 2 rests per day
 
 Recover (6+ hours, safe place):
 • Regain ALL HD
-• Regain ALL Resolve
+• Reset Resolve Threshold to 2
 • Restore armor
 
 ────────────────────────────────────────────────────────────────────────
@@ -260,15 +266,17 @@ Your class determines how tough you are and what you're good at.
 │            │         │ reality is your plaything.           │
 └────────────┴─────────┴──────────────────────────────────────┘
 
+BETA PLAYTEST SCOPE: This starter guide includes Combatant, Ranger, and Weaver. Full release includes all seven core classes.
+
 AT LEVEL 1, YOU HAVE:
 
 [TABLE]
 ┌─────────────────┬─────────────┬─────────┬──────┐
 │ Stat            │ d10 Classes │ d8      │ d6   │
 ├─────────────────┼─────────────┼─────────┼──────┤
-│ Body HD         │ 5d10        │ 5d8     │ 4d6  │
+│ Body HD         │ 5d10s       │ 5d8s    │ 4d6s │
 │ Proficiency     │ 1           │ 1       │ 1    │
-│ Resolve         │ 5           │ 5       │ 5    │
+│ Resolve Threshold│ 2          │ 2       │ 2    │
 │ Defense Cap     │ 1           │ 1       │ 1    │
 └─────────────────┴─────────────┴─────────┴──────┘
 
@@ -312,8 +320,8 @@ Oath-Driven Strike (Advanced, 3+)
 • Usable Proficiency times per short rest
 
 ARMOR & WEAPONS
-• Light armor (2d6)
-• Medium armor (2d8)
+• Light armor (2d6s)
+• Medium armor (2d8s)
 • All weapons
 
 WAY OF THE BLADE (Level 2)
@@ -380,8 +388,8 @@ Culling Strike (Advanced, 3+)
 • Usable Proficiency times per short rest
 
 ARMOR & WEAPONS
-• Light armor (2d6)
-• Medium armor (2d8)
+• Light armor (2d6s)
+• Medium armor (2d8s)
 • All weapons, favors ranged/versatile
 
 WAY OF THORN (Level 2)
@@ -447,7 +455,7 @@ STARTING SPELLS (Choose 3 from Arcane list below)
 • Magic Missile (Basic, 2+) — 30 yards, auto-hit, 1 HD force
 • Flame Bolt (Basic, 2+) — 60 yards, 2 HD fire
 • Shield Ward (Basic, 2+) — Self, next attack -1d6, reaction
-• Mage Armor (Basic, 2+) — Self, 8 hours, grants 2d6 armor
+• Mage Armor (Basic, 2+) — Self, 8 hours, grants 2d6s armor
 • Detect Magic (Basic, 2+) — 30 yards, sense magic for 10 min
 
 WAY OF UNLEASHED FORCE (Level 2)
@@ -494,8 +502,8 @@ ARMOR
 ┌──────────────┬──────────────┬─────────────────────────┐
 │ Type         │ Defense Dice │ Who Uses It             │
 ├──────────────┼──────────────┼─────────────────────────┤
-│ Light        │ 2d6          │ Everyone can wear       │
-│ Medium       │ 2d8          │ Combatant, Ranger       │
+│ Light        │ 2d6s         │ Everyone can wear       │
+│ Medium       │ 2d8s         │ Combatant, Ranger       │
 │ Shield       │ +1d12        │ Anyone proficient       │
 └──────────────┴──────────────┴─────────────────────────┘
 
@@ -535,7 +543,7 @@ That's everything you need. When in doubt:
 
 1. Tell the GM what you want to do
 2. Roll your d6s
-3. Count 5s and 6s
+3. Count successes using the action tier (usually 2+ at Level 1)
 4. The GM tells you what happens
 
 Welcome to Affinity. May your dice roll high.

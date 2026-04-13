@@ -1,9 +1,22 @@
-# The Thirty-Eighth Congregation
-## A Witness Account of the Desert Dance
+════════════════════════════════════════════════════════════════════════
+                  THE THIRTY-EIGHTH CONGREGATION
+                A Witness Account of the Desert Dance
 
-*Recorded by Chronicler Vedris Halfmoon, Curator Arcanum (Veiled Sight), in testimony before the Interplanar Travel Network, 38⅔ years after the previous incident. Transcribed without editorial judgment, as is the Path of Open Doors.*
+                   *The Many-Masked demands witness.*
+════════════════════════════════════════════════════════════════════════
 
----
+[NOTE: Title page — shattered mirror illustration with desert sand pouring through cracks. Masks and flames visible in reflected fragments. Bone-white and fevered gold palette. Typography: Title in Oswald Bold 36pt, subtitle in Crimson Text 14pt italic]
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  CLASSIFIED TESTIMONY — INTERPLANAR TRAVEL NETWORK                  ║
+║  Witness: Chronicler Vedris Halfmoon                                ║
+║           Curator Arcanum (Veiled Sight)                            ║
+║  Filed: 38⅔ years after the previous incident                       ║
+║  Transcription: Without editorial judgment,                         ║
+║                 as is the Path of Open Doors                        ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+────────────────────────────────────────────────────────────────────────
 
 The thing you need to understand—and I say this knowing full well that understanding will not stop you—is that we knew people were going to die.
 
@@ -11,7 +24,7 @@ Not *might* die. Not *could* die. *Would*. Certainly. Inevitably. In quantities 
 
 We went anyway.
 
----
+· · · ◇ · · ·
 
 It starts, as all planar crimes do, with someone who knows someone. In my case, a spirit-speaker from the northern tribes who claimed her ancestors had shown her "the way through." I should have asked *which* ancestors. The Howl doesn't give directions to safety—it simply gives directions. But she had a portal anchor, and I had forty years of studying the Curator's Paths without ever walking one that mattered.
 
@@ -25,7 +38,9 @@ The Veiled Sight teaches us that some truths should be hidden. It does not teach
 
 I should have noticed she used his epithets without hesitation. That meant she'd already decided the return trip was optional.
 
----
+────────◇────────
+
+[NOTE: Half-page illustration — The portal mouth against the Ashen Waste. Bone-colored sand stretching to crystalline spires on the horizon. Figures silhouetted against a sky that burns too bright. Ink line art with gold and bone wash]
 
 The portal deposited us at dusk—or what passes for dusk in the Ashen Waste, which is simply "slightly less murderously bright."
 
@@ -61,7 +76,7 @@ He pressed something into my hand—a small vial labeled *ECSTASY (LITERAL)*—a
 
 I still have it. I never opened it. Some knowledge, the Curator teaches, devours the knower.
 
----
+────────◇────────
 
 The drums started when the last light died.
 
@@ -87,7 +102,9 @@ But I will say this: Gephorix does not distinguish between pleasures. Pain and e
 
 I saw things that should have horrified me rendered beautiful by context. I saw things that should have been beautiful rendered overwhelming by their *intensity*. I saw beings from three different planes share something I still cannot name, and when they parted, they wept—not from sorrow, but from the knowledge that no experience in their ordinary lives would ever compare.
 
----
+────────◇────────
+
+[NOTE: Spot illustration — A simple tent with warm lantern light amid the dark revelry. The symbol of Ilyra (hearth with three stones) on the tent flap. Contrast: gentle warmth vs. chaotic intensity beyond]
 
 I found refuge near the edge of the valley, where a priestess of Ilyra—yes, *Ilyra*, the Hearthbound, she of comfort and community—had established what she called "The Reprieve".
 
@@ -147,7 +164,7 @@ Gephorix and Ilyra, sharing the same desert. Intensity and comfort, existing sid
 
 I wondered if that was the real lesson of the Dance.
 
----
+────────◇────────
 
 It continued through nights and days.
 
@@ -201,7 +218,9 @@ I stood there for a long moment, breathing carefully, reciting the Sixteen Princ
 
 In my formal assessment, I have noted that the Ashen Waste poses significant memetic hazards to researchers. This is underselling the problem considerably. I nearly abandoned the Curator, because a woman in silk looked at me with confidence.
 
----
+────────◇────────
+
+[NOTE: Spot illustration — A sun rising like an open wound. The desert stripped of gentleness. Silhouettes still dancing against the hostile dawn. Ink with bone-gold wash]
 
 The Eighteenth Dawn came.
 
@@ -233,7 +252,7 @@ We are *ingredients* in his ongoing sacrament to discover how much sensation a s
 
 Both outcomes please him equally. Both are worship.
 
----
+────────◇────────
 
 The portals reopened.
 
@@ -255,7 +274,9 @@ But I took down the date. I wrote it in the margin of my field journal, in ink t
 
 I stood at the portal for a long moment before finally stepping through to safety.
 
----
+────────────────────────────────────────────────────────────────────────
+FORMAL TESTIMONY
+────────────────────────────────────────────────────────────────────────
 
 The Interplanar Travel Network has asked me to provide testimony regarding why this event should remain illegal.
 
@@ -273,7 +294,7 @@ Most find both, and cannot tell the difference.
 
 Is that not the Many-Masked's entire theology?
 
----
+· · ─────────────────────── · ·
 
 *Addendum, filed six months after original testimony:*
 
@@ -297,19 +318,21 @@ Though, I suspect, I may be.
 
 *The vial catches the light again. Something definitely looking back.*
 
----
+· · ─────────────────────── · ·
 
-*"Has only resulted in total guest annihilation twice—better than some legal festivals."*  
-*— Popular saying among those who have attended the Desert Dance*
+> *"Has only resulted in total guest annihilation twice—better than some legal festivals."*
+> *— Popular saying among those who have attended the Desert Dance*
 
----
+────────────────────────────────────────────────────────────────────────
 
-## Curator's Note
+╔══════════════════════════════════════════════════════════════════════╗
+║                       ◆ CURATOR'S NOTE ◆                            ║
+╚══════════════════════════════════════════════════════════════════════╝
 
 This document has been preserved without editorial correction as required by the Path of Open Doors. The Interplanar Travel Network has requested its suppression. The Curator Arcanum has declined, noting that the testimony contains no actionable intelligence and serves primarily as a missive of warning.
 
 Whether it warns away from the Dance or pushes toward it remains, per the Path of Veiled Sight, *deliberately unspecified*.
 
-*Knowledge without context is still knowledge. Let the reader determine the lesson.*
+> *Knowledge without context is still knowledge. Let the reader determine the lesson.*
 
----
+════════════════════════════════════════════════════════════════════════

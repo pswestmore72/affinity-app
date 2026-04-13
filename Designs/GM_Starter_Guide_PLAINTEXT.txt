@@ -17,7 +17,7 @@ RUNNING AFFINITY
 
 Affinity is a risk-attrition system. Players have Hit Dice. They spend them, lose them, and guard them. Your job: create situations where those dice matter.
 
-There are no hit points. When you deal damage, you're destroying dice from dice pools. When an enemy has 5d8 and takes 3 damage, they now have 2d8.
+There are no hit points. When you deal damage, you're destroying dice from dice pools. When an enemy has 5d8s and takes 3 damage, they now have 2d8s.
 
 THE CORE TRUTH
 
@@ -49,14 +49,14 @@ FOR LEVEL 1 PARTIES (3-5 Players)
 ENEMY ACTION BUDGET
 
 [TABLE]
-┌──────────┬─────────┬──────────┬─────────┐
-│ Enemy    │ Actions │ HD Range │ Resolve │
-│ Tier     │         │          │         │
-├──────────┼─────────┼──────────┼─────────┤
-│ Trivial  │ 1       │ 1-2 HD   │ 2       │
-│ Basic    │ 1-2     │ 3-5 HD   │ 2       │
-│ Advanced │ 2       │ 6-10 HD  │ 3       │
-└──────────┴─────────┴──────────┴─────────┘
+┌──────────┬─────────┬──────────┬─────────────┐
+│ Enemy    │ Actions │ HD Range │ Starting RT │
+│ Tier     │         │          │             │
+├──────────┼─────────┼──────────┼─────────────┤
+│ Trivial  │ 1       │ 1-2 HD   │ 2           │
+│ Basic    │ 1-2     │ 3-5 HD   │ 2           │
+│ Advanced │ 2       │ 6-10 HD  │ 2           │
+└──────────┴─────────┴──────────┴─────────────┘
 
 At Level 1, avoid Expert+ enemies unless you want a very hard fight.
 
@@ -72,8 +72,8 @@ Use this template to create quick enemies:
 NAME: [Creature type]
 HD: [dice]         (Trivial: 1-2, Basic: 3-5)
 PROF: 1-2          (use 1 for Level 1 content)
-RESOLVE: 2
-ARMOR: [if any]    (2d6 light, 2d8 medium)
+RESOLVE THRESHOLD: 2 (starts at 2, escalates on failed checks)
+ARMOR: [if any]    (2d6s light, 2d8s medium)
 MOVEMENT: 10 yards
 
 ATTACK: [Name] (Basic, 2+)
@@ -88,19 +88,19 @@ SPECIAL: [One unique ability or tactic]
 EXAMPLE ENEMIES FOR LEVEL 1
 
 Goblin Skulker (Trivial)
-HD: 2d6, Prof: 1, Resolve: 2
+HD: 2d6s, Prof: 1, RT: 2
 Attack: Rusty Dagger (2d6, 1 HD damage)
-Special: Flees at 1 HD remaining and/or 1- Resolve
+Special: Flees at 1 HD remaining or RT 5+
 
 Orc Raider (Basic)
-HD: 4d8, Prof: 2, Resolve: 2
-Armor: 2d6 (hide scraps)
+HD: 4d8s, Prof: 2, RT: 2
+Armor: 2d6s (hide scraps)
 Attack: Greataxe (3d6, 2 HD damage)
 Special: +1d6 when below half HD (rage)
 
 Animated Statue (Basic)
-HD: 5d10, Prof: 1, Resolve: 3
-Armor: 2d10 (stone body)
+HD: 5d10s, Prof: 1, RT: 2
+Armor: 2d10s (stone body)
 Attack: Stone Fist (2d6, 2 HD damage)
 Special: Immune to fear/charm
 
@@ -122,7 +122,7 @@ COMBAT TURN STRUCTURE
 
 WHEN NPCS ATTACK
 1. Roll the dice shown in their stat block
-2. Count successes (5+ = 1, 6 = 2)
+2. Count successes using the listed action tier (Basic 2+, Advanced 3+, Expert 4+, etc.; 6 always counts as 2)
 3. If they hit, player defends
 
 WHEN NPCS DEFEND
@@ -146,10 +146,10 @@ WHEN PLAYERS TAKE DAMAGE
 
 AT 0 BODY HD
 
-• Player makes Resolve checks each round
-• 4- = lose 1 Resolve
+• Player makes Resolve checks each round (1d6 ≥ current RT to pass)
+• Fail = RT advances by 1 (2 → 3 → 4 → 5 → 6)
 • If healed above 0 HD, stops dying
-• At 0 HD AND 0 Resolve = dead
+• At 0 HD AND Collapse (fail at RT 6) = dead
 
 For Session 1: If a player hits 0 HD, let them make one Resolve check, then have allies stabilize them or enemies shift target. Real death can come later when stakes are clear.
 
@@ -588,7 +588,7 @@ ENEMY STAT BLOCKS
 
 FROSTBITTEN SCOUT (Basic Undead)
 ────────────────────────────────
-HD: 5d8
+HD: 5d8s
 Proficiency: 1
 Resolve: — (undead, immune)
 Speed: 30 feet
@@ -611,7 +611,7 @@ TACTICS: Fight with eerie coordination, try to surround targets, never flee
 
 FROSTBITTEN THRALL (Trivial Undead, Minion)
 ────────────────────────────────
-HD: 4d8 (weak)
+HD: 4d8s (weak)
 Proficiency: 1
 Resolve: — (undead)
 Speed: 20 feet (slow, shambling)
@@ -634,11 +634,11 @@ TACTICS: Mindless swarm, slow approach, prioritize nearest target
 
 FROSTBITTEN LOGGER (Elite Undead)
 ────────────────────────────────
-HD: 8d8
+HD: 8d8s
 Proficiency: 2
 Resolve: — (undead)
 Speed: 30 feet
-Armor: 2d6 (frozen hide)
+Armor: 2d6s (frozen hide)
 
 ATTACK: Frozen Axe (Heavy, Basic)
 • Rolls: 3d6
@@ -661,11 +661,11 @@ PAGE 14 - BOSS STAT BLOCKS
 
 THANE COLDBROOK (Advanced Enemy, Necromancer)
 ────────────────────────────────
-HD: 10d6
+HD: 10d6s
 Proficiency: 3
-Resolve: 4
+Resolve Threshold: 4 (Shaken - already weathered by necromantic rituals)
 Speed: 30 feet
-Armor: 2d6 (frost-infused robes)
+Armor: 2d6s (frost-infused robes)
 
 ATTACK: Cold Bolt (Ranged, Basic)
 • Range: 60 yards
@@ -711,7 +711,7 @@ TACTICS:
 
 ICE WRAITH (Basic Undead, Animated Sculpture)
 ────────────────────────────────
-HD: 6d8
+HD: 6d8s
 Proficiency: 2
 Resolve: — (undead)
 Speed: 40 feet (flies/glides)
@@ -720,7 +720,7 @@ Armor: None (incorporeal)
 ATTACK: Chilling Touch (Light, Basic)
 • Rolls: 3d6
 • Required: 1 success
-• Damage: 1 HD cold + 1 Resolve damage
+• Damage: 1 HD cold; target then makes a Resolve check (on fail, RT increases by 1)
 
 SPECIAL ABILITIES:
 • Incorporeal: Physical attacks deal half damage (round down)
@@ -728,7 +728,7 @@ SPECIAL ABILITIES:
 • Frost Glide: Can move through solid objects briefly
 • Death Wail (1/combat, action, when reduced to 3 HD or less)
   - 30-yard radius
-  - All creatures: Resolve check (Moderate, 3+) or lose 1 Resolve
+  - All creatures: Resolve check (Moderate, 3+) or RT increases by 1
   - Audible for miles
 
 TACTICS: Glide through obstacles, prioritize spellcasters, use Death Wail when bloodied
@@ -768,7 +768,7 @@ DEFENSE SUCCESS RATE
 LEVEL 1 CHARACTER STATS
 
 Proficiency: 1
-Resolve: 5
+Resolve Threshold: 2
 Defense Capacity: 1
 Actions: 2 per turn
 Movement: 10 yards
@@ -788,11 +788,11 @@ Fight too hard?
 • Environmental effect ends fight early
 
 Player confused?
-• "Roll d6s. Count 5s and 6s."
+• "Roll d6s. Count successes by tier (usually 2+ at Level 1, and 6 = 2 successes)."
 • "When hit, roll defense. 5+ = die survives."
 
 Player at 0 HD?
-• Make Resolve check (4- = lose Resolve, 5+ = hold)
+• Make Resolve check (below RT = RT increases by 1)
 • Stabilize action from ally stops spiral
 • Don't kill players in Session 1 unless earned
 

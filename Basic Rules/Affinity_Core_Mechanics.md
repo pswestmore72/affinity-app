@@ -104,20 +104,20 @@ Different classes have different Hit Dice:
 **Hit Dice are individual dice that exist or don't exist.** They are NOT summed into a total.
 
 **WRONG (D&D-style thinking):**
-- "A Level 3 Combatant has 7d10 Hit Dice."
+- "A Level 3 Combatant has 7d10s Hit Dice."
 - "I roll 7d10 and get 48, so I have 48 hit points."
 - "I take 5 damage, now I have 43/48 HP."
 
 **CORRECT (Affinity):**
-- "A Level 3 Combatant has 7d10 Hit Dice."
+- "A Level 3 Combatant has 7d10s Hit Dice."
 - "That means I have SEVEN INDIVIDUAL d10 DICE in my body pool."
 - "When I take damage, I lose DICE from my pool, one at a time."
-- "7d10 → take 3 HD damage → might become 4d10 (lost 3 individual dice)."
+- "7d10s → take 3 HD damage → might become 4d10s (lost 3 individual dice)."
 
 **Character Sheet Notation:**
 ```
-Hit Dice: 7d10 (1d10, 1d10, 1d10, 1d10, 1d10, 1d10, 1d10)
-Armor: 3d8 (1d8, 1d8, 1d8)
+Hit Dice: 7d10s (1d10, 1d10, 1d10, 1d10, 1d10, 1d10, 1d10)
+Armor: 3d8s (1d8, 1d8, 1d8)
 Shield: 1d12 (1d12)
 
 Total Defense Pool: [1d12] → [1d8, 1d8, 1d8] → [1d10, 1d10, 1d10, 1d10, 1d10, 1d10, 1d10]
@@ -133,16 +133,16 @@ Total Defense Pool: [1d12] → [1d8, 1d8, 1d8] → [1d10, 1d10, 1d10, 1d10, 1d10
 
 **Example Defense Sequence:**
 ```
-Character: 5d10 body + 2d8 armor (two separate dice)
+Character: 5d10s body + 2d8s armor (two separate dice)
 Defense Capacity: 2 (Proficiency 2)
 Incoming: 4 HD damage
 
-1st HD: Roll 1d8 (armor) → 6 ✅ Sustain (armor still 2d8)
+1st HD: Roll 1d8 (armor) → 6 ✅ Sustain (armor still 2d8s)
 2nd HD: Roll 1d8 (armor) → 3 ❌ Fail (armor becomes 1d8)
-3rd HD: No rolls left → Auto-fail (armor becomes 0, lose 1 body die: 5d10 → 4d10)
-4th HD: No rolls left → Auto-fail (lose 1 body die: 4d10 → 3d10)
+3rd HD: No rolls left → Auto-fail (armor becomes 0, lose 1 body die: 5d10s → 4d10s)
+4th HD: No rolls left → Auto-fail (lose 1 body die: 4d10s → 3d10s)
 
-Final Status: 3d10 body + 0 armor
+Final Status: 3d10s body + 0 armor
 DICE DESTROYED: 2 armor dice + 2 body dice = 4 dice lost
 ```
 
@@ -207,7 +207,7 @@ Level 5 Combatant (Proficiency 3, at 2 HD / 11 max, Resolve Threshold 4 — Shak
 Level 5 Combatant (Proficiency 3, at 5 HD / 11 max, Resolve Threshold 3 — Pressured)
 - Returns to town inn, sleeps 8 hours (safe space)
 - Regains all HD (5 → 11 HD), resets Resolve Threshold (3 → 2 — Full Strength)
-- Re-rolls armor when donning (Medium Armor 2d8 → rolls 6+5 = 11 temp HD)
+- Re-rolls armor when donning (Medium Armor 2d8s → rolls 6+5 = 11 temp HD)
 - All daily abilities reset
 
 ---
@@ -1168,7 +1168,7 @@ Using your current Hit Dice types:
 When you take HD damage, it's applied in this specific order:
 
 1. **Spell-like Armor** (temporary effects from class abilities like Shield, Barrier, etc.)
-2. **Physical Armor** (equipped armor temporary HD: 2d6/2d8/2d10)
+2. **Physical Armor** (equipped armor temporary HD: 2d6s/2d8s/2d10s)
 3. **Temporary HD** (other sources: spells, shields, magical effects)
 4. **Permanent HD** (your class HD pool)
 
@@ -1191,14 +1191,14 @@ Each die is rolled using **its own size:**
 
 Armor provides **defense dice** rolled as your outer layer during defense:
 
-- **Light Armor:** 2d6 defense layer
-- **Medium Armor:** 2d8 defense layer  
-- **Heavy Armor:** 2d10 defense layer
+- **Light Armor:** 2d6s defense layer
+- **Medium Armor:** 2d8s defense layer  
+- **Heavy Armor:** 2d10s defense layer
 - **Shield:** +1d12 to defense layer
 
 **Example Defense with Armor:**
 
-Level 5 Combatant (d10 HD, Proficiency 3, wearing Heavy Armor 2d10 + Shield 1d12):
+Level 5 Combatant (d10 HD, Proficiency 3, wearing Heavy Armor 2d10s + Shield 1d12):
 - Takes 4 damage
 - Defense capacity: 3 dice (Prof 3)
 - Roll 3d10 for armor layer → Results: 7, 3, 5

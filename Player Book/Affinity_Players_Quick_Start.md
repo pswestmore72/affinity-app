@@ -23,7 +23,7 @@ Your class determines how tough you are and what you're good at.
 
 | Stat | d10 Classes | d8 Classes | d6 Classes |
 |------|-------------|------------|------------|
-| Body HD | 5d10 | 5d8 | 4d6 |
+| Body HD | 5d10s | 5d8s | 4d6s |
 | Proficiency | 1 | 1 | 1 |
 | Resolve Threshold | 2 | 2 | 2 |
 | Defense Capacity | 1 | 1 | 1 |
@@ -37,9 +37,9 @@ Your class determines how tough you are and what you're good at.
 **CRITICAL: There are no hit points. You have DICE.**
 
 ```
-You have 5d10 = five individual d10 dice
+You have 5d10s = five individual d10 dice
 When you lose HD, you lose actual dice
-5d10 → take damage → 4d10 → take more damage → 3d10
+5d10s → take damage → 4d10s → take more damage → 3d10s
 ```
 
 This is YOUR survival. Guard those dice.
@@ -71,9 +71,9 @@ At Level 1, each class gets:
 
 | Type | Defense Dice | Who Uses It |
 |------|--------------|-------------|
-| **Light** | 2d6 | Everyone can wear |
-| **Medium** | 2d8 | Most combat classes |
-| **Heavy** | 2d10 | Combatants (after L2) |
+| **Light** | 2d6s | Everyone can wear |
+| **Medium** | 2d8s | Most combat classes |
+| **Heavy** | 2d10s | Combatants (after L2) |
 | **Shield** | +1d12 | Anyone proficient |
 
 **Defense Order:** Damage hits armor first, then your body HD.
@@ -123,7 +123,7 @@ NAME: ___________________
 CLASS: __________________
 
 BODY HD: [ ][ ][ ][ ][ ] (mark your die type: d6/d8/d10)
-ARMOR:   [ ][ ] (light 2d6 / medium 2d8 / heavy 2d10)
+ARMOR:   [ ][ ] (light 2d6s / medium 2d8s / heavy 2d10s)
 SHIELD:  [ ] (1d12 if you have one)
 
 PROFICIENCY: 1

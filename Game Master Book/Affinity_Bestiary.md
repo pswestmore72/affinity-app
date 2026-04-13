@@ -207,7 +207,7 @@ NPCs defend using the **same layered defense system as PCs:**
 
 **Example:**
 ```
-Verdant Guardian (Proficiency 3, Armor 2d10 temp HD)
+Verdant Guardian (Proficiency 3, Armor 2d10s temp HD)
 - Takes 4 HD damage from player attack
 - Defense Capacity: Prof = 3 rolls
 - Rolls: 3 separate 1d10 rolls (armor layer)
@@ -324,9 +324,9 @@ For intelligent creatures fighting in formation (soldiers, cultists, skilled ban
 
 ### Example Swarm: Goblin Horde
 
-Take **Goblin Raider** (Basic tier, 3d8 HD) and create 12-creature horde:
+Take **Goblin Raider** (Basic tier, 3d8s HD) and create 12-creature horde:
 
-- **HD Pool:** 3d8 × 4 = 12d8 (Large swarm)
+- **HD Pool:** 3d8s × 4 = 12d8s (Large swarm)
 - **Attack:** Crude Weapons (Basic, 2+), Rolls 5d6 (+2d6 for Large), Required 1, Base 2 HD to all in 15-yard area
 - **Defense:** +2d6 vs single-target; -2d6 vs area effects
 - **Special:** Overwhelming (targets lose 2d6 from defense)
@@ -334,9 +334,9 @@ Take **Goblin Raider** (Basic tier, 3d8 HD) and create 12-creature horde:
 
 ### Example Squad: Mercenary Company
 
-Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
+Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant:
 
-- **HD Pool:** 4d8 × 3 = 12d8 (Medium squad)
+- **HD Pool:** 4d8s × 3 = 12d8s (Medium squad)
 - **Sergeant:** Uses Veteran Sellsword stat block (Advanced tier)
 - **Formation:** Shield Wall (+3d6 defense when adjacent), Focused Fire active
 - **If Sergeant dies:** Resolve check or lose formations; -2d6 to all rolls until rally
@@ -394,7 +394,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Scrap Imp
 **Threat Tier:** Trivial  
-**HD Pool:** 2d4  
+**HD Pool:** 2d4s  
 **Proficiency:** 0  
 **Starting RT:** 6  
 **Armor:** None  
@@ -442,7 +442,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### River Minnow Swarm
 **Threat Tier:** Trivial  
-**HD Pool:** 2d6 (swarm acts as single entity)  
+**HD Pool:** 2d6s (swarm acts as single entity)  
 **Proficiency:** 0  
 **Starting RT:** — (immune to Resolve effects)  
 **Armor:** None  
@@ -512,7 +512,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Cinderspawn
 **Threat Tier:** Trivial  
-**HD Pool:** 2d4  
+**HD Pool:** 2d4s  
 **Proficiency:** 0  
 **Starting RT:** 6  
 **Armor:** None  
@@ -538,7 +538,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Muck Slime
 **Threat Tier:** Trivial  
-**HD Pool:** 2d6  
+**HD Pool:** 2d6s  
 **Proficiency:** 0  
 **Starting RT:** — (mindless, immune to Resolve effects)  
 **Armor:** None (but see Amorphous)  
@@ -623,7 +623,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Tomb Walker
 **Threat Tier:** Trivial  
-**HD Pool:** 2d6  
+**HD Pool:** 2d6s  
 **Proficiency:** 0  
 **Starting RT:** — (mindless, immune to Resolve effects)  
 **Armor:** None  
@@ -650,7 +650,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Sewer Vermin Swarm
 **Threat Tier:** Trivial (Swarm)  
-**HD Pool:** 3d6 (swarm acts as single entity)  
+**HD Pool:** 3d6s (swarm acts as single entity)  
 **Proficiency:** 0  
 **Starting RT:** — (mindless, immune to Resolve effects)  
 **Armor:** None  
@@ -682,7 +682,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Pall-Wolf
 **Threat Tier:** Basic  
-**HD Pool:** 4d8  
+**HD Pool:** 4d8s  
 **Proficiency:** 1  
 **Starting RT:** 6  
 **Armor:** None  
@@ -713,7 +713,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Oath-Breaker Shade
 **Threat Tier:** Basic  
-**HD Pool:** 3d6  
+**HD Pool:** 3d6s  
 **Proficiency:** 1  
 **Starting RT:** 5  
 **Armor:** None  
@@ -745,7 +745,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Vigil Shade
 **Threat Tier:** Basic  
-**HD Pool:** 4d6  
+**HD Pool:** 4d6s  
 **Proficiency:** 1  
 **Starting RT:** 4  
 **Armor:** None  
@@ -778,7 +778,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Grief-Lantern
 **Threat Tier:** Basic  
-**HD Pool:** 3d8  
+**HD Pool:** 3d8s  
 **Proficiency:** 2  
 **Starting RT:** 5  
 **Armor:** None (incorporeal)  
@@ -811,7 +811,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Hollow Drifter
 **Threat Tier:** Basic  
-**HD Pool:** 5d6  
+**HD Pool:** 5d6s  
 **Proficiency:** 2  
 **Starting RT:** — (no will to break, immune to Resolve effects)  
 **Armor:** None  
@@ -846,10 +846,10 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Verdant Creeper
 **Threat Tier:** Basic  
-**HD Pool:** 5d8  
+**HD Pool:** 5d8s  
 **Proficiency:** 1  
 **Starting RT:** 6  
-**Armor:** Natural bark (2d6 temp HD)  
+**Armor:** Natural bark (2d6s temp HD)  
 **Movement:** 5 yards, climb 10 yards  
 
 **Thorned Lash** (Basic, 2+)
@@ -876,7 +876,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Bloom-Spawn
 **Threat Tier:** Basic  
-**HD Pool:** 4d8  
+**HD Pool:** 4d8s  
 **Proficiency:** 1  
 **Starting RT:** 6  
 **Armor:** Petal layers (1d8 temp HD)  
@@ -909,10 +909,10 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Withering Herald
 **Threat Tier:** Basic  
-**HD Pool:** 5d8  
+**HD Pool:** 5d8s  
 **Proficiency:** 2  
 **Starting RT:** 5  
-**Armor:** Desiccated bark (2d6 temp HD)  
+**Armor:** Desiccated bark (2d6s temp HD)  
 **Movement:** 10 yards  
 
 **Ripening Touch** (Basic, 2+)
@@ -942,7 +942,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Memory Echo
 **Threat Tier:** Basic  
-**HD Pool:** 3d8  
+**HD Pool:** 3d8s  
 **Proficiency:** 2  
 **Starting RT:** 5  
 **Armor:** None  
@@ -973,7 +973,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Coin-Bound Merchant
 **Threat Tier:** Basic  
-**HD Pool:** 4d8  
+**HD Pool:** 4d8s  
 **Proficiency:** 2  
 **Starting RT:** 4  
 **Armor:** Fine clothes (1d6 temp HD)  
@@ -1003,7 +1003,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Hollow Vesper Scout
 **Threat Tier:** Basic  
-**HD Pool:** 4d6  
+**HD Pool:** 4d6s  
 **Proficiency:** 2  
 **Starting RT:** 5  
 **Armor:** Tattered robes (1d6 temp HD)  
@@ -1035,10 +1035,10 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Forge Salamander
 **Threat Tier:** Basic  
-**HD Pool:** 5d8  
+**HD Pool:** 5d8s  
 **Proficiency:** 1  
 **Starting RT:** 6  
-**Armor:** Molten scales (2d8 temp HD)  
+**Armor:** Molten scales (2d8s temp HD)  
 **Movement:** 10 yards, swim 10 yards (lava)  
 
 **Searing Bite** (Basic, 2+)
@@ -1066,7 +1066,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Moonbound Watcher
 **Threat Tier:** Basic  
-**HD Pool:** 4d8  
+**HD Pool:** 4d8s  
 **Proficiency:** 2  
 **Starting RT:** 4  
 **Armor:** Spectral form (1d8 temp HD)  
@@ -1095,10 +1095,10 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Crownstag
 **Threat Tier:** Basic  
-**HD Pool:** 5d10  
+**HD Pool:** 5d10s  
 **Proficiency:** 2  
 **Starting RT:** 5  
-**Armor:** Thick hide (2d8 temp HD)  
+**Armor:** Thick hide (2d8s temp HD)  
 **Movement:** 20 yards  
 
 **Antler Gore** (Basic, 2+)
@@ -1124,10 +1124,10 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Debt Collector
 **Threat Tier:** Basic (often encountered as NPCs, not always hostile)  
-**HD Pool:** 4d8  
+**HD Pool:** 4d8s  
 **Proficiency:** 2  
 **Starting RT:** 3  
-**Armor:** Leather coat (2d6 temp HD)  
+**Armor:** Leather coat (2d6s temp HD)  
 **Movement:** 10 yards  
 
 **Cudgel Strike** (Basic, 2+)
@@ -1154,7 +1154,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Wyrmkin Scout
 **Threat Tier:** Basic  
-**HD Pool:** 3d8  
+**HD Pool:** 3d8s  
 **Proficiency:** 1  
 **Starting RT:** 5  
 **Armor:** Light (Scaled Hide)  
@@ -1186,7 +1186,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Wyrmkin Warrior
 **Threat Tier:** Basic  
-**HD Pool:** 4d8  
+**HD Pool:** 4d8s  
 **Proficiency:** 1  
 **Starting RT:** 5  
 **Armor:** Medium (Crude Scale Armor)  
@@ -1218,7 +1218,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Mire Drake
 **Threat Tier:** Basic  
-**HD Pool:** 5d8  
+**HD Pool:** 5d8s  
 **Proficiency:** 1  
 **Starting RT:** 5  
 **Armor:** Medium (Thick Hide)  
@@ -1257,7 +1257,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Ember Wyrmling
 **Threat Tier:** Basic  
-**HD Pool:** 4d8  
+**HD Pool:** 4d8s  
 **Proficiency:** 1  
 **Starting RT:** 5  
 **Armor:** Light (Scaled Hide)  
@@ -1296,7 +1296,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Gloam Wyrmling
 **Threat Tier:** Basic  
-**HD Pool:** 4d8  
+**HD Pool:** 4d8s  
 **Proficiency:** 1  
 **Starting RT:** 4  
 **Armor:** Light (Shadow-Woven Scales)  
@@ -1335,7 +1335,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Greenskin Raider
 **Threat Tier:** Basic  
-**HD Pool:** 3d8  
+**HD Pool:** 3d8s  
 **Proficiency:** 1  
 **Starting RT:** 5  
 **Armor:** Light (Scrap Leather)  
@@ -1367,7 +1367,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Sellsword
 **Threat Tier:** Basic  
-**HD Pool:** 4d8  
+**HD Pool:** 4d8s  
 **Proficiency:** 1  
 **Starting RT:** 5  
 **Armor:** Medium (Chainmail)  
@@ -1399,7 +1399,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Cutpurse
 **Threat Tier:** Basic  
-**HD Pool:** 3d8  
+**HD Pool:** 3d8s  
 **Proficiency:** 1  
 **Starting RT:** 5  
 **Armor:** Light (Leather)  
@@ -1431,7 +1431,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Hedge Mystic
 **Threat Tier:** Basic  
-**HD Pool:** 3d6  
+**HD Pool:** 3d6s  
 **Proficiency:** 1  
 **Starting RT:** 4  
 **Armor:** None  
@@ -1470,7 +1470,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Zealot Initiate
 **Threat Tier:** Basic  
-**HD Pool:** 4d8  
+**HD Pool:** 4d8s  
 **Proficiency:** 1  
 **Starting RT:** 4  
 **Armor:** Light (Robes with hidden padding)  
@@ -1503,7 +1503,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Acid Slime
 **Threat Tier:** Basic  
-**HD Pool:** 4d8  
+**HD Pool:** 4d8s  
 **Proficiency:** 0  
 **Starting RT:** — (mindless, immune to Resolve effects)  
 **Armor:** None (but see Amorphous)  
@@ -1535,7 +1535,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Skeletal Warrior
 **Threat Tier:** Basic  
-**HD Pool:** 4d8  
+**HD Pool:** 4d8s  
 **Proficiency:** 1  
 **Starting RT:** — (undead, immune to Resolve effects)  
 **Armor:** Medium (Rusted Mail, 1d6 temp HD)  
@@ -1568,7 +1568,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Wolf Pack
 **Threat Tier:** Basic (Swarm)  
-**HD Pool:** 5d8 (4-6 wolves)  
+**HD Pool:** 5d8s (4-6 wolves)  
 **Proficiency:** 1  
 **Starting RT:** 5  
 **Armor:** None  
@@ -1606,10 +1606,10 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Threshold Walker
 **Threat Tier:** Advanced  
-**HD Pool:** 8d8  
+**HD Pool:** 8d8s  
 **Proficiency:** 3  
 **Starting RT:** 4  
-**Armor:** Layered cloaks (2d8 temp HD)  
+**Armor:** Layered cloaks (2d8s temp HD)  
 **Movement:** 15 yards  
 
 **Phase Strike** (Advanced, 3+)
@@ -1643,10 +1643,10 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Verdant Guardian
 **Threat Tier:** Advanced  
-**HD Pool:** 10d10  
+**HD Pool:** 10d10s  
 **Proficiency:** 3  
 **Starting RT:** 5  
-**Armor:** Living bark (2d10 temp HD)  
+**Armor:** Living bark (2d10s temp HD)  
 **Movement:** 10 yards  
 
 **Crushing Blow** (Advanced, 3+)
@@ -1681,10 +1681,10 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Schism-Scarred Enforcer
 **Threat Tier:** Advanced  
-**HD Pool:** 8d10  
+**HD Pool:** 8d10s  
 **Proficiency:** 3  
 **Starting RT:** 5  
-**Armor:** Infernal plate (2d10 temp HD, reforms at start of turn if damaged)  
+**Armor:** Infernal plate (2d10s temp HD, reforms at start of turn if damaged)  
 **Movement:** 10 yards  
 
 **Hellchain Strike** (Advanced, 3+)
@@ -1721,7 +1721,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Mournbat Swarm
 **Threat Tier:** Advanced  
-**HD Pool:** 9d6 (swarm acts as single entity)  
+**HD Pool:** 9d6s (swarm acts as single entity)  
 **Proficiency:** 3  
 **Starting RT:** 5  
 **Armor:** None  
@@ -1758,10 +1758,10 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Coin Golem
 **Threat Tier:** Advanced  
-**HD Pool:** 10d10  
+**HD Pool:** 10d10s  
 **Proficiency:** 2  
 **Starting RT:** 3 (cannot advance past 5)  
-**Armor:** Metal body (2d12 temp HD)  
+**Armor:** Metal body (2d12s temp HD)  
 **Movement:** 10 yards  
 
 **Pummeling Fist** (Advanced, 3+)
@@ -1796,10 +1796,10 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### River-Kin Guide
 **Threat Tier:** Advanced (usually neutral or helpful)  
-**HD Pool:** 7d8  
+**HD Pool:** 7d8s  
 **Proficiency:** 3  
 **Starting RT:** 3  
-**Armor:** Flowing water form (2d6 temp HD, reforms each round)  
+**Armor:** Flowing water form (2d6s temp HD, reforms each round)  
 **Movement:** Swim 30 yards, walk 15 yards  
 
 **Tidal Strike** (Advanced, 3+)
@@ -1835,10 +1835,10 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Revenant Knight
 **Threat Tier:** Advanced  
-**HD Pool:** 9d10  
+**HD Pool:** 9d10s  
 **Proficiency:** 4  
 **Starting RT:** 2 (cannot advance past 4)  
-**Armor:** Ancient plate (2d10 temp HD)  
+**Armor:** Ancient plate (2d10s temp HD)  
 **Movement:** 10 yards  
 
 **Spectral Blade** (Advanced, 3+)
@@ -1874,10 +1874,10 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Chaos Elemental
 **Threat Tier:** Advanced  
-**HD Pool:** 8d8  
+**HD Pool:** 8d8s  
 **Proficiency:** 3  
 **Starting RT:** 6  
-**Armor:** Unstable form (2d8 temp HD, changes element each round)  
+**Armor:** Unstable form (2d8s temp HD, changes element each round)  
 **Movement:** 15 yards, fly 15 yards  
 
 **Elemental Burst** (Advanced, 3+)
@@ -1914,10 +1914,10 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Hollow Vesper Corruptor
 **Threat Tier:** Advanced  
-**HD Pool:** 7d8  
+**HD Pool:** 7d8s  
 **Proficiency:** 4  
 **Starting RT:** 3  
-**Armor:** Shadow cloak (2d6 temp HD)  
+**Armor:** Shadow cloak (2d6s temp HD)  
 **Movement:** 10 yards, fly 15 yards  
 
 **Life Drain** (Advanced, 3+)
@@ -1953,7 +1953,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Wyrmkin Flamecaller
 **Threat Tier:** Advanced  
-**HD Pool:** 7d8  
+**HD Pool:** 7d8s  
 **Proficiency:** 3  
 **Starting RT:** 4  
 **Armor:** Light (Fire-Touched Scales)  
@@ -1993,7 +1993,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Wyrmkin Broodwarden
 **Threat Tier:** Advanced  
-**HD Pool:** 8d8  
+**HD Pool:** 8d8s  
 **Proficiency:** 3  
 **Starting RT:** 4  
 **Armor:** Heavy (Ceremonial Scale)  
@@ -2030,7 +2030,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Storm Drake
 **Threat Tier:** Advanced  
-**HD Pool:** 8d10  
+**HD Pool:** 8d10s  
 **Proficiency:** 3  
 **Starting RT:** 4  
 **Armor:** Medium (Storm-Charged Scales)  
@@ -2069,7 +2069,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Thornscale Drake
 **Threat Tier:** Advanced  
-**HD Pool:** 7d10  
+**HD Pool:** 7d10s  
 **Proficiency:** 3  
 **Starting RT:** 5  
 **Armor:** Heavy (Thorn-Covered Scales)  
@@ -2109,7 +2109,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Adolescent Flame Wyrm
 **Threat Tier:** Advanced  
-**HD Pool:** 10d10  
+**HD Pool:** 10d10s  
 **Proficiency:** 3  
 **Starting RT:** 3  
 **Armor:** Medium (Fire-Forged Scales)  
@@ -2154,10 +2154,10 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Veteran Sellsword
 **Threat Tier:** Advanced  
-**HD Pool:** 7d10  
+**HD Pool:** 7d10s  
 **Proficiency:** 3  
 **Starting RT:** 4  
-**Armor:** Heavy (Plate, 2d8 temp HD)  
+**Armor:** Heavy (Plate, 2d8s temp HD)  
 **Movement:** 10 yards  
 
 **Bastard Sword** (Advanced, 3+)
@@ -2193,7 +2193,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Shadowblade
 **Threat Tier:** Advanced  
-**HD Pool:** 6d8  
+**HD Pool:** 6d8s  
 **Proficiency:** 3  
 **Starting RT:** 4  
 **Armor:** Light (Shadow-Touched Leather)  
@@ -2231,7 +2231,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Greenskin Warchief
 **Threat Tier:** Advanced  
-**HD Pool:** 8d10  
+**HD Pool:** 8d10s  
 **Proficiency:** 3  
 **Starting RT:** 3  
 **Armor:** Medium (Looted Chainmail)  
@@ -2270,7 +2270,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Cult Warlock
 **Threat Tier:** Advanced  
-**HD Pool:** 7d8  
+**HD Pool:** 7d8s  
 **Proficiency:** 3  
 **Starting RT:** 3  
 **Armor:** Light (Ritual Robes with wards, 1d6 temp HD)  
@@ -2316,7 +2316,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Gelatinous Maw
 **Threat Tier:** Advanced  
-**HD Pool:** 8d10  
+**HD Pool:** 8d10s  
 **Proficiency:** 2  
 **Starting RT:** — (mindless, immune to Resolve effects)  
 **Armor:** None  
@@ -2350,10 +2350,10 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Wight Lord
 **Threat Tier:** Advanced  
-**HD Pool:** 9d10  
+**HD Pool:** 9d10s  
 **Proficiency:** 3  
 **Starting RT:** 3  
-**Armor:** Heavy (Ancient Plate, 2d8 temp HD)  
+**Armor:** Heavy (Ancient Plate, 2d8s temp HD)  
 **Movement:** 10 yards  
 
 **Life-Draining Blade** (Advanced, 3+)
@@ -2389,7 +2389,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Orc Berserker
 **Threat Tier:** Advanced  
-**HD Pool:** 8d10  
+**HD Pool:** 8d10s  
 **Proficiency:** 3  
 **Starting RT:** 3 (but see Blood Rage)  
 **Armor:** Light (Tribal Leathers)  
@@ -2426,7 +2426,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Bandit Captain
 **Threat Tier:** Advanced  
-**HD Pool:** 7d10  
+**HD Pool:** 7d10s  
 **Proficiency:** 3  
 **Starting RT:** 4  
 **Armor:** Medium (Studded Leather)  
@@ -2469,7 +2469,7 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Militia Squad
 **Threat Tier:** Advanced (Squad)  
-**HD Pool:** 8d8 (5-8 militia with sergeant)  
+**HD Pool:** 8d8s (5-8 militia with sergeant)  
 **Proficiency:** 2  
 **Starting RT:** 4  
 **Armor:** Light (Leather and shields)  
@@ -2507,10 +2507,10 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Archon of the Halls
 **Threat Tier:** Expert  
-**HD Pool:** 13d10  
+**HD Pool:** 13d10s  
 **Proficiency:** 4  
 **Starting RT:** 2  
-**Armor:** Radiant plate (2d12 temp HD)  
+**Armor:** Radiant plate (2d12s temp HD)  
 **Movement:** 15 yards, fly 20 yards  
 
 **Oath-Forged Blade** (Expert, 4+)
@@ -2546,10 +2546,10 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Planar Warden
 **Threat Tier:** Expert  
-**HD Pool:** 12d10  
+**HD Pool:** 12d10s  
 **Proficiency:** 4  
 **Starting RT:** 3  
-**Armor:** Ancestral vestments (2d10 temp HD)  
+**Armor:** Ancestral vestments (2d10s temp HD)  
 **Movement:** 10 yards, fly 15 yards  
 
 **Binding Strike** (Expert, 4+)
@@ -2584,10 +2584,10 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Primal Wyrm
 **Threat Tier:** Expert  
-**HD Pool:** 15d12  
+**HD Pool:** 15d12s  
 **Proficiency:** 4  
 **Starting RT:** 4  
-**Armor:** Scales (2d12 temp HD)  
+**Armor:** Scales (2d12s temp HD)  
 **Movement:** 15 yards, fly 30 yards, burrow 10 yards  
 
 **Devastating Bite** (Expert, 4+)
@@ -2631,10 +2631,10 @@ Take **Sellsword** (Basic tier, 4d8 HD) and create 6-member squad with sergeant:
 
 ### Sorrow Leech
 **Threat Tier:** Expert  
-**HD Pool:** 10d8  
+**HD Pool:** 10d8s  
 **Proficiency:** 4  
 **Starting RT:** 5  
-**Armor:** Ethereal hide (2d8 temp HD)  
+**Armor:** Ethereal hide (2d8s temp HD)  
 **Movement:** Fly 15 yards (hover), phasing  
 
 **Psychic Drain** (Expert, 4+)
@@ -2678,10 +2678,10 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 
 ### Flame Titan
 **Threat Tier:** Expert  
-**HD Pool:** 14d12  
+**HD Pool:** 14d12s  
 **Proficiency:** 3  
 **Starting RT:** 5  
-**Armor:** Molten body (2d12 temp HD, reforms each round)  
+**Armor:** Molten body (2d12s temp HD, reforms each round)  
 **Movement:** 15 yards  
 
 **Searing Fist** (Expert, 4+)
@@ -2715,10 +2715,10 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 
 ### Memory Devourer
 **Threat Tier:** Expert  
-**HD Pool:** 11d8  
+**HD Pool:** 11d8s  
 **Proficiency:** 5  
 **Starting RT:** 2  
-**Armor:** Psychic shell (2d8 temp HD)  
+**Armor:** Psychic shell (2d8s temp HD)  
 **Movement:** 10 yards, fly 15 yards  
 
 **Mind Shred** (Expert, 4+) - Psychic Attack
@@ -2755,10 +2755,10 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 
 ### Death Knight of Azravael
 **Threat Tier:** Expert  
-**HD Pool:** 13d10  
+**HD Pool:** 13d10s  
 **Proficiency:** 4  
 **Starting RT:** 3 (cannot advance past 5)  
-**Armor:** Infernal plate (2d12 temp HD)  
+**Armor:** Infernal plate (2d12s temp HD)  
 **Movement:** 10 yards  
 
 **Ruinous Blade** (Expert, 4+)
@@ -2798,10 +2798,10 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 
 ### Wyrmkin Warlord
 **Threat Tier:** Expert  
-**HD Pool:** 12d10  
+**HD Pool:** 12d10s  
 **Proficiency:** 4  
 **Starting RT:** 3  
-**Armor:** Elite Dragonscale (3d6 temp HD)  
+**Armor:** Elite Dragonscale (3d6s temp HD)  
 **Movement:** 12 yards  
 
 **Wyrmbane Axe** (Expert, 4+)
@@ -2838,7 +2838,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 
 ### Young Flame Wyrm
 **Threat Tier:** Expert  
-**HD Pool:** 14d10  
+**HD Pool:** 14d10s  
 **Proficiency:** 4  
 **Starting RT:** 3  
 **Armor:** Heavy (Mature Fire-Forged Scales)  
@@ -2889,7 +2889,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 
 ### Young Gloamwyrm
 **Threat Tier:** Expert  
-**HD Pool:** 13d10  
+**HD Pool:** 13d10s  
 **Proficiency:** 4  
 **Starting RT:** 2  
 **Armor:** Medium (Shadow-Woven Scales)  
@@ -2935,7 +2935,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 
 ### Frostscale Wyrm
 **Threat Tier:** Expert  
-**HD Pool:** 14d10  
+**HD Pool:** 14d10s  
 **Proficiency:** 4  
 **Starting RT:** 3  
 **Armor:** Heavy (Ice-Encrusted Scales)  
@@ -2987,10 +2987,10 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 
 ### Celestial Drake
 **Threat Tier:** Legendary  
-**HD Pool:** 18d12  
+**HD Pool:** 18d12s  
 **Proficiency:** 5  
 **Starting RT:** 2  
-**Armor:** Radiant scales (2d12 temp HD)  
+**Armor:** Radiant scales (2d12s temp HD)  
 **Movement:** 20 yards, fly 40 yards  
 
 **Radiant Bite** (Legendary, 5+)
@@ -3032,10 +3032,10 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 
 ### Void Shepherd
 **Threat Tier:** Legendary  
-**HD Pool:** 16d10  
+**HD Pool:** 16d10s  
 **Proficiency:** 5  
 **Starting RT:** 2, Resolve Shield 1  
-**Armor:** Ethereal vestments (2d10 temp HD)  
+**Armor:** Ethereal vestments (2d10s temp HD)  
 **Movement:** 15 yards, fly 20 yards, plane shift at will  
 
 **Staff of Aralys** (Legendary, 5+)
@@ -3077,10 +3077,10 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 
 ### Ancient Verdant Colossus
 **Threat Tier:** Legendary  
-**HD Pool:** 20d12  
+**HD Pool:** 20d12s  
 **Proficiency:** 4  
 **Starting RT:** 3  
-**Armor:** Ancient bark (2d12 temp HD, regrows each round in sunlight)  
+**Armor:** Ancient bark (2d12s temp HD, regrows each round in sunlight)  
 **Movement:** 15 yards  
 
 **Colossal Fist** (Legendary, 5+)
@@ -3125,10 +3125,10 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 
 ### Adult Flame Wyrm
 **Threat Tier:** Legendary  
-**HD Pool:** 18d12  
+**HD Pool:** 18d12s  
 **Proficiency:** 5  
 **Starting RT:** 2  
-**Armor:** Legendary (Flame-Forged Dragonscale, 3d6 temp HD)  
+**Armor:** Legendary (Flame-Forged Dragonscale, 3d6s temp HD)  
 **Movement:** 15 yards, fly 60 yards  
 
 **Bite** (Legendary, 5+)
@@ -3185,7 +3185,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 
 ### Stormwyrm
 **Threat Tier:** Legendary  
-**HD Pool:** 17d12  
+**HD Pool:** 17d12s  
 **Proficiency:** 5  
 **Starting RT:** 3  
 **Armor:** Heavy (Storm-Charged Dragonscale)  
@@ -3244,7 +3244,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 
 ### Voidwyrm
 **Threat Tier:** Legendary  
-**HD Pool:** 18d12  
+**HD Pool:** 18d12s  
 **Proficiency:** 5  
 **Starting RT:** 2, Resolve Shield 1  
 **Armor:** Medium (Void-Touched Scales—solid but semi-translucent)  
@@ -3306,10 +3306,10 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 
 ### Herald of the Schism
 **Threat Tier:** Ultimate  
-**HD Pool:** 22d12  
+**HD Pool:** 22d12s  
 **Proficiency:** 5  
 **Starting RT:** 2, Resolve Shield 1 (cannot advance past 4)  
-**Armor:** Living infernal armor (2d12 temp HD, reforms each round)  
+**Armor:** Living infernal armor (2d12s temp HD, reforms each round)  
 **Movement:** 15 yards, fly 30 yards, plane shift at will  
 
 **Damnation Strike** (Ultimate, 6 only)
@@ -3350,10 +3350,10 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 
 ### Twilight Aspect of Aralys
 **Threat Tier:** Ultimate  
-**HD Pool:** 20d10  
+**HD Pool:** 20d10s  
 **Proficiency:** 6  
 **Starting RT:** 2, Resolve Shield 3  
-**Armor:** Moonlit vestments (2d10 temp HD)  
+**Armor:** Moonlit vestments (2d10s temp HD)  
 **Movement:** 20 yards, fly 30 yards, ethereal step  
 
 **Touch of Mercy** (Ultimate, 6 only)
@@ -3393,10 +3393,10 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 
 ### Elder Gloamwyrm
 **Threat Tier:** Ultimate  
-**HD Pool:** 24d12  
+**HD Pool:** 24d12s  
 **Proficiency:** 6  
 **Starting RT:** 2, Resolve Shield 3  
-**Armor:** Legendary (Dusk-Woven Dragonscale, 3d10 temp HD)  
+**Armor:** Legendary (Dusk-Woven Dragonscale, 3d10s temp HD)  
 **Movement:** 15 yards, fly 60 yards, ethereal step 40 yards  
 
 **Bite of Ending** (Ultimate, 6 only)
@@ -3448,10 +3448,10 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 
 ### Covenant Wyrm
 **Threat Tier:** Ultimate  
-**HD Pool:** 22d12  
+**HD Pool:** 22d12s  
 **Proficiency:** 6  
 **Starting RT:** 2, Resolve Shield 2  
-**Armor:** Legendary (Oathforged Dragonscale, 3d8 temp HD)  
+**Armor:** Legendary (Oathforged Dragonscale, 3d8s temp HD)  
 **Movement:** 15 yards, fly 50 yards  
 
 **Judgment Bite** (Ultimate, 6 only)
@@ -3515,10 +3515,10 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 
 ### Fragment of Iosyx
 **Threat Tier:** Mythical  
-**HD Pool:** 25d20  
+**HD Pool:** 25d20s  
 **Proficiency:** 6  
 **Starting RT:** 3 (constantly fluctuates)  
-**Armor:** Chaotic form (2d20 temp HD, changes element/type each round)  
+**Armor:** Chaotic form (2d20s temp HD, changes element/type each round)  
 **Movement:** Variable (roll 1d20 for yards per round), fly, teleport, irregular  
 
 **Chaos Incarnate** (Mythical, variable)
@@ -3570,10 +3570,10 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 
 ### The Tidebound Memory (Aluneth's Echo)
 **Threat Tier:** Mythical  
-**HD Pool:** 28d12  
+**HD Pool:** 28d12s  
 **Proficiency:** 7  
 **Starting RT:** 2, Resolve Shield 5 (immune to Resolve effects)  
-**Armor:** Flowing water form (2d20 temp HD, infinite regeneration in water)  
+**Armor:** Flowing water form (2d20s temp HD, infinite regeneration in water)  
 **Movement:** 30 yards, swim 60 yards, water walk  
 
 **Tide of Forgetting** (Mythical, 6 only)
@@ -3620,10 +3620,10 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 
 ### Wyrm Progenitor
 **Threat Tier:** Mythical  
-**HD Pool:** 32d12  
+**HD Pool:** 32d12s  
 **Proficiency:** 8  
 **Starting RT:** 2, Resolve Shield 5  
-**Armor:** Primal (Scales of the First Age, 4d12 temp HD)  
+**Armor:** Primal (Scales of the First Age, 4d12s temp HD)  
 **Movement:** 20 yards, fly 100 yards, burrow 30 yards  
 
 **Primordial Bite** (Mythical)
@@ -3683,7 +3683,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 
 ### The First Ember (Iosyx's Firstborn)
 **Threat Tier:** Mythical  
-**HD Pool:** 35d12  
+**HD Pool:** 35d12s  
 **Proficiency:** 8  
 **Starting RT:** 2, Resolve Shield 3 (but see Chaos Resolve)  
 **Armor:** Living Flame (cannot be reduced to temp HD 0 while fire exists nearby)  
@@ -3765,10 +3765,10 @@ These NPCs represent inhabitants of the Mortal Weave who may aid the party tempo
 
 ### Mercenary Blade (Combatant Archetype)
 **Threat Tier:** Basic to Advanced (scales with party level)  
-**HD Pool:** 5d10 (Basic) or 8d10 (Advanced)  
+**HD Pool:** 5d10s (Basic) or 8d10s (Advanced)  
 **Proficiency:** 2 (Basic) or 3 (Advanced)  
 **Starting RT:** 5 or 4  
-**Armor:** Medium armor (2d8 temp HD)  
+**Armor:** Medium armor (2d8s temp HD)  
 **Movement:** 10 yards  
 
 **Longsword Strike** (Basic, 2+)
@@ -3796,7 +3796,7 @@ These NPCs represent inhabitants of the Mortal Weave who may aid the party tempo
 
 ### Wandering Scholar (Scholar Archetype)
 **Threat Tier:** Basic  
-**HD Pool:** 4d8  
+**HD Pool:** 4d8s  
 **Proficiency:** 2  
 **Starting RT:** 4  
 **Armor:** None  
@@ -3830,10 +3830,10 @@ These NPCs represent inhabitants of the Mortal Weave who may aid the party tempo
 
 ### Hearth Priest (Priest Archetype)
 **Threat Tier:** Basic  
-**HD Pool:** 5d8  
+**HD Pool:** 5d8s  
 **Proficiency:** 2  
 **Starting RT:** 4  
-**Armor:** Light armor (2d6 temp HD)  
+**Armor:** Light armor (2d6s temp HD)  
 **Movement:** 10 yards  
 
 **Sacred Strike** (Basic, 2+)
@@ -3864,10 +3864,10 @@ These NPCs represent inhabitants of the Mortal Weave who may aid the party tempo
 
 ### Wilderness Guide (Ranger Archetype)
 **Threat Tier:** Basic to Advanced  
-**HD Pool:** 5d8 (Basic) or 8d8 (Advanced)  
+**HD Pool:** 5d8s (Basic) or 8d8s (Advanced)  
 **Proficiency:** 2 or 3  
 **Starting RT:** 5 or 4  
-**Armor:** Light armor (2d6 temp HD)  
+**Armor:** Light armor (2d6s temp HD)  
 **Movement:** 12 yards  
 
 **Longbow Shot** (Basic, 2+)
@@ -3898,7 +3898,7 @@ These NPCs represent inhabitants of the Mortal Weave who may aid the party tempo
 
 ### Traveling Merchant
 **Threat Tier:** Trivial  
-**HD Pool:** 3d6  
+**HD Pool:** 3d6s  
 **Proficiency:** 1  
 **Starting RT:** 5  
 **Armor:** None  
@@ -3931,7 +3931,7 @@ These NPCs represent inhabitants of the Mortal Weave who may aid the party tempo
 
 ### Village Blacksmith
 **Threat Tier:** Basic  
-**HD Pool:** 6d10  
+**HD Pool:** 6d10s  
 **Proficiency:** 2  
 **Starting RT:** 5  
 **Armor:** Heavy apron (1d8 temp HD)  
@@ -3963,10 +3963,10 @@ These NPCs represent inhabitants of the Mortal Weave who may aid the party tempo
 
 ### Silk Road Caravan Guard
 **Threat Tier:** Basic  
-**HD Pool:** 5d10  
+**HD Pool:** 5d10s  
 **Proficiency:** 2  
 **Starting RT:** 5  
-**Armor:** Medium armor (2d8 temp HD)  
+**Armor:** Medium armor (2d8s temp HD)  
 **Movement:** 10 yards  
 
 **Spear Thrust** (Basic, 2+)
@@ -3995,7 +3995,7 @@ These NPCs represent inhabitants of the Mortal Weave who may aid the party tempo
 
 ### Apprentice Weaver
 **Threat Tier:** Basic  
-**HD Pool:** 3d6  
+**HD Pool:** 3d6s  
 **Proficiency:** 2  
 **Starting RT:** 4  
 **Armor:** None  
@@ -4028,10 +4028,10 @@ These NPCs represent inhabitants of the Mortal Weave who may aid the party tempo
 
 ### Oathbound Squire
 **Threat Tier:** Trivial to Basic  
-**HD Pool:** 3d10  
+**HD Pool:** 3d10s  
 **Proficiency:** 1  
 **Starting RT:** 5  
-**Armor:** Light armor (2d6 temp HD)  
+**Armor:** Light armor (2d6s temp HD)  
 **Movement:** 10 yards  
 
 **Shortsword Strike** (Basic, 2+)
@@ -4055,7 +4055,7 @@ These NPCs represent inhabitants of the Mortal Weave who may aid the party tempo
 
 ### River-Kin Guide (Minor Spirit)
 **Threat Tier:** Basic  
-**HD Pool:** 4d8  
+**HD Pool:** 4d8s  
 **Proficiency:** 2  
 **Starting RT:** 3  
 **Armor:** Flowing form (cannot wear armor; ethereal)  
@@ -4094,10 +4094,10 @@ These NPCs represent inhabitants of the Mortal Weave who may aid the party tempo
 
 ### Debt Collector (Azravael's Agent)
 **Threat Tier:** Advanced  
-**HD Pool:** 8d8  
+**HD Pool:** 8d8s  
 **Proficiency:** 3  
 **Starting RT:** 3  
-**Armor:** Black enforcer's coat (2d8 temp HD)  
+**Armor:** Black enforcer's coat (2d8s temp HD)  
 **Movement:** 10 yards  
 
 **Contract Strike** (Advanced, 3+)
