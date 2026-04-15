@@ -131,8 +131,8 @@ You are purpose made manifest in combat. Your weapon is an extension of your oat
 - **Unshakeable:** Your Composure dice defend on 4+ instead of 5+ (you don't flinch)
 - *The Combatant doesn't argue—they project. Their presence IS the argument.*
 
-**War Cry: Rally** (Advanced, 3+)
-- Required: 2 successes
+**War Cry: Rally** (Basic, 2+)
+- Required: 1 success
 - Range: 30 yards, one ally who can hear you
 - Chosen ally gains +1d6 to their next action (doesn't burn HD)
 - Usable Proficiency times per short rest
@@ -154,8 +154,8 @@ Gain Heavy Armor Proficiency (2d10s). **Way Node.**
 - If target opposes your sworn purpose (GM judges): contest at disadvantage
 - Usable Proficiency times per short rest
 
-**War Cry: Hold the Line** (Expert, 4+)
-- Required: 3 successes
+**War Cry: Hold the Line** (Advanced, 3+)
+- Required: 2 successes
 - 10-yard radius centered on you, Proficiency rounds
 - Enemies moving through must contest or movement halved
 - Allies in zone gain +1d6 to first defense roll each round (doesn't burn HD)
@@ -736,8 +736,8 @@ You decide where the battle happens, what it costs to get there, and who suffers
 - **Silent Pressure:** You may take Assert stance without speaking—your posture, gaze, and presence do the work (opponents find this deeply unsettling)
 - *The Ranger watches. They've tracked prey that was smarter than most nobles. Reading a courtier is simple.*
 
-**Mark Prey** (Advanced, 3+)
-- Required: 2 successes
+**Mark Prey** (Basic, 2+)
+- Required: 1 success
 - 60 yards, one creature; lasts until they drop to 0 HD or you mark another
 - +1d6 to track, attack, or contest marked creature (doesn't burn HD)
 - Sense marked creature's approximate HD (full/half/quarter/low)
@@ -759,8 +759,8 @@ Gain +1d6 to initiative rolls (doesn't burn HD). **Way Node.**
 
 **Level 3: Wild's Judgment**
 
-**Killing Ground** (Expert, 4+)
-- Required: 3 successes
+**Killing Ground** (Advanced, 3+)
+- Required: 2 successes
 - 30-yard radius you can see, Proficiency rounds
 - Choose ONE effect: Mire (difficult terrain), Cover (+1 defense d6 for allies), Snare (enemies contest or restrained), Marked (know all HD in zone), or Hazard (1 HD damage entering/starting turn)
 - Usable once per short rest

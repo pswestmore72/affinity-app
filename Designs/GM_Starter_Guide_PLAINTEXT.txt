@@ -49,13 +49,13 @@ FOR LEVEL 1 PARTIES (3-5 Players)
 ENEMY ACTION BUDGET
 
 [TABLE]
-┌──────────┬─────────┬──────────┬─────────────┐
+┌──────────┬─────────┬──────────┬──────────1───┐
 │ Enemy    │ Actions │ HD Range │ Starting RT │
 │ Tier     │         │          │             │
 ├──────────┼─────────┼──────────┼─────────────┤
-│ Trivial  │ 1       │ 1-2 HD   │ 2           │
-│ Basic    │ 1-2     │ 3-5 HD   │ 2           │
-│ Advanced │ 2       │ 6-10 HD  │ 2           │
+│ Trivial  │ 1       │ 1-2 HD   │ 5           │
+│ Basic    │ 1-2     │ 3-5 HD   │ 5           │
+│ Advanced │ 2       │ 6-10 HD  │ 4           │
 └──────────┴─────────┴──────────┴─────────────┘
 
 At Level 1, avoid Expert+ enemies unless you want a very hard fight.
@@ -72,7 +72,7 @@ Use this template to create quick enemies:
 NAME: [Creature type]
 HD: [dice]         (Trivial: 1-2, Basic: 3-5)
 PROF: 1-2          (use 1 for Level 1 content)
-RESOLVE THRESHOLD: 2 (starts at 2, escalates on failed checks)
+RESOLVE THRESHOLD: Varies by tier (Trivial/Basic: 5, Advanced: 4, Expert: 3)
 ARMOR: [if any]    (2d6s light, 2d8s medium)
 MOVEMENT: 10 yards
 
@@ -88,18 +88,18 @@ SPECIAL: [One unique ability or tactic]
 EXAMPLE ENEMIES FOR LEVEL 1
 
 Goblin Skulker (Trivial)
-HD: 2d6s, Prof: 1, RT: 2
+HD: 2d6s, Prof: 1, RT: 5
 Attack: Rusty Dagger (2d6, 1 HD damage)
-Special: Flees at 1 HD remaining or RT 5+
+Special: Flees at 1 HD remaining or RT 6 (already fragile)
 
 Orc Raider (Basic)
-HD: 4d8s, Prof: 2, RT: 2
+HD: 4d8s, Prof: 2, RT: 5
 Armor: 2d6s (hide scraps)
 Attack: Greataxe (3d6, 2 HD damage)
 Special: +1d6 when below half HD (rage)
 
 Animated Statue (Basic)
-HD: 5d10s, Prof: 1, RT: 2
+HD: 5d10s, Prof: 1, RT: 5
 Armor: 2d10s (stone body)
 Attack: Stone Fist (2d6, 2 HD damage)
 Special: Immune to fear/charm
@@ -152,6 +152,42 @@ AT 0 BODY HD
 • At 0 HD AND Collapse (fail at RT 6) = dead
 
 For Session 1: If a player hits 0 HD, let them make one Resolve check, then have allies stabilize them or enemies shift target. Real death can come later when stakes are clear.
+
+────────◇────────
+RESOLVE ESCALATION (When to Call for Checks)
+────────◇────────
+
+Players make Resolve checks when ANY of these happen (max 1 check per round):
+
+AT LEVEL 1 (Common Triggers):
+• Lose ≥ 2 HD in a single round (Proficiency + 1 = 1 + 1 = 2)
+• Reduced to 0 HD
+• At 0 HD and take any hit
+• Use maximum exertion in one round (1 exertion die at Level 1)
+
+HIGHER LEVELS (Future Triggers):
+• Fail an Expert+ tier action
+• Maintain concentration on a spell and take damage
+• Certain enemy abilities force checks (fear effects, psychic attacks)
+
+RESULTS:
+• Roll 1d6 ≥ current RT = Hold (no change)
+• Roll below RT = RT increases by 1
+
+STAGE PENALTIES:
+RT 2: No penalties
+RT 3: Cannot use Expert+ actions
+RT 4: Cannot use Expert+ actions, -1 defense die
+RT 5: Cannot use Expert+ actions, Advanced+ needs +1 success, -1 defense die
+RT 6: Cannot use Expert+ actions, Advanced+ needs +1 success, -2 defense dice
+
+WHY THIS MATTERS AT LEVEL 1:
+Even though triggers are less common at Level 1 (smaller HD pools, Basic tier actions), players WILL face Resolve checks when they:
+• Push hard with exertion every round
+• Take multiple hits in quick succession
+• Get reduced to 0 HD
+
+Watch for players hitting 2+ HD loss in one round—that's your trigger!
 
 ────────────────────────────────────────────────────────────────────────
 PAGE 4 - SKILL CHALLENGES
@@ -740,17 +776,22 @@ PAGE 15 - QUICK REFERENCE
 GM QUICK REFERENCE
 ────────◇────────
 
-SUCCESS THRESHOLDS
+ACTION ROLL SUCCESS THRESHOLDS
 
 [TABLE]
-┌──────────┬──────────┐
-│ Roll     │ Result   │
-├──────────┼──────────┤
-│ 1-4      │ Fail     │
-│ 5        │ 1 success│
-│ 6        │ 2 success│
-│ 1 (exert)│ Lose 1 HD│
-└──────────┴──────────┘
+┌──────────┬─────────────────────────────────┐
+│ Tier     │ Success Counting                │
+├──────────┼─────────────────────────────────┤
+│ Basic    │ 2,3,4,5 = 1 success; 6 = 2     │
+│ Advanced │ 3,4,5 = 1 success; 6 = 2       │
+│ Expert   │ 4,5 = 1 success; 6 = 2         │
+│ Legendary│ 5 = 1 success; 6 = 2           │
+│ Ultimate │ 6 = 2 successes only           │
+└──────────┴─────────────────────────────────┘
+
+EXERTION RISK: 1 rolled on exertion die = Lose 1 HD
+
+INITIATIVE: Roll 3d6, SUM the total (range 3-18)
 
 DEFENSE SUCCESS RATE
 
@@ -773,6 +814,14 @@ Defense Capacity: 1
 Actions: 2 per turn
 Movement: 10 yards
 Exertion cap: 1 per action
+
+RESOLVE CHECK TRIGGERS (Level 1)
+
+• Lose ≥ 2 HD in one round
+• Reduced to 0 HD
+• At 0 HD and take hit
+• Max exertion used (1 die at L1)
+Max 1 check per round
 
 EMERGENCY GM FIXES
 ────────◇────────
@@ -809,7 +858,7 @@ BEFORE SESSION:
 
 DURING SESSION:
 □ Explain: "No hit points—you have dice that get destroyed"
-□ Remind: "Roll d6s, 5+ is success, 6 is two"
+□ Remind: "Roll d6s. Count successes by tier (usually Basic 2+ at Level 1, and 6 = 2 successes always)."
 □ On defense: "Roll one die, 5+ saves it, otherwise lose it"
 □ Keep fights short (3-4 rounds at Level 1)
 
