@@ -86,16 +86,16 @@ You are purpose made manifest in combat. Your weapon is an extension of your oat
 
 | Level | Prof | Body HD | RT | Core Milestone | Way |
 |-------|------|---------|-----|----------------|-----|
-| 1 | 1 | 5d10 | 2 | Oath-Bound Warrior | — |
-| 2 | 1 | 7d10 | 2 | Heavy Armor | Row 1 |
-| 3 | 2 | 9d10 | 2 | Oath Enforcer | — |
-| 4 | 2 | 11d10 | 2 | Rally Upgrade | Row 2 |
-| 5 | 3 | 13d10 | 2 | Champion of Purpose | — |
-| 6 | 3 | 15d10 | 2 | Veteran's Resilience | Row 3 |
-| 7 | 4 | 17d10 | 2 | Oath Ascendant | — |
-| 8 | 4 | 19d10 | 2 | Armor Mastery | Row 4 |
-| 9 | 5 | 21d10 | 2 | Living Oath | — |
-| 10 | 5 | 23d10 | 2 | Oath Absolute | Row 5 |
+| 1 | 1 | 5d10s | 2 | Oath-Bound Warrior | — |
+| 2 | 1 | 7d10s | 2 | Heavy Armor | Row 1 |
+| 3 | 2 | 9d10s | 2 | Oath Enforcer | — |
+| 4 | 2 | 11d10s | 2 | Rally Upgrade | Row 2 |
+| 5 | 3 | 13d10s | 2 | Champion of Purpose | — |
+| 6 | 3 | 15d10s | 2 | Veteran's Resilience | Row 3 |
+| 7 | 4 | 17d10s | 2 | Oath Ascendant | — |
+| 8 | 4 | 19d10s | 2 | Armor Mastery | Row 4 |
+| 9 | 5 | 21d10s | 2 | Living Oath | — |
+| 10 | 5 | 23d10s | 2 | Oath Absolute | Row 5 |
 
 ### Core Abilities
 
@@ -106,7 +106,7 @@ You are purpose made manifest in combat. Your weapon is an extension of your oat
 - **Resolve Threshold:** 2 — *starting threshold, escalates on failed checks*
 - **Proficiency:** 1 *(Level 1-2)*
 - **Defense Capacity:** 1 *(= Proficiency)*
-- **Armor Proficiency:** Light (2d6), Medium (3d8)
+- **Armor Proficiency:** Light (2d6s), Medium (3d8s)
 - **Shield Proficiency:** Yes (1d12)
 - **Weapon Proficiency:** All weapons
 
@@ -131,8 +131,8 @@ You are purpose made manifest in combat. Your weapon is an extension of your oat
 - **Unshakeable:** Your Composure dice defend on 4+ instead of 5+ (you don't flinch)
 - *The Combatant doesn't argue—they project. Their presence IS the argument.*
 
-**War Cry: Rally** (Advanced, 3+)
-- Required: 2 successes
+**War Cry: Rally** (Basic, 2+)
+- Required: 1 success
 - Range: 30 yards, one ally who can hear you
 - Chosen ally gains +1d6 to their next action (doesn't burn HD)
 - Usable Proficiency times per short rest
@@ -140,7 +140,7 @@ You are purpose made manifest in combat. Your weapon is an extension of your oat
 ---
 
 **Level 2: Heavy Armor**
-Gain Heavy Armor Proficiency (2d10). **Way Node.**
+Gain Heavy Armor Proficiency (2d10s). **Way Node.**
 
 ---
 
@@ -154,8 +154,8 @@ Gain Heavy Armor Proficiency (2d10). **Way Node.**
 - If target opposes your sworn purpose (GM judges): contest at disadvantage
 - Usable Proficiency times per short rest
 
-**War Cry: Hold the Line** (Expert, 4+)
-- Required: 3 successes
+**War Cry: Hold the Line** (Advanced, 3+)
+- Required: 2 successes
 - 10-yard radius centered on you, Proficiency rounds
 - Enemies moving through must contest or movement halved
 - Allies in zone gain +1d6 to first defense roll each round (doesn't burn HD)
@@ -390,16 +390,16 @@ You are a relay point between the mortal and the infinite. When companions falte
 
 | Level | Prof | Body HD | RT | Core Milestone | Way |
 |-------|------|---------|-----|----------------|-----|
-| 1 | 1 | 5d8 | 2 | Conduit of Greater Will | — |
-| 2 | 1 | 7d8 | 2 | Medium Armor | Row 1 |
-| 3 | 2 | 8d8 | 2 | Avatar of Purpose | — |
-| 4 | 2 | 10d8 | 2 | Extended Range | Row 2 |
-| 5 | 3 | 12d8 | 2 | Chosen Instrument | — |
-| 6 | 3 | 13d8 | 2 | Sustained Faith | Row 3 |
-| 7 | 4 | 15d8 | 2 | Divine Ascendant | — |
-| 8 | 4 | 17d8 | 2 | Efficient Channel | Row 4 |
-| 9 | 5 | 18d8 | 2 | Voice of the Divine | — |
-| 10 | 5 | 20d8 | 2 | Avatar of the Divine | Row 5 |
+| 1 | 1 | 5d8s | 2 | Conduit of Greater Will | — |
+| 2 | 1 | 7d8s | 2 | Medium Armor | Row 1 |
+| 3 | 2 | 8d8s | 2 | Avatar of Purpose | — |
+| 4 | 2 | 10d8s | 2 | Extended Range | Row 2 |
+| 5 | 3 | 12d8s | 2 | Chosen Instrument | — |
+| 6 | 3 | 13d8s | 2 | Sustained Faith | Row 3 |
+| 7 | 4 | 15d8s | 2 | Divine Ascendant | — |
+| 8 | 4 | 17d8s | 2 | Efficient Channel | Row 4 |
+| 9 | 5 | 18d8s | 2 | Voice of the Divine | — |
+| 10 | 5 | 20d8s | 2 | Avatar of the Divine | Row 5 |
 
 ### Core Abilities
 
@@ -410,7 +410,7 @@ You are a relay point between the mortal and the infinite. When companions falte
 - **Resolve Threshold:** 2 — *starting threshold, escalates on failed checks*
 - **Proficiency:** 1 *(Level 1-2)*
 - **Defense Capacity:** 1 *(= Proficiency)*
-- **Armor Proficiency:** Light (2d6)
+- **Armor Proficiency:** Light (2d6s)
 - **Weapon Proficiency:** All weapons
 - **Prepared Spells:** Proficiency + 1
 
@@ -450,7 +450,7 @@ You are a relay point between the mortal and the infinite. When companions falte
 ---
 
 **Level 2: Medium Armor**
-Gain Medium Armor Proficiency (2d8). **Way Node.**
+Gain Medium Armor Proficiency (2d8s). **Way Node.**
 
 ---
 
@@ -697,16 +697,16 @@ You decide where the battle happens, what it costs to get there, and who suffers
 
 | Level | Prof | Body HD | RT | Core Milestone | Way |
 |-------|------|---------|-----|----------------|-----|
-| 1 | 1 | 5d8 | 2 | Wild's Arbiter | — |
-| 2 | 1 | 7d8 | 2 | Hunter's Reflexes | Row 1 |
-| 3 | 2 | 8d8 | 2 | Wild's Judgment | — |
-| 4 | 2 | 10d8 | 2 | Terrain Adaptation | Row 2 |
-| 5 | 3 | 12d8 | 2 | Apex Predator | — |
-| 6 | 3 | 13d8 | 2 | Dual Mark | Row 3 |
-| 7 | 4 | 15d8 | 2 | Nature's General | — |
-| 8 | 4 | 17d8 | 2 | Enhanced Mark | Row 4 |
-| 9 | 5 | 18d8 | 2 | Sovereign of the Wilds | — |
-| 10 | 5 | 20d8 | 2 | Voice of the Accord | Row 5 |
+| 1 | 1 | 5d8s | 2 | Wild's Arbiter | — |
+| 2 | 1 | 7d8s | 2 | Hunter's Reflexes | Row 1 |
+| 3 | 2 | 8d8s | 2 | Wild's Judgment | — |
+| 4 | 2 | 10d8s | 2 | Terrain Adaptation | Row 2 |
+| 5 | 3 | 12d8s | 2 | Apex Predator | — |
+| 6 | 3 | 13d8s | 2 | Dual Mark | Row 3 |
+| 7 | 4 | 15d8s | 2 | Nature's General | — |
+| 8 | 4 | 17d8s | 2 | Enhanced Mark | Row 4 |
+| 9 | 5 | 18d8s | 2 | Sovereign of the Wilds | — |
+| 10 | 5 | 20d8s | 2 | Voice of the Accord | Row 5 |
 
 ### Core Abilities
 
@@ -717,7 +717,7 @@ You decide where the battle happens, what it costs to get there, and who suffers
 - **Resolve Threshold:** 2 — *starting threshold, escalates on failed checks*
 - **Proficiency:** 1 *(Level 1-2)*
 - **Defense Capacity:** 1 *(= Proficiency)*
-- **Armor Proficiency:** Light (2d6), Medium (3d8)
+- **Armor Proficiency:** Light (2d6s), Medium (3d8s)
 - **Weapon Proficiency:** All weapons
 - **Prepared Spells:** Proficiency + 1
 
@@ -736,8 +736,8 @@ You decide where the battle happens, what it costs to get there, and who suffers
 - **Silent Pressure:** You may take Assert stance without speaking—your posture, gaze, and presence do the work (opponents find this deeply unsettling)
 - *The Ranger watches. They've tracked prey that was smarter than most nobles. Reading a courtier is simple.*
 
-**Mark Prey** (Advanced, 3+)
-- Required: 2 successes
+**Mark Prey** (Basic, 2+)
+- Required: 1 success
 - 60 yards, one creature; lasts until they drop to 0 HD or you mark another
 - +1d6 to track, attack, or contest marked creature (doesn't burn HD)
 - Sense marked creature's approximate HD (full/half/quarter/low)
@@ -759,8 +759,8 @@ Gain +1d6 to initiative rolls (doesn't burn HD). **Way Node.**
 
 **Level 3: Wild's Judgment**
 
-**Killing Ground** (Expert, 4+)
-- Required: 3 successes
+**Killing Ground** (Advanced, 3+)
+- Required: 2 successes
 - 30-yard radius you can see, Proficiency rounds
 - Choose ONE effect: Mire (difficult terrain), Cover (+1 defense d6 for allies), Snare (enemies contest or restrained), Marked (know all HD in zone), or Hazard (1 HD damage entering/starting turn)
 - Usable once per short rest
@@ -974,16 +974,16 @@ You see patterns others miss. In combat, you identify weaknesses before striking
 
 | Level | Prof | Body HD | RT | Core Milestone | Way |
 |-------|------|---------|-----|----------------|-----|
-| 1 | 1 | 5d8 | 2 | Pattern Reader | — |
-| 2 | 1 | 7d8 | 2 | Applied Knowledge | Row 1 |
-| 3 | 2 | 8d8 | 2 | Inevitable Outcome | — |
-| 4 | 2 | 10d8 | 2 | Multi-Analysis | Row 2 |
-| 5 | 3 | 12d8 | 2 | Architect of Inevitability | — |
-| 6 | 3 | 13d8 | 2 | Predictive Defense | Row 3 |
-| 7 | 4 | 15d8 | 2 | Grand Architect | — |
-| 8 | 4 | 17d8 | 2 | Instant Analysis | Row 4 |
-| 9 | 5 | 18d8 | 2 | Inevitable Architect | — |
-| 10 | 5 | 20d8 | 2 | Omniscient Architect | Row 5 |
+| 1 | 1 | 5d8s | 2 | Pattern Reader | — |
+| 2 | 1 | 7d8s | 2 | Applied Knowledge | Row 1 |
+| 3 | 2 | 8d8s | 2 | Inevitable Outcome | — |
+| 4 | 2 | 10d8s | 2 | Multi-Analysis | Row 2 |
+| 5 | 3 | 12d8s | 2 | Architect of Inevitability | — |
+| 6 | 3 | 13d8s | 2 | Predictive Defense | Row 3 |
+| 7 | 4 | 15d8s | 2 | Grand Architect | — |
+| 8 | 4 | 17d8s | 2 | Instant Analysis | Row 4 |
+| 9 | 5 | 18d8s | 2 | Inevitable Architect | — |
+| 10 | 5 | 20d8s | 2 | Omniscient Architect | Row 5 |
 
 ### Core Abilities
 
@@ -994,7 +994,7 @@ You see patterns others miss. In combat, you identify weaknesses before striking
 - **Resolve Threshold:** 2 — *starting threshold, escalates on failed checks*
 - **Proficiency:** 1 *(Level 1-2)*
 - **Defense Capacity:** 1 *(= Proficiency)*
-- **Armor Proficiency:** Light (2d6)
+- **Armor Proficiency:** Light (2d6s)
 - **Weapon Proficiency:** All weapons
 - **Prepared Spells:** Proficiency + 1
 
@@ -1238,16 +1238,16 @@ You see the code of reality. While others stumble in darkness, you read the thre
 
 | Level | Prof | Body HD | RT | Core Milestone | Way |
 |-------|------|---------|-----|----------------|-----|
-| 1 | 1 | 4d6 | 2 | Weave Reader | — |
-| 2 | 1 | 5d6 | 2 | Efficient Advanced | Row 1 |
-| 3 | 2 | 6d6 | 2 | Pattern Mastery | — |
-| 4 | 2 | 8d6 | 2 | Greater Recovery | Row 2 |
-| 5 | 3 | 9d6 | 2 | Thread Master | — |
-| 6 | 3 | 11d6 | 2 | Reality Anchor | Row 3 |
-| 7 | 4 | 12d6 | 2 | Reality Architect | — |
-| 8 | 4 | 14d6 | 2 | Efficient Expert | Row 4 |
-| 9 | 5 | 15d6 | 2 | Weave Ascendant | — |
-| 10 | 5 | 17d6 | 2 | Sovereign of the Weave | Row 5 |
+| 1 | 1 | 4d6s | 2 | Weave Reader | — |
+| 2 | 1 | 5d6s | 2 | Efficient Advanced | Row 1 |
+| 3 | 2 | 6d6s | 2 | Pattern Mastery | — |
+| 4 | 2 | 8d6s | 2 | Greater Recovery | Row 2 |
+| 5 | 3 | 9d6s | 2 | Thread Master | — |
+| 6 | 3 | 11d6s | 2 | Reality Anchor | Row 3 |
+| 7 | 4 | 12d6s | 2 | Reality Architect | — |
+| 8 | 4 | 14d6s | 2 | Efficient Expert | Row 4 |
+| 9 | 5 | 15d6s | 2 | Weave Ascendant | — |
+| 10 | 5 | 17d6s | 2 | Sovereign of the Weave | Row 5 |
 
 ### Core Abilities
 
@@ -1496,16 +1496,16 @@ You exist between states. While others are fully here or fully there, you walk b
 
 | Level | Prof | Body HD | RT | Core Milestone | Way |
 |-------|------|---------|-----|----------------|-----|
-| 1 | 1 | 4d6 | 2 | Threshold Walker | — |
-| 2 | 1 | 5d6 | 2 | Extended Communion | Row 1 |
-| 3 | 2 | 6d6 | 2 | Spirit Manifestation | — |
-| 4 | 2 | 8d6 | 2 | Dual Communion | Row 2 |
-| 5 | 3 | 9d6 | 2 | Walker Between Worlds | — |
-| 6 | 3 | 11d6 | 2 | Spirit Defense | Row 3 |
-| 7 | 4 | 12d6 | 2 | Great Spirit | — |
-| 8 | 4 | 14d6 | 2 | Spirit Fortification | Row 4 |
-| 9 | 5 | 15d6 | 2 | Accord Incarnate | — |
-| 10 | 5 | 17d6 | 2 | One with All | Row 5 |
+| 1 | 1 | 4d6s | 2 | Threshold Walker | — |
+| 2 | 1 | 5d6s | 2 | Extended Communion | Row 1 |
+| 3 | 2 | 6d6s | 2 | Spirit Manifestation | — |
+| 4 | 2 | 8d6s | 2 | Dual Communion | Row 2 |
+| 5 | 3 | 9d6s | 2 | Walker Between Worlds | — |
+| 6 | 3 | 11d6s | 2 | Spirit Defense | Row 3 |
+| 7 | 4 | 12d6s | 2 | Great Spirit | — |
+| 8 | 4 | 14d6s | 2 | Spirit Fortification | Row 4 |
+| 9 | 5 | 15d6s | 2 | Accord Incarnate | — |
+| 10 | 5 | 17d6s | 2 | One with All | Row 5 |
 
 ### Core Abilities
 
@@ -1516,7 +1516,7 @@ You exist between states. While others are fully here or fully there, you walk b
 - **Resolve Threshold:** 2 — *starting threshold, escalates on failed checks*
 - **Proficiency:** 1 *(Level 1-2)*
 - **Defense Capacity:** 1 *(= Proficiency)*
-- **Armor Proficiency:** Light (2d6)
+- **Armor Proficiency:** Light (2d6s)
 - **Weapon Proficiency:** All weapons
 - **Prepared Spells:** Proficiency + 1
 
@@ -1791,16 +1791,16 @@ You are a closed system, perfectly efficient. Every point of HD, every die of Ex
 
 | Level | Prof | Body HD | RT | Core Milestone | Way |
 |-------|------|---------|-----|----------------|-----|
-| 1 | 1 | 5d10 | 2 | Internal Economy | — |
-| 2 | 1 | 7d10 | 2 | Disciplined Form | Row 1 |
-| 3 | 2 | 9d10 | 2 | Threshold Mastery | — |
-| 4 | 2 | 11d10 | 2 | Efficient Rest | Row 2 |
-| 5 | 3 | 13d10 | 2 | Perfect Control | — |
-| 6 | 3 | 15d10 | 2 | Iron Will | Row 3 |
-| 7 | 4 | 17d10 | 2 | Transcendent Economy | — |
-| 8 | 4 | 19d10 | 2 | Superior Conversion | Row 4 |
-| 9 | 5 | 21d10 | 2 | Absolute Mastery | — |
-| 10 | 5 | 23d10 | 2 | Sovereign Absolute | Row 5 |
+| 1 | 1 | 5d10s | 2 | Internal Economy | — |
+| 2 | 1 | 7d10s | 2 | Disciplined Form | Row 1 |
+| 3 | 2 | 9d10s | 2 | Threshold Mastery | — |
+| 4 | 2 | 11d10s | 2 | Efficient Rest | Row 2 |
+| 5 | 3 | 13d10s | 2 | Perfect Control | — |
+| 6 | 3 | 15d10s | 2 | Iron Will | Row 3 |
+| 7 | 4 | 17d10s | 2 | Transcendent Economy | — |
+| 8 | 4 | 19d10s | 2 | Superior Conversion | Row 4 |
+| 9 | 5 | 21d10s | 2 | Absolute Mastery | — |
+| 10 | 5 | 23d10s | 2 | Sovereign Absolute | Row 5 |
 
 ### Core Abilities
 
@@ -1811,7 +1811,7 @@ You are a closed system, perfectly efficient. Every point of HD, every die of Ex
 - **Resolve Threshold:** 2 — *starting threshold, escalates on failed checks*
 - **Proficiency:** 1 *(Level 1-2)*
 - **Defense Capacity:** 1 *(= Proficiency)*
-- **Armor Proficiency:** Light (2d6), Medium (3d8)
+- **Armor Proficiency:** Light (2d6s), Medium (3d8s)
 - **Weapon Proficiency:** All weapons
 
 **Centered Strike** (Basic, 2+)

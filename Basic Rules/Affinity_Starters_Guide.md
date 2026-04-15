@@ -10,8 +10,8 @@
 **There are NO hit points.** You have **Hit Dice**—actual individual dice that exist or get destroyed.
 
 ```
-You have 5d10 body dice = five separate d10 dice
-Take 2 damage, fail defense = lose 2 dice → now you have 3d10
+You have 5d10s body dice = five separate d10 dice
+Take 2 damage, fail defense = lose 2 dice → now you have 3d10s
 You don't subtract points. You lose DICE.
 ```
 
@@ -57,7 +57,7 @@ When you defend, roll **your actual armor or body dice** (d6, d8, d10, d12, etc.
 - d10: 60% chance (5-10)
 - d12: 67% chance (5-12)
 
-**Example:** You have 2d8 armor. Take 2 damage, roll both → 7, 3 → One survives (7 ≥ 5), one destroyed (3 < 5). You now have 1d8 armor.
+**Example:** You have 2d8s armor. Take 2 damage, roll both → 7, 3 → One survives (7 ≥ 5), one destroyed (3 < 5). You now have 1d8 armor.
 
 ---
 
@@ -151,8 +151,8 @@ When you take damage:
 Your character sheet shows dice pools:
 
 ```
-Body HD:   ⬡⬡⬡⬡⬡  (5d10 body dice)
-Armor:    ⬡⬡       (2d8 armor dice)
+Body HD:   ⬡⬡⬡⬡⬡  (5d10s body dice)
+Armor:    ⬡⬡       (2d8s armor dice)
 ```
 
 When you lose dice, cross them off. When they're gone, they're gone.

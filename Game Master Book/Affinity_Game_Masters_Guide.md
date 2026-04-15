@@ -472,11 +472,11 @@ These create dynamic encounters without exertion micromanagement.
 
 **Example:**
 ```
-Verdant Guardian (Prof 3, Armor 2d10 temp HD) takes 4 HD fire damage:
+Verdant Guardian (Prof 3, Armor 2d10s temp HD) takes 4 HD fire damage:
 - Defense Capacity: 3 dice
 - Rolls: 2d10 (armor layer)
 - Result: 7, 2 = 1 success (meets 5+ threshold)
-- Outcome: Defense succeeds! Armor depletes (loses 2d10 temp HD), permanent HD untouched
+- Outcome: Defense succeeds! Armor depletes (loses 2d10s temp HD), permanent HD untouched
 ```
 
 ---

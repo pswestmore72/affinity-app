@@ -27,8 +27,8 @@ There are NO hit points.
 You have Hit Dice — actual individual dice that exist or get destroyed.
 
 Example:
-• You have 5d10 body dice = five separate d10 dice
-• Take 1 damage, fail defense = lose 1 die → now you have 4d10
+• You have 5d10s body dice = five separate d10 dice
+• Take 1 damage, fail defense = lose 1 die → now you have 4d10s
 • You don't subtract points. You lose DICE.
 
 When your dice run out, you face death. This is the core of Affinity.
@@ -92,7 +92,7 @@ d12 67%  — Shields & magic. Hard to break.
 Your armor is your lifeline. Invest wisely.
 · · ─────────────────────── · ·
 
-Example: You have 2d8 armor. Take 2 damage, roll both → 7, 3 → One survives (7 ≥ 5), one destroyed (3 < 5). You now have 1d8 armor.
+Example: You have 2d8s armor. Take 2 damage, roll both → 7, 3 → One survives (7 ≥ 5), one destroyed (3 < 5). You now have 1d8 armor.
 
 
 ────────────────────────────────────────────────────────────────────────
@@ -185,17 +185,19 @@ AT LEVEL 1
 • Any remaining damage = auto-lose dice from your pool.
 
 Example:
-• Take 3 HD damage, Defense Capacity 1
-• Roll 1d8 (armor) → 6 = success, cancel 1 damage, armor survives
-• 2 HD remaining, no rolls left → auto-fail → lose 2 armor dice
-• If armor runs out, start losing body HD
+• Take 3 HD damage, Defense Capacity 1, Start: 2d8s armor
+• Roll 1d8 (armor) → 6 = success, cancel 1 damage, armor still 2d8s
+• 2 HD remaining, no rolls left → auto-fail each:
+  - 1st HD: lose 1 armor die (2d8s → 1d8)
+  - 2nd HD: lose 1 armor die (1d8 → 0, armor gone)
+• If more damage remains, start losing body HD
 
 HIT DICE TRACKING
 
 Your character sheet shows dice pools:
 
-Body HD:  ⬡ ⬡ ⬡ ⬡ ⬡  (5d10 body dice)
-Armor:    ⬡ ⬡         (2d8 armor dice)
+Body HD:  ⬡ ⬡ ⬡ ⬡ ⬡  (5d10s body dice)
+Armor:    ⬡ ⬡         (2d8s armor dice)
 
 When you lose dice, cross them off. When they're gone, they're gone.
 
@@ -208,29 +210,35 @@ PAGE 5 - RESOLVE & REST
 RESOLVE (Mental Fortitude)
 ────────◇────────
 
-Everyone starts at Resolve 5. It rarely drops at Level 1.
+Everyone starts at Resolve Threshold 2 (you need 2+ on 1d6 to hold steady). It rarely escalates at Level 1.
 
-When Resolve drops (rare at L1):
-• Taking large damage amounts in one round
+When your Resolve Threshold increases (rare at L1):
+• Taking massive damage in one round
 • Using maximum exertion repeatedly
-• Failing difficult actions with consequences
+• Failing difficult actions
+
+Resolve Check: Roll 1d6 against your current Resolve Threshold.
+• Roll at or above RT = You hold (no change)
+• Roll below RT = RT increases by 1 (you fall one stage)
+
+Resolve Stages: RT 2 (Full Strength) → RT 3 (Pressured) → RT 4 (Shaken) → RT 5 (Weakened) → RT 6 (Staggering) → Collapse
 
 Don't worry about Resolve yet. Your GM will tell you when to check.
 
-At 0 Body HD AND 0 Resolve = death. Until then, you can be saved.
+At 0 Body HD AND Collapse (fail at RT 6) = death. Until then, you can be saved.
 
 ────────◇────────
 RESTING
 ────────◇────────
 
 Rest (30 min - 8 hours, threatened):
-• Regain 1 HD (at Level 1)
-• Regain 1 Resolve
+• Regain Proficiency HD (1 at Level 1)
+• Lower Resolve Threshold by 1 (minimum 2)
 • Max 2 rests per day
 
 Recover (6+ hours, safe place):
 • Regain ALL HD
-• Regain ALL Resolve
+• Reset Resolve Threshold to 2
 • Restore armor
 
 ────────────────────────────────────────────────────────────────────────
@@ -260,17 +268,26 @@ Your class determines how tough you are and what you're good at.
 │            │         │ reality is your plaything.           │
 └────────────┴─────────┴──────────────────────────────────────┘
 
+BETA PLAYTEST SCOPE: This starter guide includes Combatant, Ranger, and Weaver. Full release includes all seven core classes.
+
+THE OTHER CLASSES (Coming in Full Release)
+
+• Priest (d8) — Channel divine will. Heal the broken, smite the profane.
+• Scholar (d6) — Knowledge is the deadliest weapon. Outwit what others must outfight.
+• Shaman (d8) — Walk between worlds. Command spirits and primal forces.
+• Sovereign (d8) — Lead from the front. Your presence turns rabble into armies.
+
 AT LEVEL 1, YOU HAVE:
 
-[TABLE]
-┌─────────────────┬─────────────┬─────────┬──────┐
-│ Stat            │ d10 Classes │ d8      │ d6   │
-├─────────────────┼─────────────┼─────────┼──────┤
-│ Body HD         │ 5d10        │ 5d8     │ 4d6  │
-│ Proficiency     │ 1           │ 1       │ 1    │
-│ Resolve         │ 5           │ 5       │ 5    │
-│ Defense Cap     │ 1           │ 1       │ 1    │
-└─────────────────┴─────────────┴─────────┴──────┘
+BODY HIT DICE BY CLASS
+• Combatant (d10): 5d10s
+• Ranger (d8): 5d8s
+• Weaver (d6): 4d6s
+
+UNIVERSAL LEVEL 1 STATS
+Proficiency: 1
+Resolve Threshold: 2
+Defense Capacity: 1
 
 Write down your class, your Hit Dice, and move to Step 2.
 
@@ -294,7 +311,7 @@ Weapon Strike (Basic, 2+)
 • Damage: Weapon base + extra successes (max +Prof)
 
 Rally Cry (Basic, 2+)
-• Required: 1 successes
+• Required: 1 success
 • 30 yards, choose one ally
 • Target gains +1d6 on their next action (doesn't burn HD on 1s)
 • Usable Proficiency times per short rest
@@ -312,19 +329,21 @@ Oath-Driven Strike (Advanced, 3+)
 • Usable Proficiency times per short rest
 
 ARMOR & WEAPONS
-• Light armor (2d6)
-• Medium armor (2d8)
+• Light armor (2d6s)
+• Medium armor (2d8s)
 • All weapons
 
 WAY OF THE BLADE (Level 2)
-Choose this Way at character creation. You gain your first node at Level 2.
+
+Ways are class-specific paths that shape how you fight and grow. Choose one at character creation; you unlock your first node at Level 2.
 
 Justice, enforcement, righteous consequence.
 
 Row 1: Honed Edge — Weapon Strike deals +1 HD against targets at half HD or less.
 
 PATH: WAR-TRAINED
-Your Primary Feat, chosen at Level 1.
+
+Paths are character-defining customizations available to all classes. Your Primary Path (chosen at Level 1) grants immediate power and scales with Proficiency.
 
 You have extensive martial training and battlefield expertise.
 
@@ -380,19 +399,21 @@ Culling Strike (Advanced, 3+)
 • Usable Proficiency times per short rest
 
 ARMOR & WEAPONS
-• Light armor (2d6)
-• Medium armor (2d8)
+• Light armor (2d6s)
+• Medium armor (2d8s)
 • All weapons, favors ranged/versatile
 
 WAY OF THORN (Level 2)
-Choose this Way at character creation. You gain your first node at Level 2.
+
+Ways are class-specific paths that shape how you fight and grow. Choose one at character creation; you unlock your first node at Level 2.
 
 Predation, competition, ambush mastery.
 
 Row 1: Predator's Patience — From concealment or height, +2 HD damage instead of +1 (Hunter's Strike upgrade).
 
 PATH: WILD-TOUCHED
-Your Primary Feat, chosen at Level 1.
+
+Paths are character-defining customizations available to all classes. Your Primary Path (chosen at Level 1) grants immediate power and scales with Proficiency.
 
 You have a deep connection to nature and beasts.
 
@@ -424,7 +445,7 @@ Spell Strike (Basic-Expert, varies)
 • Prepared Spells: Proficiency + 1 (2 at Level 1)
 • Ritual Casting: Any Arcane spell, even if not known
 
-Weave Sight (Advanced, 3+)
+Weave Sight (Basic, 2+)
 • Required: 1 success
 • Duration: Proficiency × 10 minutes
 • See magical auras, concentrations, effects within 60 yards
@@ -440,25 +461,29 @@ Arcane Recovery (Passive)
 • Meditation channels ambient magic to restore vitality
 
 ARMOR & WEAPONS
-• No armor proficiency (can't wear armor effectively)
+• Light armor (2d6s) — doesn't start with any, but can wear if acquired
 • All weapons (rarely used)
 
 STARTING SPELLS (Choose 3 from Arcane list below)
-• Magic Missile (Basic, 2+) — 30 yards, auto-hit, 1 HD force
-• Flame Bolt (Basic, 2+) — 60 yards, 2 HD fire
-• Shield Ward (Basic, 2+) — Self, next attack -1d6, reaction
-• Mage Armor (Basic, 2+) — Self, 8 hours, grants 2d6 armor
-• Detect Magic (Basic, 2+) — 30 yards, sense magic for 10 min
+• Curator's Bolt (Basic, 2+) — 30 yards, 1 HD force damage
+• Read the Weave (Basic, 2+) — 10 yards, see magical auras
+• Arcane Ward (Basic, 2+) — 30 yards, +1d6 to next defense roll
+• Magical Armor (Basic, Ritual) — 30 yards, grants 2d12s magical armor
+• Message (Basic, 2+) — 1 mile, send short message to known creature
+• Comprehend Script (Basic, 2+) — Touch, read one page in any language
+• Catalogue (Basic, 2+) — Sight, memorize one page/map/image perfectly
 
 WAY OF UNLEASHED FORCE (Level 2)
-Choose this Way at character creation. You gain your first node at Level 2.
+
+Ways are class-specific paths that shape how you fight and grow. Choose one at character creation; you unlock your first node at Level 2.
 
 Evocation mastery, raw magical power.
 
 Row 1: Empowered Cantrips — Basic tier damage spells deal +1 HD.
 
 PATH: SPELL-TOUCHED
-Your Primary Feat, chosen at Level 1.
+
+Paths are character-defining customizations available to all classes. Your Primary Path (chosen at Level 1) grants immediate power and scales with Proficiency.
 
 Magic flows through you more readily than most.
 
@@ -494,8 +519,8 @@ ARMOR
 ┌──────────────┬──────────────┬─────────────────────────┐
 │ Type         │ Defense Dice │ Who Uses It             │
 ├──────────────┼──────────────┼─────────────────────────┤
-│ Light        │ 2d6          │ Everyone can wear       │
-│ Medium       │ 2d8          │ Combatant, Ranger       │
+│ Light        │ 2d6s         │ Everyone can wear       │
+│ Medium       │ 2d8s         │ Combatant, Ranger       │
 │ Shield       │ +1d12        │ Anyone proficient       │
 └──────────────┴──────────────┴─────────────────────────┘
 
@@ -510,20 +535,21 @@ Actions per turn: 2
 Exertion cap (per action): 1 extra die
 Defense rolls (per attack): 1
 Movement: 10 yards
-Basic attack threshold: 2+ (need 1 success)
 
-ROLL RESULTS
+ACTION ROLLS (Basic Tier - Most Common at L1)
 
-1-4: No success
-5: 1 success
-6: 2 successes
-1 on exertion die: Lose 1 HD
+Roll 1d6 per Proficiency + exertion dice, count successes:
+• 1: No success (if exertion die: lose 1 HD)
+• 2, 3, 4, 5: 1 success each
+• 6: 2 successes
 
-ACTION TIERS
+Advanced Tier (3+): Only 3, 4, 5 = 1 success; 6 = 2
 
-Basic (2+): Available at Level 1
-Advanced (3+): Available at Level 1 (harder)
-Expert+ (4+, 5+, 6): Not available at Level 1
+DEFENSE ROLLS (Armor/Body Dice)
+
+Roll your defense dice (d4, d6, d8, d10, d12), need 5+:
+• 1-4: Die destroyed
+• 5+: Die survives, 1 damage cancelled
 
 ────────◇────────
 
@@ -535,7 +561,7 @@ That's everything you need. When in doubt:
 
 1. Tell the GM what you want to do
 2. Roll your d6s
-3. Count 5s and 6s
+3. Count successes using the action tier (usually 2+ at Level 1)
 4. The GM tells you what happens
 
 Welcome to Affinity. May your dice roll high.
