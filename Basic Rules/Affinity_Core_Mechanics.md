@@ -852,7 +852,10 @@ Combatant at 8 HD, Resolve Threshold 6 (Cracking)
 ```
 
 **2. Dying (0 HD, but not yet Collapsed)**
+- When you reach 0 HD, you immediately make a **Resolve check** (roll 1d6 against your current Resolve Threshold)
 - You are still conscious but **limited to 1 action per turn** (body is breaking)
+- You remain in the scene but **cannot take further HD damage**
+- Each time you are hit while at 0 HD, make another Resolve check
 - Make a Resolve check at the end of each round using your current Resolve Threshold:
   - **Roll below your Resolve Threshold:** Threshold increases by 1 (spiral tightens)
   - **Roll at or above your Resolve Threshold:** Hold (buying time)
@@ -1142,28 +1145,6 @@ Level 5 Combatant (d10 HD, Proficiency 3, wearing Heavy Armor 2d10s + Shield 1d1
 - **Recover (6+ hours, safe):** Armor layer fully restored
 - **Rest with Craft/Mend abilities:** Can restore armor layer
 - Without repair abilities: Armor stays depleted until Recover
-
----
-
-## Death & Dying
-
-**When you reach 0 HD:**
-- You immediately make a **Resolve check** (roll 1d6 against your Resolve Threshold)
-- If you fail (roll below threshold), your Resolve Threshold increases by 1
-- While at 0 HD, you remain in the scene but cannot take further HD damage
-- Each time you're hit while at 0 HD, make another Resolve check
-
-**When you Collapse (fail at Resolve Threshold 6):**
-- You fall unconscious or are otherwise removed from the scene
-- You are dying, captured, or at the mercy of events
-- Collapsing while at 0 HD = death
-
-**Stabilization:**
-- Allies can attempt to stabilize you using Medicine or healing abilities
-- **Stabilize** (Basic 2+, Req 2): Target automatically passes their next Resolve check this round
-- Healing that restores HD brings you above 0 HD, ending the immediate death spiral
-
-**The Resolve system ensures death is dramatic but not instant—giving allies time to rescue fallen companions.**
 
 ---
 
