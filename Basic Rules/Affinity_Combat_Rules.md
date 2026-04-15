@@ -35,16 +35,16 @@ Once established, initiative order remains constant for the entire combat unless
 
 **Action Tier Restrictions:**
 - **Only 1 action may be Expert tier or higher** per turn
-- Once you attempt an Expert/Legendary/Ultimate/Mythical action (success or failure), remaining actions must be Basic or Advanced tier
-- You may take 2 Basic actions, 2 Advanced actions, or 1 Basic + 1 Advanced in any combination
-- You may combine 1 Expert+ action with 1 Basic/Advanced action
+- Once you attempt an Expert or Legendary action (success or failure), remaining actions must be Basic tier
+- You may take 2 Basic actions
+- You may combine 1 Expert+ action with 1 Basic action
 
 **Example Scenarios:**
 ```
 ✅ ALLOWED:
 - Attack (Basic) + Attack (Basic)
-- Spell (Advanced) + Defend (Basic)
-- Ultimate Spell (Legendary) + Healing Touch (Basic)
+- Spell (Basic) + Defend (Basic)
+- Legendary Spell + Healing Touch (Basic)
 
 ❌ NOT ALLOWED:
 - Fireball (Expert) + Teleport (Expert)
@@ -67,7 +67,7 @@ High-tier actions demand intense focus and exertion. You cannot maintain that le
 2. **Before Your Initiative:** If you have not yet acted in the current round, you may use triggered actions when their trigger occurs
    - This uses one of your 2 actions for the turn
    - When your initiative comes up, you have 1 fewer action available
-   - Subject to tier restrictions (if you use an Expert reaction, your turn actions must be Basic/Advanced)
+   - Subject to tier restrictions (if you use an Expert reaction, your turn actions must be Basic)
 
 3. **After Your Initiative:** If you've already acted this round, you cannot use triggered actions (unless an ability specifically states otherwise)
 
@@ -77,7 +77,7 @@ Initiative Order: Enemy Orc (15), Fighter (12), Priest (8)
 
 - Orc attacks Fighter
 - Priest hasn't gone yet this round
-- Priest has "Guardian's Interception (Advanced)" — triggered when ally within 10 yards is attacked
+- Priest has "Guardian's Interception (Basic)" — triggered when ally within 10 yards is attacked
 - Priest uses Guardian's Interception as a triggered action
 - When Priest's initiative (8) comes up, Priest has only 1 action remaining
 ```
@@ -156,10 +156,7 @@ Alternative: If mage never casts:
 3. **Roll Proficiency + Exertion dice**
 4. **Count successes** (at or above Threshold = 1, 6 = 2)
 5. **Check if required successes met**
-6. **Calculate damage:**
-   - Base Damage (from weapon/ability)
-   - \+ Bonus Damage (extra successes, max = Proficiency)
-   - Total Damage = Base + Bonus (capped)
+6. **Calculate damage:** Listed damage from weapon/ability (extra successes trigger properties)
 7. **Burn HD for any 1s rolled on exertion dice**
 8. **Target defends** (see Defense Rolls section below)
 9. **Apply final damage**
@@ -293,7 +290,7 @@ Most actions affect one target:
 
 - **Roll once** using Proficiency + Exertion
 - Target defends individually
-- Extra successes add bonus damage (capped at Proficiency)
+- Extra successes trigger weapon properties or ability effects
 - Standard attack resolution applies
 
 ---
@@ -308,7 +305,7 @@ Some actions affect an **area** rather than specific targets—typically spells 
 2. **Roll Attack Once:** Use Proficiency + Exertion to determine effect strength
 3. **All Creatures in Area Affected:** Every creature in the area is targeted
 4. **Each Target Defends Individually:** Roll separate defense for each creature
-5. **Extra Successes Do NOT Add Bonus Damage** (prevents instantly annihilating entire battalions)
+5. **Extra Successes Do NOT Add Damage** — they can expand area size instead
 
 **Proficiency Scaling (Area Size):**
 
@@ -327,7 +324,7 @@ Weaver (Proficiency 4) casts Fireball (Expert tier, 4+ threshold, base 3 HD dama
 - Required: 4 successes → 1 extra success
 
 Weaver cannot increase area (needs 2 extra successes minimum)
-- All enemies in 15-yard radius defend against 3 HD damage (no bonus damage)
+- All enemies in 15-yard radius defend against 3 HD damage
 - Each enemy rolls defense separately
 - Weaver burns 1 HD (rolled a 1 on exertion die)
 
@@ -447,7 +444,7 @@ Sustained zones create battlefield control without requiring caster concentratio
 
 | Action Type | Roll Count | Defense | Extra Successes | Proficiency Scaling |
 |-------------|-----------|---------|-----------------|---------------------|
-| **Single-Target** | Once | Individual | +Damage (capped at Prof) | N/A |
+| **Single-Target** | Once | Individual | Trigger weapon properties | N/A |
 | **Area Effect** | Once | Individual (each target) | +Area Size | +5 yards per 2 successes (max Prof × 5) |
 | **Multi-Select** | Once | Individual (each target) | +Targets OR +Intensity | +1 target per success (max Prof additional) |
 | **Sustained Zone** | Once (when cast) | Individual (when triggered) | Effect persists unchanged | Duration/area per ability |
@@ -660,7 +657,7 @@ Each attack you take is resolved **one Hit Die of damage at a time**, using your
 
 **Die Type Matters for Body HD:** d10 Combatants (40% sustain) survive better than d6 Weavers (33% sustain) when armor fails.
 
-**0 Body HD ≠ Death:** At 0 body HD, you still have Resolve checks. Unconscious and dying, but allies can stabilize before you Collapse (fail at Threshold 6).
+**0 Body HD ≠ Death:** At 0 body HD, you're still standing but limited to 1 action per turn. You make Resolve checks each round. Allies can stabilize or heal before you Collapse (fail at Threshold 6).
 
 **Defense Scales Slowly:** Defense Capacity increases every 4 levels. Positioning, armor quality, and magical protection matter more than raw levels.
 
@@ -686,11 +683,8 @@ Use an action to protect an ally within 5 yards:
 - Effect: Each success cancels 1 HD damage to ally
 - Uses exertion from your turn's budget
 
-**Note on Resolve Threshold Penalties:**
-When calculating defense rolls, Resolve Threshold stage penalties apply:
-- Shaken (RT 4): Roll -1 defense die
-- Weakened (RT 5): Roll -1 defense die, Advanced+ actions need +1 success
-- Staggering (RT 6): Roll -2 defense dice, Advanced+ actions need +1 success
+**Note on Resolve Threshold:**
+At RT 5+, characters cannot initiate Expert+ actions. No other combat penalties apply from Resolve stages — the escalating check difficulty is the spiral.
 
 ---
 
@@ -725,17 +719,17 @@ You're converting long-term mental fortitude (Resolve) into short-term physical 
 
 **Example:**
 ```
-Level 5 Combatant (Proficiency 3, currently at 3 HD / 11 max, RT 3 Pressured)
+Level 5 Combatant (Proficiency 3, currently at 3 HD / 11 max, RT 3)
 - Takes a devastating hit, now at 3 HD and worried about next attack
 - Uses Rush (one action)
-- Advances RT: 3 → 4 (now Shaken)
+- Advances RT: 3 → 4
 - Gains 3 HD: 3 HD → 6 HD
 - Now has breathing room to continue fighting
 - Can use second action to attack or defend
 ```
 
 **Strategic Considerations:**
-- **Threshold matters:** Advancing to high RT creates escalating penalties (defense dice reduction, action restrictions)
+- **Threshold matters:** Advancing to high RT creates escalating check difficulty and at RT 5+, locks out Expert+ actions
 - **Resets on Rest:** You can use Rush again after resting (max 2 Rests per day = max 2 Rushes per day normally)
 - **No stacking with Resolve triggers:** Rush advances RT voluntarily—it doesn't trigger a Resolve check
 - **NPCs may have Rush too:** Some elite NPCs or monsters may use Rush to survive longer than expected
@@ -767,11 +761,11 @@ Rush is desperation made mechanical. You're trading tomorrow's strength for toda
 - **Priests and Sovereigns are still superior** at Resolve restoration through their class abilities
 
 **Example:**
-Level 5 Combatant (10 HD, RT 4 Shaken) needs to attempt Expert actions. Uses Steady: Loses 3 HD (now 7 HD), lowers RT by 1 (now RT 3 Pressured). Can now attempt Expert actions again and has better defense dice.
+Level 5 Combatant (10 HD, RT 4) needs to attempt Expert actions. Uses Steady: Loses 3 HD (now 7 HD), lowers RT by 1 (now RT 3). Can now attempt Expert actions again.
 
 **When to Use Steady:**
 - You have plenty of HD but your Resolve Threshold has escalated (high HD, high RT)
-- You need to break out of Resolve penalties (Shaken/Weakened stages)
+- You need to lower RT below 5 to regain Expert+ actions
 - You need a lower threshold for Expert actions or upcoming Resolve checks
 - Social combat has advanced your RT but your body is fresh
 - You're preparing for a mental/social challenge ahead

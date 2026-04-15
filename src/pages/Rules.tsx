@@ -73,7 +73,7 @@ function CoreResolution() {
           <li>Roll Proficiency + Exertion dice</li>
           <li>Count successes (5=1, 6=2)</li>
           <li>Check if required successes met</li>
-          <li>Apply effect (Base + Bonus, bonus capped at Prof)</li>
+          <li>Apply effect (hit = listed damage; extra successes fuel ability effects)</li>
           <li>Burn HD for any 1s rolled on exertion dice</li>
         </ol>
       </div>
@@ -109,12 +109,9 @@ function CoreResolution() {
             </tr>
           </thead>
           <tbody>
-            <tr><td>Basic</td><td>1+</td><td>5</td></tr>
-            <tr><td>Advanced</td><td>2+</td><td>5</td></tr>
-            <tr><td>Expert</td><td>3+</td><td>5</td></tr>
-            <tr><td>Legendary</td><td>4+</td><td>5</td></tr>
-            <tr><td>Ultimate</td><td>5+</td><td>6</td></tr>
-            <tr><td>Mythical</td><td>6+</td><td>6</td></tr>
+            <tr><td>Basic</td><td>2+</td><td>Any die showing 2+</td></tr>
+            <tr><td>Expert</td><td>4+</td><td>Any die showing 4+</td></tr>
+            <tr><td>Legendary</td><td>6</td><td>Only 6s count</td></tr>
           </tbody>
         </table>
       </div>
@@ -150,10 +147,10 @@ function CombatRules() {
         <h3>Actions Per Turn: Up to 2</h3>
         <ul className="rule-list">
           <li><strong>Only 1</strong> may be Expert tier or higher</li>
-          <li>Once you use Expert+ action, remaining actions must be Basic/Advanced</li>
+          <li>Once you use Expert+ action, remaining actions must be Basic</li>
         </ul>
         <div className="example-block">
-          <strong>✅ Allowed:</strong> Attack (Basic) + Attack (Basic), Spell (Advanced) + Defend (Basic)
+          <strong>✅ Allowed:</strong> Attack (Basic) + Attack (Basic), Spell (Basic) + Defend (Basic)
           <br />
           <strong>❌ Not Allowed:</strong> Fireball (Expert) + Teleport (Expert)
         </div>
@@ -176,7 +173,7 @@ function CombatRules() {
           <li>Declare attack, target, and exertion</li>
           <li>Roll Proficiency + Exertion dice</li>
           <li>Count successes (5=1, 6=2)</li>
-          <li>Calculate damage: Base + Bonus (capped at Proficiency)</li>
+          <li>Calculate damage: listed weapon/ability damage (extra successes trigger properties)</li>
           <li>Burn HD for any 1s on exertion dice</li>
           <li>Target defends</li>
           <li>Apply final damage</li>
@@ -362,14 +359,11 @@ function DeathSection() {
       <div className="rule-block">
         <h3>When Required</h3>
         <ul className="rule-list">
-          <li>Lose ≥ Proficiency + 1 HD in one round</li>
-          <li>Reduced to 0 HD</li>
-          <li>At 0 HD and take any hit</li>
-          <li>Use maximum Exertion in one round (= Level)</li>
-          <li>Fail an Expert+ action</li>
+          <li>Damage destroys a Body HD (first time each round)</li>
           <li>Certain enemy effects</li>
         </ul>
         <p><strong>Max 1 check per round</strong> (even if multiple triggers)</p>
+        <p><em>If armor absorbs the whole hit, no check — armor protects Resolve too.</em></p>
       </div>
 
       <div className="rule-block">
@@ -398,24 +392,14 @@ function DeathSection() {
               <td>No penalty</td>
             </tr>
             <tr>
-              <td>4</td>
+              <td>3–4</td>
               <td>Steady</td>
               <td>No penalty</td>
             </tr>
             <tr>
-              <td>3</td>
-              <td>Shaken</td>
-              <td>-1 die on Expert+ actions</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>Rattled</td>
-              <td>-1 die on all actions</td>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td>Breaking</td>
-              <td>-2 dice on all actions</td>
+              <td>1–2</td>
+              <td>Cracking</td>
+              <td>No Expert+ actions</td>
             </tr>
             <tr className="danger-row">
               <td>0</td>

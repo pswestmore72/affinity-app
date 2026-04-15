@@ -4,7 +4,7 @@ export type ClassType = 'Combatant' | 'Priest' | 'Ranger' | 'Scholar' | 'Weaver'
 
 export type AffinityType = 'Guardian' | 'Freedom' | 'Memory' | 'Knowledge' | 'Chaos' | 'Order';
 
-export type ActionTier = 'Basic' | 'Advanced' | 'Expert' | 'Legendary' | 'Ultimate';
+export type ActionTier = 'Basic' | 'Expert' | 'Legendary';
 
 export type CustodialPower = 'Concordant Halls' | 'Living Accord' | 'Curator Arcanum' | 'Sovereign Self';
 
@@ -15,7 +15,7 @@ export type CustodialPower = 'Concordant Halls' | 'Living Accord' | 'Curator Arc
 export interface ClassAbility {
   name: string;
   tier: ActionTier;
-  targetNumber: number;  // e.g., 2 for Basic (2+), 3 for Advanced (3+)
+  targetNumber: number;  // e.g., 2 for Basic (2+), 4 for Expert (4+)
   successesRequired: number;
   description: string;
   range?: string;

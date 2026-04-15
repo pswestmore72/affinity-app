@@ -23,7 +23,7 @@
 **Speed:** 30 ft per round
 
 **Starting RT:** 4  
-*(Can be targeted by social combat and redemption attempts)*
+*(Can be targeted by social Group Challenges and redemption attempts)*
 
 ---
 
@@ -35,18 +35,18 @@
 - **Required Successes:** 2 for hit
 - **Damage:** 2 HD *(slashing, heavy weapon)*
 - **Range:** Melee (5 ft reach)
-- **Notes:** Reliable veteran warrior. Extra successes add +1 HD each (max +2). **Hesitates before landing killing blows** (moral conflict).
+- **Notes:** Reliable veteran warrior. Extra successes trigger weapon properties. **Hesitates before landing killing blows** (moral conflict).
 
 **Secondary Attack: Shield Bash**
-- **Action Tier:** Advanced (3+)
+- **Action Tier:** Basic (2+)
 - **Roll:** 4d6 *(Proficiency 2 + 2d6 shield technique)*
 - **Required Successes:** 3 for hit
-- **Damage:** 1 HD + target must make Moderate (3+) Athletics check or be knocked prone
+- **Damage:** 1 HD + target must make Basic (2+) Athletics check or be knocked prone
 - **Range:** Melee (5 ft)
 - **Notes:** Control attack. Follows up with advantage on prone targets.
 
 **Command Guards** *(If guards present)*
-- **Action Tier:** Advanced (3+)
+- **Action Tier:** Basic (2+)
 - **Roll:** 3d6 *(Proficiency 2 + 1d6 leadership)*
 - **Required Successes:** 2
 - **Effect:** Two guards under his command gain +1d6 to their next action (doesn't burn HD)
@@ -83,7 +83,7 @@
 **Resistances:** Fear (veteran, seen worse) — Advantage on Resolve checks vs. intimidation
 
 **Vulnerabilities:** 
-- **Guilt-based social attacks** (especially invoking his daughter Elara or dead wife)
+- **Guilt-based social pressure** (especially invoking his daughter Elara or dead wife)
 - **Proof of Aldric Vex's lies** (if shown evidence Vex is manipulating him)
 - **Appeals to honor** (he was a good man once)
 
@@ -120,8 +120,8 @@
 - Snaps at guards who are TOO cruel ("We're lawmen, not thugs!")
 - If alone, might confess doubt: *"This wasn't supposed to be who I am..."*
 
-**Social Combat Vulnerability:**
-Marcus can be REDEEMED through opposed Resolve checks:
+**Social Vulnerability:**
+Marcus can be REDEEMED through social Group Challenges:
 
 **Redemption Approach: Invoke Daughter**
 - Moderate (3+) Influence check
@@ -143,7 +143,7 @@ Marcus can be REDEEMED through opposed Resolve checks:
 
 **Victory Conditions:**
 - **Combat:** Reduce Marcus to 0 HD (capture or death)
-- **Redemption:** Succeed on any social combat redemption check
+- **Redemption:** Succeed on any social Group Challenge redemption check
 - **Leverage:** Rescue Elara, prove to Marcus she's safe (automatic surrender)
 - **Exhaustion:** Cause Marcus to Collapse (his RT reaches 6 and he fails—he gives up)
 

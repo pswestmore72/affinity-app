@@ -20,7 +20,7 @@ Items are categorized by **Rarity Tier**, which determines their power, availabi
 | **Ultimate** | World-shaping artifacts, unique | Lost ruins, divine gifts |
 | **Mythical** | Reality-warping artifacts, one-of-a-kind (require 6 only to use) | Cosmic events only |
 
-**Note on Mythical Artifacts:** Like Ultimate-tier actions, Mythical artifacts require rolling 6 on d6 to successfully activate or use their powers. This represents the cosmic weight and reality-warping nature of these items.
+**Note on Mythical Artifacts:** Like Legendary-tier actions, Mythical artifacts require rolling 6 on d6 to successfully activate or use their powers. This represents the cosmic weight and reality-warping nature of these items.
 
 ---
 
@@ -43,7 +43,7 @@ Items are categorized by **Rarity Tier**, which determines their power, availabi
 - Trigger on conditions (at low HD, when ally falls, after successful defense)
 
 **3. Modify THRESHOLDS (Change Success Requirements)**
-- Lower difficulty tiers (Expert→Advanced)
+- Lower difficulty tiers (Expert→Basic)
 - Grant bonus/penalty dice in specific contexts
 - Bypass armor or resistance in defined situations
 - Auto-succeed under specific conditions
@@ -286,7 +286,7 @@ Writing implements
 **Description:** Thick brown liquid tasting of earth and honey. Grants primal endurance.
 
 **Truth Serum**  
-**Effect:** Target must succeed on Resolve check (Advanced 3+, requires 2 successes) or cannot lie for 10 minutes  
+**Effect:** Target must succeed on Resolve check (Basic 2+, requires 2 successes) or cannot lie for 10 minutes  
 **Description:** Clear tasteless water drawn from Aluneth's memory currents. Compels honesty.
 
 ---
@@ -410,11 +410,11 @@ Writing implements
 **Description:** Blade forged from ice that cannot melt, containing winter's heart.
 
 **Weapon of Wounding** (any weapon)  
-**Property:** Damage dealt by this weapon cannot be healed by magic or potions for 1 hour (requires Medicine skill roll at Advanced tier 3+, 2 successes needed, and dedicated downtime). Wounds dealt bypass regeneration. Blade drinks blood.  
+**Property:** Damage dealt by this weapon cannot be healed by magic or potions for 1 hour (requires Medicine skill roll at Basic tier 2+, 2 successes needed, and dedicated downtime). Wounds dealt bypass regeneration. Blade drinks blood.  
 **Description:** Cruel weapon cursed to inflict lingering wounds. Blade seems hungry.
 
 **Oathkeeper** (any weapon)  
-**Property:** Attuned to specific oath. Against those who violate similar oaths: lower attack difficulty tier by 1 (Expert→Advanced), automatically detect lies they speak, attacks bypass resistance. Glows brightly near oath-breakers.  
+**Property:** Attuned to specific oath. Against those who violate similar oaths: lower attack difficulty tier by 1 (Expert→Basic), automatically detect lies they speak, attacks bypass resistance. Glows brightly near oath-breakers.  
 **Description:** Weapon forged in Concordant Halls. Contains fragment of Purpose itself.
 
 **Bow of the Hunt** (bow only)  
@@ -434,7 +434,7 @@ Writing implements
 **Description:** Weapon forged from captured sunlight. Burns with holy fire.
 
 **Dawnbreaker** (any melee weapon)  
-**Property:** On critical success (roll 6 on any die), target must make Resolve check (Advanced 3+) or be stunned for 1 round. Against undead: on ANY successful hit, undead must make Resolve check or disintegrate (no HD threshold, instant destruction if failed).  
+**Property:** On critical success (roll 6 on any die), target must make Resolve check (Basic 2+) or be stunned for 1 round. Against undead: on ANY successful hit, undead must make Resolve check or disintegrate (no HD threshold, instant destruction if failed).  
 **Description:** Weapon blessed by Beryn the Laughing Dawn. Contains fragment of first sunrise.
 
 **Storm Caller** (any weapon)  
@@ -446,7 +446,7 @@ Writing implements
 **Description:** Weapon containing trapped fragment of Gephorix. Feeds on suffering.
 
 **Wyrmbane** (any weapon)  
-**Property:** Against dragons, wyrms, and dragon-touched creatures: lower attack difficulty tier by 2 (Legendary→Advanced, Expert→Basic), bypass all resistances, attacks ignore armor. Wielder immune to frightful presence and dragon breath. Dragon-slayers wield this with pride.  
+**Property:** Against dragons, wyrms, and dragon-touched creatures: lower attack difficulty tier by 2 (Legendary→Basic, Expert→Basic), bypass all resistances, attacks ignore armor. Wielder immune to frightful presence and dragon breath. Dragon-slayers wield this with pride.  
 **Description:** Weapon forged from dragon bone and quenched in wyrm's blood.
 
 ---
@@ -466,7 +466,7 @@ Writing implements
 **Description:** Hammer used by Korthane's most favored collectors. Every strike is debt enforceable.
 
 **Verdant Wrath** (greataxe)  
-**Property:** Living weapon that grows stronger in natural settings—in forests/wilderness, attacks lower difficulty tier by 2 (Legendary→Advanced). Once per day, summon 3 Verdant Creepers (Advanced tier, 15 HD each) to fight for 10 minutes. Can communicate with all plant life within 1 mile. When you drop plant-corrupted enemy to 0 HD, they dissolve into fertile soil and bloom with flowers.  
+**Property:** Living weapon that grows stronger in natural settings—in forests/wilderness, attacks lower difficulty tier by 2 (Legendary→Basic). Once per day, summon 3 Verdant Creepers (Advanced tier, 15 HD each) to fight for 10 minutes. Can communicate with all plant life within 1 mile. When you drop plant-corrupted enemy to 0 HD, they dissolve into fertile soil and bloom with flowers.  
 **Description:** Axe carved from heart of World Tree. Thymera's fury given form.
 
 ---
@@ -641,7 +641,7 @@ Writing implements
 **Description:** Silver circlet inscribed with focus meditation mantras.
 
 **Gauntlets of Titanic Might**  
-**Effect:** Strength-based actions lower difficulty tier by 1 (Expert→Advanced). Can wield Heavy weapons one-handed. Can carry/drag objects of immense weight (up to 1 ton with effort). Crushing grip—on successful grapple, target takes 1 HD automatically each round.  
+**Effect:** Strength-based actions lower difficulty tier by 1 (Expert→Basic). Can wield Heavy weapons one-handed. Can carry/drag objects of immense weight (up to 1 ton with effort). Crushing grip—on successful grapple, target takes 1 HD automatically each round.  
 **Description:** Gauntlets containing bound strength-spirit.
 
 **Wings of Flying**  
@@ -698,18 +698,18 @@ Writing implements
 
 ---
 
-## Social Combat Items
+## Social Items
 
-*Items designed for the battle of words and wills*
+*Items that enhance influence, negotiation, and persuasion*
 
 ### Common Tier (Social)
 
 **Signet of Minor House**  
-**Effect:** +1 Composure die when dealing with commoners or servants (they recognize your station)  
+**Effect:** +1d6 on social Group Challenges involving commoners or servants (they recognize your station)  
 **Description:** Ring bearing a lesser noble house's insignia.
 
 **Diplomat's Sash**  
-**Effect:** Neutral parties treat you as credentialed negotiator. +1d6 on first social roll with strangers.  
+**Effect:** Neutral parties treat you as credentialed negotiator. +1d6 on first social Group Challenge with strangers.  
 **Description:** Silk sash in colors recognized across nations as "under parley."
 
 ---
@@ -717,15 +717,15 @@ Writing implements
 ### Basic Tier (Social)
 
 **Circlet of Composure**  
-**Effect:** Upgrade your Composure dice by one step (d6?d8 or d8?d10)  
+**Effect:** +1d6 on all social Group Challenges (radiates calm authority)  
 **Description:** Silver circlet that radiates calm authority. Favored by court advisors.
 
 **Amulet of Silver Tongue**  
-**Effect:** In social duels, Reason stance converts at 1 success per Leverage (instead of 2). Once per long rest, re-roll a failed social attack.  
+**Effect:** When presenting evidence in a social Group Challenge, gain +1 automatic success. Once per long rest, re-roll a failed social Group Challenge.  
 **Description:** Amulet shaped like a serpent devouring its own words.
 
 **Ring of Truth's Weight**  
-**Effect:** When you present hard evidence in a social duel, reduce threshold by 1 additional step (stacks with evidence bonus). Evidence you carry cannot be stolen or destroyed.  
+**Effect:** When you present hard evidence in a social Group Challenge, reduce difficulty by 1 tier (stacks with other evidence bonuses). Evidence you carry cannot be stolen or destroyed.  
 **Description:** Heavy iron ring inscribed with Aluneth's runes of memory.
 
 ---
@@ -733,19 +733,19 @@ Writing implements
 ### Advanced Tier (Social)
 
 **Mask of Many Faces**  
-**Effect:** Change appearance at will (illusion, does not alter voice). In social duels, once per duel declare "You don't know who I am"�opponent loses 1 Leverage and you gain it.  
+**Effect:** Change appearance at will (illusion, does not alter voice). Once per social Group Challenge, declare "You don't know who I am" -- add +1d6 to the pool.  
 **Description:** Featureless mask that shows different faces to different viewers.
 
 **Mantle of the Sovereign**  
-**Effect:** Your Composure dice are d10 (regardless of other upgrades). Assert stance deals +2 damage instead of +1. Commoners cannot initiate social attacks against you (automatic intimidation).  
+**Effect:** +2d6 on social Group Challenges. When asserting authority, gain +1 automatic success. Commoners cannot oppose you in social challenges (automatic intimidation).  
 **Description:** Ermine-lined cloak bearing ancient symbols of absolute authority. Said to be cut from a king's burial shroud.
 
 **Crown of Measured Words**  
-**Effect:** +2 Composure dice. Once per social duel, after seeing opponent's stance, change your declared stance (free action). You are always watching, always calculating.  
-**Description:** Thin golden crown with eyes etched along its band�Aluneth's gift to diplomats.
+**Effect:** +2d6 on social Group Challenges. Once per social challenge, after hearing the opposition, adjust your approach -- gain an additional +1d6.  
+**Description:** Thin golden crown with eyes etched along its band -- Aluneth's gift to diplomats.
 
 **Tongue of the Concordant**  
-**Effect:** In social duels where you invoke the Concordant Halls or oath-keeping, reduce threshold to Basic 2+. When opponent breaks an oath during duel, they automatically lose 2 Composure dice.  
+**Effect:** When invoking the Concordant Halls or oath-keeping in a social Group Challenge, reduce difficulty to Routine. When opponent breaks an oath during the challenge, gain +2 automatic successes.  
 **Description:** Pin shaped like balanced scales. Hums when oaths are broken nearby.
 
 ---
@@ -753,15 +753,15 @@ Writing implements
 ### Expert Tier (Social)
 
 **Regalia of Absolute Authority**  
-**Effect:** Your Composure dice are d10. You have +3 Composure dice. In social duels, you may advance your RT by 1 to automatically win a round (no roll needed). Once per long rest, issue a Command (target must succeed on Resolve check or obey one reasonable order).  
-**Description:** Complete set�crown, scepter, and orb�forged for a legendary emperor. Radiates power that makes knees bend.
+**Effect:** +3d6 on social Group Challenges. Once per social challenge, advance your RT by 1 to gain +3 automatic successes (sheer force of will). Once per long rest, issue a Command (target must succeed on Resolve check or obey one reasonable order).  
+**Description:** Complete set -- crown, scepter, and orb -- forged for a legendary emperor. Radiates power that makes knees bend.
 
 **The Covenant Blade**  
-**Effect:** Not a weapon for combat—when drawn in social duel, all participants are bound by absolute honesty (cannot lie, Deceptive stance unavailable to all). Breaking this compulsion advances your RT by 3. Duel winner may demand one true answer from the loser.  
+**Effect:** Not a weapon for combat -- when presented in a social challenge, all participants are bound by absolute honesty (cannot lie). Breaking this compulsion advances your RT by 3. The winning party may demand one true answer from the losing side.  
 **Description:** Crystal blade that shatters lies. Said to be forged from a shard of Aluneth's mirror.
 
 **Paradox Tongue**  
-**Effect:** Once per social duel, speak a logical paradox�opponent's next roll is at +2 threshold (they're momentarily confused). If you have the Scholar class, this effect triggers automatically each round you use Reason stance (can only affect each opponent once).  
+**Effect:** Once per social Group Challenge, speak a logical paradox -- opponent's difficulty increases by 1 tier (momentary confusion). Scholar class: this triggers automatically.  
 **Description:** Tiny spiral carved from impossible geometry. Whispers contradictions.
 
 ---
@@ -769,12 +769,13 @@ Writing implements
 ### Legendary Tier (Social)
 
 **Voice of the Pillar**  
-**Effect:** Choose one Custodial Power when you attune. In social duels involving that Power's domain (oaths for Concordant, knowledge for Curator, etc.), you roll at Basic 2+ threshold, your Composure dice are d10, and opponent's threshold increases by 1. You speak with the weight of cosmic principle.  
+**Effect:** Choose one Custodial Power when you attune. In social Group Challenges involving that Power's domain (oaths for Concordant, knowledge for Curator, etc.), reduce difficulty to Routine, gain +2d6, and opponent's difficulty increases by 1 tier. You speak with the weight of cosmic principle.  
 **Description:** Fragment of the Mortal Weave itself, crystallized into a pendant. Each Power's version appears different.
 
 **The Last Word**  
-**Effect:** Once per long rest, when an opponent would win a social duel, speak The Last Word. The duel immediately ends in stalemate�no stakes are resolved. Both parties must withdraw. This cannot be prevented or countered. You have spoken, and nothing more can be said.  
+**Effect:** Once per long rest, when an opponent would win a social Group Challenge, speak The Last Word. The challenge immediately ends in stalemate -- no stakes are resolved. Both parties must withdraw. This cannot be prevented or countered. You have spoken, and nothing more can be said.  
 **Description:** A single syllable carved onto a sliver of bone from something that existed before the cosmos. To speak it is to end all discourse.
+
 
 ---
 
@@ -782,7 +783,7 @@ Writing implements
 
 *Reality-warping items, campaign-defining, referenced in cosmology*
 
-**Using Mythical Artifacts:** Like Ultimate-tier actions, activating Mythical artifact powers requires rolling **6 only** on d6 (not 5+). Each property activation requires this check unless stated otherwise. This represents the cosmic difficulty of wielding reality-warping power.
+**Using Mythical Artifacts:** Like Legendary-tier actions, activating Mythical artifact powers requires rolling **6 only** on d6 (not 5+). Each property activation requires this check unless stated otherwise. This represents the cosmic difficulty of wielding reality-warping power.
 
 ---
 

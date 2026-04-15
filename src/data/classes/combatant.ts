@@ -36,13 +36,13 @@ The Concordant Halls do not judge what is sworn—only that commitment is real. 
           tier: 'Basic',
           targetNumber: 2,
           successesRequired: 1,
-          description: 'All weapon attacks are Basic (2+) tier. Light weapons require 1 success for 1 HD base damage. Heavy weapons require 2 successes for 2 HD base damage. Extra successes add +1 HD damage each (capped by Proficiency).',
-          scaling: 'Extra successes capped by Proficiency'
+          description: 'All weapon attacks are Basic (2+) tier. Light weapons require 1 success for 1 HD damage. Heavy weapons require 2 successes for 2 HD damage. Extra successes trigger weapon properties (cleave, knockback, etc.).',
+          scaling: 'Extra successes trigger weapon properties'
         },
         {
           name: 'War Cry: Rally',
-          tier: 'Advanced',
-          targetNumber: 3,
+          tier: 'Basic',
+          targetNumber: 2,
           successesRequired: 2,
           description: 'Chosen ally gains +1d6 to their next action (doesn\'t burn HD).',
           range: '30 yards, one ally who can hear you',
@@ -63,9 +63,9 @@ The Concordant Halls do not judge what is sworn—only that commitment is real. 
           name: 'Warrior\'s Presence',
           description: 'Social mastery through martial dominance.',
           bullets: [
-            'Assert Mastery: Assert stance deals +1 additional damage on victory',
-            'Intimidation Aura: +2d6 on social duel after winning combat (fear/respect)',
-            'Unshakeable: Composure dice defend on 4+ instead of 5+'
+            'Intimidating Force: +1 automatic success on social Group Challenges when intimidating',
+            'Intimidation Aura: +2d6 on social Group Challenge after winning combat (fear/respect)',
+            'Unshakeable: Reduce RT from failed social challenges by 1 (min 0)'
           ]
         }
       ]
@@ -88,8 +88,8 @@ The Concordant Halls do not judge what is sworn—only that commitment is real. 
       abilities: [
         {
           name: 'Oath-Driven Strike',
-          tier: 'Advanced',
-          targetNumber: 3,
+          tier: 'Basic',
+          targetNumber: 2,
           successesRequired: 2,
           description: 'Enhanced weapon attack carrying your oath\'s metaphysical weight. Deal weapon damage + Proficiency HD. Target must contest (their Prof dice vs yours) or be pushed 5 yards OR knocked prone. If target opposes your sworn purpose: contest at disadvantage.',
           usesPerRest: 'Proficiency times per short rest'

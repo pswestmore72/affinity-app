@@ -59,21 +59,21 @@ The PCs arrive in Tevenholme to find a town on edge. Lumber mills sit idle. Work
 2. **Examine the Forest Edge** (Investigation/Nature Check):
    
    - **Basic (2+) Nature Check**: Notice trees have shifted—paths that existed last week are gone, new clearings opened
-   - **Advanced (3+) Tracking**: Find massive claw marks on trees, bark shredded 20-25 feet up (nothing natural climbs like that)
+   - **Basic (2+) Tracking**: Find massive claw marks on trees, bark shredded 20-25 feet up (nothing natural climbs like that)
    - **Expert (4+) Perception**: Spot sigil carved into tree trunk—an ancient marking meaning "Oath Unkept"
 
 3. **Investigate Missing Guards**:
    
    - Follow trail to where guards vanished (requires Ranger/Combatant tracking, Basic 2+)
    - Find: Torn cloaks, dropped weapons, signs of *rapid retreat* (not combat—they ran)
-   - **Advanced (3+) Perception**: Notice footprints stop at a tree, as if they climbed... but trail ends 40 feet up in branches
+   - **Basic (2+) Perception**: Notice footprints stop at a tree, as if they climbed... but trail ends 40 feet up in branches
    - **Secret**: Guards were scared off by illusions, fled into trees, got lost in shifting forest (still alive but wandering in circles)
 
 **The Journey to Elm Grove**:
 
 - 4-hour trek through Spring Wood
 - Multiple skill challenges:
-  - **Navigate Shifting Paths** (Ranger/Scholar, Advanced 3+): Forest actively *resists* travel; requires 3 cumulative successes to reach grove
+  - **Navigate Shifting Paths** (Ranger/Scholar, Basic 2+): Forest actively *resists* travel; requires 3 cumulative successes to reach grove
   - Failure = encounter hostile wildlife or lose time (nightfall arrives early)
   
 **Encounter: Forest Guardians**:
@@ -84,7 +84,7 @@ The PCs arrive in Tevenholme to find a town on edge. Lumber mills sit idle. Work
   - **Attack - Antler Gore** (Basic, 2+): 2 successes, 2 HD damage
   - **Charge**: If move 15+ feet before attack, add 1 HD damage
   - **Pack Tactics**: Flank and isolate targets
-  - **Non-Lethal Option**: Can be calmed with Nature check (Expert 4+) + Arathor's flower token (lowers to Advanced 3+)
+  - **Non-Lethal Option**: Can be calmed with Nature check (Expert 4+) + Arathor's flower token (lowers to Basic 2+)
 
 **Arrival at Elm Grove**:
 
@@ -108,13 +108,13 @@ A labyrinth of root-carved tunnels beneath the forest, lit by bioluminescent fun
 
 **Environmental Hazards**:
 - **Shifting Roots**: Walls and floors move; requires Dexterity/Agility defense checks (Basic 2+) or take 1 HD crushing damage
-- **Spore Clouds**: Sections filled with hallucinogenic spores; Resolve check (Advanced 3+) or suffer disadvantage on actions for 10 minutes
+- **Spore Clouds**: Sections filled with hallucinogenic spores; Resolve check (Basic 2+) or suffer disadvantage on actions for 10 minutes
 - **Darkness**: Only fungi provide light; ranged attacks beyond 20 feet have disadvantage
 
 **Encounters**:
 
 1. **Root Labyrinth (Skill Challenge)**:
-   - Navigate maze (requires 4 cumulative Advanced 3+ successes using Perception/Survival)
+   - Navigate maze (requires 4 cumulative Basic 2+ successes using Perception/Survival)
    - Each failure adds 1 encounter with **Root Wraiths** (2d6 HD, spectral forest spirits)
 
 2. **The Penitent Druids**:
@@ -125,7 +125,7 @@ A labyrinth of root-carved tunnels beneath the forest, lit by bioluminescent fun
 
 3. **The Hall of Memories**:
    - Chamber with spectral visions playing out: Harper's oath-taking, the forest thriving, the burn... Harper's scream of betrayal
-   - Resolve check (Advanced 3+) or lose 1 Resolve from emotional weight
+   - Resolve check (Basic 2+) or lose 1 Resolve from emotional weight
 
 4. **The Warden's Chamber (Boss)** :
 
@@ -136,9 +136,9 @@ At the deepest root, a massive chamber where an ancient oak throne sits. Seated 
 - Proficiency: 3
 - Resolve: 5 (unshakable)
 - Actions per turn: **5** (2 + party size for 3-player group)
-- **Great-Sword of Roots** (Advanced, 3+): 3 successes, 3 HD damage, reach 10 feet
+- **Great-Sword of Roots** (Basic, 2+): 3 successes, 3 HD damage, reach 10 feet
 - **Oath-Breaking Strike** (Expert, 4+): 4 HD damage + target loses 1 Resolve (guilt manifestation)
-- **Power Word: "Honor Binds!"** (Advanced, 3+): All oath-breakers in 15 yards make Resolve check or become *Restrained* (rooted in place) for 1 round
+- **Power Word: "Honor Binds!"** (Basic, 2+): All oath-breakers in 15 yards make Resolve check or become *Restrained* (rooted in place) for 1 round
 - **Summon Root Tendrils**: Environmental action (costs 1 action); tendrils erupt from ground, grappling 1d3 targets (Basic 2+ defense to avoid)
 - **Regeneration**: Regains 2d10 HD at start of turn while in Undergrove (connected to forest)
 
@@ -156,10 +156,10 @@ The PCs must decide how to handle this. Combat is *possible* but extremely diffi
 - Target Harper's Resolve (current: 5, very high)
 - Requires multiple arguments/successes
 - Possible Arguments:
-  - **"The oath-breakers are dead"**: Most who authorized the burn are gone; punishing the current town is unjust (Advanced 3+, on success reduces Resolve by 1)
+  - **"The oath-breakers are dead"**: Most who authorized the burn are gone; punishing the current town is unjust (Basic 2+, on success reduces Resolve by 1)
   - **"What would you have been?"**: Harper was human once; did she swear an oath to *protect* or to *punish*? (Expert 4+, reduces Resolve by 1, appeals to her humanity)
-  - **"The druids honor you"**: Elder Thornweaver + druids can testify that current generation respects the forest (Advanced 3+, reduces Resolve by 1)
-  - **"Let us make amends"**: Offer to broker NEW pact, hold oath-breakers' descendants accountable, restore burned land (Advanced 3+, reduces Resolve by 1)
+  - **"The druids honor you"**: Elder Thornweaver + druids can testify that current generation respects the forest (Basic 2+, reduces Resolve by 1)
+  - **"Let us make amends"**: Offer to broker NEW pact, hold oath-breakers' descendants accountable, restore burned land (Basic 2+, reduces Resolve by 1)
 - If Resolve reduced to 2 or lower: Harper hesitates, willing to listen to terms
 
 **Option B: Combat (Desperate)**:
@@ -244,7 +244,7 @@ Harper's second task requires symbolic repl anting. PCs + volunteers must:
 - **4 Militia Members** (Level 1 Combatants, 4d10 HD each)
 - Non-lethal brawl (townsfolk fighting townsfolk)
 - Goal: Subdue without killing
-- Resolve check (Advanced 3+) to convince them to stop mid-fight
+- Resolve check (Basic 2+) to convince them to stop mid-fight
 
 #### Session 4: The Binding Ritual
 
@@ -288,7 +288,7 @@ As ceremony concludes, **ash-wraith spirits** emerge from burned land—echoes o
 - **The Burned Oak King** (mini-boss, Level 4 Elite)
   - HD Pool: 10d8
   - Proficiency: 2
-  - **Charred Slam** (Advanced, 3+): 2 HD + inflicts "Ash Burn" (lose 1 HD per turn until cleansed)
+  - **Charred Slam** (Basic, 2+): 2 HD + inflicts "Ash Burn" (lose 1 HD per turn until cleansed)
   - **Summon Ash-Wraiths**: 3d4 minions (2d6 HD each)
   - **Rage**: Refuses peace; wants revenge for burning
   
@@ -356,7 +356,7 @@ Just as peace settles, **a second "Harper"** appears at town gates:
 - HD Pool: 12d8
 - Proficiency: 3
 - Resolve: 2 (mad with jealousy)
-- **Thorn Whip** (Advanced, 3+): 2 HD, 15-foot reach, pulls target 10 feet closer
+- **Thorn Whip** (Basic, 2+): 2 HD, 15-foot reach, pulls target 10 feet closer
 - **Power Word: "I Am Warden!"** (Expert, 4+): Forces Harper (real) to make Resolve check or doubt herself (lose 1 action next turn)
 - **Summon Verdant Aberrations**: 1d6 twisted fey creatures (3d6 HD each)
 - **Tactics**: Tries to kill Harper (real) to take her place
@@ -512,9 +512,9 @@ Just as peace settles, **a second "Harper"** appears at town gates:
 **Proficiency**: 3  
 **Resolve**: 5  
 **Actions**: 5 per turn  
-**Great-Sword of Roots** (Advanced, 3+): 3 HD, reach 10 feet  
+**Great-Sword of Roots** (Basic, 2+): 3 HD, reach 10 feet  
 **Oath-Breaking Strike** (Expert, 4+): 4 HD + target loses 1 Resolve  
-**Power Word: Honor Binds** (Advanced, 3+): Resolve check or Restrained  
+**Power Word: Honor Binds** (Basic, 2+): Resolve check or Restrained  
 **Summon Tendrils**: 1d3 targets grappled (Basic 2+ defense)  
 **Regeneration**: 2d10 HD per turn in Undergrove
 
@@ -530,7 +530,7 @@ Just as peace settles, **a second "Harper"** appears at town gates:
 **Proficiency**: 2  
 **Resolve**: 3  
 **Actions**: 4 per turn  
-**Charred Slam** (Advanced, 3+): 2 HD + "Ash Burn" (1 HD/turn DoT)  
+**Charred Slam** (Basic, 2+): 2 HD + "Ash Burn" (1 HD/turn DoT)  
 **Summon Ash-Wraiths**: 3d4 minions (2d6 HD each)  
 **Death Burst**: When destroyed, 3 HD to all adjacent (Basic 2+ defense)
 
@@ -539,7 +539,7 @@ Just as peace settles, **a second "Harper"** appears at town gates:
 **Proficiency**: 3  
 **Resolve**: 2  
 **Actions**: 5 per turn  
-**Thorn Whip** (Advanced, 3+): 2 HD, 15-foot reach, pulls target  
+**Thorn Whip** (Basic, 2+): 2 HD, 15-foot reach, pulls target  
 **Power Word: I Am Warden** (Expert, 4+): Harper makes Resolve check or loses action  
 **Summon Verdant Aberrations**: 1d6 fey (3d6 HD each)  
 **Redemption Mechanic**: If Resolve reduced to 0, she surrenders (alternate ending)

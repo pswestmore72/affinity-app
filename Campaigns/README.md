@@ -268,7 +268,7 @@ Recommended order: **Willow → Elm** (escalating complexity)
 
 **For New Players** (first time with Affinity):
 - Reduce elite boss HD pools by 20%
-- Lower skill challenge thresholds by 1 (Expert 4+ becomes Advanced 3+)
+- Lower skill challenge thresholds by 1 (Expert 4+ becomes Basic 2+)
 - Provide more Moonwater Draughts / HD restoration items
 
 **For Experienced Players**:

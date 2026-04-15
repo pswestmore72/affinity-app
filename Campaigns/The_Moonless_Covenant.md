@@ -94,7 +94,7 @@ The party is in Tidemark (either arrived specifically to help, or the Paladin ha
 - *"Their leader carved something into the altar. A sigil. It drank the moonlight from the pool."*
 - *"When I tried to stop them, they... they touched me. I forgot who I was. Forgot why I was there. I fell into the pool... only the water remembered me."*
 
-**Advanced (3+) Influence or Priest/Religion check:**
+**Basic (2+) Influence or Priest/Religion check:**
 - Elyra whispers about an old story: *"There's a legend. A forbidden cult from before the First Sowing. The **Nihil Covenant**—those who worship the Veil Beyond itself. They believe existence is suffering, and the only mercy is **erasure**. They don't kill—they unmake. Erase you from memory, and you cease to have ever existed."*
 
 **Clue Gained:** The attackers are the **Nihil Covenant**, void-worshippers trying to erase Aluneth's presence from the Mortal Weave.
@@ -115,7 +115,7 @@ The shrine is a simple stone structure, open to the sky. At its center should be
 - Torn pages from the Tide-Ledgers scattered and partially burned
 - Footprints leading from the shrine into the marshland (5 sets, humanoid, barefoot)
 
-**Advanced (3+) Scholar/Priest (Religion):**
+**Basic (2+) Scholar/Priest (Religion):**
 - The sigils are **erasure marks**—designed to sever a location from divine influence
 - They're incomplete (suggests the cultists were interrupted or plan to return)
 - One sigil is distinctly different from the others—not an erasure mark, but something else
@@ -138,13 +138,13 @@ The shrine is a simple stone structure, open to the sky. At its center should be
 - This matches the current phase—two days before new moon
 - *Revelation:* "This tells us WHEN the ritual completes—at the new moon, when Aluneth's light is weakest."
 
-**Clue 2 - Tide Pattern (Advanced 3+ Scholar/Priest or Sailor/Ranger with coastal knowledge):**
+**Clue 2 - Tide Pattern (Basic 2+ Scholar/Priest or Sailor/Ranger with coastal knowledge):**
 - The tide markers align with specific moon phases
 - Following the pattern: new moon → high tide → ebb → low tide
 - The low tide marker points to a specific direction relative to the shrine's position
 - *Revelation:* "During low tide, certain marsh paths are passable. The cultists traveled during yesterday's low tide."
 
-**Clue 3 - The Directional Arrow (Advanced 3+ Investigation + astronomical/navigational knowledge):**
+**Clue 3 - The Directional Arrow (Basic 2+ Investigation + astronomical/navigational knowledge):**
 - The arrow through the droplet points at an angle
 - PCs must align the puzzle with the shrine's orientation
 - **If PCs think to align the waning crescent symbol with actual moonrise direction (northwest this time of year):**
@@ -160,7 +160,7 @@ The shrine is a simple stone structure, open to the sky. At its center should be
 
 **Skill Check Summary:**
 - **Basic (2+):** Identify moon phase timing (when ritual completes)
-- **Advanced (3+):** Decode tide pattern (when cultists traveled) OR determine directional arrow (where they went)
+- **Basic (2+):** Decode tide pattern (when cultists traveled) OR determine directional arrow (where they went)
 - **Expert (4+):** Full decode including distance and structural clue (sunken/flooded hideout)
 
 **If PCs Struggle:** 
@@ -208,7 +208,7 @@ When the Paladin touches the corrupted pool, they feel a surge of divine connect
 - Insists the memory is real
 - *"It's like someone else's life is bleeding into mine."*
 
-**Pattern Recognition (Advanced 3+ Investigation/Scholar):**
+**Pattern Recognition (Basic 2+ Investigation/Scholar):**
 - All affected individuals visited the shrine in the last three days
 - The memory loss is getting worse—started with minor confusion, now entire identities are fragmenting
 - If the pattern continues, within 4-5 days, no one in Tidemark will remember the village exists
@@ -224,7 +224,7 @@ The footprints lead northwest into the **Greymist Marshes**—a foggy, treachero
 **Skill Challenge: Navigate the Marshes**
 - **Goal:** Track the cultists to their hideout without getting lost
 - **Requirements:** 3 cumulative successes (Ranger tracking, Combatant survival, Scholar navigation)
-- **Difficulty:** Advanced (3+)
+- **Difficulty:** Basic (2+)
 - **Failure Consequences:** 
   - Encounter hostile marsh creatures (Mire Wraiths - see below)
   - Arrive at hideout at disadvantage (cultists are alert)
@@ -236,7 +236,7 @@ The footprints lead northwest into the **Greymist Marshes**—a foggy, treachero
 - **HD Pool:** 3d6 each
 - **Proficiency:** 1
 - **Attack - Draining Touch** (Basic, 2+): 2 successes, 1 HD damage + target loses 1 Resolve on failed Resolve check
-- **Incorporeal:** Physical attacks require Advanced (3+) or magical weapon
+- **Incorporeal:** Physical attacks require Basic (2+) or magical weapon
 - **Weakness:** Radiant damage (Priest spells, Paladin abilities) bypass Incorporeal
 
 **Tactics:** Wraiths try to isolate targets, drain Resolve, then retreat into fog when wounded.
@@ -263,7 +263,7 @@ After 2-3 hours of tracking (longer if they failed navigation), the party finds 
 - Faint glow from below (sickly pale, like moonlight through oil)
 - Sound of chanting (low, discordant, unsettling)
 
-**Advanced (3+) Scholar/History:**
+**Basic (2+) Scholar/History:**
 - The structure is OLD—possibly from the Age of Naming (before the First Sowing)
 - Original purpose: a **memory well**, where travelers would speak the names of the dead into the water so they'd be carried to Aluneth
 - It's been corrupted—repurposed
@@ -281,12 +281,12 @@ A stone staircase spirals down into dark water. At the bottom (20 feet below sur
   - HD Pool: 4d6 each
   - Proficiency: 1
   - **Attack - Void Touch** (Basic, 2+): 2 successes, 1 HD damage
-  - **Forgetting Curse** (Advanced 3+, once per cultist): Target must make Resolve check or forget one recent ally (treat as stranger for 1 hour)
+  - **Forgetting Curse** (Basic 2+, once per cultist): Target must make Resolve check or forget one recent ally (treat as stranger for 1 hour)
   
 - **1 Nihil Voidcaller** (Level 2, Leader)
   - HD Pool: 8d6
   - Proficiency: 2
-  - **Attack - Erasure Bolt** (Advanced 3+): 3 successes, 2 HD necrotic damage, ignores armor
+  - **Attack - Erasure Bolt** (Basic 2+): 3 successes, 2 HD necrotic damage, ignores armor
   - **Mass Forgetting** (Expert 4+, Ritual, requires concentration): All enemies in 15 yards make Resolve check or lose memory of current combat (forget why they're fighting for 1 round)
   - **Void Shield:** First attack against Voidcaller each round has disadvantage
 
@@ -373,7 +373,7 @@ The lighthouse sits on a jagged promontory, battered by waves. It's been abandon
 The 60-foot stone tower tilts slightly seaward. Windows are dark. The lantern room at the top is shattered. The door hangs open.
 
 **Environmental Hazard:** 
-- Unstable floors (Advanced 3+ Acrobatics/Awareness to avoid)
+- Unstable floors (Basic 2+ Acrobatics/Awareness to avoid)
 - Falling through rotten wood deals 2 HD damage
 - Loud noises risk structural collapse
 
@@ -383,7 +383,7 @@ The 60-foot stone tower tilts slightly seaward. Windows are dark. The lantern ro
 
 - Empty, rotted furniture
 - **Basic (2+) Perception:** Wet footprints leading upstairs (recent, barefoot, cultist tracks)
-- **Advanced (3+) Investigation:** Architectural plans carved into wall—building was deliberately constructed over an older shrine foundation
+- **Basic (2+) Investigation:** Architectural plans carved into wall—building was deliberately constructed over an older shrine foundation
 
 **Encounter: Memory Echo**
 
@@ -391,7 +391,7 @@ A translucent figure appears—**The Last Keeper**, residual spiritual echo of t
 
 - Non-hostile (initially)
 - Repeats the same motion: lighting a lantern that isn't there, looking out a window, then screaming and vanishing
-- **Advanced (3+) Priest/Scholar check:** This is a memory loop—the keeper's death moment, trapped and repeating
+- **Basic (2+) Priest/Scholar check:** This is a memory loop—the keeper's death moment, trapped and repeating
 - **Expert (4+) Social/Influence:** Communicate with the echo; learn the keeper died trying to *stop* cultists 80 years ago (the Nihil Covenant is ancient, resurging now)
 
 **If the party lights a torch/lantern in the correct spot, the echo smiles and fades peacefully.** (Optional good deed, no mechanical benefit)
@@ -408,7 +408,7 @@ A translucent figure appears—**The Last Keeper**, residual spiritual echo of t
 **Spiral Staircase to Third Floor:** 
 
 - Heavily damaged
-- Requires Advanced (3+) Athletics/Acrobatics to climb safely
+- Requires Basic (2+) Athletics/Acrobatics to climb safely
 - Failure = fall, 2 HD damage
 
 ---
@@ -433,7 +433,7 @@ A translucent figure appears—**The Last Keeper**, residual spiritual echo of t
 **1 Void Construct** (Summoned Entity)
 - HD Pool: 10d6
 - Proficiency: 1
-- **Attack - Crushing Void** (Advanced 3+): 3 successes, 3 HD damage, knocks target prone
+- **Attack - Crushing Void** (Basic 2+): 3 successes, 3 HD damage, knocks target prone
 - **Void Form:** Resistant to non-magical damage (half damage)
 - **Anchor Tether:** If Void-Anchor is destroyed, Construct takes 5 HD damage and becomes Weakened (disadvantage on all checks)
 
@@ -490,7 +490,7 @@ Ruins of an old chapel rest on the seabed, half-buried in silt. Gothic arches ju
 **2 Spectral Guardians** (ancient protectors, now corrupted)
 - HD Pool: 5d6 each
 - Proficiency: 2
-- **Attack - Spectral Blade** (Advanced 3+): 3 successes, 2 HD radiant damage
+- **Attack - Spectral Blade** (Basic 2+): 3 successes, 2 HD radiant damage
 - **Corrupted Oath:** Once zealous protectors of Aluneth, now bound to the Nihil Covenant's will
 - **Redemption Path:** If Paladin uses *Blessing of the Tide* and succeeds on Expert (4+) Influence check, Guardians remember their true purpose and **turn on the cultists instead**
 
@@ -506,7 +506,7 @@ Ruins of an old chapel rest on the seabed, half-buried in silt. Gothic arches ju
 **4 Nihil Wavebinders** (Level 2, Casters)
 - HD Pool: 6d6 each
 - Proficiency: 2
-- **Attack - Void Torrent** (Advanced 3+): 3 successes, 2 HD damage in a line
+- **Attack - Void Torrent** (Basic 2+): 3 successes, 2 HD damage in a line
 - **Drowning Curse** (Expert 4+): Target makes Resolve check or begins drowning (loses 1 HD per round until death or curse broken)
 - **Ritual Focus:** If 2+ Wavebinders maintain concentration for 3 rounds, they complete the Moonless Covenant early (bad ending trigger)
 
@@ -517,7 +517,7 @@ Ruins of an old chapel rest on the seabed, half-buried in silt. Gothic arches ju
 - Destroying Anchor breaks cultist concentration, ends Drowning Curses
 
 **Environmental Advantage:**
-- **Advanced (3+) Scholar/Engineering:** Notice load-bearing pillar is cracked—3 HD damage causes partial ceiling collapse on cultist side (2 HD to all enemies in area)
+- **Basic (2+) Scholar/Engineering:** Notice load-bearing pillar is cracked—3 HD damage causes partial ceiling collapse on cultist side (2 HD to all enemies in area)
 
 ---
 
@@ -589,7 +589,7 @@ Borin Salthand musters what little the village can offer:
 
 - 1-hour sail along storm-battered coast
 - **Weather:** Rising storm (the Veil Beyond touches this place, reality frays)
-- **Skill Challenge:** Navigate storm seas (Advanced 3+, requires 2 successes or boat damaged, -2 HD to all PCs from rough landing)
+- **Skill Challenge:** Navigate storm seas (Basic 2+, requires 2 successes or boat damaged, -2 HD to all PCs from rough landing)
 
 **Veil's Edge Maw:**
 
@@ -637,7 +637,7 @@ Then: **Initiative.**
 - **HD Pool:** 20d6
 - **Proficiency:** 3
 - **Attacks:**
-  - **Void Lance** (Advanced 3+): 3 successes, 3 HD necrotic damage, 20-yard range
+  - **Void Lance** (Basic 2+): 3 successes, 3 HD necrotic damage, 20-yard range
   - **Mass Erasure** (Expert 4+, Recharge 5-6): All PCs in 20-yard radius make Resolve check or forget one random ability/spell for 3 rounds
   - **Rift Pulse** (Auto, once per round): At end of Korith's turn, void rift pulses—all creatures within 10 yards of rift take 1 HD psychic damage
 - **Void Armor:** Damage resistance (half damage from non-magical sources)
@@ -676,7 +676,7 @@ Korith sacrifices themselves, channeling their life force into the rift. The Voi
 - **Proficiency:** 2
 - **Appearance:** A massive humanoid silhouette made of *absence*—not black, but void. Reality distorts around it.
 - **Attacks:**
-  - **Unraveling Touch** (Advanced 3+): 3 successes, 4 HD necrotic damage + target rolls Resolve check or loses 1 Resolve permanently (until long rest)
+  - **Unraveling Touch** (Basic 2+): 3 successes, 4 HD necrotic damage + target rolls Resolve check or loses 1 Resolve permanently (until long rest)
   - **Existence Void** (Expert 4+, AOE): 15-yard radius, all creatures take 3 HD psychic damage + must succeed Resolve check or become Stunned (cannot act next turn)
   - **Herald's Presence** (Passive): All PCs have disadvantage on Resolve checks while within 30 yards
 - **Weakness:** Radiant damage (holy magic, Aluneth's blessing) deals double damage
@@ -694,7 +694,7 @@ When the Void Herald manifests, the Paladin feels **Aluneth's full presence surg
 
 **Mechanical Effect:**
 The Paladin gains **Channel Divinity: Tide of Memory** (one-time use, this battle only):
-- **Action:** Advanced (3+) check
+- **Action:** Basic (2+) check
 - **Effect:** Call upon Aluneth's power. Radiant tidal wave erupts from Paladin (20-yard radius)
   - All allies in range: Heal 3 HD + remove one negative condition
   - All enemies in range: Take 4 HD radiant damage + must succeed Resolve check or become Feared (disadvantage on attacks for 2 rounds)
@@ -749,7 +749,7 @@ The rift closes. The cave shudders. Moonlight breaks through storm clouds, flood
 - **Korith's Void-touched Robes:** Armor (Light), provides resistance to psychic damage, -1d6 to Stealth checks (unsettling appearance)
 - **Rift Shard:** Small crystallized fragment of the void rift, can be sold to a sage for 500 silver *or* used as magical component for powerful ritual (GM's choice for future hook)
 - **300 silver markers** (promised reward from Tidemark)
-- **Cultist lore books** (Advanced 3+ Scholar checks reveal Nihil Covenant history—possible future adventure hooks)
+- **Cultist lore books** (Basic 2+ Scholar checks reveal Nihil Covenant history—possible future adventure hooks)
 
 ---
 

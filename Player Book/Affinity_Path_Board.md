@@ -557,7 +557,7 @@ Your system has:
 Feats should work **with** these systems, creating interesting **choices about when to commit**, not making commitment safer or stronger.
 
 **Good Feat Examples:**
-- "When at RT 6 (Staggering), first Resolve check each scene gains +1d6" (changes desperation behavior)
+- "When at RT 6 (Cracking), first Resolve check each scene gains +1d6" (changes desperation behavior)
 - "After succeeding at Expert threshold, gain +1d6 on next social check same scene" (cross-system reward)
 - "When defending an ally within 5 yards, you may redirect attack to yourself as free action" (tactical choice)
 
@@ -788,7 +788,7 @@ You've mastered stealth and misdirection.
 #### Ambush Predator  
 **Prerequisite:** `Shadow-Trained`
 
-**Benefit:** When you attack a target that is unaware of you (hasn't seen you yet this encounter), you require 1 fewer success on that attack (Basic becomes easier, Advanced becomes Basic threshold, etc.). Once per encounter. Your prepared strike finds the gap in their awareness.
+**Benefit:** When you attack a target that is unaware of you (hasn't seen you yet this encounter), you require 1 fewer success on that attack (e.g., 2 required becomes 1). Once per encounter. Your prepared strike finds the gap in their awareness.
 
 **Design Note:** Reduces required successes in narrow circumstance (unaware target, once per encounter), changes success math without inflating damage.
 
@@ -910,7 +910,7 @@ You have a deep connection to nature and beasts.
 #### Forager
 **Prerequisite:** `Wild-Touched`
 
-**Benefit:** During downtime or travel, you can forage supplies. Roll Wilderness check: Basic success = food for 3 people per day, Advanced = food for 6 people plus useful herbs (GM's discretion).
+**Benefit:** During downtime or travel, you can forage supplies. Roll Wilderness check: 1 success = food for 3 people per day, 2+ successes = food for 6 people plus useful herbs (GM's discretion).
 
 **Connects to:** `Wild-Touched` • `Herbalist` → `Scholar's Method`
 
@@ -1338,7 +1338,7 @@ You are the anchor that steadies your companions.
 - Once per short rest: **Steady Hands**—touch ally to grant them +1d6 on their next roll. You offer comfort and confidence.
 - **Sanctuary Presence**: Allies taking a short rest within 10 yards of you restore an additional +1d6 HD. Your presence is calming.
 
-**Proficiency 3+ Milestone:** Sanctuary Presence extends to 20 yards. Steady Hands can now also remove the Shaken condition (lower an ally's RT from 4 to 3) once per long rest. Your care reaches further and deeper.
+**Proficiency 3+ Milestone:** Sanctuary Presence extends to 20 yards. Steady Hands can now also lower an ally's RT by 1 (minimum 2) once per long rest. Your care reaches further and deeper.
 
 **Connects to:** `Field Medic` • `Calming Words` • `Protective Instinct` • `Healer's Touch`
 
@@ -1347,7 +1347,7 @@ You are the anchor that steadies your companions.
 #### Field Medic
 **Prerequisite:** `Hearth-Keeper`
 
-**Benefit:** During short rests, you may tend to wounds. Make a Medicine check: Basic success = one ally restores +1d6 HD, Advanced = two allies restore +1d6 HD each.
+**Benefit:** During short rests, you may tend to wounds. Make a Medicine check: 1 success = one ally restores +1d6 HD, 2+ successes = two allies restore +1d6 HD each.
 
 **Connects to:** `Hearth-Keeper` • `Combat Medic` → `Wild-Touched` • `Herbalist`
 
@@ -1519,11 +1519,11 @@ You navigate social situations with grace and cunning.
 
 **Benefit:**
 - Gain +2d6 to all Influence skill rolls (doesn't burn HD on 1s)
-- **Composure Upgrade:** Your base Composure dice are d8 (upgraded from d6)
-- Once per long rest: **Perfect Pitch**—reduce the required successes on one social roll by 2 (minimum 1). Describe your masterful performance — the perfect words, the precise timing, the devastating charm.
+- +1d6 on all social Group Challenges
+- Once per long rest: **Perfect Pitch**—reduce the required successes on one social Group Challenge by 2 (minimum 1). Describe your masterful performance — the perfect words, the precise timing, the devastating charm.
 - **Read the Room**: Spend 1 minute observing a social situation to learn the power dynamics, tensions, and key figures (GM provides useful social information)
 
-**Proficiency 3+ Milestone:** Read the Room becomes instant — a glance (free action) is sufficient. Additionally, gain +1 Composure die in social duels (representing honed social armor).
+**Proficiency 3+ Milestone:** Read the Room becomes instant — a glance (free action) is sufficient. Additionally, gain an extra +1d6 on social Group Challenges (total +2d6 from this feat).
 
 **Connects to:** `Charming` • `Deceptive` • `Commanding Presence` • `Negotiator`
 
@@ -1532,7 +1532,7 @@ You navigate social situations with grace and cunning.
 #### Charming
 **Prerequisite:** `Silver Tongue`
 
-**Benefit:** When making favorable first impressions, gain +1d6 (doesn't burn HD on 1s). NPCs are generally inclined to like you unless you give them reason not to. In social duels, your Discern stance also grants +1d6 (you read people effortlessly).
+**Benefit:** When making favorable first impressions, gain +1d6 (doesn't burn HD on 1s). NPCs are generally inclined to like you unless you give them reason not to. In social Group Challenges, gain +1d6 when reading people or leveraging charm.
 
 **Connects to:** `Silver Tongue` • `Beloved` → `Hearth-Keeper` • `Virtue's Voice`
 
@@ -1541,7 +1541,7 @@ You navigate social situations with grace and cunning.
 #### Deceptive
 **Prerequisite:** `Silver Tongue`
 
-**Benefit:** When lying or deceiving, gain +1d6 (doesn't burn HD on 1s). Gain +2d6 if your lie is plausible. In social duels, once per duel you may declare "That was a feint"—treat your chosen stance as a different stance for interaction purposes (after seeing opponent's stance).
+**Benefit:** When lying or deceiving, gain +1d6 (doesn't burn HD on 1s). Gain +2d6 if your lie is plausible. In social Group Challenges, once per challenge you may misdirect the opposition — gain +1d6 after hearing their position.
 
 **Connects to:** `Silver Tongue` • `Master of Disguise` → `Shadow-Trained` • `Misdirection`
 
@@ -1550,7 +1550,7 @@ You navigate social situations with grace and cunning.
 #### Commanding Presence
 **Prerequisite:** `Silver Tongue`
 
-**Benefit:** When giving orders, making demands, or intimidating, gain +1d6 (doesn't burn HD on 1s). NPCs take you seriously. In social duels, your Assert stance deals +1 additional damage on victory.
+**Benefit:** When giving orders, making demands, or intimidating, gain +1d6 (doesn't burn HD on 1s). NPCs take you seriously. In social Group Challenges, gain +1 automatic success when asserting authority.
 
 **Connects to:** `Silver Tongue` • `Natural Leader` → `War-Trained` • `Battle Commander`
 
@@ -1559,7 +1559,7 @@ You navigate social situations with grace and cunning.
 #### Negotiator
 **Prerequisite:** `Silver Tongue`
 
-**Benefit:** When negotiating deals, trades, or agreements, gain +1d6 (doesn't burn HD on 1s). You can usually find common ground. In social duels, your Reason stance converts at 1 success per Leverage (instead of 2).
+**Benefit:** When negotiating deals, trades, or agreements, gain +1d6 (doesn't burn HD on 1s). You can usually find common ground. When presenting evidence or proposals in a social Group Challenge, gain +1 automatic success.
 
 **Connects to:** `Silver Tongue` • `Mediator` → `Scholar's Method`
 
@@ -1878,7 +1878,7 @@ You have forged yourself through discipline rather than destiny. No patron, no c
 #### Tempered
 **Prerequisite:** `Unbroken`
 
-**Benefit:** When at Resolve Threshold 5 or higher, gain +2d6 on all actions until end of your next turn (doesn't burn HD on 1s). You become more dangerous the closer you are to breaking. Additionally, the first time each encounter you would Collapse (fail at RT 6), you instead remain at RT 6 (Staggering) — you *refuse* to break.
+**Benefit:** When at Resolve Threshold 5 or higher, gain +2d6 on all actions until end of your next turn (doesn't burn HD on 1s). You become more dangerous the closer you are to breaking. Additionally, the first time each encounter you would Collapse (fail at RT 6), you instead remain at RT 6 (Cracking) — you *refuse* to break.
 
 **Design Note:** The Collapse save is once per encounter and doesn't prevent subsequent Collapses. This creates the dramatic "last stand" moment where the battered hero delivers their greatest performance. Pairs with Unyielding's Grit for a double-safety net that still requires investment.
 

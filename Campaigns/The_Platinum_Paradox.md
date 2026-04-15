@@ -714,7 +714,7 @@ A **merchant** approaches:
 **Combat Encounters**: 2 major, 1 optional  
 **Social Encounters**: 6+ (core of campaign)  
 **Key Mechanics Tested**:
-- Opposed Resolve checks (social combat)
+- Opposed Resolve checks (social Group Challenges)
 - Redemption mechanics (turning enemies into allies)
 - Moral choice systems (punishment vs. mercy)
 - Social consequences (NPC relationships matter)

@@ -59,9 +59,8 @@ The threshold depends on the action's tier:
 │ Action Tier │ Threshold     │ What Counts                      │
 ├─────────────┼───────────────┼──────────────────────────────────┤
 │ Basic       │ 2+            │ 2,3,4,5 = 1 success; 6 = 2      │
-│ Advanced    │ 3+            │ 3,4,5 = 1 success; 6 = 2        │
 │ Expert      │ 4+            │ 4,5 = 1 success; 6 = 2          │
-│ Legendary   │ 5+            │ 5 = 1 success; 6 = 2            │
+│ Legendary   │ 6 only        │ 6 = 2 successes                  │
 └─────────────┴───────────────┴──────────────────────────────────┘
 
 At Level 1, most actions are Basic (2+ threshold).
@@ -157,15 +156,15 @@ ATTACKING
 
 1. Roll Proficiency d6s (+ any exertion)
 2. Need: 1 success at 2+ threshold (for Basic attacks)
-3. Extra successes: +1 damage each (capped at Proficiency)
+3. Hit = weapon damage. Extra successes trigger weapon properties.
 
 At Level 1: Roll 1-2d6. Any die showing 2+ counts.
 
 Example:
-• Attacking with a sword (Base 1 HD damage, Basic tier = 2+)
+• Attacking with a sword (1 HD damage, Basic tier = 2+)
 • Roll 2d6 (Prof 1 + Exert 1), get 5, 3
-• Both are 2+ → 2 successes → hit for 1 base + 1 bonus = 2 HD damage
-• Bonus damage capped at Proficiency (max 1 at Level 1)
+• Both are 2+ → 2 successes → hit for 1 HD damage
+• Extra success could trigger a weapon property if the weapon has one
 
 ────────◇────────
 DEFENDING
@@ -214,18 +213,19 @@ Everyone starts at Resolve Threshold 2 (you need 2+ on 1d6 to hold steady). It r
 
 When your Resolve Threshold increases (rare at L1):
 • Taking massive damage in one round
-• Using maximum exertion repeatedly
 • Failing difficult actions
+• Certain enemy effects (fear, psychic attacks)
 
 Resolve Check: Roll 1d6 against your current Resolve Threshold.
 • Roll at or above RT = You hold (no change)
 • Roll below RT = RT increases by 1 (you fall one stage)
 
-Resolve Stages: RT 2 (Full Strength) → RT 3 (Pressured) → RT 4 (Shaken) → RT 5 (Weakened) → RT 6 (Staggering) → Collapse
+Resolve Stages: RT 2-4 (Functional) → RT 5+ (Cracking: no Expert+ actions) → Collapse
 
 Don't worry about Resolve yet. Your GM will tell you when to check.
 
-At 0 Body HD AND Collapse (fail at RT 6) = death. Until then, you can be saved.
+At 0 Body HD: You're still standing but limited to 1 action per turn. Resolve checks each round.
+At 0 HD AND Collapse (fail at RT 6) = death. Until then, you can be saved.
 
 ────────◇────────
 RESTING
@@ -308,7 +308,7 @@ STARTING ABILITIES (Level 1)
 Weapon Strike (Basic, 2+)
 • Weapon attacks are Basic (2+)
 • Required: 1 success
-• Damage: Weapon base + extra successes (max +Prof)
+• Damage: Weapon base (extra successes trigger weapon properties)
 
 Rally Cry (Basic, 2+)
 • Required: 1 success
@@ -316,13 +316,13 @@ Rally Cry (Basic, 2+)
 • Target gains +1d6 on their next action (doesn't burn HD on 1s)
 • Usable Proficiency times per short rest
 
-Hold the Line (Advanced, 3+)
+Hold the Line (Basic, 2+)
 • Required: 2 successes
 • Duration: Proficiency rounds
 • 10-yard zone around you: enemies cannot move through without contesting you
 • Allies in zone gain +1d6 to their first defense each round
 
-Oath-Driven Strike (Advanced, 3+)
+Oath-Driven Strike (Basic, 2+)
 • Required: 2 successes
 • Weapon Strike + contest (your Prof dice vs their Prof dice)
 • If you win: push 5 yards OR knock prone
@@ -382,7 +382,7 @@ Mark Prey (Basic, 2+)
 • Lasts until target drops to 0 HD or you mark another
 • Usable at will
 
-Killing Ground (Advanced, 3+)
+Killing Ground (Basic, 2+)
 • Required: 2 successes
 • 30-yard radius zone, Proficiency × 2 rounds
 • Choose one effect:
@@ -391,7 +391,7 @@ Killing Ground (Advanced, 3+)
   - Mire: Difficult terrain for enemies
 • Usable Proficiency times per short rest
 
-Culling Strike (Advanced, 3+)
+Culling Strike (Basic, 2+)
 • Against Marked Prey only
 • Required: 2 successes
 • Weapon Strike at +Prof damage

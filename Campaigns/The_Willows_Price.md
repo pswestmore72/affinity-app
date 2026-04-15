@@ -39,7 +39,7 @@ The PCs arrive at Everspring during the spring festival that should celebrate th
   - Success reveals: Strange figures near tree at night, merchant caravan passed through recently, local hermit warned this would happen
   
 - **Examine the Willow**: Requires Nature knowledge or Priest/Shaman connection
-  - Advanced (3+) action to commune with tree
+  - Basic (2+) action to commune with tree
   - Success: Tree is in *agony*—something foreign is bound within its roots, burning it from inside
   - Expert (4+) Success: Catch glimpse of memory—a young woman's face, twisted in terror
   
@@ -118,7 +118,7 @@ At midnight, beneath the Willow, the PC who learned Lafsan's ritual must cast it
 3. **Root Chamber Three - The Binding Site**:
    - Ritual circle carved into massive root
    - Silver threads connect circle to pulsing central root
-   - **Skill Challenge**: Trace threads to find Opal's location (requires 3 cumulative successes with Advanced 3+ actions)
+   - **Skill Challenge**: Trace threads to find Opal's location (requires 3 cumulative successes with Basic 2+ actions)
    - Failure adds complication: Alarm alerts Ricton
 
 4. **Root Chamber Four - Ricton's Vigil**:
@@ -127,7 +127,7 @@ At midnight, beneath the Willow, the PC who learned Lafsan's ritual must cast it
      - Proficiency: 2
      - Resolve: 2 (already damaged by guilt)
      - **Attack - Desperate Slash** (Basic, 2+): 2 successes required, 2 HD damage
-     - **Power Word: "She Lives!"** (Advanced, 3+): Shout that bolsters his Resolve by 1, usable twice
+     - **Power Word: "She Lives!"** (Basic, 2+): Shout that bolsters his Resolve by 1, usable twice
      - **Breakdown**: If reduced to 0 Resolve before 0 HD, collapses sobbing rather than fighting
    - **Roleplay Option**: Convince Ricton to help free Opal (opposed social check, target his Resolve)
      - Success: He helps party reach nexus
@@ -194,7 +194,7 @@ Regardless of choice, *during* the resolution attempt:
   - Proficiency: 2
   - Resolve: 3
   - Actions per turn: **4** (2 + half party size, rounded down for party of 3-4)
-  - **Attack - Strangling Vines** (Advanced, 3+): 2 successes, 2 HD damage, grapple on 3+ successes
+  - **Attack - Strangling Vines** (Basic, 2+): 2 successes, 2 HD damage, grapple on 3+ successes
   - **Attack - Pollination Burst** (Expert, 4+): 3 successes, 3 HD to all in 10-yard cone, Resolve check or lose 1 Resolve (overwhelming beauty)
   - **Special - Rapid Bloom**: Each turn, Bloom-orchids sprout in 5-yard radius (difficult terrain)
   - **Tactics**: Interrupt party's ritual/severing attempt, forcing them to split attention
@@ -243,9 +243,9 @@ Thalos operates from **The Slasher's Den** (black market auction house built int
 - HD Pool: 7d8
 - Proficiency: 3
 - Resolve: 4
-- **Power Word: "Debt Recalled"** (Advanced, 3+): Target must make Resolve check or lose 1 HD as "payment" (necrotic soul-drain)
+- **Power Word: "Debt Recalled"** (Basic, 2+): Target must make Resolve check or lose 1 HD as "payment" (necrotic soul-drain)
 - **Power Word: "Contract Sealed"** (Expert, 4+): Bind target in metaphysical chains (grappled, cannot move until they make successful Resolve check)
-- **Attack - Reaper's Touch** (Advanced, 3+): 2 HD damage, steals 1 HD on 4+ successes (adds to his pool)
+- **Attack - Reaper's Touch** (Basic, 2+): 2 HD damage, steals 1 HD on 4+ successes (adds to his pool)
 - **Summon Contract-Bound Shades**: Can call 2d4 soul-husks as minions (2d6 HD each)
 
 **The Auction Hall Fight**:
@@ -379,7 +379,7 @@ When Thalos falls:
 **Proficiency**: 2  
 **Resolve**: 3  
 **Actions**: 4 per turn  
-**Strangling Vines** (Advanced, 3+): 2 HD + grapple  
+**Strangling Vines** (Basic, 2+): 2 HD + grapple  
 **Pollination Burst** (Expert, 4+): 3 HD cone, Resolve check or lose 1  
 **Rapid Bloom**: Creates difficult terrain each turn
 
@@ -387,9 +387,9 @@ When Thalos falls:
 **HD**: 7d8  
 **Proficiency**: 3  
 **Resolve**: 4  
-**Power Word: Debt Recalled** (Advanced, 3+): Target Resolve check or lose 1 HD  
+**Power Word: Debt Recalled** (Basic, 2+): Target Resolve check or lose 1 HD  
 **Power Word: Contract Sealed** (Expert, 4+): Metaphysical grapple, Resolve check to escape  
-**Reaper's Touch** (Advanced, 3+): 2 HD, steals 1 HD on 4+ successes  
+**Reaper's Touch** (Basic, 2+): 2 HD, steals 1 HD on 4+ successes  
 **Summon Shades**: 2d4 contract-bound souls (2d6 HD each)
 
 ---

@@ -48,7 +48,7 @@ Now Serel walks the boundary between Mortal Weave and Gloam, learning the Shephe
 - **Notes:** Non-lethal by default. Serel prefers to incapacitate, not kill. "The dead taught me violence solves nothing."
 
 **Secondary Attack: Mourning State Invocation**
-- **Action Tier:** Advanced (3+)
+- **Action Tier:** Basic (2+)
 - **Roll:** 4d6 *(Proficiency 2 + 2d6 Gloam attunement)*
 - **Required Successes:** 3
 - **Damage:** 1 HD psychic + special effect based on current Mourning State
@@ -60,7 +60,7 @@ Now Serel walks the boundary between Mortal Weave and Gloam, learning the Shephe
   - **Hollow:** Target's RT advances by 1 directly (no damage, just emptiness)
 
 **Guide the Lost** *(Utility, non-combat)*
-- **Action Tier:** Advanced (3+)
+- **Action Tier:** Basic (2+)
 - **Roll:** 5d6 *(Proficiency 2 + 3d6 Shepherd training)*
 - **Required Successes:** 2
 - **Effect:** Serel can guide willing souls toward Release, ending undead existence peacefully. Also works on creatures trapped in Vigil (Vigil Shades, confused ghosts). Requires consent or Collapse.

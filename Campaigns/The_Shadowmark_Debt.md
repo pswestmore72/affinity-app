@@ -340,7 +340,7 @@ Common knowledge gathered from merchants, gossiping shopkeepers:
 - Has one daughter, rarely seen in public
 - Known to collect rare documents and contracts
 
-**Rumors (Advanced 3+ Social, costs drinks/bribes, 10-20 silver):**
+**Rumors (Basic 2+ Social, costs drinks/bribes, 10-20 silver):**
 - *"Kaine doesn't just trade goods—he trades in obligations. People owe him."*
 - *"Three merchant rivals died in 'accidents' over the years. Convenient timing."*
 - *"He hosts monthly gatherings. Only the wealthy attend. They say deals are made that don't appear in any ledger."*
@@ -369,7 +369,7 @@ Obvious details:
 - Second-floor balconies (three visible, doors locked from inside)
 - Rooftop has chimney stacks and what looks like a skylight (east side, third floor)
 
-**Longer Observation (4-6 hours, Advanced 3+ Perception/Investigation):**
+**Longer Observation (4-6 hours, Basic 2+ Perception/Investigation):**
 
 Guard patterns:
 - **6 guards total:** 2 at main gate, 2 patrolling grounds, 1 at servant entrance, 1 inside (rotating)
@@ -384,7 +384,7 @@ Guard patterns:
 - Daughter (Elara) appears briefly at second-floor window some evenings, looking out sadly
 
 **Architectural assessment (Expert 4+ Engineering/Architecture or Ranger with urban experience):**
-- East wall has slightly looser mortar (easier climbing, Advanced 3+ instead of Expert 4+)
+- East wall has slightly looser mortar (easier climbing, Basic 2+ instead of Expert 4+)
 - Chimney stacks are wide enough to climb inside (risky, potential for getting stuck)
 - Skylight appears to be hinged (opens for ventilation), third floor
 - Adjacent building (3-story warehouse) has rooftop access—possible jump point (15-foot gap, risky)
@@ -402,7 +402,7 @@ A hooded figure (40 yards away, different vantage point) also observing Kaine's 
 
 **Trade Opportunity:**
 - Glass offers information on Captain Harrick (vault guard) in exchange for party causing a distraction during THEIR heist (different day/target)
-- OR party can intimidate/persuade Glass to share info (Advanced 3+ Social)
+- OR party can intimidate/persuade Glass to share info (Basic 2+ Social)
 - OR party can ignore Glass entirely
 
 **Information Glass Provides (if deal made):**
@@ -481,7 +481,7 @@ When the party uses the greeting *"Frère/Sœur des toits,"* Fingers' suspicious
 - Lock is trapped: failed attempts trigger a poison needle (1 HD damage + Constitution check or paralyzed 10 minutes)
 - Combination changes monthly, but Fingers knows the pattern: *"Kaine uses dates. His daughter's birthday, his wife's death anniversary, his first profit margin. Sentimental fool."*
 
-**Advanced (3+) Investigation/Social:**
+**Basic (2+) Investigation/Social:**
 - Fingers reveals Kaine also has a **magical ward** on the vault: *"Some kind of alert spell. If the door opens without the proper command word, bells ring in the guards' barracks. Silent alarm."*
 - *"You'll need a mage to dispel it, or... find out the command word. Kaine keeps notes. He's too paranoid NOT to write things down."*
 
@@ -525,10 +525,10 @@ When the party uses the greeting *"Frère/Sœur des toits,"* Fingers' suspicious
 **Exterior Observation (Basic 2+ Perception/Investigation):**
 - Main gate (guarded, two guards at all times)
 - Servant entrance (back, less guarded but locked)
-- Second-floor balconies (accessible via climbing, Advanced 3+ Athletics)
+- Second-floor balconies (accessible via climbing, Basic 2+ Athletics)
 - Rooftop access via adjacent building (risky, requires Acrobatics)
 
-**Advanced (3+) Stealth/Observation (requires spending 2-3 hours watching):**
+**Basic (2+) Stealth/Observation (requires spending 2-3 hours watching):**
 - Guard patrol pattern (changes every 2 hours, 6 guards total, 2 inside, 4 patrolling grounds)
 - Dogs released at night (2 mastiffs, patrol courtyard)
 - Shift change at dawn and dusk (brief 10-minute window with reduced vigilance)
@@ -551,7 +551,7 @@ When the party uses the greeting *"Frère/Sœur des toits,"* Fingers' suspicious
 
 **Requirements:**
 - Forged documents (provided by Whisper)
-- Appropriate attire (costs 20 silver for party, or Advanced 3+ Deception to bluff with commoner clothes)
+- Appropriate attire (costs 20 silver for party, or Basic 2+ Deception to bluff with commoner clothes)
 - Convincing backstory (party must agree on cover identity)
 
 **The Gathering (Social Encounter):**
@@ -566,12 +566,12 @@ Kaine hosts 15-20 merchants in his main hall (ground floor). Wine flows. Deals a
 - Doorman checks credentials
 - Failure = recognized as frauds, escorted out (backup plan needed)
 
-**Challenge 2: Blend In (Advanced 3+ Social/Performance)**
+**Challenge 2: Blend In (Basic 2+ Social/Performance)**
 - Partygoers are merchants—talk trade, economics, rumors
 - Success = gain trust, invited to "inner circle" conversation
 - Failure = seem suspicious, watched closely by guards
 
-**Challenge 3: Extract Information (Advanced 3+ Influence/Investigation)**
+**Challenge 3: Extract Information (Basic 2+ Influence/Investigation)**
 - Casually ask about Kaine's security, vault location, recent acquisitions
 - Success = learn vault is on third floor, east wing; guard captain is "Harrick" (bribeable? maybe)
 - Critical Success (Expert 4+) = overhear conversation: *"Davrik, when is your guest from the Concordium arriving? Three days? Will the scroll be ready for transfer?"*
@@ -593,7 +593,7 @@ Kaine hosts 15-20 merchants in his main hall (ground floor). Wine flows. Deals a
 
 **Approach:**
 
-**Bribery (Advanced 3+, costs 100+ silver):**
+**Bribery (Basic 2+, costs 100+ silver):**
 - Jenna reveals guard schedule, number of guards, dog patrol times
 - Warns: *"Vault's on third floor. Only Kaine and Captain Harrick have keys. Door's warded—magic stuff. And... there's something else up there. I've heard noises at night. Movement. Kaine might have a guardian."*
 
@@ -601,7 +601,7 @@ Kaine hosts 15-20 merchants in his main hall (ground floor). Wine flows. Deals a
 - Same info as bribery, but Jenna reports attempt to Captain Harrick
 - Future infiltration has +1d6 difficulty (guards on alert)
 
-**Persuasion/Sympathy (Advanced 3+, if party appeals to Jenna's sense of justice):**
+**Persuasion/Sympathy (Basic 2+, if party appeals to Jenna's sense of justice):**
 - Learn Jenna hates working for Kaine: *"He treats us like thugs. Pays late. Three guards 'disappeared' last year when they asked too many questions. If you're going after him... good. Just don't get caught. I don't want to have to fight you."*
 - She might "accidentally" leave a door unlocked during next session
 
@@ -613,7 +613,7 @@ Kaine hosts 15-20 merchants in his main hall (ground floor). Wine flows. Deals a
 
 **Location:** The Ledger House (city records) or Undercroft information brokers
 
-**Scholar/Investigation check (Advanced 3+, takes 1 day of research):**
+**Scholar/Investigation check (Basic 2+, takes 1 day of research):**
 
 **What They Learn:**
 - Davrik Kaine arrived in Korshal 15 years ago with modest wealth
@@ -693,12 +693,12 @@ Each entry method has unique challenges:
 **Step 1: Reach Adjacent Building**
 - Warehouse next door, three stories
 - Requires Basic (2+) Athletics to climb exterior (maintenance ladder) or
-- Break in via ground-floor door (Advanced 3+ lockpicking)
+- Break in via ground-floor door (Basic 2+ lockpicking)
 
 **Step 2: Cross to Kaine's Roof**
 - 15-foot gap between buildings
 - Options:
-  - **Jump** (Advanced 3+ Athletics, failure = fall 30 feet, 4 HD damage, loud crash)
+  - **Jump** (Basic 2+ Athletics, failure = fall 30 feet, 4 HD damage, loud crash)
   - **Rope bridge** (if brought grappling hook, requires 2 successful throws)
 - Wind at night adds difficulty
 
@@ -717,7 +717,7 @@ Each entry method has unique challenges:
 - Single guard posted (if Jenna didn't unlock)
 - Options:
   - **Distraction** (if hired Sparrow, fire starts elsewhere, guard leaves post)
-  - **Stealth takedown** (Advanced 3+ combat, must be non-lethal and silent)
+  - **Stealth takedown** (Basic 2+ combat, must be non-lethal and silent)
   - **Disguise** (if bought servant clothes from Sparrow, Basic 2+ Deception)
   - **Unlocked door** (if Jenna helped, automatic entry)
 
@@ -735,7 +735,7 @@ Each entry method has unique challenges:
 
 **Step 1: Enter as Guests**
 - Forged credentials checked at door
-- Basic (2+ Deception if credentials good, Advanced 3+ if suspicious)
+- Basic (2+ Deception if credentials good, Basic 2+ if suspicious)
 - Failure = turned away or detained
 
 **Step 2: Blend and Separate**
@@ -767,7 +767,7 @@ Each entry method has unique challenges:
 
 **Encounter 1: Patrol Guards (2 guards, ground to second floor stairs)**
 
-- **Stealth Bypass** (Advanced 3+ Stealth contest)
+- **Stealth Bypass** (Basic 2+ Stealth contest)
   - Success= pass unnoticed
   - Failure = guards hear something, investigate (can hide, requires second check)
 - **Combat Option** (if detected)
@@ -790,7 +790,7 @@ Inside: Small, sparse room. Teenage girl (Elara) sits by window, crying softly.
 She sees PCs, freezes:
 *"Please... don't hurt me. Are you Father's people? Or... are you thieves?"*
 
-**Social Encounter (Advanced 3+ Influence/Compassion):**
+**Social Encounter (Basic 2+ Influence/Compassion):**
 
 If PCs are gentle and honest:
 - *"You're here for something in the vault. I know. Father keeps terrible things there. Contracts. Papers that bind people's souls."*
@@ -834,7 +834,7 @@ Stationed outside vault door. Level 2 Elite Combatant, loyal (or bribed, if PCs 
 **Captain Harrick:**
 - **HD Pool:** 12d6
 - **Proficiency:** 2
-- **Attack - Longsword** (Advanced 3+): 3 successes, 3 HD damage
+- **Attack - Longsword** (Basic 2+): 3 successes, 3 HD damage
 - **Shield Bash** (Basic 2+): 2 successes, 1 HD damage + knock prone
 - **Defensive Stance** (Reaction): +1d6 to defense when fighting defensively
 - **Alarm Raising:** If combat lasts 3+ rounds, Harrick shouts for reinforcements (4 guards arrive in 2 rounds)
@@ -849,7 +849,7 @@ Stationed outside vault door. Level 2 Elite Combatant, loyal (or bribed, if PCs 
 - Coterie prefers this (killing raises heat)
 
 **Option D: Deception (if PCs crafted false orders or emergency)**
-- Requires Advanced (3+) Deception and prop (forged message)
+- Requires Basic (2+) Deception and prop (forged message)
 - *"Captain! Kaine needs you downstairs immediately—intruders at main entrance!"*
 - Success = Harrick leaves for 5-10 minutes
 - Failure = Harrick suspicious, combat begins
@@ -908,7 +908,7 @@ Reinforced steel, 4 inches thick. No hinges visible (internal mechanism). Three 
 
 #### Challenge 2: The Magical Ward
 
-**Observing the Ward (Advanced 3+ Magic/Religion check):**
+**Observing the Ward (Basic 2+ Magic/Religion check):**
 
 Sigils glow faintly blue. Engine symbology (broken chain inside gear—freedom through debt)This is an **alert spell**. Opening door without command word triggers silent alarm to guard barracks.
 
@@ -919,7 +919,7 @@ Sigils glow faintly blue. Engine symbology (broken chain inside gear—freedom t
 - Ward flickers, dies
 - Automatic success
 
-**Option B: Dispel Magic (Advanced 3+ Magic/Priest ritual)**
+**Option B: Dispel Magic (Basic 2+ Magic/Priest ritual)**
 - Requires Weaver, Mage, or Priest
 - Takes 1 minute, requires concentration
 - Success = ward dispelled cleanly
@@ -957,13 +957,13 @@ A humanoid construct made of: parchment skin, inky veins, wax joints. Stands 6 f
 - **Proficiency:** 2
 - **Appearance:** Body covered in contract text, eyes are wax seals, fingers are quill pens
 - **Attacks:**
-  - **Binding Tendrils** (Advanced 3+): 3 successes, 2 HD damage + target Restrained (Athletics check to escape)
+  - **Binding Tendrils** (Basic 2+): 3 successes, 2 HD damage + target Restrained (Athletics check to escape)
   - **Debt Mark** (Expert 4+, once per target): Target makes Resolve check or gains "debt curse" (disadvantage on all checks until long rest—psychological weight)
   - **Contract Whip** (Basic 2+): 2 successes, 2 HD slashing
 - **Vulnerabilities:**
   - **Fire:** Double damage
   - **Radiant/Holy magic:** +1d6 damage
-  - **Ripping contracts:** If PCs specifically target its "body" (Advanced 3+ called shot), tear parchment for extra damage
+  - **Ripping contracts:** If PCs specifically target its "body" (Basic 2+ called shot), tear parchment for extra damage
 - **Resistances:**
   - Physical weapons (half damage unless magical)
 
@@ -1001,7 +1001,7 @@ But... the Rogue's Shadowmark pulses hot. Curiosity burns. What's inside?
 
 Inside: Single parchment scroll, folded. Text is mix of legal language and infernal script (glows faintly red).
 
-**Reading it (Advanced 3+ Scholar to understand legal terms, Basic 2+ Religion to recognize infernal):**
+**Reading it (Basic 2+ Scholar to understand legal terms, Basic 2+ Religion to recognize infernal):**
 
 **The Contract's Contents:**
 
@@ -1043,7 +1043,7 @@ Alarm level determines escape difficulty:
 
 **Alarm 1-2 (Partial Detection):**
 - Guards searching manor
-- 2-3 Stealth checks (Advanced 3+) or combat encounters while escaping
+- 2-3 Stealth checks (Basic 2+) or combat encounters while escaping
 - Chase into streets if spotted
 
 **Alarm 3+ (Full Lockdown):**
@@ -1161,7 +1161,7 @@ Cons:
 
 #### Scene 2: Finding a Way to Break the Contract
 
-**Research (Advanced 3+ Scholar/Religion):**
+**Research (Basic 2+ Scholar/Religion):**
 
 Soul-binding contracts enforced by Azravael are nearly unbreakable. BUT:
 
@@ -1175,7 +1175,7 @@ Soul-binding contracts enforced by Azravael are nearly unbreakable. BUT:
 
 Meet: **Sister Vera** (Level 3 Priest of Thalos)
 
-**Social Encounter (Advanced 3+ Influence, explaining situation):**
+**Social Encounter (Basic 2+ Influence, explaining situation):**
 
 Sister Vera listens carefully:
 *"This is Azravael's work. The Engine binds through fear and greed. These nobles are guilty of embezzlement, yes—but eternal soul-slavery? That is tyranny, not justice."*
@@ -1208,7 +1208,7 @@ Each noble presents unique challenge:
 
 **Location:** Fortified manor, Sovereign's Rise
 
-**Difficulty:** Advanced (3+) Social
+**Difficulty:** Basic (2+) Social
 
 **Approach:**
 Hastings is terrified (rightly suspects Kaine sent assassins).
@@ -1296,7 +1296,7 @@ Easiest to convince:
 - **HD Pool:** 18d6
 - **Proficiency:** 3
 - **Attacks:**
-  - **Soul Lash** (Advanced 3+): 3 successes, 2 HD necrotic + target loses 1 Resolve (manifests as spectral chain)
+  - **Soul Lash** (Basic 2+): 3 successes, 2 HD necrotic + target loses 1 Resolve (manifests as spectral chain)
   - **Binding Oath** (Expert 4+, once per encounter): Target makes Resolve check or becomes Compelled (must obey one command, lasts 1 minute)
   - **Debt Shield** (Reaction): When attacked, call on bound soul—one nearby NPC (driver, bystander) takes damage instead (cruel)
 - **Equipment:** Signet ring (target), ornate dagger, leather coat with hidden armor
@@ -1304,7 +1304,7 @@ Easiest to convince:
 **2 Engine Enforcers** (Level 2 Combatants)
 - **HD Pool:** 10d6 each
 - **Proficiency:** 2
-- **Attack - Mace** (Advanced 3+): 3 successes, 3 HD damage
+- **Attack - Mace** (Basic 2+): 3 successes, 3 HD damage
 - **Tactics:** Guard Kaine, aggressive fighting
 
 **Combat Location:** Street ambush (civilians present, Watch might arrive if combat exceeds 5 rounds)
@@ -1356,7 +1356,7 @@ From it: **The Debt Collector** (extraplanar enforcer)
 - **Proficiency:** 3
 - **Appearance:** Skeletal figure in tattered accountant's robes, ledger in one hand, scythe-chain in other
 - **Attacks:**
-  - **Chain Reave** (Advanced 3+): 3 successes, 3 HD damage + Bleeding (1 HD per round until treated)
+  - **Chain Reave** (Basic 2+): 3 successes, 3 HD damage + Bleeding (1 HD per round until treated)
   - **Calculate Debts** (Expert 4+, AOE): All PCs make Resolve check or gain "debt sickness" (disadvantage on next attack/check)
   - **Reclaim by Force** (Action): Attempts to grab contract from altar, disrupt ritual
 - **Objective:** Stop ritual, reclaim contract, punish oath-breakers
@@ -1374,7 +1374,7 @@ From it: **The Debt Collector** (extraplanar enforcer)
 - PCs must defend Sister Vera (she cannot fight, maintains concentration)
 - If Vera takes damage: Concentration broken, ritual resets 1 round
 - If Debt Collector reaches altar: Steals contract, ritual fails instantly
-- If nobles panic (Advanced 3+ Influence to keep them calm): Ritual stutters
+- If nobles panic (Basic 2+ Influence to keep them calm): Ritual stutters
 
 **Party Roles:**
 - Frontline: Block Debt Collector from reaching altar

@@ -27,7 +27,7 @@
 ### ATTACKS
 
 **Primary Attack:** _______________________________________________
-- **Action Tier:** _____________ *(Basic 2+ / Advanced 3+ / Expert 4+)*
+- **Action Tier:** _____________ *(Basic 2+ / Expert 4+ / Legendary 6)*
 - **Roll:** _____d6 *(Proficiency + any bonuses)*
 - **Required Successes:** _______
 - **Damage:** _______ HD *(on hit)*

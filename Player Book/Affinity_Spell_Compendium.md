@@ -1,8 +1,8 @@
 # Spell Compendium
 
-This section contains all spells available to spellcasting classes. Spells are organized by **Domain** (Primal, Divine, Arcane) and **Tier** (Basic, Advanced, Expert, Legendary, Ultimate).
+This section contains all spells available to spellcasting classes. Spells are organized by **Domain** (Primal, Divine, Arcane) and **Tier** (Basic, Expert, Legendary).
 
-**Spell Costs:** Spells cost what all actions cost—Hit Dice through Exertion risk. When you roll Exertion dice to cast, any 1s burn HD. Higher-tier spells require minimum exertion dice (Expert = 1, Legendary = 2, Ultimate = 3). Some spells have explicit costs listed in their Special sections (RT advances or HD). Any material references in spell descriptions ("Heartwood from ancient tree", "Sacred relic") are narrative flavor for quest hooks, not mechanical tracking.
+**Spell Costs:** Spells cost what all actions cost—Hit Dice through Exertion risk. When you roll Exertion dice to cast, any 1s burn HD. Higher-tier spells require minimum exertion dice (Expert = 1, Legendary = 2). Some spells have explicit costs listed in their Special sections (RT advances or HD). Any material references in spell descriptions (“Heartwood from ancient tree”, “Sacred relic”) are narrative flavor for quest hooks, not mechanical tracking.
 
 ---
 
@@ -40,12 +40,12 @@ The three spell domains reflect different relationships with cosmic power:
 | Class | Can Cast | Cannot Cast |
 |-------|----------|-------------|
 | Weaver | All spells (any domain, any tier) | Power Words (class abilities only) |
-| Priest | Divine + some Arcane (Basic-Legendary) | Ultimate tier, Primal domain |
+| Priest | Divine + some Arcane (Basic-Expert) | Legendary tier, Primal domain |
 | Ranger | Primal + some Divine (Basic-Expert) | Legendary+, Arcane domain |
 | Scholar | Arcane + some Divine (Basic-Expert) | Legendary+, Primal domain |
 | Shaman | Primal + some Arcane (Basic-Expert) | Legendary+, Divine domain |
 
-**Note:** Weavers are the ONLY class that can cast Ultimate (6 only) tier spells. Other classes cap at Expert or Legendary depending on their primary focus.
+**Note:** Weavers are the ONLY class that can cast Legendary (6 only) tier spells. Other classes cap at Expert depending on their primary focus.
 
 ---
 
@@ -53,10 +53,10 @@ The three spell domains reflect different relationships with cosmic power:
 
 Each spell lists:
 - **Domain:** Primal, Divine, or Arcane
-- **Tier:** Success threshold (Basic 2+, Advanced 3+, Expert 4+, Legendary 5+, Ultimate 6 only)
+- **Tier:** Success threshold (Basic 2+, Expert 4+, Legendary 6 only)
 - **Required:** Minimum successes needed for spell to work
 - **Base Impact:** Effect when meeting required successes
-- **Scaling:** How extra successes improve effect (bonus capped at Proficiency)
+- **Scaling:** How extra successes improve effect (defined per spell)
 - **Range:** Distance spell can reach
 - **Duration:** How long effect lasts (if ongoing)
 - **Special:** Concentration, costs, complications, or unique mechanics
@@ -225,27 +225,27 @@ Each spell lists:
   - **FREE to cast** — no action cost, no exertion, no roll required
   - Armor follows normal defense rules: Each 5+ cancels 1 damage; if any damage penetrates, layer depletes
   - **Cannot be mended or repaired** — only reinforced via spell
-  - **Reinforce (Advanced 3+, 2 successes):** As an action, restore 1d12 to existing armor (max 2d12s total)
+  - **Reinforce (Basic 2+, 2 successes):** As an action, restore 1d12 to existing armor (max 2d12s total)
   - **Limit:** Only 1 magical armor active per caster — casting on new target removes armor from previous
   - A shimmering arcane barrier woven from will itself
 
 ---
 
-## Advanced Tier Spells (3+)
+## Basic Tier Spells — Enhanced (2+)
 
 *More powerful spells requiring greater commitment.*
 
-### Primal Domain (Advanced)
+### Primal Domain (Basic — Enhanced)
 
 **Wrath of the Accord**
-- **Domain:** Primal | **Tier:** Advanced (3+), Required: 2
+- **Domain:** Primal | **Tier:** Basic (2+), Required: 2
 - **Base Impact:** 2 HD nature damage (choose: thorns, vines, stone, or water) to all enemies in 15-yard radius
 - **Scaling:** +1 HD per extra success
 - **Range:** 40 yards
 - **Special:** Targets defend normally. On failure, the Accord's power backlashes and you suffer 1d6 HD damage
 
 **Call the Wild Hunt**
-- **Domain:** Primal | **Tier:** Advanced (3+), Required: 2
+- **Domain:** Primal | **Tier:** Basic (2+), Required: 2
 - **Base Impact:** Summon 2 spirit animals (wolves, bears, or eagles) that act on your turn for Proficiency rounds
 - **Scaling:** +1 animal per extra success
 - **Duration:** Proficiency rounds
@@ -253,54 +253,50 @@ Each spell lists:
 - **Special:** Each animal has HD equal to your Proficiency, acts independently. On failure, animals appear but are hostile.
 
 **Renewal**
-- **Domain:** Primal | **Tier:** Advanced (3+), Required: 2
+- **Domain:** Primal | **Tier:** Basic (2+), Required: 2
 - **Base Impact:** Restore 2d6 HD to target + remove one minor condition (poisoned, diseased, or blinded)
 - **Scaling:** +1d6 HD per extra success
 - **Range:** Touch
 - **Special:** Does NOT work on Exhausted characters. On failure, your RT advances by 1 from strain.
 
 **Phantom Trail**
-- **Domain:** Primal | **Tier:** Advanced (3+), Required: 2
+- **Domain:** Primal | **Tier:** Basic (2+), Required: 2
 - **Base Impact:** You and up to Proficiency creatures you touch become one with the wild—leaving no tracks, scent, or visible passage
 - **Scaling:** +1 additional creature per extra success
 - **Duration:** Proficiency hours
 - **Range:** Touch
 - **Special:** All affected creatures gain +2d6 to Subterfuge/stealth rolls (these dice do NOT burn HD on 1s). Cannot be tracked by mundane means; magical tracking requires Expert+ tier check. On failure, the spell inverts—you leave obvious shimmering trails for the duration instead.
 
-### Divine Domain (Advanced)
-
-**Patron's Aegis**
-- **Domain:** Divine | **Tier:** Advanced (3+), Required: 2
+### Divine Domain (Basic — Enhanced)
+- **Domain:** Divine | **Tier:** Basic (2+), Required: 2
 - **Base Impact:** Grant target +3d6 to their next defense roll this round (rolled as d6s, 5+ cancels damage)
 - **Scaling:** +1d6 per extra success
 - **Range:** 30 yards
 - **Special:** Can be cast as a triggered action when you perceive an ally being attacked within range (only if you haven't acted yet this round). On failure, you take half the incoming damage.
 
 **Smite the Faithless**
-- **Domain:** Divine | **Tier:** Advanced (3+), Required: 2
+- **Domain:** Divine | **Tier:** Basic (2+), Required: 2
 - **Base Impact:** 2 HD radiant damage to target + they cannot regain HD for Proficiency rounds
 - **Scaling:** +1 HD damage per extra success
 - **Range:** 30 yards
 - **Special:** If target opposes your patron's nature, add +1 HD damage automatically (GM judges)
 
 **Recall the Fallen** *(Restore)*
-- **Domain:** Divine | **Tier:** Advanced (3+), Required: 2
+- **Domain:** Divine | **Tier:** Basic (2+), Required: 2
 - **Base Impact:** Lower target's Resolve Threshold by 1 (minimum 2)
 - **Scaling:** Lower RT by 1 additional per extra success (minimum 2)
 - **Range:** Touch
 - **Special:** This is a **Restore** spell—lowers Resolve Threshold, not just HD. Can be used on characters at any RT, including Collapsed. On failure, your own RT advances by 1.
 
-### Arcane Domain (Advanced)
-
-**Weave Missiles**
-- **Domain:** Arcane | **Tier:** Advanced (3+), Required: 2
+### Arcane Domain (Basic — Enhanced)
+- **Domain:** Arcane | **Tier:** Basic (2+), Required: 2
 - **Base Impact:** Fire 2 force missiles at targets within 60 yards, 1 HD force damage each (cannot be defended)
 - **Scaling:** +1 missile per extra success
 - **Range:** 60 yards
 - **Special:** Divide missiles among targets as you choose. On failure, one random missile hits you.
 
 **Veil of Ignorance**
-- **Domain:** Arcane | **Tier:** Advanced (3+), Required: 2
+- **Domain:** Arcane | **Tier:** Basic (2+), Required: 2
 - **Base Impact:** Become invisible for Proficiency rounds or until you attack
 - **Scaling:** +1 round duration per extra success
 - **Duration:** Proficiency + extra rounds
@@ -308,7 +304,7 @@ Each spell lists:
 - **Special:** Concentration required. On failure, you become visible and glow faintly (disadvantage on stealth).
 
 **Pattern Lock**
-- **Domain:** Arcane | **Tier:** Advanced (3+), Required: 2
+- **Domain:** Arcane | **Tier:** Basic (2+), Required: 2
 - **Base Impact:** One target within 30 yards must contest or be paralyzed for Proficiency rounds
 - **Scaling:** +1 round duration per extra success
 - **Duration:** Contest vs your successes; if they fail, paralyzed for duration
@@ -383,7 +379,7 @@ Each spell lists:
 ### Primal Domain (Legendary)
 
 **Invoke the Accord's Judgment**
-- **Domain:** Primal | **Tier:** Legendary (5+), Required: 3
+- **Domain:** Primal | **Tier:** Legendary (6), Required: 3
 - **Base Impact:** Call upon The Living Accord to judge all creatures in 40-yard radius. Each creature must contest:
   - If maintaining natural balance (GM judges): Restore Proficiency HD
   - If disrupting cycles carelessly: Take Proficiency HD damage + RT advances by 1
@@ -394,9 +390,9 @@ Each spell lists:
 ### Divine Domain (Legendary)
 
 **Avatar of the Patron**
-- **Domain:** Divine | **Tier:** Legendary (5+), Required: 3
+- **Domain:** Divine | **Tier:** Legendary (6), Required: 3
 - **Base Impact:** For Proficiency rounds, you become a vessel of your patron's direct power:
-  - All your Divine spells require -1 tier threshold (Expert becomes Advanced)
+  - All your Divine spells require -1 tier threshold (Expert becomes Basic)
   - When you speak, your patron's voice echoes (Influence rolls gain +3d6)
   - You radiate 15-yard aura: enemies have disadvantage, allies gain advantage
   - Your form shifts to reflect patron's nature
@@ -408,22 +404,16 @@ Each spell lists:
 ### Arcane Domain (Legendary)
 
 **Rewrite the Weave**
-- **Domain:** Arcane | **Tier:** Legendary (5+), Required: 4
+- **Domain:** Arcane | **Tier:** Legendary (6), Required: 4
 - **Base Impact:** Choose one effect that has already occurred this round (attack, spell, ability). Reroll it completely—new dice, new results. You choose which version becomes reality.
 - **Scaling:** +1 additional rewrite per extra success (can affect multiple events)
 - **Range:** 60 yards (must see original event)
 - **Special:** This spell represents editing reality's record. Curator Arcanum warns against its use—knowledge of what "could have been" breeds dangerous hubris. On failure, both versions occur simultaneously (GM determines chaotic overlapping consequences). Cost: RT advances by 2 from seeing two timelines.
 
----
-
-## Ultimate Tier Spells (6 only)
-
-*Reality-warping spells requiring minimum 3 exertion dice. ONLY WEAVERS CAN CAST. Some Ultimate spells reference legendary materials ("Essence of a dying world", "Thread from the Weave itself", etc.)—these are narrative requirements representing the magnitude of power being invoked, not mechanical components to purchase.*
-
-### Primal Domain (Ultimate)
+### Primal Domain (Legendary — Weaver Only)
 
 **Collapse of the Accord** *(Restore)*
-- **Domain:** Primal | **Tier:** Ultimate (6 only), Required: 4
+- **Domain:** Primal | **Tier:** Legendary (6), Required: 4
 - **Base Impact:** Target 40-yard radius. All creatures in area:
   - Instantly restored to full HD
   - Reset Resolve Threshold to 2
@@ -433,10 +423,10 @@ Each spell lists:
 - **Range:** 100 yards
 - **Special:** You force The Living Accord to sacrifice the land's future to save the present. This is the ultimate violation of balance—you will be marked by the Accord forever. Cost: You permanently lose 1 point of Proficiency (recalculate all derived stats). On failure, everyone in radius has their RT advance by 3 instead, including you.
 
-### Divine Domain (Ultimate)
+### Divine Domain (Legendary — Weaver Only)
 
 **Invoke True Name**
-- **Domain:** Divine | **Tier:** Ultimate (6 only), Required: 5
+- **Domain:** Divine | **Tier:** Legendary (6), Required: 5
 - **Base Impact:** Speak target's true name as your patron understands it. Target must contest using only their Proficiency dice (no exertion, no skills). If they fail:
   - They immediately drop to 0 HD and Collapse (RT advances to 6)
   - They must obey one command from you (duration: until command fulfilled or 24 hours pass)
@@ -445,10 +435,10 @@ Each spell lists:
 - **Range:** Must see and hear target (any distance if conditions met)
 - **Special:** True names are metaphysical identities known only to cosmic powers. Your patron shares this knowledge—the price is steep. Cost: Your starting Resolve Threshold permanently increases by 1 (now starts at 3 instead of 2). On failure, YOUR true name is revealed to target and they gain same power over you for 24 hours.
 
-### Arcane Domain (Ultimate)
+### Arcane Domain (Legendary — Weaver Only)
 
 **Reforge Reality**
-- **Domain:** Arcane | **Tier:** Ultimate (6 only), Required: 4
+- **Domain:** Arcane | **Tier:** Legendary (6), Required: 4
 - **Base Impact:** Alter one fundamental aspect of reality within 30-yard radius for 10 minutes:
   - Gravity direction changes
   - Time flows at half/double speed

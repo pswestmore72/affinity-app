@@ -16,7 +16,7 @@
 2. Roll Proficiency + Exertion dice
 3. Count successes (5=1, 6=2)
 4. Check if required successes met
-5. Apply effect (Base + Bonus, bonus capped at Prof)
+5. Apply effect (hit = listed damage; extra successes fuel ability effects)
 6. Burn HD for any 1s rolled on exertion dice
 
 ---
@@ -104,7 +104,7 @@ Result: 4d8 body, 0 armor (3 dice destroyed)
 
 **Actions Per Turn:** Up to 2 actions
 - **Tier Restriction:** Only 1 may be Expert tier or higher
-- Once you use Expert+ action, remaining actions must be Basic/Advanced
+- Once you use Expert+ action, remaining actions must be Basic
 
 **Triggered Actions (Reactions):**
 - Activate in response to specific triggers
@@ -165,13 +165,12 @@ Trade physical vitality for mental fortitude. Use one action, lose 3 HD (no chec
 **Collapse (Failed at Resolve Threshold 6, HD > 0):**
 - Fall unconscious for 0-2 days
 - NOT dying, but incapacitated
-- Wake with RT 6 (Staggering) eventually
+- Wake with RT 6 (Cracking) eventually
 
 **Dying (0 HD, not yet Collapsed):**
-- Make Resolve check each round (roll 1d6 vs current Threshold)
-- **Below Threshold:** Threshold advances by 1
-- **At or above Threshold:** No change (but no rally either)
-- If healed above 0 HD: Stop checks, regain consciousness
+- Still conscious but **limited to 1 action per turn**
+- Make Resolve check each round (1d6 vs Threshold)
+- If healed above 0 HD: Stop checks, regain 2 actions per turn
 - If you fail at Threshold 6 while at 0 HD: **Death**
 
 **Stabilize Action (Basic 2+):**
@@ -184,14 +183,12 @@ Trade physical vitality for mental fortitude. Use one action, lose 3 HD (no chec
 ## Resolve Checks (The Escalating Spiral)
 
 **When Required:**
-- Lose ≥ Proficiency + 1 HD in one round
-- Reduced to 0 HD
-- At 0 HD and take any hit
-- Use maximum Exertion in one round (= Level)
-- Fail an Expert+ action
+- Damage destroys a Body HD (first time each round)
 - Certain enemy effects
 
 **Max 1 check per round** (even if multiple triggers)
+
+**Armor protects Resolve:** If armor absorbs the whole hit, no check.
 
 **Roll 1d6 vs Resolve Threshold:**
 - **At or above Threshold:** Pass — no change
@@ -202,11 +199,11 @@ Trade physical vitality for mental fortitude. Use one action, lose 3 HD (no chec
 
 | Threshold | Stage | Penalties |
 |-----------|-------|----------|
-| 2 (2+) | Full Strength | None |
-| 3 (3+) | Pressured | No Expert+ actions |
-| 4 (4+) | Shaken | No Expert+, -1 defense die |
-| 5 (5+) | Weakened | No Expert+, Advanced+ needs +1 success, -1 defense die |
-| 6 (6 only) | Staggering | No Expert+, Advanced+ needs +1 success, -2 defense dice |
+| 2 (2+) | Functional | None |
+| 3 (3+) | Functional | None |
+| 4 (4+) | Functional | None |
+| 5 (5+) | Cracking | No Expert+ actions |
+| 6 (6 only) | Cracking | No Expert+ actions |
 | Failed at 6 | Collapse | Unconscious (dying if 0 HD) |
 
 **Note:** Rush action bypasses this roll (voluntary advance)
@@ -256,8 +253,8 @@ Trade physical vitality for mental fortitude. Use one action, lose 3 HD (no chec
 - The party wins or fails together — no "skill monkeys"
 
 **Resolution Modes:**
-- **Contest Mode:** Combat, duels, social conflict (extra successes = more impact)
-- **Threshold Mode:** Travel, crafting, investigation (extra successes = quality/speed)
+- **Contest Mode:** Combat, chases — round-by-round opposed conflict
+- **Group Challenges:** Travel, social, investigation, crafting — one roll, Lead + Support, three-tier outcomes
 
 ---
 
@@ -266,11 +263,9 @@ Trade physical vitality for mental fortitude. Use one action, lose 3 HD (no chec
 
 | Tier | Threshold | Required | Base Impact | Examples |
 |------|-----------|----------|-------------|----------|
-| **Basic** | 2+ | 1 | 1 HD | All weapons, cantrips |
-| **Advanced** | 3+ | 2 | 2 HD | Class abilities, spells |
-| **Expert** | 4+ | 3 | 3 HD | Powerful techniques |
-| **Legendary** | 5+ | 3 | 4 HD | Epic abilities |
-| **Ultimate** | 6 only | 4 | 5 HD | Reality-warping |
+| **Basic** | 2+ | 1-2 | 1-2 HD | Weapons, cantrips, class abilities |
+| **Expert** | 4+ | 2-3 | 3 HD | Powerful techniques, advanced spells |
+| **Legendary** | 6 only | 3-4 | 4-5 HD | Epic abilities, reality-warping |
 
 ---
 
@@ -339,7 +334,7 @@ Trade physical vitality for mental fortitude. Use one action, lose 3 HD (no chec
 **NPC Resolve Threshold = Varies** *(typically based on tier; see GM Guide)*
 
 ### Threshold advances by 1 when:
-- You fail a Resolve check (rolled below current Threshold)
+- You fail a Resolve check (damage destroyed a Body HD, or enemy effect)
 - You use Rush (voluntary advance, no roll)
 
 ### Threshold is lowered by 1 when:
@@ -350,12 +345,14 @@ Trade physical vitality for mental fortitude. Use one action, lose 3 HD (no chec
 ### At Collapse (failed at Threshold 6):
 - Unconscious; dying if also at 0 HD
 
-### Social Encounters:
-- Social damage depletes **Composure** first (social armor), then advances RT directly
-- Resolve stage penalties apply to Composure defense (fewer dice at RT 4+)
-- RT 6 = Total Defeat; further damage at RT 6 = Collapse (socially broken)
-- Characters at Resolve Threshold 5+ cannot participate in social encounters
-- Composure resets each social encounter; RT carries over
+### Group Challenges (Social, Travel, Investigation, Crafting):
+- **Scope:** Minor (3 successes), Standard (5), Major (8)
+- **Difficulty:** Routine (Basic 2+), Challenging (Expert 4+), Extreme (Legendary 6)
+- **Lead** rolls Proficiency + Exertion + ability bonuses; **Support** adds +1d6 each (up to 3)
+- **Complications** (0-3): unaddressed = -1d6 each; addressed by Support = penalty removed + bonus granted
+- **Success** = goal achieved, RT −1 | **Partial** = goal at cost, RT +1 | **Failure** = goal not achieved, RT +2
+- RT carries over between combat and Group Challenges — combat pressure affects negotiations
+- At RT 5+: cannot Lead a Challenging or Extreme challenge (same as no Expert+ actions)
 
 ---
 

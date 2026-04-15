@@ -168,12 +168,13 @@ ___________________________________________
 4. Failed rolls or excess damage = lose dice from pool (armor first, then body)
 
 ### At 0 Body HD
-- Player makes Resolve check each round (1d6 ≥ current RT to pass)
+- Character is still standing but **limited to 1 action per turn**
+- Makes Resolve check each round (1d6 ≥ current RT to pass)
 - Fail = RT advances by 1
-- If healed above 0 HD, stops dying
+- If healed above 0 HD, regains 2 actions and stops Resolve checks
 - At 0 HD AND Collapse (fail at RT 6) = dead
 
-**For Session 1:** If a player hits 0 HD, let them make one Resolve check, then have allies stabilize them or enemies shift target. Real death can come later when stakes are clear.
+**For Session 1:** If a player hits 0 HD, remind them they only get 1 action. Let them make one Resolve check, then have allies stabilize them or enemies shift target. Real death can come later when stakes are clear.
 
 ---
 
@@ -231,8 +232,6 @@ All Level 1: Proficiency 1, RT 2, Defense Capacity 1
 ## What You Don't Need for Session 1
 
 Skip these until later:
-- ❌ Complex social duels (just use Influence rolls)
-- ❌ Travel system (handwave travel for now)
 - ❌ Expert+ tier abilities (Level 1 players can't use them)
 - ❌ Legendary enemies (save for later)
 - ❌ Resolve death spiral details (just know: 0 HD = danger, Collapse = done)

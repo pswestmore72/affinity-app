@@ -166,9 +166,7 @@ NPCs get a different number of actions based on their Power Tier (see table abov
 
 **Action Tier Restrictions:**
 - **All NPCs:** Only 1 action may be Expert tier or higher per turn
-- **Legendary NPCs:** May use no more than 1 Legendary-tier action per round
-- **Ultimate NPCs:** May use no more than 1 Ultimate-tier action per round
-- **Mythical NPCs:** May use no more than 1 Mythical-tier action per round
+- **Legendary+ NPCs:** May use no more than 1 Legendary-tier action per round
 
 These restrictions prevent NPCs from spamming their most powerful abilities and create dynamic, varied combat encounters.
 
@@ -693,7 +691,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Required: 1
 - Base: 2 HD piercing damage
 
-**Shadowy Lunge** (Advanced, 3+)
+**Shadowy Lunge** (Basic, 2+)
 - Rolls: 3d6 (requires 2 exertion)
 - Required: 2
 - Base: 2 HD necrotic damage
@@ -725,7 +723,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Base: 1 HD necrotic damage
 - Special: Target must make Resolve check or their RT advances by 1
 
-**Whisper of Betrayal** (Advanced, 3+) - Social Attack
+**Whisper of Betrayal** (Basic, 2+) - Social Attack
 - Rolls: 3d6
 - Required: 2
 - Targets RT instead of HD
@@ -757,7 +755,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Base: 1 HD psychic damage
 - Special: Target must succeed on Resolve check or forget they were damaged (cannot tell how much HD they've lost until combat ends)
 
-**Loop the Moment** (Advanced, 3+)
+**Loop the Moment** (Basic, 2+)
 - Rolls: 3d6
 - Required: 2
 - Range: 15 yards
@@ -791,7 +789,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Range: 20 yards
 - Special: Target sees brief vision of someone they've lost
 
-**Grief Beacon** (Advanced, 3+) - Environmental
+**Grief Beacon** (Basic, 2+) - Environmental
 - Rolls: 4d6
 - Required: 2
 - Effect: 15-yard radius fills with pale light. All living creatures within must make Resolve check or suffer -1d6 to all actions as grief weighs on them (lasts while in light)
@@ -823,7 +821,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Base: 1 HD necrotic damage
 - Special: Target must make Resolve check or forget their own name for 1 hour (cannot use class abilities tied to identity until remembered)
 
-**Emptiness Touch** (Advanced, 3+)
+**Emptiness Touch** (Basic, 2+)
 - Rolls: 4d6
 - Required: 2
 - Targets RT
@@ -858,7 +856,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Base: 2 HD slashing damage
 - Range: 10 yards (vine reach)
 
-**Entangling Roots** (Advanced, 3+)
+**Entangling Roots** (Basic, 2+)
 - Rolls: 3d6
 - Required: 2
 - Effect: Target within 10 yards is grappled (immobilized until they succeed on Fortitude skill roll, requires action)
@@ -888,7 +886,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Base: 2 HD piercing damage
 - Range: 15 yards (all creatures in 5-yard cone)
 
-**Proliferate** (Advanced, 3+)
+**Proliferate** (Basic, 2+)
 - Rolls: 3d6
 - Required: 2
 - Effect: Creates 1 Bloom-Seedling (1d4 HD, Trivial) adjacent to target. Seedling acts next round with 1d6 attack dealing 1 HD damage.
@@ -921,7 +919,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Base: 2 HD necrotic damage
 - Special: Organic materials touched (wood, leather, plant) begin aging rapidly—mundane items may decay over hours
 
-**Harvest Scythe** (Advanced, 3+)
+**Harvest Scythe** (Basic, 2+)
 - Rolls: 4d6
 - Required: 2
 - Base: 3 HD slashing damage
@@ -953,7 +951,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Required: 1
 - Base: 1 HD force damage (mimics last attack used against it)
 
-**Replay Trauma** (Advanced, 3+) - Social Attack
+**Replay Trauma** (Basic, 2+) - Social Attack
 - Rolls: 4d6
 - Required: 2
 - Targets RT
@@ -984,7 +982,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Required: 1
 - Base: 1 HD bludgeoning damage
 
-**Binding Contract** (Advanced, 3+) - Social Attack
+**Binding Contract** (Basic, 2+) - Social Attack
 - Rolls: 4d6
 - Required: 2
 - Targets RT
@@ -993,7 +991,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 
 **Special Abilities:**
 - **Korthane's Ledger:** Can sense debts owed within 30 yards
-- **Silver Tongue:** +2d6 to Influence-based social attacks
+- **Silver Tongue:** +2d6 to Influence-based social Group Challenges
 
 **Tactics:** Offers "helpful" trades and contracts with hidden clauses. Avoids direct combat, instead manipulating others into fighting for them. Flees if cornered, calling debts from nearby creatures.
 
@@ -1015,7 +1013,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Base: 1 HD necrotic damage
 - Special: Vesper heals 1 HD for each HD dealt
 
-**Whisper of Despair** (Advanced, 3+) - Social Attack
+**Whisper of Despair** (Basic, 2+) - Social Attack
 - Rolls: 4d6
 - Required: 2
 - Targets RT
@@ -1046,7 +1044,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Required: 1
 - Base: 2 HD fire damage
 
-**Flame Breath** (Advanced, 3+)
+**Flame Breath** (Basic, 2+)
 - Rolls: 3d6
 - Required: 2
 - Base: 2 HD fire damage
@@ -1077,7 +1075,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Required: 1
 - Base: 1 HD radiant damage
 
-**Blessing of Passage** (Advanced, 3+) - Support
+**Blessing of Passage** (Basic, 2+) - Support
 - Rolls: 4d6
 - Required: 2
 - Range: Touch
@@ -1106,7 +1104,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Required: 1
 - Base: 2 HD piercing damage
 
-**Trampling Charge** (Advanced, 3+)
+**Trampling Charge** (Basic, 2+)
 - Rolls: 4d6
 - Required: 2
 - Base: 3 HD bludgeoning damage
@@ -1135,7 +1133,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Required: 1
 - Base: 1 HD bludgeoning damage
 
-**Call Debt** (Advanced, 3+) - Social Attack
+**Call Debt** (Basic, 2+) - Social Attack
 - Rolls: 5d6 (Proficiency + skill bonus)
 - Required: 2
 - Targets RT
@@ -1235,7 +1233,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Base: 1 HD bludgeoning damage
 - Special: 5-yard reach
 
-**Noxious Spit** (Advanced, 3+)
+**Noxious Spit** (Basic, 2+)
 - Rolls: 3d6
 - Required: 2
 - Base: 2 HD poison damage
@@ -1274,7 +1272,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Base: 1 HD slashing damage
 - Special: Can attack twice in one action
 
-**Flame Breath** (Advanced, 3+)
+**Flame Breath** (Basic, 2+)
 - Rolls: 3d6
 - Required: 2
 - Base: 3 HD fire damage
@@ -1313,7 +1311,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Base: 1 HD necrotic damage
 - Special: On hit, target's next attack roll loses 1d6 (fear)
 
-**Grief Exhalation** (Advanced, 3+)
+**Grief Exhalation** (Basic, 2+)
 - Rolls: 3d6
 - Required: 2
 - Base: 2 HD necrotic damage + RT advances by 1
@@ -1410,7 +1408,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Required: 1
 - Base: 2 HD piercing damage
 
-**Backstab** (Advanced, 3+)
+**Backstab** (Basic, 2+)
 - Rolls: 4d6 (requires surprise or flanking)
 - Required: 2
 - Base: 3 HD piercing damage
@@ -1448,7 +1446,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Base: 2 HD force damage
 - Range: 30 yards
 
-**Minor Hex** (Advanced, 3+)
+**Minor Hex** (Basic, 2+)
 - Rolls: 3d6
 - Required: 2
 - Targets RT
@@ -1482,7 +1480,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Base: 2 HD piercing damage
 - Special: +1 HD necrotic damage if target already wounded
 
-**Invoke Patron** (Advanced, 3+)
+**Invoke Patron** (Basic, 2+)
 - Rolls: 3d6
 - Required: 2
 - Base: 2 HD necrotic/fire/cold damage (depends on patron)
@@ -1514,7 +1512,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Required: 1
 - Base: 2 HD acid damage
 
-**Engulf** (Advanced, 3+)
+**Engulf** (Basic, 2+)
 - Rolls: 3d6
 - Required: 2
 - Effect: Target engulfed inside slime; takes 2 HD acid damage at start of each turn; restrained; must succeed Fortitude check to escape
@@ -1579,7 +1577,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Required: 1
 - Base: 2 HD piercing damage to all creatures in 10-yard area
 
-**Drag Down** (Advanced, 3+)
+**Drag Down** (Basic, 2+)
 - Rolls: 4d6
 - Required: 2
 - Target: One creature in area
@@ -1612,7 +1610,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 **Armor:** Layered cloaks (2d8s temp HD)  
 **Movement:** 15 yards  
 
-**Phase Strike** (Advanced, 3+)
+**Phase Strike** (Basic, 2+)
 - Rolls: 5d6
 - Required: 2
 - Base: 2 HD force damage
@@ -1649,7 +1647,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 **Armor:** Living bark (2d10s temp HD)  
 **Movement:** 10 yards  
 
-**Crushing Blow** (Advanced, 3+)
+**Crushing Blow** (Basic, 2+)
 - Rolls: 5d6
 - Required: 2
 - Base: 3 HD bludgeoning damage
@@ -1687,7 +1685,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 **Armor:** Infernal plate (2d10s temp HD, reforms at start of turn if damaged)  
 **Movement:** 10 yards  
 
-**Hellchain Strike** (Advanced, 3+)
+**Hellchain Strike** (Basic, 2+)
 - Rolls: 5d6
 - Required: 2
 - Base: 3 HD fire damage
@@ -1727,7 +1725,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 **Armor:** None  
 **Movement:** Fly 20 yards  
 
-**Draining Bite Swarm** (Advanced, 3+)
+**Draining Bite Swarm** (Basic, 2+)
 - Rolls: 5d6
 - Required: 2
 - Base: 2 HD necrotic damage (all creatures within swarm's space)
@@ -1739,7 +1737,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Range: 20-yard radius
 - Effect: All creatures must succeed on Fortitude skill roll or be deafened and take -1d6 to Awareness-based rolls (lasts 1 minute)
 
-**Eclipsing Darkness** (Advanced, 3+) - Environmental
+**Eclipsing Darkness** (Basic, 2+) - Environmental
 - Rolls: 5d6
 - Required: 2
 - Effect: Swarm spreads to cover 15-yard radius, creating magical darkness (blocks normal sight)
@@ -1764,7 +1762,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 **Armor:** Metal body (2d12s temp HD)  
 **Movement:** 10 yards  
 
-**Pummeling Fist** (Advanced, 3+)
+**Pummeling Fist** (Basic, 2+)
 - Rolls: 4d6
 - Required: 2
 - Base: 3 HD bludgeoning damage
@@ -1775,7 +1773,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Range: 15-yard radius
 - Effect: All metal objects within range (including coins, weapons, armor) are pulled 10 yards toward golem. Characters holding metal must succeed on Fortitude skill roll or be pulled as well
 
-**Coin Barrage** (Advanced, 3+)
+**Coin Barrage** (Basic, 2+)
 - Rolls: 5d6
 - Required: 2
 - Base: 2 HD bludgeoning damage
@@ -1802,7 +1800,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 **Armor:** Flowing water form (2d6s temp HD, reforms each round)  
 **Movement:** Swim 30 yards, walk 15 yards  
 
-**Tidal Strike** (Advanced, 3+)
+**Tidal Strike** (Basic, 2+)
 - Rolls: 5d6
 - Required: 2
 - Base: 2 HD bludgeoning damage
@@ -1815,7 +1813,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Range: Touch
 - Effect: Share visions of past events that occurred near this waterway (can be overwhelming; target must make Resolve check or be Stunned for 1 round from information overload)
 
-**Aluneth's Blessing** (Advanced, 3+) - Support
+**Aluneth's Blessing** (Basic, 2+) - Support
 - Rolls: 6d6
 - Required: 2
 - Range: Touch
@@ -1841,7 +1839,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 **Armor:** Ancient plate (2d10s temp HD)  
 **Movement:** 10 yards  
 
-**Spectral Blade** (Advanced, 3+)
+**Spectral Blade** (Basic, 2+)
 - Rolls: 6d6
 - Required: 2
 - Base: 3 HD necrotic damage
@@ -1880,7 +1878,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 **Armor:** Unstable form (2d8s temp HD, changes element each round)  
 **Movement:** 15 yards, fly 15 yards  
 
-**Elemental Burst** (Advanced, 3+)
+**Elemental Burst** (Basic, 2+)
 - Rolls: 5d6
 - Required: 2
 - Base: 3 HD damage (type changes each round: fire, cold, lightning, or acid)
@@ -1920,7 +1918,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 **Armor:** Shadow cloak (2d6s temp HD)  
 **Movement:** 10 yards, fly 15 yards  
 
-**Life Drain** (Advanced, 3+)
+**Life Drain** (Basic, 2+)
 - Rolls: 6d6
 - Required: 2
 - Base: 2 HD necrotic damage
@@ -1938,7 +1936,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Required: 3
 - Targets RT
 - Range: Touch
-- Effect: Twist existing oath or promise into darkest interpretation. Target must make Resolve check (Legendary, 5+) or be compelled to fulfill oath in harmful way
+- Effect: Twist existing oath or promise into darkest interpretation. Target must make Resolve check (Legendary, 6) or be compelled to fulfill oath in harmful way
 
 **Special Abilities:**
 - **Shadow Form:** Incorporeal in darkness (physical attacks pass through)
@@ -1964,7 +1962,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Required: 1
 - Base: 2 HD bludgeoning damage
 
-**Flame Lance** (Advanced, 3+)
+**Flame Lance** (Basic, 2+)
 - Rolls: 6d6
 - Required: 2
 - Base: 3 HD fire damage
@@ -1999,7 +1997,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 **Armor:** Heavy (Ceremonial Scale)  
 **Movement:** 10 yards  
 
-**Glaive** (Advanced, 3+)
+**Glaive** (Basic, 2+)
 - Rolls: 5d6
 - Required: 2
 - Base: 3 HD slashing damage
@@ -2009,7 +2007,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Trigger: Adjacent Wyrmkin or egg is attacked
 - Effect: Intercept attack, taking damage instead
 
-**Rally the Swarm** (Advanced, 3+) - Command
+**Rally the Swarm** (Basic, 2+) - Command
 - Rolls: 5d6
 - Required: 2
 - Range: 30-yard radius
@@ -2036,7 +2034,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 **Armor:** Medium (Storm-Charged Scales)  
 **Movement:** 15 yards, fly 40 yards  
 
-**Bite** (Advanced, 3+)
+**Bite** (Basic, 2+)
 - Rolls: 5d6
 - Required: 2
 - Base: 3 HD piercing + 1 HD lightning damage
@@ -2075,13 +2073,13 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 **Armor:** Heavy (Thorn-Covered Scales)  
 **Movement:** 12 yards, climb 15 yards  
 
-**Bite** (Advanced, 3+)
+**Bite** (Basic, 2+)
 - Rolls: 5d6
 - Required: 2
 - Base: 3 HD piercing damage
 - Special: Injects mild neurotoxin; target loses 1d6 from next roll
 
-**Tail Sweep** (Advanced, 3+)
+**Tail Sweep** (Basic, 2+)
 - Rolls: 4d6
 - Required: 2
 - Base: 2 HD bludgeoning damage
@@ -2115,12 +2113,12 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 **Armor:** Medium (Fire-Forged Scales)  
 **Movement:** 15 yards, fly 30 yards  
 
-**Bite** (Advanced, 3+)
+**Bite** (Basic, 2+)
 - Rolls: 6d6
 - Required: 2
 - Base: 4 HD piercing + 2 HD fire damage
 
-**Claw** (Advanced, 3+)
+**Claw** (Basic, 2+)
 - Rolls: 5d6
 - Required: 2
 - Base: 3 HD slashing damage
@@ -2160,7 +2158,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 **Armor:** Heavy (Plate, 2d8s temp HD)  
 **Movement:** 10 yards  
 
-**Bastard Sword** (Advanced, 3+)
+**Bastard Sword** (Basic, 2+)
 - Rolls: 5d6
 - Required: 2
 - Base: 4 HD slashing damage
@@ -2171,7 +2169,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Base: 2 HD bludgeoning damage
 - Special: Target stunned for 1 round unless Fortitude check succeeds
 
-**Tactical Strike** (Advanced, 3+)
+**Tactical Strike** (Basic, 2+)
 - Rolls: 6d6
 - Required: 2
 - Base: 3 HD piercing damage
@@ -2199,7 +2197,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 **Armor:** Light (Shadow-Touched Leather)  
 **Movement:** 12 yards  
 
-**Short Sword** (Advanced, 3+)
+**Short Sword** (Basic, 2+)
 - Rolls: 5d6
 - Required: 2
 - Base: 3 HD piercing damage
@@ -2210,7 +2208,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Base: 5 HD piercing damage + RT advances by 2
 - Special: Only usable on first round against unaware target
 
-**Shadow Step** (Advanced, 3+)
+**Shadow Step** (Basic, 2+)
 - Rolls: Auto-success if shadows within range
 - Range: 30 yards
 - Effect: Teleport between shadows; cannot be tracked or followed
@@ -2237,18 +2235,18 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 **Armor:** Medium (Looted Chainmail)  
 **Movement:** 10 yards  
 
-**Great Club** (Advanced, 3+)
+**Great Club** (Basic, 2+)
 - Rolls: 5d6
 - Required: 2
 - Base: 4 HD bludgeoning damage
 - Special: Target knocked prone unless Fortitude check succeeds
 
-**Rallying Bellow** (Advanced, 3+)
+**Rallying Bellow** (Basic, 2+)
 - Rolls: Auto-success
 - Range: 40 yards
 - Effect: All Greenskins within range gain +2d6 to attacks and +2 temp HD for 3 rounds
 
-**Savage Charge** (Advanced, 3+)
+**Savage Charge** (Basic, 2+)
 - Rolls: 6d6 (requires 10-yard charge)
 - Required: 2
 - Base: 5 HD bludgeoning damage
@@ -2281,7 +2279,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Required: 1
 - Base: 2 HD piercing + 1 HD necrotic damage
 
-**Eldritch Bolt** (Advanced, 3+)
+**Eldritch Bolt** (Basic, 2+)
 - Rolls: 5d6
 - Required: 2
 - Base: 4 HD force/necrotic damage (caster chooses)
@@ -2294,7 +2292,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Range: 30-yard cone or line
 - Special: Recharge after 3 rounds
 
-**Dark Command** (Advanced, 3+) - Targets RT
+**Dark Command** (Basic, 2+) - Targets RT
 - Rolls: 5d6
 - Required: 2
 - Range: 30 yards
@@ -2322,10 +2320,10 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 **Armor:** None  
 **Movement:** 6 yards  
 
-**Engulf** (Advanced, 3+)
+**Engulf** (Basic, 2+)
 - Rolls: 5d6
 - Required: 2
-- Effect: Target pulled inside cube; restrained; takes 3 HD acid damage at start of each turn; requires Fortitude check (Advanced, 3+) to escape
+- Effect: Target pulled inside cube; restrained; takes 3 HD acid damage at start of each turn; requires Fortitude check (Basic, 2+) to escape
 
 **Acidic Slam** (Basic, 2+)
 - Rolls: 4d6
@@ -2356,19 +2354,19 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 **Armor:** Heavy (Ancient Plate, 2d8s temp HD)  
 **Movement:** 10 yards  
 
-**Life-Draining Blade** (Advanced, 3+)
+**Life-Draining Blade** (Basic, 2+)
 - Rolls: 6d6
 - Required: 2
 - Base: 4 HD necrotic damage
 - Special: Wight Lord heals HD equal to half damage dealt
 
-**Death's Grasp** (Advanced, 3+)
+**Death's Grasp** (Basic, 2+)
 - Rolls: 5d6
 - Required: 2
 - Base: 3 HD necrotic damage
 - Special: Target's maximum HD reduced by 2 until long rest (life force drained)
 
-**Command Undead** (Advanced, 3+)
+**Command Undead** (Basic, 2+)
 - Rolls: Auto-success
 - Range: 60 yards
 - Effect: Control up to 6 HD worth of mindless undead; they follow commands until destroyed
@@ -2395,7 +2393,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 **Armor:** Light (Tribal Leathers)  
 **Movement:** 12 yards  
 
-**Greataxe** (Advanced, 3+)
+**Greataxe** (Basic, 2+)
 - Rolls: 5d6
 - Required: 2
 - Base: 4 HD slashing damage
@@ -2406,7 +2404,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Base: 6 HD slashing damage
 - Special: After using, all attacks against Berserker gain +2d6 until their next turn
 
-**Rage Bellow** (Advanced, 3+)
+**Rage Bellow** (Basic, 2+)
 - Rolls: Auto-success
 - Effect: Self gains +2d6 to attacks and +3 temp HD for 3 rounds; cannot use defensive actions or tactical retreat
 
@@ -2432,7 +2430,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 **Armor:** Medium (Studded Leather)  
 **Movement:** 10 yards  
 
-**Sabre** (Advanced, 3+)
+**Sabre** (Basic, 2+)
 - Rolls: 5d6
 - Required: 2
 - Base: 3 HD slashing damage
@@ -2443,12 +2441,12 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Required: 2
 - Effect: Reduce damage by half; if 3+ successes, deal 2 HD slashing damage to attacker
 
-**Dirty Trick** (Advanced, 3+)
+**Dirty Trick** (Basic, 2+)
 - Rolls: 5d6
 - Required: 2
 - Effect: Choose one - Blind (1 round), Disarm (weapon drops), or Trip (prone)
 
-**Rally the Lads** (Advanced, 3+)
+**Rally the Lads** (Basic, 2+)
 - Rolls: Auto-success
 - Range: 30 yards
 - Effect: All allied bandits gain +1d6 to attacks and lower their RT by 2 for 3 rounds
@@ -2475,7 +2473,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 **Armor:** Light (Leather and shields)  
 **Movement:** 10 yards  
 
-**Spear Wall** (Advanced, 3+)
+**Spear Wall** (Basic, 2+)
 - Rolls: 5d6
 - Required: 2
 - Base: 3 HD piercing damage to all enemies in 15-yard line
@@ -2519,7 +2517,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Base: 4 HD radiant damage
 - Special: Deals double damage to oath-breakers and undead
 
-**Concordant Judgment** (Legendary, 5+)
+**Concordant Judgment** (Legendary, 6)
 - Rolls: 10d6 (requires 2 exertion minimum)
 - Required: 3
 - Targets RT
@@ -2558,7 +2556,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Base: 3 HD force damage
 - Special: Target must make Fortitude skill roll or be immobilized by spectral chains (restrained until freed)
 
-**Threshold Seal** (Legendary, 5+)
+**Threshold Seal** (Legendary, 6)
 - Rolls: 10d6 (requires 2 exertion minimum)
 - Required: 3
 - Range: 30 yards
@@ -2596,7 +2594,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Base: 5 HD piercing damage
 - Special: Target must make Fortitude skill roll or be grappled
 
-**Primal Breath** (Legendary, 5+)
+**Primal Breath** (Legendary, 6)
 - Rolls: 10d6 (requires 2 exertion minimum)
 - Required: 3
 - Base: 5 HD elemental damage (type depends on wyrm's environment: fire, cold, lightning, or acid)
@@ -2609,7 +2607,7 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Base: 4 HD bludgeoning damage to grappled target
 - Special: Automatically succeeds if target is already grappled
 
-**Wing Buffet** (Advanced, 3+)
+**Wing Buffet** (Basic, 2+)
 - Rolls: 6d6
 - Required: 2
 - Effect: All creatures within 10 yards must make Fortitude skill roll or be knocked prone and pushed 10 yards
@@ -2644,19 +2642,19 @@ Take **Sellsword** (Basic tier, 4d8s HD) and create 6-member squad with sergeant
 - Range: 15 yards
 - Special: Leech heals HD equal to damage dealt
 
-**Amplify Grief** (Legendary, 5+) - Social Attack
+**Amplify Grief** (Legendary, 6) - Social Attack
 - Rolls: 10d6 (requires 2 exertion minimum)
 - Required: 3
 - Targets RT of all enemies within 20 yards
 - Base: RT advances by 2 to each
 - Special: Target painful memories; creatures with tragic backstories their RT advances by 3 instead
 
-**Possession** (Legendary, 5+)
+**Possession** (Legendary, 6)
 - Rolls: 9d6 (requires 3 exertion minimum)
 - Required: 3
 - Targets RT
 - Range: Touch
-- Effect: Enter target's body. Target must make Resolve check (Legendary, 5+, requires 3 successes) each round or remain possessed. While possessed, Leech controls actions but takes half any damage target receives
+- Effect: Enter target's body. Target must make Resolve check (Legendary, 6, requires 3 successes) each round or remain possessed. While possessed, Leech controls actions but takes half any damage target receives
 
 **Special Abilities:**
 - **Ethereal:** Incorporeal; physical attacks pass through unless magical
@@ -2689,7 +2687,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 - Required: 3
 - Base: 4 HD fire damage
 
-**Magma Eruption** (Legendary, 5+)
+**Magma Eruption** (Legendary, 6)
 - Rolls: 9d6 (requires 2 exertion minimum)
 - Required: 3
 - Base: 5 HD fire damage to all creatures within 20 yards
@@ -2728,7 +2726,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 - Range: 20 yards
 - Special: Target must make Resolve check or forget one skill proficiency until next rest
 
-**Consume Memory** (Legendary, 5+)
+**Consume Memory** (Legendary, 6)
 - Rolls: 11d6 (requires 3 exertion minimum)
 - Required: 3
 - Targets RT
@@ -2767,7 +2765,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 - Base: 4 HD necrotic damage
 - Special: Target must make Fortitude skill roll or take additional 2 HD necrotic damage at start of their next turn (festering wound)
 
-**Chains of Azravael** (Legendary, 5+)
+**Chains of Azravael** (Legendary, 6)
 - Rolls: 10d6 (requires 2 exertion minimum)
 - Required: 3
 - Range: 20 yards
@@ -2779,7 +2777,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 - Range: 30 yards, affects all enemies
 - Effect: Each enemy must make Resolve check or their RT advances by 2 and suffer -1d6 penalty on next action
 
-**Call the Debt** (Legendary, 5+) - Summon
+**Call the Debt** (Legendary, 6) - Summon
 - Rolls: 10d6 (requires 3 exertion minimum)
 - Required: 3
 - Effect: Summon 1d3 Schism-Scarred Enforcers (Advanced tier) from Azravael's domain. They appear next round and serve for duration of combat
@@ -2816,7 +2814,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 - Range: 50-yard radius
 - Effect: All Wyrmkin within range immediately gain an extra action and +2d6 to attacks until end of round
 
-**Draconic Fury** (Legendary, 5+)
+**Draconic Fury** (Legendary, 6)
 - Rolls: 10d6 (requires 2 exertion minimum)
 - Required: 4
 - Base: Three attacks in succession, each dealing 3 HD slashing + 1 HD fire damage
@@ -2849,24 +2847,24 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 - Required: 3
 - Base: 5 HD piercing + 3 HD fire damage
 
-**Claw** (Advanced, 3+)
+**Claw** (Basic, 2+)
 - Rolls: 6d6
 - Required: 2
 - Base: 4 HD slashing damage
 
-**Wing Buffet** (Advanced, 3+)
+**Wing Buffet** (Basic, 2+)
 - Rolls: 6d6
 - Required: 2
 - Base: 3 HD bludgeoning damage
 - Special: 15-yard cone; targets must make Agility check or be knocked prone and pushed back 10 yards
 
-**Tail Slam** (Advanced, 3+)
+**Tail Slam** (Basic, 2+)
 - Rolls: 6d6
 - Required: 2
 - Base: 3 HD bludgeoning damage
 - Special: 15-yard reach
 
-**Inferno Breath** (Legendary, 5+)
+**Inferno Breath** (Legendary, 6)
 - Rolls: 10d6
 - Required: 4
 - Base: 7 HD fire damage
@@ -2900,19 +2898,19 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 - Required: 3
 - Base: 4 HD necrotic + 2 HD piercing damage
 
-**Shadow Claw** (Advanced, 3+)
+**Shadow Claw** (Basic, 2+)
 - Rolls: 6d6
 - Required: 2
 - Base: 3 HD necrotic damage
 - Special: On hit, target suffers -1d6 to next roll (dread)
 
-**Tail Whip** (Advanced, 3+)
+**Tail Whip** (Basic, 2+)
 - Rolls: 5d6
 - Required: 2
 - Base: 3 HD bludgeoning damage
 - Special: 15-yard reach; target wrapped in shadow wisps (can't go invisible or teleport for 2 rounds)
 
-**Grief Storm** (Legendary, 5+)
+**Grief Storm** (Legendary, 6)
 - Rolls: 9d6
 - Required: 4
 - Base: 5 HD necrotic damage + RT advances by 2
@@ -2946,18 +2944,18 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 - Required: 3
 - Base: 4 HD piercing + 3 HD cold damage
 
-**Claw** (Advanced, 3+)
+**Claw** (Basic, 2+)
 - Rolls: 6d6
 - Required: 2
 - Base: 4 HD slashing damage
 
-**Tail Sweep** (Advanced, 3+)
+**Tail Sweep** (Basic, 2+)
 - Rolls: 6d6
 - Required: 2
 - Base: 3 HD bludgeoning damage
 - Special: 15-yard arc; all targets must make Agility check or be knocked prone
 
-**Glacier Breath** (Legendary, 5+)
+**Glacier Breath** (Legendary, 6)
 - Rolls: 9d6
 - Required: 4
 - Base: 6 HD cold damage
@@ -2993,19 +2991,19 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Armor:** Radiant scales (2d12s temp HD)  
 **Movement:** 20 yards, fly 40 yards  
 
-**Radiant Bite** (Legendary, 5+)
+**Radiant Bite** (Legendary, 6)
 - Rolls: 11d6 (requires 2 exertion minimum)
 - Required: 3
 - Base: 5 HD radiant damage
 - Special: Target must make Fortitude skill roll or be blinded for 1 round (brilliant light)
 
-**Divine Breath** (Ultimate, 6 only)
+**Divine Breath** (Legendary, 6)
 - Rolls: 13d6 (requires 3 exertion minimum)
 - Required: 4
 - Base: 6 HD radiant damage to all creatures in 40-yard cone
 - Special: Undead and fiends take double damage; creates zone of consecrated ground (20 yards) where undead suffer -2d6 penalty to all rolls
 
-**Celestial Judgment** (Legendary, 5+) - Social Attack
+**Celestial Judgment** (Legendary, 6) - Social Attack
 - Rolls: 12d6 (requires 2 exertion minimum)
 - Required: 3
 - Targets RT of all enemies within 30 yards
@@ -3038,27 +3036,27 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Armor:** Ethereal vestments (2d10s temp HD)  
 **Movement:** 15 yards, fly 20 yards, plane shift at will  
 
-**Staff of Aralys** (Legendary, 5+)
+**Staff of Aralys** (Legendary, 6)
 - Rolls: 11d6 (requires 2 exertion minimum)
 - Required: 3
 - Base: 4 HD radiant or necrotic damage (Shepherd's choice)
 - Range: 20 yards
 - Special: If target is undead and below half HD, can attempt to free soul (targets RT; success = undead destroyed peacefully)
 
-**Guide the Lost** (Legendary, 5+) - Utility/Social
+**Guide the Lost** (Legendary, 6) - Utility/Social
 - Rolls: 12d6 (requires 2 exertion minimum)
 - Required: 3
 - Range: Touch
 - Effect: Lead willing soul to proper afterlife (instant death for mortals if willing; undead are laid to rest permanently)
 
-**Pale Judgment** (Ultimate, 6 only)
+**Pale Judgment** (Legendary, 6)
 - Rolls: 14d6 (requires 3 exertion minimum)
 - Required: 4
 - Targets RT of all creatures within 30 yards
 - Base: RT advances by 4
 - Special: Creatures who Collapse from this ability see vision of their death and must make Resolve check or collapse unconscious
 
-**Call the Pale Shepherds** (Legendary, 5+) - Summon
+**Call the Pale Shepherds** (Legendary, 6) - Summon
 - Rolls: 11d6 (requires 3 exertion minimum)
 - Required: 3
 - Effect: Summon 1d4 Pale Shepherds (Advanced tier psychopomps) who serve for duration of combat
@@ -3083,25 +3081,25 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Armor:** Ancient bark (2d12s temp HD, regrows each round in sunlight)  
 **Movement:** 15 yards  
 
-**Colossal Fist** (Legendary, 5+)
+**Colossal Fist** (Legendary, 6)
 - Rolls: 10d6 (requires 2 exertion minimum)
 - Required: 3
 - Base: 6 HD bludgeoning damage
 - Special: Target must make Fortitude skill roll or be knocked prone
 
-**Forest's Wrath** (Ultimate, 6 only)
+**Forest's Wrath** (Legendary, 6)
 - Rolls: 12d6 (requires 3 exertion minimum)
 - Required: 4
 - Base: 7 HD bludgeoning damage to all creatures within 20 yards
 - Special: Causes earthquake effect, creating difficult terrain and potentially collapsing structures
 
-**Thymera's Renewal** (Legendary, 5+) - Healing
+**Thymera's Renewal** (Legendary, 6) - Healing
 - Rolls: 11d6 (requires 2 exertion minimum)
 - Required: 3
 - Effect: Heal 6d10 HD to self or allied plant creature within touch range
 - Special: Can use on self as triggered response when damaged (costs one action if not yet acted this round)
 
-**Awaken the Grove** (Legendary, 5+) - Summon/Environmental
+**Awaken the Grove** (Legendary, 6) - Summon/Environmental
 - Rolls: 11d6 (requires 3 exertion minimum)
 - Required: 3
 - Effect: Animate 2d4 Verdant Creepers (Basic tier) from surrounding trees. They act immediately and persist for duration of combat
@@ -3131,7 +3129,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Armor:** Legendary (Flame-Forged Dragonscale, 3d6s temp HD)  
 **Movement:** 15 yards, fly 60 yards  
 
-**Bite** (Legendary, 5+)
+**Bite** (Legendary, 6)
 - Rolls: 10d6
 - Required: 4
 - Base: 6 HD piercing + 4 HD fire damage
@@ -3153,14 +3151,14 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 - Base: 4 HD bludgeoning damage
 - Special: 20-yard reach; can target up to 3 adjacent creatures
 
-**Inferno Cataclysm** (Ultimate, 6 only)
+**Inferno Cataclysm** (Legendary, 6)
 - Rolls: 14d6 (requires 3 exertion minimum)
 - Required: 5
 - Base: 10 HD fire damage
 - Range: 60-yard cone
 - Special: Recharge after 3 rounds; all flammable objects ignite; creates heat shimmer (ranged attacks into area have -2d6) for 3 rounds
 
-**Magma Eruption** (Legendary, 5+)
+**Magma Eruption** (Legendary, 6)
 - Rolls: 10d6 (requires 2 exertion minimum)
 - Required: 4
 - Base: 6 HD fire damage
@@ -3191,7 +3189,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Armor:** Heavy (Storm-Charged Dragonscale)  
 **Movement:** 15 yards, fly 80 yards  
 
-**Bite** (Legendary, 5+)
+**Bite** (Legendary, 6)
 - Rolls: 10d6
 - Required: 4
 - Base: 5 HD piercing + 4 HD lightning damage
@@ -3213,14 +3211,14 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 - Base: 4 HD bludgeoning damage
 - Special: 20-yard reach; target stunned for 1 round unless Fortitude check succeeds
 
-**Tempest Breath** (Ultimate, 6 only)
+**Tempest Breath** (Legendary, 6)
 - Rolls: 13d6 (requires 3 exertion minimum)
 - Required: 5
 - Base: 8 HD lightning damage
 - Range: 100-yard line
 - Special: Recharge after 2 rounds; forks to hit up to 3 additional targets within 20 yards of primary target; metallic armor provides no defense
 
-**Call the Storm** (Legendary, 5+) - Environmental
+**Call the Storm** (Legendary, 6) - Environmental
 - Rolls: 11d6 (requires 2 exertion minimum)
 - Required: 4
 - Range: 1-mile radius centered on self
@@ -3250,7 +3248,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Armor:** Medium (Void-Touched Scales—solid but semi-translucent)  
 **Movement:** 10 yards, fly 50 yards, teleport 30 yards (see ability)  
 
-**Bite** (Legendary, 5+)
+**Bite** (Legendary, 6)
 - Rolls: 10d6
 - Required: 4
 - Base: 5 HD necrotic + 3 HD psychic damage
@@ -3269,14 +3267,14 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 - Range: 50 yards
 - Special: Creates rift that persists for 2 rounds; creatures starting turn adjacent take 2 HD force damage
 
-**Void Breath** (Ultimate, 6 only)
+**Void Breath** (Legendary, 6)
 - Rolls: 14d6 (requires 4 exertion minimum)
 - Required: 5
 - Base: 7 HD necrotic damage + RT advances by 3
 - Range: 50-yard cone
 - Special: Recharge after 3 rounds; targets must make Resolve check or be unable to use magical abilities for 1 round (anti-magic field)
 
-**Consume Magic** (Legendary, 5+) - Reaction
+**Consume Magic** (Legendary, 6) - Reaction
 - Trigger: Spell cast within 60 yards
 - Rolls: 10d6 (caster opposes with their casting roll)
 - Required: Match or exceed caster's successes
@@ -3312,25 +3310,25 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Armor:** Living infernal armor (2d12s temp HD, reforms each round)  
 **Movement:** 15 yards, fly 30 yards, plane shift at will  
 
-**Damnation Strike** (Ultimate, 6 only)
+**Damnation Strike** (Legendary, 6)
 - Rolls: 13d6 (requires 3 exertion minimum)
 - Required: 4
 - Base: 7 HD necrotic damage
 - Special: Target's maximum HD reduced by damage dealt (until long rest). If reduced to 0 max HD this way, soul claimed by Azravael
 
-**Chains of Eternal Debt** (Ultimate, 6 only)
+**Chains of Eternal Debt** (Legendary, 6)
 - Rolls: 14d6 (requires 3 exertion minimum)
 - Required: 4
 - Range: 30 yards, affects all enemies
-- Effect: Each target wrapped in infernal chains; restrained and take 3 HD necrotic damage per round. Must make Resolve check (Legendary, 5+, requires 3 successes) to break free
+- Effect: Each target wrapped in infernal chains; restrained and take 3 HD necrotic damage per round. Must make Resolve check (Legendary, 6, requires 3 successes) to break free
 
-**Azravael's Edict** (Ultimate, 6 only) - Reality Warping
+**Azravael's Edict** (Legendary, 6) - Reality Warping
 - Rolls: 15d6 (requires 3 exertion minimum)
 - Required: 4
 - Targets RT of all creatures within 50 yards
-- Effect: Herald speaks contract aloud. All who hear must make Resolve check (Ultimate, 6 only) or become bound by its terms for 1 hour. Those who fail are compelled to follow stated contract
+- Effect: Herald speaks contract aloud. All who hear must make Resolve check (Legendary, 6) or become bound by its terms for 1 hour. Those who fail are compelled to follow stated contract
 
-**Summon Schism Legion** (Legendary, 5+)
+**Summon Schism Legion** (Legendary, 6)
 - Rolls: 12d6 (requires 2 exertion minimum)
 - Required: 3
 - Effect: Summon 2d4 Schism-Scarred Enforcers (Advanced tier) or 1 Death Knight (Expert tier). They serve until dismissed or destroyed
@@ -3356,27 +3354,27 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Armor:** Moonlit vestments (2d10s temp HD)  
 **Movement:** 20 yards, fly 30 yards, ethereal step  
 
-**Touch of Mercy** (Ultimate, 6 only)
+**Touch of Mercy** (Legendary, 6)
 - Rolls: 14d6 (requires 3 exertion minimum)
 - Required: 4
 - Range: Touch
 - Effect: Instant death to target (no HD damage, simply passes peacefully). Target must be willing or below 25% HD. Soul guided immediately to proper afterlife with Aralys's blessing
 
-**Moonlight Cascade** (Ultimate, 6 only)
+**Moonlight Cascade** (Legendary, 6)
 - Rolls: 15d6 (requires 3 exertion minimum)
 - Required: 4
 - Base: 6 HD radiant damage to all creatures in 40-yard radius
 - Special: Undead take double damage and must make Resolve check or be laid to rest permanently (soul freed)
 
-**Veil Between** (Ultimate, 6 only) - Reality Manipulation
+**Veil Between** (Legendary, 6) - Reality Manipulation
 - Rolls: 14d6 (requires 3 exertion minimum)
 - Required: 4
-- Effect: Open portal to Gloam (lasts 1 minute). All who enter see their own death and must make Resolve check (Ultimate, 6 only) or be transformed into Moonbound Watcher in service to Aralys
+- Effect: Open portal to Gloam (lasts 1 minute). All who enter see their own death and must make Resolve check (Legendary, 6) or be transformed into Moonbound Watcher in service to Aralys
 
 **The Final Mercy** (Special) - Ritual
 - Requires 3 rounds of uninterrupted concentration
 - Range: 100 yards
-- Effect: Grant peaceful death to all willing souls within range. For unwilling, must succeed on Resolve check (Ultimate, 6 only) to resist. Those who pass are granted Aralys's blessing and skip any suffering in death
+- Effect: Grant peaceful death to all willing souls within range. For unwilling, must succeed on Resolve check (Legendary, 6) to resist. Those who pass are granted Aralys's blessing and skip any suffering in death
 
 **Special Abilities:**
 - **Aralys's Avatar:** Direct manifestation of goddess's will; immune to necrotic and radiant damage
@@ -3399,13 +3397,13 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Armor:** Legendary (Dusk-Woven Dragonscale, 3d10s temp HD)  
 **Movement:** 15 yards, fly 60 yards, ethereal step 40 yards  
 
-**Bite of Ending** (Ultimate, 6 only)
+**Bite of Ending** (Legendary, 6)
 - Rolls: 14d6
 - Required: 5
 - Base: 7 HD necrotic + 4 HD psychic damage
 - Special: Target's maximum HD reduced by damage dealt until long rest
 
-**Grief Claw** (Legendary, 5+)
+**Grief Claw** (Legendary, 6)
 - Rolls: 10d6
 - Required: 4
 - Base: 5 HD necrotic damage
@@ -3417,14 +3415,14 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 - Base: 4 HD bludgeoning + 3 HD necrotic damage
 - Special: 25-yard reach; target restrained by shadows for 2 rounds or until Agility check succeeds
 
-**The Final Mourning** (Ultimate, 6 only)
+**The Final Mourning** (Legendary, 6)
 - Rolls: 16d6 (requires 4 exertion minimum)
 - Required: 5
 - Base: 8 HD necrotic damage + RT advances by 4
 - Range: 60-yard radius centered on self
 - Special: Recharge after 4 rounds; targets must make Resolve check or fall into catatonic grief for 1 round (unconscious but stable)
 
-**Shepherd's Call** (Legendary, 5+) - Summon
+**Shepherd's Call** (Legendary, 6) - Summon
 - Rolls: 12d6 (requires 3 exertion minimum)
 - Required: 4
 - Range: 100 yards
@@ -3454,13 +3452,13 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 **Armor:** Legendary (Oathforged Dragonscale, 3d8s temp HD)  
 **Movement:** 15 yards, fly 50 yards  
 
-**Judgment Bite** (Ultimate, 6 only)
+**Judgment Bite** (Legendary, 6)
 - Rolls: 14d6
 - Required: 5
 - Base: 8 HD radiant damage
 - Special: If target has ever broken a sworn oath, add 4 HD additional damage
 
-**Claw of Binding** (Legendary, 5+)
+**Claw of Binding** (Legendary, 6)
 - Rolls: 11d6
 - Required: 4
 - Base: 5 HD radiant damage
@@ -3472,20 +3470,20 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 - Base: 5 HD bludgeoning damage
 - Special: 20-yard reach; knocks prone unless Fortitude check succeeds
 
-**Breath of Covenant** (Ultimate, 6 only)
+**Breath of Covenant** (Legendary, 6)
 - Rolls: 15d6 (requires 4 exertion minimum)
 - Required: 5
 - Base: 6 HD radiant damage
 - Range: 50-yard cone
 - Special: Recharge after 3 rounds; all oathbreakers in range take double damage and must make Resolve check or be compelled to confess one broken oath aloud
 
-**Seal of the Halls** (Ultimate, 6 only) - Binding
+**Seal of the Halls** (Legendary, 6) - Binding
 - Rolls: 14d6 (requires 3 exertion minimum)
 - Required: 5
 - Target: One creature within 30 yards who has broken an oath
 - Effect: Target is banished to the Concordant Halls for judgment. Returns after 24 hours bearing magical geas to fulfill original oath—breaking the geas results in permanent service to the Halls
 
-**Invoke Concordance** (Legendary, 5+) - Command
+**Invoke Concordance** (Legendary, 6) - Command
 - Rolls: 12d6 (requires 2 exertion minimum)
 - Required: 4
 - Range: 100-yard radius
@@ -3528,7 +3526,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 - Range: Variable (roll 1d100 for yards)
 - Special: Effect changes each use (consult Chaos Table)
 
-**Reality Flux** (Ultimate, 6 only) - Environmental/Reality
+**Reality Flux** (Legendary, 6) - Environmental/Reality
 - Rolls: 18d6 (requires 3 exertion minimum)
 - Required: 4
 - Range: 100-yard radius
@@ -3548,7 +3546,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 - Rolls: 20d6 (requires 3 exertion minimum)
 - Required: 4
 - Range: 50-yard cone
-- Effect: All in area must make Resolve check (Ultimate, 6 only) or be transformed into random creature (GM determines, lasts 1 hour)
+- Effect: All in area must make Resolve check (Legendary, 6) or be transformed into random creature (GM determines, lasts 1 hour)
 
 **Twin-Flame Rebirth** (Special) - Passive
 - When reduced to 0 HD, explodes in reality-shaking burst (10 HD force damage to all within 50 yards)
@@ -3583,11 +3581,11 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 - Base: RT advances by 2
 - Special: Creatures who Collapse from this ability forget who they are (lose all class abilities, memories, personality). Effect is permanent unless memory is restored through quest/ritual
 
-**Memory Flood** (Ultimate, 6 only)
+**Memory Flood** (Legendary, 6)
 - Rolls: 16d6
 - Required: 4
 - Range: 40-yard cone
-- Effect: Overwhelm targets with all memories stored in local water (centuries of events). Creatures must make Resolve check (Ultimate, 6 only) or collapse unconscious for 1d4 hours
+- Effect: Overwhelm targets with all memories stored in local water (centuries of events). Creatures must make Resolve check (Legendary, 6) or collapse unconscious for 1d4 hours
 
 **Aluneth's Judgment** (Mythical) - Reality/Social
 - Rolls: 20d6
@@ -3632,13 +3630,13 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 - Base: 12 HD physical damage (ignores resistance)
 - Special: Damage type matches victim's greatest vulnerability (automatically determined)
 
-**Rending Claw** (Ultimate, 6 only)
+**Rending Claw** (Legendary, 6)
 - Rolls: 16d6
 - Required: 5
 - Base: 8 HD slashing damage
 - Special: Ignores armor temp HD entirely
 
-**World-Shatter Tail** (Ultimate, 6 only)
+**World-Shatter Tail** (Legendary, 6)
 - Rolls: 16d6
 - Required: 5
 - Base: 10 HD force damage
@@ -3655,7 +3653,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
   - *Destruction:* 15 HD elemental damage (any type); all objects destroyed; terrain becomes difficult
   - *Change:* Targets must make Resolve check or be polymorphed into young dragons (1 hour); Progenitor chooses type
 
-**Summon Lineage** (Ultimate, 6 only) - Summon
+**Summon Lineage** (Legendary, 6) - Summon
 - Rolls: 18d6 (requires 4 exertion minimum)
 - Required: 5
 - Range: 1 mile
@@ -3695,13 +3693,13 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
 - Base: 10 HD fire + 5 HD radiant damage
 - Special: Target is marked with First Fire—takes 3 HD fire damage per round indefinitely; only holy water, total immersion, or divine intervention removes it
 
-**Destruction Claw** (Ultimate, 6 only)
+**Destruction Claw** (Legendary, 6)
 - Rolls: 18d6
 - Required: 5
 - Base: 9 HD fire damage
 - Special: Permanently destroys magic items (no save); artifacts get Resolve check to resist
 
-**Tail of Change** (Ultimate, 6 only)
+**Tail of Change** (Legendary, 6)
 - Rolls: 16d6
 - Required: 5
 - Base: 7 HD force damage
@@ -3722,7 +3720,7 @@ Can be driven away by celebrations of life and strong community bonds. Priests o
   - *Success:* Takes 10 HD fire damage, teleported 100 yards to safety
   - *Failure:* Reduced to 0 HD but transformed into creature of fire (HD becomes fire elemental form for 1 hour; retain consciousness but lose class abilities)
 
-**Ignite the Faithful** (Ultimate, 6 only) - Command
+**Ignite the Faithful** (Legendary, 6) - Command
 - Rolls: 18d6 (requires 4 exertion minimum)
 - Required: 5
 - Range: 1 mile
@@ -3776,7 +3774,7 @@ These NPCs represent inhabitants of the Mortal Weave who may aid the party tempo
 - Required: 1
 - Base: 2 HD slashing damage
 
-**War Cry: Rally** (Advanced, 3+)
+**War Cry: Rally** (Basic, 2+)
 - Rolls: 4d6
 - Required: 2
 - Effect: All allies within 10 yards gain +1d6 to next attack roll
@@ -3808,7 +3806,7 @@ These NPCs represent inhabitants of the Mortal Weave who may aid the party tempo
 - Base: 1 HD force damage
 - Range: 30 yards
 
-**Unravel Magic** (Advanced, 3+)
+**Unravel Magic** (Basic, 2+)
 - Rolls: 4d6
 - Required: 2
 - Range: 20 yards
@@ -3842,7 +3840,7 @@ These NPCs represent inhabitants of the Mortal Weave who may aid the party tempo
 - Base: 1 HD radiant damage
 - Range: 20 yards
 
-**Blessed Restoration** (Advanced, 3+)
+**Blessed Restoration** (Basic, 2+)
 - Rolls: 4d6
 - Required: 2
 - Effect: Restore 2d8 HD to target ally (can target self)
@@ -3876,7 +3874,7 @@ These NPCs represent inhabitants of the Mortal Weave who may aid the party tempo
 - Base: 2 HD piercing damage
 - Range: 50/150 yards
 
-**Hunter's Mark** (Advanced, 3+)
+**Hunter's Mark** (Basic, 2+)
 - Rolls: 4d6
 - Required: 2
 - Range: 60 yards
@@ -4067,7 +4065,7 @@ These NPCs represent inhabitants of the Mortal Weave who may aid the party tempo
 - Base: 1 HD bludgeoning damage (water pressure)
 - Range: 20 yards
 
-**Memory Current** (Advanced, 3+) - Utility/Social
+**Memory Current** (Basic, 2+) - Utility/Social
 - Rolls: 4d6
 - Required: 2
 - Effect: Share one specific memory stored in nearby water (historical event, recent conversation, etc.)
@@ -4100,7 +4098,7 @@ These NPCs represent inhabitants of the Mortal Weave who may aid the party tempo
 **Armor:** Black enforcer's coat (2d8s temp HD)  
 **Movement:** 10 yards  
 
-**Contract Strike** (Advanced, 3+)
+**Contract Strike** (Basic, 2+)
 - Rolls: 5d6
 - Required: 2
 - Base: 2 HD necrotic damage

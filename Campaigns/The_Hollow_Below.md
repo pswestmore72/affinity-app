@@ -429,7 +429,7 @@ Durg is drinking heavily, guilt-ridden but defensive. **Influence check (Basic 2
 - *"I saw more hallways beyond. Pillars. Runes that glowed blue. It's HUGE down there."*
 - *"The grinding sounds at night? That's more of 'em. Waking up. Moving around."*
 
-**Advanced (3+) Influence or Insight:**
+**Basic (2+) Influence or Insight:**
 - Durg knows he screwed up; he's terrified of being blamed for the deaths
 - He DID see something glinting deeper in—possibly treasure—but won't admit it (fears being called greedy)
 
@@ -447,7 +447,7 @@ Two miners survived the guardian attack:
 **Ryk Hammerfall** (dwarf miner, broken arm):
 - Angrier than scared
 - *"We shouldn't have touched that door. FELT wrong. The runes were a warning, not a decoration."*
-- **Lore check (Advanced 3+):** Ryk recognizes the geometric patterns as pre-Sowing era construction (800+ years old)
+- **Lore check (Basic 2+):** Ryk recognizes the geometric patterns as pre-Sowing era construction (800+ years old)
 
 #### C) Examine the Maps
 
@@ -1329,7 +1329,7 @@ The ley-node becomes CRITICALLY unstable. Khuldras's dormant consciousness sends
 **Threatened Space Resting Rules:**
 - **½ HD Restoration:** If a PC has 6 max HD and is at 2/6, Resting restores 3 HD → ends at 5/6 (not full)
 - **½ Resolve Restoration:** If a PC has 5 max Resolve and is at 1/5, Resting restores 2 Resolve → ends at 3/5 (not full)  
-- **No Armor Replacement:** Destroyed armor stays destroyed; damaged armor can be field-repaired using **Crafting checks** (Advanced 3+ to restore 1d6 armor absorption), but requires scavenged materials
+- **No Armor Replacement:** Destroyed armor stays destroyed; damaged armor can be field-repaired using **Crafting checks** (Basic 2+ to restore 1d6 armor absorption), but requires scavenged materials
 - **No Skill Training:** Cannot spend downtime improving skills—survival takes priority
 
 **Consequence:**  

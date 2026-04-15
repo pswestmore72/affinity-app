@@ -32,9 +32,8 @@ When you attack, cast spells, or use abilities, roll **d6s** and count successes
 | Action Tier | Success Threshold | What Counts |
 |-------------|-------------------|-------------|
 | **Basic** | 2+ | 2, 3, 4, 5 = 1 success; 6 = 2 successes |
-| **Advanced** | 3+ | 3, 4, 5 = 1 success; 6 = 2 successes |
 | **Expert** | 4+ | 4, 5 = 1 success; 6 = 2 successes |
-| **Legendary** | 5+ | 5 = 1 success; 6 = 2 successes |
+| **Legendary** | 6 only | 6 = 2 successes |
 
 **At Level 1, most actions are Basic (2+).** A roll of 6 always counts as 2 successes.
 
@@ -111,15 +110,15 @@ At Level 1 (Proficiency 1): You can exert 1 extra die per action.
 
 1. **Roll** Proficiency d6s (+ any exertion)
 2. **Need:** 1 success at 2+ threshold (for Basic attacks)
-3. **Extra successes:** +1 damage each (capped at Proficiency)
+3. **Hit = weapon damage.** Extra successes trigger weapon properties.
 
-**At Level 1:** Roll 1-2d6. Get any 2+. Deal base weapon damage + bonus.
+**At Level 1:** Roll 1-2d6. Get any 2+. Deal weapon damage.
 
 **Example:**
-- Attacking with a sword (Base 1 HD damage, Basic tier = 2+ threshold)
+- Attacking with a sword (1 HD damage, Basic tier = 2+ threshold)
 - Roll 2d6 (Prof 1 + Exert 1), get 5, 3
-- Both are 2+ → 2 successes → hit for 1 base + 1 bonus (capped at Prof 1) = 2 HD damage
-- If you'd rolled 6, 4 → 3 successes (2+1) → still capped at 2 HD damage at Level 1
+- Both are 2+ → 2 successes → hit for 1 HD damage
+- Extra success could trigger a weapon property (e.g., knockback) if the weapon has one
 
 ---
 
@@ -157,7 +156,7 @@ Armor:    ⬡⬡       (2d8s armor dice)
 
 When you lose dice, cross them off. When they're gone, they're gone.
 
-**At 0 Body HD:** You're in trouble (see Resolve below).
+**At 0 Body HD:** You're still standing but limited to 1 action per turn. You make Resolve checks each round (see below).
 
 ---
 
@@ -167,8 +166,8 @@ When you lose dice, cross them off. When they're gone, they're gone.
 
 **When your Resolve Threshold increases (rare at L1):**
 - Taking massive damage in one round
-- Using maximum exertion repeatedly
 - Failing difficult actions
+- Certain enemy effects (fear, psychic attacks)
 
 **Don't worry about Resolve yet.** Your GM will tell you when to check.
 
@@ -192,10 +191,8 @@ When you lose dice, cross them off. When they're gone, they're gone.
 
 These exist in the full rules, but ignore them for Session 1:
 
-- ❌ Expert/Legendary/Ultimate actions (require higher Proficiency)
+- ❌ Expert/Legendary actions (require higher Proficiency)
 - ❌ Complex Resolve death spiral (just know: 0 HD + Collapse = death)
-- ❌ Social Duels (your GM handles these)
-- ❌ Travel mechanics (your GM handles these)
 - ❌ Multi-target action scaling (just roll and see what happens)
 - ❌ Affinity Dice (learn after you've played a session)
 
@@ -222,8 +219,7 @@ These exist in the full rules, but ignore them for Session 1:
 | Action Tier | Threshold | At Level 1? |
 |-------------|-----------|-------------|
 | Basic | 2+ | ✅ Yes |
-| Advanced | 3+ | ✅ Yes (harder) |
-| Expert+ | 4+, 5+, 6 | ❌ Not available |
+| Expert+ | 4+, 6 | ❌ Not available |
 
 ---
 

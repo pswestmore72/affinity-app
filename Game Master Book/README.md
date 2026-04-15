@@ -45,7 +45,7 @@ Pre-built NPCs and blank templates for quick encounter prep:
   - Includes boss variant (Awakened Warden)
 
 - **[NPC_Sheet_Captain_Marcus.md](NPC_Sheet_Captain_Marcus.md)** - Level 4 Elite antagonist from *The Platinum Paradox*
-  - Redeemable villain with social combat mechanics
+  - Redeemable villain with social Group Challenge mechanics
   - Multiple resolution paths (combat, redemption, leverage)
   - Full roleplay guidance and moral complexity
 

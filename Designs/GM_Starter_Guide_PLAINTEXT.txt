@@ -94,19 +94,19 @@ EXAMPLE ENEMIES FOR LEVEL 1
 
 Goblin Skulker (Trivial)
 HD: 2d6s, Prof: 1, RT: 5
-Attack: Rusty Dagger (2d6, 1 HD damage)
+Attack: Rusty Dagger (Basic, 2+, 2d6, 1 HD damage)
 Special: Flees at 1 HD remaining or RT 6 (already fragile)
 
 Orc Raider (Basic)
 HD: 4d8s, Prof: 2, RT: 5
 Armor: 2d6s (hide scraps)
-Attack: Greataxe (3d6, 2 HD damage)
+Attack: Greataxe (Basic, 2+, 3d6, 2 HD damage)
 Special: +1d6 when below half HD (rage)
 
 Animated Statue (Basic)
 HD: 5d10s, Prof: 1, RT: 5
 Armor: 2d10s (stone body)
-Attack: Stone Fist (2d6, 2 HD damage)
+Attack: Stone Fist (Basic, 2+, 2d6, 2 HD damage)
 Special: Immune to fear/charm
 
 ────────────────────────────────────────────────────────────────────────
@@ -127,7 +127,7 @@ COMBAT TURN STRUCTURE
 
 WHEN NPCS ATTACK
 1. Roll the dice shown in their stat block
-2. Count successes using the listed action tier (Basic 2+, Advanced 3+, Expert 4+, etc.; 6 always counts as 2)
+2. Count successes using the listed action tier (Basic 2+, Expert 4+, Legendary 6; 6 always counts as 2)
 3. If they hit, player defends
 
 WHEN NPCS DEFEND
@@ -151,48 +151,45 @@ WHEN PLAYERS TAKE DAMAGE
 
 AT 0 BODY HD
 
-• Player makes Resolve checks each round (1d6 ≥ current RT to pass)
+• Character is still standing but LIMITED TO 1 ACTION per turn (body is breaking)
+• Makes Resolve check each round (1d6 ≥ current RT to pass)
 • Fail = RT advances by 1 (2 → 3 → 4 → 5 → 6)
-• If healed above 0 HD, stops dying
+• If healed above 0 HD, regains 2 actions and stops Resolve checks
 • At 0 HD AND Collapse (fail at RT 6) = dead
 
-For Session 1: If a player hits 0 HD, let them make one Resolve check, then have allies stabilize them or enemies shift target. Real death can come later when stakes are clear.
+For Session 1: If a player hits 0 HD, remind them they only get 1 action per turn. Let them make one Resolve check, then have allies stabilize or heal them. Real death can come later when stakes are clear.
 
 ────────◇────────
 RESOLVE ESCALATION (When to Call for Checks)
 ────────◇────────
 
-Players make Resolve checks when ANY of these happen (max 1 check per round):
+Players make a Resolve check the first time each round that damage destroys a Body HD. Max 1 check per round.
 
-AT LEVEL 1 (Common Triggers):
-• Lose ≥ 2 HD in a single round (Proficiency + 1 = 1 + 1 = 2)
-• Reduced to 0 HD
-• At 0 HD and take any hit
-• Use maximum exertion in one round (1 exertion die at Level 1)
+THE KEY INSIGHT: If armor absorbs the whole hit, no Resolve check!
+Armor protects your mind as well as your body.
 
-HIGHER LEVELS (Future Triggers):
-• Fail an Expert+ tier action
-• Maintain concentration on a spell and take damage
-• Certain enemy abilities force checks (fear effects, psychic attacks)
+AT LEVEL 1 (What to Watch For):
+• Any time damage gets through armor to Body HD = check
+• At 0 HD, every hit that reaches body = check (automatic spiral)
 
 RESULTS:
 • Roll 1d6 ≥ current RT = Hold (no change)
 • Roll below RT = RT increases by 1
 
-STAGE PENALTIES:
-RT 2: No penalties
-RT 3: Cannot use Expert+ actions
-RT 4: Cannot use Expert+ actions, -1 defense die
-RT 5: Cannot use Expert+ actions, Advanced+ needs +1 success, -1 defense die
-RT 6: Cannot use Expert+ actions, Advanced+ needs +1 success, -2 defense dice
+THE TWO BREAKPOINTS (simple, no tracking):
+• RT 5+: Cannot use Expert+ actions (mind is cracking)
+• 0 HD: Limited to 1 action per turn (body is breaking)
+
+That's it. No graduated penalty table. The escalating Resolve check
+is the spiral—each failed check makes the next one harder.
 
 WHY THIS MATTERS AT LEVEL 1:
-Even though triggers are less common at Level 1 (smaller HD pools, Basic tier actions), players WILL face Resolve checks when they:
-• Push hard with exertion every round
-• Take multiple hits in quick succession
-• Get reduced to 0 HD
+Players WILL face Resolve checks when they:
+• Take a hit that gets past armor to Body HD
+• Get reduced to 0 HD (now limited to 1 action!)
+• Take ANY hit while at 0 HD (spiral accelerates)
 
-Watch for players hitting 2+ HD loss in one round—that's your trigger!
+Watch for damage reaching Body HD—that's your trigger!
 
 ────────────────────────────────────────────────────────────────────────
 PAGE 4 - SKILL CHALLENGES
@@ -215,19 +212,19 @@ SETTING DIFFICULTY
 At Level 1 with 3-4 players (Proficiency 1 each), you have a group dice pool of 3-4 dice.
 
 QUICK DIFFICULTY GUIDELINES:
-• EASY: Low pip count (2-3+), few successes needed (2)
-• MODERATE: Mid pip count (3-4+), standard successes (2-3)
-• HARD: High pip count (4-5+), or more successes (3+)
-• VERY HARD: Need 6s, or 4+ successes
+• EASY: Basic (2+), few successes needed (2)
+• MODERATE: Basic (2+), more successes (3)
+• HARD: Expert (4+), standard successes (2)
+• VERY HARD: Expert (4+) with 3+ successes, or Legendary (6)
 
 EXAMPLE CHALLENGES (for 3-4 player party):
 
 Easy Wilderness Check: 2+, need 2 successes
-Moderate Awareness: 3+, need 2 successes  
+Moderate Awareness: 2+, need 3 successes  
 Hard Climb: 4+, need 2 successes
-Very Hard Lore: 5+, need 3 successes
+Very Hard Lore: 4+, need 3 successes
 
-Pip flavor: 2+ = anyone can help, 5+ = expertise required, 6 = only perfection counts
+Pip flavor: 2+ = anyone can help, 4+ = expertise required, 6 = only perfection counts
 
 At Level 1, expect players to exert for harder challenges.
 
@@ -351,7 +348,7 @@ TRAVEL TIME: 3-4 hours
 
 NAVIGATION CHECK (Group Roll, Wilderness domain)
 • Dice Pool: 3-4 (players × Prof 1)
-• Difficulty: (3+, 2) — Moderate
+• Difficulty: (2+, 3) — Moderate
 • Failure: Add +1 hour, trigger random encounter (wolves or 2 Frostbitten Thralls)
 
 PERCEPTION CHECK (Group Roll, Awareness domain)
@@ -371,7 +368,7 @@ The party finds a small clearing with:
 • Broken arrows scattered
 
 INVESTIGATION CHECK (Group Roll, Awareness domain)
-• Difficulty: (3+, 2) — Moderate
+• Difficulty: (2+, 3) — Moderate
 • Success: The scouts fought something—multiple attackers from north. They were dragged away northeast (toward Burial Cairn).
 
 CARVED INTO TREE: "NO WARMTH HERE. ONLY COLD FOREVER."
@@ -443,7 +440,7 @@ When party approaches within 30 feet, the 12 corpses RISE.
 SETUP:
 • 8 Frostbitten Thralls (minions, see stat block page 13)
 • 1 Frostbitten Logger Elite (Garrus, the foreman, see stat block page 13)
-• Cairn in center (can be climbed, Athletics Moderate 3+)
+• Cairn in center (can be climbed, Athletics 2+, need 2)
 • Frozen ground (slippery terrain)
 
 FROST FOCUS CRYSTAL (Object):
@@ -473,7 +470,7 @@ AFTERMATH OF CAIRN BATTLE
 
 Searching the area reveals:
 • A leather-bound journal hidden in cairn's base (requires thorough search, Awareness Expert 4+)
-• Journal belongs to Thane Coldbrook—a name locals might recognize (Lore/History Moderate 3+): a hedge wizard exiled from Coldmarch 10 years ago for "dark research"
+• Journal belongs to Thane Coldbrook—a name locals might recognize (Lore/History 2+, need 2): a hedge wizard exiled from Coldmarch 10 years ago for "dark research"
 
 JOURNAL EXCERPTS (read to players):
 
@@ -546,7 +543,7 @@ Thane is willing to talk (briefly):
 SOCIAL CONFRONTATION OPTIONS:
 
 INFLUENCE CHECK (to persuade him to stop)
-• Difficulty: Legendary (5+), need 4 successes
+• Difficulty: Legendary (6), need 4 successes
 • Likely failure—he's committed to his path
 
 LORE CHECK (to identify ritual weakness)
@@ -712,7 +709,7 @@ THANE COLDBROOK (Advanced Enemy, Necromancer)
 ────────────────────────────────
 HD: 10d6s
 Proficiency: 3
-Resolve Threshold: 4 (Shaken - already weathered by necromantic rituals)
+Resolve Threshold: 4 (already weathered by necromantic rituals)
 Speed: 30 feet
 Armor: 2d6s (frost-infused robes)
 
@@ -721,17 +718,17 @@ ATTACK: Cold Bolt (Ranged, Basic)
 • Rolls: 4d6
 • Required: 1 success
 • Damage: 2 HD cold + special
-• Special: Target Fortitude save (Moderate, 3+) or slowed (movement halved) for 1 round
+• Special: Target Fortitude save (Basic, 2+) or slowed (movement halved) for 1 round
 
 SPELLS & ABILITIES:
 
-Frost Wall (Advanced, 3+, action)
+Frost Wall (Basic, 2+, action)
 • 20-foot wall of ice, blocks line of sight and movement
 • HP 10, can be destroyed
 • Lasts Proficiency rounds
 • Usable 2/combat
 
-Raise Thrall (Advanced, 3+, action)
+Raise Thrall (Basic, 2+, action)
 • Target: One corpse within 30 yards
 • Raises as Frostbitten Thrall (see stat block)
 • Thrall acts immediately on Thane's turn
@@ -740,7 +737,7 @@ Raise Thrall (Advanced, 3+, action)
 Frost Nova (Expert, 4+, action, desperate move)
 • 20-yard radius burst centered on self
 • All creatures: 3 HD cold damage
-• Reflex save (Moderate, 3+) for half
+• Reflex save (Basic, 2+) for half
 • Thane loses 2 HD using this (backlash)
 • Usable 1/combat
 
@@ -777,7 +774,7 @@ SPECIAL ABILITIES:
 • Frost Glide: Can move through solid objects briefly
 • Death Wail (1/combat, action, when reduced to 3 HD or less)
   - 30-yard radius
-  - All creatures: Resolve check (Moderate, 3+) or RT increases by 1
+  - All creatures: Resolve check (Basic, 2+) or RT increases by 1
   - Audible for miles
 
 TACTICS: Glide through obstacles, prioritize spellcasters, use Death Wail when bloodied
@@ -796,10 +793,8 @@ ACTION ROLL SUCCESS THRESHOLDS
 ║ Tier     ║ Success Counting                ║
 ╠══════════╬═════════════════════════════════╣
 ║ Basic    ║ 2,3,4,5 = 1 success; 6 = 2     ║
-║ Advanced ║ 3,4,5 = 1 success; 6 = 2       ║
 ║ Expert   ║ 4,5 = 1 success; 6 = 2         ║
-║ Legendary║ 5 = 1 success; 6 = 2           ║
-║ Ultimate ║ 6 = 2 successes only           ║
+║ Legendary║ 6 = 2 successes only           ║
 ╚══════════╩═════════════════════════════════╝
 
 EXERTION RISK: 1 rolled on exertion die = Lose 1 HD
@@ -824,17 +819,16 @@ LEVEL 1 CHARACTER STATS
 Proficiency: 1
 Resolve Threshold: 2
 Defense Capacity: 1
-Actions: 2 per turn
+Actions: 2 per turn (1 at 0 HD)
 Movement: 10 yards
 Exertion cap: 1 per action
 
 RESOLVE CHECK TRIGGERS (Level 1)
 
-• Lose ≥ 2 HD in one round
-• Reduced to 0 HD
-• At 0 HD and take hit
-• Max exertion used (1 die at L1)
+• Damage destroys a Body HD (1st time/round)
+• Certain enemy abilities
 Max 1 check per round
+Armor absorbs hit = no check!
 
 EMERGENCY GM FIXES
 ────────◇────────
@@ -854,7 +848,8 @@ Player confused?
 • "When hit, roll defense. 5+ = die survives."
 
 Player at 0 HD?
-• Make Resolve check (below RT = RT increases by 1)
+• They get 1 action per turn (not 2)
+• Make Resolve check each round (below RT = RT increases by 1)
 • Stabilize action from ally stops spiral
 • Don't kill players in Session 1 unless earned
 

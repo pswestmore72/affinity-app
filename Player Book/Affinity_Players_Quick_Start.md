@@ -169,7 +169,7 @@ CLASS ABILITIES:
 | What | Level 1 Value |
 |------|--------------|
 | Proficiency | 1 |
-| Actions per turn | 2 |
+| Actions per turn | 2 (1 at 0 HD) |
 | Exertion cap (per action) | 1 extra die |
 | Defense rolls (per attack) | 1 |
 | Movement | 10 yards |

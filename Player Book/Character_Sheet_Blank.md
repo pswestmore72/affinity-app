@@ -190,11 +190,8 @@ _______________________________________________
 
 **Success Thresholds:**
 - **Basic:** 2+ successes
-- **Moderate:** 3+ successes  
-- **Advanced:** 4+ successes (same as Moderate in current rules)
 - **Expert:** 4+ successes
-- **Legendary:** 5+ successes (6s only count)
-- **Ultimate:** 6+ successes (6s only count)
+- **Legendary:** 6 only (= 2 successes)
 
 **Dice Rules:**
 - Roll 6 = 2 successes (explosive)
@@ -236,6 +233,7 @@ _______________________________________________
 **Collapse (failed at Threshold 6):** Each round, roll 1d6 vs current Threshold:
 - At or above Threshold = no change (but no rally)
 - Below Threshold = Threshold advances (death at 0 HD + Collapse)
+- At 0 HD: Limited to 1 action per turn
 
 **Death at 0 HD + Collapse:** Character dies (or makes death saves per GM ruling)
 

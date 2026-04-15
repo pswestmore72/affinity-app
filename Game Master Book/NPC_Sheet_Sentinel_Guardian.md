@@ -34,10 +34,10 @@
 - **Required Successes:** 2 for hit
 - **Damage:** 3 HD *(bludgeoning, stone)*
 - **Range:** Melee (5 ft reach)
-- **Notes:** Reliable crushing blow. Extra successes add +1 HD each (max +2 at Proficiency 2)
+- **Notes:** Reliable crushing blow. Extra successes trigger weapon properties.
 
 **Secondary Attack: Crushing Grasp**
-- **Action Tier:** Advanced (3+)
+- **Action Tier:** Basic (2+)
 - **Roll:** 4d6 *(Proficiency 2 + 2d6 enhanced grab)*
 - **Required Successes:** 3 for successful grapple
 - **Damage:** 2 HD initial + grappled condition
@@ -171,7 +171,7 @@ Programmed to protect temple from desecration. Not evil—just absolute in duty.
 **Changes from Base:**
 - HD: 50 (higher durability)
 - Speed: 30 ft (faster, more aggressive)
-- New Attack: **Rune Blade** (4d6, 3 HD damage, Advanced 3+)
+- New Attack: **Rune Blade** (4d6, 3 HD damage, Basic 2+)
 - New Ability: **Tremor Stomp** (Recharge 5-6, 20 ft radius AOE, 2 HD + prone)
 - **Ley-Empowered:** Regenerate 5 HD per turn while within 30 ft of ley-node
 - **Custodial Fury:** +1d6 to attacks if temple has been looted/desecrated

@@ -214,7 +214,7 @@ Affinity is designed to avoid "skill monkey" and "face" character problems. Most
 
 **Example 1: Single Character, Clear Domain**
 
-> **GM:** "The vault door has an intricate lock mechanism. This is a **Craft** challenge. Required: 4 successes, Advanced threshold (3+)."
+> **GM:** "The vault door has an intricate lock mechanism. This is a **Craft** challenge. Required: 4 successes, Basic threshold (2+)."
 > 
 > **Player (Scholar):** "I have Mechanical Expertise—that's Craft, right?"
 > **GM:** "Correct! You get +2d6."
@@ -231,7 +231,7 @@ Affinity is designed to avoid "skill monkey" and "face" character problems. Most
 > **Player 2 (Scholar):** "Can I use **Lore** to impress him with knowledge of his trade goods?"
 > **GM:** "Both work! Who's taking the lead?"
 > **Player 1:** "I'll try first."
-> **GM:** "Roll **Influence**, Advanced threshold (3+), need 3 successes."
+> **GM:** "Roll **Influence**, Basic threshold (2+), need 3 successes."
 
 **Example 3: Forgotten Ability**
 
@@ -364,19 +364,18 @@ Track which abilities players struggle to remember or apply. Reword them for cla
 
 **General Rule (All NPCs):**
 - **Only 1 action may be Expert tier or higher per turn** (same as PCs)
-- Once an NPC uses an Expert/Advanced/Ultimate/Mythical action, remaining actions must be Basic or Advanced tier
+- Once an NPC uses an Expert or Legendary action, remaining actions must be Basic tier
 
 **Tier-Specific Limits (High-Tier NPCs):**
 - **Legendary NPCs:** May use no more than **1 Legendary-tier action per round**
-- **Ultimate NPCs:** May use no more than **1 Ultimate-tier action per round**
 - **Mythical NPCs:** May use no more than **1 Mythical-tier action per round**
 
 **What This Means:**
 
 A Legendary Dragon with 4 actions might use:
 - 1 Legendary Breath Weapon (Legendary tier)
-- 2 Claw Attacks (Basic or Advanced tier)
-- 1 Tail Sweep (Basic or Advanced tier)
+- 2 Claw Attacks (Basic tier)
+- 1 Tail Sweep (Basic tier)
 
 The dragon CANNOT use its Legendary Breath Weapon twice in one round, even though it has 4 actions.
 
@@ -413,7 +412,7 @@ The dragon CANNOT use its Legendary Breath Weapon twice in one round, even thoug
 1. **Check Stat Block:** Find the action you want the NPC to take
 2. **Roll Dice Pool:** Roll the exact dice shown (e.g., "Rolls: 5d6")
 3. **Count Successes:** Meet threshold based on action tier
-4. **Deal Damage/Apply Effect:** Use base damage + bonus (capped at Proficiency)
+4. **Deal Damage/Apply Effect:** Use listed damage from stat block
 5. **Move On:** Don't track exertion or HD burn from 1s
 
 **Example:**
@@ -422,7 +421,7 @@ Orc Raider attacks the Combatant with Greataxe:
 - Rolls: 3d6 (as shown in stat block)
 - Result: 5, 4, 2 = 2 successes (Basic threshold 2+)
 - Required: 1 success
-- Damage: 2 HD base + 1 HD bonus (1 extra success, capped) = 3 HD
+- Damage: 2 HD (as listed in stat block)
 - Combatant defends with armor...
 ```
 
@@ -553,21 +552,21 @@ Verdant Guardian (Prof 3, Armor 2d10s temp HD) takes 4 HD fire damage:
 ### Social Encounters with NPCs
 
 **NPCs in Social Conflicts:**
-- Use the same social attack rules as PCs (target RT)
+- NPCs oppose the party in social Group Challenges (as Complications or by raising difficulty)
 - Roll fixed dice pools (no exertion choices)
 - Track RT advancement normally
 
 **Example:**
 ```
 Noble NPC (Proficiency 3, Starting RT 3)
-- Cutting Insult (Influence attack):
-  - Rolls: 4d6 (fixed pool)
-  - Required: 2 (Advanced threshold)
-  - RT Advance: 1 base + bonus (capped at Prof 3)
+- Cutting Rhetoric (Influence pressure):
+  - Adds 1 Complication to social Group Challenge
+  - If unaddressed: Lead rolls at -1d6
+  - If party fails: RT advances by 1 additional (on top of normal failure penalty)
 ```
 
 **Advancing NPC RT Before Combat:**
-If PCs demoralize guards through Influence:
+If PCs demoralize guards through Influence Group Challenges:
 - Guards start combat with elevated RT
 - May flee earlier or fight less aggressively
 - Creates tactical advantage for clever players
@@ -778,31 +777,28 @@ Burdens work beautifully when costs are **triggered during play**, create **mean
 
 ## Social Encounters
 
-Social encounters use the same dice pool resolution as combat:
-- **Roll:** Proficiency + Exertion (class abilities may grant bonus dice if relevant domain applies)
-- **Damage Flow:** Composure first (social armor), then remaining damage advances RT directly
-- **Participation Limit:** Characters at RT 5+ cannot participate in social encounters — they are already at Major Concession or worse
-- **RT Carry-Over:** RT persists between physical and social encounters — combat pressure affects negotiations and vice versa
+Social encounters are **Group Challenges** — the same system used for travel, investigation, and crafting:
+- **Setup:** GM sets Scope (Minor 3 / Standard 5 / Major 8 successes), Difficulty (Routine / Challenging / Extreme), and Complications
+- **Lead:** One character drives the negotiation (Influence domain abilities add bonus dice)
+- **Support:** Up to 3 allies contribute +1d6 each by addressing Complications or assisting narratively
+- **Outcomes:** Success (RT −1) / Partial (RT +1, compromise) / Failure (RT +2, lose the argument)
+- **RT Carry-Over:** RT persists between combat and social encounters — if combat left you battered, you enter negotiations weakened
+- **At RT 5+:** Cannot Lead a Challenging or Extreme social challenge (same restriction as combat)
 
-**Resolve Recovery:**
-- **Short Rest (Rest):** Lower RT by 1
-- **Long Rest (Recover, protected/safe):** Reset RT to 2
-- This ensures players can recover from social/mental exhaustion
-
-See **Social Duels** in Core Mechanics for complete rules.
+See **Group Challenges** in Core Mechanics for complete rules.
 
 ## Adjusting Difficulty
 
 ### If Players Are Struggling
 - Reduce enemy HD pools by 25%
-- **Adjust Required Success Threshold** (Expert 4+ → Advanced 3+)
+- **Adjust Required Success Threshold** (Expert 4+ → Basic 2+)
 - Introduce helpful NPCs or environmental advantages
 - Allow more short rests
 - Give Affinity Dice more freely
 
 ### If Players Are Dominating
 - Increase enemy HD pools by 50%
-- **Adjust Required Success Threshold** (Advanced 3+ → Expert 4+)
+- **Adjust Required Success Threshold** (Basic 2+ → Expert 4+)
 - Add Lair/Environmental actions
 - Limit rest opportunities
 - Introduce consequences from previous victories
