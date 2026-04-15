@@ -12,6 +12,11 @@
 PAGE 1 - THE CORE PHILOSOPHY
 ────────────────────────────────────────────────────────────────────────
 
+[ILLUSTRATION 1: DICE DEPLETION VISUAL]
+[Location: Top third of page, centered, 60mm wide]
+[Description: Line art showing d6/d8/d10 dice in three stages - Full pool (5 dice clustered), Damaged pool (2-3 dice scattered), Empty (single die cracked/broken). Use bold outlines with minimal cross-hatching. Should feel like a "health bar" made of physical dice.]
+[Purpose: Instantly communicate the core attrition mechanic visually]
+
 RUNNING AFFINITY
 ────────◇────────
 
@@ -48,8 +53,8 @@ FOR LEVEL 1 PARTIES (3-5 Players)
 
 ENEMY ACTION BUDGET
 
-[TABLE]
-┌──────────┬─────────┬──────────┬──────────1───┐
+[TABLE - left gold accent bar, 10% gray background]
+┌──────────┬─────────┬──────────┬─────────────┐
 │ Enemy    │ Actions │ HD Range │ Starting RT │
 │ Tier     │         │          │             │
 ├──────────┼─────────┼──────────┼─────────────┤
@@ -207,27 +212,20 @@ GROUP ROLL METHOD (Default)
 
 SETTING DIFFICULTY
 
-Find your dice pool (Players × Proficiency), pick a tuple from top (easy) to bottom (hard):
+At Level 1 with 3-4 players (Proficiency 1 each), you have a group dice pool of 3-4 dice.
 
-[TABLE - show partial matrix for Level 1]
-┌──────────────┬────────────────────────────────┐
-│ Dice Pool    │ (Threshold, Required Successes)│
-├──────────────┼────────────────────────────────┤
-│ 3 dice       │ (2+, 2) EASY                   │
-│              │ (3+, 2)                        │
-│              │ (4+, 2)                        │
-│              │ (5+, 2) HARD                   │
-├──────────────┼────────────────────────────────┤
-│ 4 dice       │ (3+, 2) EASY                   │
-│              │ (4+, 2)                        │
-│              │ (5+, 2)                        │
-│              │ (6, 2) HARD                    │
-├──────────────┼────────────────────────────────┤
-│ 5 dice       │ (4+, 2) EASY                   │
-│              │ (3+, 3)                        │
-│              │ (5+, 3)                        │
-│              │ (6, 2) HARD                    │
-└──────────────┴────────────────────────────────┘
+QUICK DIFFICULTY GUIDELINES:
+• EASY: Low pip count (2-3+), few successes needed (2)
+• MODERATE: Mid pip count (3-4+), standard successes (2-3)
+• HARD: High pip count (4-5+), or more successes (3+)
+• VERY HARD: Need 6s, or 4+ successes
+
+EXAMPLE CHALLENGES (for 3-4 player party):
+
+Easy Wilderness Check: 2+, need 2 successes
+Moderate Awareness: 3+, need 2 successes  
+Hard Climb: 4+, need 2 successes
+Very Hard Lore: 5+, need 3 successes
 
 Pip flavor: 2+ = anyone can help, 5+ = expertise required, 6 = only perfection counts
 
@@ -235,7 +233,7 @@ At Level 1, expect players to exert for harder challenges.
 
 THE EIGHT DOMAINS
 
-[TABLE]
+[TABLE - left gold accent bar, alternating 5% gray rows]
 ┌─────────────┬──────────────────────────────────┐
 │ Domain      │ Covers                           │
 ├─────────────┼──────────────────────────────────┤
@@ -259,6 +257,11 @@ WHEN TO USE INDIVIDUAL ROLLS
 ────────────────────────────────────────────────────────────────────────
 PAGE 5 - THE WINTERMARCH VIGIL (SESSION 1)
 ────────────────────────────────────────────────────────────────────────
+
+[ILLUSTRATION 2: COLDMARCH GATE & PALE FOREST]
+[Location: Page header, landscape orientation, 80mm wide × 35mm tall]
+[Description: Line art silhouette of wooden frontier gate/palisade on left, with frost-covered bare trees of the Pale Forest stretching to the right. Gate shows torch-and-spear Winterwatch symbol. Distant blue light glowing between trees. Heavy inking on foreground, lighter cross-hatch for distant forest. Creates ominous threshold atmosphere.]
+[Purpose: Sets scene, establishes visual tone for the adventure]
 
 THE WINTERMARCH VIGIL
 ────────◇────────
@@ -402,6 +405,11 @@ BURNING BODIES: Takes 10 minutes and requires fire (alchemical vials or magic). 
 ────────────────────────────────────────────────────────────────────────
 PAGE 8 - THE BURIAL CAIRN
 ────────────────────────────────────────────────────────────────────────
+[ILLUSTRATION 3: THE FROST CAIRN]
+[Location: Right side of page, portrait orientation, 50mm wide × 70mm tall]
+[Description: Vertical composition showing stacked stone cairn from low angle. Blue crystal at peak emitting radiating light lines. Circle of frozen corpses arranged around base (show 4-5 figures in foreground, simplified with frost covering details). Heavy shadows under cairn, light emanating from top. Cross-hatching for ice/frost texture on stones. Should feel imposing and unnatural.]
+[Purpose: Key encounter visual anchor, helps GM describe the scene]
+
 
 SCENE 4: THE BURIAL CAIRN
 
@@ -690,6 +698,11 @@ SPECIAL ABILITIES:
 • Vulnerability: Fire damage deals +1d6
 
 TACTICS: Guards important locations, targets strongest-looking PC, uses Frost Breath when multiple targets clustered
+[ILLUSTRATION 4: THANE COLDBROOK PORTRAIT]
+[Location: Top of stat block, centered, 60mm wide × 50mm tall]
+[Description: Waist-up portrait of robed figure with frost-covered beard and hood. Hands raised with blue magical energy swirling between palms. Eyes glowing pale blue. Face gaunt and weathered. Robes have geometric frost patterns along edges. Medium detail with strategic cross-hatching for depth. Should look obsessed but intelligent, not monstrous.]
+[Purpose: Gives GM and players visual anchor for main villain, makes final encounter memorable]
+
 
 ────────────────────────────────────────────────────────────────────────
 PAGE 14 - BOSS STAT BLOCKS
@@ -778,16 +791,16 @@ GM QUICK REFERENCE
 
 ACTION ROLL SUCCESS THRESHOLDS
 
-[TABLE]
-┌──────────┬─────────────────────────────────┐
-│ Tier     │ Success Counting                │
-├──────────┼─────────────────────────────────┤
-│ Basic    │ 2,3,4,5 = 1 success; 6 = 2     │
-│ Advanced │ 3,4,5 = 1 success; 6 = 2       │
-│ Expert   │ 4,5 = 1 success; 6 = 2         │
-│ Legendary│ 5 = 1 success; 6 = 2           │
-│ Ultimate │ 6 = 2 successes only           │
-└──────────┴─────────────────────────────────┘
+[TABLE - double-line cosmology style, light purple wash]
+╔══════════╦═════════════════════════════════╗
+║ Tier     ║ Success Counting                ║
+╠══════════╬═════════════════════════════════╣
+║ Basic    ║ 2,3,4,5 = 1 success; 6 = 2     ║
+║ Advanced ║ 3,4,5 = 1 success; 6 = 2       ║
+║ Expert   ║ 4,5 = 1 success; 6 = 2         ║
+║ Legendary║ 5 = 1 success; 6 = 2           ║
+║ Ultimate ║ 6 = 2 successes only           ║
+╚══════════╩═════════════════════════════════╝
 
 EXERTION RISK: 1 rolled on exertion die = Lose 1 HD
 
@@ -795,7 +808,7 @@ INITIATIVE: Roll 3d6, SUM the total (range 3-18)
 
 DEFENSE SUCCESS RATE
 
-[TABLE]
+[TABLE - minimal clean style, left gold accent]
 ┌──────┬──────────────┐
 │ Die  │ Chance of 5+ │
 ├──────┼──────────────┤
