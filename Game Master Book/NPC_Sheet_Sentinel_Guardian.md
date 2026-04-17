@@ -19,8 +19,8 @@
 **Hit Dice:** 20 / 20 HD  
 **Hit Die Type:** d10 (Construct, durable)
 
-**Armor Threshold:** Heavy (Moderate 3+ to hit)  
-**Speed:** 20 ft per round *(Slow but unstoppable)*
+**Armor:** 2d10s (stone body)  
+**Speed:** 5 yards per turn *(Slow but unstoppable)*
 
 **Starting RT:** N/A *(Constructs are immune to Resolve effects — cannot be intimidated or demoralized)*
 
@@ -42,7 +42,7 @@
 - **Required Successes:** 3 for successful grapple
 - **Damage:** 2 HD initial + grappled condition
 - **Range:** Melee (5 ft reach)
-- **Notes:** On hit, target is grappled. Escape = Moderate (3+) Athletics check. While grappled, target takes 1 HD automatic crushing damage at start of Guardian's turn.
+- **Notes:** On hit, target is grappled. Escape = Basic (2+) Athletics check, need 2 successes. While grappled, target takes 1 HD automatic crushing damage at start of Guardian's turn.
 
 ---
 

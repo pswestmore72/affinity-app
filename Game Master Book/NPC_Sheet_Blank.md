@@ -17,8 +17,8 @@
 **Hit Dice:** _______ HD *(Current / Maximum)*  
 **Hit Die Type:** d_____
 
-**Armor Threshold:** _____________ *(Basic 2+ / Moderate 3+ / Heavy 4+)*  
-**Speed:** _______ ft per round
+**Armor:** _____________ *(Light 2d6s / Medium 2d8s / Heavy 2d10s / Shield +1d12 / None)*  
+**Speed:** _______ yards per turn
 
 **Starting RT:** _______ *(If applicable — most NPCs don't track RT)*
 

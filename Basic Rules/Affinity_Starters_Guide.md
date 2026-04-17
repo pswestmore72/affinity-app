@@ -194,7 +194,7 @@ These exist in the full rules, but ignore them for Session 1:
 - ❌ Expert/Legendary actions (require higher Proficiency)
 - ❌ Complex Resolve death spiral (just know: 0 HD + Collapse = death)
 - ❌ Multi-target action scaling (just roll and see what happens)
-- ❌ Affinity Dice (learn after you've played a session)
+- ❌ Ways and Paths (character customization — learn after Session 1)
 
 ---
 

@@ -19,8 +19,8 @@
 **Hit Dice:** 30 / 30 HD *(Current / Maximum)*  
 **Hit Die Type:** d10 (Combatant class)
 
-**Armor Threshold:** Moderate (3+ to hit) — Wears chainmail + shield  
-**Speed:** 30 ft per round
+**Armor:** 2d8s (chainmail) + 1d12 (shield)  
+**Speed:** 10 yards per turn
 
 **Starting RT:** 4  
 *(Can be targeted by social Group Challenges and redemption attempts)*
@@ -64,7 +64,7 @@
 
 **Ability 2: Guilt-Ridden Hesitation**
 - **Trigger/Activation:** Passive / When near death or causing death
-- **Effect:** If Marcus reduces an enemy to 0 HD, he MUST make a Resolve check (Moderate 3+) or hesitate next turn (disadvantage on all actions). If reduced below 10 HD himself, same hesitation check.
+- **Effect:** If Marcus reduces an enemy to 0 HD, he MUST make a Resolve check or hesitate next turn (-1d6 on all actions). If reduced below 10 HD himself, same hesitation check.
 - **Frequency:** Every triggering moment
 - **Notes:** **KEY WEAKNESS** — Marcus hates what he's become. This is his exploitable flaw.
 
@@ -124,19 +124,19 @@
 Marcus can be REDEEMED through social Group Challenges:
 
 **Redemption Approach: Invoke Daughter**
-- Moderate (3+) Influence check
+- Basic (2+) Influence check, need 2 successes
 - *"Elara is safe. We found her. Vex was lying—she's with Priestess Kara right now."*
 - **Success:** Marcus stops fighting immediately. Breaks down. Surrenders.
 - **Failure:** Marcus doesn't believe you. "You're trying to trick me!" Attacks harder (+1d6).
 
 **Redemption Approach: Show Vex's Crimes**
-- Advanced (4+) Investigation check (must have gathered evidence first)
+- Expert (4+) Investigation check, need 2 successes (must have gathered evidence first)
 - Present proof Vex has been manipulating him, show other victims
 - **Success:** Marcus realizes he's been played. Turns on Vex. Possible ally.
 - **Failure:** Marcus rationalizes. "But Elara... I had no choice..."
 
 **Redemption Approach: Appeal to Honor**
-- Expert (4+) Influence check
+- Expert (4+) Influence check, need 3 successes
 - *"You were a hero once. Silverbrook loved you. You can be that man again."*
 - **Success:** Marcus remembers who he was. Surrenders peacefully. "Arrest me. I'm done."
 - **Failure:** Marcus recoils. "That man is dead. I killed him."

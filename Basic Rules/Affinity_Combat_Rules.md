@@ -129,12 +129,113 @@ Alternative: If mage never casts:
 
 ---
 
-### Movement
+### Movement & Positioning
 
-- **Base Movement:** 10 yards per turn (doesn't cost an action)
+**Base Movement:** 10 yards per turn (doesn't cost an action). Movement can be split freely — move 5 yards, take an action, move 5 more.
+
 - **Additional Movement:** Some classes, abilities, or actions grant extra movement
-- **Difficult Terrain:** Costs double movement
-- **Moving Through Enemies:** Requires Agility check or special ability
+- **Difficult Terrain:** Costs double movement (ice, rubble, thick vegetation)
+- **Moving Through Enemies:** Requires Agility check (Basic, 2+) or special ability
+- **Prone:** Standing up costs half your movement. Being prone while engaged is dangerous.
+
+---
+
+### Engagement
+
+You are **engaged** with any enemy within melee range (~5 yards). Engagement is the core of Affinity's positioning system — once you're in, leaving costs you.
+
+**Breaking Engagement:** Moving out of melee range of an engaged enemy triggers a **free strike** — one Basic attack using their stat block dice pool. This:
+- Costs the enemy nothing (no action spent, no resource)
+- Happens automatically, every time
+- Uses only their Basic attack (no special abilities, no enhancement)
+- Can trigger from multiple enemies if you break from several at once
+
+**Avoiding Free Strikes:**
+- **Withdraw** (1 action): Carefully disengage. Move up to your base speed without triggering free strikes from any enemy.
+- **Certain class abilities** specify when they bypass engagement (e.g., teleportation, spectral movement)
+
+**Why This Matters:**
+Entering melee is a tactical commitment. Leaving safely costs an action. This means:
+- Melee fighters **lock down** enemies by threatening free strikes
+- Ranged characters stay back **for good reason**
+- Zone abilities (Hold the Line, Killing Ground) stack with natural engagement pressure
+- The decision to close to melee echoes through every subsequent round
+
+---
+
+### Positioning Advantages
+
+Static combat is dead combat. These universal bonuses reward players and NPCs who think about the battlefield:
+
+**Flanking:** When you and an ally threaten the same enemy from opposite sides (~180°), both of you gain **+1d6 to attack rolls** against that enemy.
+- Requires two characters in melee range on roughly opposite sides
+- Encourages coordinated movement and split positioning
+
+**Height Advantage:** Attacking from elevated ground (rooftops, ledges, tree branches, clifftops) grants **+1d6 to ranged attacks**.
+- Already used by Ranger's Hunter's Strike for bonus damage
+- Universal: any character gains the ranged attack bonus
+- Combine with cover for devastating ambush positions
+
+**Cover:**
+- **Light cover** (bushes, furniture, thin walls): **+1d6 to defense rolls**
+- **Hard cover** (stone walls, fortifications, boulders): **+2d6 to defense rolls**
+- Cover applies against attacks from the direction the cover blocks
+- Moving from cover to cover is a valid tactical strategy
+
+**Rear Attack:** Attacking a target from behind (unaware or unable to turn) grants **+1d6 to attack rolls**.
+- Requires: Target cannot see attacker OR is fully engaged by another enemy from the front
+- Combine with flanking for devastating coordinated assaults
+
+---
+
+### Movement Actions
+
+These universal actions expand what a turn looks like beyond stand-and-swing. They trade one resource for another — an action for speed, movement for focus, position for power.
+
+**Charge** (1 action + your movement for the turn)
+- Move at least 5 yards in a straight line toward a target, then make one Basic weapon attack at **+1d6**
+- You cannot use remaining movement after a Charge
+- Risk: You've committed your position. If the target survives, you're engaged with no movement left.
+
+**Withdraw** (1 action)
+- Move up to your base speed without triggering free strikes from any enemy
+- You sacrifice offense for safe repositioning
+- Essential for fragile characters caught in melee
+
+**Sprint** (1 action)
+- Double your movement this turn (10 → 20 yards)
+- Cannot attack on the same turn
+- Use for: reaching objectives, fleeing combat, closing distance safely outside engagement range
+
+**Brace** (sacrifice all movement for the turn)
+- Give up ALL movement this turn — you plant your feet, steady your aim, or channel your focus
+- Gain **+1d6 to your next action** this turn
+- Cannot be combined with Charge or Sprint
+- This is the tactical reward for holding ground: a Ranger's steady shot, a Combatant's planted stance, a Weaver's channeled spell. Standing still is a *choice*, not a default.
+
+---
+
+### Movement Denial
+
+Controlling enemy movement is as powerful as dealing damage:
+
+- **Engagement zones** naturally discourage movement (free strike threat)
+- **Difficult terrain** halves movement (ice, rubble, thick vegetation, magical zones)
+- **Prone:** Standing up costs half your movement; being prone + engaged is very bad
+- **Zone abilities** (Hold the Line, Killing Ground) create areas enemies can't cross freely
+- **Grapple:** A grappled creature cannot move until it escapes (Basic Athletics check, need 2 successes)
+
+---
+
+### Movement Design Philosophy
+
+Affinity combat should feel like a **chess match with dice**, not a slugfest. Every turn presents choices:
+- *Do I move for flanking, or Brace for a more powerful attack?*
+- *Do I Charge in to help my ally, or hold position behind cover?*
+- *Do I eat the free strike to reach the crystal, or spend an action to Withdraw safely?*
+- *The Weaver is exposed — do I Sprint to cover, or trust my armor for one more round?*
+
+**Movement is free. Positioning is power. Standing still is a choice, not inertia.**
 
 ---
 

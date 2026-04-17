@@ -127,8 +127,8 @@ COMBAT TURN STRUCTURE
 
 WHEN NPCS ATTACK
 1. Roll the dice shown in their stat block
-2. Count successes using the listed action tier (Basic 2+, Expert 4+, Legendary 6; 6 always counts as 2)
-3. If they hit, player defends
+2. Count successes at the listed tier (Basic 2+, Expert 4+, or Legendary 6; a 6 always = 2 successes)
+3. If successes ≥ required, the attack hits — player defends
 
 WHEN NPCS DEFEND
 1. Player declares damage
@@ -137,6 +137,45 @@ WHEN NPCS DEFEND
 4. NPC loses dice from their pool
 
 NPC Simplification: NPCs don't burn HD on 1s. Just roll and move on.
+
+FRIENDLY NPCS: Allied NPCs (reinforcements, companions) use the
+same rules — fixed dice pools, no exertion, no HD burn on 1s.
+Keep them simple so the players stay in the spotlight.
+
+SWARM TIP: When running 4+ identical enemies, group them on one initiative count. Roll their attacks together and split damage across targets. This keeps swarm encounters fast.
+
+────────◇────────
+MOVEMENT & POSITIONING
+────────◇────────
+
+Movement: 10 yards per turn (free, split however you like)
+
+ENGAGEMENT: If you're in melee range (~5 yards) of an enemy and
+move away, that enemy makes a free strike against you — one Basic
+attack from their stat block. Costs them nothing. Happens every time.
+
+To leave safely:
+• Withdraw (costs 1 action): Move your speed, no free strikes
+• Or just take the hit and run
+
+POSITIONING BONUSES:
+• Flanking (you + ally on opposite sides): +1d6 to attacks
+• Height advantage (elevated ground): +1d6 to ranged attacks
+• Light cover (bushes, furniture): +1d6 to defense
+• Hard cover (walls, fortifications): +2d6 to defense
+• Rear attack (target can't see you): +1d6 to attacks
+• Brace (give up all movement): +1d6 to your next action
+
+MOVEMENT ACTIONS:
+• Charge (1 action + movement): Move 5+ yards straight, attack at +1d6
+• Sprint (1 action): Double movement, can't attack
+• Withdraw (1 action): Move safely out of engagement
+
+WHY THIS MATTERS:
+A flanking Ranger deals more than a static one. A Weaver behind
+hard cover survives longer. A Combatant who Charges hits harder.
+A Ranger who Braces lines up the perfect shot. Reward players who
+think about the battlefield — and make NPCs do the same.
 
 ────────◇────────
 DAMAGE AND DEATH
@@ -424,7 +463,7 @@ ATMOSPHERE:
 • Faint chanting audible (no words, just tones)
 
 PERCEPTION CHECK (Group Roll, Awareness)
-• Difficulty: (3+, 2)
+• Difficulty: Basic (2+), need 2 successes
 • Success: The cairn's top stone has been REPLACED—dark blue crystal, carved with symbols
 
 LORE CHECK (Individual, Lore domain)
@@ -652,7 +691,7 @@ TACTICS: Fight with eerie coordination, try to surround targets, never flee
 
 FROSTBITTEN THRALL (Trivial Undead, Minion)
 ────────────────────────────────
-HD: 4d8s (weak)
+HD: 2d8s
 Proficiency: 1
 Resolve: — (undead)
 Speed: 20 feet (slow, shambling)
@@ -792,10 +831,12 @@ ACTION ROLL SUCCESS THRESHOLDS
 ╔══════════╦═════════════════════════════════╗
 ║ Tier     ║ Success Counting                ║
 ╠══════════╬═════════════════════════════════╣
-║ Basic    ║ 2,3,4,5 = 1 success; 6 = 2     ║
-║ Expert   ║ 4,5 = 1 success; 6 = 2         ║
-║ Legendary║ 6 = 2 successes only           ║
+║ Basic 2+ ║ 2,3,4,5 = 1 success; 6 = 2     ║
+║ Expert 4+║ 4,5 = 1 success; 6 = 2         ║
+║ Legend. 6║ 6 = 2 successes only            ║
 ╚══════════╩═════════════════════════════════╝
+
+Three tiers. That's it. Difficulty = tier + required successes.
 
 EXERTION RISK: 1 rolled on exertion die = Lose 1 HD
 
@@ -823,6 +864,14 @@ Actions: 2 per turn (1 at 0 HD)
 Movement: 10 yards
 Exertion cap: 1 per action
 
+MOVEMENT QUICK REF
+Engagement: Leaving melee = enemy free strike
+Withdraw (1 action): Leave safely
+Brace (no movement): +1d6 next action
+Charge (1 action + move): +1d6 attack
+Flanking: +1d6 attacks (ally opposite)
+Cover: +1d6 defense (light) / +2d6 (hard)
+
 RESOLVE CHECK TRIGGERS (Level 1)
 
 • Damage destroys a Body HD (1st time/round)
@@ -839,7 +888,7 @@ Fight too easy?
 • NPC uses desperate move
 
 Fight too hard?
-• Enemies flee at half HP
+• Trivial/Basic foes flee at half HD
 • Reinforcements arrive (for players)
 • Environmental effect ends fight early
 

@@ -29,8 +29,8 @@ Now Serel walks the boundary between Mortal Weave and Gloam, learning the Shephe
 **Hit Dice:** 22 / 22 HD  
 **Hit Die Type:** d8 (between-states, neither living nor fully dead)
 
-**Armor Threshold:** Moderate (3+ to hit) — Spectral vestments  
-**Speed:** 30 ft per round (can step through solid objects in dim light)
+**Armor:** 2d6s (spectral vestments)  
+**Speed:** 10 yards per turn (can step through solid objects in dim light)
 
 **Starting RT:** 3  
 *(Low—she's held herself together through sheer will for three years)*
@@ -154,7 +154,7 @@ Now Serel walks the boundary between Mortal Weave and Gloam, learning the Shephe
 Serel can be approached through multiple frames:
 
 **Approach: Offer Hope**
-- Moderate (3+) Influence check
+- Basic (2+) Influence check, need 2 successes
 - *"We can help you find Mira. We're heading toward the coast anyway."*
 - **Success:** Serel becomes tentative ally. Will guide party through Gloam dangers.
 - **Failure:** Serel suspects manipulation. "Everyone promises. No one delivers."

@@ -275,7 +275,7 @@ THE OTHER CLASSES (Coming in Full Release)
 • Priest (d8) — Channel divine will. Heal the broken, smite the profane.
 • Scholar (d6) — Knowledge is the deadliest weapon. Outwit what others must outfight.
 • Shaman (d8) — Walk between worlds. Command spirits and primal forces.
-• Sovereign (d8) — Lead from the front. Your presence turns rabble into armies.
+• Sovereign (d10) — The closed system. Resource master who outlasts everyone through perfect efficiency.
 
 AT LEVEL 1, YOU HAVE:
 
@@ -310,28 +310,37 @@ Weapon Strike (Basic, 2+)
 • Required: 1 success
 • Damage: Weapon base (extra successes trigger weapon properties)
 
-Rally Cry (Basic, 2+)
+Rally (Basic, 2+)
 • Required: 1 success
 • 30 yards, choose one ally
-• Target gains +1d6 on their next action (doesn't burn HD on 1s)
+• Chosen ally gains +1d6 to their next action (doesn't burn HD)
 • Usable Proficiency times per short rest
 
 Hold the Line (Basic, 2+)
 • Required: 2 successes
 • Duration: Proficiency rounds
-• 10-yard zone around you: enemies cannot move through without contesting you
-• Allies in zone gain +1d6 to their first defense each round
-
-Oath-Driven Strike (Basic, 2+)
-• Required: 2 successes
-• Weapon Strike + contest (your Prof dice vs their Prof dice)
-• If you win: push 5 yards OR knock prone
+• 10-yard zone around you: enemies have movement halved
+• Allies in zone gain +1d6 to first defense each round (doesn't burn HD)
 • Usable Proficiency times per short rest
 
-ARMOR & WEAPONS
-• Light armor (2d6s)
+Oath-Driven Strike (Basic, 2+)
+• Required: 2 successes (damage + Proficiency HD)
+• 3+: push 5 yards or knock prone
+• If target opposes your sworn purpose (GM judges): +1d6 to the roll
+• Usable Proficiency times per short rest
+
+Battlefield Awareness (Passive)
+• +1d6 (doesn't burn HD) on: reading terrain, positioning, anticipating enemy movement
+• Does NOT apply to attack or defense rolls
+
+Warrior's Presence (Passive — Social Mastery)
+• +1 automatic success when intimidating/demanding in social Group Challenges
+• Reduce RT advancement from failed social challenges by 1 (min 0)
+
+STARTING EQUIPMENT
 • Medium armor (2d8s)
-• All weapons
+• Shield (1d12)
+• Weapon of choice
 
 WAY OF THE BLADE (Level 2)
 
@@ -377,31 +386,39 @@ Hunter's Strike (Basic, 2+)
 Mark Prey (Basic, 2+)
 • 60 yards, one creature
 • Required: 1 success
-• You gain +1d6 to all actions targeting marked creature
-• You know direction and distance to marked creature
+• +1d6 to track, attack, or act against marked creature (doesn't burn HD)
+• Sense direction and distance within 1 mile
+• Sense approximate HD (full/half/quarter/low)
 • Lasts until target drops to 0 HD or you mark another
-• Usable at will
+• Usable at will (one mark at a time)
 
 Killing Ground (Basic, 2+)
 • Required: 2 successes
-• 30-yard radius zone, Proficiency × 2 rounds
-• Choose one effect:
-  - Hazard: 1 HD damage per round to enemies
-  - Concealment: Light cover for allies
+• 30-yard radius zone, Proficiency rounds
+• Choose ONE effect:
   - Mire: Difficult terrain for enemies
+  - Cover: +1d6 defense for allies
+  - Hazard: 1 HD damage to enemies starting/entering
+  - Concealment: Allies count as in light cover
 • Usable Proficiency times per short rest
 
 Culling Strike (Basic, 2+)
-• Against Marked Prey only
+• Against target at half HD or less, or RT 5+
 • Required: 2 successes
-• Weapon Strike at +Prof damage
-• Target must be at half HD or less
+• Weapon damage + Proficiency HD
 • Usable Proficiency times per short rest
 
-ARMOR & WEAPONS
-• Light armor (2d6s)
+Nature's Treaty (Passive)
+• Auto-succeed Basic Wilderness checks
+• Leading group travel: all party members +1d6 to Wilderness rolls (doesn't burn HD)
+
+Hunter's Read (Passive — Social Mastery)
+• +1d6 on social Group Challenges when reading people or detecting deception
+• Can Support a social challenge through presence alone — no words needed
+
+STARTING EQUIPMENT
 • Medium armor (2d8s)
-• All weapons, favors ranged/versatile
+• Weapon of choice (favors ranged/versatile)
 
 WAY OF THORN (Level 2)
 
@@ -441,30 +458,35 @@ STARTING ABILITIES (Level 1)
 
 Spell Strike (Basic-Expert, varies)
 • Spellcasting uses spell tier thresholds
-• Known Spells: Proficiency × 3 (3 at Level 1)
-• Prepared Spells: Proficiency + 1 (2 at Level 1)
-• Ritual Casting: Any Arcane spell, even if not known
+• Known Spells: Proficiency × 5 (5 at Level 1, any domain)
+• Prepared Spells: 3 + Level (4 at Level 1)
+• Ritual Casting: Any spell from any domain, even if not known
 
 Weave Sight (Basic, 2+)
 • Required: 1 success
-• Duration: Proficiency × 10 minutes
-• See magical auras, concentrations, effects within 60 yards
-• Identify spell types (Basic = domain, Advanced = specific spell)
+• 10 yards per success, Proficiency rounds
+• See magical auras, active spells, magic items, Weave disturbances
 • Usable at will
 
-Spell Shaping (Passive)
-• When casting area spells, exclude up to Proficiency creatures from effect
-• Represents precision control
+Thread Literacy (Passive)
+• Basic tier spells require 1 less exertion die (minimum 0)
+• Can cast Basic spells using only Proficiency dice
+
+Pattern Sight (Passive — Social Mastery)
+• +1d6 on social Group Challenges involving reading people or detecting deception
+• After a social challenge, learn if opponent is under magical influence or oath-bound
+• +2d6 when discussing magic, planar matters, or the Weave (doesn't burn HD)
 
 Arcane Recovery (Passive)
-• Once per long rest, during short rest: regain Prof HD
-• Meditation channels ambient magic to restore vitality
+• During short rest, swap Proficiency prepared spells
+• Flexibility to adapt your loadout between encounters
 
-ARMOR & WEAPONS
-• Light armor (2d6s) — doesn't start with any, but can wear if acquired
-• All weapons (rarely used)
+STARTING EQUIPMENT
+• No armor (can wear any if acquired)
+• Quarterstaff or dagger
+• Component pouch, arcane focus
 
-STARTING SPELLS (Choose 3 from Arcane list below)
+STARTING SPELLS (Choose 5 from any domain — your Known list)
 • Curator's Bolt (Basic, 2+) — 30 yards, 1 HD force damage
 • Read the Weave (Basic, 2+) — 10 yards, see magical auras
 • Arcane Ward (Basic, 2+) — 30 yards, +1d6 to next defense roll
@@ -519,9 +541,9 @@ ARMOR
 ┌──────────────┬──────────────┬─────────────────────────┐
 │ Type         │ Defense Dice │ Who Uses It             │
 ├──────────────┼──────────────┼─────────────────────────┤
-│ Light        │ 2d6s         │ Everyone can wear       │
-│ Medium       │ 2d8s         │ Combatant, Ranger       │
-│ Shield       │ +1d12        │ Anyone proficient       │
+│ Light        │ 2d6s         │ Anyone                  │
+│ Medium       │ 2d8s         │ Anyone                  │
+│ Shield       │ +1d12        │ Anyone                  │
 └──────────────┴──────────────┴─────────────────────────┘
 
 ────────◇────────
@@ -543,7 +565,7 @@ Roll 1d6 per Proficiency + exertion dice, count successes:
 • 2, 3, 4, 5: 1 success each
 • 6: 2 successes
 
-Advanced Tier (3+): Only 3, 4, 5 = 1 success; 6 = 2
+Expert Tier (4+): Only 4, 5 = 1 success; 6 = 2
 
 DEFENSE ROLLS (Armor/Body Dice)
 

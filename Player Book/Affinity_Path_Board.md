@@ -959,9 +959,9 @@ You have a deep connection to nature and beasts.
 Your connection to your Defining Virtue runs deeper than most.
 
 **Benefit:**
-- Maximum Affinity Dice stored increases by +2 (new max: Level + 2)
-- When you embody your Virtue dramatically (GM judges), gain 2 Affinity Dice instead of 1
-- Once per day: **Virtue Flare** (free action)—spend all stored Affinity Dice to create a narrative effect aligned with your Virtue (GM collaboration). Not a direct power boost, but a story moment.
+- Your Defining Virtue is mechanically real. When you act in direct accordance with your Virtue (GM judges), your next Exertion die this scene doesn't burn HD on a 1. Your conviction shields you from risk.
+- Once per long rest: **Virtue Flare** (free action) — declare a moment of absolute conviction. Gain +2d6 on your next roll AND lower your RT by 1 (minimum 2). Describe how your Virtue manifests.
+- *Your Virtue isn't just a character trait — it's the cosmic principle you embody.*
 
 **Proficiency 3+ Milestone:** When you use Virtue Flare, you and each ally within 10 yards restore 1 HD. Your conviction mends those who witness it. The effect is visible — a pulse of light, a tremor of resolve, a warmth that defies the cold.
 
@@ -972,9 +972,7 @@ Your connection to your Defining Virtue runs deeper than most.
 #### Affinity Surge
 **Prerequisite:** `Virtue-Bound`
 
-**Benefit:** When you spend 2+ Affinity Dice on a single roll, gain an additional +1d6 (safe, doesn't burn HD on 1s). Your cosmic resonance amplifies when you commit fully — the Virtue-energy cascades.
-
-**Design Note:** Rewards committing multiple Affinity Dice at once rather than spending them one at a time. Creates moments of dramatic all-in cosmic power.
+**Benefit:** When you use Virtue Flare, all allies within 10 yards also gain +1d6 on their next roll (doesn't burn HD on 1s). Your conviction ripples outward — the Virtue resonates through those who witness it.
 
 **Connects to:** `Virtue-Bound` • `Cosmic Reservoir` → `Spell-Touched`
 
@@ -1001,7 +999,7 @@ Your connection to your Defining Virtue runs deeper than most.
 #### Resonant Strike
 **Prerequisite:** `Virtue-Bound`
 
-**Benefit:** Once per encounter, you may channel your Virtue into an action (attack, spell, skill check). Spend 1 Affinity Die to gain +2d6 on the roll (doesn't burn HD on 1s) and describe how your Virtue manifests.
+**Benefit:** Once per encounter, channel your Virtue into an action (attack, spell, skill check). Gain +2d6 on the roll (doesn't burn HD on 1s) and describe how your Virtue manifests. No separate currency — your conviction IS the resource.
 
 **Connects to:** `Virtue-Bound` • `Cosmic Conduit` → `Spell-Touched`
 
@@ -1010,7 +1008,7 @@ Your connection to your Defining Virtue runs deeper than most.
 #### Cosmic Reservoir
 **Prerequisite:** `Affinity Surge`
 
-**Benefit:** Your maximum Affinity Dice increases by another +2 (new total: Level + 4). You resonate strongly with cosmic forces.
+**Benefit:** Virtue Flare is now usable once per short rest (up from once per long rest). Your resonance with cosmic forces deepens — your Virtue sustains you more frequently.
 
 **Connects to:** `Affinity Surge` → `Spell-Touched` • `Deep Reserves`
 
@@ -1037,9 +1035,7 @@ Your connection to your Defining Virtue runs deeper than most.
 #### Cosmic Conduit
 **Prerequisite:** `Resonant Strike`
 
-**Benefit:** When you use Resonant Strike, the Virtue-energy ripples outward — one ally within 10 yards also gains +1d6 on their next action (doesn't burn HD on 1s). Your Virtue echoes through those who witness it. Additionally, Resonant Strike can now be used Proficiency times per long rest.
-
-**Design Note:** Adds an echo/ripple effect on top of the frequency increase, making the investment feel qualitatively different rather than just "more of the same."
+**Benefit:** Resonant Strike can now be used Proficiency times per long rest. When you use it, one ally within 10 yards also gains +1d6 on their next action (doesn't burn HD on 1s). Your Virtue echoes through those who witness it.
 
 **Connects to:** `Resonant Strike` → `Spell-Touched` • `Channeled Power`
 
@@ -1235,16 +1231,17 @@ Once per long rest.
 ### PRIMARY: Pact-Bound (Level 1)
 *Prerequisite: You must have made a deal with a dark power*
 
-You carry a fragment of your patron's influence.
+You carry a fragment of your patron's influence. Their power flows through you — but it's not free.
 
 **Benefit:**
 - Choose your **Patron** (Azravael, Gephorix, Velkir, the Nameless, or another dark power)
-- Gain one **Pact Boon** based on patron:
-  - **Azravael** (Obligation): Once per long rest, rewrite one failure into a success (any roll). You now owe cosmic debt — the GM tracks each use on a visible **Debt Ledger**. Each uncollected debt makes the next consequence more severe. The ledger always balances.
-  - **Gephorix** (Suffering): When you or allies within 10 yards take damage, gain 1 **Pain Token**. Spend tokens: 3 tokens = +2d6 to any roll. Max 6 tokens.
-  - **Velkir** (Secrets): Once per session, ask the GM a question about hidden information. You receive a truthful answer stripped of context.
-  - **Nameless** (Void): Once per long rest, your attacks ignore all armor and temporary HD for one turn. You channel unreality.
-- **Warning:** Acting against your patron's interests invites consequences.
+- **Patron's Gift:** Once per short rest, invoke your patron's power — add +2d6 to any roll (doesn't burn HD on 1s). Describe the manifestation.
+- **Patron's Price:** After each invocation, the GM holds your patron's debt. Before your next short rest, the GM declares the collection. The price reflects your patron's nature:
+  - **Azravael** (Obligation): Narrative complication — a debt comes due, an ally is endangered, or your patron demands a task
+  - **Gephorix** (Suffering): Advance your RT by 1. Pain fuels the bargain.
+  - **Velkir** (Secrets): You must truthfully reveal a secret — yours, an ally's, or one you discover — before the debt clears
+  - **Nameless** (Void): Lose Prof HD. Unreality consumes flesh.
+- **Warning:** Refusing the price invites worse consequences.
 
 **Proficiency 3+ Milestone:** Your patron's influence grants a permanent minor manifestation. Choose one: darkvision 30 yards, resistance to your patron's associated element (reduce incoming damage of that type by 1 HD), or the ability to sense creatures aligned with your patron within 30 yards. Your body becomes a vessel.
 
@@ -1255,7 +1252,7 @@ You carry a fragment of your patron's influence.
 #### Patron's Whisper
 **Prerequisite:** `Pact-Bound`
 
-**Benefit:** Your patron occasionally offers advice (GM's discretion for timing). Once per session, you may invoke your patron for guidance on a specific problem. The answer helps but may carry hidden cost.
+**Benefit:** Between invocations, your patron occasionally speaks. Once per session, you may ask your patron a question about your current situation. The answer is truthful but reflects your patron's agenda. Not a direct power boost — a story tool.
 
 **Connects to:** `Pact-Bound` • `Dark Counsel` → `Scholar's Method` • `Cosmic Awareness`
 
@@ -1264,10 +1261,7 @@ You carry a fragment of your patron's influence.
 #### Borrowed Power
 **Prerequisite:** `Pact-Bound`
 
-**Benefit:** Once per long rest, petition your patron for aid. Roll 1d6:
-- 1-2: Patron refuses (you owe a minor favor later)
-- 3-4: Patron grants +1d6 to your next roll
-- 5-6: Patron grants +2d6 to your next roll (you owe a favor)
+**Benefit:** Patron's Gift can be invoked twice per short rest (up from once). The second invocation's price is collected immediately — no GM delay. Your patron rewards the greedy.
 
 **Connects to:** `Pact-Bound` • `Deepened Bond` → `Cosmic Reservoir`
 
@@ -1303,7 +1297,7 @@ You carry a fragment of your patron's influence.
 #### Deepened Bond
 **Prerequisite:** `Borrowed Power`
 
-**Benefit:** When using Borrowed Power, increase the die result by +1 (1-2 becomes 2-3, etc.). Your patron favors you more... for now.
+**Benefit:** Patron's Gift grants +3d6 instead of +2d6. Your patron invests more heavily in you — the price remains the same, which only makes you wonder why.
 
 **Connects to:** `Borrowed Power` → `Cosmic Reservoir`
 
@@ -1927,33 +1921,6 @@ The Path Board isn't isolated disciplines—many nodes connect across paths, cre
 
 ---
 
-## Bridge Resonance
-
-**When you own nodes on both sides of a Bridge connection, you gain a small Resonance Bonus — a passive benefit that activates only because you've walked between philosophies.**
-
-Bridge Resonance rewards cross-pathing with something more than the sum of individual nodes. These bonuses are small, flavorful, and represent the convergence of different cosmic philosophies in one mortal. They activate automatically when both sides are owned.
-
-| Bridge Connection | Resonance Bonus |
-|---|---|
-| `Quick Draw` ↔ `Ambush Predator` | When you act first AND the target is unaware, deal +1 HD damage |
-| `Herbalist` ↔ `Field Medic` | Your herb remedies restore +1 HD when applied by someone with Field Medic |
-| `Misdirection` ↔ `Deceptive` | Your Misdirection doesn't cost your encounter use if you succeed on an Influence check first |
-| `Stubborn` ↔ `Immovable Object` | Allies adjacent to you cannot be frightened |
-| `Ghost Walk` ↔ `Between Worlds` | You leave no magical signature — detection spells require Expert (4+) to sense you |
-| `Virtue's Voice` ↔ `Inspiring Presence` | Your social Affinity Dice bonus extends to allies who can hear you speaking |
-| `Scarred Veteran` ↔ `War-Trained` | Your intimidation bonus applies to creatures you've damaged this encounter |
-| `Investigator` ↔ `Tracker's Eye` | Your investigation and tracking time is halved |
-| `Shadow Step` ↔ `Phase Step` | Your teleportation range increases by 10 yards (both abilities) |
-| `Cultural Adapter` ↔ `Charming` | You never suffer social penalties for being a foreigner or outsider |
-| `Iron Focus` ↔ `Tactical Mind` | When you use Iron Focus, one ally within 10 yards also ignores RT advancement from failed Expert+ actions for 1 round |
-| `Efficient Action` ↔ `Craftsman` | Items you craft during downtime take 25% less time |
-| `Lone Wolf` ↔ `Ghost Walk` | While alone, you also cannot be tracked by scent or magic below Expert difficulty |
-| `Tempered` ↔ `Pain Tolerance` | At Resolve Threshold 5+, wound penalties are halved |
-
-**Design Note:** Bridge Resonance bonuses are intentionally small — they're the "click" of two puzzle pieces fitting together, not a third feat's worth of power. They should make players smile, not break math.
-
----
-
 ## Discipline Mastery
 
 **When you take 4+ nodes from the same discipline (Primary + 3 from that tree), you unlock a Discipline Mastery passive — a permanent benefit reflecting your deep commitment to one philosophy.**
@@ -1995,7 +1962,6 @@ Discipline Mastery is not a feat choice — it activates automatically the momen
 - L6: `Mediator` (cross to Scholar—resolve conflicts)
 - L9: `Cultural Adapter` (cross to Wanderer—multicultural understanding)
 - L10: `World Wise` (leverage cultural knowledge)
-- *Bridge Resonance:* `Cultural Adapter` ↔ `Charming` = no foreign social penalties
 
 **The Shadow Scholar** *(Knowledge + Stealth)*:
 - L1: `Scholar's Method` (Scholar Primary)
@@ -2018,7 +1984,6 @@ Discipline Mastery is not a feat choice — it activates automatically the momen
 - L6: `Herbalist` (cross to Scholar—craft remedies)
 - L9: `Field Medic` (cross to Hearth—combat healing)
 - L10: `Healer's Touch` (remove conditions)
-- *Bridge Resonance:* `Herbalist` ↔ `Field Medic` = herb remedies restore +1 HD
 
 **The Pact-Bound Wanderer** *(Dark Power + Travel)*:
 - L1: `Pact-Bound` (Infernal Primary—Velkir patron for secrets)
@@ -2033,7 +1998,6 @@ Discipline Mastery is not a feat choice — it activates automatically the momen
 - L6: `Immovable Object` (cross to Martial—grant stability to ally)
 - L9: `Battle Commander` (cross to Martial—tactical leadership)
 - L10: `Inspiring Presence` (cross to Social—rally allies)
-- *Bridge Resonance:* `Stubborn` ↔ `Immovable Object` = adjacent allies immune to fear
 
 **The Unbreakable Exile** *(Self-Mastery + Resilience)*:
 - L1: `Self-Made` (Sovereign Primary)
@@ -2041,7 +2005,6 @@ Discipline Mastery is not a feat choice — it activates automatically the momen
 - L6: `Tempered` (cross to Resilience—more dangerous when battered)
 - L9: `Pain Tolerance` (cross to Resilience—ignore wound penalties)
 - L10: `Scarred Veteran` (cross to Social—scars tell stories)
-- *Bridge Resonance:* `Tempered` ↔ `Pain Tolerance` = halved wound penalties at RT 5+
 
 **The Disciplined Wanderer** *(Self-Mastery + Travel)*:
 - L1: `Self-Made` (Sovereign Primary)
@@ -2070,17 +2033,14 @@ Discipline Mastery is not a feat choice — it activates automatically the momen
 - The most interesting characters walk across multiple disciplines
 - Cross-connections are intentional—reward creative combinations
 - Ask players: "How did you learn that? What bridges your two paths?"
-- **Bridge Resonance** bonuses activate automatically when both sides are owned — remind players these exist when they cross-path
-- Don't stack Bridge Resonance with similar effects from other sources — they represent unique synergy
 
 **New Mechanics Integration:**
-- **Bridge Resonance**: Small passive bonuses for owning both sides of a cross-discipline bridge. These are rewards, not requirements — don't gate story content behind them
 - **Discipline Mastery**: Automatic passive at 4+ nodes from one tree. Announce it when the player takes their 4th node — make it a moment. "You've walked the shadow path so deeply that surprise itself cannot find you"
 - **Proficiency 3+ Milestones**: Track when PCs hit Proficiency 3 (Levels 5-6) and remind them their Primary has grown. This is a satisfying mid-game moment
 
 **Narrative Weight:**
 - When a player takes a feat, explore it in the story
-- Pact-Bound should have patron interactions — track the **Debt Ledger** visibly
+- Pact-Bound should have patron interactions — the GM holds the price and collects when dramatic
 - Silver Tongue should open social opportunities
 - Scholar's Method should make knowledge useful
 - **Self-Made** characters should face challenges to their self-reliance — test their conviction, not just their dice
