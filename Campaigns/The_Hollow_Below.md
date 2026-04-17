@@ -596,7 +596,7 @@ If the party attacks, tries to force past, or fails to communicate:
 
 **Fighter Spotlight During Combat**:
 The Fighter can use tactical commands to direct allies:
-- Suggest flanking (grants +1d6 to ally's attack)
+- Coordinate positioning for Advantage (+1d6 to ally's attack)
 - Protect weaker party members (interpose action)
 - Recognize constructs are slow (kiting strategy grants advantage)
 

@@ -202,6 +202,38 @@ When you lose dice, cross them off. When they're gone, they're gone.
 
 At 0 Body HD: You're in trouble (see Resolve).
 
+────────◇────────
+MOVEMENT & POSITIONING
+────────◇────────
+
+Movement: 10 yards per turn (free, split however you like)
+
+ENGAGEMENT: If you're in melee range (~5 yards) of an enemy and
+move away, that enemy makes a free strike against you — one Basic
+attack from their stat block. Costs them nothing. Happens every time.
+
+To leave safely:
+• Withdraw (costs 1 action): Move your speed, no free strikes
+• Or just take the hit and run
+
+POSITIONING BONUSES:
+• Advantage (+1d6 to attacks): Favorable position — flanking,
+  high ground, ambush. GM calls it.
+• Cover (+1d6 / +2d6 defense): Physical barrier. Light = +1d6.
+  Hard (walls, boulders) = +2d6.
+• Concealment (+1d6 defense): Visual obscurity — fog, shadows,
+  dense foliage. Distinct from cover; they stack.
+• Brace (give up all movement): +1d6 to your next action
+
+MOVEMENT ACTIONS:
+• Charge (1 action + movement): Move 5+ yards straight, attack at +1d6
+• Sprint (1 action): Double movement, can't attack
+• Withdraw (1 action): Move safely out of engagement
+
+Position matters. Advantage hits harder. Cover keeps you alive.
+Concealment lets Rangers deal bonus damage AND stay protected.
+Think about where you stand — the battlefield rewards it.
+
 ────────────────────────────────────────────────────────────────────────
 PAGE 5 - RESOLVE & REST
 ────────────────────────────────────────────────────────────────────────
@@ -234,12 +266,28 @@ RESTING
 Rest (30 min - 8 hours, threatened):
 • Regain Proficiency HD (1 at Level 1)
 • Lower Resolve Threshold by 1 (minimum 2)
+• Armor is NOT restored (no time, no safety)
 • Max 2 rests per day
 
 Recover (6+ hours, safe place):
 • Regain ALL HD
 • Reset Resolve Threshold to 2
-• Restore armor
+• Armor fully restored (time to mend, refit, repair)
+
+────────◇────────
+ARMOR REPAIR (Field Conditions)
+────────◇────────
+
+Lost armor dice mid-dungeon with no safe place to Recover?
+You can attempt a field repair.
+
+Craft Check (Expert, 4+): Need 2 successes
+• Requires tools (smith's kit, leather repair kit, or equivalent)
+• Takes 10 minutes of uninterrupted work
+• Success: Restore your full armor layer
+• Failure: Armor stays broken — try again after your next rest
+
+No tools? No repair. Armor doesn't fix itself. Guard it well.
 
 ────────────────────────────────────────────────────────────────────────
 PAGE 6 - CHARACTER CREATION
@@ -320,7 +368,7 @@ Hold the Line (Basic, 2+)
 • Required: 2 successes
 • Duration: Proficiency rounds
 • 10-yard zone around you: enemies have movement halved
-• Allies in zone gain +1d6 to first defense each round (doesn't burn HD)
+• Allies in zone (including yourself) gain +1d6 to first defense each round (doesn't burn HD)
 • Usable Proficiency times per short rest
 
 Oath-Driven Strike (Basic, 2+)
@@ -381,7 +429,7 @@ STARTING ABILITIES (Level 1)
 Hunter's Strike (Basic, 2+)
 • Weapon attacks are Basic (2+)
 • Required: 1 success
-• From concealment or height: +1 HD damage
+• From concealment: +1 HD damage
 
 Mark Prey (Basic, 2+)
 • 60 yards, one creature
@@ -397,9 +445,10 @@ Killing Ground (Basic, 2+)
 • 30-yard radius zone, Proficiency rounds
 • Choose ONE effect:
   - Mire: Difficult terrain for enemies
-  - Cover: +1d6 defense for allies
+  - Cover: Allies gain light cover (+1d6 defense)
   - Hazard: 1 HD damage to enemies starting/entering
-  - Concealment: Allies count as in light cover
+  - Concealment: Allies gain concealment (+1d6 defense;
+    counts as concealment for Hunter's Strike bonus damage)
 • Usable Proficiency times per short rest
 
 Culling Strike (Basic, 2+)
@@ -426,7 +475,7 @@ Ways are class-specific paths that shape how you fight and grow. Choose one at c
 
 Predation, competition, ambush mastery.
 
-Row 1: Predator's Patience — From concealment or height, +2 HD damage instead of +1 (Hunter's Strike upgrade).
+Row 1: Predator's Patience — From concealment, +2 HD damage instead of +1 (Hunter's Strike upgrade).
 
 PATH: WILD-TOUCHED
 
@@ -573,6 +622,180 @@ Roll your defense dice (d4, d6, d8, d10, d12), need 5+:
 • 1-4: Die destroyed
 • 5+: Die survives, 1 damage cancelled
 
+────────────────────────────────────────────────────────────────────────
+PAGE 11 - WHY THIS WORKS & COMBAT EXAMPLE
+────────────────────────────────────────────────────────────────────────
+
+WHY THIS WORKS
+────────◇────────
+
+Affinity is built on three tensions. Once you understand them,
+every rule clicks into place.
+
+· · ─────────────────────── · ·
+WHY EXERTION BURNS HD
+
+You can always play it safe — roll your Proficiency die alone and
+hope for the best. Exertion lets you add dice, but every 1 on an
+exertion die destroys a Hit Die from your pool. This is intentional.
+
+Power has a price. Every extra die you throw is a gamble: more
+successes now, but fewer dice protecting you later. The player who
+exerts on every attack will hit harder — and die faster. The player
+who never exerts will be safe — and useless when it matters.
+
+The sweet spot is in between. That's where Affinity lives.
+· · ─────────────────────── · ·
+
+· · ─────────────────────── · ·
+WHY RESOLVE ESCALATES
+
+Resolve starts easy (2+ on 1d6 to hold). Each failed check makes
+the next one harder: 3+, then 4+, then 5+, then 6. The spiral
+tightens on its own — no tracking, no penalty tables.
+
+This means early hits barely register. Late hits are devastating.
+A fight that drags on becomes more dangerous every round. Characters
+don't slowly weaken — they hold steady until they can't, then they
+break. That sudden shift from "I'm fine" to "I'm in real trouble"
+is the heart of Affinity combat.
+· · ─────────────────────── · ·
+
+· · ─────────────────────── · ·
+WHY GROUP CHALLENGES POOL SUCCESSES
+
+Outside combat, the whole party rolls together and pools successes.
+One character leads, others support. This means everyone matters —
+the Combatant's strength helps the climb, the Weaver's knowledge
+cracks the puzzle, the Ranger's tracking finds the trail.
+
+No one sits out. No one watches the "skill character" play alone.
+Affinity is a group story. The dice reflect that.
+· · ─────────────────────── · ·
+
+────────◇────────
+COMBAT EXAMPLE: THE FULL FLOW
+────────◇────────
+
+Kael (Combatant, Level 1) faces an Orc Raider.
+
+Kael: 5d10s body, 2d8s armor, 1d12 shield
+Orc:  4d8s body, 2d6s armor, Prof 2, RT 5
+
+· · ─────────────────────── · ·
+
+ROUND 1 — KAEL ATTACKS
+
+Kael uses Weapon Strike (Basic, 2+) with a longsword (2 HD damage).
+He exerts for +1d6.
+
+Roll: 2d6 (1 Prof + 1 Exert) → Results: 5, 3
+Both are 2+ → 2 successes. Hit!
+
+The exertion die (3) isn't a 1, so no HD burned. Good.
+
+Damage: 2 HD to the Orc.
+Orc defends: Rolls 2d8 (Prof 2) → Results: 7, 2
+  • 7 = 5+, success — 1 damage cancelled
+  • 2 = fail — die destroyed from armor layer
+Remaining: 1 HD damage. Orc loses 1 armor die (2d6s → 1d6).
+
+Orc is now: 4d8s body, 1d6 armor.
+
+· · ─────────────────────── · ·
+
+ROUND 1 — ORC STRIKES BACK
+
+Orc swings its Greataxe (Basic, 2+, 3d6, 2 HD damage).
+
+Roll: 3d6 → Results: 6, 4, 1
+  • 6 = 2 successes, 4 = 1 success, 1 = no success
+Total: 3 successes. Hit!
+
+(NPCs don't burn HD on 1s — just ignore it and move on.)
+
+Damage: 2 HD to Kael.
+Kael defends: Rolls 1d8 (Prof 1, armor layer first) → Result: 3
+  • 3 = fail — armor die destroyed, 1 damage cancelled
+1 HD remaining damage → second armor die destroyed.
+Kael's armor: 2d8s → 0. Armor gone.
+
+But no Body HD lost — no Resolve check. Armor did its job.
+
+· · ─────────────────────── · ·
+
+ROUND 2 — KAEL USES OATH-DRIVEN STRIKE
+
+Kael swings hard. Oath-Driven Strike (Basic, 2+, weapon damage +
+Proficiency HD = 2 + 1 = 3 HD damage on 2+ successes). He exerts.
+
+Roll: 2d6 → Results: 6, 1
+  • 6 = 2 successes, 1 = no success
+Total: 2 successes. Hit!
+
+But the exertion die rolled 1 — Kael loses 1 Body HD.
+Kael: 5d10s → 4d10s.
+
+Body HD was destroyed → Resolve check!
+Kael's RT is 2. Roll 1d6: gets 4. 4 ≥ 2 = holds. No change.
+
+Damage: 3 HD to the Orc.
+Orc defends: Rolls 2d8 → Results: 5, 8
+  • Both 5+ — 2 damage cancelled
+1 HD remaining → destroys Orc's last armor die (1d6 → 0).
+
+Orc is now: 4d8s body, no armor.
+
+· · ─────────────────────── · ·
+
+ROUND 2 — ORC RETALIATES
+
+Orc is below half HD? No, still at 4d8s. Swings Greataxe again.
+
+Roll: 3d6 → Results: 2, 5, 4
+Total: 3 successes. Hit for 2 HD.
+
+Kael has no armor. Defends with body dice.
+Kael defends: Rolls 1d10 (Prof 1, body die) → Result: 7
+  • 7 = 5+, success — 1 damage cancelled, die survives
+1 HD remaining → Kael loses 1 Body HD. Now 3d10s.
+
+Body HD destroyed → Resolve check!
+Kael's RT still 2. Roll 1d6: gets 2. 2 ≥ 2 = holds. Close.
+
+· · ─────────────────────── · ·
+
+ROUND 3 — KAEL FINISHES IT
+
+Kael attacks with Weapon Strike. No exertion this time — he's
+bleeding and can't afford to lose more HD.
+
+Roll: 1d6 → Result: 4
+  • 4 = 1 success. Just enough. Hit for 2 HD.
+
+Orc defends: Rolls 2d8 (body dice now) → Results: 3, 4
+  • Both fail — 0 damage cancelled
+Full 2 HD hits body. Orc: 4d8s → 2d8s.
+
+Orc is below half HD. Rage triggers: +1d6 to attacks.
+
+Kael uses his second action: Weapon Strike again.
+
+Roll: 1d6 → Result: 6
+  • 6 = 2 successes. Solid hit for 2 HD.
+
+Orc defends: Rolls 2d8 → Results: 1, 3
+  • Both fail. 2 HD destroyed.
+Orc: 2d8s → 0 HD. The Orc drops.
+
+· · ─────────────────────── · ·
+
+AFTERMATH:
+Kael is standing at 3d10s body, no armor, RT 2. Bruised but alive.
+His armor is gone until he can Recover or field-repair it. The
+exertion gamble cost him a Hit Die — but it also ended the fight
+a round sooner. That's the trade. That's Affinity.
+
 ────────◇────────
 
 [NOTE: Back cover - include dice survival table again as quick reference]
@@ -592,4 +815,4 @@ Welcome to Affinity. May your dice roll high.
                            END OF PLAYER'S GUIDE
 ════════════════════════════════════════════════════════════════════════
 
-[Total: 10 pages including cover and back cover]
+[Total: 11 pages including cover and back cover]

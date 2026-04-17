@@ -150,7 +150,7 @@ You are purpose made manifest in combat. Your weapon is an extension of your oat
 - Required: 2 successes
 - 10-yard radius centered on you, Proficiency rounds
 - Enemies in zone have movement halved
-- Allies in zone gain +1d6 to first defense roll each round (doesn't burn HD)
+- Allies in zone (including yourself) gain +1d6 to first defense roll each round (doesn't burn HD)
 - Usable Proficiency times per short rest
 
 **Rally** (Basic, 2+)
@@ -438,10 +438,10 @@ Armor you wear gains sacred reinforcement: +1 temporary armor die (matching type
 - Power Word: Endure now also removes one condition (poison, fear, charm) from target
 - Power Word: Smite now deals Prof × 2 HD base (Prof × 3 vs patron-opposed)
 - New: **Sanctify** (Expert, 4+): 10-yard radius, Prof rounds. Choose ONE zone effect based on patron's nature:
-  - **Order:** Allies +1d6 Influence. Enemies -1d6 on deception
-  - **Life:** Allies entering restore 1 HD. Undead take 1 HD/round
-  - **Death:** Enemies −1 to Resolve check rolls. 1 HD damage entering zone
-  - **Knowledge:** Illusions suppressed. Allies +1d6 Lore/Awareness
+  - **Order:** Allies +1d6 Influence, enemies -1d6 deception. Allies gain light cover
+  - **Life:** Allies entering restore 1 HD, undead take 1 HD/round. Allies gain concealment
+  - **Death:** Enemies −1 to Resolve rolls, 1 HD on entry. Zone is difficult terrain for enemies
+  - **Knowledge:** Illusions suppressed, allies +1d6 Lore/Awareness. Enemies lose cover and concealment
 - One zone at a time. Usable once per short rest
 
 ---
@@ -648,7 +648,7 @@ You decide where the battle happens, what it costs to get there, and who suffers
 
 **Hunter's Strike** (Basic, 2+)
 - Weapon attacks are Basic (2+)
-- From advantageous terrain (height, concealment, ambush) or against Marked target: +1 HD damage
+- From concealment, or against Marked target: +1 HD damage
 
 **Mark Prey** (Basic, 2+)
 - Required: 1 success
@@ -661,7 +661,11 @@ You decide where the battle happens, what it costs to get there, and who suffers
 **Killing Ground** (Basic, 2+)
 - Required: 2 successes
 - 30-yard radius you can see, Proficiency rounds
-- Choose ONE effect when activated: Mire (difficult terrain for enemies), Cover (+1d6 defense for allies), Hazard (1 HD damage to enemies starting/entering), or Concealment (allies count as in light cover)
+- Choose ONE effect when activated:
+  - **Mire:** Difficult terrain for enemies (movement halved)
+  - **Cover:** Allies gain light cover (+1d6 defense; physical barriers rise from the terrain)
+  - **Hazard:** 1 HD damage to enemies starting turn in or entering the zone
+  - **Concealment:** Allies gain concealment (+1d6 defense; mist, shadow, or dense growth obscures them. This counts as concealment for Hunter's Strike and Predator's Patience bonus damage)
 - Usable Proficiency times per short rest
 
 **Culling Strike** (Basic, 2+)
@@ -702,7 +706,18 @@ Gain +1d6 to initiative rolls (doesn't burn HD). **Way Node.**
 ---
 
 **Level 4: Terrain Adaptation**
-Ignore difficult terrain in natural environments. **Way Node.**
+
+Ignore difficult terrain in natural environments.
+
+**Shape Terrain** (Basic, 2+, 1 action)
+- Required: 2 successes
+- Target a 10-yard area on natural ground within 30 yards
+- Create or remove ONE of: **light cover**, **concealment**, or **difficult terrain**
+- The terrain responds naturally — roots rise, mist rolls in, ground buckles, fog disperses
+- Lasts Proficiency rounds or until you shape another area
+- Usable Proficiency times per short rest
+
+**Way Node.** Your Way augments Shape Terrain at Row 2.
 
 ---
 
@@ -783,15 +798,17 @@ Thorn ←→ Tide ←→ Hearth ←→ Howl ←→ (Thorn)
 *Predation, competition, ambush mastery*
 *Adjacent: Howl, Tide*
 
-**Row 1: Predator's Patience** — From concealment or height, +2 HD damage instead of +1 (Hunter's Strike upgrade).
+**Row 1: Predator's Patience** — From concealment, +2 HD damage instead of +1 (Hunter's Strike upgrade).
 
 **Row 2: Thorn Trap** — Once per short rest, place hidden trap. Next creature within 5 yards takes Prof HD damage and is restrained 1 round (Basic 2+, need 2 successes to escape).
+
+*Shape Terrain Augment:* Cover or concealment you create also acts as Hazard (1 HD to enemies entering).
 
 **Row 3: Apex Instinct** — +2d6 to initiative. Always act before Marked creatures regardless of initiative.
 
 **Row 4: Pack Hunter** — Your Mark Prey bonus extends to all allies who can hear you within 30 yards.
 
-**Row 5: Alpha Predator** *(Legendary, 6)* — Once per long rest, Prof rounds: all attacks +Prof HD, reducing target to 0 HD lets you Mark another free, cannot be surprised or flanked.
+**Row 5: Alpha Predator** *(Legendary, 6)* — Once per long rest, Prof rounds: all attacks +Prof HD, reducing target to 0 HD lets you Mark another free, cannot be surprised and enemies cannot gain Advantage against you.
 
 #### Way of Tide
 *Migration, change, adaptation*
@@ -800,6 +817,8 @@ Thorn ←→ Tide ←→ Hearth ←→ Howl ←→ (Thorn)
 **Row 1: Adaptive Stance** — Start of combat, choose: +1d6 melee, +1d6 ranged, or +1d6 defense. Lasts entire combat.
 
 **Row 2: Flowing Movement** — Move through difficult terrain without penalty. Moving through enemy space displaces them 5 yards (no roll needed).
+
+*Shape Terrain Augment:* You may move a Shape Terrain area 5 yards at the start of each of your turns.
 
 **Row 3: Shifting Kill Zone** — Killing Ground can be moved 10 yards as free action at start of each turn.
 
@@ -815,6 +834,8 @@ Thorn ←→ Tide ←→ Hearth ←→ Howl ←→ (Thorn)
 
 **Row 2: Hearth Craft** — During short rest, create shelter. All party members restore +2 additional HD.
 
+*Shape Terrain Augment:* Light cover you create with Shape Terrain counts as hard cover (+2d6 defense) for one ally you designate.
+
 **Row 3: Guardian Territory** — Once per short rest, 20-yard area as Hearth. Allies +1d6 defense; you sense any creature entering.
 
 **Row 4: Greater Companion** — Companion grows large, Prof × 4 HD, can serve as mount.
@@ -828,6 +849,8 @@ Thorn ←→ Tide ←→ Hearth ←→ Howl ←→ (Thorn)
 **Row 1: Storm Shot** — Ranged attacks deal +1 HD lightning/thunder damage outdoors.
 
 **Row 2: Windwall** — Once per short rest, 20-yard wall of wind. Ranged attacks through it -2d6. Prof rounds.
+
+*Shape Terrain Augment:* When you remove a positioning feature with Shape Terrain, enemies in the area take Prof HD damage.
 
 **Row 3: Tempest Zone** — Killing Ground Hazard deals Prof HD instead of 1 HD and also counts as Mire (double effect).
 

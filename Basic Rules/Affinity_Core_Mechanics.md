@@ -951,70 +951,22 @@ Every character chooses a **Defining Virtue** at creation. This represents your 
 9. **Obligation** *(Azravael)* — Enforcing debts, binding others to terms, rewriting agreements in your favor
 10. **Suffering** *(Gephorix)* — Pain as truth, despair as revelation, beauty through torment
 
-### Affinity Dice Mechanics
+### Mechanical Expression: Cosmic Focus (Path Board)
 
-Affinity Dice are bonus d6s earned by embodying your chosen virtue.
+Virtue resonance is expressed mechanically through the **Cosmic Focus** discipline on the Path Board. Characters who invest in Cosmic Focus gain:
 
-**Gaining Affinity Dice:**
-- When you embody your Affinity (GM judges), gain 1 Affinity Die
-- Maximum: You may gain Affinity Dice up to **Proficiency times per day**
-- Example: Proficiency 3 = max 3 Affinity Dice gained per day
+- **Virtue-Bound (Primary):** Exertion dice don't burn HD on Virtue-aligned actions. Once per long rest, invoke **Virtue Flare** (+2d6 safe bonus dice, RT-1) when acting in direct embodiment of your Virtue.
+- **Affinity Surge (Secondary):** Allies within 10 yards gain +1d6 on their next action when you invoke Virtue Flare.
+- **Cosmic Reservoir (Secondary):** Virtue Flare recharges on short rest instead of long rest.
+- **Resonant Strike (Capstone):** Once per encounter, +2d6 to any action that directly serves your Virtue. No separate currency.
 
-**Storing Affinity Dice:**
-- You may store up to **Level** Affinity Dice at once
-- Example: Level 5 = store max 5 Affinity Dice
-- Unused Affinity Dice do NOT expire (persist until spent)
-
-**Spending Affinity Dice:**
-- On any roll, you may add stored Affinity Dice as bonus dice
-- **Affinity Dice are SAFE bonus dice:**
-  - 1s rolled on Affinity Dice do NOT burn HD
-  - They do NOT count toward your per-action exertion cap
-- You may spend multiple Affinity Dice on one roll (up to your stored pool)
-
-**Sharing Affinity Dice:**
-- As a **free action** on your turn, transfer any number of stored Affinity Dice to an ally within 30 yards
-- That ally adds them to their stored pool (respecting their Level cap)
-- Shared Affinity Dice follow the same spending rules
-- "Our purpose is shared."
-
-**Tracking:**
-Use tokens, marks, or dice to track stored Affinity Dice between sessions.
-
-**Examples of Gaining Affinity:**
-- **Memory:** Preserving a forgotten truth, honoring the dead's true story, refusing to let history be erased
-- **Communion:** Sheltering strangers despite risk, rebuilding a shattered community, sharing your last meal
-- **Guardian:** Standing alone against overwhelming odds to protect others, showing mercy through intervention
-- **Growth:** Healing someone thought beyond saving, nurturing potential in the broken, fostering life in hostile places
-- **Decay:** Accepting a necessary ending, destroying corruption to allow renewal, clearing the old with dignity
-- **Consequence:** Ensuring a broken oath has weight, witnessing justice through to its end, holding someone accountable
-- **Flux:** Embracing radical transformation, catalyzing change through chaos, rewriting reality through elemental force
-- **Freedom:** Breaking chains literal or metaphorical, refusing assigned identity, transforming yourself against expectation
-- **Obligation:** Binding someone to favorable terms, collecting on old debts, leveraging contracts to your advantage
-- **Suffering:** Revealing truth through pain, forcing someone to confront despair, finding beauty in torment
-
-**Losing Affinity:**
-- When you act directly opposed to your Virtue (betraying your core values), you lose ALL stored Affinity Dice
-- This is not punishment—it's cosmic disconnection from your resonance
-- You can rebuild Affinity by recommitting to your principles
-
-### Why This Matters
-
-**Affinity connects you to Aeralon's cosmic forces:**
-- Your Virtue aligns you with divine pressures shaping the Mortal Weave
-- Each Virtue resonates with specific deities, planar forces, or cosmic principles
-- The universe recognizes those who consistently embody these powers
-- Light, Balance, Shadow, and Tyranny—all are forces pressing upon reality
-- Players must decide when to spend their cosmic reserve
-- Big moments become opportunities to embody your cosmic alignment
-- Mechanical reward for consistent resonance with your chosen force
-- Good, neutral, and evil Virtues all exist—the cosmos judges only consistency, not morality
+Virtue is not a currency you track—it's a conviction you embody. The Path Board rewards consistency. The cosmos judges only resonance, not morality.
 
 **GM Guidance:**
-- Award Affinity sparingly (1-2 times per session for exceptional acts aligned with Virtue)
-- Don't punish complex choices—only clear cosmic betrayals lose Affinity
-- Affinity should feel earned, reflecting genuine resonance with planar forces
-- Remember: **Obligation** and **Suffering** are valid Virtues, not punishments—the Engine and the Ashen Waste exert real pressure on the Mortal Weave
+- Virtue-aligned actions are judged narratively by the GM
+- Don't punish complex choices—only clear cosmic betrayals break resonance
+- Good, neutral, and evil Virtues all exist—the cosmos judges consistency, not morality
+- **Obligation** and **Suffering** are valid Virtues, not punishments—the Engine and the Ashen Waste exert real pressure on the Mortal Weave
 
 ---
 
@@ -1142,9 +1094,9 @@ Level 5 Combatant (d10 HD, Proficiency 3, wearing Heavy Armor 2d10s + Shield 1d1
 *Note: The shield's +1d12 is part of the armor layer—once that layer depletes, both armor and shield are unavailable until restored.*
 
 **Restoring Armor:**
-- **Recover (6+ hours, safe):** Armor layer fully restored
-- **Rest with Craft/Mend abilities:** Can restore armor layer
-- Without repair abilities: Armor stays depleted until Recover
+- **Recover (6+ hours, safe place):** Armor layer fully restored. Time to mend, refit, and repair.
+- **Rest (30 min - 8 hours, threatened):** Armor is NOT restored. Body heals. Steel doesn't.
+- **Field Repair (Craft check, Expert 4+, need 2 successes):** Requires tools (smith's kit, leather repair kit, or equivalent). Takes 10 minutes of uninterrupted work. Success restores full armor layer. Failure means try again after your next rest. No tools = no repair.
 
 ---
 
@@ -1188,12 +1140,13 @@ Only abilities with the **"Restore" keyword** can lower your Resolve Threshold:
 - Regain HD equal to half your level (minimum 1)
 - Lower Resolve Threshold by 1 (minimum 2)
 - Some class abilities recharge
-- Can repair/mend armor
+- Armor is NOT restored (no time, no safety)
+- Field Repair is possible if you have tools (see Restoring Armor under Defense)
 
 ### Long Rest (6+ hours, protected)
 - Regain all HD up to your maximum
 - Reset Resolve Threshold to 2
-- Regain all armor HD
+- Armor fully restored (time to mend, refit, repair)
 - All abilities recharge
 
 **Survival is earned through planning and safety, not convenience.**

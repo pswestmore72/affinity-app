@@ -165,26 +165,25 @@ Entering melee is a tactical commitment. Leaving safely costs an action. This me
 
 ### Positioning Advantages
 
-Static combat is dead combat. These universal bonuses reward players and NPCs who think about the battlefield:
+Static combat is dead combat. Positioning gives you dice — the universal currency of Affinity. There are three kinds of positioning bonus:
 
-**Flanking:** When you and an ally threaten the same enemy from opposite sides (~180°), both of you gain **+1d6 to attack rolls** against that enemy.
-- Requires two characters in melee range on roughly opposite sides
-- Encourages coordinated movement and split positioning
+**Advantage** (+1d6 to attack rolls)
+Any favorable attack position the GM agrees qualifies: flanking with an ally, high ground, ambush, rear attack, superior footing. If you're in a better spot than your target, you have Advantage.
+- Multiple sources of Advantage don't stack — it's +1d6, period
+- The GM decides what counts. Don't argue geometry; describe your intent
 
-**Height Advantage:** Attacking from elevated ground (rooftops, ledges, tree branches, clifftops) grants **+1d6 to ranged attacks**.
-- Already used by Ranger's Hunter's Strike for bonus damage
-- Universal: any character gains the ranged attack bonus
-- Combine with cover for devastating ambush positions
-
-**Cover:**
+**Cover** (defense bonus)
 - **Light cover** (bushes, furniture, thin walls): **+1d6 to defense rolls**
 - **Hard cover** (stone walls, fortifications, boulders): **+2d6 to defense rolls**
-- Cover applies against attacks from the direction the cover blocks
-- Moving from cover to cover is a valid tactical strategy
+- Cover is a **physical barrier** — it applies against attacks from the direction it blocks
+- Some abilities (e.g., Sacred Flame) bypass cover entirely
 
-**Rear Attack:** Attacking a target from behind (unaware or unable to turn) grants **+1d6 to attack rolls**.
-- Requires: Target cannot see attacker OR is fully engaged by another enemy from the front
-- Combine with flanking for devastating coordinated assaults
+**Concealment** (+1d6 to defense rolls)
+- Fog, shadows, dense foliage, magical darkness — anything that makes you hard to see
+- Unlike cover, concealment protects from **all directions**
+- Cover and concealment are **distinct and stack**. Fog + fallen log = +2d6 defense
+- Some abilities bypass concealment (True Seeing) while others bypass cover but not concealment
+- Ranger's Hunter's Strike triggers bonus damage when attacking from concealment — making it both offensive and defensive for that class
 
 ---
 
@@ -230,7 +229,7 @@ Controlling enemy movement is as powerful as dealing damage:
 ### Movement Design Philosophy
 
 Affinity combat should feel like a **chess match with dice**, not a slugfest. Every turn presents choices:
-- *Do I move for flanking, or Brace for a more powerful attack?*
+- *Do I move for Advantage, or Brace for a more powerful attack?*
 - *Do I Charge in to help my ally, or hold position behind cover?*
 - *Do I eat the free strike to reach the crystal, or spend an action to Withdraw safely?*
 - *The Weaver is exposed — do I Sprint to cover, or trust my armor for one more round?*

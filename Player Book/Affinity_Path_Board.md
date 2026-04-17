@@ -883,7 +883,7 @@ You have a deep connection to nature and beasts.
 #### Beast Bond
 **Prerequisite:** `Wild-Touched`
 
-**Benefit:** Your Beast Companion bond strengthens. You may now call it once per short rest instead of long rest. When it assists you in combat, it grants +1d6 to your attack (representing flanking, distraction, etc.).
+**Benefit:** Your Beast Companion bond strengthens. You may now call it once per short rest instead of long rest. When it assists you in combat, it grants +1d6 to your attack (representing Advantage from distraction, positioning, etc.).
 
 **Connects to:** `Wild-Touched` • `Pack Tactics` → `Shadow-Trained` • `Patient Hunter`
 

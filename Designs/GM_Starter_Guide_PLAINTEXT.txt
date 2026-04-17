@@ -159,11 +159,12 @@ To leave safely:
 • Or just take the hit and run
 
 POSITIONING BONUSES:
-• Flanking (you + ally on opposite sides): +1d6 to attacks
-• Height advantage (elevated ground): +1d6 to ranged attacks
-• Light cover (bushes, furniture): +1d6 to defense
-• Hard cover (walls, fortifications): +2d6 to defense
-• Rear attack (target can't see you): +1d6 to attacks
+• Advantage (+1d6 to attacks): Favorable position — flanking,
+  high ground, ambush, rear. GM calls it.
+• Cover (+1d6 / +2d6 defense): Physical barrier. Light cover
+  (bushes, furniture) = +1d6. Hard cover (walls, boulders) = +2d6.
+• Concealment (+1d6 defense): Visual obscurity — fog, shadows,
+  dense foliage. Distinct from cover; they stack.
 • Brace (give up all movement): +1d6 to your next action
 
 MOVEMENT ACTIONS:
@@ -172,10 +173,10 @@ MOVEMENT ACTIONS:
 • Withdraw (1 action): Move safely out of engagement
 
 WHY THIS MATTERS:
-A flanking Ranger deals more than a static one. A Weaver behind
-hard cover survives longer. A Combatant who Charges hits harder.
-A Ranger who Braces lines up the perfect shot. Reward players who
-think about the battlefield — and make NPCs do the same.
+A Ranger in concealment deals bonus damage AND gets defense. A
+Weaver behind hard cover survives longer. A Combatant who Charges
+hits harder. Reward players who think about the battlefield —
+and make NPCs do the same.
 
 ────────◇────────
 DAMAGE AND DEATH
@@ -197,6 +198,32 @@ AT 0 BODY HD
 • At 0 HD AND Collapse (fail at RT 6) = dead
 
 For Session 1: If a player hits 0 HD, remind them they only get 1 action per turn. Let them make one Resolve check, then have allies stabilize or heal them. Real death can come later when stakes are clear.
+
+────────◇────────
+ARMOR RESTORATION (When Does Armor Come Back?)
+────────◇────────
+
+Players WILL ask. Here's the answer:
+
+Recover (6+ hours, safe place): Armor fully restored.
+Characters have time to mend, refit, and repair their gear.
+
+Rest (30 min - 8 hours, threatened): Armor NOT restored.
+You're catching your breath in hostile territory, not running
+a forge. Body heals. Steel doesn't.
+
+Field Repair (Craft check, Expert 4+, need 2 successes):
+• Requires tools (smith's kit, leather repair kit, or equivalent)
+• Takes 10 minutes of uninterrupted work
+• Success: Full armor layer restored
+• Failure: Armor stays broken — try again after next rest
+• No tools = no repair. Period.
+
+WHY THIS MATTERS:
+Armor is the first line of defense. Once it's gone, every hit
+reaches Body HD — which means Resolve checks. Players who lose
+armor early feel the pressure fast. That's intentional. Let them
+scramble for a Recover or a Craft check. That tension is the game.
 
 ────────◇────────
 RESOLVE ESCALATION (When to Call for Checks)
@@ -301,13 +328,16 @@ PAGE 5 - THE WINTERMARCH VIGIL (SESSION 1)
 
 THE WINTERMARCH VIGIL
 ────────◇────────
-A Two-Session Starter Adventure for Level 1
+A Two-Session Starter Adventure (Level 1 → Level 2)
 
 SETTING: The northern frontier town of Coldmarch and the Pale Forest
 
-RECOMMENDED PARTY: 3-4 players, Level 1
+RECOMMENDED PARTY: 3-4 players, starting at Level 1
 
 PLAYTESTING FOCUS: Basic combat, skill challenges, resource management
+
+LEVELING: Affinity uses milestone advancement — no XP tracking.
+The party levels to 2 between sessions, before the boss encounter.
 
 ────────◇────────
 THE HOOK
@@ -343,7 +373,7 @@ BLESSING GRANTED (lasts through adventure):
 ALL PARTY MEMBERS:
 • Cold Resistance: Reduce natural cold damage by half
 • Deathwatch: Sense undead within 30 feet (direction/rough distance)
-• Watch Bonfire: When resting at maintained campfire, regain +1d6 HD overnight
+• Watch Bonfire: When resting at maintained campfire, regain +1 HD overnight
 
 ────────────────────────────────────────────────────────────────────────
 PAGE 6 - SESSION 1: INTO THE PALE FOREST
@@ -369,7 +399,8 @@ MISSION: Investigate these sites, find the source, eliminate it.
 
 SUPPLIES PROVIDED:
 • 7 days' rations (cold-weather provisions)
-• 3 healing draughts (restore 1d6 HD each)
+• 3 healing draughts (restore 1 HD each)
+• 6 blessed arrows (deal force damage to undead, bypass Incorporeal)
 • Alchemical fire (4 vials, for burning undead or signals)
 • Signal horn (if blown, Watch sends reinforcements—takes 2 hours)
 
@@ -467,7 +498,7 @@ PERCEPTION CHECK (Group Roll, Awareness)
 • Success: The cairn's top stone has been REPLACED—dark blue crystal, carved with symbols
 
 LORE CHECK (Individual, Lore domain)
-• Difficulty: Expert (4+), need 3 successes
+• Difficulty: Expert (4+), need 2 successes
 • Success: This is a Frost Focus—a necromantic ritual device that channels cold energy to raise and sustain undead. The crystal is the key—destroy it, undead lose animating force.
 
 ────────◇────────
@@ -532,12 +563,23 @@ SESSION 1 END
 
 GOOD STOPPING POINT: Party has cleared the cairn, discovered the villain's identity, and learned there's a second site deeper in the forest.
 
-AWARD XP: 100-150 XP each (adequate for first session of play)
+MILESTONE: THE PARTY REACHES LEVEL 2.
+
+Tell your players: "You've survived the cairn, uncovered the
+threat, and proven yourselves. You are now Level 2."
+
+What changes at Level 2:
+• Proficiency: 1 → 2 (bigger attack pools, 2 defense dice)
+• Defense Capacity: 1 → 2 (roll 2 dice per incoming attack)
+• Way abilities unlock (first node in chosen Way)
+• Exertion cap: 2 per action
+• Players update their character sheets before Session 2
 
 Players should feel:
 • Successful (cleared immediate threat)
+• Stronger (Level 2 abilities and tougher defenses)
 • Curious (who is Thane? What is the Pale Heart?)
-• Cautious (resources spent, deeper danger ahead)
+• Cautious (deeper danger ahead)
 
 ────────────────────────────────────────────────────────────────────────
 PAGE 10 - SESSION 2: THE PALE HEART
@@ -545,6 +587,9 @@ PAGE 10 - SESSION 2: THE PALE HEART
 
 SESSION 2: THE PALE HEART
 ────────◇────────
+
+The party is now Level 2. Confirm all players have updated sheets:
+Prof 2, DC 2, Way node unlocked, exertion cap 2.
 
 SCENE 1: JOURNEY DEEPER
 
@@ -586,7 +631,7 @@ INFLUENCE CHECK (to persuade him to stop)
 • Likely failure—he's committed to his path
 
 LORE CHECK (to identify ritual weakness)
-• Difficulty: Expert (4+), need 3 successes
+• Difficulty: Expert (4+), need 2 successes
 • Success: The ritual isn't complete yet. Destroying the crystal NOW will cause backlash—Thane loses 3 HD and ritual fails permanently.
 
 ────────────────────────────────────────────────────────────────────────
@@ -601,6 +646,11 @@ SETUP:
 • 4 Frostbitten Thralls (bodyguards)
 • Frost Focus Crystal (30 feet up cairn, HP 20)
 • Frozen sculptures animate if party gets within 10 feet (2 Ice Wraiths, see stat block page 14)
+
+PACING NOTE: This encounter runs 8-12 rounds — it's the climactic
+fight. Show crystal damage at 10 HP and 5 HP (visible cracks, light
+bleeding) to keep players motivated. If the fight bogs down, reduce
+remaining crystal HP by 3-5.
 
 TERRAIN:
 • Cairn in center (climbable, Athletics Hard 4+)
@@ -649,7 +699,10 @@ REWARDS:
 • Sister Maren's blessing (one free resurrection if player dies within next year—GM's discretion)
 • Town's gratitude (free lodging, crafting services at cost)
 
-AWARD XP: 150-200 XP each (total 250-350 for both sessions, enough to approach Level 2)
+MILESTONE NOTE: The party already leveled to 2 between sessions.
+If continuing into a longer campaign, Level 3 should come after
+2-3 more significant milestones (completing a major quest arc,
+surviving a pivotal story event, or clearing a dangerous region).
 
 ────────◇────────
 CAMPAIGN HOOKS (Optional)
@@ -682,6 +735,7 @@ ATTACK: Frozen Shortsword (Light, Basic)
 
 SPECIAL ABILITIES:
 • Frost Aura: Creatures within 5 feet take 1 cold damage per round (automatic, minor attrition)
+  [GM Note: Winterwatch Blessing negates this via Cold Resistance. Intentional — players won't have this protection in later adventures.]
 • Undead Fortitude: Immune to cold, poison, charm, fear
 • Vulnerability: Fire damage deals +1d6
 
@@ -728,9 +782,9 @@ ATTACK: Frozen Axe (Heavy, Basic)
 SPECIAL ABILITIES:
 • Frost Breath (1/combat, action, 15-foot cone)
   - Rolls: 3d6 vs Reflex save (Basic, 2+)
-  - Damage: 2d6 cold (half on save success)
+  - Damage: 2 HD cold (half on save success)
 • Undead Fortitude: Immune to cold, poison, charm, fear
-• Remnant Skill: Retains some logger combat training—can flank, use tactics
+• Remnant Skill: Retains some logger combat training—can position for Advantage, use tactics
 • Vulnerability: Fire damage deals +1d6
 
 TACTICS: Guards important locations, targets strongest-looking PC, uses Frost Breath when multiple targets clustered
@@ -783,7 +837,7 @@ Frost Nova (Expert, 4+, action, desperate move)
 SPECIAL ABILITIES:
 • Cold Mastery: Immune to cold damage, resistance to fire (halve damage)
 • Necromantic Focus: +2d6 when animating or commanding undead
-• Ritual Anchor: While Frost Focus crystal intact, regenerate 1 HD per round
+• Ritual Anchor: While Frost Focus crystal intact, regenerate 2 HD per round (Pale Heart is stronger than the Cairn anchor)
 
 TACTICS:
 • Stays at range, uses Cold Bolt
@@ -855,7 +909,7 @@ DEFENSE SUCCESS RATE
 │ d12  │ 67%          │
 └──────┴──────────────┘
 
-LEVEL 1 CHARACTER STATS
+LEVEL 1 CHARACTER STATS (Session 1)
 
 Proficiency: 1
 Resolve Threshold: 2
@@ -864,13 +918,24 @@ Actions: 2 per turn (1 at 0 HD)
 Movement: 10 yards
 Exertion cap: 1 per action
 
+LEVEL 2 CHARACTER STATS (Session 2)
+
+Proficiency: 2
+Resolve Threshold: 2
+Defense Capacity: 2
+Actions: 2 per turn (1 at 0 HD)
+Movement: 10 yards
+Exertion cap: 2 per action
+Way node: First ability unlocked
+
 MOVEMENT QUICK REF
 Engagement: Leaving melee = enemy free strike
 Withdraw (1 action): Leave safely
 Brace (no movement): +1d6 next action
 Charge (1 action + move): +1d6 attack
-Flanking: +1d6 attacks (ally opposite)
+Advantage: +1d6 attacks (flanking, high ground, ambush)
 Cover: +1d6 defense (light) / +2d6 (hard)
+Concealment: +1d6 defense (fog, shadows, foliage)
 
 RESOLVE CHECK TRIGGERS (Level 1)
 
@@ -920,7 +985,7 @@ DURING SESSION:
 □ Keep fights short (3-4 rounds at Level 1)
 
 AFTER SESSION:
-□ Award XP (100-300 for Level 1)
+□ Award Level 2 milestone (party levels up before Session 2)
 □ Note what worked/didn't
 □ Plan Session 2 if continuing
 
