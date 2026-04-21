@@ -1,0 +1,553 @@
+AFFINITY: FRACTURE
+THE WINTERMARCH VIGIL
+A Two-Session Starter Adventure (Level 1 to Level 2)
+
+
+"A frozen forest. Missing loggers. Dead scouts standing at the tree line, watching. This is the sort of mess that requires heroes with proven competence — or at least heroes too stubborn to say no. Either works."
+
+— Chandle
+
+
+ADVENTURE OVERVIEW
+
+SETTING: The northern frontier town of Coldmarch and the Pale Forest
+RECOMMENDED PARTY: 3-4 players, starting at Level 1
+FOCUS: Basic combat, skill challenges, resource management
+LEVELING: Affinity uses milestone advancement — no XP tracking. The party levels to 2 between sessions, before the boss encounter.
+
+
+THE HOOK
+
+The party arrives at Coldmarch, a frontier logging town. For the past three weeks, something in the Pale Forest has been killing people and raising them as undead.
+
+• Week 1: Logging crew goes missing (12 people)
+• Week 2: Two scouts disappear on patrol
+• Week 3: Dead loggers seen standing at forest edge, just watching
+
+Captain Eryn Frostfeld, leader of the Winterwatch garrison, sent urgent word calling for capable adventurers. The town's economy depends on lumber. The forest must be made safe.
+
+THE OFFER
+
+• Pay: 50 gold per person (town's defense fund)
+• Duration: Until the threat is ended
+• Risk: "People are dying. You might too."
+
+
+THE WINTERWATCH OATH
+
+Upon arrival, Sister Maren (town cleric) conducts a brief blessing ceremony.
+
+READ ALOUD:
+"Caerith watches those who stand in the cold places, who guard the edges of warmth against the darkness. You are not alone in your watch."
+
+Each PC receives a small brand on their palm (painless, glowing faintly) — the Winterwatch torch-and-spear.
+
+BLESSING GRANTED (lasts through adventure):
+
+ALL PARTY MEMBERS:
+• Cold Resistance: Reduce natural cold damage by half
+• Deathwatch: Sense undead within 10 yards (direction/rough distance)
+• Watch Bonfire: When resting at maintained campfire, regain +1 HD overnight
+
+
+SESSION 1: INTO THE PALE FOREST
+
+SCENE 1: THE BRIEFING
+
+Captain Frostfeld lays out the situation at Coldmarch Lodge:
+
+READ ALOUD:
+"Three weeks ago, Logging Crew #3 went missing — twelve people. We found their camp intact, but they were gone. Then scouts started disappearing. Then the lights started. Blue-white, moving through the forest. Last night, my gate guard saw Garrus — one of the missing loggers — standing at the tree line. Dead. Frozen. Just... watching."
+
+She spreads a crude map:
+
+KEY LOCATIONS:
+1. Scout's Last Position (3 miles northwest): Where missing scouts were last reported
+2. Old Burial Cairn (7 miles northeast): Ancient monument, now glowing blue at night
+
+MISSION: Investigate these sites, find the source, eliminate it.
+
+SUPPLIES PROVIDED:
+• 7 days' rations (cold-weather provisions)
+• 3 healing draughts (restore 1 HD each)
+• 6 blessed arrows (deal force damage to undead, bypass Incorporeal)
+• Alchemical fire (4 vials, for burning undead or signals)
+• Signal horn (if blown, Watch sends reinforcements — takes 2 hours)
+
+
+SCENE 2: JOURNEY TO SCOUT'S POSITION
+
+The Pale Forest is oppressive:
+• White-barked trees, covered in frost
+• Visibility: 15 yards due to dense trees and mist
+• Temperature: -10 degrees (cold but not lethal with proper gear)
+• Unnatural silence
+
+TRAVEL TIME: 3-4 hours
+
+NAVIGATION CHECK (Group Roll, Wilderness domain)
+• Dice Pool: 3-4 (players x Prof 1)
+• Difficulty: (2+, 3) — Moderate
+• Failure: Add +1 hour, trigger random encounter (wolves or 2 Frostbitten Thralls)
+
+PERCEPTION CHECK (Group Roll, Awareness domain)
+• Difficulty: (2+, 2) — Easy
+• Success: Notice tracks in snow — boot prints (stumbling gait), drag marks, all leading NORTH
+
+
+SCENE 3: SCOUT'S LAST POSITION
+
+The party finds a small clearing with:
+• Two backpacks (scouts' gear)
+• Cold campfire (abandoned 2+ weeks ago)
+• Blood in snow (frozen, dark)
+• Broken arrows scattered
+
+INVESTIGATION CHECK (Group Roll, Awareness domain)
+• Difficulty: (2+, 3) — Moderate
+• Success: The scouts fought something — multiple attackers from north. They were dragged away northeast (toward Burial Cairn).
+
+CARVED INTO TREE: "NO WARMTH HERE. ONLY COLD FOREVER."
+
+
+ENCOUNTER 1: FROSTBITTEN SCOUTS
+
+The two missing scouts emerge from trees — now undead, frost covering bodies, eyes glowing pale blue.
+
+SETUP:
+• 2 Frostbitten Scouts (see stat blocks at end)
+• Terrain: Forest clearing, scattered trees (light cover)
+• Weather: Snow begins falling (reduces visibility slightly)
+
+TACTICS:
+• Fight with eerie coordination
+• Try to surround targets
+• Don't flee (undead, no survival instinct)
+
+
+EXAMPLE: HOW THIS PLAYS (One Round, GM Perspective)
+
+Your party is a Combatant, Ranger, and Weaver. Two Frostbitten Scouts step out of the trees 10 yards away.
+
+INITIATIVE: Everyone rolls 3d6 and sums. Say the Ranger gets 14, Scout A gets 11, the Combatant gets 10, Scout B gets 9, and the Weaver gets 7. Write the order down. That's it — it won't change.
+
+RANGER'S TURN: "I Mark the closer scout and shoot." She rolls Mark Prey first — 1d6, gets a 4. Basic 2+, that's a success. Scout A is Marked. Second action: Hunter's Strike with her shortbow. She exerts for +1d6. Rolls 2d6: 5, 3. Two successes. Hit for 1 HD. The Scout defends — roll 1d8 (its Prof 1, body die type d8): gets a 6. That's 5+, die survives, 1 damage cancelled. No HD lost. The Ranger's arrow lodged in frozen flesh but didn't crack through. Tell her: "It hits. The thing doesn't flinch."
+
+SCOUT A'S TURN: It closes to melee with the Ranger (10 yards, reaches her). No action left to attack — it spent movement getting there. Frost Aura triggers: 1 HD cold to anyone within 5 yards. Winterwatch Blessing halves cold, rounded down — 0 damage. Tell the table: "The air drops around it. You feel the cold press in, but the brand on your palm flares warm. The blessing holds."
+
+COMBATANT'S TURN: "I Charge the scout on the Ranger." He moves 5+ yards straight. Weapon Strike with +1d6 from Charge. Rolls 2d6 (Prof 1 + Charge bonus): 6, 2. The 6 counts as 2 successes, the 2 counts as 1. Three total — hit for 2 HD (heavy weapon), and 3+ successes triggers Crushing for +1 HD. That's 3 HD total. Scout defends: you roll 1d8 for it — gets a 3. Fail. Only 1 defense roll at Prof 1, so the remaining 2 HD auto-destroy. Scout A drops from 5d8s to 2d8s in one hit. Tell him: "Your axe cracks through the frost. The thing staggers. Pieces of it fall away. It's still moving."
+
+SCOUT B'S TURN: It moves toward the Weaver (the fragile target — undead prioritize the nearest, and the Weaver hung back). It reaches melee, no action to attack. Same Frost Aura / Blessing interaction.
+
+WEAVER'S TURN: She's in melee with Scout B. "I cast Curator's Bolt and back away." First action: Curator's Bolt at point blank — 1d6, rolls a 5. Hit for 1 HD force damage. Scout B defends: 1d8, gets a 7. Survives. No damage through. Second action: She Withdraws (costs her second action, moves 10 yards away without triggering a free strike). She's safe for now. Tell her: "The bolt hits but the thing barely notices. You back away. It watches you go."
+
+That's one round: ~3 minutes at the table. The Ranger set up her Mark for future rounds. The Combatant hit hard but burned his Charge. The Weaver bounced off armor but repositioned. Scout A is wounded, Scout B is untouched. Round 2 is where it gets interesting.
+
+Key GM beats: Announce Frost Aura every time it could trigger — let the Blessing feel earned. When a defense die saves, describe the hit landing but not breaking through. When HD are destroyed, describe physical damage. These scouts are someone's dead friends. Make it uncomfortable.
+
+
+AFTER COMBAT:
+
+If party searches bodies:
+• Scout Lyanna's journal (last entry): "Something at the Cairn. We heard chanting. Saw a figure in robes. Blue light everywhere. Couldn't move. So cold. Can't feel my..."
+• Silver holy symbol (Caerith's dawn-shield, worth 10g, can be returned to town)
+• Masterwork shortswords (can be kept or returned)
+
+BURNING BODIES: Takes 10 minutes and requires fire (alchemical vials or magic). If not burned, they rise again in 1d6 hours.
+
+
+SCENE 4: THE BURIAL CAIRN
+
+Following tracks northeast, 2 hours travel. Party reaches Old Burial Cairn:
+
+THE CAIRN:
+• Ancient stone monument (7 yards tall, stacked stones)
+• Covered in frost and ice
+• Glowing with blue-white light (clearly magical)
+• Circle of frozen corpses around base (12 bodies — missing loggers + scouts)
+
+ATMOSPHERE:
+• Extremely cold here (feels like -30 degrees within 15 yards)
+• No sound — even wind is silent
+• Faint chanting audible (no words, just tones)
+
+PERCEPTION CHECK (Group Roll, Awareness)
+• Difficulty: Basic (2+), need 2 successes
+• Success: The cairn's top stone has been REPLACED — dark blue crystal, carved with symbols
+
+LORE CHECK (Individual, Lore domain)
+• Difficulty: Expert (4+), need 2 successes
+• Success: This is a Frost Focus — a necromantic device that channels Gloam energy through extreme cold, suspending the cycle of endings that should release these souls. The crystal is the key — destroy it, and the dead return to the Gloam's natural mercy.
+
+
+ENCOUNTER 2: THE FROZEN DEAD
+
+When party approaches within 10 yards, the 12 corpses RISE.
+
+SETUP:
+• 8 Frostbitten Thralls (minions, see stat blocks)
+• 1 Frostbitten Logger (Garrus, the foreman, see stat blocks)
+• Cairn in center (can be climbed, Agility 2+, need 2)
+• Frozen ground (difficult terrain)
+
+FROST FOCUS CRYSTAL (Object):
+• Durability: 15 (destroyed when reduced to 0)
+• Defense: None (object doesn't defend)
+• Location: Top of cairn (must climb to reach)
+• Effect: While intact, Frostbitten within 30 yards regenerate 1 HD per round
+
+OBJECTIVE: Destroy the crystal
+
+TACTICS:
+• Thralls swarm party
+• Logger guards cairn
+• Party must either: destroy all undead THEN crystal, OR have someone climb and destroy crystal while others hold the line
+
+When crystal is destroyed:
+• It shatters with sound like breaking ice
+• Blue light fades
+• All Frostbitten IMMEDIATELY collapse (no longer animated)
+• Unnatural cold lifts slightly
+
+
+SESSION 1 CONCLUSION
+
+AFTERMATH OF CAIRN BATTLE
+
+Searching the area reveals:
+• A leather-bound journal hidden in cairn's base (requires thorough search, Awareness Expert 4+)
+• Journal belongs to Thane Coldbrook — a name locals might recognize (Lore/History 2+, need 2): a hedge wizard exiled from Coldmarch 10 years ago for "dark research"
+
+JOURNAL EXCERPTS (read to players):
+
+"They cast me out for seeking preservation. Fools. They don't understand — cold preserves life. Cold SUSPENDS death. If I master frost, I create servants who never tire, never hunger, never die."
+
+"The Frost Focus works. The dead rise at my command. But I need more power. The Cairn is only the first anchor. The second must be deeper. The Pale Heart calls."
+
+"Once both anchors are set, the entire forest will be mine. Let them see what preservation truly means."
+
+"The Gloam whispers that all things must end. I whisper back: not if I freeze them first."
+
+THE PALE HEART: The journal mentions "the Pale Heart" — the darkest, coldest part of the forest, rarely traveled. 12 miles north of the cairn.
+
+Captain Frostfeld (if contacted via signal horn or return to town):
+"Thane Coldbrook? I thought he was dead. If he's built another Frost Focus deeper in the forest, we need to end this before he finishes whatever he's planning. Can you go deeper?"
+
+
+SESSION 1 END
+
+GOOD STOPPING POINT: Party has cleared the cairn, discovered the villain's identity, and learned there's a second site deeper in the forest.
+
+MILESTONE: THE PARTY REACHES LEVEL 2.
+
+Tell your players: "You've survived the cairn, uncovered the threat, and proven yourselves. You are now Level 2."
+
+What changes at Level 2:
+• Hit Dice increase (Tough 5 to 7, Balanced 5 to 7, Fragile 4 to 5)
+• Way abilities unlock (first node in chosen Way)
+• Proficiency, Defense Capacity, and Exertion cap stay at 1
+• Players update their character sheets before Session 2
+
+Players should feel:
+• Successful (cleared immediate threat)
+• Stronger (more dice and a new Way ability)
+• Curious (who is Thane? What is the Pale Heart?)
+• Cautious (deeper danger ahead)
+
+
+SESSION 2: THE PALE HEART
+
+The party is now Level 2. Confirm all players have updated sheets: Prof 1, DC 1, Way node unlocked, exertion cap 1. HD pools increased.
+
+SCENE 1: JOURNEY DEEPER
+
+The party ventures 12 miles north into the darkest part of the Pale Forest.
+
+THE PALE HEART:
+• Trees grow twisted, bark is blackened with frost
+• Temperature drops to -20 degrees (genuinely dangerous without Winterwatch blessing)
+• Blue lights flicker between trees
+• Visibility reduced to 5 yards
+
+NAVIGATION CHECK (Group Roll, Wilderness)
+• Difficulty: (4+, 2) — Hard (treacherous terrain)
+• Failure: Lost for 2 hours, encounter 3 Frostbitten Thralls
+
+
+SCENE 2: THE SECOND FROST FOCUS
+
+Party finds a clearing with a LARGER cairn (10 yards tall), covered in ice sculptures — frozen corpses arranged artistically.
+
+At the base: Thane Coldbrook himself, working on ritual preparations.
+
+READ ALOUD:
+"A figure in frost-covered robes kneels before the cairn. His hands glow with blue light as he carves symbols into the frozen ground. He doesn't look up as you approach. 'I wondered if they'd send someone capable. The Watch has grown soft — but you... you survived the outer anchor. Impressive.'"
+
+
+THANE COLDBROOK'S OFFER
+
+Thane is willing to talk (briefly):
+
+"I don't want to kill you. I want the forest. Nothing more. Leave now, and I'll let you walk away. Stay, and you'll join my preserved gallery. Choose quickly — the second anchor completes in minutes."
+
+SOCIAL CONFRONTATION OPTIONS:
+
+INFLUENCE CHECK (to persuade him to stop)
+• Difficulty: Legendary (6), need 4 successes
+• Likely failure — he's committed to his path
+
+LORE CHECK (to identify ritual weakness)
+• Difficulty: Expert (4+), need 2 successes
+• Success: The ritual isn't complete yet. Destroying the crystal NOW will cause backlash — Thane loses 3 HD and ritual fails permanently.
+
+
+ENCOUNTER 3: THANE COLDBROOK AND THE FROZEN GALLERY
+
+SETUP:
+• Thane Coldbrook (see stat blocks)
+• 4 Frostbitten Thralls (bodyguards)
+• Frost Focus Crystal (10 yards up cairn, Durability 20)
+• Frozen sculptures animate if party gets within 5 yards (2 Ice Wraiths, see stat blocks)
+
+PACING NOTE: This encounter runs 8-12 rounds — it's the climactic fight. Show crystal damage at Durability 10 and 5 (visible cracks, light bleeding) to keep players motivated. If the fight bogs down, reduce remaining crystal Durability by 3-5.
+
+TERRAIN:
+• Cairn in center (climbable, Agility Hard 4+)
+• Frozen ground (difficult terrain)
+• Ice sculptures (provide hard cover but animate if approached)
+
+THANE'S TACTICS:
+• Stays near cairn base
+• Uses Cold Bolt to attack from range
+• If threatened, casts Frost Wall to block approach
+• If reduced to half HD, attempts to flee deeper into forest
+
+OBJECTIVE OPTIONS:
+1. Kill Thane (simplest)
+2. Destroy crystal (ends ritual, weakens Thane)
+3. Both
+
+VICTORY CONDITION: Thane dead OR crystal destroyed + Thane driven off
+
+
+AFTERMATH
+
+When Thane is defeated:
+• Second Frost Focus shatters
+• All undead in forest collapse
+• Unnatural cold begins to fade (will take days)
+• Blue lights extinguish
+
+TREASURE:
+• Thane's spellbook (contains 3 Arcane spells of GM's choice)
+• Frost Focus crystal shards (worth 50g to alchemist/sage)
+• Ritual notes (can be returned to Sister Maren for study)
+
+
+RETURN TO COLDMARCH
+
+Captain Frostfeld greets party at gate:
+
+"You did it. The scouts at the north edge say the lights are gone. The cold is lifting. The forest will be safe again."
+
+REWARDS:
+• 50 gold each (as promised)
+• Winterwatch badge (permanent, grants +1d6 to social checks in northern settlements)
+• Sister Maren's blessing (one free resurrection if player dies within next year — GM's discretion)
+• Town's gratitude (free lodging, crafting services at cost)
+
+MILESTONE NOTE: The party already leveled to 2 between sessions. If continuing into a longer campaign, Level 3 should come after 2-3 more significant milestones (completing a major quest arc, surviving a pivotal story event, or clearing a dangerous region).
+
+
+CAMPAIGN HOOKS (Optional)
+
+• Thane's journal mentions a mentor who taught him the Frost Focus ritual
+• One of the frozen corpses was carrying a message to someone in the capital
+• The Pale Forest's magical corruption attracted something ELSE that still lurks
+
+
+ENEMY STAT BLOCKS
+
+
+FROSTBITTEN SCOUT (Basic Undead)
+
+HD: 5d8s
+Proficiency: 1
+Resolve: — (undead, immune)
+Speed: 10 yards
+Armor: None (former light armor destroyed)
+
+ATTACK: Frozen Shortsword (Light, Basic)
+• Rolls: 2d6
+• Required: 1 success
+• Damage: 1 HD cold + special
+• Special: On hit, target must succeed Fortitude Save (Basic, 2+) or become Chilled (-1d6 on next attack roll)
+
+SPECIAL ABILITIES:
+• Frost Aura: Creatures within 5 yards take 1 HD cold damage per round (automatic, minor attrition). Winterwatch Blessing reduces this to 0 (cold resistance halves, rounded down).
+• Undead Fortitude: Immune to cold, poison, charm, fear
+• Vulnerability: Fire damage deals +1d6
+
+TACTICS: Fight with eerie coordination, try to surround targets, never flee
+
+
+FROSTBITTEN THRALL (Trivial Undead, Minion)
+
+HD: 2d8s
+Proficiency: 1
+Resolve: — (undead)
+Speed: 5 yards (slow, shambling)
+Armor: None
+
+ATTACK: Frozen Claws (Light, Basic)
+• Rolls: 2d6
+• Required: 1 success
+• Damage: 1 HD cold
+• Special: Chilling effect (as Frostbitten Scout)
+
+SPECIAL ABILITIES:
+• Undead Fortitude: Immune to cold, poison, charm, fear
+• Mindless: Cannot be reasoned with, frightened, or controlled
+• Vulnerability: Fire damage deals +1d6
+
+TACTICS: Mindless swarm, slow approach, prioritize nearest target
+
+
+FROSTBITTEN LOGGER (Advanced Undead)
+
+HD: 8d8s
+Proficiency: 2
+Resolve: — (undead)
+Speed: 10 yards
+Armor: 2d6s (frozen hide)
+
+ATTACK: Frozen Axe (Heavy, Basic)
+• Rolls: 3d6
+• Required: 1 success
+• Damage: 2 HD cold
+
+SPECIAL ABILITIES:
+• Frost Breath (1/combat, action, 5-yard cone)
+  - Rolls: 3d6 vs Agility save (Basic, 2+)
+  - Damage: 2 HD cold (half on save success)
+• Undead Fortitude: Immune to cold, poison, charm, fear
+• Remnant Skill: Retains some logger combat training — can position for Advantage, use tactics
+• Vulnerability: Fire damage deals +1d6
+
+TACTICS: Guards important locations, targets strongest-looking PC, uses Frost Breath when multiple targets clustered
+
+
+THANE COLDBROOK (Advanced Enemy, Necromancer)
+
+HD: 10d6s
+Proficiency: 3
+Resolve Threshold: 4 (already weathered by necromantic rituals)
+Speed: 10 yards
+Armor: 2d6s (frost-infused robes)
+
+ATTACK: Cold Bolt (Ranged, Basic)
+• Range: 60 yards
+• Rolls: 4d6
+• Required: 1 success
+• Damage: 2 HD cold + special
+• Special: Target Fortitude save (Basic, 2+) or slowed (movement halved) for 1 round
+
+SPELLS AND ABILITIES:
+
+Frost Wall (Basic, 2+, action)
+• 5-yard wall of ice, blocks line of sight and movement
+• Durability 10, can be destroyed
+• Lasts Proficiency rounds
+• Usable 2/combat
+
+Raise Thrall (Basic, 2+, action)
+• Target: One corpse within 30 yards
+• Raises as Frostbitten Thrall (see stat block)
+• Thrall acts immediately on Thane's turn
+• Usable 3/combat
+
+Frost Nova (Expert, 4+, action, desperate move)
+• 20-yard radius burst centered on self
+• All creatures: 3 HD cold damage
+• Agility save (Basic, 2+) for half
+• Thane loses 2 HD using this (backlash)
+• Usable 1/combat
+
+SPECIAL ABILITIES:
+• Cold Mastery: Immune to cold damage, resistance to fire (halve damage)
+• Necromantic Focus: +2d6 when animating or commanding undead
+• Ritual Anchor: While Frost Focus crystal intact, regenerate 2 HD per round (Pale Heart is stronger than the Cairn anchor)
+
+TACTICS:
+• Stays at range, uses Cold Bolt
+• Raises Thralls to create barriers
+• Uses Frost Wall if party closes distance
+• At half HD or less: attempts Frost Nova then flees
+• Will negotiate if clearly losing
+
+
+ICE WRAITH (Advanced Undead, Animated Sculpture)
+
+HD: 6d8s
+Proficiency: 2
+Resolve: — (undead)
+Speed: 15 yards (flies/glides)
+Armor: None (incorporeal)
+
+ATTACK: Chilling Touch (Light, Basic)
+• Rolls: 3d6
+• Required: 1 success
+• Damage: 1 HD cold; target then makes a Resolve check (on fail, RT increases by 1)
+
+SPECIAL ABILITIES:
+• Incorporeal: Physical attacks deal half damage (round down)
+• Magic vulnerability: Magical attacks deal +1d6
+• Frost Glide: Can move through solid objects briefly
+• Death Wail (1/combat, action, when reduced to 3 HD or less)
+  - 30-yard radius
+  - All creatures: Resolve check (Basic, 2+) or RT increases by 1
+  - Audible for miles
+
+TACTICS: Glide through obstacles, prioritize spellcasters, use Death Wail when bloodied
+
+
+GM QUICK REFERENCE FOR THIS ADVENTURE
+
+SESSION 1 CHECKLIST
+
+BEFORE SESSION:
+- Read both session outlines
+- Print/note enemy stat blocks
+- Have dice ready (d6s, polyhedral set)
+- Print Quick Reference for players
+- Prepare Wintermarch map (simple sketch is fine)
+
+DURING SESSION:
+- Explain: "No hit points — you have dice that get destroyed"
+- Remind: "Roll d6s. Count successes by tier (usually Basic 2+ at Level 1, and 6 = 2 successes always)."
+- On defense: "Roll one die, 5+ saves it, otherwise lose it"
+- Keep fights short (3-4 rounds at Level 1)
+
+AFTER SESSION:
+- Award Level 2 milestone (party levels up before Session 2)
+- Note what worked and what didn't
+- Plan Session 2 if continuing
+
+
+EMERGENCY GM FIXES
+
+Fight too easy?
+• Add reinforcements
+• Give enemies +1d6 to attacks
+• NPC uses desperate move
+
+Fight too hard?
+• Trivial/Basic foes flee at half HD
+• Reinforcements arrive (for players)
+• Environmental effect ends fight early
+
+Player at 0 HD?
+• They get 1 action per turn (not 2)
+• Make Resolve check each round (below RT = RT increases by 1)
+• Stabilize action from ally stops spiral
+• Don't kill players in Session 1 unless earned

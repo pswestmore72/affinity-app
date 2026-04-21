@@ -1,0 +1,746 @@
+AFFINITY: FRACTURE
+PLAYER'S STARTER GUIDE
+Welcome to the Edge of Mortality
+
+
+"You want to be a hero. That's the first step — and arguably the most dangerous one. This guide will teach you how to build a character, roll dice, and survive things that would rather you didn't. Your health is actual dice that shatter when you take damage. Every fight costs something. Every choice costs something. That's not a flaw — that's the whole point. Read carefully."
+
+— Chandle, Chandler Services of Generalities and Oddities
+
+
+WHAT IS AFFINITY?
+
+The gods broke the world. The dead remained. The forests grew teeth.
+
+You are mortal. Your health is a handful of dice — actual, physical dice that shatter when you take damage. When they're gone, so are you. Every swing of a sword, every spell cast in desperation, every choice to push harder than you should — all of it costs something real.
+
+Affinity is a tabletop roleplaying game set in Aeralon, a world held together by tension, not peace. You play adventurers who carry the same fractures the cosmos does — competing loyalties, impossible choices, and the stubborn refusal to break.
+
+This is YOUR story. The dice are your life. Guard them well.
+
+
+THE FUNDAMENTAL TRUTH
+
+There are NO hit points.
+
+You have Hit Dice — actual individual dice that exist or get destroyed.
+
+Example:
+• You have 5d10s body dice = five separate d10 dice
+• Take 1 damage, fail defense = lose 1 die — now you have 4d10s
+• You don't subtract points. You lose DICE.
+
+When your dice run out, you face death. This is the core of Affinity.
+
+
+HOW TO ROLL
+
+There are two types of rolls: Action Rolls and Defense Rolls.
+
+You'll need: Multiple d6s (two colors recommended) + polyhedral dice (d4, d6, d8, d10, d12, d20).
+
+ACTION ROLLS (d6 Dice Pools)
+
+When you attack, cast spells, or use abilities, roll d6s and count successes.
+
+The threshold depends on the action's tier:
+
+BASIC (2+) — 2, 3, 4, 5 = 1 success each. 6 = 2 successes.
+EXPERT (4+) — 4, 5 = 1 success each. 6 = 2 successes.
+LEGENDARY (6 only) — 6 = 2 successes. Nothing else counts.
+
+At Level 1, most actions are Basic (2+ threshold).
+
+A roll of 6 ALWAYS counts as 2 successes, regardless of tier.
+
+Example: Basic attack, roll 3d6, get 6, 3, 2 — That's 4 successes.
+
+DEFENSE ROLLS (Armor/Body Dice)
+
+When you defend, roll your actual armor or body dice (d4, d6, d8, d10, d12, d20).
+
+Defense always uses the same threshold: 5+
+
+• Roll 5+ = Success — die survives, 1 damage cancelled
+• Roll 1-4 = Fail — that die is destroyed
+
+DEFENSE DICE SURVIVAL
+Roll 5+ to survive. Bigger dice = better odds.
+
+d4   0%  — Absorbs one hit. Always destroyed.
+d6  33%  — Light. Fragile protection.
+d8  50%  — Medium. Coin flip survival.
+d10 60%  — Heavy. Built to last.
+d12 67%  — Shields and magic. Hard to break.
+
+Your armor is your lifeline. Invest wisely.
+
+Example: You have 2d8s armor. Take 2 damage, roll both — 7, 3. One survives (7 is 5+), one destroyed (3 is under 5). You now have 1d8 armor.
+
+
+ACTION RESOLUTION (The Core Loop)
+
+Every action in Affinity follows this pattern:
+
+1. Declare what you're doing (and its tier — usually Basic at L1)
+2. Roll your d6s (Proficiency dice + any exertion)
+3. Count successes (based on the action's threshold)
+4. Check requirements (did you meet the required successes?)
+5. Apply effect
+
+AT LEVEL 1
+
+• Proficiency = 1 (you roll 1d6 for most actions)
+• Most actions are Basic: 2+ threshold, need 1 success
+• That's it. Roll 1d6, get 2+ = you succeed.
+
+
+EXERTION (Risk for Reward)
+
+Want more dice? Exert. But there's risk.
+
+• Add extra d6s to your roll (up to Proficiency per action)
+• If you roll a 1 on an exertion die: Lose 1 HD from your pool
+
+At Level 1 (Proficiency 1): You can exert 1 extra die per action.
+
+Example:
+• Base roll: 1d6 (Proficiency)
+• Add exertion: +1d6
+• Roll 2d6, get 6, 1 — 2 successes, but lose 1 HD!
+
+Exert. Survive. Fracture.
+
+CHANDLE'S ASIDE: WHY EXERTION BURNS
+
+"You can always play it safe — roll your Proficiency die alone and hope for the best. But safe is boring, and boring gets people killed when the moment demands everything. Every 1 on an exertion die destroys a Hit Die. Intentional. Power has a price. The adventurer who exerts on every attack will hit harder — and die faster. The one who never exerts will be safe — and useless when it matters. The sweet spot is in between. That's where Affinity lives."
+
+
+COMBAT BASICS
+
+Your Turn in Combat
+
+Movement: 10 yards (doesn't cost an action)
+
+Actions: You get 2 actions per turn
+• Attack, use ability, defend, help an ally, etc.
+• Most things at Level 1 are Basic actions (easy to do)
+
+Free Actions: Drop something, say something brief
+
+
+ATTACKING
+
+1. Roll Proficiency d6s (+ any exertion)
+2. Need: 1 success at 2+ threshold (for Basic attacks)
+3. Hit = weapon damage. 3+ successes trigger weapon properties (see Equipment).
+
+At Level 1: Roll 1-2d6. Any die showing 2+ counts.
+
+Example:
+• Attacking with a sword (1 HD damage, Basic tier = 2+)
+• Roll 2d6 (Prof 1 + Exert 1), get 5, 3
+• Both are 2+ — 2 successes — hit for 1 HD damage
+• Extra success could trigger a weapon property if the weapon has one
+
+
+DEFENDING
+
+When you take damage:
+
+1. Attacker declares damage (e.g., "3 HD damage")
+2. You roll defense dice from outermost layer (armor first, then body)
+3. 5+ = that die survives, damage cancelled
+4. 4 or under = that die is destroyed, move to next die
+
+AT LEVEL 1
+
+• Defense Capacity = 1 (you get 1 defense roll per attack)
+• Roll 1 defense die. If 5+, cancel 1 damage. If not, lose that die.
+• Any remaining damage = auto-lose dice from your pool.
+
+Example:
+• Take 3 HD damage, Defense Capacity 1, Start: 2d8s armor
+• Roll 1d8 (armor) — 6 = success, cancel 1 damage, armor still 2d8s
+• 2 HD remaining, no rolls left — auto-fail each:
+  - 1st HD: lose 1 armor die (2d8s to 1d8)
+  - 2nd HD: lose 1 armor die (1d8 to 0, armor gone)
+• If more damage remains, start losing body HD
+
+HIT DICE TRACKING
+
+Your character sheet shows dice pools:
+
+Body HD:  5d10s body dice
+Armor:    2d8s armor dice
+
+When you lose dice, cross them off. When they're gone, they're gone.
+
+At 0 Body HD: You're in trouble (see Resolve).
+
+
+MOVEMENT AND POSITIONING
+
+Movement: 10 yards per turn (free, split however you like)
+
+ENGAGEMENT: If you're in melee range (~5 yards) of an enemy and move away, that enemy makes a free strike against you — one Basic attack from their stat block. Costs them nothing. Happens every time.
+
+To leave safely:
+• Withdraw (costs 1 action): Move your speed, no free strikes
+• Or just take the hit and run
+
+POSITIONING BONUSES:
+• Advantage (+1d6 to attacks): Favorable position — flanking, high ground, ambush. GM calls it.
+• Cover (+1d6 / +2d6 defense): Physical barrier. Light = +1d6. Hard (walls, boulders) = +2d6.
+• Concealment (+1d6 defense): Visual obscurity — fog, shadows, dense foliage. Distinct from cover; they stack.
+• Brace (give up all movement): +1d6 to your next action
+
+MOVEMENT ACTIONS:
+• Charge (1 action + movement): Move 5+ yards straight, attack at +1d6
+• Sprint (1 action): Double movement, can't attack
+• Withdraw (1 action): Move safely out of engagement
+
+Position matters. Advantage hits harder. Cover keeps you alive. Concealment lets Rangers deal bonus damage AND stay protected. Think about where you stand — the battlefield rewards it.
+
+
+RESOLVE (Mental Fortitude)
+
+Everyone starts at Resolve Threshold 2 (you need 2+ on 1d6 to hold steady). It rarely escalates at Level 1.
+
+When you make a Resolve check:
+• The first time each round that damage destroys a Body HD
+• At 0 HD: automatic check each round (no damage needed)
+• Certain enemy effects (fear, psychic attacks)
+
+Resolve Check: Roll 1d6 against your current Resolve Threshold.
+• Roll at or above RT = You hold (no change)
+• Roll below RT = RT increases by 1 (you fall one stage)
+
+Resolve Stages: RT 2-4 (Functional) — RT 5+ (Cracking: no Expert+ actions) — Collapse
+
+Don't worry about Resolve yet. Your GM will tell you when to check.
+
+At 0 Body HD: You're still standing but limited to 1 action per turn. Resolve checks each round.
+At 0 HD AND Collapse (fail at RT 6) = death. Until then, you can be saved.
+
+CHANDLE'S ASIDE: WHY RESOLVE ESCALATES
+
+"Resolve starts easy — 2+ on 1d6 to hold. Each failed check makes the next one harder: 3+, then 4+, then 5+, then 6. No tracking. No penalty tables. The spiral tightens itself. Early hits barely register. Late hits are devastating. Characters don't slowly weaken — they hold steady until they can't, then they fracture. That sudden shift from 'I'm fine' to 'I'm in real trouble' is the heart of Affinity combat."
+
+
+RESTING
+
+Rest (30 min - 8 hours, threatened):
+• Regain Proficiency HD (1 at Level 1)
+• Lower Resolve Threshold by 1 (minimum 2)
+• Armor is NOT restored (no time, no safety)
+• Max 2 rests per day
+
+Recover (6+ hours, safe place):
+• Regain ALL HD
+• Reset Resolve Threshold to 2
+• Armor fully restored (time to mend, refit, repair)
+
+
+ARMOR REPAIR (Field Conditions)
+
+Lost armor dice mid-dungeon with no safe place to Recover? You can attempt a field repair.
+
+Craft Check (Expert, 4+): Need 2 successes
+• Requires tools (smith's kit, leather repair kit, or equivalent)
+• Takes 10 minutes of uninterrupted work
+• Success: Restore your full armor layer
+• Failure: Armor stays broken — try again after your next Rest
+
+No tools? No repair. Armor doesn't fix itself. Guard it well.
+
+
+CREATING YOUR CHARACTER
+
+Follow these steps to create a Level 1 character in 10 minutes.
+
+STEP 1: CHOOSE YOUR CLASS
+
+Your class determines how tough you are and what you're good at.
+
+COMBATANT (d10) — You fight. You're armored. You hit hard and don't fall down.
+RANGER (d8) — You survive wilderness and track anything that moves.
+WEAVER (d6) — You bend reality. Fragile, but reality is your plaything.
+
+BETA PLAYTEST SCOPE: This starter guide includes Combatant, Ranger, and Weaver. Full release includes all seven core classes.
+
+THE OTHER CLASSES (Coming in Full Release)
+
+• Priest (d8) — Channel divine will. Heal the broken, smite the profane.
+• Scholar (d8) — Knowledge is the deadliest weapon. Outwit what others must outfight.
+• Shaman (d6) — Walk between worlds. Command spirits and primal forces.
+• Sovereign (d10) — The closed system. Resource master who outlasts everyone through perfect efficiency.
+
+AT LEVEL 1, YOU HAVE:
+
+BODY HIT DICE BY CLASS
+• Combatant (d10): 5d10s
+• Ranger (d8): 5d8s
+• Weaver (d6): 4d6s
+
+UNIVERSAL LEVEL 1 STATS
+Proficiency: 1
+Resolve Threshold: 2
+Defense Capacity: 1
+
+Write down your class, your Hit Dice, and move to Step 2.
+
+
+COMBATANT
+
+Hit Die: d10 (Tough)
+Custodial Connection: The Concordant Halls — Keepers of Oath
+
+The Concordant Halls do not ask what you fight for. They ask whether you will hold the line when holding costs everything. Your oath is not decoration — it is the metaphysical weight behind every strike, every shield-raise, every refusal to fall.
+
+You are purpose made manifest. Your weapon is an extension of your oath. The battlefield bends to those who know why they fight.
+
+STARTING ABILITIES (Level 1)
+
+Weapon Strike (Basic, 2+)
+• All weapon attacks are Basic (2+)
+• Light weapons: 1 success, 1 HD damage
+• Heavy weapons: 2 successes, 2 HD damage
+• Ranged weapons: 1-2 successes depending on range
+• 3+ successes trigger weapon properties
+
+Rally (Basic, 2+)
+• Required: 1 success
+• 30 yards, choose one ally
+• Chosen ally gains +1d6 to their next action (doesn't burn HD)
+• Usable Proficiency times per Rest
+
+Hold the Line (Basic, 2+)
+• Required: 2 successes
+• Duration: Proficiency rounds
+• 10-yard zone around you: enemies have movement halved
+• Allies in zone (including yourself) gain +1d6 to first defense each round (doesn't burn HD)
+• Usable Proficiency times per Rest
+
+Oath-Driven Strike (Basic, 2+)
+• Required: 2 successes (damage + Proficiency HD)
+• 3+: push 5 yards or knock prone
+• If target opposes your sworn purpose (GM judges): +1d6 to the roll
+• Usable Proficiency times per Rest
+
+Battlefield Awareness (Passive)
+• +1d6 (doesn't burn HD) on: reading terrain, positioning, anticipating enemy movement
+• Does NOT apply to attack or defense rolls
+
+Warrior's Presence (Passive — Social Mastery)
+• +1 automatic success when intimidating/demanding in social Group Challenges
+• Reduce RT advancement from failed social challenges by 1 (min 0)
+
+STARTING EQUIPMENT
+• Medium armor (2d8s)
+• Shield (1d12)
+• Weapon of choice
+
+WAY OF THE BLADE (Level 2)
+
+Ways are class-specific paths that shape how you fight and grow. Choose one at character creation; you unlock your first node at Level 2.
+
+Justice, enforcement, righteous consequence.
+
+Row 1: Honed Edge — Weapon Strike deals +1 HD against targets at half HD or less.
+
+PATH: WAR-TRAINED
+
+Paths are character-defining customizations available to all classes. Your Primary Path (chosen at Level 1) grants immediate power and scales with Proficiency.
+
+You have extensive martial training and battlefield expertise.
+
+Benefit:
+• +1d6 to all attack rolls when wielding your signature weapon type (choose: blades, axes, hammers, spears, or bows) — doesn't burn HD on 1s
+• +1 HD to your Body pool permanently
+• When you reduce an enemy to 0 HD in combat, restore 1 HD to yourself (adrenaline surge)
+
+Proficiency 3+ Milestone: When fighting alongside allies, your signature weapon attacks gain an additional +1d6 (doesn't burn HD). War is taught in formation; you've mastered it.
+
+
+RANGER
+
+Hit Die: d8 (Balanced)
+Custodial Connection: The Living Accord — Keepers of the Cycle
+
+The Living Accord teaches that life without death is stagnation, and death without life is annihilation. You walk the line between — knowing when to nurture and when to prune, when to protect and when to let the cycle turn.
+
+You are the wilderness made flesh. You track what others cannot find. The wild recognizes you as kin — and kin carries obligations.
+
+STARTING ABILITIES (Level 1)
+
+Hunter's Strike (Basic, 2+)
+• Weapon attacks are Basic (2+)
+• Required: 1 success
+• From concealment or against Marked target: +1 HD damage
+
+Mark Prey (Basic, 2+)
+• 60 yards, one creature
+• Required: 1 success
+• +1d6 to track, attack, or act against marked creature (doesn't burn HD)
+• Sense direction and distance within 1 mile
+• Sense approximate HD (full/half/quarter/low)
+• Lasts until target drops to 0 HD or you mark another
+• Usable at will (one mark at a time)
+
+Killing Ground (Basic, 2+)
+• Required: 2 successes
+• 30-yard radius zone, Proficiency rounds
+• Choose ONE effect:
+  - Mire: Difficult terrain for enemies
+  - Cover: Allies gain light cover (+1d6 defense)
+  - Hazard: 1 HD damage to enemies starting/entering
+  - Concealment: Allies gain concealment (+1d6 defense; counts as concealment for Hunter's Strike bonus damage)
+• Usable Proficiency times per Rest
+
+Culling Strike (Basic, 2+)
+• Against target at half HD or less, or RT 5+
+• Required: 2 successes
+• Weapon damage + Proficiency HD
+• Usable Proficiency times per Rest
+
+Nature's Treaty (Passive)
+• Auto-succeed Basic Wilderness checks
+• Leading group travel: all party members +1d6 to Wilderness rolls (doesn't burn HD)
+
+Hunter's Read (Passive — Social Mastery)
+• +1d6 on social Group Challenges when reading people or detecting deception
+• Can Support a social challenge through presence alone — no words needed
+
+STARTING EQUIPMENT
+• Medium armor (2d8s)
+• Weapon of choice (favors ranged/versatile)
+
+LIMITED SPELLCASTING (Primal Domain)
+• Known Spells: Proficiency x 3 (3 at Level 1, Primal domain only)
+• Prepared Spells: Proficiency + 1 (2 at Level 1)
+• Ritual Casting: Any Primal spell, even if not known
+• Cannot cast Legendary tier spells
+
+The wild speaks in a language older than words. At Level 1, you have learned to listen — and sometimes, to answer.
+
+STARTING SPELLS (Choose 3 from Primal domain — your Known list)
+• Elemental Grasp (Basic, 2+) — 30 yards, 1 HD elemental damage (fire, cold, lightning, or acid — choose when casting)
+• Wild Mending (Basic, 2+) — Touch, restore 1d6 HD to target
+• Speak with Beast (Basic, 2+) — 15 yards, communicate with one animal for Proficiency rounds
+• Verdant Step (Basic, 2+) — Teleport 10 yards to natural ground you can see
+• Thread of the Accord (Basic, 2+) — Sense life force of all creatures within 10 yards for Proficiency rounds
+• Spirit Sight (Basic, 2+) — See spirits, ghosts, and planar boundaries for 1 + successes rounds
+
+WAY OF THORN (Level 2)
+
+Ways are class-specific paths that shape how you fight and grow. Choose one at character creation; you unlock your first node at Level 2.
+
+Predation, competition, ambush mastery.
+
+Row 1: Predator's Patience — From concealment, +2 HD damage instead of +1 (Hunter's Strike upgrade).
+
+PATH: WILD-TOUCHED
+
+Paths are character-defining customizations available to all classes. Your Primary Path (chosen at Level 1) grants immediate power and scales with Proficiency.
+
+You have a deep connection to nature and beasts.
+
+Benefit:
+• +2d6 to all Wilderness skill rolls (doesn't burn HD on 1s)
+• You can communicate simple concepts with animals (intent, not mind-reading)
+• Once per Recover, call a Beast Companion (wolf, hawk, bear) that aids you for one scene. It has HD = half your level (rounded up), acts on your turn following simple commands
+
+Proficiency 3+ Milestone: Your Beast Companion gains +1d6 to its own actions. Your animal communication deepens — you can convey complex plans like "guard this passage and howl if anyone approaches from the east."
+
+
+WEAVER
+
+Hit Die: d6 (Fragile)
+Custodial Connection: The Curator Arcanum — Keepers of Knowledge
+
+The Curator Arcanum exists because of a single truth: knowledge without humility ends the world. You study the Weave itself — the underlying pattern that holds reality together. That makes you the most versatile caster alive and the most fragile thing on the battlefield.
+
+You bend reality. You reshape what others call fixed. Fragile, but devastating — because devastating is what happens when someone who understands the rules decides to break them.
+
+STARTING ABILITIES (Level 1)
+
+Spellcasting (Basic-Expert-Legendary, varies)
+• Your spells are your weapons — cast from your prepared list
+• Known Spells: Proficiency x 5 (5 at Level 1, any domain)
+• Prepared Spells: 3 + Level (4 at Level 1)
+• Ritual Casting: Any spell from any domain, even if not known
+• You are the ONLY class that can cast Legendary tier spells
+
+Weave Sight (Basic, 2+)
+• Required: 1 success
+• 10 yards per success, Proficiency rounds
+• See magical auras, active spells, magic items, Weave disturbances
+• Usable at will
+
+Thread Literacy (Passive)
+• Basic tier spells require 1 less exertion die (minimum 0)
+• Can cast Basic spells using only Proficiency dice
+
+Pattern Sight (Passive — Social Mastery)
+• +1d6 on social Group Challenges involving reading people or detecting deception
+• After a social challenge, learn if opponent is under magical influence or oath-bound
+• +2d6 when discussing magic, planar matters, or the Weave (doesn't burn HD)
+
+Arcane Recovery (Passive)
+• During a Rest, swap Proficiency prepared spells
+• Flexibility to adapt your loadout between encounters
+
+STARTING EQUIPMENT
+• No armor (can wear any if acquired)
+• Quarterstaff or dagger
+• Component pouch, arcane focus
+
+STARTING SPELLS (Choose 5 from any domain — your Known list)
+• Curator's Bolt (Basic, 2+) — 30 yards, 1 HD force damage
+• Read the Weave (Basic, 2+) — 10 yards, see magical auras
+• Arcane Ward (Basic, 2+) — 30 yards, +1d6 to next defense roll
+• Magical Armor (Basic, Ritual) — 30 yards, grants 2d12s magical armor
+• Message (Basic, 2+) — 1 mile, send short message to known creature
+• Comprehend Script (Basic, 2+) — Touch, read one page in any language
+• Catalogue (Basic, 2+) — Sight, memorize one page/map/image perfectly
+
+WAY OF UNLEASHED FORCE (Level 2)
+
+Ways are class-specific paths that shape how you fight and grow. Choose one at character creation; you unlock your first node at Level 2.
+
+Evocation mastery, raw magical power.
+
+Row 1: Empowered Cantrips — Basic tier damage spells deal +1 HD.
+
+PATH: SPELL-TOUCHED
+
+Paths are character-defining customizations available to all classes. Your Primary Path (chosen at Level 1) grants immediate power and scales with Proficiency.
+
+Magic flows through you more readily than most.
+
+Benefit:
+• Learn +Proficiency bonus spells from Arcane domain (doesn't count against Known limit) — +1 spell at Level 1
+• Ritual casting time reduced by 25%
+• Once per Recover: Overcast — cast a spell at your current tier, but apply the effect of one tier higher (damage, duration, range). Still roll at your tier.
+
+Proficiency 3+ Milestone: When you cast a spell and spend exertion, one of your exertion dice becomes safe for that roll (doesn't burn HD on 1s). Your magical discipline minimizes waste.
+
+
+EQUIPMENT
+
+WEAPONS
+
+All weapon properties trigger on 3+ successes. At Level 1, this usually requires exertion or a lucky 6.
+
+Light (1 HD) — Swift: Make a second attack as a free action (once per turn).
+Heavy (2 HD) — Crushing: +1 HD damage.
+Precise (1 HD) — Lowers your action threshold by 1 tier (rapiers, spears).
+Ranged (1-2 HD) — Piercing: 1 HD bypasses armor and hits body directly.
+
+ARMOR
+
+Light — 2d6s. Anyone can wear it.
+Medium — 2d8s. Anyone can wear it.
+Shield — +1d12. Anyone can carry it.
+
+
+QUICK REFERENCE CARD
+
+LEVEL 1 STATS
+
+Proficiency: 1
+Actions per turn: 2
+Exertion cap (per action): 1 extra die
+Defense rolls (per attack): 1
+Movement: 10 yards
+
+ACTION ROLLS (Basic Tier - Most Common at L1)
+
+Roll 1d6 per Proficiency + exertion dice, count successes:
+• 1: No success (if exertion die: lose 1 HD)
+• 2, 3, 4, 5: 1 success each
+• 6: 2 successes
+
+Expert Tier (4+): Only 4, 5 = 1 success; 6 = 2
+
+DEFENSE ROLLS (Armor/Body Dice)
+
+Roll your defense dice (d4, d6, d8, d10, d12), need 5+:
+• 1-4: Die destroyed
+• 5+: Die survives, 1 damage cancelled
+
+
+WHY THIS WORKS
+
+Affinity is built on tension. Once you understand why the mechanics feel the way they do, every rule clicks into place.
+
+CHANDLE'S ASIDE: WHY GROUP CHALLENGES POOL SUCCESSES
+
+"Outside combat, the whole party rolls together and pools successes. One character leads, others support. Everyone matters — the Combatant's strength helps the climb, the Weaver's knowledge cracks the puzzle, the Ranger's tracking finds the trail. No one sits out. No one watches the 'skill character' play alone. Affinity is a group story. The dice reflect that."
+
+
+COMBAT EXAMPLE: THE FULL FLOW
+
+The trail ends at a collapsed bridge. An orc raider stands in the rubble, axe already raised. Neither speaks. Both know.
+
+Kael (Combatant, Level 1) faces an Orc Raider.
+
+Kael: 5d10s body, 2d8s armor, 1d12 shield
+Orc:  4d8s body, 2d6s armor, Prof 2, RT 5
+
+ROUND 1 — KAEL ATTACKS
+
+Kael uses Weapon Strike (Basic, 2+) with a longsword (2 HD damage). He exerts for +1d6.
+
+Roll: 2d6 (1 Prof + 1 Exert) — Results: 5, 3
+Both are 2+ — 2 successes. Hit!
+
+The exertion die (3) isn't a 1, so no HD burned. Good.
+
+Damage: 2 HD to the Orc.
+Orc defends: Rolls 2d8 (Prof 2) — Results: 7, 2
+  7 = 5+, success — 1 damage cancelled
+  2 = fail — die destroyed from armor layer
+Remaining: 1 HD damage. Orc loses 1 armor die (2d6s to 1d6).
+
+Orc is now: 4d8s body, 1d6 armor.
+
+ROUND 1 — ORC STRIKES BACK
+
+Orc swings its Greataxe (Basic, 2+, 3d6, 2 HD damage).
+
+Roll: 3d6 — Results: 6, 4, 1
+  6 = 2 successes, 4 = 1 success, 1 = no success
+Total: 3 successes. Hit!
+
+(NPCs don't burn HD on 1s — just ignore it and move on.)
+
+Damage: 2 HD to Kael.
+Kael defends: Rolls 1d8 (Prof 1, armor layer first) — Result: 3
+  3 = fail — armor die destroyed, 1 damage cancelled
+1 HD remaining damage — second armor die destroyed.
+Kael's armor: 2d8s to 0. Armor gone.
+
+But no Body HD lost — no Resolve check. Armor did its job.
+
+ROUND 2 — KAEL USES OATH-DRIVEN STRIKE
+
+Kael swings hard. Oath-Driven Strike (Basic, 2+, weapon damage + Proficiency HD = 2 + 1 = 3 HD damage on 2+ successes). He exerts.
+
+Roll: 2d6 — Results: 6, 1
+  6 = 2 successes, 1 = no success
+Total: 2 successes. Hit!
+
+But the exertion die rolled 1 — Kael loses 1 Body HD.
+Kael: 5d10s to 4d10s.
+
+Body HD was destroyed — Resolve check!
+Kael's RT is 2. Roll 1d6: gets 4. 4 is 2+ = holds. No change.
+
+Damage: 3 HD to the Orc.
+Orc defends: Rolls 2d8 — Results: 5, 8
+  Both 5+ — 2 damage cancelled
+1 HD remaining — destroys Orc's last armor die (1d6 to 0).
+
+Orc is now: 4d8s body, no armor.
+
+ROUND 2 — ORC RETALIATES
+
+Orc is below half HD? No, still at 4d8s. Swings Greataxe again.
+
+Roll: 3d6 — Results: 2, 5, 4
+Total: 3 successes. Hit for 2 HD.
+
+Kael has no armor. Defends with body dice.
+Kael defends: Rolls 1d10 (Prof 1, body die) — Result: 7
+  7 = 5+, success — 1 damage cancelled, die survives
+1 HD remaining — Kael loses 1 Body HD. Now 3d10s.
+
+Body HD destroyed — Resolve check!
+Kael's RT still 2. Roll 1d6: gets 2. 2 is 2+ = holds. Close.
+
+ROUND 3 — KAEL FINISHES IT
+
+Kael attacks with Weapon Strike. No exertion this time — he's bleeding and can't afford to lose more HD.
+
+Roll: 1d6 — Result: 4
+  4 = 1 success. Just enough. Hit for 2 HD.
+
+Orc defends: Rolls 2d8 (body dice now) — Results: 3, 4
+  Both fail — 0 damage cancelled
+Full 2 HD hits body. Orc: 4d8s to 2d8s.
+
+Orc is below half HD. Rage triggers: +1d6 to attacks.
+
+Kael uses his second action: Weapon Strike again.
+
+Roll: 1d6 — Result: 6
+  6 = 2 successes. Solid hit for 2 HD.
+
+Orc defends: Rolls 2d8 — Results: 1, 3
+  Both fail. 2 HD destroyed.
+Orc: 2d8s to 0 HD. The Orc drops.
+
+AFTERMATH:
+Kael is standing at 3d10s body, no armor, RT 2. Bruised but alive. His armor is gone until he can Recover or field-repair it. The exertion gamble cost him a Hit Die — but it also ended the fight a round sooner.
+
+That's the trade. Every fight in Affinity asks the same question: how much of yourself are you willing to spend to survive?
+
+
+CHARACTER SHEET (Quick Template)
+
+NAME: ___________________________  CLASS: _______________
+LEVEL: ___  PROFICIENCY: ___  DEFENSE CAPACITY: ___
+
+BODY HIT DICE (type: d___)
+___d___s
+
+ARMOR (type: d___)
+___d___s
+
+SHIELD (type: d___)
+___d___s
+
+RESOLVE THRESHOLD: [ 2 ] to 3 to 4 to 5 to 6 to Collapse
+At RT 5+: No Expert+ actions
+At 0 HD: 1 action per turn
+
+WEAPON: ___________________  Damage: ___ HD
+Property (3+ successes): _________________________
+
+PATH: ____________________
+Benefit: ____________________________________________
+
+WAY: _____________________  (unlocks at Level 2)
+
+ABILITIES
+1. ____________________  (Tier: ___, Required: ___)
+2. ____________________  (Tier: ___, Required: ___)
+3. ____________________  (Tier: ___, Required: ___)
+4. ____________________  (Tier: ___, Required: ___)
+
+PASSIVES
+• _____________________________________________________
+• _____________________________________________________
+
+EQUIPMENT AND NOTES
+_____________________________________________________
+_____________________________________________________
+_____________________________________________________
+
+
+You're Ready
+
+That's everything you need. When in doubt:
+
+1. Tell the GM what you want to do
+2. Roll your d6s
+3. Count successes using the action tier (usually 2+ at Level 1)
+4. The GM tells you what happens
+
+Welcome to Affinity. Guard your dice. They are all you have.
+
+"You're as ready as anyone ever is. The World Primer told you why the cosmos matters. This guide taught you how to survive it. Between the three guides, you might actually make it."
+
+— Chandle

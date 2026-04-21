@@ -365,7 +365,7 @@ No legal open travel portals with the Mortal Weave. However, one of the easiest 
 ### 8. The Roiling Crucible
 **Realm of Primordial Flux and Elemental Becoming**
 
-The Plane of the Elements—all elements found on any Plane exist here. Also called the **Elemental Storm**. Central to the **Pact of Neutrality** after **The Infernal Schism**, wherein all higher beings agreed this Plane would no longer be a gateway for unseen passage and only for study. During the Crown-Breaking, Azravael used the Roiling Crucible as a conduit to propagate her rewriting of infernal law undetected. The Mortal Weave, as the only unbiased party, was tasked with creating an elite governing force (the **Interplanar Travel Network**) to ensure compliance and prevent another reality-altering event.
+The Plane of the Elements—all elements found on any Plane exist here. Also called the **Elemental Storm**. Central to the **Pact of Neutrality** after **The Infernal Schism**, wherein all higher beings agreed this Plane would no longer be a gateway for unseen passage and only for study. During the Crown-Breaking, Azravael used the Roiling Crucible as a conduit to propagate her rewriting of infernal law undetected. The Mortal Weave, as the only unbiased party, was tasked with creating an elite governing force (the **Wardens**) to ensure compliance and prevent another reality-altering event.
 
 **Common Creatures:** Dragons, elementals, prism serpents, storm leviathans. Environment is harsh—few can survive.
 
@@ -1847,17 +1847,19 @@ After **The Infernal Schism**, all higher beings of both the Inner and Outer Pla
 
 The Roiling Crucible (Elemental Chaos) had been the vector that allowed infernal law to propagate unnoticed during the Crown-Breaking. The Pact closed it as a transit plane—not as justice, but as **containment**. The Elemental Plane would no longer be a gateway for unseen passage, only a monitored realm for study.
 
-The Mortal Weave, seen as the only unbiased party, was tasked with creating an elite governing force—the **Interplanar Travel Network**—to ensure all parties obey the rules of the pact and prevent another reality-altering event.
+Every signatory realm—mortal, divine, and dead—was compelled to contribute to a joint enforcement body: **the Threshold**. No single Plane would be trusted to police the others. All would share the burden, and none would hold sole authority.
 
 ---
 
-### The Interplanar Travel Network
+### The Threshold
 
-Created by the Mortal Weave as neutral arbiters following the Pact of Neutrality. This network regulates interplanar travel, which is highly controlled following the Infernal Schism. Many Planes are illegal to travel between, and numerous safeguards exist to detect metaphysical alterations to Planar law.
+Born from the Pact of Neutrality, the Threshold is the only institution in existence with representatives from every Plane. Concordant paladins serve alongside Gloam shepherds. Curator scholars share intelligence with celestial observers of the Empyreal Accord. Living Accord rangers patrol beside mortal soldiers who swore to guard the cracks in the cosmos. No single realm controls it — by design, every signatory power has a seat, a vote, and a veto.
 
-Most Planar travel can be accomplished by magic, but it is not advised due to regulations.
+In practice, every power also has a spy. The Threshold is rife with factional infighting, intelligence leaks, and embedded agents loyal to their home Planes first. Gloam representatives push to seal fracture points permanently; Verge delegates argue some should remain open for natural flow. The Curator Arcanum hoards findings. The Concordant Halls maneuvers for command authority. The coalition holds because the alternative — one realm policing all others — is worse.
 
-**In-World Names:** Mortals often refer to the Network as **"The Waylines"**—both a practical shorthand and a reminder that even paths between worlds must be monitored.
+Many Planes are illegal to travel between, and the Threshold maintains numerous safeguards to detect metaphysical alterations to Planar law. Most Planar travel can be accomplished by magic, but it is not advised due to regulations.
+
+**In-World Names:** Mortals often call it **"The Waylines"** — both a practical shorthand and a reminder that even paths between worlds must be watched.
 
 ---
 

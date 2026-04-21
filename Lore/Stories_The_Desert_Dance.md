@@ -8,7 +8,7 @@
 [NOTE: Title page — shattered mirror illustration with desert sand pouring through cracks. Masks and flames visible in reflected fragments. Bone-white and fevered gold palette. Typography: Title in Oswald Bold 36pt, subtitle in Crimson Text 14pt italic]
 
 ╔══════════════════════════════════════════════════════════════════════╗
-║  CLASSIFIED TESTIMONY — INTERPLANAR TRAVEL NETWORK                  ║
+║  CLASSIFIED TESTIMONY — THE THRESHOLD                          ║
 ║  Witness: Chronicler Vedris Halfmoon                                ║
 ║           Curator Arcanum (Veiled Sight)                            ║
 ║  Filed: 38⅔ years after the previous incident                       ║
@@ -278,7 +278,7 @@ I stood at the portal for a long moment before finally stepping through to safet
 FORMAL TESTIMONY
 ────────────────────────────────────────────────────────────────────────
 
-The Interplanar Travel Network has asked me to provide testimony regarding why this event should remain illegal.
+The Threshold has asked me to provide testimony regarding why this event should remain illegal.
 
 I have no such testimony to offer.
 
@@ -298,7 +298,7 @@ Is that not the Many-Masked's entire theology?
 
 *Addendum, filed six months after original testimony:*
 
-The Interplanar Travel Network has formally denied my research request.
+The Threshold has formally denied my research request.
 
 I understand their reasoning. The Curator Arcanum exists to ensure knowledge remains humble. What I am proposing is the opposite—to approach a deity of excess and ask what he learns from watching us burn.
 
@@ -329,7 +329,7 @@ Though, I suspect, I may be.
 ║                       ◆ CURATOR'S NOTE ◆                            ║
 ╚══════════════════════════════════════════════════════════════════════╝
 
-This document has been preserved without editorial correction as required by the Path of Open Doors. The Interplanar Travel Network has requested its suppression. The Curator Arcanum has declined, noting that the testimony contains no actionable intelligence and serves primarily as a missive of warning.
+This document has been preserved without editorial correction as required by the Path of Open Doors. The Threshold has requested its suppression. The Curator Arcanum has declined, noting that the testimony contains no actionable intelligence and serves primarily as a missive of warning.
 
 Whether it warns away from the Dance or pushes toward it remains, per the Path of Veiled Sight, *deliberately unspecified*.
 
