@@ -1,0 +1,660 @@
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
+AFFINITY: FRACTURE — d10 ADDITIVE SYSTEM PLAYTEST VARIANT
+Core Rules Reimagined
+{BODY: Crimson Text 10.5pt}
+Version: Additive Action Resolution (AAR) Playtest v0.1
+
+---
+
+{DIVIDER: 0.5pt line #5D5878}
+
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
+DESIGN PHILOSOPHY
+
+This variant replaces d6 pool counting with a single d10 roll plus additive d6 bonuses. The result: cleaner resolution, margin-based effect gating, and preserved attrition through exertion burn.
+
+Core shifts:
+• One roll per action (not a pool)
+• Proficiency d6s and Exertion d6s add face value to the d10
+• Each ability has its own margin breakpoints (not universal "required successes")
+• Natural 10 grants +1 margin
+• Exertion d6s showing 1 still destroy HD (your signature cost)
+
+Why this keeps Affinity:
+• Exertion is still a blood decision
+• Defense and Resolve systems untouched
+• Margin-based scaling mirrors "layers of success"
+• Attrition is front and center in ability design
+• Feels fresh (D&D/DCC adjacent) but distinctly Affinity
+
+
+{DIVIDER: 0.5pt line #5D5878}
+
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
+HOW TO ROLL: ACTION RESOLUTION
+
+{H3: Oswald Bold 18pt}
+THE CORE LOOP (ADDITIVE SYSTEM)
+
+1. Declare what you're doing (ability name, if any)
+2. Roll 1d10 + add all Proficiency d6s + any Exertion d6s
+3. Compare total to the ability's Action Difficulty (AD)
+4. Determine Margin = Total - AD
+5. Consult ability text for margin breakpoints
+6. Apply effects based on margin achieved
+7. Resolve any exertion die 1s (each = 1 HD lost)
+
+{H3: Oswald Bold 18pt}
+EXAMPLE: QUICK REFERENCE
+
+You attack an Orc with Weapon Strike (a Basic ability, AD 7).
+
+Roll: 1d10 = 6
+Add: 1d6 (Prof 1) = 4
+Add: 1d6 (Exert 1) = 3
+Total: 6 + 4 + 3 = 13
+
+Margin: 13 - 7 = +6
+
+Weapon Strike base effect activates at Meeting AD (7+).
+Margin +1 effect activates at 8+.
+Margin +3 effect activates at 10+.
+Margin +6+ effect activates at 13+.
+
+You're at +6, so you hit base, +1, +3, and +6+ effects. Full escalation!
+
+Check exertion die (rolled 3): Not a 1, so no HD burn. Lucky.
+
+{H3: Oswald Bold 18pt}
+NATURAL 10 RULE
+
+If your d10 shows 10 (before adding d6s): Add +1 to your margin.
+
+Example: d10 rolls 10, adds to 15 total, margin is +8 instead of +7.
+
+{H3: Oswald Bold 18pt}
+ACTION DIFFICULTY (AD) BY TIER
+
+Level 1 baseline:
+
+BASIC (AD 7): Routine actions, known targets, favorable conditions
+EXPERT (AD 13): Trained skill, uncertain conditions, skilled opposition
+LEGENDARY (AD 25): Mastery-level, dangerous, near-impossible for unprepared
+
+These are starting points. GM adjusts by +/- 1-2 for circumstance.
+
+{H3: Oswald Bold 18pt}
+EXERTION (THE COST)
+
+• Add up to Proficiency exertion d6s to your action roll
+• At Level 1: 1 exertion die per action
+• Each exertion die showing 1: You lose 1 HD from your pool (before or after success doesn't matter)
+• This cost is always taken, whether you hit the AD or not
+
+The decision: Is the margin worth the blood?
+
+
+{DIVIDER: 0.5pt line #5D5878}
+
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
+DESIGNING ABILITIES WITH MARGIN BREAKS
+
+{H3: Oswald Bold 18pt}
+TEMPLATE
+
+[ABILITY NAME] (Tier, AD X)
+
+BASE EFFECT (Meet AD):
+• [What happens when you equal or exceed AD]
+
+MARGIN +1 (At AD+1 or higher):
+• [First enhancement or secondary benefit]
+
+MARGIN +3 (At AD+3 or higher):
+• [Significant escalation: damage boost, secondary target, special effect]
+
+MARGIN +6+ (At AD+6 or higher):
+• [Cascading: full combo, devastating bonus, or narrative flourish]
+
+{H3: Oswald Bold 18pt}
+DESIGN PHILOSOPHY FOR MARGIN BREAKS
+
+• **Base effect always matters**: Meeting AD should feel satisfying
+• **+1 to +3 margin is "good"**: Incremental bonuses unlock as you roll better
+• **+4 to +6 margin is "excellent"**: Secondary mechanics escalate
+• **+7+ is "transcendent"**: Rare, high-skill, high-exertion moment
+• **Abilities fill the range internally**: Basic abilities have breakpoints from 8-12; Expert from 14-24; Legendary from 26+
+
+{H3: Oswald Bold 18pt}
+EXAMPLE: WEAPON STRIKE REIMAGINED
+
+Weapon Strike (Basic, AD 7)
+
+BASE EFFECT (Meet AD 7+):
+• Roll succeeds, weapon hits target
+• Light weapon: 1 HD damage
+• Heavy weapon: 2 HD damage
+
+MARGIN +1 (At 8+):
+• Light weapon: 2 HD damage (upgraded)
+• Heavy weapon: 3 HD damage (upgraded)
+
+MARGIN +3 (At 10+):
+• Light weapon: 2 HD damage + trigger weapon property
+• Heavy weapon: 3 HD damage + trigger weapon property
+• Attacker chooses property outcome (e.g., Swift = bonus attack; Crushing = knock prone; Precise = target -1d6 on next defense; Piercing = ignores armor)
+
+MARGIN +6+ (At 13+):
+• Damage + property + knockback 5 yards OR Resolve check on target (if body HD would be damaged)
+
+{H3: Oswald Bold 18pt}
+EXAMPLE: HOLD THE LINE REIMAGINED
+
+Hold the Line (Basic, AD 10)
+
+BASE EFFECT (Meet AD 10+):
+• Zone activates: 10-yard radius around you for Proficiency rounds
+• Enemies in zone have movement halved
+• Allies in zone gain +1d6 to their first defense each round (doesn't burn HD)
+
+MARGIN +1 (At 11+):
+• Zone radius increases to 15 yards
+
+MARGIN +3 (At 13+):
+• Zone radius 15 yards + allies gain +1d6 to ALL defenses in zone (not just first)
+
+MARGIN +5 (At 15+):
+• All previous + allies gain +1 to Proficiency until zone ends
+
+{H3: Oswald Bold 18pt}
+WHY THIS DESIGN APPROACH
+
+• **Abilities telegraph their payoff**: Players see margin breaks and think "do I want this?"
+• **Exertion becomes tactical**: "If I exert, I can probably hit +2. Worth it? +4 would be amazing but risky."
+• **Attrition is front-loaded**: Every exert d6 is a blood gamble before you even resolve
+• **Margin becomes readable**: "I rolled 15 against AD 11, so I'm at +4. Full effect."
+
+
+{DIVIDER: 0.5pt line #5D5878}
+
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
+MOVEMENT AND POSITIONING (UNCHANGED)
+
+Movement, engagement, advantage, cover, concealment, charge, withdraw: **All work exactly as before**. These don't use AD rolls.
+
+When positioning grants "+1d6 to attacks," that d6 adds directly to your action total.
+
+
+{DIVIDER: 0.5pt line #5D5878}
+
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
+SKILL CHALLENGES (GROUP ROLLS)
+
+Outside combat, skills still use group rolls where everyone rolls and pools successes.
+
+Convert to additive system:
+• Everyone rolls: 1d6 per Proficiency (or 1d6 + situational bonus)
+• Pool all d6 totals
+• Compare group total to threshold
+• Thresholds for Level 1: Easy 8, Moderate 12, Hard 16, Very Hard 20
+
+Example: 3-player party (Proficiency 1 each), Awareness check, Moderate threshold (12).
+
+Each player rolls 1d6 (no d10, just the bonus dice). Total: 3 + 5 + 4 = 12. Success!
+
+
+{DIVIDER: 0.5pt line #5D5878}
+
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
+REVISED COMBAT EXAMPLE: KAEL VS ORC (d10 ADDITIVE)
+
+Scene: Collapsed bridge, orc raider with raised axe.
+
+Kael: 5d10s body, 2d8s armor, 1d12 shield, Proficiency 1
+Orc: 4d8s body, 2d6s armor, Prof 2 (fixed, doesn't exert), AD modifier +1
+
+{H3: Oswald Bold 18pt}
+ROUND 1 — KAEL ATTACKS
+
+Kael uses Weapon Strike (Basic, AD 7) with a longsword (heavy weapon). He exerts.
+
+Roll: 1d10 = 7
+Prof d6 (1): 4
+Exert d6 (1): 2
+Total: 7 + 4 + 2 = 13
+
+Margin: 13 - 7 = +6
+
+Weapon Strike breakpoints:
+• Meet AD (7+): Heavy weapon, 2 HD damage ✓
+• Margin +1 (8+): Heavy weapon, 3 HD damage ✓
+• Margin +3 (10+): 3 HD damage + property ✓
+• Margin +6+ (13+): 3 HD damage + property + knockback ✓
+
+Kael's exert die rolled 2 (no 1), so no HD burned.
+
+Result: Orc takes 3 HD damage. Longsword property (Crushing) triggers: Orc rolls to resist knockback or is pushed 5 yards back.
+
+Orc makes a Fortitude check (1d6, no exertion for NPCs). Rolls 3. Orc resists and stays put.
+
+Orc is now: 4d8s body, 2d6s armor, taking 3 damage total = 1d8s and 2d6s (one body die destroyed).
+
+{H3: Oswald Bold 18pt}
+ROUND 1 — ORC STRIKES BACK
+
+Orc swings Greataxe (Basic, but has Prof 2 so uses their fixed pool).
+
+NPC stat block: Greataxe attack at AD 7 (Basic NPC), rolls 3d6 fixed (Prof 2 gives 2 dice + 1 for axe bonus).
+
+Roll: 3d6 = 6, 4, 2 = 12
+Total for NPC: 12 (NPCs don't add a d10; they just roll fixed pool)
+Orc AD for this attack: 7
+
+Margin: 12 - 7 = +5
+
+Orc's Greataxe breakpoints (NPC uses old-style fixed pool, but margins align similarly):
+• Meet AD (7+): 2 HD damage ✓
+• Margin +1-2 (8-9+): 3 HD damage ✓
+• Margin +3+ (10+): 3 HD damage + knockdown ✓
+
+Orc hits at +5 margin: 3 HD damage + knockdown attempt.
+
+Kael defends: Rolls 1d8 (armor first) = 5. Success! 1 damage cancelled.
+2 HD remains. Next die rolls 3 (fails). Second armor die destroyed.
+Kael's armor: 2d8s → 0d8s (armor gone).
+But no Body HD lost. No Resolve check.
+
+Knockdown attempt: Kael rolls Fortitude check. 1d6 = 5. Resists! Stays on feet.
+
+{H3: Oswald Bold 18pt}
+ROUND 2 — KAEL CONSIDERS HIS OPTIONS
+
+Kael is healthy (5d10s body intact) but armor is gone. Next hit will reach body.
+
+He could:
+• Attack again with Weapon Strike (risky without armor)
+• Use Oath-Driven Strike (Basic, AD 10, requires exert to hit +3 margin)
+• Rally an ally (if there were one)
+• Hold the Line (AD 10, defensive stance)
+
+Kael chooses: **Oath-Driven Strike with exertion** (an ability requiring decision and blood).
+
+Oath-Driven Strike (Basic, AD 10)
+• Meet AD (10+): Weapon damage (2 HD for heavy) + Proficiency HD = 3 HD total
+• Margin +1 (11+): 3 HD + knock prone
+• Margin +3 (13+): 3 HD + prone + Resolve check on target
+
+Roll: 1d10 = 8
+Prof d6 (1): 3
+Exert d6 (1): 1 ← BURNED HD!
+Total: 8 + 3 + 1 = 12
+
+Margin: 12 - 10 = +2 (meets +1 margin!)
+
+Kael hits at +2 margin: Base effect (3 HD damage) + margin +1 effect (knock prone).
+
+But exert die rolled 1: **Kael loses 1 Body HD**. Now 4d10s (was 5).
+
+This triggers a Resolve check! Kael's RT is 2. Rolls 1d6 = 6. Holds! (needs 2+).
+
+Damage: 3 HD to Orc.
+Orc defends: Rolls 2d8 (body now, armor is gone) = 6, 4. Both succeed! 2 damage cancelled.
+1 HD remains: Orc loses 1d8.
+
+Orc is now: 3d8s body, 0d6 armor. Below half HP. Rage triggers (Orc ability): +1d6 to next attack.
+
+Prone effect: Orc is on the ground. Next attack from Orc has disadvantage (GM reduces their effective roll by 1 margin).
+
+{H3: Oswald Bold 18pt}
+ROUND 2 — ORC RETALIATES (PRONE, BUT RAGING)
+
+Orc stands (costs movement). Swings Greataxe with rage bonus.
+
+Normally 3d6, now 4d6 due to rage (GM adds 1d6 bonus). But prone doesn't apply yet (stood up).
+
+Roll: 4d6 = 5, 5, 3, 2 = 15 (very hot roll!)
+Orc's attack AD is still 7.
+
+Margin: 15 - 7 = +8
+
+Damage: 3 HD + all breakpoints trigger + knockback + Resolve check.
+
+Kael defends: Rolls 1d10 (body, heavy die) = 8. Success! 1 damage cancelled.
+2 HD reach body. Next roll 1d10 = 4 (fails). 1d10 destroyed.
+
+Kael: 4d10s → 3d10s. Resolve check! Rolls 1d6 = 3. Holds (needs 2+, no change).
+
+Orc's knockback: Kael pushed 5 yards (or knocked prone). Kael chooses to take knockback. No engagement break.
+
+{H3: Oswald Bold 18pt}
+ROUND 3 — FINAL EXCHANGE
+
+Kael is at 3d10s body, no armor, RT 2. Orc is at 3d8s body, prone, no armor.
+
+Kael uses simple Weapon Strike (no exert this time—too risky).
+
+Roll: 1d10 = 9
+Prof d6 (1): 5
+Total: 9 + 5 = 14
+
+AD 7, Margin = +7
+
+Full Weapon Strike + property + knockback (Orc is already down, so prone effect extends duration).
+
+3 HD damage. Orc defends: 2d8 = 7, 3. One success, one fail. 1 damage cancelled, 1 die destroyed.
+2 HD remains: Both fail. Orc loses both remaining d8s.
+
+**Orc is at 0 Body HD. Unconscious.**
+
+{H3: Oswald Bold 18pt}
+AFTERMATH
+
+Kael stands at 3d10s body, no armor, RT 2. Bruised, bloodied, barely victorious.
+
+The exertion gamble in Round 2 paid off: he hit Oath-Driven Strike at +3 margin (knocked Orc prone, set up for finish) but paid 1 HD.
+
+Without exertion, he wouldn't have landed the precision strike that turned the fight. With exertion, the fight lasted 3 rounds instead of 5. **The choice was real.**
+
+
+{DIVIDER: 0.5pt line #5D5878}
+
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
+REVISED COMBATANT ABILITIES (SAMPLE)
+
+{H3: Oswald Bold 18pt}
+Weapon Strike (Basic, AD 7)
+
+BASE EFFECT (Meet AD 7+):
+Light weapons: 1 HD damage
+Heavy weapons: 2 HD damage
+
+MARGIN +1 (At 8+):
+Light weapons: 2 HD damage
+Heavy weapons: 3 HD damage
+
+MARGIN +3 (At 10+):
+Damage + trigger weapon property (Swift/Crushing/Precise/Piercing)
+Swift: bonus attack this round; Crushing: target knocked back 5 yards; Precise: target -1d6 on next defense; Piercing: ignore armor
+
+MARGIN +6+ (At 13+):
+Damage + property + Resolve check on target if body HD damaged
+
+{H3: Oswald Bold 18pt}
+Rally (Basic, AD 7)
+
+BASE EFFECT (Meet AD 7+):
+Choose one ally within 30 yards. Ally gains +1 to their next action roll (doesn't burn HD).
+
+MARGIN +1 (At 8+):
+Ally gains +2 to their next two actions.
+
+MARGIN +3 (At 10+):
+Ally gains +2 to their next two actions + they can add one bonus d6 (no HD burn) on one of them.
+
+MARGIN +5+ (At 12+):
+Ally gains +3 to all actions this round.
+
+{H3: Oswald Bold 18pt}
+Hold the Line (Basic, AD 10)
+
+BASE EFFECT (Meet AD 10+):
+10-yard zone for Proficiency rounds.
+Enemies in zone: halved movement.
+Allies in zone: +1d6 to first defense each round.
+
+MARGIN +1 (At 11+):
+Zone radius 15 yards.
+
+MARGIN +3 (At 13+):
+Zone radius 15 yards + allies gain +1d6 to ALL defenses in zone (not just first).
+
+MARGIN +5 (At 15+):
+All previous. Allies gain +1 to Proficiency (stacks with other bonuses).
+
+{H3: Oswald Bold 18pt}
+Oath-Driven Strike (Basic, AD 10)
+
+BASE EFFECT (Meet AD 10+):
+2 HD damage (heavy weapon damage) + Proficiency HD = 3 HD total if Heavy, 2 HD if Light.
+
+MARGIN +1 (At 11+):
+Damage + target knocked prone.
+
+MARGIN +3 (At 13+):
+Damage + prone + target makes Resolve check.
+
+MARGIN +6+ (At 16+):
+Damage + prone + Resolve check escalation (if target fails Resolve, it advances by 2 instead of 1).
+
+
+{DIVIDER: 0.5pt line #5D5878}
+
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
+REVISED RANGER ABILITIES (SAMPLE)
+
+{H3: Oswald Bold 18pt}
+Hunter's Strike (Basic, AD 7)
+
+BASE EFFECT (Meet AD 7+):
+Weapon hit. 1 HD damage.
+BONUS: +1 HD damage if from concealment OR against Marked target.
+
+MARGIN +1 (At 8+):
+Damage increased to 2 HD (or 3 if bonus applies).
+
+MARGIN +3 (At 10+):
+Damage + weapon property triggers.
+
+MARGIN +5+ (At 12+):
+Damage + property + target disadvantage on next action.
+
+{H3: Oswald Bold 18pt}
+Mark Prey (Basic, AD 7)
+
+BASE EFFECT (Meet AD 7+):
+Choose creature within 60 yards. Gain:
+• +1d6 to track/attack/act against target (doesn't burn HD)
+• Sense direction and distance within 1 mile
+• Sense approximate HD status (full/half/quarter/critical)
+Lasts until target drops to 0 HD or you mark another.
+
+MARGIN +1 (At 8+):
+Bonus: Sense target's emotional state (scared/angry/calm).
+
+MARGIN +3 (At 10+):
+Mark lasts through one full scene + beyond (not just combat).
+
+MARGIN +5+ (At 12+):
+All previous. You gain +2d6 (instead of +1d6) on rolls against Marked target.
+
+{H3: Oswald Bold 18pt}
+Killing Ground (Basic, AD 11)
+
+BASE EFFECT (Meet AD 11+):
+30-yard zone for Proficiency rounds. Choose one:
+• Mire: difficult terrain for enemies
+• Cover: +1d6 defense for allies
+• Hazard: 1 HD damage to enemies entering/starting turn
+• Concealment: +1d6 defense for allies (counts as concealment for Hunter's Strike bonus)
+
+MARGIN +1 (At 12+):
+Zone radius 45 yards.
+
+MARGIN +3 (At 14+):
+Zone radius 45 yards. Two effects active simultaneously.
+
+MARGIN +5 (At 16+):
+Zone radius 60 yards. All four effects active at once.
+
+MARGIN +8+ (At 19+):
+Zone lasts Proficiency rounds + 1 additional minute. Becomes difficult terrain for enemies specifically (not allies).
+
+
+{DIVIDER: 0.5pt line #5D5878}
+
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
+REVISED WEAVER ABILITIES (SAMPLE)
+
+{H3: Oswald Bold 18pt}
+Weave Sight (Basic, AD 7)
+
+BASE EFFECT (Meet AD 7+):
+See magical auras, active spells, magic items, Weave disturbances.
+Range: 10 yards per 1 total roll over AD (so at 7 with total 14, range is 70 yards).
+Duration: Proficiency rounds.
+
+MARGIN +1 (At 8+):
+See through nonmagical obscuring (fog, darkness, illusions).
+
+MARGIN +3 (At 10+):
+All previous. Identify spell schools/domains.
+
+MARGIN +5+ (At 12+):
+All previous. Detect invisible creatures.
+Sense emotional/mental effects on creatures.
+Read the intent of magic (beneficial/harmful/neutral).
+
+{H3: Oswald Bold 18pt}
+Curator's Bolt (Basic, AD 8)
+
+BASE EFFECT (Meet AD 8+):
+1 HD force damage. Range 30 yards.
+
+MARGIN +1 (At 9+):
+2 HD damage. OR target additional creature within 15 yards of first (damage split or full to each).
+
+MARGIN +3 (At 11+):
+2 HD damage. Target PLUS one additional creature. Both take full damage.
+
+MARGIN +6+ (At 14+):
+3 HD damage to all targets. OR 2 HD damage plus targets make Resolve check.
+
+{H3: Oswald Bold 18pt}
+Magical Armor (Basic Ritual, AD 9)
+
+BASE EFFECT (Meet AD 9+):
+Grant 2d12s magical armor to target within 30 yards.
+Duration: Concentration, up to Proficiency rounds.
+
+MARGIN +1 (At 10+):
+Grant 3d12s armor.
+
+MARGIN +3 (At 12+):
+Grant 3d12s armor. Range 60 yards.
+
+MARGIN +5 (At 14+):
+Grant 4d12s armor. Range 60 yards. No concentration required (lasts full duration).
+
+MARGIN +8+ (At 17+):
+All previous. When armor is destroyed, it regenerates 1d12 at the start of target's next turn (once per cast).
+
+
+{DIVIDER: 0.5pt line #5D5878}
+
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
+QUICK REFERENCE: d10 ADDITIVE SYSTEM
+
+{H3: Oswald Bold 18pt}
+HOW TO ROLL
+1. Roll 1d10
+2. Add Proficiency d6s
+3. Add Exertion d6s (if chosen)
+4. Compare total to ability AD
+5. Margin = Total - AD
+6. Check ability text for margin breakpoints
+7. Resolve exertion 1s (each = 1 HD lost)
+
+{H3: Oswald Bold 18pt}
+ACTION DIFFICULTY (AD) BY TIER
+• BASIC: AD 7-12 (routine actions, margin breakpoints 8-12)
+• EXPERT: AD 13-24 (trained/dangerous, margin breakpoints 14-24)
+• LEGENDARY: AD 25+ (mastery/near-impossible, margin breakpoints 26+)
+
+{H3: Oswald Bold 18pt}
+MARGIN SCALE (VARIABLE BY ABILITY)
+• Meet AD: Base effect
+• +1 to +3 margin: Enhanced or secondary benefits (stagger breakpoints)
+• +4 to +6 margin: Full escalation / secondary mechanics unlock
+• +7+ margin: Cascading / transcendent effects
+
+{H3: Oswald Bold 18pt}
+EXERTION
+• Add up to Proficiency exertion d6s per action
+• Each exertion die rolling 1 = lose 1 HD (pay before/after success)
+• Decision point: Is the margin worth the blood?
+
+{H3: Oswald Bold 18pt}
+NATURAL 10
+• d10 rolls 10: Gain +1 margin (treat final margin as +1 higher)
+
+{H3: Oswald Bold 18pt}
+LEVEL 1 CHARACTER STATS (ADDITIVE SYSTEM)
+Proficiency: 1 (roll 1d6 for Prof)
+Exertion cap: 1 extra d6 per action
+Actions per turn: 2
+Movement: 10 yards
+Defense rolls: 1 per attack
+Resolve Threshold: 2
+
+
+{DIVIDER: 0.5pt line #5D5878}
+
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
+CRITICAL DESIGN NOTES
+
+{H3: Oswald Bold 18pt}
+WHAT STAYS THE SAME
+• Defense (d4, d6, d8, d10, d12 defending; 5+ survives)
+• Resolve (Threshold starts 2, escalates on failed checks)
+• Armor destruction (layers: armor → body)
+• Movement, engagement, positioning (free 10 yards, cost to disengage)
+• Hit Dice depletion (actual dice lost, not HP subtracted)
+
+{H3: Oswald Bold 18pt}
+WHAT CHANGES
+• Single d10 + additive d6s (no pool counting)
+• Margin-based ability effects (not required successes)
+• Each ability has unique breakpoints (not universal)
+• Exertion d6s add face value to total (not separate pool)
+
+{H3: Oswald Bold 18pt}
+WHY THIS PRESERVES AFFINITY
+• Exertion still burns HD (1s on exert dice)
+• Attrition is central to every action
+• Defense/Resolve untouched (core tension preserved)
+• Margin concept mirrors "degrees of success" from pools
+• Single die feels fresh but system is fundamentally about scarcity and choice
+
+{H3: Oswald Bold 18pt}
+WHY THIS FEELS ACCESSIBLE
+• One die to read (familiar to D&D, DCC players)
+• Additive math is intuitive
+• Margin language is clear ("You're +3, so X happens")
+• Exertion decision is obvious ("Do I pay 1 HD for +1d6?")
+• Faster resolution (single roll + margin lookup vs. pool counting)
+
+{CHANDLE ASIDE: Crimson italic 10pt · 5% purple wash bg #9B8BB8 · 12pt padding · 16pt margin above/below}
+CHANDLE'S ASIDE: ON THE d10 ADDITIVE SHIFT
+
+"I watched playtests of this system, and here's what I saw: Players understood the mechanic in two sentences. No 'wait, does a 6 equal two successes?' confusion. They rolled, added their d6s, checked the margin, and made a real choice: exert or hold back?
+
+That choice—that moment of 'my next d6 might burn a Hit Die'—is where Affinity lives. The d10 doesn't dilute it. It sharpens it. Every exertion is a negotiation with mortality.
+
+And the margin breakpoints? That's where the designers got clever. A Weaver doesn't have the same 3+ triggers as a Combatant. Each ability breathes. Each tells a story in its breakpoints.
+
+This feels like Affinity because it keeps what makes Affinity hard: nothing is free. You pay in dice or you don't get the moment. That's still the game."
+
+— Chandle
+{/CHANDLE ASIDE}
+
+---
+
+**END PLAYTEST VARIANT v0.1**
+
+This variant is ready for table testing. Recommend running 2-3 full combats with existing characters converted to d10 additive before full guide integration.
+
+Feedback points:
+- Is exertion still feeling costly, or does +1d6 feel too strong?
+- Are margin breakpoints too granular (3 tiers) or too simple (2 tiers)?
+- Does the margin language feel as punchy as "required successes"?
+- Does play speed feel notably faster?

@@ -1,13 +1,65 @@
+{MASTER A: Cover — no headers, no footers, no page numbers}
+
+{COVER ILLUSTRATION: A character mid-action — dice shattering around them, weapon drawn · min 80mm wide, ink line art, can bleed}
+
+{H1: Oswald Bold 36pt, #1a1a2e}
 AFFINITY: FRACTURE
 PLAYER'S STARTER GUIDE
+{BODY: Crimson Text 10.5pt}
 Welcome to the Edge of Mortality
 
+{BODY: Crimson Text 9pt, #999999}
+Starter Collection v1.0 — Beta Playtest
 
+{CHANDLE ASIDE: Crimson italic 10pt · 5% purple wash bg #9B8BB8 · 12pt padding · 16pt margin above/below}
 "You want to be a hero. That's the first step — and arguably the most dangerous one. This guide will teach you how to build a character, roll dice, and survive things that would rather you didn't. Your health is actual dice that shatter when you take damage. Every fight costs something. Every choice costs something. That's not a flaw — that's the whole point. Read carefully."
 
 — Chandle, Chandler Services of Generalities and Oddities
+{/CHANDLE ASIDE}
 
+{PAGE BREAK}
+{MASTER B/C: Interior — running headers + page numbers}
 
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
+WHAT YOU NEED TO PLAY
+
+{BODY: Crimson Text 10.5pt}
+• 3-5 players and 1 Game Master
+• Multiple six-sided dice (d6s) — at least 6, ideally 8-10
+• One set of polyhedral dice per player: d4, d8, d10, d12 (for defense rolls)
+• Pencils and a character sheet (blank template included at the end of this guide)
+• This guide (and the GM's Starter Guide for whoever runs the game)
+• Sessions run 2-3 hours. The included adventure spans two sessions.
+
+That's it. No miniatures required. No grid. Theater of mind or a quick sketch on paper works perfectly.
+
+{DIVIDER: 0.5pt line #5D5878}
+
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
+CONTENTS
+
+{BODY: Crimson Text 10.5pt — stacked list format}
+What Is Affinity? .................. The core premise
+The Fundamental Truth ............ Hit Dice, not hit points
+How to Roll ...................... Action rolls and defense rolls
+Action Resolution ................ The core loop
+Exertion ......................... Risk for reward
+Combat Basics .................... Attacking, defending, movement
+Resolve .......................... Mental fortitude and the spiral
+Resting and Armor Repair ......... Recovery mechanics
+Creating Your Character .......... Step-by-step in 10 minutes
+Combatant ........................ d10 Tough — oath and steel
+Ranger ........................... d8 Balanced — the wild made flesh
+Weaver ........................... d6 Fragile — reality's plaything
+Equipment ........................ Weapons and armor
+Quick Reference Card ............. Fast lookup
+Combat Example ................... Full combat walkthrough
+Character Sheet .................. Blank template
+Glossary ......................... Key terms defined
+
+{PAGE BREAK}
+
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
 WHAT IS AFFINITY?
 
 The gods broke the world. The dead remained. The forests grew teeth.
@@ -19,7 +71,11 @@ Affinity is a tabletop roleplaying game set in Aeralon, a world held together by
 This is YOUR story. The dice are your life. Guard them well.
 
 
+{DIVIDER: 0.5pt line #5D5878}
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
 THE FUNDAMENTAL TRUTH
+
+{ILLUSTRATION: Dice depletion visual — full pool > damaged > empty · THIS IS THE MOST IMPORTANT ILLUSTRATION IN THE BUNDLE · teaches core mechanic visually · 30-60mm · ink line art}
 
 There are NO hit points.
 
@@ -33,12 +89,15 @@ Example:
 When your dice run out, you face death. This is the core of Affinity.
 
 
+{DIVIDER: 0.5pt line #5D5878}
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
 HOW TO ROLL
 
 There are two types of rolls: Action Rolls and Defense Rolls.
 
 You'll need: Multiple d6s (two colors recommended) + polyhedral dice (d4, d6, d8, d10, d12, d20).
 
+{H3: Oswald Bold 18pt}
 ACTION ROLLS (d6 Dice Pools)
 
 When you attack, cast spells, or use abilities, roll d6s and count successes.
@@ -78,6 +137,8 @@ Your armor is your lifeline. Invest wisely.
 Example: You have 2d8s armor. Take 2 damage, roll both — 7, 3. One survives (7 is 5+), one destroyed (3 is under 5). You now have 1d8 armor.
 
 
+{DIVIDER: 0.5pt line #5D5878}
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
 ACTION RESOLUTION (The Core Loop)
 
 Every action in Affinity follows this pattern:
@@ -88,13 +149,17 @@ Every action in Affinity follows this pattern:
 4. Check requirements (did you meet the required successes?)
 5. Apply effect
 
+{H3: Oswald Bold 18pt}
 AT LEVEL 1
 
+{BODY: Crimson Text 10.5pt}
 • Proficiency = 1 (you roll 1d6 for most actions)
 • Most actions are Basic: 2+ threshold, need 1 success
 • That's it. Roll 1d6, get 2+ = you succeed.
 
 
+{DIVIDER: 0.5pt line #5D5878}
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
 EXERTION (Risk for Reward)
 
 Want more dice? Exert. But there's risk.
@@ -111,13 +176,17 @@ Example:
 
 Exert. Survive. Fracture.
 
+{CHANDLE ASIDE: Crimson italic 10pt · 5% purple wash bg #9B8BB8 · 12pt padding · 16pt margin above/below}
 CHANDLE'S ASIDE: WHY EXERTION BURNS
 
 "You can always play it safe — roll your Proficiency die alone and hope for the best. But safe is boring, and boring gets people killed when the moment demands everything. Every 1 on an exertion die destroys a Hit Die. Intentional. Power has a price. The adventurer who exerts on every attack will hit harder — and die faster. The one who never exerts will be safe — and useless when it matters. The sweet spot is in between. That's where Affinity lives."
+{/CHANDLE ASIDE}
 
-
+{PAGE BREAK}
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
 COMBAT BASICS
 
+{H3: Oswald Bold 18pt}
 Your Turn in Combat
 
 Movement: 10 yards (doesn't cost an action)
@@ -129,9 +198,9 @@ Actions: You get 2 actions per turn
 Free Actions: Drop something, say something brief
 
 
-ATTACKING
-
-1. Roll Proficiency d6s (+ any exertion)
+{DIVIDER: 0.5pt line #5D5878}
+{H3: Oswald Bold 18pt}
+ATTACKING d6s (+ any exertion)
 2. Need: 1 success at 2+ threshold (for Basic attacks)
 3. Hit = weapon damage. 3+ successes trigger weapon properties (see Equipment).
 
@@ -144,8 +213,11 @@ Example:
 • Extra success could trigger a weapon property if the weapon has one
 
 
+{DIVIDER: 0.5pt line #5D5878}
+{H3: Oswald Bold 18pt}
 DEFENDING
 
+{BODY: Crimson Text 10.5pt}
 When you take damage:
 
 1. Attacker declares damage (e.g., "3 HD damage")
@@ -179,8 +251,11 @@ When you lose dice, cross them off. When they're gone, they're gone.
 At 0 Body HD: You're in trouble (see Resolve).
 
 
+{DIVIDER: 0.5pt line #5D5878}
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
 MOVEMENT AND POSITIONING
 
+{BODY: Crimson Text 10.5pt}
 Movement: 10 yards per turn (free, split however you like)
 
 ENGAGEMENT: If you're in melee range (~5 yards) of an enemy and move away, that enemy makes a free strike against you — one Basic attack from their stat block. Costs them nothing. Happens every time.
@@ -203,6 +278,8 @@ MOVEMENT ACTIONS:
 Position matters. Advantage hits harder. Cover keeps you alive. Concealment lets Rangers deal bonus damage AND stay protected. Think about where you stand — the battlefield rewards it.
 
 
+{PAGE BREAK}
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
 RESOLVE (Mental Fortitude)
 
 Everyone starts at Resolve Threshold 2 (you need 2+ on 1d6 to hold steady). It rarely escalates at Level 1.
@@ -223,11 +300,14 @@ Don't worry about Resolve yet. Your GM will tell you when to check.
 At 0 Body HD: You're still standing but limited to 1 action per turn. Resolve checks each round.
 At 0 HD AND Collapse (fail at RT 6) = death. Until then, you can be saved.
 
+{CHANDLE ASIDE: Crimson italic 10pt · 5% purple wash bg #9B8BB8 · 12pt padding · 16pt margin above/below}
 CHANDLE'S ASIDE: WHY RESOLVE ESCALATES
 
 "Resolve starts easy — 2+ on 1d6 to hold. Each failed check makes the next one harder: 3+, then 4+, then 5+, then 6. No tracking. No penalty tables. The spiral tightens itself. Early hits barely register. Late hits are devastating. Characters don't slowly weaken — they hold steady until they can't, then they fracture. That sudden shift from 'I'm fine' to 'I'm in real trouble' is the heart of Affinity combat."
+{/CHANDLE ASIDE}
 
-
+{DIVIDER: 0.5pt line #5D5878}
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
 RESTING
 
 Rest (30 min - 8 hours, threatened):
@@ -242,6 +322,8 @@ Recover (6+ hours, safe place):
 • Armor fully restored (time to mend, refit, repair)
 
 
+{DIVIDER: 0.5pt line #5D5878}
+{H3: Oswald Bold 18pt}
 ARMOR REPAIR (Field Conditions)
 
 Lost armor dice mid-dungeon with no safe place to Recover? You can attempt a field repair.
@@ -255,10 +337,13 @@ Craft Check (Expert, 4+): Need 2 successes
 No tools? No repair. Armor doesn't fix itself. Guard it well.
 
 
+{PAGE BREAK}
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
 CREATING YOUR CHARACTER
 
 Follow these steps to create a Level 1 character in 10 minutes.
 
+{H3: Oswald Bold 18pt}
 STEP 1: CHOOSE YOUR CLASS
 
 Your class determines how tough you are and what you're good at.
@@ -291,15 +376,22 @@ Defense Capacity: 1
 Write down your class, your Hit Dice, and move to Step 2.
 
 
+{PAGE BREAK}
+{ILLUSTRATION: Combatant class silhouette — armored figure with shield · 30-60mm · ink line art}
+
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
 COMBATANT
 
+{BODY: Crimson Text 10.5pt}
 Hit Die: d10 (Tough)
 Custodial Connection: The Concordant Halls — Keepers of Oath
 
-The Concordant Halls do not ask what you fight for. They ask whether you will hold the line when holding costs everything. Your oath is not decoration — it is the metaphysical weight behind every strike, every shield-raise, every refusal to fall.
+{ITALIC}The Concordant Halls do not ask what you fight for. They ask whether you will hold the line when holding costs everything. Your oath is not decoration — it is the metaphysical weight behind every strike, every shield-raise, every refusal to fall.
 
 You are purpose made manifest. Your weapon is an extension of your oath. The battlefield bends to those who know why they fight.
+{/ITALIC}
 
+{H3: Oswald Bold 18pt}
 STARTING ABILITIES (Level 1)
 
 Weapon Strike (Basic, 2+)
@@ -341,18 +433,21 @@ STARTING EQUIPMENT
 • Shield (1d12)
 • Weapon of choice
 
+{H3: Oswald Bold 18pt}
 WAY OF THE BLADE (Level 2)
 
-Ways are class-specific paths that shape how you fight and grow. Choose one at character creation; you unlock your first node at Level 2.
+{ITALIC}Ways are class-specific paths that shape how you fight and grow. Choose one at character creation; you unlock your first node at Level 2.
 
 Justice, enforcement, righteous consequence.
 
 Row 1: Honed Edge — Weapon Strike deals +1 HD against targets at half HD or less.
 
+{H3: Oswald Bold 18pt}
 PATH: WAR-TRAINED
 
-Paths are character-defining customizations available to all classes. Your Primary Path (chosen at Level 1) grants immediate power and scales with Proficiency.
+{ITALIC}Paths are character-defining customizations available to all classes. Your Primary Path (chosen at Level 1) grants immediate power and scales with Proficiency.{/ITALIC}
 
+{BODY: Crimson Text 10.5pt}
 You have extensive martial training and battlefield expertise.
 
 Benefit:
@@ -363,15 +458,22 @@ Benefit:
 Proficiency 3+ Milestone: When fighting alongside allies, your signature weapon attacks gain an additional +1d6 (doesn't burn HD). War is taught in formation; you've mastered it.
 
 
+{PAGE BREAK}
+{ILLUSTRATION: Ranger class silhouette — figure with bow in wilderness · 30-60mm · ink line art}
+
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
 RANGER
 
+{BODY: Crimson Text 10.5pt}
 Hit Die: d8 (Balanced)
 Custodial Connection: The Living Accord — Keepers of the Cycle
 
-The Living Accord teaches that life without death is stagnation, and death without life is annihilation. You walk the line between — knowing when to nurture and when to prune, when to protect and when to let the cycle turn.
+{ITALIC}The Living Accord teaches that life without death is stagnation, and death without life is annihilation. You walk the line between — knowing when to nurture and when to prune, when to protect and when to let the cycle turn.
 
 You are the wilderness made flesh. You track what others cannot find. The wild recognizes you as kin — and kin carries obligations.
+{/ITALIC}
 
+{H3: Oswald Bold 18pt}
 STARTING ABILITIES (Level 1)
 
 Hunter's Strike (Basic, 2+)
@@ -432,18 +534,21 @@ STARTING SPELLS (Choose 3 from Primal domain — your Known list)
 • Thread of the Accord (Basic, 2+) — Sense life force of all creatures within 10 yards for Proficiency rounds
 • Spirit Sight (Basic, 2+) — See spirits, ghosts, and planar boundaries for 1 + successes rounds
 
+{H3: Oswald Bold 18pt}
 WAY OF THORN (Level 2)
 
-Ways are class-specific paths that shape how you fight and grow. Choose one at character creation; you unlock your first node at Level 2.
+{ITALIC}Ways are class-specific paths that shape how you fight and grow. Choose one at character creation; you unlock your first node at Level 2.
 
 Predation, competition, ambush mastery.
 
 Row 1: Predator's Patience — From concealment, +2 HD damage instead of +1 (Hunter's Strike upgrade).
 
+{H3: Oswald Bold 18pt}
 PATH: WILD-TOUCHED
 
-Paths are character-defining customizations available to all classes. Your Primary Path (chosen at Level 1) grants immediate power and scales with Proficiency.
+{ITALIC}Paths are character-defining customizations available to all classes. Your Primary Path (chosen at Level 1) grants immediate power and scales with Proficiency.{/ITALIC}
 
+{BODY: Crimson Text 10.5pt}
 You have a deep connection to nature and beasts.
 
 Benefit:
@@ -454,15 +559,22 @@ Benefit:
 Proficiency 3+ Milestone: Your Beast Companion gains +1d6 to its own actions. Your animal communication deepens — you can convey complex plans like "guard this passage and howl if anyone approaches from the east."
 
 
+{PAGE BREAK}
+{ILLUSTRATION: Weaver class silhouette — figure with arcane gesture, threads of magic · 30-60mm · ink line art}
+
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
 WEAVER
 
+{BODY: Crimson Text 10.5pt}
 Hit Die: d6 (Fragile)
 Custodial Connection: The Curator Arcanum — Keepers of Knowledge
 
-The Curator Arcanum exists because of a single truth: knowledge without humility ends the world. You study the Weave itself — the underlying pattern that holds reality together. That makes you the most versatile caster alive and the most fragile thing on the battlefield.
+{ITALIC}The Curator Arcanum exists because of a single truth: knowledge without humility ends the world. You study the Weave itself — the underlying pattern that holds reality together. That makes you the most versatile caster alive and the most fragile thing on the battlefield.
 
 You bend reality. You reshape what others call fixed. Fragile, but devastating — because devastating is what happens when someone who understands the rules decides to break them.
+{/ITALIC}
 
+{H3: Oswald Bold 18pt}
 STARTING ABILITIES (Level 1)
 
 Spellcasting (Basic-Expert-Legendary, varies)
@@ -505,18 +617,21 @@ STARTING SPELLS (Choose 5 from any domain — your Known list)
 • Comprehend Script (Basic, 2+) — Touch, read one page in any language
 • Catalogue (Basic, 2+) — Sight, memorize one page/map/image perfectly
 
+{H3: Oswald Bold 18pt}
 WAY OF UNLEASHED FORCE (Level 2)
 
-Ways are class-specific paths that shape how you fight and grow. Choose one at character creation; you unlock your first node at Level 2.
+{ITALIC}Ways are class-specific paths that shape how you fight and grow. Choose one at character creation; you unlock your first node at Level 2.
 
 Evocation mastery, raw magical power.
 
 Row 1: Empowered Cantrips — Basic tier damage spells deal +1 HD.
 
+{H3: Oswald Bold 18pt}
 PATH: SPELL-TOUCHED
 
-Paths are character-defining customizations available to all classes. Your Primary Path (chosen at Level 1) grants immediate power and scales with Proficiency.
+{ITALIC}Paths are character-defining customizations available to all classes. Your Primary Path (chosen at Level 1) grants immediate power and scales with Proficiency.{/ITALIC}
 
+{BODY: Crimson Text 10.5pt}
 Magic flows through you more readily than most.
 
 Benefit:
@@ -527,8 +642,11 @@ Benefit:
 Proficiency 3+ Milestone: When you cast a spell and spend exertion, one of your exertion dice becomes safe for that roll (doesn't burn HD on 1s). Your magical discipline minimizes waste.
 
 
+{DIVIDER: 0.5pt line #5D5878}
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
 EQUIPMENT
 
+{H3: Oswald Bold 18pt}
 WEAPONS
 
 All weapon properties trigger on 3+ successes. At Level 1, this usually requires exertion or a lucky 6.
@@ -538,15 +656,20 @@ Heavy (2 HD) — Crushing: +1 HD damage.
 Precise (1 HD) — Lowers your action threshold by 1 tier (rapiers, spears).
 Ranged (1-2 HD) — Piercing: 1 HD bypasses armor and hits body directly.
 
+{H3: Oswald Bold 18pt}
 ARMOR
 
+{BODY: stacked list format — no table}
 Light — 2d6s. Anyone can wear it.
 Medium — 2d8s. Anyone can wear it.
 Shield — +1d12. Anyone can carry it.
 
 
+{PAGE BREAK}
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
 QUICK REFERENCE CARD
 
+{H3: Oswald Bold 18pt}
 LEVEL 1 STATS
 
 Proficiency: 1
@@ -555,6 +678,7 @@ Exertion cap (per action): 1 extra die
 Defense rolls (per attack): 1
 Movement: 10 yards
 
+{H3: Oswald Bold 18pt}
 ACTION ROLLS (Basic Tier - Most Common at L1)
 
 Roll 1d6 per Proficiency + exertion dice, count successes:
@@ -564,22 +688,31 @@ Roll 1d6 per Proficiency + exertion dice, count successes:
 
 Expert Tier (4+): Only 4, 5 = 1 success; 6 = 2
 
+{H3: Oswald Bold 18pt}
 DEFENSE ROLLS (Armor/Body Dice)
 
+{BODY: stacked list format — no table}
 Roll your defense dice (d4, d6, d8, d10, d12), need 5+:
 • 1-4: Die destroyed
 • 5+: Die survives, 1 damage cancelled
 
 
+{DIVIDER: 0.5pt line #5D5878}
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
 WHY THIS WORKS
 
 Affinity is built on tension. Once you understand why the mechanics feel the way they do, every rule clicks into place.
 
+{CHANDLE ASIDE: Crimson italic 10pt · 5% purple wash bg #9B8BB8 · 12pt padding · 16pt margin above/below}
 CHANDLE'S ASIDE: WHY GROUP CHALLENGES POOL SUCCESSES
 
 "Outside combat, the whole party rolls together and pools successes. One character leads, others support. Everyone matters — the Combatant's strength helps the climb, the Weaver's knowledge cracks the puzzle, the Ranger's tracking finds the trail. No one sits out. No one watches the 'skill character' play alone. Affinity is a group story. The dice reflect that."
+{/CHANDLE ASIDE}
 
+{PAGE BREAK}
+{EXAMPLE BOX: Crimson Text 10pt · 5% gray bg #F2F2F2 · 1pt purple top border #5D5878 · 12pt padding}
 
+{H3: Oswald Bold 18pt}
 COMBAT EXAMPLE: THE FULL FLOW
 
 The trail ends at a collapsed bridge. An orc raider stands in the rubble, axe already raised. Neither speaks. Both know.
@@ -685,9 +818,11 @@ Orc: 2d8s to 0 HD. The Orc drops.
 AFTERMATH:
 Kael is standing at 3d10s body, no armor, RT 2. Bruised but alive. His armor is gone until he can Recover or field-repair it. The exertion gamble cost him a Hit Die — but it also ended the fight a round sooner.
 
-That's the trade. Every fight in Affinity asks the same question: how much of yourself are you willing to spend to survive?
+{ITALIC}That's the trade. Every fight in Affinity asks the same question: how much of yourself are you willing to spend to survive?{/ITALIC}
+{/EXAMPLE BOX}
 
-
+{PAGE BREAK}
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
 CHARACTER SHEET (Quick Template)
 
 NAME: ___________________________  CLASS: _______________
@@ -730,8 +865,11 @@ _____________________________________________________
 _____________________________________________________
 
 
+{DIVIDER: 0.5pt line #5D5878}
+{H3: Oswald Bold 18pt}
 You're Ready
 
+{BODY: Crimson Text 10.5pt}
 That's everything you need. When in doubt:
 
 1. Tell the GM what you want to do
@@ -741,6 +879,66 @@ That's everything you need. When in doubt:
 
 Welcome to Affinity. Guard your dice. They are all you have.
 
+{CHANDLE ASIDE: Crimson italic 10pt · 5% purple wash bg #9B8BB8 · 12pt padding · 16pt margin above/below}
 "You're as ready as anyone ever is. The World Primer told you why the cosmos matters. This guide taught you how to survive it. Between the three guides, you might actually make it."
 
 — Chandle
+{/CHANDLE ASIDE}
+
+
+{PAGE BREAK}
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
+GLOSSARY
+
+{BODY: Crimson Text 10.5pt — stacked list format, bold terms}
+Action Roll: Roll d6s and count successes. Used for attacks, abilities, skill checks.
+Armor Dice: Polyhedral dice (d6, d8, d10, d12) representing your equipped armor. Destroyed before Body HD.
+Basic (2+): The easiest action tier. Roll 2+ on a d6 for 1 success. Most Level 1 actions are Basic.
+Body HD (Hit Dice): Your physical health — actual dice that get destroyed when you take damage. At 0 = near death.
+Charge: Spend 1 action + movement to move 5+ yards straight and attack at +1d6.
+Collapse: Failing a Resolve check at RT 6. You're dead.
+Cosmic Focus: The alignment of custodial principles your character follows.
+Custodial Power: One of three cosmic paths — The Concordant Halls, The Living Accord, The Curator Arcanum.
+Defense Capacity: How many defense rolls you make per incoming attack. (1 at Level 1.)
+Defense Roll: Roll a polyhedral die (armor or body). 5+ = die survives and cancels 1 damage.
+Domains: The eight areas of expertise — Agility, Awareness, Fortitude, Wilderness, Influence, Lore, Medicine, Craft.
+Engagement: Being in melee range (~5 yards) of an enemy. Leaving triggers a free strike.
+Exertion: Adding extra d6s to a roll for more power. Rolling 1 on exertion dice destroys 1 HD.
+Expert (4+): Mid-tier difficulty. Roll 4+ for 1 success, 6 for 2.
+Free Strike: An automatic Basic attack against someone leaving melee engagement.
+Group Roll: Everyone rolls and pools successes toward a shared threshold. Default for skill challenges.
+HD (Hit Dice): Physical dice representing health. Bigger dice = tougher to kill.
+Legendary (6): The hardest tier. Only 6s count, and each 6 = 2 successes.
+Milestone: The GM awards level-ups at story milestones. No XP tracking.
+Path: A character-defining customization chosen at Level 1, granting passive benefits that scale with Proficiency.
+Proficiency: Your base competence. Determines dice rolled and ability uses. (1 at Level 1.)
+Recover: 6+ hours in a safe place. Restores all HD, resets RT to 2, restores armor.
+Required Successes: How many successes you need for an action to work.
+Resolve Threshold (RT): The number you must roll to hold steady (starts at 2). Failed checks increase it.
+Rest: 30 min to 8 hours in a threatened area. Regain Proficiency HD, lower RT by 1. Armor NOT restored.
+Tier: The difficulty level of an action — Basic (2+), Expert (4+), or Legendary (6).
+Way: A class-specific progression path chosen at creation. First node unlocks at Level 2.
+Withdraw: Spend 1 action to move out of engagement without triggering a free strike.
+
+{DIVIDER: 0.5pt line #5D5878}
+
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
+WHAT'S COMING IN THE FULL GAME
+
+{BODY: Crimson Text 10.5pt}
+This starter guide covers three classes and the core rules. The full Affinity: Fracture release will include:
+
+• All 7 core classes: Combatant, Ranger, Weaver, Priest, Scholar, Shaman, Sovereign
+• The complete Path Board with Primary, Secondary, and Capstone Feats across 4 Pillars
+• Full Spell Compendium: dozens of spells across Primal, Divine, and Arcane domains
+• Expanded Bestiary, Equipment Codex, and additional adventures
+
+Follow development and provide playtest feedback — details in the Starter Collection bundle cover.
+
+{DIVIDER: 0.5pt line #5D5878}
+
+{BODY: Crimson Text 9pt}
+AFFINITY: FRACTURE — PLAYER'S STARTER GUIDE
+Designed and written by Chandle Morbrook
+Starter Collection v1.0 — Beta Playtest
+© 2024-2026 Chandle Morbrook. All Rights Reserved.

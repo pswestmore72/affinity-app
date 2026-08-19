@@ -1,12 +1,24 @@
+{MASTER A: Cover — no headers, no footers, no page numbers}
+
+{COVER ILLUSTRATION: Atmospheric title card — Chandle silhouette or candle motif, "Affinity: Fracture" branding · min 80mm wide, can bleed to edges}
+
+{H1: Oswald Bold 36pt, #1a1a2e}
 CHANDLE'S CHANDLER SERVICES OF GENERALITIES AND ODDITIES
 presents
 
+{H2: Oswald Bold 24pt}
 AFFINITY: FRACTURE
 THE STARTER COLLECTION
 
+{BODY: Crimson Text 10.5pt}
 A curated introduction for those bold enough — or foolish enough — to enter Aeralon.
 
+{BODY: Crimson Text 9pt, #999999}
+Starter Collection v1.0 — Beta Playtest
 
+{DIVIDER: 0.5pt line #5D5878, 12pt spacing above/below}
+
+{CHANDLE ASIDE: Crimson italic 10pt · 5% purple wash bg #9B8BB8 · 12pt padding · 16pt margin above/below}
 "You're holding three guides. Allow me introductions.
 
 The first — AERALON: A WORLD PRIMER — is for the curious. It tells you about the cosmos: who broke it, what holds it together, and why the gods fight over a world they cannot own. Read this on the road. It will prepare you — or at the very least, worry you appropriately.
@@ -22,10 +34,15 @@ Together, they are everything you need to begin. A world to explore. Rules to su
 I'm Chandle. I sell candles, oddities, and opportunities — and occasionally, I sell the truth. This is the truth: Aeralon is fractured, your dice are your life, and the Balance holds only as long as someone is willing to hold it.
 
 That someone might be you."
+{/CHANDLE ASIDE}
 
+{PAGE BREAK}
+{MASTER D: Back Page — no running header}
 
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
 CONTENTS
 
+{BODY: Crimson Text 10.5pt — stacked list format, bold titles}
 Aeralon: A World Primer — 10 pages
 The world, the gods, and why the cosmos fractures along every fault line you stand on.
 
@@ -38,7 +55,54 @@ Encounter building. Skill challenges. Quick reference. Everything you need to ru
 The Wintermarch Vigil — 12 pages
 A two-session starter adventure with five enemy stat blocks. Missing loggers, frozen dead, and a necromancer who thinks preservation is mercy.
 
+{DIVIDER: 0.5pt line #5D5878}
 
+{ITALIC: Crimson Text italic 10pt, right-aligned attribution}
 — Chandle
 Chandler Services of Generalities and Oddities
 "Everything you need. Several things you don't. All at reasonable prices."
+{/ITALIC}
+
+{DIVIDER: 0.5pt line #5D5878}
+
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
+WHAT'S COMING IN THE FULL GAME
+
+{CHANDLE ASIDE: Crimson italic 10pt · 5% purple wash bg #9B8BB8 · 12pt padding · 16pt margin above/below}
+"What you're holding is the door. Behind it — the whole of Aeralon, waiting for someone reckless enough to walk through."
+{/CHANDLE ASIDE}
+
+{BODY: Crimson Text 10.5pt}
+The full Affinity: Fracture release will include:
+
+• All 7 core classes: Combatant, Ranger, Weaver, Priest, Scholar, Shaman, Sovereign
+• The complete Path Board: Universal customization across 4 Pillars with Primary, Secondary, and Capstone Feats
+• Full Spell Compendium: Primal, Divine, and Arcane domains — dozens of spells per domain
+• Expanded Bestiary: Creatures from the Weave, the Gloam, the Verge, and worse things from further out
+• Complete Equipment Codex: Weapons, armor, magical items, and adventuring gear
+• Additional adventures set across Aeralon
+• Full cosmology sourcebook with expanded deity profiles, planar guides, and faction details
+
+Follow development and playtest updates — details below.
+
+{DIVIDER: 0.5pt line #5D5878}
+
+{H3: Oswald Bold 18pt}
+CREDITS AND LEGAL
+
+{BODY: Crimson Text 9pt}
+AFFINITY: FRACTURE — THE STARTER COLLECTION
+Designed and written by Chandle Morbrook
+Starter Collection v1.0 — Beta Playtest
+
+© 2024-2026 Chandle Morbrook. All Rights Reserved.
+
+All game mechanics, settings, characters, cosmology, and content are the exclusive intellectual property of Chandle Morbrook. Unauthorized reproduction, distribution, or commercial use of any portion of this work is prohibited without express written permission.
+
+This is a beta playtest release. Content is subject to change. Playtest access is personal and non-transferable.
+
+FEEDBACK AND CONTACT
+We want to hear from you. Playtest feedback, rules questions, and war stories welcome.
+Email: [your email]
+Website: [your website]
+Community: [Discord/social link]

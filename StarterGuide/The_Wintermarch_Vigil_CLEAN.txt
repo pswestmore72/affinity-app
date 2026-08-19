@@ -1,13 +1,57 @@
+{MASTER A: Cover — no headers, no footers, no page numbers}
+
+{COVER ILLUSTRATION: The Pale Forest — frost-covered trees, blue light between trunks, silhouette of a frozen figure standing at the tree line · min 80mm wide, ink line art, can bleed · THIS IS YOUR STRONGEST SALES IMAGE — make it eerie}
+
+{H1: Oswald Bold 36pt, #1a1a2e}
 AFFINITY: FRACTURE
 THE WINTERMARCH VIGIL
+{BODY: Crimson Text 10.5pt}
 A Two-Session Starter Adventure (Level 1 to Level 2)
 
+{BODY: Crimson Text 9pt, #999999}
+Starter Collection v1.0 — Beta Playtest
 
+{CHANDLE ASIDE: Crimson italic 10pt · 5% purple wash bg #9B8BB8 · 12pt padding · 16pt margin above/below}
 "A frozen forest. Missing loggers. Dead scouts standing at the tree line, watching. This is the sort of mess that requires heroes with proven competence — or at least heroes too stubborn to say no. Either works."
 
 — Chandle
+{/CHANDLE ASIDE}
 
+{PAGE BREAK}
+{MASTER B/C: Interior — running headers + page numbers}
 
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
+CONTENTS
+
+{BODY: Crimson Text 10.5pt — stacked list format}
+Adventure Overview ............... Setting, party, and scope
+The Hook ......................... Coldmarch and the missing loggers
+The Winterwatch Oath ............. Blessing and cold protection
+Session 1: Into the Pale Forest . Four scenes, two encounters
+  Scene 1: The Briefing ......... Captain Frostfeld's mission
+  Scene 2: Journey .............. Navigation and tracking
+  Scene 3: Scout's Last Position  Investigation and discovery
+  Encounter 1: Frostbitten Scouts  First combat + How This Plays example
+  Scene 4: The Burial Cairn ..... The first Frost Focus
+  Encounter 2: The Frozen Dead .. Swarm fight + crystal objective
+Session 1 Conclusion ............. Milestone, Level 2 advancement
+Session 2: The Pale Heart ........ Two scenes, boss encounter
+  Scene 1: Journey Deeper ....... Into the dark
+  Scene 2: The Second Frost Focus  Thane Coldbrook confrontation
+  Encounter 3: The Frozen Gallery  Climactic boss fight
+Aftermath and Rewards ............ Return to Coldmarch
+Campaign Hooks ................... Where the story goes next
+Enemy Stat Blocks ................ All five creatures
+GM Quick Reference ............... Session checklist and emergency fixes
+
+{DIVIDER: 0.5pt line #5D5878}
+
+{BODY: Crimson Text 9pt, italic}
+CONTENT NOTE: This adventure includes undead, cold/environmental horror, body preservation against the will of the dead, NPC death, and creatures that were once friendly people. These themes are central to the story's tension. Adjust or remove elements as needed for your table. See "Session Zero and Safety" in the Game Master's Starter Guide.
+
+{PAGE BREAK}
+
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
 ADVENTURE OVERVIEW
 
 SETTING: The northern frontier town of Coldmarch and the Pale Forest
@@ -16,9 +60,9 @@ FOCUS: Basic combat, skill challenges, resource management
 LEVELING: Affinity uses milestone advancement — no XP tracking. The party levels to 2 between sessions, before the boss encounter.
 
 
-THE HOOK
-
-The party arrives at Coldmarch, a frontier logging town. For the past three weeks, something in the Pale Forest has been killing people and raising them as undead.
+{DIVIDER: 0.5pt line #5D5878}
+{H3: Oswald Bold 18pt}
+THE HOOK at Coldmarch, a frontier logging town. For the past three weeks, something in the Pale Forest has been killing people and raising them as undead.
 
 • Week 1: Logging crew goes missing (12 people)
 • Week 2: Two scouts disappear on patrol
@@ -26,6 +70,7 @@ The party arrives at Coldmarch, a frontier logging town. For the past three week
 
 Captain Eryn Frostfeld, leader of the Winterwatch garrison, sent urgent word calling for capable adventurers. The town's economy depends on lumber. The forest must be made safe.
 
+{H3: Oswald Bold 18pt}
 THE OFFER
 
 • Pay: 50 gold per person (town's defense fund)
@@ -33,12 +78,14 @@ THE OFFER
 • Risk: "People are dying. You might too."
 
 
+{DIVIDER: 0.5pt line #5D5878}
+{H3: Oswald Bold 18pt}
 THE WINTERWATCH OATH
 
 Upon arrival, Sister Maren (town cleric) conducts a brief blessing ceremony.
 
-READ ALOUD:
-"Caerith watches those who stand in the cold places, who guard the edges of warmth against the darkness. You are not alone in your watch."
+{ITALIC}READ ALOUD:
+"Caerith watches those who stand in the cold places, who guard the edges of warmth against the darkness. You are not alone in your watch."{/ITALIC}
 
 Each PC receives a small brand on their palm (painless, glowing faintly) — the Winterwatch torch-and-spear.
 
@@ -50,16 +97,22 @@ ALL PARTY MEMBERS:
 • Watch Bonfire: When resting at maintained campfire, regain +1 HD overnight
 
 
+{PAGE BREAK}
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
 SESSION 1: INTO THE PALE FOREST
 
+{H3: Oswald Bold 18pt}
 SCENE 1: THE BRIEFING
 
 Captain Frostfeld lays out the situation at Coldmarch Lodge:
 
-READ ALOUD:
+{ITALIC}READ ALOUD:
 "Three weeks ago, Logging Crew #3 went missing — twelve people. We found their camp intact, but they were gone. Then scouts started disappearing. Then the lights started. Blue-white, moving through the forest. Last night, my gate guard saw Garrus — one of the missing loggers — standing at the tree line. Dead. Frozen. Just... watching."
+{/ITALIC}
 
 She spreads a crude map:
+
+{MAP: Adventure map placed HERE — hand-drawn ink style, shows Coldmarch (south), Scout's Last Position (3mi NW), Old Burial Cairn (7mi NE), Pale Heart (12mi N of cairn), Pale Forest filling space between · match illustration style}
 
 KEY LOCATIONS:
 1. Scout's Last Position (3 miles northwest): Where missing scouts were last reported
@@ -75,6 +128,8 @@ SUPPLIES PROVIDED:
 • Signal horn (if blown, Watch sends reinforcements — takes 2 hours)
 
 
+{DIVIDER: 0.5pt line #5D5878}
+{H3: Oswald Bold 18pt}
 SCENE 2: JOURNEY TO SCOUT'S POSITION
 
 The Pale Forest is oppressive:
@@ -95,6 +150,8 @@ PERCEPTION CHECK (Group Roll, Awareness domain)
 • Success: Notice tracks in snow — boot prints (stumbling gait), drag marks, all leading NORTH
 
 
+{DIVIDER: 0.5pt line #5D5878}
+{H3: Oswald Bold 18pt}
 SCENE 3: SCOUT'S LAST POSITION
 
 The party finds a small clearing with:
@@ -110,6 +167,8 @@ INVESTIGATION CHECK (Group Roll, Awareness domain)
 CARVED INTO TREE: "NO WARMTH HERE. ONLY COLD FOREVER."
 
 
+{DIVIDER: 0.5pt line #5D5878}
+{H3: Oswald Bold 18pt}
 ENCOUNTER 1: FROSTBITTEN SCOUTS
 
 The two missing scouts emerge from trees — now undead, frost covering bodies, eyes glowing pale blue.
@@ -125,6 +184,9 @@ TACTICS:
 • Don't flee (undead, no survival instinct)
 
 
+{EXAMPLE BOX: Crimson Text 10pt · 5% gray bg #F2F2F2 · 1pt purple top border #5D5878 · 12pt padding}
+
+{H3: Oswald Bold 18pt}
 EXAMPLE: HOW THIS PLAYS (One Round, GM Perspective)
 
 Your party is a Combatant, Ranger, and Weaver. Two Frostbitten Scouts step out of the trees 10 yards away.
@@ -144,8 +206,9 @@ WEAVER'S TURN: She's in melee with Scout B. "I cast Curator's Bolt and back away
 That's one round: ~3 minutes at the table. The Ranger set up her Mark for future rounds. The Combatant hit hard but burned his Charge. The Weaver bounced off armor but repositioned. Scout A is wounded, Scout B is untouched. Round 2 is where it gets interesting.
 
 Key GM beats: Announce Frost Aura every time it could trigger — let the Blessing feel earned. When a defense die saves, describe the hit landing but not breaking through. When HD are destroyed, describe physical damage. These scouts are someone's dead friends. Make it uncomfortable.
+{/EXAMPLE BOX}
 
-
+{H3: Oswald Bold 18pt}
 AFTER COMBAT:
 
 If party searches bodies:
@@ -156,9 +219,14 @@ If party searches bodies:
 BURNING BODIES: Takes 10 minutes and requires fire (alchemical vials or magic). If not burned, they rise again in 1d6 hours.
 
 
+{DIVIDER: 0.5pt line #5D5878}
+{H3: Oswald Bold 18pt}
 SCENE 4: THE BURIAL CAIRN
 
+{BODY: Crimson Text 10.5pt}
 Following tracks northeast, 2 hours travel. Party reaches Old Burial Cairn:
+
+{ILLUSTRATION: The Burial Cairn — stacked stones, blue crystal on top, frozen corpses around base · 30-60mm · ink line art · sets tone for climactic Session 1 encounter}
 
 THE CAIRN:
 • Ancient stone monument (7 yards tall, stacked stones)
@@ -180,6 +248,7 @@ LORE CHECK (Individual, Lore domain)
 • Success: This is a Frost Focus — a necromantic device that channels Gloam energy through extreme cold, suspending the cycle of endings that should release these souls. The crystal is the key — destroy it, and the dead return to the Gloam's natural mercy.
 
 
+{H3: Oswald Bold 18pt}
 ENCOUNTER 2: THE FROZEN DEAD
 
 When party approaches within 10 yards, the 12 corpses RISE.
@@ -210,15 +279,18 @@ When crystal is destroyed:
 • Unnatural cold lifts slightly
 
 
+{PAGE BREAK}
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
 SESSION 1 CONCLUSION
 
+{H3: Oswald Bold 18pt}
 AFTERMATH OF CAIRN BATTLE
 
 Searching the area reveals:
 • A leather-bound journal hidden in cairn's base (requires thorough search, Awareness Expert 4+)
 • Journal belongs to Thane Coldbrook — a name locals might recognize (Lore/History 2+, need 2): a hedge wizard exiled from Coldmarch 10 years ago for "dark research"
 
-JOURNAL EXCERPTS (read to players):
+{ITALIC}JOURNAL EXCERPTS (read to players):
 
 "They cast me out for seeking preservation. Fools. They don't understand — cold preserves life. Cold SUSPENDS death. If I master frost, I create servants who never tire, never hunger, never die."
 
@@ -227,6 +299,7 @@ JOURNAL EXCERPTS (read to players):
 "Once both anchors are set, the entire forest will be mine. Let them see what preservation truly means."
 
 "The Gloam whispers that all things must end. I whisper back: not if I freeze them first."
+{/ITALIC}
 
 THE PALE HEART: The journal mentions "the Pale Heart" — the darkest, coldest part of the forest, rarely traveled. 12 miles north of the cairn.
 
@@ -234,6 +307,8 @@ Captain Frostfeld (if contacted via signal horn or return to town):
 "Thane Coldbrook? I thought he was dead. If he's built another Frost Focus deeper in the forest, we need to end this before he finishes whatever he's planning. Can you go deeper?"
 
 
+{DIVIDER: 0.5pt line #5D5878}
+{H3: Oswald Bold 18pt}
 SESSION 1 END
 
 GOOD STOPPING POINT: Party has cleared the cairn, discovered the villain's identity, and learned there's a second site deeper in the forest.
@@ -255,10 +330,13 @@ Players should feel:
 • Cautious (deeper danger ahead)
 
 
+{PAGE BREAK}
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
 SESSION 2: THE PALE HEART
 
 The party is now Level 2. Confirm all players have updated sheets: Prof 1, DC 1, Way node unlocked, exertion cap 1. HD pools increased.
 
+{H3: Oswald Bold 18pt}
 SCENE 1: JOURNEY DEEPER
 
 The party ventures 12 miles north into the darkest part of the Pale Forest.
@@ -274,21 +352,25 @@ NAVIGATION CHECK (Group Roll, Wilderness)
 • Failure: Lost for 2 hours, encounter 3 Frostbitten Thralls
 
 
+{DIVIDER: 0.5pt line #5D5878}
+{H3: Oswald Bold 18pt}
 SCENE 2: THE SECOND FROST FOCUS
 
 Party finds a clearing with a LARGER cairn (10 yards tall), covered in ice sculptures — frozen corpses arranged artistically.
 
 At the base: Thane Coldbrook himself, working on ritual preparations.
 
-READ ALOUD:
+{ITALIC}READ ALOUD:
 "A figure in frost-covered robes kneels before the cairn. His hands glow with blue light as he carves symbols into the frozen ground. He doesn't look up as you approach. 'I wondered if they'd send someone capable. The Watch has grown soft — but you... you survived the outer anchor. Impressive.'"
+{/ITALIC}
 
-
+{H3: Oswald Bold 18pt}
 THANE COLDBROOK'S OFFER
 
 Thane is willing to talk (briefly):
 
-"I don't want to kill you. I want the forest. Nothing more. Leave now, and I'll let you walk away. Stay, and you'll join my preserved gallery. Choose quickly — the second anchor completes in minutes."
+{ITALIC}"I don't want to kill you. I want the forest. Nothing more. Leave now, and I'll let you walk away. Stay, and you'll join my preserved gallery. Choose quickly — the second anchor completes in minutes."
+{/ITALIC}
 
 SOCIAL CONFRONTATION OPTIONS:
 
@@ -301,6 +383,8 @@ LORE CHECK (to identify ritual weakness)
 • Success: The ritual isn't complete yet. Destroying the crystal NOW will cause backlash — Thane loses 3 HD and ritual fails permanently.
 
 
+{DIVIDER: 0.5pt line #5D5878}
+{H3: Oswald Bold 18pt}
 ENCOUNTER 3: THANE COLDBROOK AND THE FROZEN GALLERY
 
 SETUP:
@@ -316,6 +400,7 @@ TERRAIN:
 • Frozen ground (difficult terrain)
 • Ice sculptures (provide hard cover but animate if approached)
 
+{H3: Oswald Bold 18pt}
 THANE'S TACTICS:
 • Stays near cairn base
 • Uses Cold Bolt to attack from range
@@ -330,8 +415,11 @@ OBJECTIVE OPTIONS:
 VICTORY CONDITION: Thane dead OR crystal destroyed + Thane driven off
 
 
+{DIVIDER: 0.5pt line #5D5878}
+{H3: Oswald Bold 18pt}
 AFTERMATH
 
+{BODY: Crimson Text 10.5pt}
 When Thane is defeated:
 • Second Frost Focus shatters
 • All undead in forest collapse
@@ -344,11 +432,13 @@ TREASURE:
 • Ritual notes (can be returned to Sister Maren for study)
 
 
+{DIVIDER: 0.5pt line #5D5878}
+{H3: Oswald Bold 18pt}
 RETURN TO COLDMARCH
 
 Captain Frostfeld greets party at gate:
 
-"You did it. The scouts at the north edge say the lights are gone. The cold is lifting. The forest will be safe again."
+{ITALIC}"You did it. The scouts at the north edge say the lights are gone. The cold is lifting. The forest will be safe again."{/ITALIC}
 
 REWARDS:
 • 50 gold each (as promised)
@@ -359,6 +449,7 @@ REWARDS:
 MILESTONE NOTE: The party already leveled to 2 between sessions. If continuing into a longer campaign, Level 3 should come after 2-3 more significant milestones (completing a major quest arc, surviving a pivotal story event, or clearing a dangerous region).
 
 
+{H3: Oswald Bold 18pt}
 CAMPAIGN HOOKS (Optional)
 
 • Thane's journal mentions a mentor who taught him the Frost Focus ritual
@@ -366,9 +457,12 @@ CAMPAIGN HOOKS (Optional)
 • The Pale Forest's magical corruption attracted something ELSE that still lurks
 
 
+{PAGE BREAK}
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
 ENEMY STAT BLOCKS
 
 
+{STAT BLOCK: Fira Code 9.5pt · 10% gray bg #E6E6E6 · 3pt gold left bar #C4A77D · 10pt padding}
 FROSTBITTEN SCOUT (Basic Undead)
 
 HD: 5d8s
@@ -380,8 +474,8 @@ Armor: None (former light armor destroyed)
 ATTACK: Frozen Shortsword (Light, Basic)
 • Rolls: 2d6
 • Required: 1 success
-• Damage: 1 HD cold + special
-• Special: On hit, target must succeed Fortitude Save (Basic, 2+) or become Chilled (-1d6 on next attack roll)
+• Damage: 1 HD cold
+• 2+ successes: Target becomes Chilled (−1d6 on their next attack roll)
 
 SPECIAL ABILITIES:
 • Frost Aura: Creatures within 5 yards take 1 HD cold damage per round (automatic, minor attrition). Winterwatch Blessing reduces this to 0 (cold resistance halves, rounded down).
@@ -389,8 +483,9 @@ SPECIAL ABILITIES:
 • Vulnerability: Fire damage deals +1d6
 
 TACTICS: Fight with eerie coordination, try to surround targets, never flee
+{/STAT BLOCK}
 
-
+{STAT BLOCK: Fira Code 9.5pt · 10% gray bg · 3pt gold left bar}
 FROSTBITTEN THRALL (Trivial Undead, Minion)
 
 HD: 2d8s
@@ -403,7 +498,7 @@ ATTACK: Frozen Claws (Light, Basic)
 • Rolls: 2d6
 • Required: 1 success
 • Damage: 1 HD cold
-• Special: Chilling effect (as Frostbitten Scout)
+• 2+ successes: Target becomes Chilled (−1d6 on their next attack roll)
 
 SPECIAL ABILITIES:
 • Undead Fortitude: Immune to cold, poison, charm, fear
@@ -411,8 +506,9 @@ SPECIAL ABILITIES:
 • Vulnerability: Fire damage deals +1d6
 
 TACTICS: Mindless swarm, slow approach, prioritize nearest target
+{/STAT BLOCK}
 
-
+{STAT BLOCK}
 FROSTBITTEN LOGGER (Advanced Undead)
 
 HD: 8d8s
@@ -427,16 +523,20 @@ ATTACK: Frozen Axe (Heavy, Basic)
 • Damage: 2 HD cold
 
 SPECIAL ABILITIES:
-• Frost Breath (1/combat, action, 5-yard cone)
-  - Rolls: 3d6 vs Agility save (Basic, 2+)
-  - Damage: 2 HD cold (half on save success)
+• Frost Breath (1/combat, action, 5-yard cone, area attack)
+  - Rolls: 3d6 (Basic, 2+)
+  - Required: 1 success
+  - Damage: 2 HD cold to all creatures in cone
+  - Each target defends individually
 • Undead Fortitude: Immune to cold, poison, charm, fear
 • Remnant Skill: Retains some logger combat training — can position for Advantage, use tactics
 • Vulnerability: Fire damage deals +1d6
 
 TACTICS: Guards important locations, targets strongest-looking PC, uses Frost Breath when multiple targets clustered
+{/STAT BLOCK}
 
-
+{PAGE BREAK}
+{STAT BLOCK: Fira Code 9.5pt · 10% gray bg · 3pt gold left bar}
 THANE COLDBROOK (Advanced Enemy, Necromancer)
 
 HD: 10d6s
@@ -449,8 +549,8 @@ ATTACK: Cold Bolt (Ranged, Basic)
 • Range: 60 yards
 • Rolls: 4d6
 • Required: 1 success
-• Damage: 2 HD cold + special
-• Special: Target Fortitude save (Basic, 2+) or slowed (movement halved) for 1 round
+• Damage: 2 HD cold
+• 2+ successes: Target is Slowed (movement halved) for 1 round
 
 SPELLS AND ABILITIES:
 
@@ -468,8 +568,10 @@ Raise Thrall (Basic, 2+, action)
 
 Frost Nova (Expert, 4+, action, desperate move)
 • 20-yard radius burst centered on self
-• All creatures: 3 HD cold damage
-• Agility save (Basic, 2+) for half
+• Rolls: 4d6 (Expert, 4+)
+• Required: 2 successes
+• Damage: 3 HD cold to all creatures in area
+• Each target defends individually
 • Thane loses 2 HD using this (backlash)
 • Usable 1/combat
 
@@ -484,8 +586,9 @@ TACTICS:
 • Uses Frost Wall if party closes distance
 • At half HD or less: attempts Frost Nova then flees
 • Will negotiate if clearly losing
+{/STAT BLOCK}
 
-
+{STAT BLOCK}
 ICE WRAITH (Advanced Undead, Animated Sculpture)
 
 HD: 6d8s
@@ -509,10 +612,16 @@ SPECIAL ABILITIES:
   - Audible for miles
 
 TACTICS: Glide through obstacles, prioritize spellcasters, use Death Wail when bloodied
+{/STAT BLOCK}
 
 
+{PAGE BREAK}
+{MASTER D: Back Page — no running header}
+
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
 GM QUICK REFERENCE FOR THIS ADVENTURE
 
+{H3: Oswald Bold 18pt}
 SESSION 1 CHECKLIST
 
 BEFORE SESSION:
@@ -534,6 +643,8 @@ AFTER SESSION:
 - Plan Session 2 if continuing
 
 
+{DIVIDER: 0.5pt line #5D5878}
+{H3: Oswald Bold 18pt}
 EMERGENCY GM FIXES
 
 Fight too easy?
@@ -551,3 +662,11 @@ Player at 0 HD?
 • Make Resolve check each round (below RT = RT increases by 1)
 • Stabilize action from ally stops spiral
 • Don't kill players in Session 1 unless earned
+
+{DIVIDER: 0.5pt line #5D5878}
+
+{BODY: Crimson Text 9pt}
+AFFINITY: FRACTURE — THE WINTERMARCH VIGIL
+Designed and written by Chandle Morbrook
+Starter Collection v1.0 — Beta Playtest
+© 2024-2026 Chandle Morbrook. All Rights Reserved.

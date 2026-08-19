@@ -1,0 +1,767 @@
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
+AFFINITY: FRACTURE — 2d6 UNIFIED ENGINE PLAYTEST VARIANT
+One Roll. One Pool. One Truth.
+{BODY: Crimson Text 10.5pt}
+Version: Unified Action Resolution (UAR) Playtest v0.2
+
+---
+
+{DIVIDER: 0.5pt line #5D5878}
+
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
+DESIGN PHILOSOPHY
+
+This variant uses a single unified action engine: 2d6 base + all modifiers pooled together, face values add directly, no threshold counting needed.
+
+Core shifts:
+• All actions use 2d6 + Prof d6s + Exert d6s (one pool, sum face values)
+• Exertion 1s count toward the total BUT burn 1 HD (the price isn't hidden)
+• Action types: Auto (no roll) plus four AD tiers — Basic (2), Skilled (7), Expert (13), Legend (25)
+• Margin-based effects gate damage, range, and side effects
+• Same engine for PCs, NPCs, skills, and initiative
+• Exertion/Resolve/Hit Dice remain unchanged
+
+Why this works:
+• One mechanic. Everyone uses it. No special rules for NPCs or skills.
+• Faster math (sum vs. threshold counting)
+• The fracture is visible: you see the 1 that burns you in the same roll that helps you
+• Fewer moving parts = more coherent world
+• Ability design becomes purely margin-based storytelling
+
+
+{DIVIDER: 0.5pt line #5D5878}
+
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
+HOW TO ROLL: THE UNIFIED ACTION ENGINE
+
+{H3: Oswald Bold 18pt}
+THE CORE LOOP
+
+1. Declare what you're doing (and its type: Auto, Basic, Skilled, Expert, Legend)
+2. Roll 2d6 + add all Proficiency d6s + any Exertion d6s (one pool)
+3. Sum all face values (1s count!)
+4. Compare total to the ability's Action Difficulty
+5. Determine Margin = Total - AD
+6. Consult ability text for margin breakpoints
+7. Resolve any exertion die 1s (each = 1 HD lost, even though it helped)
+
+{H3: Oswald Bold 18pt}
+EXAMPLE: QUICK REFERENCE
+
+You attack an Orc with Weapon Strike (Skilled, AD 7).
+
+Roll: 2d6 = 4, 3
+Add: 1d6 (Prof 1) = 5
+Add: 1d6 (Exert 1) = 1 ← BURNED HD!
+Total: 4 + 3 + 5 + 1 = 13
+
+Margin: 13 - 7 = +6
+
+Weapon Strike breakpoints:
+• Meet AD (7+): Light 1 HD, Heavy 2 HD ✓
+• Margin +1 (8+): Damage +1 ✓
+• Margin +3 (10+): Damage + property ✓
+• Margin +6+ (13+): Damage + property + knockback ✓
+
+You hit at +6 margin: full escalation. But that exert 1 cost you 1 HD.
+
+The choice was real. The price was visible.
+
+{H3: Oswald Bold 18pt}
+ACTION DIFFICULTY TIERS (Level 1 Baseline)
+
+AUTO (No Roll Required):
+Purely narrative, or margined effects gate capability. "You automatically catch your balance." But if you want to do it WELL, roll to hit a breakpoint.
+
+BASIC (AD 2):
+Routine actions, known targets, favorable conditions. Succeed on almost anything, but margin unlocks bonus effects.
+
+SKILLED (AD 7):
+Trained action, uncertain conditions, moderate opposition. Likely to succeed with decent rolls.
+
+EXPERT (AD 13):
+Mastery-level, dangerous, skilled opposition. Requires good rolls or positioning bonuses.
+
+LEGEND (AD 25):
+Near-impossible, mastery and desperation. Requires near-perfect rolls + exertion.
+
+GM adjusts by ±1-2 for circumstance.
+
+{H3: Oswald Bold 18pt}
+EXERTION (THE VISIBLE COST)
+
+• Add extra d6s to your roll (up to Proficiency per action)
+• At Level 1: 1 exertion die per action max
+• If ANY die in the pool shows 1: You burn 1 HD per die that rolled 1
+• Critical: The 1s still count toward your total. You don't lose the benefit.
+• Cost is always taken, whether you hit AD or not
+• CRITICAL: If you are at 0 Body HD and exert, you automatically FAIL that round's Resolve check. Exertion at critical health breaks you.
+
+Example (continued from above):
+Exert 1 rolled 1. You burned 1 HD. But that 1 added +1 to your roll. The fracture is the point.
+
+{H3: Oswald Bold 18pt}
+AUTO-SUCCESS ABILITIES (The Fracture Within)
+
+Some abilities don't require rolls — they just happen.
+
+Rally (Auto, Margin-Gated):
+• BASE: You rally an ally within 30 yards. They gain +1 to next action.
+• To get bonus effects, ROLL to hit a Skilled check (AD 7):
+  - Margin +1: They gain +2 to next two actions.
+  - Margin +3: They gain +3 to all actions this round.
+
+This teaches a critical lesson: You can always act. But EXCELLENCE requires a roll.
+
+
+{DIVIDER: 0.5pt line #5D5878}
+
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
+DESIGNING ABILITIES WITH MARGIN BREAKS
+
+{H3: Oswald Bold 18pt}
+TEMPLATE
+
+[ABILITY NAME] (Type, AD X)
+
+BASE EFFECT (Meet AD or Auto):
+• [What happens when you equal or exceed AD / or happens automatically]
+
+MARGIN +1 (At AD+1 or higher):
+• [First enhancement or secondary benefit]
+
+MARGIN +3 (At AD+3 or higher):
+• [Significant escalation: damage boost, secondary target, special effect]
+
+MARGIN +6+ (At AD+6 or higher):
+• [Cascading: full combo, devastating bonus, or narrative flourish]
+
+{H3: Oswald Bold 18pt}
+MARGIN PHILOSOPHY
+
+• **Base effect always matters**: Meeting AD should feel earned
+• **+1 to +3 margin is "good"**: Incremental bonuses unlock as rolls improve
+• **+4 to +6 margin is "excellent"**: Secondary mechanics fully unlock
+• **+7+ is "transcendent"**: Rare, high-skill, perfect execution
+
+Some abilities only have 2 breakpoints (Base + one escalation). Others have 4. Design what the ability needs.
+
+
+{DIVIDER: 0.5pt line #5D5878}
+
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
+COMBAT BASICS
+
+{H3: Oswald Bold 18pt}
+Initiative (Skill Check)
+
+Combat starts with Initiative. It's a Skilled check (AD 7).
+
+Roll: 2d6 + Prof (if Proficiency applies) + any positioning bonus d6s
+Margin: Total - 7
+
+Order is determined by margin (highest first). Ties act simultaneously.
+
+Initiative Victor (Highest Margin):
+At the start of the first round (before any actions), the winner of initiative can activate ONE class-specific or Path-specific feature that would normally require an action or setup. This is your moment to seize advantage: a Combatant might Rally an ally as a free gift, a Ranger might Mark Prey instantly without rolling, or a Weaver might cast a prepared spell at no cost. GM and player discuss which feature applies (must be an ability or Path bonus that makes sense narratively). This feature still obeys all other rules (damage still needs defense rolls, Resolve checks still happen, etc.), but its activation cost is waived.
+
+Example:
+• Fighter rolls: 2d6 = 5, 4 → 9 total. Margin: +2
+• Ranger rolls: 2d6 = 3, 5 → 8 total. Margin: +1
+• Fighter wins. At combat start, Fighter can (say) activate War-Trained's adrenaline surge from a previous kill to restore 1 HD immediately, or use Rally as a free action to grant an ally +1 to their first attack. No action cost.
+
+Advantage/Disadvantage in Initiative:
+• Ambush: +2d6 to Initiative roll
+• Surprised: -2d6 from Initiative roll (or auto-lose initiative)
+
+{H3: Oswald Bold 18pt}
+Your Turn in Combat
+
+Movement: 10 yards (free, doesn't cost an action)
+
+Actions: 2 per turn
+• Attack, use ability, defend, help ally, etc.
+• Most are Basic or Skilled actions at Level 1
+
+Free Actions: Drop item, shout briefly, look around
+
+{H3: Oswald Bold 18pt}
+ATTACKING
+
+Roll: 2d6 + Prof d6s + Exert d6s (sum all faces)
+Compare to ability's AD
+Calculate margin
+Apply margin breakpoints
+
+At Level 1: Roll 2d6 + 1d6 (Prof), or 2d6 + 1d6 + 1d6 (if exerting).
+
+Example:
+Weapon Strike (Skilled, AD 7) with heavy weapon, no exert
+Roll: 2d6 = 4, 5 → 9, Prof d6 = 3 → 12 total
+Margin: 12 - 7 = +5
+
+Weapon Strike base: 2 HD damage
+Margin +1: 3 HD damage
+Margin +3: 3 HD damage + property triggers
+Margin +6+: 3 HD damage + property + knockback
+
+You're at +5: 3 HD damage + property triggers.
+
+{H3: Oswald Bold 18pt}
+DEFENDING
+
+When you take damage:
+
+1. Attacker declares damage amount
+2. You roll defense dice (armor first, then body)
+3. Roll: 1 defense die per Defense Capacity (L1 = 1)
+4. 5+ = survive, cancel 1 damage
+5. 1-4 = destroyed, remaining damage goes to next die
+
+Auto-failures: If you run out of rolls, remaining damage destroys dice outright.
+
+Example:
+Take 3 HD damage, Defense Capacity 1, Start: 2d8s armor
+Roll 1d8 (armor) → 6 = success, cancel 1 damage, armor still 2d8s
+2 HD remaining, no rolls left → auto-fail each:
+- 1st HD: lose 1d8 armor (2d8 → 1d8)
+- 2nd HD: lose 1d8 armor (1d8 → 0, armor gone)
+If more damage: starts destroying body HD
+
+
+{DIVIDER: 0.5pt line #5D5878}
+
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
+SKILL CHECKS AND MARGIN EFFECTS
+
+Skills outside combat also use the unified engine. Many have margin breakpoints.
+
+{H3: Oswald Bold 18pt}
+EXAMPLE: PERCEPTION (SKILLED, AD 7)
+
+AUTO: You notice obvious things (a guard at the door, fire burning, someone shouting)
+
+ROLL to get better effect:
+
+BASE (Meet 7): You notice important details (guard's weapon, fire's direction, emotion in the shout)
+
+MARGIN +1 (8+): You notice subtle details (guard's armor type, fire's accelerant, liar's tell)
+
+MARGIN +3 (10+): You notice hidden details (guard's tattoo, fire's age, guard's fear level)
+
+This teaches: Automatic perception exists. Rolling makes you BETTER at perceiving. Margin determines depth.
+
+{H3: Oswald Bold 18pt}
+GROUP SKILL CHECKS
+
+When multiple characters attempt a task:
+
+Each rolls 2d6 + Prof (or situational d6s) against the threshold (AD).
+Count successes (how many beat AD).
+
+At Level 1, Skilled check (AD 7):
+• 3 PCs each roll 2d6 + 1d6
+• Results: 9 (margin +2), 5 (margin -2), 11 (margin +4)
+• Success count: 2 successes (two beat AD 7)
+
+GM determines: Do you need 1 success? All successes? Or do margins matter?
+
+Usually: 1+ success = basic pass. Margins determine quality.
+
+
+{DIVIDER: 0.5pt line #5D5878}
+
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
+NPC MECHANICS (No Exertion)
+
+NPCs roll the unified engine but without exertion.
+
+NPC Stat Block (Example — Orc Raider):
+
+Proficiency: 1 (rolls 2d6 + 1d6 for actions)
+Body: 5d8s · Armor: 2d6s
+Defense Capacity: 1
+No exertion.
+
+Weapon Strike (Skilled, AD 7):
+Roll 2d6 + Prof d6 (3 dice total). Average ~10-11 — a solid hit against AD 7.
+Damage and margins work exactly as they do for PCs.
+
+A tougher NPC simply has more Proficiency or more HD. An Orc Warlord at Proficiency 2 rolls 2d6 + 2d6 (average ~14) and might field 7d8s body.
+
+NPCs NEVER exert. They don't burn HD. They roll the same dice and read the same margins as everyone else — they're defined by their stats, not by special exemptions.
+
+{H3: Oswald Bold 18pt}
+NPC ABILITIES WITH MARGIN EFFECTS
+
+Some NPC abilities are gate-kept by margin, just like PC abilities.
+
+Orc Rage (Auto ability):
+BASE: Orc gains +1d6 to next attack roll (no margin needed)
+
+Orc War Cry (Skilled, AD 7):
+Roll: 2d6 + Prof
+BASE (Meet 7): Enemies in 30 yards must pass Fortitude check or be frightened
+MARGIN +3 (10+): Frightened enemies take -1d6 to attacks
+MARGIN +6+ (13+): Frightened enemies frozen this round (can't act)
+
+This teaches: NPCs aren't simpler — they're just as margin-driven. The table is unified.
+
+
+{DIVIDER: 0.5pt line #5D5878}
+
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
+REVISED COMBAT EXAMPLE: KAEL VS ORC (2d6 UNIFIED)
+
+Scene: A collapsed bridge, an orc raider with a raised axe.
+
+Kael: 5d10s body, 2d8s armor, Prof 1, Defense Capacity 1, RT 2. Longsword (heavy, Crushing).
+Orc: 5d8s body, 2d6s armor, Prof 1, Defense Capacity 1, RT 2, no exertion. Greataxe (heavy).
+
+{H3: Oswald Bold 18pt}
+ROUND 1 — INITIATIVE
+
+Kael (Skilled, AD 7): 2d6 = 5, 3 → 8. Margin +1.
+Orc (Skilled, AD 7): 2d6 = 6, 4 → 10. Margin +3.
+
+Orc acts first (higher margin). Initiative order holds for the whole fight.
+
+{H3: Oswald Bold 18pt}
+ROUND 1 — ORC ATTACKS
+
+Orc Weapon Strike (Skilled, AD 7), Greataxe, no exertion:
+Roll: 2d6 = 5, 4 → 9, +Prof d6 = 3 → 12. Margin +5.
+
+Weapon Strike: BASE 2 HD · +1 (8+) 3 HD · +3 (10+) 3 HD + knockdown.
+At +5: 3 HD damage + knockdown attempt.
+
+Kael defends (armor first, Defense Capacity 1):
+Roll 1d8 = 6 → success: that die survives, cancel 1 damage.
+2 damage remain, no rolls left → auto-destroy 2 armor dice.
+Kael's armor: 2d8s → 0. No body HD lost, so no Resolve check.
+
+Knockdown — Kael's Fortitude check (Skilled, AD 7): 2d6 = 5, 4 → 9. Margin +2. Resists, stays up.
+
+State: Kael 5d10 body, no armor. Orc untouched.
+
+{H3: Oswald Bold 18pt}
+ROUND 1 — KAEL ATTACKS
+
+Kael Weapon Strike (Skilled, AD 7), Longsword, EXERTS:
+Roll: 2d6 = 6, 2 → 8, +Prof d6 = 4, +Exert d6 = 1 ← rolled a 1!
+Total: 8 + 4 + 1 = 13. Margin +6.
+
+The exert die shows 1: that 1 still counts toward the total, but Kael burns 1 Body HD.
+Kael: 5d10 → 4d10. First body HD lost this round → Resolve check.
+Resolve (1d6 vs RT 2): roll 4. 4 ≥ 2 — Kael holds.
+
+Weapon Strike at +6: full escalation — 3 HD damage + Crushing (knockback) + Resolve check on target if body HD is damaged.
+
+Orc defends (armor first, Defense Capacity 1):
+Roll 1d6 = 3 → fail: that armor die is destroyed (absorbs 1 damage).
+2 damage remain, no rolls left → auto-destroy 1 more armor die, then 1 body die.
+Orc's armor: 2d6s → 0. Body: 5d8s → 4d8s.
+
+Body HD damaged → Orc Resolve check (1d6 vs RT 2): roll 2. Holds.
+Crushing knocks the Orc back 5 yards.
+
+State: Kael 4d10 body, no armor. Orc 4d8 body, no armor.
+
+{H3: Oswald Bold 18pt}
+ROUND 2 — ORC ATTACKS
+
+The Orc closes the gap (free movement) and swings:
+Roll: 2d6 = 5, 5 → 10, +Prof d6 = 2 → 12. Margin +5.
+3 HD damage + knockdown attempt.
+
+Kael defends (body now, no armor, Defense Capacity 1):
+Roll 1d10 = 7 → success: cancel 1 damage, that die survives.
+2 damage remain → auto-destroy 2 body dice.
+Kael: 4d10 → 2d10. Body HD damaged → Resolve (1d6 vs RT 2): roll 5. Holds.
+
+Knockdown — Fortitude (Skilled, AD 7): 2d6 = 6, 2 → 8. Margin +1. Resists.
+
+State: Kael 2d10 body, no armor. Bloodied.
+
+{H3: Oswald Bold 18pt}
+ROUND 2 — KAEL ATTACKS
+
+Kael plays it safe — no exertion this time:
+Roll: 2d6 = 4, 3 → 7, +Prof d6 = 6 → 13. Margin +6.
+Full escalation — 3 HD + property + Resolve check on target.
+
+Orc defends (body, no armor, Defense Capacity 1):
+Roll 1d8 = 4 → fail: die destroyed.
+2 damage remain → auto-destroy 2 more body dice.
+Orc: 4d8 → 1d8. Body HD damaged → Resolve (1d6 vs RT 2): roll 2. Holds — barely.
+
+State: Orc 1d8 body, no armor. One hit from defeat.
+
+{H3: Oswald Bold 18pt}
+ROUND 3 — ORC RAGES
+
+Desperate, the Orc triggers Rage (Auto): +1d6 to its next attack. Then it swings:
+Roll: 2d6 = 3, 5 → 8, +Prof d6 = 4, +Rage d6 = 5 → 17. Margin +10. Full escalation.
+3 HD damage + knockdown.
+
+Kael defends (body, Defense Capacity 1):
+Roll 1d10 = 8 → success: cancel 1 damage.
+2 damage remain → auto-destroy 2 body dice.
+Kael: 2d10 → 0 Body HD.
+
+Kael is at 0 Body HD — still standing, but limited to 1 action per turn and checking Resolve every round.
+Resolve (1d6 vs RT 2): roll 3. Holds.
+Knockdown — Fortitude (Skilled, AD 7): 2d6 = 2, 3 → 5. Margin -2. Kael is knocked prone.
+
+State: Kael 0 body HD, prone. Critical.
+
+{H3: Oswald Bold 18pt}
+ROUND 3 — KAEL'S LAST STRIKE
+
+At 0 HD, Kael gets one action. He commits everything — EXERTS:
+Roll: 2d6 = 5, 6 → 11, +Prof d6 = 3, +Exert d6 = 4 → 18. Margin +11.
+No 1 on the exert die — no HD burned. Full escalation.
+
+Orc defends (1d8 body, Defense Capacity 1):
+Roll 1d8 = 2 → fail: its last body die is destroyed.
+Orc: 1d8 → 0 Body HD. The raider drops.
+
+{H3: Oswald Bold 18pt}
+AFTERMATH
+
+Kael stands at 0 Body HD, prone, bleeding — but alive. The Orc is down.
+
+Two exertions told the story. The first (Round 1) burned a Hit Die on a rolled 1 — yet that same 1 pushed Kael to full escalation. The last (Round 3) paid nothing and ended the fight. Same gamble, two outcomes, both visible on the table. That is the fracture.
+
+
+{DIVIDER: 0.5pt line #5D5878}
+
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
+REVISED COMBATANT ABILITIES (SAMPLE)
+
+{H3: Oswald Bold 18pt}
+Weapon Strike (Skilled, AD 7)
+
+BASE EFFECT (Meet 7+):
+Light weapons: 1 HD damage
+Heavy weapons: 2 HD damage
+
+MARGIN +1 (At 8+):
+Light: 2 HD damage
+Heavy: 3 HD damage
+
+MARGIN +3 (At 10+):
+Damage + trigger weapon property (Swift/Crushing/Precise/Piercing)
+Swift: bonus attack this round; Crushing: knockback 5 yards; Precise: target -1d6 next defense; Piercing: ignore armor
+
+MARGIN +6+ (At 13+):
+Damage + property + Resolve check on target if body HD damaged
+
+{H3: Oswald Bold 18pt}
+Rally (Auto, Margin-Gated)
+
+BASE EFFECT (Auto):
+Choose ally within 30 yards. Ally gains +1 to next action (doesn't burn HD).
+
+ROLL for better effect (Skilled, AD 7):
+
+MARGIN +1 (8+):
+Ally gains +2 to next two actions.
+
+MARGIN +3 (10+):
+Ally gains +3 to all actions this round.
+
+MARGIN +6+ (13+):
+All previous + ally can exert one free d6 (no HD cost) on one action.
+
+{H3: Oswald Bold 18pt}
+Hold the Line (Skilled, AD 7)
+
+BASE EFFECT (7+):
+10-yard zone for Proficiency rounds.
+Enemies: halved movement.
+Allies: +1d6 first defense each round.
+
+MARGIN +1 (8+):
+Zone radius 15 yards.
+
+MARGIN +3 (10+):
+Zone radius 15 yards + allies gain +1d6 to ALL defenses in zone.
+
+MARGIN +5 (12+):
+All previous + allies gain +1 to Proficiency until zone ends.
+
+{H3: Oswald Bold 18pt}
+Oath-Driven Strike (Skilled, AD 7)
+
+BASE EFFECT (7+):
+2 HD damage (heavy) + Proficiency HD = 3 HD if heavy, 2 if light.
+
+MARGIN +1 (8+):
+Damage + target knocked prone.
+
+MARGIN +3 (10+):
+Damage + prone + target Resolve check.
+
+MARGIN +6+ (13+):
+Damage + prone + Resolve escalation (target RT +1 if fails check).
+
+
+{DIVIDER: 0.5pt line #5D5878}
+
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
+REVISED RANGER ABILITIES (SAMPLE)
+
+{H3: Oswald Bold 18pt}
+Hunter's Strike (Basic, AD 2)
+
+BASE EFFECT (Meet 2+):
+Weapon hit. 1 HD damage.
+BONUS: +1 HD if from concealment or against Marked target.
+
+MARGIN +1 (3+):
+Damage increased to 2 HD (or 3 with bonus).
+
+MARGIN +3 (5+):
+Damage + weapon property triggers.
+
+MARGIN +5+ (7+):
+Damage + property + target disadvantage next action.
+
+{H3: Oswald Bold 18pt}
+Mark Prey (Auto, Margin-Gated)
+
+BASE EFFECT (Auto):
+Choose creature within 60 yards. Gain:
+• +1d6 to track/attack/act against target (no burn)
+• Sense direction and distance within 1 mile
+• Sense HD status (full/half/quarter/critical)
+Lasts until target drops to 0 HD or you mark another.
+
+ROLL for extended effect (Skilled, AD 7):
+
+MARGIN +1 (8+):
+Sense target's emotional state.
+
+MARGIN +3 (10+):
+Mark lasts through one full scene + beyond.
+
+MARGIN +5+ (12+):
+You gain +2d6 (instead of +1d6) on rolls against Marked target.
+
+{H3: Oswald Bold 18pt}
+Killing Ground (Expert, AD 13)
+
+BASE EFFECT (13+):
+30-yard zone for Proficiency rounds. Choose one:
+• Mire: difficult terrain for enemies
+• Cover: +1d6 defense for allies
+• Hazard: 1 HD damage to enemies entering/starting turn
+• Concealment: +1d6 defense for allies
+
+MARGIN +1 (14+):
+Zone radius 45 yards.
+
+MARGIN +3 (16+):
+Zone radius 45 yards. Two effects active simultaneously.
+
+MARGIN +5 (18+):
+Zone radius 60 yards. All four effects active at once.
+
+MARGIN +8+ (21+):
+Zone lasts Proficiency rounds + 1 minute. Becomes difficult terrain for enemies (not allies).
+
+
+{DIVIDER: 0.5pt line #5D5878}
+
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
+REVISED WEAVER ABILITIES (SAMPLE)
+
+{H3: Oswald Bold 18pt}
+Weave Sight (Skilled, AD 7)
+
+BASE EFFECT (7+):
+See magical auras, active spells, magic items, Weave disturbances.
+Range: 10 yards per point of margin (so +6 margin = 60 yards).
+Duration: Proficiency rounds.
+
+MARGIN +1 (8+):
+See through nonmagical obscuring (fog, illusions, darkness).
+
+MARGIN +3 (10+):
+All previous. Identify spell schools/domains.
+
+MARGIN +5+ (12+):
+All previous. Detect invisible creatures. Sense emotional effects. Read magic intent (beneficial/harmful).
+
+{H3: Oswald Bold 18pt}
+Curator's Bolt (Skilled, AD 7)
+
+BASE EFFECT (7+):
+1 HD force damage. Range 30 yards.
+
+MARGIN +1 (8+):
+2 HD damage. OR target additional creature within 15 yards (split or full damage each).
+
+MARGIN +3 (10+):
+2 HD damage to each of two targets (full damage both).
+
+MARGIN +6+ (13+):
+3 HD damage to all targets. OR 2 HD damage + targets Resolve check.
+
+{H3: Oswald Bold 18pt}
+Magical Armor (Skilled, AD 7)
+
+BASE EFFECT (7+):
+Grant 2d12s armor to target within 30 yards.
+Duration: Concentration, up to Proficiency rounds.
+
+MARGIN +1 (8+):
+Grant 3d12s armor.
+
+MARGIN +3 (10+):
+Grant 3d12s armor. Range 60 yards.
+
+MARGIN +5 (12+):
+Grant 4d12s armor. Range 60 yards. No concentration (lasts full duration).
+
+MARGIN +8+ (15+):
+All previous. Armor regenerates 1d12 at start of target's next turn (once per cast).
+
+
+{DIVIDER: 0.5pt line #5D5878}
+
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
+QUICK REFERENCE: 2d6 UNIFIED ENGINE
+
+{H3: Oswald Bold 18pt}
+HOW TO ROLL
+1. Roll 2d6
+2. Add all Proficiency d6s
+3. Add any Exertion d6s (if choosing to exert)
+4. Sum all face values (1s count!)
+5. Compare total to ability AD
+6. Margin = Total - AD
+7. Check ability text for margin breakpoints
+8. Resolve exertion 1s (each = 1 HD lost, even though it added to your roll)
+
+{H3: Oswald Bold 18pt}
+ACTION DIFFICULTY TIERS
+
+• AUTO: No roll required. Happens. Roll for bonus effects (usually Skilled, AD 7).
+• BASIC: AD 2 (almost always succeed, margin gates effects)
+• SKILLED: AD 7 (trained actions, likely to succeed)
+• EXPERT: AD 13 (mastery, requires good rolls or bonuses)
+• LEGEND: AD 25 (near-impossible without perfect rolls + exertion)
+
+{H3: Oswald Bold 18pt}
+MARGIN SCALE (VARIABLE BY ABILITY)
+• Meet AD: Base effect
+• +1 to +3 margin: Enhanced or secondary benefits (stagger breakpoints)
+• +4 to +6 margin: Full escalation / secondary mechanics unlock
+• +7+ margin: Cascading / transcendent effects
+
+{H3: Oswald Bold 18pt}
+EXERTION
+• Add up to Proficiency exertion d6s per action
+• At Level 1: 1 exertion die per action max
+• If any die shows 1: Lose 1 HD per 1 rolled
+• 1s STILL count toward total (the fracture is visible)
+• Cost always taken, whether you hit AD or not
+
+{H3: Oswald Bold 18pt}
+INITIATIVE (Skilled, AD 7)
+
+Roll: 2d6 + Prof d6 (if applicable) + positioning bonuses
+Margin determines order (highest first)
+Ties act simultaneously
+
+Ambush: +2d6 to Initiative roll
+Surprised: -2d6 from Initiative roll
+
+{H3: Oswald Bold 18pt}
+LEVEL 1 CHARACTER STATS (UNIFIED ENGINE)
+Proficiency: 1 (roll 1d6 for Prof)
+Exertion cap: 1 extra d6 per action
+Actions per turn: 2
+Movement: 10 yards
+Defense capacity: 1 (roll 1 defense die per attack)
+Resolve Threshold: 2
+
+
+{DIVIDER: 0.5pt line #5D5878}
+
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
+CRITICAL DESIGN NOTES
+
+{H3: Oswald Bold 18pt}
+WHAT STAYS THE SAME
+• Defense rolls (d4/d6/d8/d10/d12 at 5+ threshold)
+• Resolve (Threshold 2, escalates on failed checks)
+• Armor destruction (layers: armor → body)
+• Movement, engagement, positioning mechanics
+• Hit Dice depletion (actual dice destroyed, not HP subtracted)
+• Exertion burns on 1s (cost always taken)
+
+{H3: Oswald Bold 18pt}
+WHAT CHANGES
+• Unified action engine (no PC/NPC split)
+• No threshold counting (just sum face values)
+• Four AD tiers instead of three (added Basic AD 2)
+• 1s count toward total (fracture is visible)
+• Initiative is a skill check
+• Auto-success abilities gate bonuses with margins
+• Skills have margin effects (depth of information, etc.)
+
+{H3: Oswald Bold 18pt}
+WHY THIS UNIFIED APPROACH
+• One mechanic teaches everything (PCs, NPCs, skills, initiative)
+• Margin-based design scales naturally (Basic to Legend)
+• The fracture is tangible: you see the 1 that burns you
+• Faster resolution (no threshold counting)
+• Every ability tells a story about what margins mean
+• NPCs aren't simplified — they're just unexerted
+
+{H3: Oswald Bold 18pt}
+THE PHILOSOPHY OF AUTO-SUCCESS
+
+Some actions don't need rolls. You CAN rally an ally. You CAN perceive basic details. You CAN mark prey.
+
+The roll determines EXCELLENCE, not CAPABILITY.
+
+This teaches: The world doesn't care if you fail the roll. The question is whether you succeed WELL.
+
+Margins are the difference between competence and mastery.
+
+{CHANDLE ASIDE: Crimson italic 10pt · 5% purple wash bg #9B8BB8 · 12pt padding · 16pt margin above/below}
+CHANDLE'S ASIDE: ON THE UNIFIED ENGINE
+
+"I've seen a lot of action resolution systems. Most have special cases — 'NPCs do this different', 'skills work like that', 'initiative is separate'. This one doesn't.
+
+Everyone rolls 2d6 + bonuses. Everyone sums face values. Everyone calculates margins. The 1s that burn your Hit Dice are the SAME 1s that help you hit a breakpoint. That's not a bug — that's the design.
+
+It teaches players what Affinity is: A world where power has a cost that's visible in real time. Where there's no hidden math. Where you're making choices at a table with everyone seeing the exact same roll.
+
+And the margin gates? Brilliant. 'Do you PASS or do you pass WELL?' That's the whole game right there."
+
+— Chandle
+{/CHANDLE ASIDE}
+
+---
+
+**END PLAYTEST VARIANT v0.2 (2d6 UNIFIED ENGINE)**
+
+Ready for table testing. This variant is mechanically complete for Level 1 play. Recommend running combat + skill checks + initiative sequences to validate:
+- Math feels right (2d6 range vs. AD tiers)
+- Margin granularity (are +1/+3/+6+ breakpoints optimal, or adjust?)
+- Auto-success abilities (does margin-gating feel rewarding?)
+- Initiative speed (skill check vs. static rolls)
+
+Known unknowns for future iteration:
+- Level 2+ proficiency scaling
+- Expert and Legend abilities need full development
+- Spell system conversion to margins
+- Multi-tier enemy designs
+- Damage variance at higher tiers
+
+Current state: Playtest-ready core system. 🎲⚔️

@@ -1,23 +1,59 @@
+{MASTER A: Cover — no headers, no footers, no page numbers}
+
+{COVER ILLUSTRATION: The GM's view — a hand placing a figure on a map, or a GM screen with dice behind it · min 80mm wide, ink line art}
+
+{H1: Oswald Bold 36pt, #1a1a2e}
 AFFINITY: FRACTURE
 GAME MASTER'S STARTER GUIDE
+{BODY: Crimson Text 10.5pt}
 Running Your First Session with Confidence
 
+{BODY: Crimson Text 9pt, #999999}
+Starter Collection v1.0 — Beta Playtest
 
+{CHANDLE ASIDE: Crimson italic 10pt · 5% purple wash bg #9B8BB8 · 12pt padding · 16pt margin above/below}
 "The storyteller. I have a particular respect for your kind — you build the world, command the villains, and decide what happens when your players make choices you absolutely did not anticipate. Which they will. Constantly. This guide covers encounter building, combat flow, skill challenges, and a reference sheet to keep you steady. The adventure? That's a separate document. You'll know it when you see it — there's a frozen forest and some ambitious dead."
 
 — Chandle
+{/CHANDLE ASIDE}
 
+{PAGE BREAK}
+{MASTER B/C: Interior — running headers + page numbers}
 
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
 THE CORE PHILOSOPHY
 
+{H3: Oswald Bold 18pt}
+SESSION ZERO AND SAFETY
+
+{BODY: Crimson Text 10.5pt}
+Before Session 1, have a brief conversation with your players about expectations and comfort.
+
+The Wintermarch Vigil (and Affinity in general) includes: undead, environmental horror, body preservation against the will of the dead, NPC death, and creatures that were once friendly people. These themes create tension — but tension only works when everyone at the table feels safe enough to engage.
+
+Ask your players:
+• Is anyone uncomfortable with undead or body horror themes?
+• Is character death on the table from Session 1, or should it be earned?
+• Are there any topics that should be off-limits entirely?
+
+Establish a way to pause or redirect if something isn't working. The simplest method: anyone can say "I’m not comfortable with this" and the scene shifts. No justification required. No discussion needed in the moment.
+
+Affinity is about tension, attrition, and hard choices. That works best when players trust the GM to challenge them without ambushing them. Set that trust before the dice hit the table.
+
+{DIVIDER: 0.5pt line #5D5878}
+
+{H3: Oswald Bold 18pt}
 RUNNING AFFINITY
 
+{BODY: Crimson Text 10.5pt}
 Affinity is a risk-attrition system. Players have Hit Dice. They spend them, lose them, and guard them. Your job: create situations where those dice matter.
 
 There are no hit points. When you deal damage, you're destroying dice from dice pools. When an enemy has 5d8s and takes 3 damage, they now have 2d8s.
 
+{H3: Oswald Bold 18pt}
 THE CORE TRUTH
 
+{BODY: Crimson Text 10.5pt}
 Combat is fast. Resources deplete. Characters are fragile but capable.
 
 Your first session should feel:
@@ -26,15 +62,20 @@ Your first session should feel:
 • REWARDING (success feels earned)
 
 
+{DIVIDER: 0.5pt line #5D5878}
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
 QUICK ENCOUNTER BUILDING
 
+{H3: Oswald Bold 18pt}
 FOR LEVEL 1 PARTIES (3-5 Players)
 
+{BODY: stacked list format — no table}
 Easy: 8-12 HD total — 3-4 Trivial (1-2 HD)
 Medium: 12-18 HD total — 2-3 Basic (3-5 HD)
 Hard: 18-25 HD total — 1 Advanced + 2-3 Trivial
 Deadly: 25+ HD total — 1 Advanced (6-10 HD) + multiple Basic
 
+{H3: Oswald Bold 18pt}
 ENEMY ACTION BUDGET
 
 Trivial: 1 action, 1-2 HD, RT 5
@@ -44,12 +85,17 @@ Advanced: 1-2 actions, 6-10 HD, RT 4
 At Level 1, avoid Expert+ enemies unless you want a very hard fight.
 
 
+{DIVIDER: 0.5pt line #5D5878}
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
 CREATING ENEMIES
 
+{H3: Oswald Bold 18pt}
 THE 30-SECOND NPC
 
+{BODY: Crimson Text 10.5pt}
 Use this template to create quick enemies:
 
+{STAT BLOCK: Fira Code 9.5pt · 10% gray bg #E6E6E6 · 3pt gold left bar #C4A77D · 10pt padding}
 NAME: [Creature type]
 HD: [dice]         (Trivial: 1-2, Basic: 3-5)
 PROF: 1-2          (use 1 for Level 1 content)
@@ -63,30 +109,44 @@ ATTACK: [Name] (Basic, 2+)
 - Base: 1-2 HD damage
 
 SPECIAL: [One unique ability or tactic]
+{/STAT BLOCK}
 
 
+{PAGE BREAK}
+{H3: Oswald Bold 18pt}
 EXAMPLE ENEMIES FOR LEVEL 1
 
+{STAT BLOCK: Fira Code 9.5pt · 10% gray bg · 3pt gold left bar}
 Goblin Skulker (Trivial)
 HD: 2d6s, Prof: 1, RT: 5
 Attack: Rusty Dagger (Basic, 2+, 2d6, 1 HD damage)
 Special: Flees at 1 HD remaining or RT 6 (already fragile)
+{/STAT BLOCK}
 
+{STAT BLOCK}
 Orc Raider (Basic)
 HD: 4d8s, Prof: 2, RT: 5
 Armor: 2d6s (hide scraps)
 Attack: Greataxe (Basic, 2+, 3d6, 2 HD damage)
 Special: +1d6 when below half HD (rage)
+{/STAT BLOCK}
 
+{STAT BLOCK}
 Animated Statue (Basic)
 HD: 5d10s, Prof: 1, RT: 5
 Armor: 2d10s (stone body)
 Attack: Stone Fist (Basic, 2+, 2d6, 2 HD damage)
 Special: Immune to fear/charm
+{/STAT BLOCK}
 
 
+{DIVIDER: 0.5pt line #5D5878}
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
 RUNNING COMBAT
 
+{ILLUSTRATION: Encounter layout sketch — show positioning, cover zones, engagement range · 30-60mm · ink line art}
+
+{H3: Oswald Bold 18pt}
 COMBAT TURN STRUCTURE
 
 1. ROLL INITIATIVE (everyone rolls 3d6, sum the total, highest first)
@@ -98,11 +158,13 @@ COMBAT TURN STRUCTURE
 
 3. NPCS USE THEIR FIXED DICE POOLS (no exertion tracking)
 
+{H3: Oswald Bold 18pt}
 WHEN NPCS ATTACK
 1. Roll the dice shown in their stat block
 2. Count successes at the listed tier (Basic 2+, Expert 4+, or Legendary 6; a 6 always = 2 successes)
 3. If successes >= required, the attack hits — player defends
 
+{H3: Oswald Bold 18pt}
 WHEN NPCS DEFEND
 1. Player declares damage
 2. NPC rolls Proficiency dice using their HD type
@@ -116,22 +178,28 @@ FRIENDLY NPCS: Allied NPCs (reinforcements, companions) use the same rules — f
 SWARM TIP: When running 4+ identical enemies, group them on one initiative count. Roll their attacks together and split damage across targets. This keeps swarm encounters fast.
 
 
+{DIVIDER: 0.5pt line #5D5878}
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
 MOVEMENT AND POSITIONING
 
+{BODY: Crimson Text 10.5pt}
 Movement: 10 yards per turn (free, split however you like)
 
+{H3: Oswald Bold 18pt}
 ENGAGEMENT: If you're in melee range (~5 yards) of an enemy and move away, that enemy makes a free strike against you — one Basic attack from their stat block. Costs them nothing. Happens every time.
 
 To leave safely:
 • Withdraw (costs 1 action): Move your speed, no free strikes
 • Or just take the hit and run
 
+{H3: Oswald Bold 18pt}
 POSITIONING BONUSES:
 • Advantage (+1d6 to attacks): Favorable position — flanking, high ground, ambush, rear. GM calls it.
 • Cover (+1d6 / +2d6 defense): Physical barrier. Light cover (bushes, furniture) = +1d6. Hard cover (walls, boulders) = +2d6.
 • Concealment (+1d6 defense): Visual obscurity — fog, shadows, dense foliage. Distinct from cover; they stack.
 • Brace (give up all movement): +1d6 to your next action
 
+{H3: Oswald Bold 18pt}
 MOVEMENT ACTIONS:
 • Charge (1 action + movement): Move 5+ yards straight, attack at +1d6
 • Sprint (1 action): Double movement, can't attack
@@ -141,8 +209,11 @@ WHY THIS MATTERS:
 A Ranger in concealment deals bonus damage AND gets defense. A Weaver behind hard cover survives longer. A Combatant who Charges hits harder. Reward players who think about the battlefield — and make NPCs do the same.
 
 
+{PAGE BREAK}
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
 DAMAGE AND DEATH
 
+{H3: Oswald Bold 18pt}
 WHEN PLAYERS TAKE DAMAGE
 
 1. Attacker declares HD damage
@@ -150,6 +221,7 @@ WHEN PLAYERS TAKE DAMAGE
 3. 5+ on defense = that die survives, 1 damage cancelled
 4. Failed rolls or excess damage = lose dice from pool (armor first, then body)
 
+{H3: Oswald Bold 18pt}
 AT 0 BODY HD
 
 • Character is still standing but LIMITED TO 1 ACTION per turn (body is breaking)
@@ -161,6 +233,8 @@ AT 0 BODY HD
 For Session 1: If a player hits 0 HD, remind them they only get 1 action per turn. Let them make one Resolve check, then have allies stabilize or heal them. Real death can come later when stakes are clear.
 
 
+{DIVIDER: 0.5pt line #5D5878}
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
 ARMOR RESTORATION (When Does Armor Come Back?)
 
 Players WILL ask. Here's the answer:
@@ -180,12 +254,16 @@ WHY THIS MATTERS:
 Armor is the first line of defense. Once it's gone, every hit reaches Body HD — which means Resolve checks. Players who lose armor early feel the pressure fast. That's intentional. Let them scramble for a Recover or a Craft check. That tension is the game.
 
 
+{DIVIDER: 0.5pt line #5D5878}
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
 RESOLVE ESCALATION (When to Call for Checks)
 
+{BODY: Crimson Text 10.5pt}
 Players make a Resolve check the first time each round that damage destroys a Body HD. Max 1 check per round.
 
 THE KEY INSIGHT: If armor absorbs the whole hit, no Resolve check! Armor protects your mind as well as your body.
 
+{H3: Oswald Bold 18pt}
 AT LEVEL 1 (What to Watch For):
 • Any time damage gets through armor to Body HD = check
 • At 0 HD, every hit that reaches body = check (automatic spiral)
@@ -194,6 +272,7 @@ RESULTS:
 • Roll 1d6 >= current RT = Hold (no change)
 • Roll below RT = RT increases by 1
 
+{H3: Oswald Bold 18pt}
 THE TWO BREAKPOINTS (simple, no tracking):
 • RT 5+: Cannot use Expert+ actions (mind is cracking)
 • 0 HD: Limited to 1 action per turn (body is breaking)
@@ -209,12 +288,16 @@ Players WILL face Resolve checks when they:
 Watch for damage reaching Body HD — that's your trigger!
 
 
+{PAGE BREAK}
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
 SKILL CHALLENGES
 
+{H3: Oswald Bold 18pt}
 RUNNING SKILL CHALLENGES
 
 Affinity is a group game. Most skill challenges are resolved as GROUP ROLLS where everyone contributes and successes are pooled.
 
+{H3: Oswald Bold 18pt}
 GROUP ROLL METHOD (Default)
 
 1. Announce the domain: "This is an Agility challenge."
@@ -222,6 +305,7 @@ GROUP ROLL METHOD (Default)
 3. Pool successes: Add all successes together
 4. Compare to threshold: Did the group total meet the required successes?
 
+{H3: Oswald Bold 18pt}
 SETTING DIFFICULTY
 
 At Level 1 with 3-4 players (Proficiency 1 each), you have a group dice pool of 3-4 dice.
@@ -243,6 +327,7 @@ Pip flavor: 2+ = anyone can help, 4+ = expertise required, 6 = only perfection c
 
 At Level 1, expect players to exert for harder challenges.
 
+{H3: Oswald Bold 18pt}
 THE EIGHT DOMAINS
 
 Agility — Stealth, acrobatics, movement
@@ -254,6 +339,7 @@ Lore — History, arcana, religion
 Medicine — Healing, diagnosis, anatomy
 Craft — Making, repairing, building
 
+{H3: Oswald Bold 18pt}
 WHEN TO USE INDIVIDUAL ROLLS
 
 • Initiative order actions (each character acts separately)
@@ -262,13 +348,21 @@ WHEN TO USE INDIVIDUAL ROLLS
 • GM discretion (when the fiction demands individual outcomes)
 
 
+{DIVIDER: 0.5pt line #5D5878}
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
 COMPANION ADVENTURE
 
+{BODY: Crimson Text 10.5pt}
 This guide pairs with The Wintermarch Vigil — a two-session starter adventure for Level 1 to Level 2 parties. It includes the full scenario (hook, scenes, encounters), six enemy stat blocks, and a Session 1 checklist. If you received this guide as part of the Starter Collection, the adventure is included as a separate document.
 
 
+{PAGE BREAK}
+{MASTER D: Back Page — no running header}
+
+{BANNER: H2 Oswald Bold 24pt between gold bars #C4A77D (2pt top + 1pt bottom)}
 GM QUICK REFERENCE
 
+{H3: Oswald Bold 18pt}
 ACTION ROLL SUCCESS THRESHOLDS
 
 Basic 2+: 2, 3, 4, 5 = 1 success; 6 = 2
@@ -289,6 +383,7 @@ d8 — 50%
 d10 — 60%
 d12 — 67%
 
+{H3: Oswald Bold 18pt}
 LEVEL 1 CHARACTER STATS (Session 1)
 
 Proficiency: 1
@@ -298,6 +393,7 @@ Actions: 2 per turn (1 at 0 HD)
 Movement: 10 yards
 Exertion cap: 1 per action
 
+{H3: Oswald Bold 18pt}
 LEVEL 2 CHARACTER STATS (Session 2)
 
 Proficiency: 1
@@ -309,6 +405,7 @@ Exertion cap: 1 per action
 Way node: First ability unlocked
 HD increase: Tough 7d10s, Balanced 7d8s, Fragile 5d6s
 
+{H3: Oswald Bold 18pt}
 MOVEMENT QUICK REF
 
 Engagement: Leaving melee = enemy free strike
@@ -342,6 +439,14 @@ Fight too hard?
 Player confused?
 • "Roll d6s. Count successes by tier (usually 2+ at Level 1, and 6 = 2 successes)."
 • "When hit, roll defense. 5+ = die survives."
+
+{DIVIDER: 0.5pt line #5D5878}
+
+{BODY: Crimson Text 9pt}
+AFFINITY: FRACTURE — GAME MASTER'S STARTER GUIDE
+Designed and written by Chandle Morbrook
+Starter Collection v1.0 — Beta Playtest
+© 2024-2026 Chandle Morbrook. All Rights Reserved.
 
 Player at 0 HD?
 • They get 1 action per turn (not 2)
